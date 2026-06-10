@@ -8,7 +8,7 @@ export default function SearchPage() {
   return (
     <div>
       <PageHeading
-        eyebrow="SVDG's Red Folder"
+        eyebrow="A SVDG Product"
         title="Search"
         description="Search and filter across every category — including the archive — in one place."
       />

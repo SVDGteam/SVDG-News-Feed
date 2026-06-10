@@ -192,11 +192,17 @@ export default function HomePage() {
   return (
     <div>
       {/* Header */}
-      <div className="svdg-bracket mb-6" style={{ '--bk-color': 'var(--svdg-sky-dancer)', '--bk-inset': '20px' } as React.CSSProperties}>
+      <div className="svdg-bracket svdg-hero mb-6" style={{ '--bk-color': 'var(--svdg-sky-dancer)', '--bk-inset': '24px' } as React.CSSProperties}>
         <div className="svdg-bracket__tl" />
         <div className="svdg-bracket__br" />
         <div className="svdg-bracket__body">
-          <span className="eyebrow text-svdg-sky">SVDG&apos;s Red Folder</span>
+          <div className="flex items-center justify-between gap-3 flex-wrap">
+            <span className="eyebrow text-svdg-sky-dancer">A SVDG Product</span>
+            <span className="nav-text text-[10px] text-svdg-sky-dancer flex items-center gap-1.5">
+              <span className="inline-block w-2 h-2 rounded-full bg-svdg-sky-dancer animate-pulse" />
+              // Live
+            </span>
+          </div>
           <h1 className="text-4xl md:text-5xl mt-1 tracking-tight">Weekly Rundown</h1>
           <p className="text-sm text-svdg-french-gray mt-1">{weekStr}</p>
 

@@ -10,7 +10,7 @@ export default function ArchivePage() {
   return (
     <div>
       <PageHeading
-        eyebrow="SVDG's Red Folder"
+        eyebrow="A SVDG Product"
         title="Archive"
         description="Articles published more than 60 days ago. Fully searchable and filterable."
       />

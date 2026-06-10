@@ -1,11 +1,11 @@
 # Daily Research Job Brief
 
 This is the playbook for the recurring AI research job that finds new candidate
-articles for **SVDG's Red Folder**. Read this in full before each run.
+articles for **Dispatch**. Read this in full before each run.
 
 ## Context
 
-SVDG's Red Folder is an internal news intelligence platform for Silicon Valley
+Dispatch is an internal news intelligence platform for Silicon Valley
 Defense Group staff. It tracks defense innovation news across six categories:
 Industry News, Investor News, Government News, Sponsor News, Opinions, and
 International. The goal is a small, high-signal daily feed — not an aggregator.

@@ -1,4 +1,6 @@
-# SVDG's Red Folder
+# Dispatch
+
+*A SVDG Product*
 
 Internal news intelligence platform for [Silicon Valley Defense Group](https://siliconvalleydefense.org).
 

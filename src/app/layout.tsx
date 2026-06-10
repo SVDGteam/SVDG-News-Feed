@@ -3,7 +3,7 @@ import './globals.css'
 import Navigation from '@/components/Navigation'
 
 export const metadata: Metadata = {
-  title: "SVDG's Red Folder",
+  title: 'Dispatch — A SVDG Product',
   description: 'Internal news intelligence platform for Silicon Valley Defense Group',
 }
 

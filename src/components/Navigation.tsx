@@ -22,9 +22,17 @@ export default function Navigation() {
         <div className="flex items-center justify-between h-14">
           {/* Logo / brand */}
           <Link href="/" className="flex items-center gap-2.5 shrink-0">
-            <Image src="/brand/logomark-white.png" alt="SVDG" width={24} height={25} className="opacity-95" />
-            <span className="font-display font-bold tracking-tight text-base text-white leading-none">
-              SVDG&apos;s Red Folder
+            <span className="bg-white rounded-md p-1 flex items-center justify-center shrink-0">
+              <Image src="/brand/logomark.svg" alt="SVDG" width={20} height={21} />
+            </span>
+            <span className="flex flex-col gap-0.5 leading-none">
+              <span className="flex items-center gap-1 font-display font-bold tracking-tight text-base text-white leading-none">
+                Dispatch
+                <span className="inline-block w-[6px] h-[14px] bg-svdg-sky-dancer animate-pulse" aria-hidden="true" />
+              </span>
+              <span className="nav-text text-[9px] text-svdg-sky-dancer leading-none">
+                A SVDG Product
+              </span>
             </span>
           </Link>
 
