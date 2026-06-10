@@ -8,7 +8,7 @@ export default function IndustryPage() {
   const cat = getCategoryConfig('Industry News')!
   return (
     <div>
-      <span className="eyebrow text-svdg-admiral">Category</span>
+      <span className="eyebrow text-svdg-sky">Category</span>
       <h1 className="text-2xl mb-3">{cat.label}</h1>
       <CategoryPageClient
         articles={getAllArticles()}

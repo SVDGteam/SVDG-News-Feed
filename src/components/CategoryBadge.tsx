@@ -12,7 +12,7 @@ export default function CategoryBadge({ category, size = 'sm' }: Props) {
 
   return (
     <span
-      className={`inline-block rounded border font-medium ${sizeClass} ${config?.bgColor ?? 'bg-slate-100 border-slate-200'} ${config?.color ?? 'text-slate-700'}`}
+      className={`inline-block rounded border font-medium ${sizeClass} ${config?.bgColor ?? 'bg-white/5 border-white/10'} ${config?.color ?? 'text-slate-300'}`}
     >
       {category}
     </span>

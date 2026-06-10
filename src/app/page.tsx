@@ -6,14 +6,14 @@ import { Article } from '@/types/article'
 
 function SectionHeader({ title, count, href }: { title: string; count?: number; href?: string }) {
   return (
-    <div className="flex items-center justify-between mb-3 border-b border-svdg-timberwolf pb-1.5">
-      <h2 className="eyebrow text-svdg-pea-coat">{title}</h2>
+    <div className="flex items-center justify-between mb-3 border-b border-white/10 pb-1.5">
+      <h2 className="eyebrow text-svdg-sky">{title}</h2>
       <div className="flex items-center gap-3">
         {count !== undefined && (
           <span className="text-xs text-svdg-french-gray">{count} item{count !== 1 ? 's' : ''}</span>
         )}
         {href && (
-          <Link href={href} className="nav-text text-[10px] text-svdg-admiral hover:text-svdg-berkeley">
+          <Link href={href} className="nav-text text-[10px] text-svdg-sky hover:text-svdg-sky-dancer">
             View all →
           </Link>
         )}
@@ -24,7 +24,7 @@ function SectionHeader({ title, count, href }: { title: string; count?: number; 
 
 function EmptyState({ message }: { message: string }) {
   return (
-    <div className="bg-white border border-slate-200 rounded-lg px-4 py-6 text-center text-sm text-slate-400">
+    <div className="bg-svdg-surface/70 border border-white/10 rounded-lg px-4 py-6 text-center text-sm text-svdg-french-gray">
       {message}
     </div>
   )
@@ -90,13 +90,13 @@ export default function HomePage() {
       <div className="mb-6">
         <div className="flex items-start justify-between flex-wrap gap-3">
           <div>
-            <span className="eyebrow text-svdg-admiral">SVDG&apos;s Red Folder</span>
+            <span className="eyebrow text-svdg-sky">SVDG&apos;s Red Folder</span>
             <h1 className="text-2xl mt-1">Weekly Rundown</h1>
             <p className="text-sm text-svdg-french-gray mt-0.5">{weekStr}</p>
           </div>
           <div className="flex gap-2">
             {needsReview.length > 0 && (
-              <span className="svdg-tag svdg-tag--outline border-amber-400 text-amber-700">
+              <span className="svdg-tag svdg-tag--outline border-amber-400/50 text-amber-300">
                 {needsReview.length} need review
               </span>
             )}
@@ -180,7 +180,7 @@ export default function HomePage() {
       )}
 
       {/* Stats bar */}
-      <div className="mt-10 border-t border-svdg-timberwolf pt-4 flex flex-wrap gap-6 text-xs text-svdg-french-gray">
+      <div className="mt-10 border-t border-white/10 pt-4 flex flex-wrap gap-6 text-xs text-svdg-french-gray">
         {([
           ['Industry News', '/industry'],
           ['Investor News', '/investor'],
@@ -191,13 +191,13 @@ export default function HomePage() {
         ] as [string, string][]).map(([label, href]) => {
           const count = active.filter((a) => a.categories.includes(label as any)).length
           return (
-            <Link key={href} href={href} className="hover:text-svdg-admiral transition-colors">
-              {label} <span className="font-semibold text-svdg-pea-coat">{count}</span>
+            <Link key={href} href={href} className="hover:text-svdg-sky transition-colors">
+              {label} <span className="font-semibold text-white">{count}</span>
             </Link>
           )
         })}
-        <Link href="/archive" className="hover:text-svdg-admiral transition-colors">
-          Archive <span className="font-semibold text-svdg-pea-coat">{allArticles.filter((a) => a.isArchived).length}</span>
+        <Link href="/archive" className="hover:text-svdg-sky transition-colors">
+          Archive <span className="font-semibold text-white">{allArticles.filter((a) => a.isArchived).length}</span>
         </Link>
       </div>
     </div>

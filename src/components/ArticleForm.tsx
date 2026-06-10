@@ -155,20 +155,20 @@ export default function ArticleForm({ article }: Props) {
     }
   }
 
-  const inputClass = "w-full text-sm border border-slate-200 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
-  const labelClass = "block text-xs font-semibold text-slate-600 mb-1"
+  const inputClass = "w-full text-sm border border-white/15 bg-white/5 text-white rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-svdg-crayola"
+  const labelClass = "block text-xs font-semibold text-svdg-french-gray mb-1"
 
   return (
     <form onSubmit={handleSubmit} className="space-y-6">
       {error && (
-        <div className="bg-red-50 border border-red-200 text-red-700 text-sm px-4 py-2 rounded">
+        <div className="bg-red-500/15 border border-red-400/30 text-red-300 text-sm px-4 py-2 rounded">
           {error}
         </div>
       )}
 
       {/* ── Core fields ───────────────────────────────────────────── */}
-      <section className="bg-white border border-slate-200 rounded-lg p-5 space-y-4">
-        <h2 className="text-sm font-semibold text-slate-700 border-b border-slate-100 pb-2">Article</h2>
+      <section className="bg-svdg-surface/70 border border-white/10 rounded-lg p-5 space-y-4">
+        <h2 className="text-sm font-semibold text-slate-200 border-b border-white/10 pb-2">Article</h2>
 
         <div>
           <label className={labelClass}>Title *</label>
@@ -239,7 +239,7 @@ export default function ArticleForm({ article }: Props) {
         </div>
 
         <div>
-          <label className={labelClass}>Why It Matters <span className="font-normal text-slate-400">(strongly encouraged)</span></label>
+          <label className={labelClass}>Why It Matters <span className="font-normal text-svdg-french-gray">(strongly encouraged)</span></label>
           <textarea
             className={`${inputClass} h-20 resize-y`}
             value={form.whyItMatters}
@@ -250,9 +250,9 @@ export default function ArticleForm({ article }: Props) {
       </section>
 
       {/* ── Categories ────────────────────────────────────────────── */}
-      <section className="bg-white border border-slate-200 rounded-lg p-5">
-        <h2 className="text-sm font-semibold text-slate-700 border-b border-slate-100 pb-2 mb-3">
-          Categories * <span className="font-normal text-slate-400">(select all that apply)</span>
+      <section className="bg-svdg-surface/70 border border-white/10 rounded-lg p-5">
+        <h2 className="text-sm font-semibold text-slate-200 border-b border-white/10 pb-2 mb-3">
+          Categories * <span className="font-normal text-svdg-french-gray">(select all that apply)</span>
         </h2>
         <div className="flex flex-wrap gap-2">
           {CATEGORIES.map((cat) => (
@@ -263,7 +263,7 @@ export default function ArticleForm({ article }: Props) {
               className={`text-xs px-3 py-1.5 rounded border transition-colors ${
                 form.categories.includes(cat.label)
                   ? `${cat.bgColor} ${cat.color} font-semibold`
-                  : 'bg-slate-50 border-slate-200 text-slate-500 hover:bg-slate-100'
+                  : 'bg-white/5 border-white/10 text-svdg-french-gray hover:bg-white/10'
               }`}
             >
               {cat.label}
@@ -273,22 +273,22 @@ export default function ArticleForm({ article }: Props) {
       </section>
 
       {/* ── Tags ──────────────────────────────────────────────────── */}
-      <section className="bg-white border border-slate-200 rounded-lg p-5">
-        <h2 className="text-sm font-semibold text-slate-700 border-b border-slate-100 pb-2 mb-3">Tags</h2>
+      <section className="bg-svdg-surface/70 border border-white/10 rounded-lg p-5">
+        <h2 className="text-sm font-semibold text-slate-200 border-b border-white/10 pb-2 mb-3">Tags</h2>
         <div className="flex flex-wrap gap-1.5 mb-3">
           {form.tags.map((tag) => (
             <span
               key={tag}
-              className="inline-flex items-center gap-1 text-xs bg-blue-100 text-blue-700 px-2 py-0.5 rounded"
+              className="inline-flex items-center gap-1 text-xs bg-blue-500/15 text-blue-300 px-2 py-0.5 rounded"
             >
               {tag}
-              <button type="button" onClick={() => removeTag(tag)} className="hover:text-red-600">×</button>
+              <button type="button" onClick={() => removeTag(tag)} className="hover:text-red-400">×</button>
             </span>
           ))}
         </div>
         <div className="flex gap-2 mb-2">
           <input
-            className="flex-1 text-xs border border-slate-200 rounded px-2 py-1.5 focus:outline-none focus:ring-1 focus:ring-blue-500"
+            className="flex-1 text-xs border border-white/15 bg-white/5 text-white rounded px-2 py-1.5 focus:outline-none focus:ring-1 focus:ring-svdg-crayola"
             value={tagInput}
             onChange={(e) => setTagInput(e.target.value)}
             onKeyDown={(e) => { if (e.key === 'Enter') { e.preventDefault(); addTag(tagInput) } }}
@@ -297,7 +297,7 @@ export default function ArticleForm({ article }: Props) {
           <button
             type="button"
             onClick={() => addTag(tagInput)}
-            className="text-xs bg-slate-100 hover:bg-slate-200 text-slate-600 px-3 py-1.5 rounded"
+            className="text-xs bg-white/5 hover:bg-white/10 text-slate-200 px-3 py-1.5 rounded"
           >Add</button>
         </div>
         <div className="flex flex-wrap gap-1">
@@ -306,7 +306,7 @@ export default function ArticleForm({ article }: Props) {
               key={tag}
               type="button"
               onClick={() => addTag(tag)}
-              className="text-[10px] bg-slate-100 hover:bg-blue-50 hover:text-blue-700 text-slate-500 px-1.5 py-0.5 rounded transition-colors"
+              className="text-[10px] bg-white/5 hover:bg-blue-500/15 hover:text-blue-300 text-svdg-french-gray px-1.5 py-0.5 rounded transition-colors"
             >
               {tag}
             </button>
@@ -315,8 +315,8 @@ export default function ArticleForm({ article }: Props) {
       </section>
 
       {/* ── Meta ─────────────────────────────────────────────────── */}
-      <section className="bg-white border border-slate-200 rounded-lg p-5 space-y-4">
-        <h2 className="text-sm font-semibold text-slate-700 border-b border-slate-100 pb-2">Metadata</h2>
+      <section className="bg-svdg-surface/70 border border-white/10 rounded-lg p-5 space-y-4">
+        <h2 className="text-sm font-semibold text-slate-200 border-b border-white/10 pb-2">Metadata</h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
           <div>
@@ -382,7 +382,7 @@ export default function ArticleForm({ article }: Props) {
             </select>
           </div>
           <div className="flex items-end pb-2">
-            <label className="flex items-center gap-2 cursor-pointer text-sm text-slate-700">
+            <label className="flex items-center gap-2 cursor-pointer text-sm text-slate-200">
               <input
                 type="checkbox"
                 checked={form.isFeatured}
@@ -396,12 +396,12 @@ export default function ArticleForm({ article }: Props) {
       </section>
 
       {/* ── Relevance Scoring ─────────────────────────────────────── */}
-      <section className="bg-white border border-slate-200 rounded-lg p-5 space-y-4">
-        <h2 className="text-sm font-semibold text-slate-700 border-b border-slate-100 pb-2">Relevance Scoring</h2>
+      <section className="bg-svdg-surface/70 border border-white/10 rounded-lg p-5 space-y-4">
+        <h2 className="text-sm font-semibold text-slate-200 border-b border-white/10 pb-2">Relevance Scoring</h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
           <div>
-            <label className={labelClass}>SVDG Relevance <span className="text-slate-400">(35 pts)</span></label>
+            <label className={labelClass}>SVDG Relevance <span className="text-svdg-french-gray">(35 pts)</span></label>
             <select
               className={inputClass}
               value={form.svdgRelevanceLevel}
@@ -413,7 +413,7 @@ export default function ArticleForm({ article }: Props) {
             </select>
           </div>
           <div>
-            <label className={labelClass}>Source Quality <span className="text-slate-400">(15 pts)</span></label>
+            <label className={labelClass}>Source Quality <span className="text-svdg-french-gray">(15 pts)</span></label>
             <select
               className={inputClass}
               value={form.sourceQualityLevel}
@@ -425,7 +425,7 @@ export default function ArticleForm({ article }: Props) {
             </select>
           </div>
           <div>
-            <label className={labelClass}>Sponsor / NatSec100 <span className="text-slate-400">(10 pts)</span></label>
+            <label className={labelClass}>Sponsor / NatSec100 <span className="text-svdg-french-gray">(10 pts)</span></label>
             <select
               className={inputClass}
               value={form.sponsorNatSec100Relevance}
@@ -439,7 +439,7 @@ export default function ArticleForm({ article }: Props) {
         </div>
 
         <div>
-          <label className={labelClass}>Workstream Relevance <span className="text-slate-400">(up to 10 pts)</span></label>
+          <label className={labelClass}>Workstream Relevance <span className="text-svdg-french-gray">(up to 10 pts)</span></label>
           <div className="flex flex-wrap gap-2 mt-1">
             {WORKSTREAMS.map((ws) => (
               <button
@@ -448,8 +448,8 @@ export default function ArticleForm({ article }: Props) {
                 onClick={() => toggleWorkstream(ws)}
                 className={`text-xs px-2.5 py-1 rounded border transition-colors ${
                   form.workstreams.includes(ws)
-                    ? 'bg-purple-100 border-purple-200 text-purple-700 font-medium'
-                    : 'bg-slate-50 border-slate-200 text-slate-500 hover:bg-slate-100'
+                    ? 'bg-purple-500/15 border-purple-400/30 text-purple-300 font-medium'
+                    : 'bg-white/5 border-white/10 text-svdg-french-gray hover:bg-white/10'
                 }`}
               >
                 {ws}
@@ -459,21 +459,21 @@ export default function ArticleForm({ article }: Props) {
         </div>
 
         {/* Score display */}
-        <div className="flex items-center gap-4 bg-slate-50 border border-slate-200 rounded-lg px-4 py-3">
+        <div className="flex items-center gap-4 bg-white/5 border border-white/10 rounded-lg px-4 py-3">
           <div>
-            <div className="text-xs text-slate-500 mb-0.5">Auto-calculated</div>
-            <div className="text-2xl font-bold text-slate-800">{calcScore}</div>
+            <div className="text-xs text-svdg-french-gray mb-0.5">Auto-calculated</div>
+            <div className="text-2xl font-bold text-white">{calcScore}</div>
           </div>
-          <div className="text-slate-300 text-xl">→</div>
+          <div className="text-svdg-french-gray text-xl">→</div>
           <div>
-            <label className="block text-xs text-slate-500 mb-0.5">
-              Manual override <span className="text-slate-400">(leave blank to use auto)</span>
+            <label className="block text-xs text-svdg-french-gray mb-0.5">
+              Manual override <span className="text-svdg-french-gray">(leave blank to use auto)</span>
             </label>
             <input
               type="number"
               min="0"
               max="100"
-              className="w-24 text-sm border border-slate-200 rounded px-2 py-1 focus:outline-none focus:ring-2 focus:ring-blue-500"
+              className="w-24 text-sm border border-white/15 bg-white/5 text-white rounded px-2 py-1 focus:outline-none focus:ring-2 focus:ring-svdg-crayola"
               value={form.manualScoreOverride ?? ''}
               onChange={(e) => {
                 const v = e.target.value === '' ? undefined : parseInt(e.target.value)
@@ -483,8 +483,8 @@ export default function ArticleForm({ article }: Props) {
             />
           </div>
           <div className="ml-auto text-right">
-            <div className="text-xs text-slate-500 mb-0.5">Final score</div>
-            <div className={`text-2xl font-bold ${finalScore >= 80 ? 'text-emerald-600' : finalScore >= 60 ? 'text-blue-600' : 'text-slate-700'}`}>
+            <div className="text-xs text-svdg-french-gray mb-0.5">Final score</div>
+            <div className={`text-2xl font-bold ${finalScore >= 80 ? 'text-emerald-400' : finalScore >= 60 ? 'text-svdg-sky' : 'text-slate-300'}`}>
               {finalScore}
             </div>
           </div>
@@ -503,7 +503,7 @@ export default function ArticleForm({ article }: Props) {
         <button
           type="button"
           onClick={() => router.back()}
-          className="text-sm text-slate-500 hover:text-slate-700 px-3 py-2"
+          className="text-sm text-svdg-french-gray hover:text-slate-200 px-3 py-2"
         >
           Cancel
         </button>
@@ -513,13 +513,13 @@ export default function ArticleForm({ article }: Props) {
               <button
                 type="button"
                 onClick={() => setDeleteConfirm(true)}
-                className="text-sm text-red-600 hover:text-red-800 px-3 py-2"
+                className="text-sm text-red-400 hover:text-red-300 px-3 py-2"
               >
                 Delete article
               </button>
             ) : (
               <div className="flex items-center gap-2">
-                <span className="text-sm text-slate-600">Sure?</span>
+                <span className="text-sm text-slate-300">Sure?</span>
                 <button
                   type="button"
                   onClick={handleDelete}
@@ -530,7 +530,7 @@ export default function ArticleForm({ article }: Props) {
                 <button
                   type="button"
                   onClick={() => setDeleteConfirm(false)}
-                  className="text-sm text-slate-500"
+                  className="text-sm text-svdg-french-gray"
                 >
                   Cancel
                 </button>

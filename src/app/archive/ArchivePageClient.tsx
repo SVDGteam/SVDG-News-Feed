@@ -59,7 +59,7 @@ export default function ArchivePageClient({ articles }: { articles: Article[] })
       />
 
       {filtered.length === 0 ? (
-        <div className="bg-white border border-slate-200 rounded-lg px-6 py-12 text-center text-sm text-slate-400">
+        <div className="bg-svdg-surface/70 border border-white/10 rounded-lg px-6 py-12 text-center text-sm text-svdg-french-gray">
           No archived articles match your filters.
         </div>
       ) : (

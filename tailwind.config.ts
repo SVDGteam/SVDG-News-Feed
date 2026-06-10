@@ -21,6 +21,10 @@ const config: Config = {
           platinum: '#eaeaea',
           white: '#ffffff',
           'sky-dancer': '#75fb9f',
+          // Dark theme surfaces
+          ink: '#020a14',
+          surface: '#0a1c33',
+          'surface-2': '#0f2747',
           // legacy aliases kept for any remaining old class references
           navy: '#0f1e2e',
           blue: '#1a3a5c',

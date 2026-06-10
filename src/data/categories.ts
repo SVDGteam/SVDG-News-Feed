@@ -16,8 +16,8 @@ export const CATEGORIES: CategoryConfig[] = [
     slug: 'industry',
     description:
       'Private-sector developments in the defense, dual-use, and national security technology ecosystem — startups, contracts, partnerships, and emerging tech.',
-    color: 'text-blue-700',
-    bgColor: 'bg-blue-50 border-blue-200',
+    color: 'text-blue-300',
+    bgColor: 'bg-blue-500/15 border-blue-400/30',
   },
   {
     id: 'investor',
@@ -25,8 +25,8 @@ export const CATEGORIES: CategoryConfig[] = [
     slug: 'investor',
     description:
       'VC, PE, and institutional capital moving into defense and dual-use — fund announcements, exits, M&A, investment policy, and capital formation.',
-    color: 'text-emerald-700',
-    bgColor: 'bg-emerald-50 border-emerald-200',
+    color: 'text-emerald-300',
+    bgColor: 'bg-emerald-500/15 border-emerald-400/30',
   },
   {
     id: 'government',
@@ -34,8 +34,8 @@ export const CATEGORIES: CategoryConfig[] = [
     slug: 'government',
     description:
       'Federal acquisition, DoD reform, innovation offices (DIU, DARPA, CDAO), Congressional action, NDAA, appropriations, and procurement policy.',
-    color: 'text-purple-700',
-    bgColor: 'bg-purple-50 border-purple-200',
+    color: 'text-purple-300',
+    bgColor: 'bg-purple-500/15 border-purple-400/30',
   },
   {
     id: 'sponsor',
@@ -43,8 +43,8 @@ export const CATEGORIES: CategoryConfig[] = [
     slug: 'sponsor',
     description:
       'What is happening with SVDG sponsors — announcements, funding, products, contracts, partnerships, and executive commentary.',
-    color: 'text-amber-700',
-    bgColor: 'bg-amber-50 border-amber-200',
+    color: 'text-amber-300',
+    bgColor: 'bg-amber-500/15 border-amber-400/30',
   },
   {
     id: 'opinions',
@@ -52,8 +52,8 @@ export const CATEGORIES: CategoryConfig[] = [
     slug: 'opinions',
     description:
       'Op-eds, essays, analysis, and commentary from think tanks, investors, defense leaders, and major publications that inform SVDG\'s perspective.',
-    color: 'text-rose-700',
-    bgColor: 'bg-rose-50 border-rose-200',
+    color: 'text-rose-300',
+    bgColor: 'bg-rose-500/15 border-rose-400/30',
   },
   {
     id: 'international',
@@ -61,8 +61,8 @@ export const CATEGORIES: CategoryConfig[] = [
     slug: 'international',
     description:
       'Allied defense innovation, AUKUS, NATO, European and UK defense tech, Australian industrial base, and foreign defense investment.',
-    color: 'text-indigo-700',
-    bgColor: 'bg-indigo-50 border-indigo-200',
+    color: 'text-indigo-300',
+    bgColor: 'bg-indigo-500/15 border-indigo-400/30',
   },
 ]
 

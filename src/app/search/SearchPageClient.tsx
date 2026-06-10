@@ -70,7 +70,7 @@ export default function SearchPageClient({ articles }: { articles: Article[] }) 
       />
 
       {filtered.length === 0 ? (
-        <div className="bg-white border border-slate-200 rounded-lg px-6 py-12 text-center text-sm text-svdg-french-gray">
+        <div className="bg-svdg-surface/70 border border-white/10 rounded-lg px-6 py-12 text-center text-sm text-svdg-french-gray">
           {search.trim()
             ? `No articles match "${search}". Try a different keyword or adjust your filters.`
             : 'No articles match your filters.'}
