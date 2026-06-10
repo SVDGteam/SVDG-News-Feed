@@ -201,19 +201,20 @@ export default function HomePage() {
             </div>
           </div>
 
-          <div className="mt-5">
-            <h1 className="text-lg md:text-xl tracking-tight">Weekly Dispatch</h1>
-            <p className="text-sm text-svdg-french-gray mt-1">{weekStr}</p>
-          </div>
-
-          {/* At-a-glance stats */}
-          <div className="mt-5 pt-4 border-t border-white/10 w-full flex flex-wrap items-center justify-center gap-x-7 gap-y-3">
-            <StatPill icon={<StarIcon />} value={recentHigh.length} label="Must-Reads" accent="text-svdg-sky-dancer" />
-            <StatPill icon={<SparkleIcon />} value={newToday} label="New Today" />
-            {needsReview.length > 0 && (
-              <StatPill icon={<FlagIcon />} value={needsReview.length} label="Need Review" accent="text-amber-300" />
-            )}
-            <StatPill icon={<StackIcon />} value={active.length} label="Active Articles" />
+          {/* Weekly Rundown + date (left) and at-a-glance stats (right), below the divider */}
+          <div className="mt-5 pt-4 border-t border-white/10 w-full flex flex-wrap items-center justify-between gap-4">
+            <div className="text-left">
+              <h1 className="text-lg md:text-xl tracking-tight">Weekly Rundown</h1>
+              <p className="text-sm text-svdg-french-gray mt-1">{weekStr}</p>
+            </div>
+            <div className="flex flex-wrap items-center gap-x-7 gap-y-3">
+              <StatPill icon={<StarIcon />} value={recentHigh.length} label="Must-Reads" accent="text-svdg-sky-dancer" />
+              <StatPill icon={<SparkleIcon />} value={newToday} label="New Today" />
+              {needsReview.length > 0 && (
+                <StatPill icon={<FlagIcon />} value={needsReview.length} label="Need Review" accent="text-amber-300" />
+              )}
+              <StatPill icon={<StackIcon />} value={active.length} label="Active Articles" />
+            </div>
           </div>
         </div>
       </div>
