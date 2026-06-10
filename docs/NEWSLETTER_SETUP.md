@@ -86,6 +86,19 @@ sheet) and add these functions alongside `doPost`:
 //   DIGEST_SECRET = a random string (also set as NEWSLETTER_DIGEST_SECRET
 //                   in Vercel — must match exactly)
 
+var LOGO_URL = 'https://svdg-news-feed.vercel.app/brand/logomark-color.png';
+
+// Swaps the external logo URL for a cid: reference and returns the blob to
+// attach inline. Without this, Gmail shows "Images are not displayed" for
+// every recipient until they click "Display images below".
+function embedLogo_(html) {
+  var logoBlob = UrlFetchApp.fetch(LOGO_URL).getBlob().setName('logo');
+  return {
+    html: html.split(LOGO_URL).join('cid:logo'),
+    inlineImages: { logo: logoBlob },
+  };
+}
+
 // ── Weekly send ─────────────────────────────────────────────────────────
 // Run automatically by a time-driven trigger (set up in step 4 below).
 // Fetches the rendered digest from the site and emails it to every
@@ -105,6 +118,7 @@ function sendWeeklyNewsletter() {
     throw new Error('Digest fetch failed: ' + res.getResponseCode() + ' ' + res.getContentText());
   }
   var email = JSON.parse(res.getContentText());
+  var embedded = embedLogo_(email.html);
 
   var sheet = SpreadsheetApp.getActiveSpreadsheet().getSheets()[0];
   var lastRow = sheet.getLastRow();
@@ -116,9 +130,10 @@ function sendWeeklyNewsletter() {
     MailApp.sendEmail({
       to: to,
       subject: email.subject,
-      htmlBody: email.html,
+      htmlBody: embedded.html,
       body: email.text,
       name: 'SVDG Dispatch',
+      inlineImages: embedded.inlineImages,
     });
   });
 }
@@ -135,13 +150,15 @@ function sendTestNewsletter() {
   var url = digestUrl + (secret ? '?key=' + encodeURIComponent(secret) : '');
   var res = UrlFetchApp.fetch(url, { muteHttpExceptions: true });
   var email = JSON.parse(res.getContentText());
+  var embedded = embedLogo_(email.html);
 
   MailApp.sendEmail({
     to: testRecipient,
     subject: '[TEST] ' + email.subject,
-    htmlBody: email.html,
+    htmlBody: embedded.html,
     body: email.text,
     name: 'SVDG Dispatch',
+    inlineImages: embedded.inlineImages,
   });
 }
 ```
