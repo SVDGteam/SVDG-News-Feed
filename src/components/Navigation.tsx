@@ -31,7 +31,7 @@ export default function Navigation() {
                 <span className="inline-block w-[6px] h-[14px] bg-svdg-sky-dancer animate-pulse" aria-hidden="true" />
               </span>
               <span className="nav-text text-[9px] text-svdg-sky-dancer leading-none">
-                A SVDG Product
+                An SVDG Product
               </span>
             </span>
           </Link>

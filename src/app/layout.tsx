@@ -4,7 +4,7 @@ import Navigation from '@/components/Navigation'
 import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
-  title: 'Dispatch — A SVDG Product',
+  title: 'Dispatch — An SVDG Product',
   description: 'Internal news intelligence platform for Silicon Valley Defense Group',
 }
 

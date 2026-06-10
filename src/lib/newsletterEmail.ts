@@ -118,7 +118,7 @@ export function buildNewsletterEmail(digest: WeeklyDigest): NewsletterEmail {
                       <div style="font-family: -apple-system, 'Helvetica Neue', Arial, sans-serif; font-weight:700; font-size:24px; color:${COLORS.white}; line-height:1;">
                         Dispatch<span style="display:inline-block; width:6px; height:18px; background-color:${COLORS.sky}; margin-left:6px; vertical-align:middle;">&nbsp;</span>
                       </div>
-                      <div style="font-family: 'Courier New', monospace; font-size:10px; letter-spacing:2px; color:${COLORS.sky}; margin-top:5px;">A SVDG PRODUCT</div>
+                      <div style="font-family: 'Courier New', monospace; font-size:10px; letter-spacing:2px; color:${COLORS.sky}; margin-top:5px;">AN SVDG PRODUCT</div>
                     </td>
                   </tr>
                 </table>
@@ -145,7 +145,7 @@ ${storiesHtml}
             <tr>
               <td style="padding: 20px 28px; border-top:1px solid ${COLORS.border}; text-align:center;" bgcolor="${COLORS.card}">
                 <p style="margin:0 0 6px 0; font-family:'Courier New',monospace; font-size:10px; letter-spacing:1px; color:${COLORS.french};">
-                  DISPATCH — A SVDG PRODUCT
+                  DISPATCH — AN SVDG PRODUCT
                 </p>
                 <p style="margin:0; font-size:11px; color:#5b6573;">
                   You're receiving this because you signed up for the Weekly Rundown at Silicon Valley Defense Group.

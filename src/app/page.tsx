@@ -197,7 +197,7 @@ export default async function HomePage() {
                 Dispatch
                 <span className="inline-block w-2.5 h-9 md:h-11 bg-svdg-sky-dancer animate-pulse" aria-hidden="true" />
               </span>
-              <span className="nav-text text-xs text-svdg-sky-dancer leading-none">A SVDG Product</span>
+              <span className="nav-text text-xs text-svdg-sky-dancer leading-none">An SVDG Product</span>
             </div>
           </div>
 

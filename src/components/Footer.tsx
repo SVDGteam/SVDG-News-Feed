@@ -15,7 +15,7 @@ export default function Footer() {
               Dispatch
             </span>
             <span className="nav-text text-[9px] text-svdg-sky-dancer leading-none">
-              A SVDG Product
+              An SVDG Product
             </span>
           </span>
         </Link>

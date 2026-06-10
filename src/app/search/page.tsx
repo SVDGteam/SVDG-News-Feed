@@ -8,7 +8,7 @@ export default async function SearchPage() {
   return (
     <div>
       <PageHeading
-        eyebrow="A SVDG Product"
+        eyebrow="An SVDG Product"
         title="Search"
         description="Search and filter across every category — including the archive — in one place."
       />
