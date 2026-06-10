@@ -19,23 +19,22 @@ export default function CategoryHero({ category }: { category: CategoryConfig })
       <div className="svdg-bracket__tl" />
       <div className="svdg-bracket__br" />
       <div className="svdg-bracket__body h-full flex items-center">
-        <div className="max-w-[60%] sm:max-w-[50%] md:max-w-md">
+        <div className="max-w-[60%] sm:max-w-[50%] md:max-w-md flex items-center gap-3 md:gap-4">
           {isSponsor && (
             <Image
               src="/brand/logomark-white.png"
               alt="SVDG"
               width={287}
               height={300}
-              className="w-9 h-auto sm:w-11 md:w-12 mb-2 md:mb-3"
+              className="w-8 h-auto sm:w-10 md:w-12 shrink-0"
             />
           )}
-          <span className="eyebrow text-svdg-sky-dancer">Category</span>
-          <h1 className="text-xl sm:text-2xl md:text-4xl font-display font-bold text-white mt-1 leading-tight">
-            {category.label}
-          </h1>
-          <p className="hidden md:block text-sm text-svdg-french-gray mt-2 max-w-sm">
-            {category.description}
-          </p>
+          <div>
+            <span className="eyebrow text-svdg-sky-dancer">Category</span>
+            <h1 className="text-xl sm:text-2xl md:text-4xl font-display font-bold text-white mt-1 leading-tight">
+              {category.label}
+            </h1>
+          </div>
         </div>
       </div>
     </div>
