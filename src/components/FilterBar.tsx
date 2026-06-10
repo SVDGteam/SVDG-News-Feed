@@ -42,7 +42,7 @@ export default function FilterBar({
   includeArchived, onIncludeArchived, count, categoryLabel,
 }: Props) {
   return (
-    <div className="bg-svdg-surface/70 border border-white/10 rounded-lg p-3 mb-4">
+    <div className="bg-svdg-surface/95 border border-white/10 rounded-lg p-3 mb-4">
       {/* Search + count */}
       <div className="flex items-center gap-2 mb-3">
         <input

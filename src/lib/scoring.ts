@@ -4,6 +4,7 @@ import {
   Workstream,
   SponsorNatSec100Relevance,
   ScoreBreakdown,
+  ReactionType,
 } from '@/types/article'
 
 // ── Recency score (0–30) ────────────────────────────────────────────────────
@@ -85,6 +86,28 @@ export function calcRelevanceScore(inputs: ScoreInputs): {
       breakdown.sponsorNatSec100
   )
   return { score, breakdown }
+}
+
+// ── Team reactions (likes/dislikes) ────────────────────────────────────────
+// Each like adds +10 to relevance, each dislike subtracts 10. This is a
+// crowd-sourced adjustment layered on top of the calculated relevanceScore.
+export function calcEngagementScore(reactions?: Record<string, ReactionType>): number {
+  if (!reactions) return 0
+  let total = 0
+  for (const reaction of Object.values(reactions)) {
+    total += reaction === 'like' ? 10 : -10
+  }
+  return total
+}
+
+// The score actually shown/sorted by — base relevance plus the team's
+// like/dislike adjustments, clamped back into the 0–100 range.
+export function getEffectiveScore(article: {
+  relevanceScore: number
+  reactions?: Record<string, ReactionType>
+}): number {
+  const adjusted = article.relevanceScore + calcEngagementScore(article.reactions)
+  return Math.max(0, Math.min(100, adjusted))
 }
 
 // ── Score label helpers ────────────────────────────────────────────────────

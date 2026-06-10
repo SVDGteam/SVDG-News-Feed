@@ -92,25 +92,94 @@ src/
 
 Score labels: **High** (85–100) · **Medium-High** (65–84) · **Medium** (40–64) · **Low** (<40)
 
-## Public access (eventual)
+## Team access (password gate — enabled)
 
-The site is currently designed for internal use with no login. For an eventual public-facing deployment, `src/middleware.ts` includes an **optional, off-by-default** shared-password gate using HTTP Basic Auth:
+The site sits behind a shared-password "front door" via `src/middleware.ts`, using HTTP Basic Auth:
 
-1. Set `SITE_PASSWORD` (and optionally `SITE_USERNAME`, default `svdg`) as environment variables on the hosting platform (e.g., Vercel project settings).
-2. Once `SITE_PASSWORD` is set, every page and API route requires that username/password over HTTPS.
-3. Leave `SITE_PASSWORD` unset for internal/dev use — the site stays open, exactly as it is today.
+- Once `SITE_PASSWORD` is set (locally via `.env.local`, or as an environment
+  variable on the hosting platform), every page and API route prompts the
+  browser's native login dialog and requires that username/password over
+  HTTPS.
+- Username defaults to `svdg` (override with `SITE_USERNAME`).
+- Leave `SITE_PASSWORD` unset to go back to fully open access (e.g., for
+  local dev if you don't want to log in every time — just don't create
+  `.env.local`, or comment the line out).
 
-This is a lightweight "front door," not per-user accounts. If individual logins (e.g., SVDG staff sign-in, role-based access) are wanted later, that would mean swapping in a proper auth provider (NextAuth, Clerk, etc.) — a bigger change best scoped as its own phase.
+**Local dev:** create `.env.local` (gitignored, never committed) with:
+
+```
+SITE_USERNAME=svdg
+SITE_PASSWORD=<shared team password>
+```
+
+**Deploying to Vercel:**
+
+1. In the Vercel project → **Settings → Environment Variables**, add
+   `SITE_PASSWORD` (and optionally `SITE_USERNAME`) for the Production (and
+   Preview, if desired) environment.
+2. Redeploy — the gate is active immediately for all routes.
+3. Share the username/password with the team over a private channel (Slack
+   DM, 1Password, etc.) — **never commit it to the repo or put it in this
+   README**.
+
+This is a lightweight team front door, not per-user accounts. If individual
+logins (e.g., SVDG staff sign-in, role-based access, "who liked what") are
+wanted later, that would mean swapping in a proper auth provider (NextAuth,
+Clerk, etc.) — a bigger change best scoped as its own phase.
+
+## Automated research pipeline (Phase 1 — built)
+
+A scheduled job ("svdg-daily-research") runs daily and proposes new candidate
+articles for review:
+
+- `src/data/sources.ts` — the approved source universe (70 outlets,
+  newsletters, trackers, and institutions), tagged by priority, region, and
+  use case. Treated as a rotating pool, not a daily checklist.
+- `docs/research-job-brief.md` — the playbook the research job follows: which
+  sources to sample, how to score and tag candidates, the output schema, and
+  the quality bar (3–8 high-signal items per day, fewer or zero is fine).
+- `scripts/add-candidates.ts` — CLI that validates `data/candidates.json`,
+  dedupes by URL against `data/articles.json`, computes the relevance score,
+  and appends accepted articles with `addedBy: "AI Candidate"`. Run manually
+  with:
+
+  ```bash
+  npx tsx scripts/add-candidates.ts data/candidates.json
+  ```
+
+  (If `npx tsx` fails on esbuild platform mismatches, use
+  `node scripts/add-candidates-plain.cjs data/candidates.json` instead — same
+  logic, no esbuild dependency.)
+
+New candidates get `status: "Reviewed"` automatically when they have a title,
+publication date, and source — which is true for nearly all AI candidates, so
+they appear ready to read in the app (`npm run dev`) without sitting in the
+"Needs Review" queue. Only candidates missing that core info land as `"New"`
+and need a manual look.
+
+## Newsletter inbox parsing (Phase 2 — built)
+
+The daily research job also checks Simone's Gmail (simone@siliconvalleydefense.org)
+for newsletters auto-labeled **"News Depot"** (Tectonic, Payload, Punchbowl,
+etc.):
+
+- New "News Depot" threads are opened via Claude in Chrome and read with
+  `get_page_text` (avoids token-limit issues with very long newsletters).
+- Canonical article URLs are extracted per-source — Punchbowl Defense/Tech
+  editions (one candidate per edition; general Hill-politics editions are
+  skipped), and Tectonic/Payload via WebSearch for the published URL.
+- Extracted stories feed into the same scoring/dedupe/insertion pipeline as
+  the rest of the research job.
+
+See `docs/research-job-brief.md` (Step 2) for the full process.
 
 ## Roadmap (not built yet)
 
-- **Phase 1:** Recurring AI-enabled research across approved sources
-- **Phase 2:** Newsletter inbox parsing (Tectonic, Payload, Punchbowl, etc.)
 - **Phase 3:** Browser extension — save an article in under 10 seconds
 - **Phase 4:** AI summarization, tagging, and relevance scoring pipeline
 - **Phase 5:** Events Tracker
 - **Phase 6:** Career Center
-- **Phase 7:** Public launch — shared-password gate (see "Public access" above), then per-user accounts if needed
+- **Phase 7:** Per-user accounts / role-based access (see "Team access" above for the current shared-password gate)
 
 ---
 

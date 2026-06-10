@@ -7,7 +7,7 @@
 import fs from 'fs'
 import path from 'path'
 import { v4 as uuidv4 } from 'uuid'
-import { Article, ArticleFormData } from '@/types/article'
+import { Article, ArticleFormData, ReactionType } from '@/types/article'
 import { SEED_ARTICLES } from '@/data/seed'
 import { calcRelevanceScore, ScoreInputs } from '@/lib/scoring'
 import { shouldAutoArchive } from '@/lib/archive'
@@ -180,6 +180,31 @@ export function deleteArticle(id: string): boolean {
   if (filtered.length === all.length) return false
   fs.writeFileSync(DB_PATH, JSON.stringify(filtered, null, 2))
   return true
+}
+
+// ── Set/clear a team member's reaction (like/dislike) ──────────────────────
+// Pass reaction: null to remove the user's vote (toggle off).
+export function setReaction(id: string, userId: string, reaction: ReactionType | null): Article | null {
+  const all = getAllArticles()
+  const idx = all.findIndex((a) => a.id === id)
+  if (idx === -1) return null
+
+  const reactions = { ...(all[idx].reactions ?? {}) }
+  if (reaction === null) {
+    delete reactions[userId]
+  } else {
+    reactions[userId] = reaction
+  }
+
+  const updated: Article = {
+    ...all[idx],
+    reactions,
+    updatedAt: new Date().toISOString(),
+  }
+
+  all[idx] = updated
+  fs.writeFileSync(DB_PATH, JSON.stringify(all, null, 2))
+  return updated
 }
 
 // ── Reset to seed (dev utility) ────────────────────────────────────────────

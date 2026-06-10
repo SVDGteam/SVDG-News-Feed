@@ -1,5 +1,6 @@
 import { getAllArticles } from '@/lib/db'
 import ArchivePageClient from './ArchivePageClient'
+import PageHeading from '@/components/PageHeading'
 
 export const dynamic = 'force-dynamic'
 
@@ -8,13 +9,11 @@ export default function ArchivePage() {
   const archived = all.filter((a) => a.isArchived)
   return (
     <div>
-      <div className="mb-4">
-        <span className="eyebrow text-svdg-sky">SVDG&apos;s Red Folder</span>
-        <h1 className="text-2xl mb-1">Archive</h1>
-        <p className="text-sm text-svdg-french-gray">
-          Articles published more than 60 days ago. Fully searchable and filterable.
-        </p>
-      </div>
+      <PageHeading
+        eyebrow="SVDG's Red Folder"
+        title="Archive"
+        description="Articles published more than 60 days ago. Fully searchable and filterable."
+      />
       <ArchivePageClient articles={archived} />
     </div>
   )

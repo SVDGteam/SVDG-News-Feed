@@ -88,7 +88,7 @@ export default function CategoryPageClient({
       />
 
       {filtered.length === 0 ? (
-        <div className="bg-svdg-surface/70 border border-white/10 rounded-lg px-6 py-12 text-center text-sm text-svdg-french-gray">
+        <div className="bg-svdg-surface/95 border border-white/10 rounded-lg px-6 py-12 text-center text-sm text-svdg-french-gray">
           No articles found. Try adjusting your filters.
         </div>
       ) : (

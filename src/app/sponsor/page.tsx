@@ -1,5 +1,6 @@
 import { getAllArticles } from '@/lib/db'
 import CategoryPageClient from '@/components/CategoryPageClient'
+import PageHeading from '@/components/PageHeading'
 import { getCategoryConfig } from '@/data/categories'
 import { SPONSORS } from '@/data/sponsors'
 
@@ -9,10 +10,9 @@ export default function SponsorPage() {
   const cat = getCategoryConfig('Sponsor News')!
   return (
     <div>
-      <span className="eyebrow text-svdg-sky">Category</span>
-      <h1 className="text-2xl mb-3">{cat.label}</h1>
+      <PageHeading eyebrow="Category" title={cat.label} />
 
-      <details className="mb-4 bg-svdg-surface/70 border border-white/10 rounded-lg">
+      <details className="mb-4 bg-svdg-surface/95 border border-white/10 rounded-lg">
         <summary className="cursor-pointer px-4 py-2.5 text-sm font-medium text-white select-none">
           SVDG Sponsor Roster <span className="text-svdg-french-gray font-normal">({SPONSORS.length})</span>
         </summary>

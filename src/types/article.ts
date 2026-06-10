@@ -42,6 +42,11 @@ export interface ScoreBreakdown {
   sponsorNatSec100: number
 }
 
+// 'like' = +10 to relevance, 'dislike' = -10. Keyed by an anonymous
+// per-browser team-member id (see ArticleCard) so each person's vote
+// counts once and can be toggled/changed.
+export type ReactionType = 'like' | 'dislike'
+
 export interface Article {
   id: string
   title: string
@@ -73,6 +78,10 @@ export interface Article {
   sourceQualityLevel: SourceQualityLevel
   workstreams: Workstream[]
   sponsorNatSec100Relevance: SponsorNatSec100Relevance
+
+  // Team reactions: anonymous-id -> 'like' | 'dislike'. Each like/dislike
+  // adjusts the effective relevance score by +/-10 (see lib/scoring.ts).
+  reactions?: Record<string, ReactionType>
 }
 
 export interface ArticleFormData {

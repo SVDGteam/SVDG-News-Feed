@@ -16,12 +16,13 @@ export default function Navigation() {
   const pathname = usePathname()
 
   return (
-    <header className="bg-svdg-pea-coat sticky top-0 z-50 border-b border-white/10">
+    <header className="bg-svdg-pea-coat sticky top-0 z-50 border-b border-white/10 relative">
+      <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-svdg-sky-dancer/50 to-transparent" />
       <div className="max-w-screen-xl mx-auto px-4">
         <div className="flex items-center justify-between h-14">
           {/* Logo / brand */}
           <Link href="/" className="flex items-center gap-2.5 shrink-0">
-            <Image src="/brand/logomark.svg" alt="" width={24} height={24} className="opacity-90" />
+            <Image src="/brand/logomark-white.png" alt="SVDG" width={24} height={25} className="opacity-95" />
             <span className="font-display font-bold tracking-tight text-base text-white leading-none">
               SVDG&apos;s Red Folder
             </span>

@@ -167,7 +167,7 @@ export default function ArticleForm({ article }: Props) {
       )}
 
       {/* ── Core fields ───────────────────────────────────────────── */}
-      <section className="bg-svdg-surface/70 border border-white/10 rounded-lg p-5 space-y-4">
+      <section className="bg-svdg-surface/95 border border-white/10 rounded-lg p-5 space-y-4">
         <h2 className="text-sm font-semibold text-slate-200 border-b border-white/10 pb-2">Article</h2>
 
         <div>
@@ -250,7 +250,7 @@ export default function ArticleForm({ article }: Props) {
       </section>
 
       {/* ── Categories ────────────────────────────────────────────── */}
-      <section className="bg-svdg-surface/70 border border-white/10 rounded-lg p-5">
+      <section className="bg-svdg-surface/95 border border-white/10 rounded-lg p-5">
         <h2 className="text-sm font-semibold text-slate-200 border-b border-white/10 pb-2 mb-3">
           Categories * <span className="font-normal text-svdg-french-gray">(select all that apply)</span>
         </h2>
@@ -273,7 +273,7 @@ export default function ArticleForm({ article }: Props) {
       </section>
 
       {/* ── Tags ──────────────────────────────────────────────────── */}
-      <section className="bg-svdg-surface/70 border border-white/10 rounded-lg p-5">
+      <section className="bg-svdg-surface/95 border border-white/10 rounded-lg p-5">
         <h2 className="text-sm font-semibold text-slate-200 border-b border-white/10 pb-2 mb-3">Tags</h2>
         <div className="flex flex-wrap gap-1.5 mb-3">
           {form.tags.map((tag) => (
@@ -315,7 +315,7 @@ export default function ArticleForm({ article }: Props) {
       </section>
 
       {/* ── Meta ─────────────────────────────────────────────────── */}
-      <section className="bg-svdg-surface/70 border border-white/10 rounded-lg p-5 space-y-4">
+      <section className="bg-svdg-surface/95 border border-white/10 rounded-lg p-5 space-y-4">
         <h2 className="text-sm font-semibold text-slate-200 border-b border-white/10 pb-2">Metadata</h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
@@ -396,7 +396,7 @@ export default function ArticleForm({ article }: Props) {
       </section>
 
       {/* ── Relevance Scoring ─────────────────────────────────────── */}
-      <section className="bg-svdg-surface/70 border border-white/10 rounded-lg p-5 space-y-4">
+      <section className="bg-svdg-surface/95 border border-white/10 rounded-lg p-5 space-y-4">
         <h2 className="text-sm font-semibold text-slate-200 border-b border-white/10 pb-2">Relevance Scoring</h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">

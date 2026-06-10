@@ -1,213 +1,23 @@
 [
   {
-    "title": "Anduril Industries Wins $250M DoD Contract for Lattice OS Integration",
-    "url": "https://example.com/anduril-lattice-contract",
-    "source": "Defense News",
-    "author": "Sarah Chen",
-    "datePublished": "2026-06-07",
-    "dateAdded": "2026-06-08",
+    "id": "7c2a9ae3-532f-478f-9424-51943b00d21f",
+    "title": "French Interceptor Startup Alta Ares Raises €50M Series A",
+    "url": "https://www.tectonicdefense.com/french-interceptor-startup-alta-ares-raises-e50m-series-a/",
+    "source": "Tectonic",
+    "datePublished": "2026-06-09",
+    "dateAdded": "2026-06-10",
     "categories": [
-      "Industry News"
-    ],
-    "tags": [
-      "AI",
-      "Software",
-      "Defense Startup",
-      "DoD",
-      "C2"
-    ],
-    "shortDescription": "Anduril has secured a $250M contract to integrate its Lattice OS command-and-control platform across multiple combatant commands, marking one of the largest software-defined defense awards of the year.",
-    "whyItMatters": "Lattice winning at this scale validates the software-defined defense thesis. Directly relevant to NatSec100 tracking and Industry Council conversations about software eating defense.",
-    "relevanceScore": 92,
-    "scoreBreakdown": {
-      "recency": 30,
-      "svdgRelevance": 35,
-      "sourceQuality": 15,
-      "workstreamRelevance": 6,
-      "sponsorNatSec100": 5
-    },
-    "isScoreOverridden": false,
-    "status": "Featured",
-    "region": "US",
-    "companyMentions": [
-      "Anduril Industries"
-    ],
-    "addedBy": "Simone",
-    "isArchived": false,
-    "isFeatured": true,
-    "svdgRelevanceLevel": "High",
-    "sourceQualityLevel": "High",
-    "workstreams": [
-      "NatSec100",
-      "Newsletter"
-    ],
-    "sponsorNatSec100Relevance": "Direct",
-    "id": "171f32f9-ba21-45c8-875a-0aa921726979",
-    "createdAt": "2026-06-09T23:37:07.002Z",
-    "updatedAt": "2026-06-09T23:37:07.002Z"
-  },
-  {
-    "title": "Shield AI Closes $300M Series F, Doubles Down on Autonomous Fighter Operations",
-    "url": "https://example.com/shield-ai-series-f",
-    "source": "TechCrunch",
-    "author": "Marcus Delgado",
-    "datePublished": "2026-06-05",
-    "dateAdded": "2026-06-06",
-    "categories": [
-      "Industry News",
-      "Investor News"
-    ],
-    "tags": [
-      "AI",
-      "Autonomy",
-      "Drones",
-      "Defense Startup",
-      "Venture Capital"
-    ],
-    "shortDescription": "Shield AI has raised $300M in Series F funding at a $2.7B valuation, with proceeds earmarked for scaling Hivemind autonomous flight operations across fixed-wing and rotary-wing platforms.",
-    "whyItMatters": "Shield AI's continued growth at pace validates the autonomous aviation category and is directly relevant to SVDG's NatSec100 list and investor tracking.",
-    "relevanceScore": 88,
-    "scoreBreakdown": {
-      "recency": 30,
-      "svdgRelevance": 35,
-      "sourceQuality": 15,
-      "workstreamRelevance": 6,
-      "sponsorNatSec100": 5
-    },
-    "isScoreOverridden": false,
-    "status": "Reviewed",
-    "region": "US",
-    "companyMentions": [
-      "Shield AI"
-    ],
-    "addedBy": "Simone",
-    "isArchived": false,
-    "isFeatured": false,
-    "svdgRelevanceLevel": "High",
-    "sourceQualityLevel": "High",
-    "workstreams": [
-      "NatSec100",
-      "Capital Formation"
-    ],
-    "sponsorNatSec100Relevance": "Direct",
-    "id": "02b2e705-cf9f-44e6-8f88-57ff569968d3",
-    "createdAt": "2026-06-09T23:37:07.002Z",
-    "updatedAt": "2026-06-09T23:37:07.002Z"
-  },
-  {
-    "title": "Palantir Expands Maven Smart System to Army Brigade Combat Teams",
-    "url": "https://example.com/palantir-maven-army",
-    "source": "C4ISRNET",
-    "author": "Lisa Torres",
-    "datePublished": "2026-06-03",
-    "dateAdded": "2026-06-04",
-    "categories": [
-      "Industry News",
-      "Government News"
-    ],
-    "tags": [
-      "AI",
-      "Software",
-      "DoD",
-      "Army",
-      "Intelligence",
-      "C2"
-    ],
-    "shortDescription": "Palantir's Maven Smart System is being rolled out to Army brigade combat teams following a successful pilot, deepening the company's foothold in tactical AI decision-support.",
-    "whyItMatters": "This is a bellwether for AI adoption at the tactical edge — a model SVDG should track for the \"government adoption of emerging tech\" narrative.",
-    "relevanceScore": 82,
-    "scoreBreakdown": {
-      "recency": 25,
-      "svdgRelevance": 35,
-      "sourceQuality": 15,
-      "workstreamRelevance": 6,
-      "sponsorNatSec100": 0
-    },
-    "isScoreOverridden": false,
-    "status": "Reviewed",
-    "region": "US",
-    "companyMentions": [
-      "Palantir"
-    ],
-    "addedBy": "Simone",
-    "isArchived": false,
-    "isFeatured": false,
-    "svdgRelevanceLevel": "High",
-    "sourceQualityLevel": "High",
-    "workstreams": [
-      "NatSec100",
-      "Newsletter"
-    ],
-    "sponsorNatSec100Relevance": "Direct",
-    "id": "ef4a0826-7247-4149-bfc2-15046e19e468",
-    "createdAt": "2026-06-09T23:37:07.002Z",
-    "updatedAt": "2026-06-09T23:37:07.002Z"
-  },
-  {
-    "title": "Hadrian Raises $117M to Scale Precision Manufacturing for Defense Supply Chain",
-    "url": "https://example.com/hadrian-manufacturing",
-    "source": "The Information",
-    "author": "Jessica Park",
-    "datePublished": "2026-05-30",
-    "dateAdded": "2026-05-31",
-    "categories": [
-      "Industry News"
-    ],
-    "tags": [
-      "Manufacturing",
-      "Industrial Base",
-      "Supply Chain",
-      "Defense Startup",
-      "Venture Capital"
-    ],
-    "shortDescription": "Hadrian, the AI-native precision machining company, has closed $117M in growth equity to expand its factory network and take on more DoD-critical components production.",
-    "whyItMatters": "Hadrian is one of the clearest examples of the industrial base modernization thesis. Relevant to SVDG's conversations about manufacturing and supply chain resilience.",
-    "relevanceScore": 78,
-    "scoreBreakdown": {
-      "recency": 25,
-      "svdgRelevance": 35,
-      "sourceQuality": 8,
-      "workstreamRelevance": 10,
-      "sponsorNatSec100": 0
-    },
-    "isScoreOverridden": false,
-    "status": "Reviewed",
-    "region": "US",
-    "companyMentions": [
-      "Hadrian"
-    ],
-    "addedBy": "Simone",
-    "isArchived": false,
-    "isFeatured": false,
-    "svdgRelevanceLevel": "High",
-    "sourceQualityLevel": "Medium",
-    "workstreams": [
-      "NatSec100",
-      "Industry Council"
-    ],
-    "sponsorNatSec100Relevance": "Ecosystem",
-    "id": "343de25b-ab7c-457e-af32-a9a04db9a14e",
-    "createdAt": "2026-06-09T23:37:07.002Z",
-    "updatedAt": "2026-06-09T23:37:07.002Z"
-  },
-  {
-    "title": "General Catalyst Launches $1B Defense Innovation Fund",
-    "url": "https://example.com/general-catalyst-defense-fund",
-    "source": "Wall Street Journal",
-    "author": "Alex Rivera",
-    "datePublished": "2026-06-06",
-    "dateAdded": "2026-06-07",
-    "categories": [
-      "Investor News"
+      "Investor News",
+      "International"
     ],
     "tags": [
       "Venture Capital",
+      "Drones",
       "Defense Startup",
-      "Capital Formation",
-      "Dual-Use"
+      "NATO"
     ],
-    "shortDescription": "General Catalyst has announced a dedicated $1B defense innovation fund, joining a growing cohort of top-tier VCs making explicit bets on the defense technology ecosystem.",
-    "whyItMatters": "Major signal for SVDG's capital formation and Industry Council work. Tier-1 VC institutionalizing defense is a story SVDG should be tracking and amplifying.",
+    "shortDescription": "French counter-drone startup Alta Ares raised a €50M ($58M) Series A led by Air Street Capital (with Cherry Ventures, OTB Ventures, and Harpoon Ventures) to scale production of its X-Lock and Black Bird interceptors, already deployed across three active conflict zones.",
+    "whyItMatters": "A ~25x jump from a €2M seed to a €50M Series A in about a year, built on real battlefield traction in Ukraine — a sharp data point on how fast European counter-drone demand (and capital) is moving, and a useful comp for any portfolio companies in the C-UAS/interceptor space.",
     "relevanceScore": 90,
     "scoreBreakdown": {
       "recency": 30,
@@ -217,46 +27,479 @@
       "sponsorNatSec100": 0
     },
     "isScoreOverridden": false,
-    "status": "Featured",
-    "region": "US",
+    "status": "Reviewed",
+    "region": "Europe",
     "companyMentions": [
-      "General Catalyst"
+      "Alta Ares",
+      "Air Street Capital",
+      "Cherry Ventures",
+      "OTB Ventures",
+      "Harpoon Ventures"
     ],
-    "addedBy": "Simone",
+    "addedBy": "AI Candidate",
     "isArchived": false,
-    "isFeatured": true,
+    "isFeatured": false,
     "svdgRelevanceLevel": "High",
     "sourceQualityLevel": "High",
     "workstreams": [
       "Capital Formation",
-      "Newsletter",
+      "International / Australia"
+    ],
+    "sponsorNatSec100Relevance": "None",
+    "createdAt": "2026-06-10T04:30:04.070Z",
+    "updatedAt": "2026-06-10T13:44:15.125Z",
+    "reactions": {
+      "85e2698c-821e-4450-8ec7-6bf1d42df616": "dislike"
+    }
+  },
+  {
+    "id": "a62d37d9-5421-4c65-ac9d-c543f486a3d1",
+    "title": "STARK Unveils Two New Drones — Cascade and Gambit",
+    "url": "https://www.tectonicdefense.com/stark-unveils-two-new-drones/",
+    "source": "Tectonic",
+    "datePublished": "2026-06-09",
+    "dateAdded": "2026-06-10",
+    "categories": [
+      "Industry News",
+      "International"
+    ],
+    "tags": [
+      "Drones",
+      "Munitions",
+      "Defense Startup",
+      "NATO"
+    ],
+    "shortDescription": "German drone unicorn STARK debuted two new systems at ILA Berlin — Cascade, a tube-launched 100km loitering munition, and Gambit, a man-portable ISR/strike quadcopter — both integrating with its Minerva swarm C2 system, alongside a new launcher partnership with UK's Force Development Services.",
+    "whyItMatters": "STARK is reportedly raising at a €2.5B+ valuation with NATO Innovation Fund backing and a ~€300M German government contract already in hand. This expansion (plus a new UK manufacturing/MoD push) is a good read on where European loitering munitions and swarm C2 are headed.",
+    "relevanceScore": 90,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 0
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "Europe",
+    "companyMentions": [
+      "Stark",
+      "Helsing",
+      "Rheinmetall",
+      "Quantum Systems",
+      "Force Development Services"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "International / Australia",
       "Industry Council"
     ],
     "sponsorNatSec100Relevance": "None",
-    "id": "5d6744af-95cb-4eb7-bfce-a056ba50fcb8",
-    "createdAt": "2026-06-09T23:37:07.002Z",
-    "updatedAt": "2026-06-09T23:37:07.002Z"
+    "createdAt": "2026-06-10T04:30:04.070Z",
+    "updatedAt": "2026-06-10T13:44:18.379Z",
+    "reactions": {
+      "85e2698c-821e-4450-8ec7-6bf1d42df616": "dislike"
+    }
   },
   {
-    "title": "CFIUS Clears Path for Allied Nation VC Investment in U.S. Defense Tech",
-    "url": "https://example.com/cfius-allied-vc",
-    "source": "Politico",
-    "author": "Diane Foster",
-    "datePublished": "2026-06-01",
-    "dateAdded": "2026-06-02",
+    "id": "66451b4e-fd09-4dff-b160-dd0b1430b078",
+    "title": "ICEYE and Isar Aerospace Announce Major European Funding Rounds",
+    "url": "https://payloadspace.com/iceye-isar-aerospace-announce-significant-funding-rounds/",
+    "source": "Payload",
+    "datePublished": "2026-06-09",
+    "dateAdded": "2026-06-10",
+    "categories": [
+      "Investor News",
+      "International"
+    ],
+    "tags": [
+      "Venture Capital",
+      "Space",
+      "Industrial Base"
+    ],
+    "shortDescription": "Finnish SAR satellite operator ICEYE raised a €450M Series F (€10B valuation, €1B+ with secondary) led by General Atlantic, and German launcher Isar Aerospace raised a €270M Series D ahead of its Spectrum rocket's qualification flight — together more than half of all European space VC raised in 2025.",
+    "whyItMatters": "Two of the largest European defense-space raises in recent memory landing the same morning — a strong signal that European 'sovereignty in orbit' capital formation is accelerating, relevant for anyone tracking international capital flows into defense-adjacent space.",
+    "relevanceScore": 75,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 0
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "Europe",
+    "companyMentions": [
+      "ICEYE",
+      "Isar Aerospace",
+      "General Atlantic"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Capital Formation",
+      "International / Australia"
+    ],
+    "sponsorNatSec100Relevance": "None",
+    "createdAt": "2026-06-10T04:30:04.070Z",
+    "updatedAt": "2026-06-10T04:30:04.070Z",
+    "reactions": {}
+  },
+  {
+    "id": "60d70c33-aeb0-4b1c-b4eb-511cc445c7aa",
+    "title": "Quantum Space to Go Public Via SPAC at $1.2B Valuation",
+    "url": "https://payloadspace.com/quantum-space-to-go-public-via-spac/",
+    "source": "Payload",
+    "datePublished": "2026-06-09",
+    "dateAdded": "2026-06-10",
     "categories": [
       "Investor News",
       "Government News"
     ],
     "tags": [
-      "CFIUS",
-      "Export Controls",
+      "Space",
       "Venture Capital",
-      "Policy",
+      "DoD"
+    ],
+    "shortDescription": "In-space mobility company Quantum Space announced it will go public via merger with Inflection Point Acquisition Corp. VI, valuing it at $1.2B post-merger. New CEO Jim Bridenstine (former NASA Administrator) said the SPAC route is about speed — the company has six contracts/proposals with Space Force, DARPA, and AFRL.",
+    "whyItMatters": "Another national-security space company choosing SPAC-speed over a traditional IPO to chase Pentagon demand — worth watching as a capital-formation pattern, especially with SpaceX's Nasdaq debut the same week putting space/defense IPO economics in the spotlight.",
+    "relevanceScore": 76,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Quantum Space",
+      "Inflection Point Acquisition Corp.",
+      "Intuitive Machines"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Capital Formation"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "createdAt": "2026-06-10T04:30:04.070Z",
+    "updatedAt": "2026-06-10T04:30:04.070Z",
+    "reactions": {}
+  },
+  {
+    "id": "518a9c97-3d36-468b-87b7-4d39d86d7602",
+    "title": "NewOrbit Raises $18.5M Series A to Build VLEO Satellites",
+    "url": "https://payloadspace.com/neworbit-raises-18-5m-to-build-vleo-spacecraft-at-scale/",
+    "source": "Payload",
+    "datePublished": "2026-06-08",
+    "dateAdded": "2026-06-10",
+    "categories": [
+      "Investor News",
+      "International"
+    ],
+    "tags": [
+      "Space",
+      "Venture Capital",
+      "Defense Startup"
+    ],
+    "shortDescription": "UK startup NewOrbit raised an oversubscribed $18.5M Series A led by Voyager Ventures to build very-low-earth-orbit (VLEO) satellites, targeting a first demo flight of its NEO-1 spacecraft in 2028 and a UK production facility scaling toward 100+ sats/year.",
+    "whyItMatters": "VLEO is shaping up as a real niche for next-gen ISR/comms (higher resolution, lower latency, less debris) — an early-stage UK play worth knowing about even if first flight is still a couple years out.",
+    "relevanceScore": 55,
+    "scoreBreakdown": {
+      "recency": 25,
+      "svdgRelevance": 5,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 0
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "UK",
+    "companyMentions": [
+      "NewOrbit",
+      "Voyager Ventures"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Low",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Capital Formation",
       "International / Australia"
     ],
-    "shortDescription": "Treasury officials have issued new guidance clarifying that VC funds from Five Eyes allied nations will face a streamlined CFIUS review process for investments in U.S. dual-use technology.",
-    "whyItMatters": "Directly relevant to SVDG's allied tech and capital formation workstreams. Opens the door for AUKUS-aligned capital and is a policy win worth tracking.",
+    "sponsorNatSec100Relevance": "None",
+    "createdAt": "2026-06-10T04:30:04.070Z",
+    "updatedAt": "2026-06-10T04:30:04.070Z",
+    "reactions": {}
+  },
+  {
+    "id": "71df2bc0-4c18-4772-818c-c6ea44314eda",
+    "title": "Congress Sends Ukraine Aid Signal as Senate Begins NDAA Markup",
+    "url": "https://punchbowl.news/?p=156742",
+    "source": "Punchbowl News",
+    "datePublished": "2026-06-07",
+    "dateAdded": "2026-06-10",
+    "categories": [
+      "Government News"
+    ],
+    "tags": [
+      "Congress",
+      "NDAA",
+      "Budget"
+    ],
+    "shortDescription": "The House passed a Russia-sanctions/Ukraine-aid bill 226-195 via discharge petition (with 18 Republicans crossing over), though its fate in the Senate remains uncertain even as Sen. Lindsey Graham says his own sanctions bill is 'very close.' Separately, the House Armed Services Committee quietly tucked notable provisions into its FY27 NDAA — new munitions-inventory reporting requirements, support for the Boeing-built E-7 Wedgetail radar plane, and language on troop posture in Korea and Poland — as the Senate Armed Services Committee kicks off its own markup this week.",
+    "whyItMatters": "NDAA markup season is when a lot of program-level winners and losers get decided — the E-7 Wedgetail fight, munitions-stockpile reporting, and the Ukraine-aid standoff are all worth tracking for anyone gauging where Hill attention (and money) is heading this cycle.",
+    "relevanceScore": 81,
+    "scoreBreakdown": {
+      "recency": 25,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 0
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Boeing"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Policy"
+    ],
+    "sponsorNatSec100Relevance": "None",
+    "createdAt": "2026-06-10T04:30:04.070Z",
+    "updatedAt": "2026-06-10T04:30:04.070Z",
+    "reactions": {}
+  },
+  {
+    "id": "804419fc-bceb-4beb-9074-a82cecdcb9cd",
+    "title": "Bipartisan AI Framework Draft Lands — and Gets a Cool Reception",
+    "url": "https://punchbowl.news/?p=156728",
+    "source": "Punchbowl News",
+    "datePublished": "2026-06-07",
+    "dateAdded": "2026-06-10",
+    "categories": [
+      "Government News"
+    ],
+    "tags": [
+      "AI",
+      "Congress"
+    ],
+    "shortDescription": "Reps. Obernolte (R-Calif.) and Trahan (D-Mass.) released a ~300-page bipartisan AI regulation discussion draft — including mandatory audits for the most powerful models and a 3-year preemption of state AI development laws — but leadership on both sides quickly signaled it's not the final answer, and the coalition that killed last year's 10-year moratorium has reassembled against it.",
+    "whyItMatters": "The most serious bipartisan AI-framework attempt yet, and the state-preemption fight is the same one that's been looming over every dual-use AI company — worth tracking for anyone whose portfolio touches frontier-model policy or state-level AI compliance.",
+    "relevanceScore": 66,
+    "scoreBreakdown": {
+      "recency": 25,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 0
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "OpenAI"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Policy"
+    ],
+    "sponsorNatSec100Relevance": "None",
+    "createdAt": "2026-06-10T04:30:04.070Z",
+    "updatedAt": "2026-06-10T04:30:04.070Z",
+    "reactions": {}
+  },
+  {
+    "id": "498dc513-6510-469c-8269-59103d088b89",
+    "title": "Bipartisan AI Framework Draft Lands — and Gets a Cool Reception",
+    "url": "https://punchbowl.news/article/tech/ober-trahan-ai/",
+    "source": "Punchbowl News",
+    "datePublished": "2026-06-07",
+    "dateAdded": "2026-06-10",
+    "categories": [
+      "Government News"
+    ],
+    "tags": [
+      "AI",
+      "Congress"
+    ],
+    "shortDescription": "Reps. Obernolte (R-Calif.) and Trahan (D-Mass.) released a ~300-page bipartisan AI regulation discussion draft — including mandatory audits for the most powerful models and a 3-year preemption of state AI development laws — but leadership on both sides quickly signaled it's not the final answer, and the coalition that killed last year's 10-year moratorium has reassembled against it.",
+    "whyItMatters": "The most serious bipartisan AI-framework attempt yet, and the state-preemption fight is the same one that's been looming over every dual-use AI company — worth tracking for anyone whose portfolio touches frontier-model policy or state-level AI compliance.",
+    "relevanceScore": 66,
+    "scoreBreakdown": {
+      "recency": 25,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 0
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "OpenAI"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Policy"
+    ],
+    "sponsorNatSec100Relevance": "None",
+    "createdAt": "2026-06-10T04:35:09.733Z",
+    "updatedAt": "2026-06-10T04:35:09.733Z",
+    "reactions": {}
+  },
+  {
+    "id": "90cd01cc-23fa-4206-89ce-44f450de2c16",
+    "title": "Autonomous Saronic Drone Boat Rescues Downed Apache Crew Near Strait of Hormuz",
+    "url": "https://defensescoop.com/2026/06/09/autonomous-maritime-drone-rescues-apache-pilots-after-crash/",
+    "source": "DefenseScoop",
+    "datePublished": "2026-06-09",
+    "dateAdded": "2026-06-10",
+    "categories": [
+      "Industry News",
+      "International"
+    ],
+    "tags": [
+      "Maritime",
+      "Drones",
+      "NatSec100",
+      "Autonomy"
+    ],
+    "shortDescription": "A Saronic-built Corsair autonomous surface vessel helped locate and recover two U.S. Army aviators within about two hours after their AH-64 Apache went down near the Strait of Hormuz on Monday — the first publicized combat use of a USV for aircrew rescue.",
+    "whyItMatters": "This is the kind of real-world validation NatSec100 companies dream about — an unmanned platform doing a job that used to put more lives at risk, in a live theater. Expect this in Saronic's next pitch deck and in every DoD autonomy talking point for a while.",
+    "relevanceScore": 96,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 10
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Saronic",
+      "U.S. Navy"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "NatSec100"
+    ],
+    "sponsorNatSec100Relevance": "Direct",
+    "createdAt": "2026-06-10T04:35:09.733Z",
+    "updatedAt": "2026-06-10T13:44:26.867Z",
+    "reactions": {
+      "85e2698c-821e-4450-8ec7-6bf1d42df616": "like"
+    }
+  },
+  {
+    "id": "a00400a7-679d-4b24-8d10-489461a37f8b",
+    "title": "Antares Nuclear Reaches Criticality Milestone for Mark-0 Microreactor at Idaho National Lab",
+    "url": "https://www.businesswire.com/news/home/20260604167405/en/Antares-Achieves-Initial-Criticality-of-a-Privately-Developed-Advanced-Reactor-Under-DOE-Pilot-Program",
+    "source": "Business Wire",
+    "datePublished": "2026-06-04",
+    "dateAdded": "2026-06-10",
+    "categories": [
+      "Sponsor News",
+      "Industry News"
+    ],
+    "tags": [
+      "Nuclear",
+      "Energy",
+      "Industrial Base",
+      "Sponsor"
+    ],
+    "shortDescription": "Antares' Mark-0 demonstrator reactor achieved zero-power criticality at Idaho National Lab on June 4 — the first privately developed advanced reactor to do so under DOE's Reactor Pilot Program, and the first new reactor design to go critical at INL in over 50 years.",
+    "whyItMatters": "Big one for SVDG sponsor Antares — this de-risks their path to fielding factory-built microreactors at military installations by 2028. A real sponsor win worth flagging to the group, and a sign DOE's pilot program is actually delivering.",
+    "relevanceScore": 95,
+    "scoreBreakdown": {
+      "recency": 25,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 10
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "sponsorName": "Antares Industries",
+    "companyMentions": [
+      "Antares Nuclear",
+      "Department of Energy",
+      "Idaho National Laboratory",
+      "U.S. Army",
+      "BWXT"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Sponsor Engagement",
+      "NatSec100"
+    ],
+    "sponsorNatSec100Relevance": "Direct",
+    "createdAt": "2026-06-10T04:35:09.733Z",
+    "updatedAt": "2026-06-10T13:44:25.391Z",
+    "reactions": {
+      "85e2698c-821e-4450-8ec7-6bf1d42df616": "like"
+    }
+  },
+  {
+    "id": "38861c46-e6b4-442f-b457-53e0a9cd130f",
+    "title": "Wartime Footing: A Two-Front Strategy to Confront China and Russia",
+    "url": "https://www.csis.org/analysis/wartime-footing-two-front-strategy-confront-china-and-russia",
+    "source": "CSIS",
+    "author": "Seth G. Jones, Seamus P. Daniels, Riley McCabe, and Daniel Byman",
+    "datePublished": "2026-06-08",
+    "dateAdded": "2026-06-10",
+    "categories": [
+      "Government News",
+      "Opinions"
+    ],
+    "tags": [
+      "Industrial Base",
+      "Acquisition Reform",
+      "Manufacturing",
+      "Supply Chain"
+    ],
+    "shortDescription": "A new CSIS report argues the US needs a two-war planning construct -- Indo-Pacific first, Europe second -- and a rapid shift of the defense industrial base to a wartime footing to counter a China-Russia axis.",
+    "whyItMatters": "This is the kind of framing that shapes where the Pentagon and Congress steer industrial-base dollars next -- worth a skim for anyone tracking capital and contract flows into munitions, air defense, and unmanned systems.",
     "relevanceScore": 85,
     "scoreBreakdown": {
       "recency": 25,
@@ -269,779 +512,120 @@
     "status": "Reviewed",
     "region": "US",
     "companyMentions": [],
-    "addedBy": "Simone",
+    "addedBy": "AI Candidate",
     "isArchived": false,
     "isFeatured": false,
     "svdgRelevanceLevel": "High",
     "sourceQualityLevel": "High",
     "workstreams": [
-      "Capital Formation",
       "Policy",
-      "International / Australia"
-    ],
-    "sponsorNatSec100Relevance": "None",
-    "id": "846ae6c2-eee9-4a11-93ee-003717e31edf",
-    "createdAt": "2026-06-09T23:37:07.002Z",
-    "updatedAt": "2026-06-09T23:37:07.002Z"
-  },
-  {
-    "title": "In-Q-Tel Expands Commercial Investment Mandate to Include Manufacturing Tech",
-    "url": "https://example.com/inqtel-manufacturing-expansion",
-    "source": "Defense One",
-    "author": "Tom Weston",
-    "datePublished": "2026-05-26",
-    "dateAdded": "2026-05-27",
-    "categories": [
-      "Investor News",
-      "Government News"
-    ],
-    "tags": [
-      "Manufacturing",
-      "Industrial Base",
-      "Venture Capital",
-      "Intelligence",
-      "DARPA"
-    ],
-    "shortDescription": "In-Q-Tel has formally expanded its investment scope to include advanced manufacturing and supply chain technologies following congressional direction in last year's NDAA.",
-    "whyItMatters": "IQT moving into manufacturing signals growing intelligence community interest in the industrial base — relevant to SVDG's supply chain and NatSec100 work.",
-    "relevanceScore": 72,
-    "scoreBreakdown": {
-      "recency": 15,
-      "svdgRelevance": 35,
-      "sourceQuality": 15,
-      "workstreamRelevance": 6,
-      "sponsorNatSec100": 0
-    },
-    "isScoreOverridden": false,
-    "status": "Reviewed",
-    "region": "US",
-    "companyMentions": [
-      "In-Q-Tel"
-    ],
-    "addedBy": "Simone",
-    "isArchived": false,
-    "isFeatured": false,
-    "svdgRelevanceLevel": "High",
-    "sourceQualityLevel": "High",
-    "workstreams": [
-      "NatSec100",
       "Capital Formation"
     ],
     "sponsorNatSec100Relevance": "None",
-    "id": "62e2fc5b-0ad5-47a8-aa25-0d77ce95ba33",
-    "createdAt": "2026-06-09T23:37:07.002Z",
-    "updatedAt": "2026-06-09T23:37:07.002Z"
+    "createdAt": "2026-06-10T11:41:42.841Z",
+    "updatedAt": "2026-06-10T13:44:29.544Z",
+    "reactions": {
+      "85e2698c-821e-4450-8ec7-6bf1d42df616": "like"
+    }
   },
   {
-    "title": "DIU Awards 12 OTAs Under New Rapid Commercial Technology Initiative",
-    "url": "https://example.com/diu-ota-rapid-commercial",
-    "source": "DIU.mil",
-    "datePublished": "2026-06-08",
-    "dateAdded": "2026-06-08",
-    "categories": [
-      "Government News"
-    ],
-    "tags": [
-      "DIU",
-      "DoD",
-      "Acquisition Reform",
-      "Defense Startup",
-      "Dual-Use"
-    ],
-    "shortDescription": "The Defense Innovation Unit has issued 12 Other Transaction Authority awards under its new Rapid Commercial Technology initiative, designed to compress the timeline from commercial prototype to program of record.",
-    "whyItMatters": "DIU OTAs are a key pathway for NatSec100 companies. This is a direct relevance signal for SVDG's acquisition reform and Industry Council workstreams.",
-    "relevanceScore": 94,
-    "scoreBreakdown": {
-      "recency": 30,
-      "svdgRelevance": 35,
-      "sourceQuality": 15,
-      "workstreamRelevance": 10,
-      "sponsorNatSec100": 5
-    },
-    "isScoreOverridden": false,
-    "status": "Featured",
-    "region": "US",
-    "companyMentions": [
-      "DIU"
-    ],
-    "addedBy": "Simone",
-    "isArchived": false,
-    "isFeatured": true,
-    "svdgRelevanceLevel": "High",
-    "sourceQualityLevel": "High",
-    "workstreams": [
-      "NatSec100",
-      "Policy",
-      "Industry Council",
-      "Newsletter"
-    ],
-    "sponsorNatSec100Relevance": "Ecosystem",
-    "id": "4755e26a-681a-450a-9e36-05f0cbaa1b55",
-    "createdAt": "2026-06-09T23:37:07.002Z",
-    "updatedAt": "2026-06-09T23:37:07.002Z"
-  },
-  {
-    "title": "Senate Armed Services Marks Up NDAA with Major Acquisition Reform Language",
-    "url": "https://example.com/sasc-ndaa-acquisition-reform",
-    "source": "Politico",
-    "author": "Rachel Kim",
-    "datePublished": "2026-06-04",
-    "dateAdded": "2026-06-05",
-    "categories": [
-      "Government News"
-    ],
-    "tags": [
-      "NDAA",
-      "Acquisition Reform",
-      "Congress",
-      "DoD",
-      "Budget",
-      "Policy"
-    ],
-    "shortDescription": "SASC has approved markup language that would streamline mid-tier acquisition pathways, expand DIU authority, and create a new rapid fielding fund within the FYDP.",
-    "whyItMatters": "This is the most significant acquisition reform language in years — directly relevant to SVDG's policy work and how NatSec100 companies navigate the procurement system.",
-    "relevanceScore": 89,
-    "scoreBreakdown": {
-      "recency": 30,
-      "svdgRelevance": 35,
-      "sourceQuality": 15,
-      "workstreamRelevance": 10,
-      "sponsorNatSec100": 0
-    },
-    "isScoreOverridden": false,
-    "status": "Reviewed",
-    "region": "US",
-    "companyMentions": [],
-    "addedBy": "Simone",
-    "isArchived": false,
-    "isFeatured": false,
-    "svdgRelevanceLevel": "High",
-    "sourceQualityLevel": "High",
-    "workstreams": [
-      "Policy",
-      "Newsletter"
-    ],
-    "sponsorNatSec100Relevance": "None",
-    "id": "19c3e749-bdbf-469b-8dd9-8ffe590cd669",
-    "createdAt": "2026-06-09T23:37:07.002Z",
-    "updatedAt": "2026-06-09T23:37:07.002Z"
-  },
-  {
-    "title": "CDAO Releases AI Assurance Framework for DoD Autonomous Systems",
-    "url": "https://example.com/cdao-ai-assurance",
-    "source": "DoD.gov",
-    "datePublished": "2026-05-31",
-    "dateAdded": "2026-06-01",
-    "categories": [
-      "Government News"
-    ],
-    "tags": [
-      "AI",
-      "Autonomy",
-      "CDAO",
-      "DoD",
-      "Policy",
-      "Software"
-    ],
-    "shortDescription": "The Chief Digital and AI Office has published its AI Assurance Framework, providing the testing and validation requirements DoD programs must meet before fielding AI-enabled autonomous systems.",
-    "whyItMatters": "Sets the compliance bar for AI companies working toward DoD contracts. SVDG should understand and communicate these requirements to NatSec100 companies and sponsors.",
-    "relevanceScore": 80,
-    "scoreBreakdown": {
-      "recency": 25,
-      "svdgRelevance": 35,
-      "sourceQuality": 15,
-      "workstreamRelevance": 6,
-      "sponsorNatSec100": 0
-    },
-    "isScoreOverridden": false,
-    "status": "Reviewed",
-    "region": "US",
-    "companyMentions": [
-      "CDAO"
-    ],
-    "addedBy": "Simone",
-    "isArchived": false,
-    "isFeatured": false,
-    "svdgRelevanceLevel": "High",
-    "sourceQualityLevel": "High",
-    "workstreams": [
-      "Policy",
-      "NatSec100"
-    ],
-    "sponsorNatSec100Relevance": "None",
-    "id": "33416b0e-d5ae-4054-a0d2-77b40995934a",
-    "createdAt": "2026-06-09T23:37:07.002Z",
-    "updatedAt": "2026-06-09T23:37:07.002Z"
-  },
-  {
-    "title": "Booz Allen Hamilton Acquires AI Startup Synergy Defense Labs",
-    "url": "https://example.com/bah-synergy-acquisition",
-    "source": "Federal Computer Week",
-    "author": "Patrick Nguyen",
-    "datePublished": "2026-06-06",
-    "dateAdded": "2026-06-07",
-    "categories": [
-      "Sponsor News",
-      "Industry News"
-    ],
-    "tags": [
-      "AI",
-      "Defense Startup",
-      "Acquisition Reform",
-      "DoD",
-      "Industry Council"
-    ],
-    "shortDescription": "Booz Allen Hamilton has acquired Synergy Defense Labs, an AI-powered mission analytics startup, to bolster its AI portfolio ahead of a major DoD cloud and analytics recompete.",
-    "whyItMatters": "BAH is a major SVDG sponsor. This acquisition signals their AI push and is relevant to Industry Council conversations about how primes are responding to startup innovation.",
-    "relevanceScore": 88,
-    "scoreBreakdown": {
-      "recency": 30,
-      "svdgRelevance": 35,
-      "sourceQuality": 8,
-      "workstreamRelevance": 10,
-      "sponsorNatSec100": 5
-    },
-    "isScoreOverridden": false,
-    "status": "Reviewed",
-    "region": "US",
-    "sponsorName": "Booz Allen Hamilton",
-    "companyMentions": [
-      "Booz Allen Hamilton",
-      "Synergy Defense Labs"
-    ],
-    "addedBy": "Simone",
-    "isArchived": false,
-    "isFeatured": false,
-    "svdgRelevanceLevel": "High",
-    "sourceQualityLevel": "Medium",
-    "workstreams": [
-      "Sponsor Engagement",
-      "Industry Council"
-    ],
-    "sponsorNatSec100Relevance": "Direct",
-    "id": "a7cddb68-4af9-4b03-bc27-ef91eb405894",
-    "createdAt": "2026-06-09T23:37:07.002Z",
-    "updatedAt": "2026-06-09T23:37:07.002Z"
-  },
-  {
-    "title": "L3Harris Technologies Named Prime on $1.8B Space Surveillance Program",
-    "url": "https://example.com/l3harris-space-surveillance",
-    "source": "Space News",
-    "author": "Emily Huang",
-    "datePublished": "2026-06-02",
-    "dateAdded": "2026-06-03",
-    "categories": [
-      "Sponsor News",
-      "Industry News"
-    ],
-    "tags": [
-      "Space",
-      "DoD",
-      "Intelligence",
-      "Industry Council"
-    ],
-    "shortDescription": "L3Harris has been awarded prime contractor status on a $1.8 billion Space Domain Awareness program for the National Reconnaissance Office.",
-    "whyItMatters": "L3Harris is a key SVDG sponsor. This win expands their space portfolio and is relevant to SVDG's space and intelligence tracking.",
-    "relevanceScore": 82,
-    "scoreBreakdown": {
-      "recency": 25,
-      "svdgRelevance": 35,
-      "sourceQuality": 15,
-      "workstreamRelevance": 6,
-      "sponsorNatSec100": 5
-    },
-    "isScoreOverridden": false,
-    "status": "Reviewed",
-    "region": "US",
-    "sponsorName": "L3Harris Technologies",
-    "companyMentions": [
-      "L3Harris Technologies",
-      "NRO"
-    ],
-    "addedBy": "Simone",
-    "isArchived": false,
-    "isFeatured": false,
-    "svdgRelevanceLevel": "High",
-    "sourceQualityLevel": "High",
-    "workstreams": [
-      "Sponsor Engagement"
-    ],
-    "sponsorNatSec100Relevance": "Direct",
-    "id": "789450b5-4cee-424d-b387-06c3a37ee57d",
-    "createdAt": "2026-06-09T23:37:07.002Z",
-    "updatedAt": "2026-06-09T23:37:07.002Z"
-  },
-  {
-    "title": "Leidos Launches New Autonomous Systems Division to Compete with Pure-Play Startups",
-    "url": "https://example.com/leidos-autonomous-systems-division",
-    "source": "Defense News",
-    "author": "Mark Olsen",
-    "datePublished": "2026-05-28",
-    "dateAdded": "2026-05-29",
-    "categories": [
-      "Sponsor News"
-    ],
-    "tags": [
-      "Autonomy",
-      "AI",
-      "Drones",
-      "Robotics",
-      "Industry Council"
-    ],
-    "shortDescription": "Leidos has stood up a standalone Autonomous Systems Division combining its AI, robotics, and unmanned platforms capabilities under a single P&L.",
-    "whyItMatters": "Leidos is a SVDG sponsor. Their structural reorganization around autonomy signals where the major primes think the next wave of defense tech revenue is coming from.",
-    "relevanceScore": 75,
-    "scoreBreakdown": {
-      "recency": 15,
-      "svdgRelevance": 35,
-      "sourceQuality": 15,
-      "workstreamRelevance": 6,
-      "sponsorNatSec100": 5
-    },
-    "isScoreOverridden": false,
-    "status": "Reviewed",
-    "region": "US",
-    "sponsorName": "Leidos",
-    "companyMentions": [
-      "Leidos"
-    ],
-    "addedBy": "Simone",
-    "isArchived": false,
-    "isFeatured": false,
-    "svdgRelevanceLevel": "High",
-    "sourceQualityLevel": "High",
-    "workstreams": [
-      "Sponsor Engagement",
-      "Industry Council"
-    ],
-    "sponsorNatSec100Relevance": "Direct",
-    "id": "13daa729-f864-4a4b-81ff-7813718dd341",
-    "createdAt": "2026-06-09T23:37:07.002Z",
-    "updatedAt": "2026-06-09T23:37:07.002Z"
-  },
-  {
-    "title": "Why the Defense Acquisition System Is Its Own Worst Enemy",
-    "url": "https://example.com/warontherocks-acquisition-system",
+    "id": "5d37b3d3-2806-454d-94b1-1837eb89f9d0",
+    "title": "The Lawmakers Fighting to Modernize the Pentagon",
+    "url": "https://warontherocks.com/cogs-of-war/the-lawmakers-fighting-to-modernize-the-pentagon/",
     "source": "War on the Rocks",
-    "author": "Colonel (Ret.) James Whitfield",
-    "datePublished": "2026-06-05",
-    "dateAdded": "2026-06-06",
-    "categories": [
-      "Opinions"
-    ],
-    "tags": [
-      "Acquisition Reform",
-      "DoD",
-      "Policy",
-      "Defense Startup"
-    ],
-    "shortDescription": "A retired acquisition officer argues that the Pentagon's risk-aversion culture — not funding — is the biggest barrier to adopting commercial innovation, and proposes three structural fixes.",
-    "whyItMatters": "This frames the acquisition reform debate in a way that directly supports SVDG's policy and Industry Council messaging. Worth quoting in newsletters and memos.",
-    "relevanceScore": 83,
-    "scoreBreakdown": {
-      "recency": 30,
-      "svdgRelevance": 35,
-      "sourceQuality": 15,
-      "workstreamRelevance": 10,
-      "sponsorNatSec100": 0
-    },
-    "isScoreOverridden": false,
-    "status": "Reviewed",
-    "region": "US",
-    "companyMentions": [],
-    "addedBy": "Simone",
-    "isArchived": false,
-    "isFeatured": false,
-    "svdgRelevanceLevel": "High",
-    "sourceQualityLevel": "High",
-    "workstreams": [
-      "Policy",
-      "Newsletter",
-      "Industry Council"
-    ],
-    "sponsorNatSec100Relevance": "None",
-    "id": "bec2545e-aa12-413b-b402-6d9075ac58a8",
-    "createdAt": "2026-06-09T23:37:07.002Z",
-    "updatedAt": "2026-06-09T23:37:07.002Z"
-  },
-  {
-    "title": "The Valley's Defense Awakening Is Real — But Don't Call It a Pivot",
-    "url": "https://example.com/vc-defense-awakening-essay",
-    "source": "Andreessen Horowitz",
-    "author": "Katherine Boyle",
-    "datePublished": "2026-05-29",
-    "dateAdded": "2026-05-30",
+    "author": "Rep. Pat Ryan, Rep. Rob Wittman, and Jonathan Panter",
+    "datePublished": "2026-06-08",
+    "dateAdded": "2026-06-10",
     "categories": [
       "Opinions",
-      "Investor News"
+      "Government News"
     ],
     "tags": [
-      "Venture Capital",
-      "Defense Startup",
-      "Dual-Use",
-      "Capital Formation"
+      "Acquisition Reform",
+      "Congress",
+      "DoD"
     ],
-    "shortDescription": "a16z General Partner Katherine Boyle argues that Silicon Valley's defense turn is a permanent philosophical reorientation, not a funding cycle, and maps what that means for founders and LPs.",
-    "whyItMatters": "This is one of the most-shared essays in the defense VC community. Directly relevant to SVDG's capital formation narrative and Industry Council positioning.",
-    "relevanceScore": 80,
+    "shortDescription": "Two House Armed Services Committee members make the case for accelerating Pentagon acquisition reform, arguing bureaucratic inertia -- not lack of technology -- is the biggest obstacle to fielding new capabilities faster.",
+    "whyItMatters": "Straight from the lawmakers driving acquisition reform -- a useful signal for where NDAA provisions and procurement pathways might open up for nontraditional vendors.",
+    "relevanceScore": 81,
+    "scoreBreakdown": {
+      "recency": 25,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 0
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Policy"
+    ],
+    "sponsorNatSec100Relevance": "None",
+    "createdAt": "2026-06-10T11:41:42.842Z",
+    "updatedAt": "2026-06-10T13:48:00.572Z",
+    "reactions": {
+      "85e2698c-821e-4450-8ec7-6bf1d42df616": "like"
+    }
+  },
+  {
+    "id": "f49a7b8f-ea70-4acd-b7c2-61264e50f45c",
+    "title": "France to Test Its Own AI-Powered Battlefield Command in June NATO Exercise",
+    "url": "https://www.c4isrnet.com/global/europe/2026/06/06/france-to-test-its-own-ai-powered-battlefield-command-in-june-nato-exercise/",
+    "source": "C4ISRNET",
+    "datePublished": "2026-06-06",
+    "dateAdded": "2026-06-10",
+    "categories": [
+      "International"
+    ],
+    "tags": [
+      "AI",
+      "C2",
+      "NATO"
+    ],
+    "shortDescription": "France will trial its homegrown AI battlefield command system, Arcadia -- built with Airbus and other French firms -- during a NATO interoperability exercise this month, positioning it as a sovereign alternative to Palantir's Maven.",
+    "whyItMatters": "A real data point on European appetite to build sovereign AI/C2 alternatives rather than buy American -- relevant context for any portfolio company eyeing the European C2/AI market.",
+    "relevanceScore": 71,
     "scoreBreakdown": {
       "recency": 25,
       "svdgRelevance": 20,
       "sourceQuality": 15,
-      "workstreamRelevance": 10,
-      "sponsorNatSec100": 0
-    },
-    "isScoreOverridden": true,
-    "originalCalculatedScore": 70,
-    "status": "Reviewed",
-    "region": "US",
-    "companyMentions": [
-      "Andreessen Horowitz",
-      "a16z"
-    ],
-    "addedBy": "Simone",
-    "isArchived": false,
-    "isFeatured": false,
-    "svdgRelevanceLevel": "Medium",
-    "sourceQualityLevel": "High",
-    "workstreams": [
-      "Capital Formation",
-      "Newsletter"
-    ],
-    "sponsorNatSec100Relevance": "None",
-    "id": "a8af6106-0143-4a7a-9fd2-2bf9a1775d74",
-    "createdAt": "2026-06-09T23:37:07.002Z",
-    "updatedAt": "2026-06-09T23:37:07.002Z"
-  },
-  {
-    "title": "America's Industrial Base Is Not Ready for a Peer Conflict — Here's Why",
-    "url": "https://example.com/csis-industrial-base-analysis",
-    "source": "CSIS",
-    "author": "Seth Jones",
-    "datePublished": "2026-05-22",
-    "dateAdded": "2026-05-23",
-    "categories": [
-      "Opinions",
-      "Government News"
-    ],
-    "tags": [
-      "Industrial Base",
-      "Manufacturing",
-      "Supply Chain",
-      "Policy",
-      "DoD"
-    ],
-    "shortDescription": "CSIS researchers publish a detailed assessment of U.S. defense industrial base capacity gaps across munitions, shipbuilding, microelectronics, and energetics, with near-term recommendations.",
-    "whyItMatters": "Authoritative policy document that underpins much of SVDG's industrial base narrative. Useful for talking points, newsletter framing, and sponsor engagement.",
-    "relevanceScore": 68,
-    "scoreBreakdown": {
-      "recency": 15,
-      "svdgRelevance": 35,
-      "sourceQuality": 15,
-      "workstreamRelevance": 0,
-      "sponsorNatSec100": 0
-    },
-    "isScoreOverridden": false,
-    "status": "Reviewed",
-    "region": "US",
-    "companyMentions": [
-      "CSIS"
-    ],
-    "addedBy": "Simone",
-    "isArchived": false,
-    "isFeatured": false,
-    "svdgRelevanceLevel": "High",
-    "sourceQualityLevel": "High",
-    "workstreams": [
-      "Policy"
-    ],
-    "sponsorNatSec100Relevance": "None",
-    "id": "4a973267-8400-4662-8638-eb5dda8d044d",
-    "createdAt": "2026-06-09T23:37:07.002Z",
-    "updatedAt": "2026-06-09T23:37:07.002Z"
-  },
-  {
-    "title": "AUKUS Pillar II Accelerates: Joint Autonomous Undersea Vehicle Program Announced",
-    "url": "https://example.com/aukus-pillar-ii-auv",
-    "source": "Australian Defence Magazine",
-    "author": "William Clarke",
-    "datePublished": "2026-06-06",
-    "dateAdded": "2026-06-07",
-    "categories": [
-      "International",
-      "Government News"
-    ],
-    "tags": [
-      "AUKUS",
-      "Maritime",
-      "Autonomy",
-      "Drones",
-      "International / Australia"
-    ],
-    "shortDescription": "Australia, UK, and U.S. officials have announced a joint program to co-develop and co-produce autonomous undersea vehicles under AUKUS Pillar II, with Australian industry participation from day one.",
-    "whyItMatters": "Strong signal for SVDG's Australia and AUKUS workstream. Autonomous maritime systems are a growing category and this confirms allied co-development is accelerating.",
-    "relevanceScore": 87,
-    "scoreBreakdown": {
-      "recency": 30,
-      "svdgRelevance": 35,
-      "sourceQuality": 8,
-      "workstreamRelevance": 10,
+      "workstreamRelevance": 6,
       "sponsorNatSec100": 5
-    },
-    "isScoreOverridden": false,
-    "status": "Featured",
-    "region": "Australia",
-    "companyMentions": [],
-    "addedBy": "Simone",
-    "isArchived": false,
-    "isFeatured": true,
-    "svdgRelevanceLevel": "High",
-    "sourceQualityLevel": "Medium",
-    "workstreams": [
-      "International / Australia",
-      "Newsletter"
-    ],
-    "sponsorNatSec100Relevance": "Ecosystem",
-    "id": "6bc23dc2-2431-4dd1-a382-fdf2975bd183",
-    "createdAt": "2026-06-09T23:37:07.002Z",
-    "updatedAt": "2026-06-09T23:37:07.002Z"
-  },
-  {
-    "title": "UK DASA Awards £45M to Eight Defense AI Startups Under Project Thornton",
-    "url": "https://example.com/uk-dasa-project-thornton",
-    "source": "Jane's Defence Weekly",
-    "author": "Sophie Archer",
-    "datePublished": "2026-06-02",
-    "dateAdded": "2026-06-03",
-    "categories": [
-      "International",
-      "Industry News"
-    ],
-    "tags": [
-      "AI",
-      "Autonomy",
-      "Defense Startup",
-      "Acquisition Reform"
-    ],
-    "shortDescription": "UK's Defence and Security Accelerator has awarded £45M across eight AI and autonomy startups as part of Project Thornton, a rapid fielding initiative modeled loosely on the U.S. DIU.",
-    "whyItMatters": "Directly relevant to SVDG's UK tracking and allied acquisition reform coverage. Worth monitoring which startups win to assess U.S. market entry potential.",
-    "relevanceScore": 78,
-    "scoreBreakdown": {
-      "recency": 25,
-      "svdgRelevance": 35,
-      "sourceQuality": 15,
-      "workstreamRelevance": 6,
-      "sponsorNatSec100": 0
-    },
-    "isScoreOverridden": false,
-    "status": "Reviewed",
-    "region": "UK",
-    "companyMentions": [
-      "DASA"
-    ],
-    "addedBy": "Simone",
-    "isArchived": false,
-    "isFeatured": false,
-    "svdgRelevanceLevel": "High",
-    "sourceQualityLevel": "High",
-    "workstreams": [
-      "International / Australia"
-    ],
-    "sponsorNatSec100Relevance": "None",
-    "id": "a56a069f-84a6-410a-bf3f-14b3f307ec46",
-    "createdAt": "2026-06-09T23:37:07.002Z",
-    "updatedAt": "2026-06-09T23:37:07.002Z"
-  },
-  {
-    "title": "European Defence Fund Announces €1.1B Call for AI and Cyber Proposals",
-    "url": "https://example.com/edf-ai-cyber-call",
-    "source": "Euractiv",
-    "author": "Pierre Moreau",
-    "datePublished": "2026-05-25",
-    "dateAdded": "2026-05-26",
-    "categories": [
-      "International",
-      "Investor News"
-    ],
-    "tags": [
-      "AI",
-      "Cyber",
-      "NATO",
-      "Venture Capital",
-      "Export Controls"
-    ],
-    "shortDescription": "The European Defence Fund has opened a €1.1 billion call for proposals focused on AI-enabled systems and cybersecurity, with strong preference for cross-border European consortia.",
-    "whyItMatters": "Growing European defense tech investment creates potential SVDG-relevant companies and partner organizations. Relevant to SVDG's international and capital formation tracking.",
-    "relevanceScore": 70,
-    "scoreBreakdown": {
-      "recency": 15,
-      "svdgRelevance": 35,
-      "sourceQuality": 8,
-      "workstreamRelevance": 6,
-      "sponsorNatSec100": 0
     },
     "isScoreOverridden": false,
     "status": "Reviewed",
     "region": "Europe",
     "companyMentions": [
-      "European Defence Fund"
+      "Airbus",
+      "Palantir"
     ],
-    "addedBy": "Simone",
-    "isArchived": false,
-    "isFeatured": false,
-    "svdgRelevanceLevel": "High",
-    "sourceQualityLevel": "Medium",
-    "workstreams": [
-      "International / Australia",
-      "Capital Formation"
-    ],
-    "sponsorNatSec100Relevance": "None",
-    "id": "b3269b57-734d-4d0e-a2b2-d9151cbdd14a",
-    "createdAt": "2026-06-09T23:37:07.002Z",
-    "updatedAt": "2026-06-09T23:37:07.002Z"
-  },
-  {
-    "title": "South Korea's Hanwha Defense Secures $2B U.S. Army Howitzer Contract",
-    "url": "https://example.com/hanwha-us-army-howitzer",
-    "source": "Defense News Asia",
-    "author": "Ji-Soo Park",
-    "datePublished": "2026-05-20",
-    "dateAdded": "2026-05-21",
-    "categories": [
-      "International",
-      "Government News"
-    ],
-    "tags": [
-      "Munitions",
-      "Industrial Base",
-      "DoD",
-      "Army",
-      "Manufacturing"
-    ],
-    "shortDescription": "South Korean defense giant Hanwha has secured a $2B contract to supply K9 self-propelled howitzers to the U.S. Army, marking a significant milestone for allied defense industrial cooperation.",
-    "whyItMatters": "First major allied manufacturer to win a U.S. Army artillery contract — relevant to SVDG's industrial base and allied defense tech narratives.",
-    "relevanceScore": 65,
-    "scoreBreakdown": {
-      "recency": 15,
-      "svdgRelevance": 20,
-      "sourceQuality": 8,
-      "workstreamRelevance": 6,
-      "sponsorNatSec100": 0
-    },
-    "isScoreOverridden": false,
-    "status": "Reviewed",
-    "region": "Other",
-    "companyMentions": [
-      "Hanwha Defense"
-    ],
-    "addedBy": "Simone",
+    "addedBy": "AI Candidate",
     "isArchived": false,
     "isFeatured": false,
     "svdgRelevanceLevel": "Medium",
-    "sourceQualityLevel": "Medium",
+    "sourceQualityLevel": "High",
     "workstreams": [
       "International / Australia"
     ],
-    "sponsorNatSec100Relevance": "None",
-    "id": "b18acee4-6136-45eb-bb32-e544d4c9b3d1",
-    "createdAt": "2026-06-09T23:37:07.002Z",
-    "updatedAt": "2026-06-09T23:37:07.002Z"
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "createdAt": "2026-06-10T11:41:42.842Z",
+    "updatedAt": "2026-06-10T13:09:02.177Z",
+    "reactions": {}
   },
   {
-    "title": "Joby Aviation and Archer Complete First FAA-Observed Air Taxi Demonstrations",
-    "url": "https://example.com/joby-archer-faa-demo",
-    "source": "Aviation Week",
-    "author": "Nadia Petrov",
-    "datePublished": "2026-03-26",
-    "dateAdded": "2026-03-27",
-    "categories": [
-      "Industry News"
-    ],
-    "tags": [
-      "Dual-Use",
-      "Defense Startup",
-      "Autonomy",
-      "AI"
-    ],
-    "shortDescription": "Joby Aviation and Archer Aircraft completed FAA-witnessed eVTOL flight demonstrations, a key regulatory milestone for the emerging air taxi sector with dual-use logistics implications.",
-    "whyItMatters": "Dual-use aviation platform development remains relevant to DoD logistics modernization. Archived for reference.",
-    "relevanceScore": 35,
-    "scoreBreakdown": {
-      "recency": 0,
-      "svdgRelevance": 20,
-      "sourceQuality": 15,
-      "workstreamRelevance": 0,
-      "sponsorNatSec100": 0
-    },
-    "isScoreOverridden": false,
-    "status": "Archived",
-    "region": "US",
-    "companyMentions": [
-      "Joby Aviation",
-      "Archer Aircraft"
-    ],
-    "addedBy": "Simone",
-    "isArchived": true,
-    "isFeatured": false,
-    "svdgRelevanceLevel": "Medium",
-    "sourceQualityLevel": "High",
-    "workstreams": [],
-    "sponsorNatSec100Relevance": "None",
-    "id": "a404806a-623a-4941-8033-51d2ece4a4f3",
-    "createdAt": "2026-06-09T23:37:07.002Z",
-    "updatedAt": "2026-06-09T23:37:07.002Z"
-  },
-  {
-    "title": "Pentagon Releases Updated AI Ethics Principles for Autonomous Weapons",
-    "url": "https://example.com/pentagon-ai-ethics-2024",
-    "source": "DoD.gov",
-    "datePublished": "2026-03-11",
-    "dateAdded": "2026-03-12",
-    "categories": [
-      "Government News",
-      "Opinions"
-    ],
-    "tags": [
-      "AI",
-      "Autonomy",
-      "DoD",
-      "Policy",
-      "CDAO"
-    ],
-    "shortDescription": "The Department of Defense published an updated set of AI ethics principles covering autonomous weapons systems, lethal decision-making, and human-machine teaming standards.",
-    "whyItMatters": "Foundational policy document. Useful archive reference for SVDG policy memos and talking points on AI governance.",
-    "relevanceScore": 30,
-    "scoreBreakdown": {
-      "recency": 0,
-      "svdgRelevance": 20,
-      "sourceQuality": 15,
-      "workstreamRelevance": 0,
-      "sponsorNatSec100": 0
-    },
-    "isScoreOverridden": false,
-    "status": "Archived",
-    "region": "US",
-    "companyMentions": [],
-    "addedBy": "Simone",
-    "isArchived": true,
-    "isFeatured": false,
-    "svdgRelevanceLevel": "Medium",
-    "sourceQualityLevel": "High",
-    "workstreams": [
-      "Policy"
-    ],
-    "sponsorNatSec100Relevance": "None",
-    "id": "cf939b25-e7b5-4621-b608-1e5b570d4d1d",
-    "createdAt": "2026-06-09T23:37:07.002Z",
-    "updatedAt": "2026-06-09T23:37:07.002Z"
-  },
-  {
-    "title": "Draper Fisher Jurvetson Leads $80M Round in Quantum Sensing Startup Qilent",
-    "url": "https://example.com/dfj-qilent-quantum",
-    "source": "Axios",
-    "author": "Daniel Park",
-    "datePublished": "2026-04-02",
-    "dateAdded": "2026-04-03",
+    "id": "98051476-c914-41d8-b5cd-3d2c8bbe7e78",
+    "title": "Allen Control Systems Raises $200 Million Series B at $2.2 Billion Valuation to Scale Bullfrog Autonomous Weapon System",
+    "url": "https://www.businesswire.com/news/home/20260526638233/en/Allen-Control-Systems-Raises-$200-Million-Series-B-at-$2.2-Billion-Post-Money-Valuation-to-Scale-Manufacturing-and-Accelerate-Deployment-of-Bullfrog",
+    "source": "Business Wire",
+    "datePublished": "2026-06-05",
+    "dateAdded": "2026-06-10",
     "categories": [
       "Investor News",
       "Industry News"
@@ -1049,80 +633,43 @@
     "tags": [
       "Venture Capital",
       "Defense Startup",
-      "Dual-Use",
-      "AI"
-    ],
-    "shortDescription": "DFJ has led an $80M Series C in quantum sensing startup Qilent, which is developing navigation and detection tools with dual-use potential for DoD and commercial applications.",
-    "whyItMatters": "Emerging quantum sensing category worth tracking. Archived but relevant for historical VC defense investment tracking.",
-    "relevanceScore": 28,
-    "scoreBreakdown": {
-      "recency": 0,
-      "svdgRelevance": 20,
-      "sourceQuality": 8,
-      "workstreamRelevance": 0,
-      "sponsorNatSec100": 0
-    },
-    "isScoreOverridden": false,
-    "status": "Archived",
-    "region": "US",
-    "companyMentions": [
-      "DFJ",
-      "Qilent"
-    ],
-    "addedBy": "Simone",
-    "isArchived": true,
-    "isFeatured": false,
-    "svdgRelevanceLevel": "Medium",
-    "sourceQualityLevel": "Medium",
-    "workstreams": [
-      "Capital Formation"
-    ],
-    "sponsorNatSec100Relevance": "None",
-    "id": "d5714fc8-1730-4493-8110-b97d3e09e485",
-    "createdAt": "2026-06-09T23:37:07.002Z",
-    "updatedAt": "2026-06-09T23:37:07.002Z"
-  },
-  {
-    "title": "New Article Pending Review: Emerging Drone Swarm Program",
-    "url": "https://example.com/drone-swarm-pending",
-    "source": "Breaking Defense",
-    "author": "Tara Liu",
-    "datePublished": "2026-06-09",
-    "dateAdded": "2026-06-09",
-    "categories": [
-      "Industry News",
-      "Government News"
-    ],
-    "tags": [
       "Drones",
-      "Autonomy",
-      "AI",
-      "DoD",
-      "Defense Startup"
+      "Manufacturing"
     ],
-    "shortDescription": "DoD has approved funding for a new drone swarm program under PEO Aviation, with early contracts expected to favor commercial autonomy vendors.",
-    "whyItMatters": "Newly added — pending Simone review. Potential NatSec100 relevance.",
-    "relevanceScore": 76,
+    "shortDescription": "Allen Control Systems closed a $200M Series B led by Smash Capital at a $2.2B post-money valuation, to scale manufacturing and deployment of its Bullfrog autonomous counter-drone weapon station.",
+    "whyItMatters": "Another marker in the counter-drone/autonomous weapons funding wave -- worth tracking alongside Anduril's containerized-munitions work and the Army's roughly $1B c-UAS procurement push.",
+    "relevanceScore": 83,
     "scoreBreakdown": {
-      "recency": 30,
+      "recency": 25,
       "svdgRelevance": 35,
       "sourceQuality": 8,
-      "workstreamRelevance": 0,
-      "sponsorNatSec100": 0
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 5
     },
     "isScoreOverridden": false,
-    "status": "New",
+    "status": "Reviewed",
     "region": "US",
-    "companyMentions": [],
-    "addedBy": "Manual",
+    "companyMentions": [
+      "Allen Control Systems",
+      "Smash Capital",
+      "Craft Ventures",
+      "Rally Ventures",
+      "Inspired Capital"
+    ],
+    "addedBy": "AI Candidate",
     "isArchived": false,
     "isFeatured": false,
     "svdgRelevanceLevel": "High",
     "sourceQualityLevel": "Medium",
-    "workstreams": [],
-    "sponsorNatSec100Relevance": "None",
-    "id": "b6c774d9-d85c-42f6-a343-bc1da9976a93",
-    "createdAt": "2026-06-09T23:37:07.002Z",
-    "updatedAt": "2026-06-09T23:37:07.002Z"
+    "workstreams": [
+      "Capital Formation",
+      "NatSec100"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "createdAt": "2026-06-10T11:41:42.842Z",
+    "updatedAt": "2026-06-10T13:45:07.474Z",
+    "reactions": {
+      "85e2698c-821e-4450-8ec7-6bf1d42df616": "dislike"
+    }
   }
 ]
