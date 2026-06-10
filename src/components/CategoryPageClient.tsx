@@ -57,8 +57,8 @@ export default function CategoryPageClient({
 
   return (
     <div>
-      <div className="mb-4">
-        <p className="text-sm text-svdg-french-gray">{description}</p>
+      <div className="mb-5 pl-3 border-l-2 border-svdg-sky-dancer/40">
+        <p className="text-sm text-svdg-french-gray leading-relaxed max-w-2xl">{description}</p>
       </div>
 
       <FilterBar
