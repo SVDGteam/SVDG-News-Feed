@@ -13,6 +13,33 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: 'Please enter a valid email address.' }, { status: 400 })
     }
 
+    const sheetWebhookUrl = process.env.GOOGLE_SHEET_WEBHOOK_URL
+
+    // Production: write to the "Weekly Rundown Subscribers" Google Sheet via an
+    // Apps Script web app (Vercel's filesystem is read-only, so we can't use
+    // the local JSON store there). See docs/NEWSLETTER_SETUP.md.
+    if (sheetWebhookUrl) {
+      const sheetRes = await fetch(sheetWebhookUrl, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          email: email.toLowerCase(),
+          source: source ?? '',
+          timestamp: new Date().toISOString(),
+        }),
+        // Apps Script web apps can be slow to wake up — give it a moment.
+        signal: AbortSignal.timeout(10000),
+      })
+
+      if (!sheetRes.ok) {
+        throw new Error(`Sheet webhook responded with ${sheetRes.status}`)
+      }
+
+      const data = await sheetRes.json().catch(() => ({}))
+      return NextResponse.json({ ok: true, alreadySubscribed: !!data.alreadySubscribed }, { status: 201 })
+    }
+
+    // Local dev fallback: JSON file in data/subscribers.json
     const { alreadySubscribed } = addSubscriber(email, source)
     return NextResponse.json({ ok: true, alreadySubscribed }, { status: 201 })
   } catch (err) {
