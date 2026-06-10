@@ -32,3 +32,6 @@ yarn-error.log*
 # TypeScript
 *.tsbuildinfo
 next-env.d.ts
+
+# Newsletter subscriber emails (PII — not for the repo)
+data/subscribers.json
