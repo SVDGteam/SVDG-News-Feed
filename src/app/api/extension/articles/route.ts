@@ -2,12 +2,14 @@ import { NextRequest, NextResponse } from 'next/server'
 import { getAllArticles, createArticle } from '@/lib/db'
 import { ArticleFormData, Category } from '@/types/article'
 import { CATEGORIES } from '@/data/categories'
+import { enrichExtensionSubmission } from '@/lib/articleEnrichment'
 
 export const dynamic = 'force-dynamic'
 
 // Endpoint for the SVDG Dispatch browser extension (see /extension and
 // docs/EXTENSION_SETUP.md). Lets team members clip the page they're reading
-// straight into the shared database for AI scoring + review.
+// straight into the shared database, auto-scored and marked Reviewed (see
+// src/lib/articleEnrichment.ts) — no manual review queue required.
 //
 // Protected by a shared secret (EXTENSION_API_SECRET) sent as
 // `x-api-key`. Set the same value in Vercel and in the extension's
@@ -62,6 +64,12 @@ export async function POST(req: NextRequest) {
 
   const validLabels = new Set(CATEGORIES.map((c) => c.label))
   const categories = (body.categories || []).filter((c): c is Category => validLabels.has(c as Category))
+  const finalCategories = categories.length ? categories : (['Industry News'] as Category[])
+
+  // A team member chose to clip this — that's a vote of confidence, so we
+  // auto-fill the scoring fields and skip "Needs Review" instead of leaving
+  // it Medium/Medium/blank. See src/lib/articleEnrichment.ts.
+  const enrichment = enrichExtensionSubmission(source.toLowerCase(), finalCategories)
 
   const form: ArticleFormData = {
     title,
@@ -69,22 +77,22 @@ export async function POST(req: NextRequest) {
     source,
     author: '',
     datePublished: new Date().toISOString().split('T')[0],
-    categories: categories.length ? categories : ['Industry News'],
+    categories: finalCategories,
     tags: (body.tags || '')
       .split(',')
       .map((t) => t.trim())
       .filter(Boolean),
     shortDescription: (body.description || '').trim() || title,
     whyItMatters: (body.notes || '').trim(),
-    region: undefined,
+    region: enrichment.region,
     sponsorName: '',
     companyMentions: '',
-    status: 'New',
+    status: 'Reviewed',
     isFeatured: false,
-    svdgRelevanceLevel: 'Medium',
-    sourceQualityLevel: 'Medium',
-    workstreams: [],
-    sponsorNatSec100Relevance: 'None',
+    svdgRelevanceLevel: 'High',
+    sourceQualityLevel: enrichment.sourceQualityLevel,
+    workstreams: enrichment.workstreams,
+    sponsorNatSec100Relevance: enrichment.sponsorNatSec100Relevance,
     addedBy: 'Browser Extension',
   }
 
