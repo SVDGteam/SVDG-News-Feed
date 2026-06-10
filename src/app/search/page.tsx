@@ -4,7 +4,7 @@ import PageHeading from '@/components/PageHeading'
 
 export const dynamic = 'force-dynamic'
 
-export default function SearchPage() {
+export default async function SearchPage() {
   return (
     <div>
       <PageHeading
@@ -12,7 +12,7 @@ export default function SearchPage() {
         title="Search"
         description="Search and filter across every category — including the archive — in one place."
       />
-      <SearchPageClient articles={getAllArticles()} />
+      <SearchPageClient articles={await getAllArticles()} />
     </div>
   )
 }

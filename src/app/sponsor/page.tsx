@@ -6,7 +6,7 @@ import { SPONSORS } from '@/data/sponsors'
 
 export const dynamic = 'force-dynamic'
 
-export default function SponsorPage() {
+export default async function SponsorPage() {
   const cat = getCategoryConfig('Sponsor News')!
   return (
     <div>
@@ -32,7 +32,7 @@ export default function SponsorPage() {
       </details>
 
       <CategoryPageClient
-        articles={getAllArticles()}
+        articles={await getAllArticles()}
         category="Sponsor News"
         description={cat.description}
         showSponsorFilter

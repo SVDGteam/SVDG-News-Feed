@@ -7,8 +7,8 @@ interface Props { params: { id: string } }
 
 export const dynamic = 'force-dynamic'
 
-export default function EditArticlePage({ params }: Props) {
-  const article = getArticleById(params.id)
+export default async function EditArticlePage({ params }: Props) {
+  const article = await getArticleById(params.id)
   if (!article) notFound()
 
   return (

@@ -25,7 +25,7 @@ export async function POST(req: NextRequest, { params }: Params) {
       return NextResponse.json({ error: 'reaction must be "like", "dislike", or null' }, { status: 400 })
     }
 
-    const updated = setReaction(params.id, userId, reaction)
+    const updated = await setReaction(params.id, userId, reaction)
     if (!updated) return NextResponse.json({ error: 'Not found' }, { status: 404 })
     return NextResponse.json(updated)
   } catch {

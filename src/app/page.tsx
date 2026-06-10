@@ -125,8 +125,8 @@ function EmptyState({ message }: { message: string }) {
 
 export const dynamic = 'force-dynamic'
 
-export default function HomePage() {
-  const allArticles = getAllArticles()
+export default async function HomePage() {
+  const allArticles = await getAllArticles()
   const active = allArticles.filter((a) => !a.isArchived)
 
   const now = new Date()

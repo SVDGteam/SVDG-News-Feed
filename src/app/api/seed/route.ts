@@ -6,6 +6,6 @@ export async function POST() {
   if (process.env.NODE_ENV === 'production') {
     return NextResponse.json({ error: 'Not available in production' }, { status: 403 })
   }
-  const articles = resetToSeed()
+  const articles = await resetToSeed()
   return NextResponse.json({ reset: true, count: articles.length })
 }

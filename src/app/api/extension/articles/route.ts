@@ -46,7 +46,7 @@ export async function POST(req: NextRequest) {
 
   // De-dupe: if this URL is already in the database, just return it instead
   // of creating a second copy.
-  const existing = getAllArticles().find((a) => a.url === url)
+  const existing = (await getAllArticles()).find((a) => a.url === url)
   if (existing) {
     return NextResponse.json(existing, { status: 200 })
   }
@@ -88,6 +88,6 @@ export async function POST(req: NextRequest) {
     addedBy: 'Browser Extension',
   }
 
-  const article = createArticle(form)
+  const article = await createArticle(form)
   return NextResponse.json(article, { status: 201 })
 }

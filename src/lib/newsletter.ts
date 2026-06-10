@@ -9,8 +9,8 @@ export interface WeeklyDigest {
 
 // Active articles published in the last 7 days, ranked by effective score
 // (relevance score + team like/dislike adjustments), top `limit`.
-export function getWeeklyDigest(limit = 6): WeeklyDigest {
-  const allArticles = getAllArticles()
+export async function getWeeklyDigest(limit = 6): Promise<WeeklyDigest> {
+  const allArticles = await getAllArticles()
   const active = allArticles.filter((a) => !a.isArchived)
 
   const now = new Date()

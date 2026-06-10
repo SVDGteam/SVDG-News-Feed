@@ -8,8 +8,8 @@ import { CATEGORIES } from '@/data/categories'
 
 export const dynamic = 'force-dynamic'
 
-export default function NewsletterPage() {
-  const { articles: digest, weekStr } = getWeeklyDigest(6)
+export default async function NewsletterPage() {
+  const { articles: digest, weekStr } = await getWeeklyDigest(6)
 
   return (
     <div>

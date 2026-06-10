@@ -5,13 +5,13 @@ import { getCategoryConfig } from '@/data/categories'
 
 export const dynamic = 'force-dynamic'
 
-export default function InternationalPage() {
+export default async function InternationalPage() {
   const cat = getCategoryConfig('International')!
   return (
     <div>
       <CategoryHero category={cat} />
       <CategoryPageClient
-        articles={getAllArticles()}
+        articles={await getAllArticles()}
         category="International"
         description={cat.description}
         showRegionFilter

@@ -4,8 +4,8 @@ import PageHeading from '@/components/PageHeading'
 
 export const dynamic = 'force-dynamic'
 
-export default function ArchivePage() {
-  const all = getAllArticles()
+export default async function ArchivePage() {
+  const all = await getAllArticles()
   const archived = all.filter((a) => a.isArchived)
   return (
     <div>

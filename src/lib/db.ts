@@ -1,7 +1,26 @@
 /**
- * Simple JSON-file database adapter for the MVP.
- * Designed to be swapped for Prisma/Postgres/Supabase later.
- * All functions are synchronous file I/O — fine for local/dev use.
+ * Article "database" adapter.
+ *
+ * data/articles.json is the base dataset — committed to git, updated by the
+ * daily AI research job, and bundled with every deploy. Vercel's runtime
+ * filesystem is read-only, so live writes (the browser extension, the
+ * dashboard's Add/Edit forms, and like/dislike voting) can't modify that
+ * file directly in production.
+ *
+ * Instead, live writes go to a small "overlay" stored in Upstash Redis
+ * (connected via the Vercel Storage tab — KV_REST_API_URL/KV_REST_API_TOKEN):
+ *   - extra:   articles created live, not yet in data/articles.json
+ *   - edits:   full replacement articles, keyed by id, for articles that
+ *              originate from data/articles.json
+ *   - deleted: ids of base articles removed live
+ *
+ * getAllArticles() merges the file + overlay on every read. When the daily
+ * research job adds new articles to data/articles.json and that's deployed,
+ * they simply appear in the merged result alongside any live-only articles.
+ *
+ * If KV_REST_API_URL/KV_REST_API_TOKEN aren't set (local development, and
+ * the scripts/ CLI tools), everything falls back to reading/writing
+ * data/articles.json directly, exactly as before.
  */
 
 import fs from 'fs'
@@ -11,17 +30,19 @@ import { Article, ArticleFormData, ReactionType } from '@/types/article'
 import { SEED_ARTICLES } from '@/data/seed'
 import { calcRelevanceScore, ScoreInputs } from '@/lib/scoring'
 import { shouldAutoArchive } from '@/lib/archive'
+import { hasKV, kvGetJSON, kvSetJSON } from '@/lib/kv'
 
 const DB_PATH = path.join(process.cwd(), 'data', 'articles.json')
+const OVERLAY_KEY = 'dispatch:overlay'
 
-// ── Ensure data directory and file exist ───────────────────────────────────
-function ensureDB(): void {
-  const dir = path.join(process.cwd(), 'data')
-  if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true })
-  if (!fs.existsSync(DB_PATH)) {
-    const seeded = seedArticles()
-    fs.writeFileSync(DB_PATH, JSON.stringify(seeded, null, 2))
-  }
+interface Overlay {
+  extra: Article[]
+  edits: Record<string, Article>
+  deleted: string[]
+}
+
+function emptyOverlay(): Overlay {
+  return { extra: [], edits: {}, deleted: [] }
 }
 
 // ── Seed helper ────────────────────────────────────────────────────────────
@@ -35,35 +56,83 @@ function seedArticles(): Article[] {
   }))
 }
 
-// ── Read all ───────────────────────────────────────────────────────────────
-export function getAllArticles(): Article[] {
-  ensureDB()
-  const raw = fs.readFileSync(DB_PATH, 'utf-8')
-  const articles: Article[] = JSON.parse(raw)
+// ── File-based base dataset ─────────────────────────────────────────────────
+function ensureFile(): void {
+  const dir = path.join(process.cwd(), 'data')
+  if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true })
+  if (!fs.existsSync(DB_PATH)) {
+    fs.writeFileSync(DB_PATH, JSON.stringify(seedArticles(), null, 2))
+  }
+}
 
-  // Auto-archive based on age
-  let dirty = false
-  const updated = articles.map((a) => {
+function readFileArticles(): Article[] {
+  ensureFile()
+  const raw = fs.readFileSync(DB_PATH, 'utf-8')
+  return JSON.parse(raw)
+}
+
+function writeFileArticles(articles: Article[]): void {
+  fs.writeFileSync(DB_PATH, JSON.stringify(articles, null, 2))
+}
+
+// ── Overlay (Upstash) helpers ───────────────────────────────────────────────
+async function loadOverlay(): Promise<Overlay> {
+  if (!hasKV()) return emptyOverlay()
+  const overlay = await kvGetJSON<Overlay>(OVERLAY_KEY)
+  return overlay ?? emptyOverlay()
+}
+
+async function saveOverlay(overlay: Overlay): Promise<void> {
+  await kvSetJSON(OVERLAY_KEY, overlay)
+}
+
+function applyAutoArchive(articles: Article[]): Article[] {
+  return articles.map((a) => {
     if (!a.isArchived && shouldAutoArchive(a.datePublished)) {
-      dirty = true
-      return { ...a, isArchived: true, status: 'Archived' as const, updatedAt: new Date().toISOString() }
+      return { ...a, isArchived: true, status: 'Archived' as const }
     }
     return a
   })
+}
 
-  if (dirty) fs.writeFileSync(DB_PATH, JSON.stringify(updated, null, 2))
-  return updated
+// ── Read all ───────────────────────────────────────────────────────────────
+export async function getAllArticles(): Promise<Article[]> {
+  const fileArticles = readFileArticles()
+
+  if (!hasKV()) {
+    // Local/dev fallback: original behavior, persisting auto-archive to disk.
+    let dirty = false
+    const updated = fileArticles.map((a) => {
+      if (!a.isArchived && shouldAutoArchive(a.datePublished)) {
+        dirty = true
+        return { ...a, isArchived: true, status: 'Archived' as const, updatedAt: new Date().toISOString() }
+      }
+      return a
+    })
+    if (dirty) writeFileArticles(updated)
+    return updated
+  }
+
+  const overlay = await loadOverlay()
+  const deleted = new Set(overlay.deleted)
+
+  const merged = fileArticles
+    .filter((a) => !deleted.has(a.id))
+    .map((a) => overlay.edits[a.id] ?? a)
+
+  const extra = overlay.extra.filter((a) => !deleted.has(a.id))
+
+  return applyAutoArchive([...merged, ...extra])
 }
 
 // ── Get by id ──────────────────────────────────────────────────────────────
-export function getArticleById(id: string): Article | null {
-  const all = getAllArticles()
+export async function getArticleById(id: string): Promise<Article | null> {
+  const all = await getAllArticles()
   return all.find((a) => a.id === id) ?? null
 }
 
 // ── Create ─────────────────────────────────────────────────────────────────
-export function createArticle(form: ArticleFormData): Article {
-  const all = getAllArticles()
+export async function createArticle(form: ArticleFormData): Promise<Article> {
   const now = new Date().toISOString()
 
   const inputs: ScoreInputs = {
@@ -112,16 +181,23 @@ export function createArticle(form: ArticleFormData): Article {
     updatedAt: now,
   }
 
-  all.push(article)
-  fs.writeFileSync(DB_PATH, JSON.stringify(all, null, 2))
+  if (!hasKV()) {
+    const all = readFileArticles()
+    all.push(article)
+    writeFileArticles(all)
+    return article
+  }
+
+  const overlay = await loadOverlay()
+  overlay.extra.push(article)
+  await saveOverlay(overlay)
   return article
 }
 
 // ── Update ─────────────────────────────────────────────────────────────────
-export function updateArticle(id: string, form: ArticleFormData): Article | null {
-  const all = getAllArticles()
-  const idx = all.findIndex((a) => a.id === id)
-  if (idx === -1) return null
+export async function updateArticle(id: string, form: ArticleFormData): Promise<Article | null> {
+  const current = await getArticleById(id)
+  if (!current) return null
 
   const now = new Date().toISOString()
 
@@ -138,7 +214,7 @@ export function updateArticle(id: string, form: ArticleFormData): Article | null
     form.manualScoreOverride !== score
 
   const updated: Article = {
-    ...all[idx],
+    ...current,
     title: form.title,
     url: form.url,
     source: form.source,
@@ -168,28 +244,62 @@ export function updateArticle(id: string, form: ArticleFormData): Article | null
     updatedAt: now,
   }
 
-  all[idx] = updated
-  fs.writeFileSync(DB_PATH, JSON.stringify(all, null, 2))
+  if (!hasKV()) {
+    const all = readFileArticles()
+    const idx = all.findIndex((a) => a.id === id)
+    if (idx === -1) return null
+    all[idx] = updated
+    writeFileArticles(all)
+    return updated
+  }
+
+  const overlay = await loadOverlay()
+  const extraIdx = overlay.extra.findIndex((a) => a.id === id)
+  if (extraIdx !== -1) {
+    overlay.extra[extraIdx] = updated
+  } else {
+    overlay.edits[id] = updated
+  }
+  await saveOverlay(overlay)
   return updated
 }
 
 // ── Delete ─────────────────────────────────────────────────────────────────
-export function deleteArticle(id: string): boolean {
-  const all = getAllArticles()
-  const filtered = all.filter((a) => a.id !== id)
-  if (filtered.length === all.length) return false
-  fs.writeFileSync(DB_PATH, JSON.stringify(filtered, null, 2))
+export async function deleteArticle(id: string): Promise<boolean> {
+  if (!hasKV()) {
+    const all = readFileArticles()
+    const filtered = all.filter((a) => a.id !== id)
+    if (filtered.length === all.length) return false
+    writeFileArticles(filtered)
+    return true
+  }
+
+  const overlay = await loadOverlay()
+
+  const extraIdx = overlay.extra.findIndex((a) => a.id === id)
+  if (extraIdx !== -1) {
+    overlay.extra.splice(extraIdx, 1)
+    delete overlay.edits[id]
+    await saveOverlay(overlay)
+    return true
+  }
+
+  const fileArticles = readFileArticles()
+  if (!fileArticles.some((a) => a.id === id)) return false
+
+  if (!overlay.deleted.includes(id)) overlay.deleted.push(id)
+  delete overlay.edits[id]
+  await saveOverlay(overlay)
   return true
 }
 
 // ── Set/clear a team member's reaction (like/dislike) ──────────────────────
 // Pass reaction: null to remove the user's vote (toggle off).
-export function setReaction(id: string, userId: string, reaction: ReactionType | null): Article | null {
-  const all = getAllArticles()
-  const idx = all.findIndex((a) => a.id === id)
-  if (idx === -1) return null
+export async function setReaction(id: string, userId: string, reaction: ReactionType | null): Promise<Article | null> {
+  const current = await getArticleById(id)
+  if (!current) return null
 
-  const reactions = { ...(all[idx].reactions ?? {}) }
+  const reactions = { ...(current.reactions ?? {}) }
   if (reaction === null) {
     delete reactions[userId]
   } else {
@@ -197,19 +307,37 @@ export function setReaction(id: string, userId: string, reaction: ReactionType |
   }
 
   const updated: Article = {
-    ...all[idx],
+    ...current,
     reactions,
     updatedAt: new Date().toISOString(),
   }
 
-  all[idx] = updated
-  fs.writeFileSync(DB_PATH, JSON.stringify(all, null, 2))
+  if (!hasKV()) {
+    const all = readFileArticles()
+    const idx = all.findIndex((a) => a.id === id)
+    if (idx === -1) return null
+    all[idx] = updated
+    writeFileArticles(all)
+    return updated
+  }
+
+  const overlay = await loadOverlay()
+  const extraIdx = overlay.extra.findIndex((a) => a.id === id)
+  if (extraIdx !== -1) {
+    overlay.extra[extraIdx] = updated
+  } else {
+    overlay.edits[id] = updated
+  }
+  await saveOverlay(overlay)
   return updated
 }
 
 // ── Reset to seed (dev utility) ────────────────────────────────────────────
-export function resetToSeed(): Article[] {
+export async function resetToSeed(): Promise<Article[]> {
   const seeded = seedArticles()
-  fs.writeFileSync(DB_PATH, JSON.stringify(seeded, null, 2))
+  writeFileArticles(seeded)
+  if (hasKV()) {
+    await saveOverlay(emptyOverlay())
+  }
   return seeded
 }

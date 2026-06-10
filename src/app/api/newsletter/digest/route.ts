@@ -21,7 +21,7 @@ export async function GET(req: NextRequest) {
     return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
   }
 
-  const digest = getWeeklyDigest(6)
+  const digest = await getWeeklyDigest(6)
   const email = buildNewsletterEmail(digest)
 
   return NextResponse.json(email)
