@@ -37,7 +37,27 @@ To reset to seed data: `POST /api/seed` (dev only).
 - **Next.js 14** (App Router)
 - **TypeScript**
 - **Tailwind CSS**
-- **JSON file database** — swap for Postgres/Supabase/Prisma when ready
+- **JSON file database + Upstash Redis overlay** — see "Data storage" below
+
+## Data storage
+
+`data/articles.json` is the base dataset — committed to git, updated by the
+daily research job, and bundled with every deploy.
+
+Vercel's runtime filesystem is read-only, so live writes (the browser
+extension, the dashboard's Add/Edit forms, and like/dislike voting) can't
+modify that file in production. Instead, those writes go to a small "overlay"
+stored in Upstash Redis (connected via Vercel's Storage tab as `dispatch-db`,
+free tier — `KV_REST_API_URL`/`KV_REST_API_TOKEN` env vars). `getAllArticles()`
+merges the file and the overlay on every read, so newly-added articles from
+the daily research job and live edits/votes/submissions all show up together
+— no manual resync needed.
+
+Locally (and in `scripts/add-candidates.ts`), where those env vars aren't set,
+everything reads/writes `data/articles.json` directly, exactly as before.
+
+`src/lib/kv.ts` is a tiny dependency-free Upstash REST client (plain `fetch`,
+no SDK).
 
 ## Project structure
 
