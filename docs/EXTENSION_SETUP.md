@@ -25,17 +25,18 @@ scoring/review like anything else.
 
 ## Install (each team member)
 
-Chrome doesn't allow installing unpacked extensions from a zip directly —
-each person loads the `extension/` folder once:
+Send the team to **`https://svdg-news-feed.vercel.app/extension`** — it has a
+"Download for Chrome" button and these same steps. Chrome doesn't allow
+auto-installing unpacked extensions, so it's a one-time ~1 minute setup:
 
-1. Download/clone the repo, or just grab the `extension/` folder.
+1. Click **Download for Chrome** and unzip the downloaded file.
 2. Go to `chrome://extensions`.
 3. Turn on **Developer mode** (top right).
-4. Click **Load unpacked** and select the `extension/` folder.
+4. Click **Load unpacked** and select the unzipped folder.
 5. Pin the "SVDG Dispatch Clipper" icon (puzzle-piece icon → pin).
 6. Click the icon → **Settings** (bottom of popup).
 7. Set:
-   - **Dispatch site URL**: `https://svdg-news-feed.vercel.app`
+   - **Dispatch site URL**: `https://svdg-news-feed.vercel.app` (pre-filled)
    - **API key**: the shared secret Simone sent you
 8. Click **Save**.
 

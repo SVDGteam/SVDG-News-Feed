@@ -32,9 +32,14 @@ export default function Footer() {
       <div className="border-t border-white/5">
         <div className="max-w-screen-xl mx-auto px-4 py-3 flex flex-wrap items-center justify-between gap-2 text-[11px] text-svdg-french-gray">
           <span>© {new Date().getFullYear()} Silicon Valley Defense Group</span>
-          <Link href="/newsletter" className="nav-text text-svdg-sky hover:text-svdg-sky-dancer transition-colors">
-            Subscribe to the Weekly Rundown →
-          </Link>
+          <div className="flex items-center gap-4">
+            <Link href="/extension" className="nav-text text-svdg-sky hover:text-svdg-sky-dancer transition-colors">
+              Get the Browser Extension
+            </Link>
+            <Link href="/newsletter" className="nav-text text-svdg-sky hover:text-svdg-sky-dancer transition-colors">
+              Subscribe to the Weekly Rundown →
+            </Link>
+          </div>
         </div>
       </div>
     </footer>
