@@ -115,19 +115,21 @@ export default function ArticleCard({ article }: Props) {
       className="bg-svdg-surface/95 border border-white/10 rounded-lg p-4 hover:border-svdg-sky hover:bg-svdg-surface transition-all group cursor-pointer"
     >
       {/* Top row: categories + score + status + expand toggle */}
-      <div className="flex flex-wrap items-center gap-1.5 mb-2">
-        {article.categories.map((cat) => (
-          <CategoryBadge key={cat} category={cat} size="xs" />
-        ))}
-        {article.region && article.region !== 'US' && (
-          <span className="text-[10px] px-1.5 py-0.5 rounded border bg-indigo-500/15 border-indigo-400/30 text-indigo-300 font-medium">
-            {article.region}
+      <div className="flex items-start justify-between gap-1.5 mb-2">
+        <div className="flex flex-wrap items-center gap-1.5 min-w-0">
+          {article.categories.map((cat) => (
+            <CategoryBadge key={cat} category={cat} size="xs" />
+          ))}
+          {article.region && article.region !== 'US' && (
+            <span className="text-[10px] px-1.5 py-0.5 rounded border bg-indigo-500/15 border-indigo-400/30 text-indigo-300 font-medium">
+              {article.region}
+            </span>
+          )}
+          <span className={`text-[10px] px-1.5 py-0.5 rounded border font-medium ${STATUS_STYLES[article.status] ?? ''}`}>
+            {article.status}
           </span>
-        )}
-        <span className={`text-[10px] px-1.5 py-0.5 rounded border font-medium ${STATUS_STYLES[article.status] ?? ''}`}>
-          {article.status}
-        </span>
-        <div className="ml-auto flex items-center gap-1.5">
+        </div>
+        <div className="flex items-center gap-1.5 shrink-0">
           <RelevanceBadge score={effectiveScore} isOverridden={article.isScoreOverridden} />
           <span className="text-svdg-french-gray group-hover:text-svdg-sky transition-colors">
             <ChevronIcon open={expanded} />
