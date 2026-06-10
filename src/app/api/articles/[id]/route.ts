@@ -13,6 +13,14 @@ export async function GET(_req: NextRequest, { params }: Params) {
 export async function PUT(req: NextRequest, { params }: Params) {
   try {
     const body: ArticleFormData = await req.json()
+
+    // Saving an edit is itself a review — if someone opens an article and
+    // hits "Save Changes" without touching the Status dropdown, take it out
+    // of the "Needs Review" queue rather than leaving it stuck on "New".
+    if (body.status === 'New') {
+      body.status = 'Reviewed'
+    }
+
     const updated = await updateArticle(params.id, body)
     if (!updated) return NextResponse.json({ error: 'Not found' }, { status: 404 })
     return NextResponse.json(updated)
