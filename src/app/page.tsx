@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 import { getAllArticles } from '@/lib/db'
 import ArticleCard from '@/components/ArticleCard'
 import { filterArticles } from '@/lib/filters'
@@ -90,15 +91,6 @@ function GlobeIcon() {
     <svg viewBox="0 0 20 20" className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth="1.6">
       <circle cx="10" cy="10" r="8" />
       <path d="M2 10h16M10 2c2.5 2.2 2.5 13.8 0 16M10 2c-2.5 2.2-2.5 13.8 0 16" strokeLinecap="round" />
-    </svg>
-  )
-}
-
-function TagIcon() {
-  return (
-    <svg viewBox="0 0 20 20" className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth="1.6">
-      <path d="M2 9.5V3a1 1 0 011-1h6.5L18 10.5 10.5 18 2 9.5z" strokeLinejoin="round" />
-      <circle cx="6" cy="6" r="1.2" fill="currentColor" stroke="none" />
     </svg>
   )
 }
@@ -195,19 +187,27 @@ export default function HomePage() {
       <div className="svdg-bracket svdg-hero mb-6" style={{ '--bk-color': 'var(--svdg-sky-dancer)', '--bk-inset': '24px' } as React.CSSProperties}>
         <div className="svdg-bracket__tl" />
         <div className="svdg-bracket__br" />
-        <div className="svdg-bracket__body">
-          <div className="flex items-center justify-between gap-3 flex-wrap">
-            <span className="eyebrow text-svdg-sky-dancer">A SVDG Product</span>
-            <span className="nav-text text-[10px] text-svdg-sky-dancer flex items-center gap-1.5">
-              <span className="inline-block w-2 h-2 rounded-full bg-svdg-sky-dancer animate-pulse" />
-              // Live
+        <div className="svdg-bracket__body flex flex-col items-center text-center py-2">
+          <div className="flex items-center gap-4">
+            <span className="bg-white rounded-xl p-2.5 flex items-center justify-center shrink-0">
+              <Image src="/brand/logomark.svg" alt="SVDG" width={44} height={46} />
             </span>
+            <div className="flex flex-col gap-1.5 items-start">
+              <span className="flex items-center gap-2 font-display font-bold tracking-tight text-4xl md:text-5xl text-white leading-none">
+                Dispatch
+                <span className="inline-block w-2.5 h-9 md:h-11 bg-svdg-sky-dancer animate-pulse" aria-hidden="true" />
+              </span>
+              <span className="nav-text text-xs text-svdg-sky-dancer leading-none">A SVDG Product</span>
+            </div>
           </div>
-          <h1 className="text-4xl md:text-5xl mt-1 tracking-tight">Weekly Rundown</h1>
-          <p className="text-sm text-svdg-french-gray mt-1">{weekStr}</p>
+
+          <div className="mt-5">
+            <h1 className="text-lg md:text-xl tracking-tight">Weekly Dispatch</h1>
+            <p className="text-sm text-svdg-french-gray mt-1">{weekStr}</p>
+          </div>
 
           {/* At-a-glance stats */}
-          <div className="mt-5 pt-4 border-t border-white/10 flex flex-wrap items-center gap-x-7 gap-y-3">
+          <div className="mt-5 pt-4 border-t border-white/10 w-full flex flex-wrap items-center justify-center gap-x-7 gap-y-3">
             <StatPill icon={<StarIcon />} value={recentHigh.length} label="Must-Reads" accent="text-svdg-sky-dancer" />
             <StatPill icon={<SparkleIcon />} value={newToday} label="New Today" />
             {needsReview.length > 0 && (
@@ -277,8 +277,7 @@ export default function HomePage() {
             description="Coverage involving SVDG sponsor companies."
             href="/sponsor"
             count={sponsorMentions.length}
-            icon={<TagIcon />}
-            accent="text-amber-300"
+            icon={<Image src="/brand/logomark-white.png" alt="SVDG" width={16} height={17} />}
           />
           <div className="space-y-3">
             {sponsorMentions.length > 0
