@@ -6,7 +6,7 @@ import { usePathname } from 'next/navigation'
 import { CATEGORIES } from '@/data/categories'
 
 const NAV_ITEMS = [
-  { label: 'Weekly Dispatch', href: '/' },
+  { label: 'Weekly Rundown', href: '/' },
   ...CATEGORIES.map((c) => ({ label: c.label, href: `/${c.slug}` })),
   { label: 'Archive', href: '/archive' },
   { label: 'Search', href: '/search' },

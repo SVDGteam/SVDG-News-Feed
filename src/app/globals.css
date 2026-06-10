@@ -159,6 +159,15 @@
   background-repeat: no-repeat;
 }
 
+/* ===================== Category page hero band ===================== */
+.svdg-category-hero {
+  position: relative;
+  background-size: cover;
+  background-position: left center;
+  background-repeat: no-repeat;
+  border-radius: 8px;
+}
+
 /* ===================== Corner-bracket motif ===================== */
 .svdg-bracket {
   position: relative;

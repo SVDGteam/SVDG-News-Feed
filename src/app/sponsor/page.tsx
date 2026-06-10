@@ -1,6 +1,6 @@
 import { getAllArticles } from '@/lib/db'
 import CategoryPageClient from '@/components/CategoryPageClient'
-import PageHeading from '@/components/PageHeading'
+import CategoryHero from '@/components/CategoryHero'
 import { getCategoryConfig } from '@/data/categories'
 import { SPONSORS } from '@/data/sponsors'
 
@@ -10,7 +10,7 @@ export default function SponsorPage() {
   const cat = getCategoryConfig('Sponsor News')!
   return (
     <div>
-      <PageHeading eyebrow="Category" title={cat.label} />
+      <CategoryHero category={cat} />
 
       <details className="mb-4 bg-svdg-surface/95 border border-white/10 rounded-lg">
         <summary className="cursor-pointer px-4 py-2.5 text-sm font-medium text-white select-none">
