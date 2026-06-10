@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>SVDG Dispatch Clipper — Settings</title>
+    <link rel="stylesheet" href="popup.css" />
+    <style>
+      body {
+        width: 380px;
+        padding: 0;
+      }
+      form {
+        gap: 14px;
+      }
+      .note {
+        font-size: 11px;
+        color: #5b6573;
+        line-height: 1.5;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="logo-badge">
+        <img src="icons/icon48.png" alt="" width="20" height="20" />
+      </div>
+      <div class="header-text">
+        <div class="title">Dispatch<span class="accent"></span></div>
+        <div class="subtitle">Clipper settings</div>
+      </div>
+    </header>
+
+    <form id="options-form">
+      <label>
+        Dispatch site URL
+        <input type="url" id="apiBase" placeholder="https://svdg-news-feed.vercel.app" />
+      </label>
+
+      <label>
+        API key
+        <input type="password" id="apiKey" placeholder="Shared secret from Simone" />
+      </label>
+
+      <p class="note">
+        Ask Simone for the API key (set as <code>EXTENSION_API_SECRET</code> on the
+        site). It's the same for the whole team — don't share it outside SVDG.
+      </p>
+
+      <button type="submit">Save</button>
+      <p id="status" class="status"></p>
+    </form>
+  </body>
+  <script src="options.js"></script>
+</html>

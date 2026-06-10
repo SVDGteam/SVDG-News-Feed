@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>SVDG Dispatch Clipper</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo-badge">
+        <img src="icons/icon48.png" alt="" width="20" height="20" />
+      </div>
+      <div class="header-text">
+        <div class="title">Dispatch<span class="accent"></span></div>
+        <div class="subtitle">Add to shared database</div>
+      </div>
+    </header>
+
+    <form id="clip-form">
+      <label>
+        Title
+        <input type="text" id="title" required />
+      </label>
+
+      <label>
+        URL
+        <input type="url" id="url" required />
+      </label>
+
+      <label>
+        Source
+        <input type="text" id="source" placeholder="e.g. Defense News" />
+      </label>
+
+      <label>
+        Description
+        <textarea id="description" rows="3" placeholder="Short summary or why it matters..."></textarea>
+      </label>
+
+      <fieldset id="categories">
+        <legend>Categories</legend>
+        <!-- populated by popup.js -->
+      </fieldset>
+
+      <label>
+        Tags <span class="hint">(comma separated)</span>
+        <input type="text" id="tags" placeholder="AI, Drones, NDAA" />
+      </label>
+
+      <button type="submit" id="submit-btn">Add to Dispatch</button>
+      <p id="status" class="status"></p>
+      <p id="settings-link"><a href="#" id="open-options">Settings</a></p>
+    </form>
+  </body>
+  <script src="popup.js"></script>
+</html>
