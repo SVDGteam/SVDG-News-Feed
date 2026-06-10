@@ -8,8 +8,10 @@ interface Props {
   tags: string[]
   sponsors?: string[]
   regions?: Region[]
+  categories?: Category[]
   showRegionFilter?: boolean
   showSponsorFilter?: boolean
+  showCategoryFilter?: boolean
   search: string
   onSearch: (v: string) => void
   source: string
@@ -22,6 +24,8 @@ interface Props {
   onSponsor: (v: string) => void
   status: string
   onStatus: (v: string) => void
+  category?: string
+  onCategory?: (v: string) => void
   sort: SortKey
   onSort: (v: SortKey) => void
   includeArchived?: boolean
@@ -31,9 +35,10 @@ interface Props {
 }
 
 export default function FilterBar({
-  sources, tags, sponsors = [], regions = [], showRegionFilter = false, showSponsorFilter = false,
+  sources, tags, sponsors = [], regions = [], categories = [], showRegionFilter = false, showSponsorFilter = false,
+  showCategoryFilter = false,
   search, onSearch, source, onSource, tag, onTag, region, onRegion,
-  sponsor, onSponsor, status, onStatus, sort, onSort,
+  sponsor, onSponsor, status, onStatus, category, onCategory, sort, onSort,
   includeArchived, onIncludeArchived, count, categoryLabel,
 }: Props) {
   return (
@@ -45,7 +50,7 @@ export default function FilterBar({
           placeholder={`Search ${categoryLabel}…`}
           value={search}
           onChange={(e) => onSearch(e.target.value)}
-          className="flex-1 text-sm border border-slate-200 rounded px-3 py-1.5 focus:outline-none focus:ring-2 focus:ring-blue-500 placeholder-slate-400"
+          className="flex-1 text-sm border border-slate-200 rounded px-3 py-1.5 focus:outline-none focus:ring-2 focus:ring-svdg-crayola placeholder-slate-400"
         />
         <span className="text-xs text-slate-400 shrink-0">{count} article{count !== 1 ? 's' : ''}</span>
       </div>
@@ -56,18 +61,32 @@ export default function FilterBar({
         <select
           value={sort}
           onChange={(e) => onSort(e.target.value as SortKey)}
-          className="text-xs border border-slate-200 rounded px-2 py-1.5 bg-white focus:outline-none focus:ring-1 focus:ring-blue-500"
+          className="text-xs border border-slate-200 rounded px-2 py-1.5 bg-white focus:outline-none focus:ring-1 focus:ring-svdg-crayola"
         >
           <option value="relevance">Sort: Relevance</option>
           <option value="datePublished">Sort: Date Published</option>
           <option value="dateAdded">Sort: Date Added</option>
         </select>
 
+        {/* Category */}
+        {showCategoryFilter && onCategory && (
+          <select
+            value={category ?? ''}
+            onChange={(e) => onCategory(e.target.value)}
+            className="text-xs border border-slate-200 rounded px-2 py-1.5 bg-white focus:outline-none focus:ring-1 focus:ring-svdg-crayola"
+          >
+            <option value="">All Categories</option>
+            {categories.map((c) => (
+              <option key={c} value={c}>{c}</option>
+            ))}
+          </select>
+        )}
+
         {/* Source */}
         <select
           value={source}
           onChange={(e) => onSource(e.target.value)}
-          className="text-xs border border-slate-200 rounded px-2 py-1.5 bg-white focus:outline-none focus:ring-1 focus:ring-blue-500"
+          className="text-xs border border-slate-200 rounded px-2 py-1.5 bg-white focus:outline-none focus:ring-1 focus:ring-svdg-crayola"
         >
           <option value="">All Sources</option>
           {sources.map((s) => (
@@ -79,7 +98,7 @@ export default function FilterBar({
         <select
           value={tag}
           onChange={(e) => onTag(e.target.value)}
-          className="text-xs border border-slate-200 rounded px-2 py-1.5 bg-white focus:outline-none focus:ring-1 focus:ring-blue-500"
+          className="text-xs border border-slate-200 rounded px-2 py-1.5 bg-white focus:outline-none focus:ring-1 focus:ring-svdg-crayola"
         >
           <option value="">All Tags</option>
           {tags.map((t) => (
@@ -92,7 +111,7 @@ export default function FilterBar({
           <select
             value={region}
             onChange={(e) => onRegion(e.target.value)}
-            className="text-xs border border-slate-200 rounded px-2 py-1.5 bg-white focus:outline-none focus:ring-1 focus:ring-blue-500"
+            className="text-xs border border-slate-200 rounded px-2 py-1.5 bg-white focus:outline-none focus:ring-1 focus:ring-svdg-crayola"
           >
             <option value="">All Regions</option>
             {(regions.length > 0 ? regions : ['US', 'Europe', 'UK', 'Australia', 'Other'] as Region[]).map((r) => (
@@ -106,7 +125,7 @@ export default function FilterBar({
           <select
             value={sponsor}
             onChange={(e) => onSponsor(e.target.value)}
-            className="text-xs border border-slate-200 rounded px-2 py-1.5 bg-white focus:outline-none focus:ring-1 focus:ring-blue-500"
+            className="text-xs border border-slate-200 rounded px-2 py-1.5 bg-white focus:outline-none focus:ring-1 focus:ring-svdg-crayola"
           >
             <option value="">All Sponsors</option>
             {sponsors.map((s) => (
@@ -119,7 +138,7 @@ export default function FilterBar({
         <select
           value={status}
           onChange={(e) => onStatus(e.target.value)}
-          className="text-xs border border-slate-200 rounded px-2 py-1.5 bg-white focus:outline-none focus:ring-1 focus:ring-blue-500"
+          className="text-xs border border-slate-200 rounded px-2 py-1.5 bg-white focus:outline-none focus:ring-1 focus:ring-svdg-crayola"
         >
           <option value="">All Status</option>
           {(['New', 'Reviewed', 'Featured', 'Rejected', 'Archived'] as ArticleStatus[]).map((s) => (
@@ -141,13 +160,14 @@ export default function FilterBar({
         )}
 
         {/* Clear */}
-        {(search || source || tag || region || sponsor || status) && (
+        {(search || source || tag || region || sponsor || status || category) && (
           <button
             onClick={() => {
               onSearch(''); onSource(''); onTag('')
               onRegion(''); onSponsor(''); onStatus('')
+              onCategory && onCategory('')
             }}
-            className="text-xs text-blue-600 hover:underline ml-auto"
+            className="text-xs text-svdg-admiral hover:underline ml-auto"
           >
             Clear filters
           </button>

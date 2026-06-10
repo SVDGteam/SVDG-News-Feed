@@ -8,6 +8,7 @@ import {
   SponsorNatSec100Relevance,
 } from '@/types/article'
 import { CATEGORIES, REGIONS, WORKSTREAMS, SUGGESTED_TAGS } from '@/data/categories'
+import { SPONSOR_NAMES } from '@/data/sponsors'
 import { calcRelevanceScore } from '@/lib/scoring'
 
 interface Props {
@@ -333,10 +334,16 @@ export default function ArticleForm({ article }: Props) {
             <label className={labelClass}>Sponsor Name</label>
             <input
               className={inputClass}
+              list="sponsor-options"
               value={form.sponsorName}
               onChange={(e) => set('sponsorName', e.target.value)}
               placeholder="e.g. Booz Allen Hamilton"
             />
+            <datalist id="sponsor-options">
+              {SPONSOR_NAMES.map((s) => (
+                <option key={s} value={s} />
+              ))}
+            </datalist>
           </div>
           <div>
             <label className={labelClass}>Company Mentions</label>
@@ -489,7 +496,7 @@ export default function ArticleForm({ article }: Props) {
         <button
           type="submit"
           disabled={loading}
-          className="bg-blue-600 hover:bg-blue-500 disabled:opacity-50 text-white text-sm px-5 py-2 rounded font-medium transition-colors"
+          className="svdg-btn svdg-btn--primary disabled:opacity-50"
         >
           {loading ? 'Saving…' : isEdit ? 'Save Changes' : 'Add Article'}
         </button>

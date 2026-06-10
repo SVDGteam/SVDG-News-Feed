@@ -4,15 +4,14 @@ import { getCategoryConfig } from '@/data/categories'
 
 export const dynamic = 'force-dynamic'
 
-export default function GovernmentPage() {
-  const cat = getCategoryConfig('Government News')!
+export default function InvestorPage() {
+  const cat = getCategoryConfig('Investor News')!
   return (
     <div>
-      <span className="eyebrow text-svdg-admiral">Category</span>
-      <h1 className="text-2xl mb-3">{cat.label}</h1>
+      <h1 className="text-xl font-bold text-slate-900 mb-1">{cat.label}</h1>
       <CategoryPageClient
         articles={getAllArticles()}
-        category="Government News"
+        category="Investor News"
         description={cat.description}
       />
     </div>

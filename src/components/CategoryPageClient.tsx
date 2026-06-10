@@ -5,6 +5,7 @@ import { Article, Category, Region } from '@/types/article'
 import ArticleCard from './ArticleCard'
 import FilterBar from './FilterBar'
 import { filterArticles, getUniqueSources, getUniqueTags, getUniqueSponsors, SortKey } from '@/lib/filters'
+import { SPONSOR_NAMES } from '@/data/sponsors'
 
 interface Props {
   articles: Article[]
@@ -34,7 +35,11 @@ export default function CategoryPageClient({
 
   const sources = useMemo(() => getUniqueSources(articles.filter(a => a.categories.includes(category))), [articles, category])
   const tags = useMemo(() => getUniqueTags(articles.filter(a => a.categories.includes(category))), [articles, category])
-  const sponsors = useMemo(() => getUniqueSponsors(articles.filter(a => a.categories.includes(category))), [articles, category])
+  // For Sponsor News, offer the full SVDG sponsor roster (not just sponsors with existing articles)
+  const sponsors = useMemo(
+    () => (category === 'Sponsor News' ? SPONSOR_NAMES : getUniqueSponsors(articles.filter(a => a.categories.includes(category)))),
+    [articles, category]
+  )
 
   const filtered = useMemo(() =>
     filterArticles(articles, {
@@ -53,7 +58,7 @@ export default function CategoryPageClient({
   return (
     <div>
       <div className="mb-4">
-        <p className="text-sm text-slate-500">{description}</p>
+        <p className="text-sm text-svdg-french-gray">{description}</p>
       </div>
 
       <FilterBar

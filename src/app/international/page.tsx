@@ -8,7 +8,8 @@ export default function InternationalPage() {
   const cat = getCategoryConfig('International')!
   return (
     <div>
-      <h1 className="text-xl font-bold text-slate-900 mb-1">{cat.label}</h1>
+      <span className="eyebrow text-svdg-admiral">Category</span>
+      <h1 className="text-2xl mb-3">{cat.label}</h1>
       <CategoryPageClient
         articles={getAllArticles()}
         category="International"

@@ -1,6 +1,7 @@
 'use client'
 
 import Link from 'next/link'
+import Image from 'next/image'
 import { usePathname } from 'next/navigation'
 import { CATEGORIES } from '@/data/categories'
 
@@ -8,22 +9,21 @@ const NAV_ITEMS = [
   { label: 'Weekly Rundown', href: '/' },
   ...CATEGORIES.map((c) => ({ label: c.label, href: `/${c.slug}` })),
   { label: 'Archive', href: '/archive' },
+  { label: 'Search', href: '/search' },
 ]
 
 export default function Navigation() {
   const pathname = usePathname()
 
   return (
-    <header className="bg-svdg-navy border-b border-svdg-slate sticky top-0 z-50">
+    <header className="bg-svdg-pea-coat sticky top-0 z-50 border-b border-white/10">
       <div className="max-w-screen-xl mx-auto px-4">
         <div className="flex items-center justify-between h-14">
-          {/* Logo */}
-          <Link href="/" className="flex items-center gap-2 shrink-0">
-            <span className="text-white font-semibold tracking-tight text-base">
-              SVDG
-            </span>
-            <span className="text-blue-300 font-light text-sm hidden sm:inline">
-              News Intelligence
+          {/* Logo / brand */}
+          <Link href="/" className="flex items-center gap-2.5 shrink-0">
+            <Image src="/brand/logomark.svg" alt="" width={24} height={24} className="opacity-90" />
+            <span className="font-display font-bold tracking-tight text-base text-white leading-none">
+              SVDG&apos;s Red Folder
             </span>
           </Link>
 
@@ -39,10 +39,10 @@ export default function Navigation() {
                   key={item.href}
                   href={item.href}
                   className={`
-                    px-3 py-1.5 rounded text-sm whitespace-nowrap transition-colors
+                    nav-text px-3 py-1.5 text-[11px] whitespace-nowrap transition-colors border-b-2
                     ${isActive
-                      ? 'bg-blue-600 text-white font-medium'
-                      : 'text-slate-300 hover:text-white hover:bg-svdg-slate'
+                      ? 'text-svdg-sky-dancer border-svdg-sky-dancer'
+                      : 'text-white/60 border-transparent hover:text-white hover:border-white/30'
                     }
                   `}
                 >
@@ -55,7 +55,7 @@ export default function Navigation() {
           {/* Add button */}
           <Link
             href="/add"
-            className="ml-3 shrink-0 bg-blue-600 hover:bg-blue-500 text-white text-sm px-3 py-1.5 rounded transition-colors font-medium"
+            className="svdg-btn svdg-btn--accent ml-3 shrink-0 !text-[11px] !px-3 !py-1.5"
           >
             + Add
           </Link>

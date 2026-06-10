@@ -21,7 +21,7 @@ export default function ArticleCard({ article, compact = false }: Props) {
   const ageLabel = getArticleAgeLabel(article.datePublished)
 
   return (
-    <div className="bg-white border border-slate-200 rounded-lg p-4 hover:border-blue-300 hover:shadow-sm transition-all group">
+    <div className="bg-white border border-slate-200 rounded-lg p-4 hover:border-svdg-sky hover:shadow-sm transition-all group">
       {/* Top row: categories + score + status */}
       <div className="flex flex-wrap items-center gap-1.5 mb-2">
         {article.categories.map((cat) => (
@@ -45,7 +45,7 @@ export default function ArticleCard({ article, compact = false }: Props) {
         href={article.url}
         target="_blank"
         rel="noopener noreferrer"
-        className="block font-semibold text-slate-900 text-sm leading-snug mb-1 group-hover:text-blue-700 transition-colors"
+        className="block font-semibold text-slate-900 text-sm leading-snug mb-1 group-hover:text-svdg-admiral transition-colors"
       >
         {article.title}
       </a>
@@ -76,8 +76,8 @@ export default function ArticleCard({ article, compact = false }: Props) {
 
       {/* Why it matters */}
       {!compact && article.whyItMatters && (
-        <div className="bg-blue-50 border border-blue-100 rounded px-3 py-2 mb-2">
-          <span className="text-[10px] uppercase tracking-wide text-blue-500 font-semibold mr-1">
+        <div className="bg-svdg-platinum border border-svdg-timberwolf rounded px-3 py-2 mb-2">
+          <span className="text-[10px] uppercase tracking-wide text-svdg-admiral font-semibold mr-1 font-mono">
             Why it matters ·
           </span>
           <span className="text-xs text-slate-700">{article.whyItMatters}</span>
@@ -101,7 +101,7 @@ export default function ArticleCard({ article, compact = false }: Props) {
         </div>
         <Link
           href={`/article/${article.id}/edit`}
-          className="text-[10px] text-slate-400 hover:text-blue-600 transition-colors"
+          className="text-[10px] text-slate-400 hover:text-svdg-admiral transition-colors"
         >
           Edit
         </Link>

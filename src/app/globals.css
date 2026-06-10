@@ -1,14 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=IBM+Plex+Mono:wght@500;700&display=swap');
+
+@font-face {
+  font-family: 'Space Grotesk';
+  src: url('/fonts/SpaceGrotesk-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Space Grotesk';
+  src: url('/fonts/SpaceGrotesk-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Space Grotesk';
+  src: url('/fonts/SpaceGrotesk-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Space Grotesk';
+  src: url('/fonts/SpaceGrotesk-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  /* SVDG brand palette */
+  --svdg-berkeley: #0b3266;
+  --svdg-admiral: #0a3c8a;
+  --svdg-sapphire: #1254ac;
+  --svdg-crayola: #2177e8;
+  --svdg-sky: #67a2ef;
+  --svdg-pea-coat: #031020;
+  --svdg-french-gray: #a8a9ac;
+  --svdg-timberwolf: #d7d7d7;
+  --svdg-platinum: #eaeaea;
+  --svdg-white: #ffffff;
+  --svdg-sky-dancer: #75fb9f;
+
+  /* Typography */
+  --font-display: 'Space Grotesk', Inter, system-ui, sans-serif;
+  --font-body: 'Lato', system-ui, sans-serif;
+  --font-mono: 'IBM Plex Mono', ui-monospace, monospace;
+
+  /* Semantic tokens (light) */
+  --bg-page: var(--svdg-platinum);
+  --bg-surface: var(--svdg-white);
+  --bg-muted: #f3f4f6;
+  --fg-strong: var(--svdg-pea-coat);
+  --fg-default: #1f2933;
+  --fg-muted: #5b6573;
+  --link: var(--svdg-crayola);
+  --link-hover: var(--svdg-admiral);
+  --border-default: var(--svdg-timberwolf);
+}
+
 @layer base {
   html {
-    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    font-family: var(--font-body);
   }
 
   body {
-    @apply bg-slate-50 text-slate-900;
+    @apply text-slate-900;
+    background-color: var(--bg-page);
+  }
+
+  h1, h2, h3, h4 {
+    font-family: var(--font-display);
+    font-weight: 700;
+    color: var(--fg-strong);
+    line-height: 1.1;
   }
 }
 
@@ -20,4 +90,123 @@
   .scrollbar-hide::-webkit-scrollbar {
     display: none;
   }
+
+  .font-display {
+    font-family: var(--font-display);
+  }
+  .font-mono-svdg {
+    font-family: var(--font-mono);
+  }
+
+  .eyebrow {
+    font-family: var(--font-mono);
+    font-weight: 500;
+    font-size: 11px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+  }
+
+  .nav-text {
+    font-family: var(--font-mono);
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+}
+
+/* ===================== Corner-bracket motif ===================== */
+.svdg-bracket {
+  position: relative;
+  padding: var(--bk-inset, 18px);
+}
+.svdg-bracket__tl,
+.svdg-bracket__br {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  border: var(--bk-stroke, 2px) solid var(--bk-color, var(--svdg-admiral));
+}
+.svdg-bracket__tl {
+  top: 0;
+  left: 0;
+  border-right: 0;
+  border-bottom: 0;
+}
+.svdg-bracket__br {
+  bottom: 0;
+  right: 0;
+  border-left: 0;
+  border-top: 0;
+}
+.svdg-bracket__body {
+  position: relative;
+}
+
+/* ===================== Tags ===================== */
+.svdg-tag {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 3px 9px;
+  border-radius: 999px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+.svdg-tag--solid {
+  background: var(--svdg-admiral);
+  color: #fff;
+}
+.svdg-tag--outline {
+  background: transparent;
+  color: var(--svdg-admiral);
+  border: 1px solid var(--svdg-admiral);
+}
+.svdg-tag--muted {
+  background: var(--svdg-platinum);
+  color: var(--svdg-pea-coat);
+}
+.svdg-tag--accent {
+  background: var(--svdg-sky-dancer);
+  color: var(--svdg-pea-coat);
+}
+
+/* ===================== Buttons ===================== */
+.svdg-btn {
+  font-family: var(--font-mono);
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: 0.10em;
+  text-transform: uppercase;
+  padding: 10px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+  border: 0;
+  line-height: 1;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: background-color 200ms ease;
+}
+.svdg-btn--primary {
+  background: var(--svdg-admiral);
+  color: #fff;
+}
+.svdg-btn--primary:hover {
+  background: var(--svdg-berkeley);
+}
+.svdg-btn--secondary {
+  background: transparent;
+  border: 1.5px solid var(--svdg-admiral);
+  color: var(--svdg-admiral);
+  padding: 8.5px 16.5px;
+}
+.svdg-btn--accent {
+  background: var(--svdg-sky-dancer);
+  color: var(--svdg-pea-coat);
+}
+.svdg-btn--accent:hover {
+  background: #5eebac;
 }

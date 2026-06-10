@@ -6,14 +6,14 @@ import { Article } from '@/types/article'
 
 function SectionHeader({ title, count, href }: { title: string; count?: number; href?: string }) {
   return (
-    <div className="flex items-center justify-between mb-3">
-      <h2 className="text-sm font-semibold text-slate-700 uppercase tracking-wide">{title}</h2>
+    <div className="flex items-center justify-between mb-3 border-b border-svdg-timberwolf pb-1.5">
+      <h2 className="eyebrow text-svdg-pea-coat">{title}</h2>
       <div className="flex items-center gap-3">
         {count !== undefined && (
-          <span className="text-xs text-slate-400">{count} item{count !== 1 ? 's' : ''}</span>
+          <span className="text-xs text-svdg-french-gray">{count} item{count !== 1 ? 's' : ''}</span>
         )}
         {href && (
-          <Link href={href} className="text-xs text-blue-600 hover:underline">
+          <Link href={href} className="nav-text text-[10px] text-svdg-admiral hover:text-svdg-berkeley">
             View all →
           </Link>
         )}
@@ -88,18 +88,19 @@ export default function HomePage() {
     <div>
       {/* Header */}
       <div className="mb-6">
-        <div className="flex items-start justify-between">
+        <div className="flex items-start justify-between flex-wrap gap-3">
           <div>
-            <h1 className="text-xl font-bold text-slate-900">Weekly Rundown</h1>
-            <p className="text-sm text-slate-500 mt-0.5">{weekStr} · SVDG News Intelligence</p>
+            <span className="eyebrow text-svdg-admiral">SVDG&apos;s Red Folder</span>
+            <h1 className="text-2xl mt-1">Weekly Rundown</h1>
+            <p className="text-sm text-svdg-french-gray mt-0.5">{weekStr}</p>
           </div>
           <div className="flex gap-2">
             {needsReview.length > 0 && (
-              <span className="bg-orange-100 text-orange-700 text-xs font-medium px-2.5 py-1 rounded-full border border-orange-200">
+              <span className="svdg-tag svdg-tag--outline border-amber-400 text-amber-700">
                 {needsReview.length} need review
               </span>
             )}
-            <span className="bg-slate-100 text-slate-600 text-xs font-medium px-2.5 py-1 rounded-full">
+            <span className="svdg-tag svdg-tag--muted">
               {active.length} active articles
             </span>
           </div>
@@ -109,7 +110,7 @@ export default function HomePage() {
       {/* Featured */}
       {featured.length > 0 && (
         <section className="mb-8">
-          <SectionHeader title="⭐ Featured This Week" count={featured.length} />
+          <SectionHeader title="Featured This Week" count={featured.length} />
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-3">
             {featured.map((a) => (
               <ArticleCard key={a.id} article={a} />
@@ -121,7 +122,7 @@ export default function HomePage() {
       {/* Highest relevance */}
       {recentHigh.length > 0 && (
         <section className="mb-8">
-          <SectionHeader title="🔥 Highest Relevance · Last 14 Days" count={recentHigh.length} />
+          <SectionHeader title="Highest Relevance · Last 14 Days" count={recentHigh.length} />
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-3">
             {recentHigh.map((a) => (
               <ArticleCard key={a.id} article={a} />
@@ -133,7 +134,7 @@ export default function HomePage() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         {/* Recently added */}
         <section>
-          <SectionHeader title="🆕 Recently Added" count={recentlyAdded.length} />
+          <SectionHeader title="Recently Added" count={recentlyAdded.length} />
           <div className="space-y-3">
             {recentlyAdded.length > 0
               ? recentlyAdded.map((a) => <ArticleCard key={a.id} article={a} compact />)
@@ -144,7 +145,7 @@ export default function HomePage() {
 
         {/* Sponsor mentions */}
         <section>
-          <SectionHeader title="🏢 Sponsor Mentions" href="/sponsor" count={sponsorMentions.length} />
+          <SectionHeader title="Sponsor Mentions" href="/sponsor" count={sponsorMentions.length} />
           <div className="space-y-3">
             {sponsorMentions.length > 0
               ? sponsorMentions.map((a) => <ArticleCard key={a.id} article={a} compact />)
@@ -157,7 +158,7 @@ export default function HomePage() {
       {/* International watch */}
       {internationalWatch.length > 0 && (
         <section className="mt-8">
-          <SectionHeader title="🌐 International Watch" href="/international" count={internationalWatch.length} />
+          <SectionHeader title="International Watch" href="/international" count={internationalWatch.length} />
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-3">
             {internationalWatch.map((a) => (
               <ArticleCard key={a.id} article={a} compact />
@@ -169,7 +170,7 @@ export default function HomePage() {
       {/* Needs review */}
       {needsReview.length > 0 && (
         <section className="mt-8">
-          <SectionHeader title="📋 Needs Review" count={needsReview.length} />
+          <SectionHeader title="Needs Review" count={needsReview.length} />
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-3">
             {needsReview.map((a) => (
               <ArticleCard key={a.id} article={a} compact />
@@ -179,7 +180,7 @@ export default function HomePage() {
       )}
 
       {/* Stats bar */}
-      <div className="mt-10 border-t border-slate-200 pt-4 flex flex-wrap gap-6 text-xs text-slate-400">
+      <div className="mt-10 border-t border-svdg-timberwolf pt-4 flex flex-wrap gap-6 text-xs text-svdg-french-gray">
         {([
           ['Industry News', '/industry'],
           ['Investor News', '/investor'],
@@ -190,13 +191,13 @@ export default function HomePage() {
         ] as [string, string][]).map(([label, href]) => {
           const count = active.filter((a) => a.categories.includes(label as any)).length
           return (
-            <Link key={href} href={href} className="hover:text-blue-600 transition-colors">
-              {label} <span className="font-semibold text-slate-600">{count}</span>
+            <Link key={href} href={href} className="hover:text-svdg-admiral transition-colors">
+              {label} <span className="font-semibold text-svdg-pea-coat">{count}</span>
             </Link>
           )
         })}
-        <Link href="/archive" className="hover:text-blue-600 transition-colors">
-          Archive <span className="font-semibold text-slate-600">{allArticles.filter((a) => a.isArchived).length}</span>
+        <Link href="/archive" className="hover:text-svdg-admiral transition-colors">
+          Archive <span className="font-semibold text-svdg-pea-coat">{allArticles.filter((a) => a.isArchived).length}</span>
         </Link>
       </div>
     </div>
