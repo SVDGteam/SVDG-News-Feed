@@ -35,9 +35,14 @@ export function middleware(request: NextRequest) {
 export const config = {
   matcher: [
     /*
-     * Match all paths except static assets, so the gate covers pages and
-     * API routes alike.
+     * Match all paths except:
+     *  - static assets (_next, favicon, fonts, brand, extension downloads)
+     *  - the public newsletter signup page + its API route
+     *  - integration endpoints that use their own shared-secret auth
+     *    (Apps Script newsletter sender, browser extension) — these can't
+     *    answer an HTTP Basic Auth challenge.
+     * so the gate covers the dashboard and its other API routes.
      */
-    '/((?!_next/static|_next/image|favicon.ico|fonts|brand).*)',
+    '/((?!_next/static|_next/image|favicon.ico|fonts|brand|extension/dispatch-clipper.zip|newsletter|api/subscribe|api/newsletter/digest|api/extension).*)',
   ],
 }
