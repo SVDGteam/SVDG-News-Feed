@@ -52,16 +52,6 @@ export const CATEGORIES: CategoryConfig[] = [
     heroImage: '/brand/category-heroes/sponsor.jpg',
   },
   {
-    id: 'opinions',
-    label: 'Opinions',
-    slug: 'opinions',
-    description:
-      'Op-eds, essays, analysis, and commentary from think tanks, investors, defense leaders, and major publications that inform SVDG\'s perspective.',
-    color: 'text-rose-300',
-    bgColor: 'bg-rose-500/15 border-rose-400/30',
-    heroImage: '/brand/category-heroes/opinions.jpg',
-  },
-  {
     id: 'international',
     label: 'International',
     slug: 'international',
@@ -70,6 +60,16 @@ export const CATEGORIES: CategoryConfig[] = [
     color: 'text-indigo-300',
     bgColor: 'bg-indigo-500/15 border-indigo-400/30',
     heroImage: '/brand/category-heroes/international.jpg',
+  },
+  {
+    id: 'opinions',
+    label: 'Opinions',
+    slug: 'opinions',
+    description:
+      'Op-eds, essays, analysis, and commentary from think tanks, investors, defense leaders, and major publications that inform SVDG\'s perspective.',
+    color: 'text-rose-300',
+    bgColor: 'bg-rose-500/15 border-rose-400/30',
+    heroImage: '/brand/category-heroes/opinions.jpg',
   },
 ]
 

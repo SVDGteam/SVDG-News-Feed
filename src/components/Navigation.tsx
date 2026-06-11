@@ -5,8 +5,9 @@ import Image from 'next/image'
 import { usePathname } from 'next/navigation'
 import { CATEGORIES } from '@/data/categories'
 
+const RUNDOWN_ITEM = { label: 'Weekly Rundown', href: '/' }
+
 const NAV_ITEMS = [
-  { label: 'Weekly Rundown', href: '/' },
   ...CATEGORIES.map((c) => ({ label: c.label, href: `/${c.slug}` })),
   { label: 'Archive', href: '/archive' },
   { label: 'Search', href: '/search' },
@@ -38,11 +39,23 @@ export default function Navigation() {
 
           {/* Nav — scrollable on mobile */}
           <nav className="flex items-center gap-0.5 overflow-x-auto scrollbar-hide ml-4">
+            <Link
+              href={RUNDOWN_ITEM.href}
+              className={`
+                nav-text px-3 py-1.5 text-[11px] whitespace-nowrap transition-colors border-b-2
+                ${pathname === '/'
+                  ? 'text-svdg-sky-dancer border-svdg-sky-dancer'
+                  : 'text-white/60 border-transparent hover:text-white hover:border-white/30'
+                }
+              `}
+            >
+              {RUNDOWN_ITEM.label}
+            </Link>
+
+            <span className="w-px h-5 bg-white/15 mx-2 shrink-0" aria-hidden="true" />
+
             {NAV_ITEMS.map((item) => {
-              const isActive =
-                item.href === '/'
-                  ? pathname === '/'
-                  : pathname.startsWith(item.href)
+              const isActive = pathname.startsWith(item.href)
               return (
                 <Link
                   key={item.href}

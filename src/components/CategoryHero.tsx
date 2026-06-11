@@ -7,14 +7,14 @@ export default function CategoryHero({ category }: { category: CategoryConfig })
 
   return (
     <div
-      className="svdg-category-hero mb-6 h-28 sm:h-32 md:h-36 flex items-center justify-center text-center"
+      className="svdg-category-hero mb-6 h-28 sm:h-32 md:h-36 flex items-center"
       style={
         {
           backgroundImage: `url(${category.heroImage})`,
         } as CSSProperties
       }
     >
-      <div className="svdg-category-hero__content flex items-center gap-3 md:gap-4">
+      <div className="svdg-category-hero__content flex items-center gap-3 md:gap-4 px-5 sm:px-6 md:px-8 max-w-[60%] sm:max-w-[50%] md:max-w-md">
         {isSponsor && (
           <Image
             src="/brand/logomark-white.png"
