@@ -13,11 +13,11 @@ interface Props {
 }
 
 const STATUS_STYLES: Record<string, string> = {
-  New: 'bg-orange-500/15 text-orange-300 border-orange-400/30',
-  Reviewed: 'bg-white/5 text-slate-300 border-white/15',
-  Featured: 'bg-blue-500/15 text-blue-300 border-blue-400/30',
-  Rejected: 'bg-red-500/15 text-red-300 border-red-400/30',
-  Archived: 'bg-white/5 text-slate-400 border-white/10',
+  New: 'bg-orange-500/25 text-orange-300 border-orange-400/45',
+  Reviewed: 'bg-white/10 text-slate-300 border-white/20',
+  Featured: 'bg-blue-500/25 text-blue-300 border-blue-400/45',
+  Rejected: 'bg-red-500/25 text-red-300 border-red-400/45',
+  Archived: 'bg-white/10 text-slate-400 border-white/15',
 }
 
 const USER_ID_KEY = 'svdg-user-id'
@@ -121,7 +121,7 @@ export default function ArticleCard({ article }: Props) {
             <CategoryBadge key={cat} category={cat} size="xs" />
           ))}
           {article.region && article.region !== 'US' && (
-            <span className="text-[10px] px-2 py-0.5 rounded-full border bg-indigo-500/15 border-indigo-400/30 text-indigo-300 font-semibold">
+            <span className="text-[10px] px-2 py-0.5 rounded-full border bg-indigo-500/25 border-indigo-400/45 text-indigo-300 font-semibold">
               {article.region}
             </span>
           )}
@@ -175,7 +175,7 @@ export default function ArticleCard({ article }: Props) {
           title="Like — adds 10 points to relevance"
           className={`flex items-center gap-1 text-[11px] px-2.5 py-0.5 rounded-full border font-semibold transition-colors ${
             userReaction === 'like'
-              ? 'bg-emerald-500/15 border-emerald-400/40 text-emerald-300'
+              ? 'bg-emerald-500/25 border-emerald-400/55 text-emerald-300'
               : 'border-white/10 text-svdg-french-gray hover:border-emerald-400/30 hover:text-emerald-300'
           }`}
         >
@@ -188,7 +188,7 @@ export default function ArticleCard({ article }: Props) {
           title="Dislike — subtracts 10 points from relevance"
           className={`flex items-center gap-1 text-[11px] px-2.5 py-0.5 rounded-full border font-semibold transition-colors ${
             userReaction === 'dislike'
-              ? 'bg-red-500/15 border-red-400/40 text-red-300'
+              ? 'bg-red-500/25 border-red-400/55 text-red-300'
               : 'border-white/10 text-svdg-french-gray hover:border-red-400/30 hover:text-red-300'
           }`}
         >
@@ -220,7 +220,7 @@ export default function ArticleCard({ article }: Props) {
               {article.tags.slice(0, 5).map((tag) => (
                 <span
                   key={tag}
-                  className="text-[10px] bg-white/5 text-slate-300 px-2 py-0.5 rounded-full font-medium"
+                  className="text-[10px] bg-white/10 text-slate-300 px-2 py-0.5 rounded-full font-medium"
                 >
                   {tag}
                 </span>

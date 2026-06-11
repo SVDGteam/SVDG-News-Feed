@@ -122,7 +122,7 @@ export function getScoreLabel(score: number): ScoreLabel {
 
 export function getScoreColor(score: number): string {
   if (score >= 85) return 'bg-svdg-sky-dancer text-svdg-pea-coat border-svdg-sky-dancer'
-  if (score >= 65) return 'bg-blue-500/15 text-blue-300 border-blue-400/30'
-  if (score >= 40) return 'bg-yellow-500/15 text-yellow-300 border-yellow-400/30'
-  return 'bg-white/5 text-slate-400 border-white/10'
+  if (score >= 65) return 'bg-blue-500/25 text-blue-300 border-blue-400/45'
+  if (score >= 40) return 'bg-yellow-500/25 text-yellow-300 border-yellow-400/45'
+  return 'bg-white/10 text-slate-400 border-white/15'
 }

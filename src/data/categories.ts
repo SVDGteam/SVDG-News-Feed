@@ -26,7 +26,7 @@ export const CATEGORIES: CategoryConfig[] = [
     description:
       'Private-sector developments in the defense, dual-use, and national security technology ecosystem — startups, contracts, partnerships, and emerging tech.',
     color: 'text-blue-300',
-    bgColor: 'bg-blue-500/15 border-blue-400/30',
+    bgColor: 'bg-blue-500/25 border-blue-400/45',
     heroImage: '/brand/category-heroes/industry.jpg',
   },
   {
@@ -37,7 +37,7 @@ export const CATEGORIES: CategoryConfig[] = [
     description:
       'VC, PE, and institutional capital moving into defense and dual-use — fund announcements, exits, M&A, investment policy, and capital formation.',
     color: 'text-emerald-300',
-    bgColor: 'bg-emerald-500/15 border-emerald-400/30',
+    bgColor: 'bg-emerald-500/25 border-emerald-400/45',
     heroImage: '/brand/category-heroes/investor.jpg',
   },
   {
@@ -48,7 +48,7 @@ export const CATEGORIES: CategoryConfig[] = [
     description:
       'Federal acquisition, DoD reform, innovation offices (DIU, DARPA, CDAO), Congressional action, NDAA, appropriations, and procurement policy.',
     color: 'text-purple-300',
-    bgColor: 'bg-purple-500/15 border-purple-400/30',
+    bgColor: 'bg-purple-500/25 border-purple-400/45',
     heroImage: '/brand/category-heroes/government.jpg',
   },
   {
@@ -58,7 +58,7 @@ export const CATEGORIES: CategoryConfig[] = [
     description:
       'What is happening with SVDG sponsors — announcements, funding, products, contracts, partnerships, and executive commentary.',
     color: 'text-amber-300',
-    bgColor: 'bg-amber-500/15 border-amber-400/30',
+    bgColor: 'bg-amber-500/25 border-amber-400/45',
     heroImage: '/brand/category-heroes/sponsor.jpg',
   },
   {
@@ -68,7 +68,7 @@ export const CATEGORIES: CategoryConfig[] = [
     description:
       'Allied defense innovation, AUKUS, NATO, European and UK defense tech, Australian industrial base, and foreign defense investment.',
     color: 'text-indigo-300',
-    bgColor: 'bg-indigo-500/15 border-indigo-400/30',
+    bgColor: 'bg-indigo-500/25 border-indigo-400/45',
     heroImage: '/brand/category-heroes/international.jpg',
   },
   {
@@ -78,7 +78,7 @@ export const CATEGORIES: CategoryConfig[] = [
     description:
       'Op-eds, essays, analysis, and commentary from think tanks, investors, defense leaders, and major publications that inform SVDG\'s perspective.',
     color: 'text-rose-300',
-    bgColor: 'bg-rose-500/15 border-rose-400/30',
+    bgColor: 'bg-rose-500/25 border-rose-400/45',
     heroImage: '/brand/category-heroes/opinions.jpg',
   },
 ]

@@ -263,7 +263,7 @@ export default function ArticleForm({ article }: Props) {
               className={`text-xs px-3.5 py-1.5 rounded-full border font-semibold transition-colors ${
                 form.categories.includes(cat.label)
                   ? `${cat.bgColor} ${cat.color}`
-                  : 'bg-white/5 border-white/10 text-svdg-french-gray hover:bg-white/10'
+                  : 'bg-transparent border-white/15 text-svdg-french-gray hover:border-white/30 hover:text-white'
               }`}
             >
               {getDisplayLabel(cat)}
@@ -279,7 +279,7 @@ export default function ArticleForm({ article }: Props) {
           {form.tags.map((tag) => (
             <span
               key={tag}
-              className="inline-flex items-center gap-1 text-xs font-semibold bg-blue-500/15 text-blue-300 px-2.5 py-1 rounded-full"
+              className="inline-flex items-center gap-1 text-xs font-semibold bg-blue-500/25 text-blue-300 px-2.5 py-1 rounded-full"
             >
               {tag}
               <button type="button" onClick={() => removeTag(tag)} className="hover:text-red-400">×</button>
@@ -448,8 +448,8 @@ export default function ArticleForm({ article }: Props) {
                 onClick={() => toggleWorkstream(ws)}
                 className={`text-xs px-3 py-1 rounded-full border transition-colors ${
                   form.workstreams.includes(ws)
-                    ? 'bg-purple-500/15 border-purple-400/30 text-purple-300 font-semibold'
-                    : 'bg-white/5 border-white/10 text-svdg-french-gray hover:bg-white/10'
+                    ? 'bg-purple-500/25 border-purple-400/45 text-purple-300 font-semibold'
+                    : 'bg-transparent border-white/15 text-svdg-french-gray hover:border-white/30 hover:text-white'
                 }`}
               >
                 {ws}
