@@ -1,5 +1,6 @@
 'use client'
 
+import { useEffect, useRef, useState } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import { usePathname } from 'next/navigation'
@@ -12,7 +13,6 @@ const RUNDOWN_ITEM = { label: 'Weekly Rundown', href: '/' }
 const NAV_ITEMS: { label: string; href: string; id?: string }[] = [
   ...CATEGORIES.map((c) => ({ label: getDisplayLabel(c), href: `/${c.slug}`, id: c.id })),
   { label: 'All Articles', href: '/archive' },
-  { label: 'Reading List', href: '/reading-list' },
 ]
 
 // Per-category accent colors for nav tabs — mirrors the colors used on
@@ -29,7 +29,6 @@ const NAV_ACCENTS: Record<string, { dot: string; text: string; border: string; h
 
 export default function Navigation() {
   const pathname = usePathname()
-  const { userName, setUserName } = useIdentity()
 
   return (
     <header className="bg-svdg-pea-coat sticky top-0 z-50 border-b border-white/10 relative">
@@ -113,28 +112,22 @@ export default function Navigation() {
             })}
           </nav>
 
-          {/* Who's reading — lightweight identity picker */}
-          <select
-            value={userName}
-            onChange={(e) => setUserName(e.target.value)}
-            title="Pick your name to track read articles and your reading list"
-            className={`
-              nav-text ml-3 shrink-0 text-[11px] px-3 py-1.5 rounded-full border bg-svdg-pea-coat transition-colors cursor-pointer
-              ${userName
-                ? 'border-svdg-sky-dancer/40 text-svdg-sky-dancer'
-                : 'border-white/15 text-svdg-french-gray hover:border-white/30 hover:text-white'
-              }
-            `}
-          >
-            <option value="" disabled>
-              Who&apos;s reading?
-            </option>
-            {TEAM_MEMBERS.map((name) => (
-              <option key={name} value={name}>
-                {name}
-              </option>
-            ))}
-          </select>
+          {/* Personal: reading list + identity, kept compact so the
+              category nav has room to breathe */}
+          <div className="flex items-center gap-1.5 ml-3 shrink-0">
+            <Link
+              href="/reading-list"
+              title="Your reading list"
+              className={`w-7 h-7 rounded-full border flex items-center justify-center transition-colors ${
+                pathname === '/reading-list'
+                  ? 'bg-svdg-crayola/25 border-svdg-crayola/55 text-svdg-sky'
+                  : 'border-white/15 text-svdg-french-gray hover:border-white/30 hover:text-white'
+              }`}
+            >
+              <BookmarkIcon />
+            </Link>
+            <AccountMenu />
+          </div>
 
           {/* Add button */}
           <Link
@@ -146,5 +139,72 @@ export default function Navigation() {
         </div>
       </div>
     </header>
+  )
+}
+
+function BookmarkIcon() {
+  return (
+    <svg viewBox="0 0 20 20" className="w-3.5 h-3.5" fill="none" stroke="currentColor" strokeWidth="1.5">
+      <path d="M5 3h10v14l-5-3-5 3V3z" strokeLinecap="round" strokeLinejoin="round" />
+    </svg>
+  )
+}
+
+// Compact "who's reading" picker — a small avatar showing your initial.
+// Click to open a short dropdown and pick/change your name.
+function AccountMenu() {
+  const { userName, setUserName } = useIdentity()
+  const [open, setOpen] = useState(false)
+  const ref = useRef<HTMLDivElement>(null)
+
+  useEffect(() => {
+    if (!open) return
+    function onClickOutside(e: MouseEvent) {
+      if (ref.current && !ref.current.contains(e.target as Node)) setOpen(false)
+    }
+    document.addEventListener('mousedown', onClickOutside)
+    return () => document.removeEventListener('mousedown', onClickOutside)
+  }, [open])
+
+  return (
+    <div className="relative" ref={ref}>
+      <button
+        type="button"
+        onClick={() => setOpen((v) => !v)}
+        title={userName ? `Reading as ${userName} — click to change` : "Who's reading? Click to set your name"}
+        className={`w-7 h-7 rounded-full border flex items-center justify-center text-[11px] font-bold transition-colors ${
+          userName
+            ? 'bg-svdg-sky-dancer/15 border-svdg-sky-dancer/40 text-svdg-sky-dancer'
+            : 'border-white/15 text-svdg-french-gray hover:border-white/30 hover:text-white'
+        }`}
+      >
+        {userName ? userName[0].toUpperCase() : '?'}
+      </button>
+
+      {open && (
+        <div className="absolute right-0 mt-1.5 w-32 bg-svdg-pea-coat border border-white/15 rounded-lg shadow-lg overflow-hidden z-50">
+          <div className="px-3 py-1.5 text-[10px] uppercase tracking-wide text-svdg-french-gray border-b border-white/10">
+            Who&apos;s reading?
+          </div>
+          {TEAM_MEMBERS.map((name) => (
+            <button
+              key={name}
+              type="button"
+              onClick={() => {
+                setUserName(name)
+                setOpen(false)
+              }}
+              className={`block w-full text-left px-3 py-1.5 text-xs transition-colors ${
+                name === userName
+                  ? 'text-svdg-sky-dancer font-semibold'
+                  : 'text-slate-300 hover:bg-white/5'
+              }`}
+            >
+              {name}
+            </button>
+          ))}
+        </div>
+      )}
+    </div>
   )
 }
