@@ -3,14 +3,13 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import { usePathname } from 'next/navigation'
-import { CATEGORIES } from '@/data/categories'
+import { CATEGORIES, getDisplayLabel } from '@/data/categories'
 
 const RUNDOWN_ITEM = { label: 'Weekly Rundown', href: '/' }
 
 const NAV_ITEMS = [
-  ...CATEGORIES.map((c) => ({ label: c.label, href: `/${c.slug}` })),
-  { label: 'Archive', href: '/archive' },
-  { label: 'Search', href: '/search' },
+  ...CATEGORIES.map((c) => ({ label: getDisplayLabel(c), href: `/${c.slug}` })),
+  { label: 'All Articles', href: '/archive' },
 ]
 
 export default function Navigation() {

@@ -5,16 +5,14 @@ import PageHeading from '@/components/PageHeading'
 export const dynamic = 'force-dynamic'
 
 export default async function ArchivePage() {
-  const all = await getAllArticles()
-  const archived = all.filter((a) => a.isArchived)
   return (
     <div>
       <PageHeading
         eyebrow="An SVDG Product"
-        title="Archive"
-        description="Articles published more than 60 days ago. Fully searchable and filterable."
+        title="All Articles"
+        description="Search and filter across every category — including the archive — in one place."
       />
-      <ArchivePageClient articles={archived} />
+      <ArchivePageClient articles={await getAllArticles()} />
     </div>
   )
 }

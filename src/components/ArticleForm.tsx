@@ -7,7 +7,7 @@ import {
   AddedBy, SVDGRelevanceLevel, SourceQualityLevel, Workstream,
   SponsorNatSec100Relevance,
 } from '@/types/article'
-import { CATEGORIES, REGIONS, WORKSTREAMS, SUGGESTED_TAGS } from '@/data/categories'
+import { CATEGORIES, REGIONS, WORKSTREAMS, SUGGESTED_TAGS, getDisplayLabel } from '@/data/categories'
 import { SPONSOR_NAMES } from '@/data/sponsors'
 import { calcRelevanceScore } from '@/lib/scoring'
 
@@ -266,7 +266,7 @@ export default function ArticleForm({ article }: Props) {
                   : 'bg-white/5 border-white/10 text-svdg-french-gray hover:bg-white/10'
               }`}
             >
-              {cat.label}
+              {getDisplayLabel(cat)}
             </button>
           ))}
         </div>

@@ -2,6 +2,7 @@
 
 import { Region, ArticleStatus, Category } from '@/types/article'
 import { SortKey } from '@/lib/filters'
+import { getCategoryConfig, getDisplayLabel } from '@/data/categories'
 
 interface Props {
   sources: string[]
@@ -76,9 +77,12 @@ export default function FilterBar({
             className="text-xs border border-white/15 rounded px-2 py-1.5 bg-svdg-surface-2 text-slate-200 focus:outline-none focus:ring-1 focus:ring-svdg-crayola"
           >
             <option value="">All Categories</option>
-            {categories.map((c) => (
-              <option key={c} value={c}>{c}</option>
-            ))}
+            {categories.map((c) => {
+              const config = getCategoryConfig(c)
+              return (
+                <option key={c} value={c}>{config ? getDisplayLabel(config) : c}</option>
+              )
+            })}
           </select>
         )}
 

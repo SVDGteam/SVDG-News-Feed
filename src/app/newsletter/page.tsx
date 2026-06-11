@@ -4,7 +4,7 @@ import { CSSProperties } from 'react'
 import { getWeeklyDigest } from '@/lib/newsletter'
 import ArticleCard from '@/components/ArticleCard'
 import NewsletterSignup from '@/components/NewsletterSignup'
-import { CATEGORIES } from '@/data/categories'
+import { CATEGORIES, getDisplayLabel } from '@/data/categories'
 
 export const dynamic = 'force-dynamic'
 
@@ -52,7 +52,7 @@ export default async function NewsletterPage() {
               href={`/${c.slug}`}
               className="svdg-tag svdg-tag--outline hover:bg-white/10 transition-colors normal-case tracking-normal"
             >
-              {c.label}
+              {getDisplayLabel(c)}
             </Link>
           ))}
         </div>

@@ -3,6 +3,8 @@ import { Category, Region, Workstream } from '@/types/article'
 export interface CategoryConfig {
   id: string
   label: Category
+  /** Short display name shown in nav, hero bands, badges, etc. Falls back to `label`. */
+  navLabel?: string
   slug: string
   description: string
   color: string
@@ -10,10 +12,16 @@ export interface CategoryConfig {
   heroImage: string
 }
 
+/** Short display name for a category — use everywhere a category name is shown to users. */
+export function getDisplayLabel(category: Pick<CategoryConfig, 'label' | 'navLabel'>): string {
+  return category.navLabel ?? category.label
+}
+
 export const CATEGORIES: CategoryConfig[] = [
   {
     id: 'industry',
     label: 'Industry News',
+    navLabel: 'Industry',
     slug: 'industry',
     description:
       'Private-sector developments in the defense, dual-use, and national security technology ecosystem — startups, contracts, partnerships, and emerging tech.',
@@ -24,6 +32,7 @@ export const CATEGORIES: CategoryConfig[] = [
   {
     id: 'investor',
     label: 'Investor News',
+    navLabel: 'Capital',
     slug: 'investor',
     description:
       'VC, PE, and institutional capital moving into defense and dual-use — fund announcements, exits, M&A, investment policy, and capital formation.',
@@ -34,6 +43,7 @@ export const CATEGORIES: CategoryConfig[] = [
   {
     id: 'government',
     label: 'Government News',
+    navLabel: 'Government',
     slug: 'government',
     description:
       'Federal acquisition, DoD reform, innovation offices (DIU, DARPA, CDAO), Congressional action, NDAA, appropriations, and procurement policy.',

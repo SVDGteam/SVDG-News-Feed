@@ -1,18 +1,8 @@
-import { getAllArticles } from '@/lib/db'
-import SearchPageClient from './SearchPageClient'
-import PageHeading from '@/components/PageHeading'
+import { redirect } from 'next/navigation'
 
 export const dynamic = 'force-dynamic'
 
-export default async function SearchPage() {
-  return (
-    <div>
-      <PageHeading
-        eyebrow="An SVDG Product"
-        title="Search"
-        description="Search and filter across every category — including the archive — in one place."
-      />
-      <SearchPageClient articles={await getAllArticles()} />
-    </div>
-  )
+// "Search" and "Archive" were merged into a single "All Articles" page.
+export default function SearchPage() {
+  redirect('/archive')
 }

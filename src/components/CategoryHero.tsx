@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import { CSSProperties } from 'react'
-import { CategoryConfig } from '@/data/categories'
+import { CategoryConfig, getDisplayLabel } from '@/data/categories'
 
 export default function CategoryHero({ category }: { category: CategoryConfig }) {
   const isSponsor = category.id === 'sponsor'
@@ -27,7 +27,7 @@ export default function CategoryHero({ category }: { category: CategoryConfig })
         <div>
           <span className="eyebrow text-svdg-sky-dancer">Category</span>
           <h1 className="text-lg sm:text-xl md:text-3xl font-display font-bold text-white mt-1 leading-tight">
-            {category.label}
+            {getDisplayLabel(category)}
           </h1>
         </div>
       </div>

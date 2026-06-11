@@ -1,5 +1,5 @@
 import { Category } from '@/types/article'
-import { getCategoryConfig } from '@/data/categories'
+import { getCategoryConfig, getDisplayLabel } from '@/data/categories'
 
 interface Props {
   category: Category
@@ -14,7 +14,7 @@ export default function CategoryBadge({ category, size = 'sm' }: Props) {
     <span
       className={`inline-block rounded border font-medium ${sizeClass} ${config?.bgColor ?? 'bg-white/5 border-white/10'} ${config?.color ?? 'text-slate-300'}`}
     >
-      {category}
+      {config ? getDisplayLabel(config) : category}
     </span>
   )
 }
