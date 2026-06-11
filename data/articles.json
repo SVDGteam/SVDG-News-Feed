@@ -671,5 +671,186 @@
     "reactions": {
       "85e2698c-821e-4450-8ec7-6bf1d42df616": "dislike"
     }
+  },
+  {
+    "id": "bca97e6e-7a64-43df-a324-6a5b5f4aea4f",
+    "title": "DEFCON AI Awarded $115M Marine Corps Logistics Modernization Contract",
+    "url": "https://www.tectonicdefense.com/exclusive-defcon-ai-secures-115m-software-integration-contract-with-the-marines/",
+    "source": "Tectonic Defense",
+    "datePublished": "2026-06-10",
+    "dateAdded": "2026-06-11",
+    "categories": [
+      "Government News",
+      "Industry News"
+    ],
+    "tags": [
+      "NatSec100",
+      "DoD",
+      "C2",
+      "Acquisition Reform"
+    ],
+    "shortDescription": "DEFCON AI landed a five-year, $115M prototype agreement to serve as software integration prime for the Marine Corps' logistics command-and-control modernization, aligned with Project Dynamis and JADC2.",
+    "whyItMatters": "A software-integration-prime role on a major USMC logistics program is a strong signal of how AI-native defense companies are winning systems-integration work that used to default to legacy primes — worth watching for who else follows this playbook.",
+    "relevanceScore": 95,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "DEFCON AI"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "NatSec100",
+      "Policy"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-06-11T13:54:39.784Z",
+    "updatedAt": "2026-06-11T13:54:39.784Z"
+  },
+  {
+    "id": "2223bcf5-759f-4c50-b4c7-6937ba370ae9",
+    "title": "Quantum Systems Unveils PULSE P19 Counter-Drone Aircraft, Partners with Airbus",
+    "url": "https://www.tectonicdefense.com/quantum-systems-unveils-new-mega-drone-teams-up-with-airbus/",
+    "source": "Tectonic Defense",
+    "datePublished": "2026-06-10",
+    "dateAdded": "2026-06-11",
+    "categories": [
+      "International",
+      "Industry News"
+    ],
+    "tags": [
+      "Autonomy",
+      "NATO"
+    ],
+    "shortDescription": "At ILA Berlin, German drone maker Quantum Systems unveiled the PULSE P19 — a turboprop, multi-role aircraft for ISR and counter-drone missions — and signed a cooperation deal with Airbus Helicopters to integrate its C-UAS interceptors onto the H145M.",
+    "whyItMatters": "Quantum Systems keeps moving up-market from small ISR drones toward larger multi-role platforms, and a tie-up with Airbus gives it a path into NATO helicopter fleets — another data point on how fast European defense-tech primes are scaling.",
+    "relevanceScore": 76,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "Europe",
+    "companyMentions": [
+      "Quantum Systems",
+      "Airbus Helicopters"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "International / Australia"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-06-11T13:54:39.785Z",
+    "updatedAt": "2026-06-11T13:54:39.785Z"
+  },
+  {
+    "id": "96e19dfc-75fc-444a-bdaa-56962255289b",
+    "title": "Orbital Raises Oversubscribed $5M Pre-Seed for Orbital Data Center Constellation",
+    "url": "https://payloadspace.com/orbital-raises-5m-pre-seed-to-build-odc-constellation/",
+    "source": "Payload",
+    "datePublished": "2026-06-09",
+    "dateAdded": "2026-06-11",
+    "categories": [
+      "Investor News",
+      "Industry News"
+    ],
+    "tags": [
+      "Space",
+      "Venture Capital",
+      "AI"
+    ],
+    "shortDescription": "LA-based Orbital closed an oversubscribed $5M pre-seed round, led by a16z's Speedrun, to build a constellation of orbital data centers designed around Nvidia's Vera Rubin GPUs for space-based AI inference.",
+    "whyItMatters": "Space-based compute is still a thesis more than a market, but the funding pace (and the a16z stamp) shows investors are willing to bet early on the orbital-AI-infrastructure narrative — one to track for capital formation trends in the space-tech stack.",
+    "relevanceScore": 59,
+    "scoreBreakdown": {
+      "recency": 25,
+      "svdgRelevance": 20,
+      "sourceQuality": 8,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 0
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Orbital"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "Medium",
+    "workstreams": [
+      "Capital Formation"
+    ],
+    "sponsorNatSec100Relevance": "None",
+    "reactions": {},
+    "createdAt": "2026-06-11T13:54:39.785Z",
+    "updatedAt": "2026-06-11T13:54:39.785Z"
+  },
+  {
+    "id": "0ff82592-1fef-4d48-95cc-f9d6d532d814",
+    "title": "Anthropic's Amodei Calls for FAA-Style Regulation of Frontier AI",
+    "url": "https://www.axios.com/2026/06/10/anthropic-ceo-government-block-dangerous-ai",
+    "source": "Axios",
+    "datePublished": "2026-06-10",
+    "dateAdded": "2026-06-11",
+    "categories": [
+      "Government News",
+      "Opinions"
+    ],
+    "tags": [
+      "AI",
+      "Congress"
+    ],
+    "shortDescription": "In a new essay, Anthropic CEO Dario Amodei called for mandatory third-party testing and government authority to block deployment of frontier AI models above a compute threshold — a shift from his earlier transparency-first stance.",
+    "whyItMatters": "If the AI lab that's been most aligned with safety-first messaging is now asking for binding, FAA-style federal authority, that reshapes the Hill conversation on AI regulation fast — directly relevant to anyone tracking how AI policy interacts with defense AI procurement and export rules.",
+    "relevanceScore": 76,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Anthropic"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Policy"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-06-11T13:54:39.785Z",
+    "updatedAt": "2026-06-11T13:54:39.785Z"
   }
 ]
