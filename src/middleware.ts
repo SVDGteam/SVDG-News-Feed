@@ -1,13 +1,15 @@
 import { NextRequest, NextResponse } from 'next/server'
+import { AUTH_COOKIE_NAME, computeAuthToken } from '@/lib/auth'
 
 // Optional shared-password gate for a future public deployment.
 //
 // Disabled by default. To enable, set SITE_PASSWORD (and optionally
 // SITE_USERNAME, default "svdg") in the environment. When set, every
-// request must present HTTP Basic Auth credentials matching those values.
+// request must present a valid session cookie (set by /login after a
+// correct username/password) or get redirected to the in-site /login page.
 // This is meant as a lightweight "front door" for a public site — not a
 // substitute for per-user accounts if/when individual logins are needed.
-export function middleware(request: NextRequest) {
+export async function middleware(request: NextRequest) {
   const sitePassword = process.env.SITE_PASSWORD
 
   // No password configured -> app remains open (current internal usage).
@@ -16,20 +18,19 @@ export function middleware(request: NextRequest) {
   }
 
   const siteUsername = process.env.SITE_USERNAME || 'svdg'
-  const authHeader = request.headers.get('authorization')
+  const cookieToken = request.cookies.get(AUTH_COOKIE_NAME)?.value
+  const expectedToken = await computeAuthToken(siteUsername, sitePassword)
 
-  if (authHeader?.startsWith('Basic ')) {
-    const decoded = Buffer.from(authHeader.split(' ')[1] ?? '', 'base64').toString()
-    const [user, pass] = decoded.split(':')
-    if (user === siteUsername && pass === sitePassword) {
-      return NextResponse.next()
-    }
+  if (cookieToken === expectedToken) {
+    return NextResponse.next()
   }
 
-  return new NextResponse('Authentication required.', {
-    status: 401,
-    headers: { 'WWW-Authenticate': 'Basic realm="Dispatch"' },
-  })
+  const loginUrl = new URL('/login', request.url)
+  const target = `${request.nextUrl.pathname}${request.nextUrl.search}`
+  if (target && target !== '/') {
+    loginUrl.searchParams.set('redirect', target)
+  }
+  return NextResponse.redirect(loginUrl)
 }
 
 export const config = {
@@ -37,12 +38,12 @@ export const config = {
     /*
      * Match all paths except:
      *  - static assets (_next, favicon, fonts, brand, extension downloads)
+     *  - the login page + its API route (must stay reachable while logged out)
      *  - the public newsletter signup page + its API route
      *  - integration endpoints that use their own shared-secret auth
-     *    (Apps Script newsletter sender, browser extension) — these can't
-     *    answer an HTTP Basic Auth challenge.
+     *    (Apps Script newsletter sender, browser extension)
      * so the gate covers the dashboard and its other API routes.
      */
-    '/((?!_next/static|_next/image|favicon.ico|fonts|brand|extension/dispatch-clipper.zip|newsletter|api/subscribe|api/newsletter/digest|api/extension).*)',
+    '/((?!_next/static|_next/image|favicon.ico|fonts|brand|extension/dispatch-clipper.zip|login|api/login|newsletter|api/subscribe|api/newsletter/digest|api/extension).*)',
   ],
 }

@@ -116,12 +116,14 @@ Score labels: **High** (85–100) · **Medium-High** (65–84) · **Medium** (40
 
 ## Team access (password gate — enabled)
 
-The site sits behind a shared-password "front door" via `src/middleware.ts`, using HTTP Basic Auth:
+The site sits behind a shared-password "front door" via `src/middleware.ts`,
+with an in-site `/login` page (not a browser popup):
 
 - Once `SITE_PASSWORD` is set (locally via `.env.local`, or as an environment
-  variable on the hosting platform), every page and API route prompts the
-  browser's native login dialog and requires that username/password over
-  HTTPS.
+  variable on the hosting platform), visiting any page redirects to `/login`
+  until the correct username/password is submitted. A session cookie (1 year)
+  is then set, and browsers can offer to save the credentials like any other
+  login form.
 - Username defaults to `svdg` (override with `SITE_USERNAME`).
 - Leave `SITE_PASSWORD` unset to go back to fully open access (e.g., for
   local dev if you don't want to log in every time — just don't create
