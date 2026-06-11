@@ -156,7 +156,7 @@
     linear-gradient(180deg, rgba(2, 10, 20, 0.40) 0%, rgba(2, 10, 20, 0.55) 55%, rgba(2, 10, 20, 0.92) 100%),
     url('/brand/hero-bg.jpg');
   background-size: cover;
-  background-position: center 15%;
+  background-position: center 60%;
   background-repeat: no-repeat;
 }
 

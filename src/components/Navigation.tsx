@@ -27,8 +27,40 @@ const NAV_ACCENTS: Record<string, { dot: string; text: string; border: string; h
   opinions: { dot: 'bg-rose-300', text: 'text-rose-300', border: 'border-rose-300', hoverText: 'hover:text-rose-300', hoverBorder: 'hover:border-rose-300/60' },
 }
 
+// All items shown in the nav, in order — used by both the desktop tab bar
+// and the mobile "Categories" dropdown.
+const ALL_NAV_ITEMS: { label: string; href: string; id?: string }[] = [
+  RUNDOWN_ITEM,
+  ...NAV_ITEMS,
+]
+
 export default function Navigation() {
   const pathname = usePathname()
+  const [categoriesOpen, setCategoriesOpen] = useState(false)
+  const categoriesRef = useRef<HTMLDivElement>(null)
+
+  // Close the mobile categories menu on route change.
+  useEffect(() => {
+    setCategoriesOpen(false)
+  }, [pathname])
+
+  // Close on outside click.
+  useEffect(() => {
+    if (!categoriesOpen) return
+    function onClickOutside(e: MouseEvent) {
+      if (categoriesRef.current && !categoriesRef.current.contains(e.target as Node)) {
+        setCategoriesOpen(false)
+      }
+    }
+    document.addEventListener('mousedown', onClickOutside)
+    return () => document.removeEventListener('mousedown', onClickOutside)
+  }, [categoriesOpen])
+
+  // Label for the current section, shown on the mobile "Categories" trigger.
+  const activeItem =
+    ALL_NAV_ITEMS.find((item) => (item.href === '/' ? pathname === '/' : pathname.startsWith(item.href))) ??
+    null
+  const activeAccent = activeItem?.id ? NAV_ACCENTS[activeItem.id] : undefined
 
   return (
     <header className="bg-svdg-pea-coat sticky top-0 z-50 border-b border-white/10 relative">
@@ -40,7 +72,7 @@ export default function Navigation() {
             <span className="bg-white rounded-md p-1 flex items-center justify-center shrink-0">
               <Image src="/brand/logomark.svg" alt="SVDG" width={20} height={21} />
             </span>
-            <span className="flex flex-col gap-0.5 leading-none">
+            <span className="hidden md:flex flex-col gap-0.5 leading-none">
               <span className="flex items-center gap-1 font-display font-bold tracking-tight text-base text-white leading-none">
                 Dispatch
                 <span className="inline-block w-[6px] h-[14px] bg-svdg-sky-dancer animate-pulse" aria-hidden="true" />
@@ -51,8 +83,8 @@ export default function Navigation() {
             </span>
           </Link>
 
-          {/* Nav — scrollable on mobile */}
-          <nav className="flex items-center gap-0.5 overflow-x-auto scrollbar-hide ml-4">
+          {/* Desktop nav — hidden on mobile in favor of the Categories dropdown below */}
+          <nav className="hidden md:flex items-center gap-0.5 overflow-x-auto scrollbar-hide ml-4">
             <Link
               href={RUNDOWN_ITEM.href}
               className={`
@@ -137,6 +169,64 @@ export default function Navigation() {
             + Add
           </Link>
         </div>
+
+        {/* Mobile "Categories" dropdown — replaces the horizontal nav on small screens */}
+        <div className="md:hidden border-t border-white/10 relative" ref={categoriesRef}>
+          <button
+            type="button"
+            onClick={() => setCategoriesOpen((v) => !v)}
+            aria-expanded={categoriesOpen}
+            className="w-full flex items-center justify-between gap-2 py-2.5"
+          >
+            <span className="flex items-center gap-2 nav-text text-[11px]">
+              <span className="text-svdg-french-gray">Categories:</span>
+              <span
+                className={`inline-flex items-center gap-1.5 font-semibold ${
+                  activeAccent ? activeAccent.text : 'text-svdg-sky-dancer'
+                }`}
+              >
+                {activeAccent && (
+                  <span className={`w-1.5 h-1.5 rounded-full shrink-0 ${activeAccent.dot}`} aria-hidden="true" />
+                )}
+                {activeItem?.label ?? 'Menu'}
+              </span>
+            </span>
+            <ChevronIcon className={`transition-transform ${categoriesOpen ? 'rotate-180' : ''}`} />
+          </button>
+
+          {categoriesOpen && (
+            <div className="absolute left-0 right-0 top-full bg-svdg-pea-coat border-b border-white/10 shadow-lg z-50 max-h-[70vh] overflow-y-auto">
+              {ALL_NAV_ITEMS.map((item) => {
+                const isActive = item.href === '/' ? pathname === '/' : pathname.startsWith(item.href)
+                const accent = item.id ? NAV_ACCENTS[item.id] : undefined
+
+                return (
+                  <Link
+                    key={item.href}
+                    href={item.href}
+                    className={`
+                      nav-text flex items-center gap-2.5 px-4 py-3 text-[12px] border-b border-white/5 transition-colors
+                      ${isActive
+                        ? `bg-white/5 ${accent ? accent.text : 'text-svdg-sky-dancer'} font-semibold`
+                        : 'text-white/70 hover:bg-white/5 hover:text-white'
+                      }
+                    `}
+                  >
+                    {accent ? (
+                      <span
+                        className={`w-1.5 h-1.5 rounded-full shrink-0 ${accent.dot} ${isActive ? '' : 'opacity-40'}`}
+                        aria-hidden="true"
+                      />
+                    ) : (
+                      <span className="w-1.5 h-1.5 rounded-full shrink-0 bg-white/30" aria-hidden="true" />
+                    )}
+                    {item.label}
+                  </Link>
+                )
+              })}
+            </div>
+          )}
+        </div>
       </div>
     </header>
   )
@@ -146,6 +236,20 @@ function BookmarkIcon() {
   return (
     <svg viewBox="0 0 20 20" className="w-3.5 h-3.5" fill="none" stroke="currentColor" strokeWidth="1.5">
       <path d="M5 3h10v14l-5-3-5 3V3z" strokeLinecap="round" strokeLinejoin="round" />
+    </svg>
+  )
+}
+
+function ChevronIcon({ className = '' }: { className?: string }) {
+  return (
+    <svg
+      viewBox="0 0 20 20"
+      className={`w-3.5 h-3.5 text-svdg-french-gray shrink-0 ${className}`}
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="1.5"
+    >
+      <path d="M5 7.5l5 5 5-5" strokeLinecap="round" strokeLinejoin="round" />
     </svg>
   )
 }
