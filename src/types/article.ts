@@ -82,6 +82,13 @@ export interface Article {
   // Team reactions: anonymous-id -> 'like' | 'dislike'. Each like/dislike
   // adjusts the effective relevance score by +/-10 (see lib/scoring.ts).
   reactions?: Record<string, ReactionType>
+
+  // Personal state, keyed by team member name (see lib/identity.ts).
+  // readBy: team members who have marked this article as read.
+  // shortlistedBy: team members who have added this article to their
+  // personal reading list.
+  readBy?: string[]
+  shortlistedBy?: string[]
 }
 
 export interface ArticleFormData {

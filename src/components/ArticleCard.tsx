@@ -1,12 +1,13 @@
 'use client'
 
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 import Link from 'next/link'
 import { Article, ReactionType } from '@/types/article'
 import RelevanceBadge from './RelevanceBadge'
 import CategoryBadge from './CategoryBadge'
 import { getArticleAgeLabel } from '@/lib/archive'
 import { getEffectiveScore } from '@/lib/scoring'
+import { useIdentity } from './IdentityProvider'
 
 interface Props {
   article: Article
@@ -18,20 +19,6 @@ const STATUS_STYLES: Record<string, string> = {
   Featured: 'bg-blue-500/25 text-blue-300 border-blue-400/45',
   Rejected: 'bg-red-500/25 text-red-300 border-red-400/45',
   Archived: 'bg-white/10 text-slate-400 border-white/15',
-}
-
-const USER_ID_KEY = 'svdg-user-id'
-
-function getUserId(): string {
-  if (typeof window === 'undefined') return ''
-  let id = window.localStorage.getItem(USER_ID_KEY)
-  if (!id) {
-    id = typeof crypto !== 'undefined' && 'randomUUID' in crypto
-      ? crypto.randomUUID()
-      : `user-${Math.random().toString(36).slice(2)}`
-    window.localStorage.setItem(USER_ID_KEY, id)
-  }
-  return id
 }
 
 function ThumbsUpIcon({ filled }: { filled: boolean }) {
@@ -58,19 +45,35 @@ function ChevronIcon({ open }: { open: boolean }) {
   )
 }
 
+function CheckIcon({ filled }: { filled: boolean }) {
+  return (
+    <svg viewBox="0 0 20 20" className="w-3.5 h-3.5" fill={filled ? 'currentColor' : 'none'} stroke="currentColor" strokeWidth="1.5">
+      <path d="M4 10.5l3.5 3.5L16 5" strokeLinecap="round" strokeLinejoin="round" />
+    </svg>
+  )
+}
+
+function BookmarkIcon({ filled }: { filled: boolean }) {
+  return (
+    <svg viewBox="0 0 20 20" className="w-3.5 h-3.5" fill={filled ? 'currentColor' : 'none'} stroke="currentColor" strokeWidth="1.5">
+      <path d="M5 3h10v14l-5-3-5 3V3z" strokeLinecap="round" strokeLinejoin="round" />
+    </svg>
+  )
+}
+
 export default function ArticleCard({ article }: Props) {
   const ageLabel = getArticleAgeLabel(article.datePublished)
   // All cards start collapsed — click anywhere on the card to expand it.
   const [expanded, setExpanded] = useState(false)
   const [reactions, setReactions] = useState<Record<string, ReactionType>>(article.reactions ?? {})
-  const [userId, setUserId] = useState('')
+  const [readBy, setReadBy] = useState<string[]>(article.readBy ?? [])
+  const [shortlistedBy, setShortlistedBy] = useState<string[]>(article.shortlistedBy ?? [])
   const [pending, setPending] = useState(false)
-
-  useEffect(() => {
-    setUserId(getUserId())
-  }, [])
+  const { userName: userId } = useIdentity()
 
   const userReaction = userId ? reactions[userId] : undefined
+  const isRead = !!userId && readBy.includes(userId)
+  const isShortlisted = !!userId && shortlistedBy.includes(userId)
   const likes = Object.values(reactions).filter((r) => r === 'like').length
   const dislikes = Object.values(reactions).filter((r) => r === 'dislike').length
   const effectiveScore = getEffectiveScore({ relevanceScore: article.relevanceScore, reactions })
@@ -109,6 +112,39 @@ export default function ArticleCard({ article }: Props) {
     }
   }
 
+  async function handlePersonalize(field: 'read' | 'shortlisted', e: React.MouseEvent) {
+    e.stopPropagation()
+    if (!userId || pending) return
+
+    const list = field === 'read' ? readBy : shortlistedBy
+    const setList = field === 'read' ? setReadBy : setShortlistedBy
+    const isOn = list.includes(userId)
+    const previous = list
+
+    const optimistic = isOn ? list.filter((u) => u !== userId) : [...list, userId]
+    setList(optimistic)
+    setPending(true)
+
+    try {
+      const res = await fetch(`/api/articles/${article.id}/personalize`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ userId, [field]: !isOn }),
+      })
+      if (res.ok) {
+        const updated = await res.json()
+        setReadBy(updated.readBy ?? [])
+        setShortlistedBy(updated.shortlistedBy ?? [])
+      } else {
+        setList(previous)
+      }
+    } catch {
+      setList(previous)
+    } finally {
+      setPending(false)
+    }
+  }
+
   return (
     <div
       onClick={() => setExpanded((v) => !v)}
@@ -130,6 +166,11 @@ export default function ArticleCard({ article }: Props) {
           </span>
         </div>
         <div className="flex items-center gap-1.5 shrink-0">
+          {isRead && (
+            <span title="You've read this" className="text-emerald-400">
+              <CheckIcon filled />
+            </span>
+          )}
           <RelevanceBadge score={effectiveScore} isOverridden={article.isScoreOverridden} />
           <span className="text-svdg-french-gray group-hover:text-svdg-sky transition-colors">
             <ChevronIcon open={expanded} />
@@ -194,6 +235,38 @@ export default function ArticleCard({ article }: Props) {
         >
           <ThumbsDownIcon filled={userReaction === 'dislike'} />
           {dislikes}
+        </button>
+
+        <span className="w-px h-4 bg-white/10" aria-hidden="true" />
+
+        <button
+          type="button"
+          onClick={(e) => handlePersonalize('read', e)}
+          disabled={!userId}
+          title={userId ? (isRead ? 'Mark as unread' : 'Mark as read') : 'Pick your name in the top right to track read articles'}
+          className={`flex items-center gap-1 text-[11px] px-2.5 py-0.5 rounded-full border font-semibold transition-colors disabled:opacity-40 disabled:cursor-not-allowed ${
+            isRead
+              ? 'bg-emerald-500/25 border-emerald-400/55 text-emerald-300'
+              : 'border-white/10 text-svdg-french-gray hover:border-emerald-400/30 hover:text-emerald-300'
+          }`}
+        >
+          <CheckIcon filled={isRead} />
+          {isRead ? 'Read' : 'Mark read'}
+        </button>
+
+        <button
+          type="button"
+          onClick={(e) => handlePersonalize('shortlisted', e)}
+          disabled={!userId}
+          title={userId ? (isShortlisted ? 'Remove from your reading list' : 'Add to your reading list') : 'Pick your name in the top right to use a reading list'}
+          className={`flex items-center gap-1 text-[11px] px-2.5 py-0.5 rounded-full border font-semibold transition-colors disabled:opacity-40 disabled:cursor-not-allowed ${
+            isShortlisted
+              ? 'bg-svdg-crayola/25 border-svdg-crayola/55 text-svdg-sky'
+              : 'border-white/10 text-svdg-french-gray hover:border-svdg-crayola/30 hover:text-svdg-sky'
+          }`}
+        >
+          <BookmarkIcon filled={isShortlisted} />
+          {isShortlisted ? 'Saved' : 'Save'}
         </button>
       </div>
 

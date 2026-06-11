@@ -332,6 +332,52 @@ export async function setReaction(id: string, userId: string, reaction: Reaction
   return updated
 }
 
+// ── Set a team member's personal state (read / reading list) ──────────────
+// Pass `read` and/or `shortlisted` as true/false to add/remove the userId
+// from the corresponding list. Omit a field to leave it unchanged.
+export async function setPersonalState(
+  id: string,
+  userId: string,
+  state: { read?: boolean; shortlisted?: boolean }
+): Promise<Article | null> {
+  const current = await getArticleById(id)
+  if (!current) return null
+
+  const readBy = new Set(current.readBy ?? [])
+  const shortlistedBy = new Set(current.shortlistedBy ?? [])
+
+  if (state.read === true) readBy.add(userId)
+  if (state.read === false) readBy.delete(userId)
+  if (state.shortlisted === true) shortlistedBy.add(userId)
+  if (state.shortlisted === false) shortlistedBy.delete(userId)
+
+  const updated: Article = {
+    ...current,
+    readBy: Array.from(readBy),
+    shortlistedBy: Array.from(shortlistedBy),
+    updatedAt: new Date().toISOString(),
+  }
+
+  if (!hasKV()) {
+    const all = readFileArticles()
+    const idx = all.findIndex((a) => a.id === id)
+    if (idx === -1) return null
+    all[idx] = updated
+    writeFileArticles(all)
+    return updated
+  }
+
+  const overlay = await loadOverlay()
+  const extraIdx = overlay.extra.findIndex((a) => a.id === id)
+  if (extraIdx !== -1) {
+    overlay.extra[extraIdx] = updated
+  } else {
+    overlay.edits[id] = updated
+  }
+  await saveOverlay(overlay)
+  return updated
+}
+
 // ── Reset to seed (dev utility) ────────────────────────────────────────────
 export async function resetToSeed(): Promise<Article[]> {
   const seeded = seedArticles()

@@ -4,12 +4,15 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { usePathname } from 'next/navigation'
 import { CATEGORIES, getDisplayLabel } from '@/data/categories'
+import { TEAM_MEMBERS } from '@/lib/identity'
+import { useIdentity } from '@/components/IdentityProvider'
 
 const RUNDOWN_ITEM = { label: 'Weekly Rundown', href: '/' }
 
 const NAV_ITEMS: { label: string; href: string; id?: string }[] = [
   ...CATEGORIES.map((c) => ({ label: getDisplayLabel(c), href: `/${c.slug}`, id: c.id })),
   { label: 'All Articles', href: '/archive' },
+  { label: 'Reading List', href: '/reading-list' },
 ]
 
 // Per-category accent colors for nav tabs — mirrors the colors used on
@@ -26,6 +29,7 @@ const NAV_ACCENTS: Record<string, { dot: string; text: string; border: string; h
 
 export default function Navigation() {
   const pathname = usePathname()
+  const { userName, setUserName } = useIdentity()
 
   return (
     <header className="bg-svdg-pea-coat sticky top-0 z-50 border-b border-white/10 relative">
@@ -109,10 +113,33 @@ export default function Navigation() {
             })}
           </nav>
 
+          {/* Who's reading — lightweight identity picker */}
+          <select
+            value={userName}
+            onChange={(e) => setUserName(e.target.value)}
+            title="Pick your name to track read articles and your reading list"
+            className={`
+              nav-text ml-3 shrink-0 text-[11px] px-3 py-1.5 rounded-full border bg-svdg-pea-coat transition-colors cursor-pointer
+              ${userName
+                ? 'border-svdg-sky-dancer/40 text-svdg-sky-dancer'
+                : 'border-white/15 text-svdg-french-gray hover:border-white/30 hover:text-white'
+              }
+            `}
+          >
+            <option value="" disabled>
+              Who&apos;s reading?
+            </option>
+            {TEAM_MEMBERS.map((name) => (
+              <option key={name} value={name}>
+                {name}
+              </option>
+            ))}
+          </select>
+
           {/* Add button */}
           <Link
             href="/add"
-            className="svdg-btn svdg-btn--accent ml-3 shrink-0 !text-[11px] !px-3 !py-1.5"
+            className="svdg-btn svdg-btn--accent ml-2 shrink-0 !text-[11px] !px-3 !py-1.5"
           >
             + Add
           </Link>
