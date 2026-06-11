@@ -72,7 +72,7 @@ export default function Navigation() {
             <span className="bg-white rounded-md p-1 flex items-center justify-center shrink-0">
               <Image src="/brand/logomark.svg" alt="SVDG" width={20} height={21} />
             </span>
-            <span className="hidden md:flex flex-col gap-0.5 leading-none">
+            <span className="flex flex-col gap-0.5 leading-none">
               <span className="flex items-center gap-1 font-display font-bold tracking-tight text-base text-white leading-none">
                 Dispatch
                 <span className="inline-block w-[6px] h-[14px] bg-svdg-sky-dancer animate-pulse" aria-hidden="true" />
@@ -146,7 +146,7 @@ export default function Navigation() {
 
           {/* Personal: reading list + identity, kept compact so the
               category nav has room to breathe */}
-          <div className="flex items-center gap-1.5 ml-3 shrink-0">
+          <div className="flex items-center gap-1.5 ml-auto md:ml-3 shrink-0">
             <Link
               href="/reading-list"
               title="Your reading list"
