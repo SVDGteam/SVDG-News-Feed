@@ -32,12 +32,25 @@ export default function Footer() {
       <div className="border-t border-white/5">
         <div className="max-w-screen-xl mx-auto px-4 py-3 flex flex-wrap items-center justify-between gap-2 text-[11px] text-svdg-french-gray">
           <span>© {new Date().getFullYear()} Silicon Valley Defense Group</span>
-          <div className="flex items-center gap-4">
-            <Link href="/extension" className="nav-text text-svdg-sky hover:text-svdg-sky-dancer transition-colors">
+          <div className="flex items-center gap-2">
+            <Link
+              href="/extension"
+              className="nav-text inline-flex items-center gap-1.5 text-[10px] px-3 py-1.5 rounded-full border border-white/15 text-svdg-french-gray hover:border-white/30 hover:text-white transition-colors"
+            >
+              <svg viewBox="0 0 20 20" className="w-3 h-3" fill="none" stroke="currentColor" strokeWidth="1.5" aria-hidden="true">
+                <path d="M6.5 3.5h3v2a1.25 1.25 0 002.5 0v-2h1.5a1 1 0 011 1v3h2a1.25 1.25 0 010 2.5h2v3a1 1 0 01-1 1h-3v2a1.25 1.25 0 01-2.5 0v-2h-3a1 1 0 01-1-1v-3h-2a1.25 1.25 0 010-2.5h2v-3a1 1 0 011-1z" strokeLinecap="round" strokeLinejoin="round" />
+              </svg>
               Get the Browser Extension
             </Link>
-            <Link href="/newsletter" className="nav-text text-svdg-sky hover:text-svdg-sky-dancer transition-colors">
-              Subscribe to the Weekly Rundown →
+            <Link
+              href="/newsletter"
+              className="nav-text inline-flex items-center gap-1.5 text-[10px] px-3 py-1.5 rounded-full border bg-svdg-sky-dancer/15 border-svdg-sky-dancer/40 text-svdg-sky-dancer hover:bg-svdg-sky-dancer/25 transition-colors"
+            >
+              <svg viewBox="0 0 20 20" className="w-3 h-3" fill="none" stroke="currentColor" strokeWidth="1.5" aria-hidden="true">
+                <path d="M2.5 5.5h15v9h-15v-9z" strokeLinecap="round" strokeLinejoin="round" />
+                <path d="M2.5 5.5l7.5 5.5 7.5-5.5" strokeLinecap="round" strokeLinejoin="round" />
+              </svg>
+              Subscribe to the Weekly Rundown
             </Link>
           </div>
         </div>
