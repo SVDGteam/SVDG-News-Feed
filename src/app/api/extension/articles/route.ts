@@ -69,7 +69,7 @@ export async function POST(req: NextRequest) {
   // A team member chose to clip this — that's a vote of confidence, so we
   // auto-fill the scoring fields and skip "Needs Review" instead of leaving
   // it Medium/Medium/blank. See src/lib/articleEnrichment.ts.
-  const enrichment = enrichExtensionSubmission(source.toLowerCase(), finalCategories)
+  const enrichment = await enrichExtensionSubmission(source.toLowerCase(), finalCategories)
 
   const form: ArticleFormData = {
     title,

@@ -21,7 +21,7 @@
  */
 
 import { Category, Region, SourceQualityLevel, SponsorNatSec100Relevance, Workstream } from '@/types/article'
-import { SPONSORS } from '@/data/sponsors'
+import { getSponsorDomains } from '@/lib/sponsors'
 
 // Domains for the "Priority 1/2" high-signal outlets, official sources, and
 // think tanks in src/data/sources.ts. Matching here (or a subdomain of one
@@ -73,8 +73,6 @@ const HIGH_QUALITY_DOMAINS = [
   'punchbowl.news',
 ]
 
-const SPONSOR_DOMAINS = SPONSORS.map((s) => s.website.replace(/^www\./, ''))
-
 function hostMatches(host: string, domain: string): boolean {
   return host === domain || host.endsWith(`.${domain}`)
 }
@@ -83,8 +81,9 @@ function isHighQualitySource(host: string): boolean {
   return HIGH_QUALITY_DOMAINS.some((d) => hostMatches(host, d))
 }
 
-function isSponsorSource(host: string): boolean {
-  return SPONSOR_DOMAINS.some((d) => hostMatches(host, d))
+async function isSponsorSource(host: string): Promise<boolean> {
+  const sponsorDomains = await getSponsorDomains()
+  return sponsorDomains.some((d) => hostMatches(host, d))
 }
 
 // Categories the team picks map fairly directly onto a workstream.
@@ -125,8 +124,8 @@ export interface ExtensionEnrichment {
 }
 
 /** `host` should be a normalized hostname (no protocol, no leading "www."). */
-export function enrichExtensionSubmission(host: string, categories: Category[]): ExtensionEnrichment {
-  const sponsorMatch = isSponsorSource(host)
+export async function enrichExtensionSubmission(host: string, categories: Category[]): Promise<ExtensionEnrichment> {
+  const sponsorMatch = await isSponsorSource(host)
 
   return {
     sourceQualityLevel: isHighQualitySource(host) ? 'High' : 'Medium',

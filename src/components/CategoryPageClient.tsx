@@ -1,11 +1,12 @@
 'use client'
 
-import { useState, useMemo } from 'react'
+import { useState, useMemo, useEffect } from 'react'
 import { Article, Category, Region } from '@/types/article'
 import ArticleCard from './ArticleCard'
 import FilterBar from './FilterBar'
 import { filterArticles, getUniqueSources, getUniqueTags, getUniqueSponsors, SortKey } from '@/lib/filters'
 import { SPONSOR_NAMES } from '@/data/sponsors'
+import type { Sponsor } from '@/data/sponsors'
 
 interface Props {
   articles: Article[]
@@ -35,10 +36,25 @@ export default function CategoryPageClient({
 
   const sources = useMemo(() => getUniqueSources(articles.filter(a => a.categories.includes(category))), [articles, category])
   const tags = useMemo(() => getUniqueTags(articles.filter(a => a.categories.includes(category))), [articles, category])
-  // For Sponsor News, offer the full SVDG sponsor roster (not just sponsors with existing articles)
+
+  // For Sponsor News, offer the full SVDG sponsor roster (not just sponsors
+  // with existing articles). Start with the static list, then refresh from
+  // the live (editable) roster.
+  const [sponsorRoster, setSponsorRoster] = useState<string[]>(SPONSOR_NAMES)
+
+  useEffect(() => {
+    if (category !== 'Sponsor News') return
+    fetch('/api/sponsors')
+      .then((res) => (res.ok ? res.json() : null))
+      .then((sponsors: Sponsor[] | null) => {
+        if (sponsors) setSponsorRoster(sponsors.map((s) => s.name).sort((a, b) => a.localeCompare(b)))
+      })
+      .catch(() => {})
+  }, [category])
+
   const sponsors = useMemo(
-    () => (category === 'Sponsor News' ? SPONSOR_NAMES : getUniqueSponsors(articles.filter(a => a.categories.includes(category)))),
-    [articles, category]
+    () => (category === 'Sponsor News' ? sponsorRoster : getUniqueSponsors(articles.filter(a => a.categories.includes(category)))),
+    [articles, category, sponsorRoster]
   )
 
   const filtered = useMemo(() =>

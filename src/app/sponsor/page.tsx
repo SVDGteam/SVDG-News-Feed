@@ -1,8 +1,9 @@
 import { getAllArticles } from '@/lib/db'
 import CategoryPageClient from '@/components/CategoryPageClient'
 import CategoryHero from '@/components/CategoryHero'
+import SponsorRosterEditor from '@/components/SponsorRosterEditor'
 import { getCategoryConfig } from '@/data/categories'
-import { SPONSORS } from '@/data/sponsors'
+import { getAllSponsors } from '@/lib/sponsors'
 
 export const dynamic = 'force-dynamic'
 
@@ -12,24 +13,7 @@ export default async function SponsorPage() {
     <div>
       <CategoryHero category={cat} />
 
-      <details className="mb-4 bg-svdg-surface/95 border border-white/10 rounded-lg">
-        <summary className="cursor-pointer px-4 py-2.5 text-sm font-medium text-white select-none">
-          SVDG Sponsor Roster <span className="text-svdg-french-gray font-normal">({SPONSORS.length})</span>
-        </summary>
-        <div className="px-4 pb-4 flex flex-wrap gap-1.5">
-          {SPONSORS.map((s) => (
-            <a
-              key={s.name}
-              href={`https://${s.website}`}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="svdg-tag svdg-tag--outline hover:bg-white/10 transition-colors normal-case tracking-normal"
-            >
-              {s.name}
-            </a>
-          ))}
-        </div>
-      </details>
+      <SponsorRosterEditor initialSponsors={await getAllSponsors()} />
 
       <CategoryPageClient
         articles={await getAllArticles()}

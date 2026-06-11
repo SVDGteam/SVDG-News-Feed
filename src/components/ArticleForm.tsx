@@ -9,6 +9,7 @@ import {
 } from '@/types/article'
 import { CATEGORIES, REGIONS, WORKSTREAMS, SUGGESTED_TAGS, getDisplayLabel } from '@/data/categories'
 import { SPONSOR_NAMES } from '@/data/sponsors'
+import type { Sponsor } from '@/data/sponsors'
 import { calcRelevanceScore } from '@/lib/scoring'
 
 interface Props {
@@ -72,6 +73,18 @@ export default function ArticleForm({ article }: Props) {
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState('')
   const [deleteConfirm, setDeleteConfirm] = useState(false)
+  // Start with the static roster, then refresh from the live (editable)
+  // sponsor list so the dropdown reflects roster additions/removals.
+  const [sponsorNames, setSponsorNames] = useState<string[]>(SPONSOR_NAMES)
+
+  useEffect(() => {
+    fetch('/api/sponsors')
+      .then((res) => (res.ok ? res.json() : null))
+      .then((sponsors: Sponsor[] | null) => {
+        if (sponsors) setSponsorNames(sponsors.map((s) => s.name).sort((a, b) => a.localeCompare(b)))
+      })
+      .catch(() => {})
+  }, [])
 
   // Calculated score
   const { score: calcScore } = calcRelevanceScore({
@@ -340,7 +353,7 @@ export default function ArticleForm({ article }: Props) {
               placeholder="e.g. Booz Allen Hamilton"
             />
             <datalist id="sponsor-options">
-              {SPONSOR_NAMES.map((s) => (
+              {sponsorNames.map((s) => (
                 <option key={s} value={s} />
               ))}
             </datalist>
