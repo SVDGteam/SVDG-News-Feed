@@ -47,7 +47,7 @@ function ChevronIcon({ open }: { open: boolean }) {
 
 function CheckIcon({ filled }: { filled: boolean }) {
   return (
-    <svg viewBox="0 0 20 20" className="w-3.5 h-3.5" fill={filled ? 'currentColor' : 'none'} stroke="currentColor" strokeWidth="1.5">
+    <svg viewBox="0 0 20 20" className="w-3.5 h-3.5" fill="none" stroke="currentColor" strokeWidth={filled ? '2.5' : '1.5'}>
       <path d="M4 10.5l3.5 3.5L16 5" strokeLinecap="round" strokeLinejoin="round" />
     </svg>
   )
