@@ -2,6 +2,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { getAllArticles } from '@/lib/db'
 import ArticleCard from '@/components/ArticleCard'
+import TypewriterHero from '@/components/TypewriterHero'
 import { filterArticles } from '@/lib/filters'
 import { Article } from '@/types/article'
 import { getEffectiveScore } from '@/lib/scoring'
@@ -193,10 +194,7 @@ export default async function HomePage() {
               <Image src="/brand/logomark.svg" alt="SVDG" width={44} height={46} />
             </span>
             <div className="flex flex-col gap-1.5 items-start">
-              <span className="flex items-center gap-2 font-display font-bold tracking-tight text-4xl md:text-5xl text-white leading-none">
-                Dispatch
-                <span className="inline-block w-2.5 h-9 md:h-11 bg-svdg-sky-dancer animate-pulse" aria-hidden="true" />
-              </span>
+              <TypewriterHero />
               <span className="nav-text text-xs text-svdg-sky-dancer leading-none">An SVDG Product</span>
             </div>
           </div>
