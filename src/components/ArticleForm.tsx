@@ -260,9 +260,9 @@ export default function ArticleForm({ article }: Props) {
               key={cat.id}
               type="button"
               onClick={() => toggleCategory(cat.label)}
-              className={`text-xs px-3 py-1.5 rounded border transition-colors ${
+              className={`text-xs px-3.5 py-1.5 rounded-full border font-semibold transition-colors ${
                 form.categories.includes(cat.label)
-                  ? `${cat.bgColor} ${cat.color} font-semibold`
+                  ? `${cat.bgColor} ${cat.color}`
                   : 'bg-white/5 border-white/10 text-svdg-french-gray hover:bg-white/10'
               }`}
             >
@@ -279,7 +279,7 @@ export default function ArticleForm({ article }: Props) {
           {form.tags.map((tag) => (
             <span
               key={tag}
-              className="inline-flex items-center gap-1 text-xs bg-blue-500/15 text-blue-300 px-2 py-0.5 rounded"
+              className="inline-flex items-center gap-1 text-xs font-semibold bg-blue-500/15 text-blue-300 px-2.5 py-1 rounded-full"
             >
               {tag}
               <button type="button" onClick={() => removeTag(tag)} className="hover:text-red-400">×</button>
@@ -297,7 +297,7 @@ export default function ArticleForm({ article }: Props) {
           <button
             type="button"
             onClick={() => addTag(tagInput)}
-            className="text-xs bg-white/5 hover:bg-white/10 text-slate-200 px-3 py-1.5 rounded"
+            className="text-xs font-semibold bg-white/5 hover:bg-white/10 text-slate-200 px-4 py-1.5 rounded-full"
           >Add</button>
         </div>
         <div className="flex flex-wrap gap-1">
@@ -306,7 +306,7 @@ export default function ArticleForm({ article }: Props) {
               key={tag}
               type="button"
               onClick={() => addTag(tag)}
-              className="text-[10px] bg-white/5 hover:bg-blue-500/15 hover:text-blue-300 text-svdg-french-gray px-1.5 py-0.5 rounded transition-colors"
+              className="text-[10px] font-semibold bg-white/5 hover:bg-blue-500/15 hover:text-blue-300 text-svdg-french-gray px-2.5 py-1 rounded-full transition-colors"
             >
               {tag}
             </button>
@@ -446,9 +446,9 @@ export default function ArticleForm({ article }: Props) {
                 key={ws}
                 type="button"
                 onClick={() => toggleWorkstream(ws)}
-                className={`text-xs px-2.5 py-1 rounded border transition-colors ${
+                className={`text-xs px-3 py-1 rounded-full border transition-colors ${
                   form.workstreams.includes(ws)
-                    ? 'bg-purple-500/15 border-purple-400/30 text-purple-300 font-medium'
+                    ? 'bg-purple-500/15 border-purple-400/30 text-purple-300 font-semibold'
                     : 'bg-white/5 border-white/10 text-svdg-french-gray hover:bg-white/10'
                 }`}
               >
@@ -523,7 +523,7 @@ export default function ArticleForm({ article }: Props) {
                 <button
                   type="button"
                   onClick={handleDelete}
-                  className="text-sm bg-red-600 hover:bg-red-500 text-white px-3 py-1.5 rounded"
+                  className="text-sm font-semibold bg-red-600 hover:bg-red-500 text-white px-4 py-1.5 rounded-full"
                 >
                   Yes, delete
                 </button>

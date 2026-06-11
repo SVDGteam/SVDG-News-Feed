@@ -62,7 +62,7 @@ export default function FilterBar({
         <select
           value={sort}
           onChange={(e) => onSort(e.target.value as SortKey)}
-          className="text-xs border border-white/15 rounded px-2 py-1.5 bg-svdg-surface-2 text-slate-200 focus:outline-none focus:ring-1 focus:ring-svdg-crayola"
+          className="text-xs font-semibold border border-white/15 rounded-full px-3 py-1.5 bg-svdg-surface-2 text-slate-200 focus:outline-none focus:ring-1 focus:ring-svdg-crayola"
         >
           <option value="relevance">Sort: Relevance</option>
           <option value="datePublished">Sort: Date Published</option>
@@ -74,7 +74,7 @@ export default function FilterBar({
           <select
             value={category ?? ''}
             onChange={(e) => onCategory(e.target.value)}
-            className="text-xs border border-white/15 rounded px-2 py-1.5 bg-svdg-surface-2 text-slate-200 focus:outline-none focus:ring-1 focus:ring-svdg-crayola"
+            className="text-xs font-semibold border border-white/15 rounded-full px-3 py-1.5 bg-svdg-surface-2 text-slate-200 focus:outline-none focus:ring-1 focus:ring-svdg-crayola"
           >
             <option value="">All Categories</option>
             {categories.map((c) => {
@@ -90,7 +90,7 @@ export default function FilterBar({
         <select
           value={source}
           onChange={(e) => onSource(e.target.value)}
-          className="text-xs border border-white/15 rounded px-2 py-1.5 bg-svdg-surface-2 text-slate-200 focus:outline-none focus:ring-1 focus:ring-svdg-crayola"
+          className="text-xs font-semibold border border-white/15 rounded-full px-3 py-1.5 bg-svdg-surface-2 text-slate-200 focus:outline-none focus:ring-1 focus:ring-svdg-crayola"
         >
           <option value="">All Sources</option>
           {sources.map((s) => (
@@ -102,7 +102,7 @@ export default function FilterBar({
         <select
           value={tag}
           onChange={(e) => onTag(e.target.value)}
-          className="text-xs border border-white/15 rounded px-2 py-1.5 bg-svdg-surface-2 text-slate-200 focus:outline-none focus:ring-1 focus:ring-svdg-crayola"
+          className="text-xs font-semibold border border-white/15 rounded-full px-3 py-1.5 bg-svdg-surface-2 text-slate-200 focus:outline-none focus:ring-1 focus:ring-svdg-crayola"
         >
           <option value="">All Tags</option>
           {tags.map((t) => (
@@ -115,7 +115,7 @@ export default function FilterBar({
           <select
             value={region}
             onChange={(e) => onRegion(e.target.value)}
-            className="text-xs border border-white/15 rounded px-2 py-1.5 bg-svdg-surface-2 text-slate-200 focus:outline-none focus:ring-1 focus:ring-svdg-crayola"
+            className="text-xs font-semibold border border-white/15 rounded-full px-3 py-1.5 bg-svdg-surface-2 text-slate-200 focus:outline-none focus:ring-1 focus:ring-svdg-crayola"
           >
             <option value="">All Regions</option>
             {(regions.length > 0 ? regions : ['US', 'Europe', 'UK', 'Australia', 'Other'] as Region[]).map((r) => (
@@ -129,7 +129,7 @@ export default function FilterBar({
           <select
             value={sponsor}
             onChange={(e) => onSponsor(e.target.value)}
-            className="text-xs border border-white/15 rounded px-2 py-1.5 bg-svdg-surface-2 text-slate-200 focus:outline-none focus:ring-1 focus:ring-svdg-crayola"
+            className="text-xs font-semibold border border-white/15 rounded-full px-3 py-1.5 bg-svdg-surface-2 text-slate-200 focus:outline-none focus:ring-1 focus:ring-svdg-crayola"
           >
             <option value="">All Sponsors</option>
             {sponsors.map((s) => (
@@ -142,7 +142,7 @@ export default function FilterBar({
         <select
           value={status}
           onChange={(e) => onStatus(e.target.value)}
-          className="text-xs border border-white/15 rounded px-2 py-1.5 bg-svdg-surface-2 text-slate-200 focus:outline-none focus:ring-1 focus:ring-svdg-crayola"
+          className="text-xs font-semibold border border-white/15 rounded-full px-3 py-1.5 bg-svdg-surface-2 text-slate-200 focus:outline-none focus:ring-1 focus:ring-svdg-crayola"
         >
           <option value="">All Status</option>
           {(['New', 'Reviewed', 'Featured', 'Rejected', 'Archived'] as ArticleStatus[]).map((s) => (

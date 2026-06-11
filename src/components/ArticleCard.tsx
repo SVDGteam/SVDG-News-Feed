@@ -121,11 +121,11 @@ export default function ArticleCard({ article }: Props) {
             <CategoryBadge key={cat} category={cat} size="xs" />
           ))}
           {article.region && article.region !== 'US' && (
-            <span className="text-[10px] px-1.5 py-0.5 rounded border bg-indigo-500/15 border-indigo-400/30 text-indigo-300 font-medium">
+            <span className="text-[10px] px-2 py-0.5 rounded-full border bg-indigo-500/15 border-indigo-400/30 text-indigo-300 font-semibold">
               {article.region}
             </span>
           )}
-          <span className={`text-[10px] px-1.5 py-0.5 rounded border font-medium ${STATUS_STYLES[article.status] ?? ''}`}>
+          <span className={`text-[10px] px-2 py-0.5 rounded-full border font-semibold ${STATUS_STYLES[article.status] ?? ''}`}>
             {article.status}
           </span>
         </div>
@@ -173,7 +173,7 @@ export default function ArticleCard({ article }: Props) {
           type="button"
           onClick={(e) => handleReaction('like', e)}
           title="Like — adds 10 points to relevance"
-          className={`flex items-center gap-1 text-[11px] px-1.5 py-0.5 rounded border font-medium transition-colors ${
+          className={`flex items-center gap-1 text-[11px] px-2.5 py-0.5 rounded-full border font-semibold transition-colors ${
             userReaction === 'like'
               ? 'bg-emerald-500/15 border-emerald-400/40 text-emerald-300'
               : 'border-white/10 text-svdg-french-gray hover:border-emerald-400/30 hover:text-emerald-300'
@@ -186,7 +186,7 @@ export default function ArticleCard({ article }: Props) {
           type="button"
           onClick={(e) => handleReaction('dislike', e)}
           title="Dislike — subtracts 10 points from relevance"
-          className={`flex items-center gap-1 text-[11px] px-1.5 py-0.5 rounded border font-medium transition-colors ${
+          className={`flex items-center gap-1 text-[11px] px-2.5 py-0.5 rounded-full border font-semibold transition-colors ${
             userReaction === 'dislike'
               ? 'bg-red-500/15 border-red-400/40 text-red-300'
               : 'border-white/10 text-svdg-french-gray hover:border-red-400/30 hover:text-red-300'
@@ -220,7 +220,7 @@ export default function ArticleCard({ article }: Props) {
               {article.tags.slice(0, 5).map((tag) => (
                 <span
                   key={tag}
-                  className="text-[10px] bg-white/5 text-slate-300 px-1.5 py-0.5 rounded"
+                  className="text-[10px] bg-white/5 text-slate-300 px-2 py-0.5 rounded-full font-medium"
                 >
                   {tag}
                 </span>

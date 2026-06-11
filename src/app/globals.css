@@ -218,10 +218,10 @@
 .svdg-tag {
   font-family: var(--font-mono);
   font-size: 11px;
-  font-weight: 500;
+  font-weight: 600;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  padding: 3px 9px;
+  padding: 4px 11px;
   border-radius: 999px;
   display: inline-flex;
   align-items: center;
@@ -249,12 +249,12 @@
 /* ===================== Buttons ===================== */
 .svdg-btn {
   font-family: var(--font-mono);
-  font-weight: 500;
+  font-weight: 600;
   font-size: 12px;
   letter-spacing: 0.10em;
   text-transform: uppercase;
-  padding: 10px 18px;
-  border-radius: 6px;
+  padding: 10px 20px;
+  border-radius: 999px;
   cursor: pointer;
   border: 0;
   line-height: 1;
