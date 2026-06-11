@@ -7,10 +7,22 @@ import { CATEGORIES, getDisplayLabel } from '@/data/categories'
 
 const RUNDOWN_ITEM = { label: 'Weekly Rundown', href: '/' }
 
-const NAV_ITEMS = [
-  ...CATEGORIES.map((c) => ({ label: getDisplayLabel(c), href: `/${c.slug}` })),
+const NAV_ITEMS: { label: string; href: string; id?: string }[] = [
+  ...CATEGORIES.map((c) => ({ label: getDisplayLabel(c), href: `/${c.slug}`, id: c.id })),
   { label: 'All Articles', href: '/archive' },
 ]
+
+// Per-category accent colors for nav tabs — mirrors the colors used on
+// CategoryBadge / CategoryHero so each section reads consistently across the site.
+// Class names are written out in full (not interpolated) so Tailwind's JIT picks them up.
+const NAV_ACCENTS: Record<string, { dot: string; text: string; border: string; hoverText: string; hoverBorder: string }> = {
+  industry: { dot: 'bg-blue-300', text: 'text-blue-300', border: 'border-blue-300', hoverText: 'hover:text-blue-300', hoverBorder: 'hover:border-blue-300/60' },
+  investor: { dot: 'bg-emerald-300', text: 'text-emerald-300', border: 'border-emerald-300', hoverText: 'hover:text-emerald-300', hoverBorder: 'hover:border-emerald-300/60' },
+  government: { dot: 'bg-purple-300', text: 'text-purple-300', border: 'border-purple-300', hoverText: 'hover:text-purple-300', hoverBorder: 'hover:border-purple-300/60' },
+  sponsor: { dot: 'bg-amber-300', text: 'text-amber-300', border: 'border-amber-300', hoverText: 'hover:text-amber-300', hoverBorder: 'hover:border-amber-300/60' },
+  international: { dot: 'bg-indigo-300', text: 'text-indigo-300', border: 'border-indigo-300', hoverText: 'hover:text-indigo-300', hoverBorder: 'hover:border-indigo-300/60' },
+  opinions: { dot: 'bg-rose-300', text: 'text-rose-300', border: 'border-rose-300', hoverText: 'hover:text-rose-300', hoverBorder: 'hover:border-rose-300/60' },
+}
 
 export default function Navigation() {
   const pathname = usePathname()
@@ -55,6 +67,30 @@ export default function Navigation() {
 
             {NAV_ITEMS.map((item) => {
               const isActive = pathname.startsWith(item.href)
+              const accent = item.id ? NAV_ACCENTS[item.id] : undefined
+
+              if (accent) {
+                return (
+                  <Link
+                    key={item.href}
+                    href={item.href}
+                    className={`
+                      nav-text px-3 py-1.5 text-[11px] whitespace-nowrap transition-colors border-b-2 inline-flex items-center gap-1.5
+                      ${isActive
+                        ? `${accent.text} ${accent.border}`
+                        : `text-white/60 border-transparent ${accent.hoverText} ${accent.hoverBorder}`
+                      }
+                    `}
+                  >
+                    <span
+                      className={`w-1.5 h-1.5 rounded-full shrink-0 ${accent.dot} ${isActive ? '' : 'opacity-40'}`}
+                      aria-hidden="true"
+                    />
+                    {item.label}
+                  </Link>
+                )
+              }
+
               return (
                 <Link
                   key={item.href}
