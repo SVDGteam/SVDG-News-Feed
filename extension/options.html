@@ -2,52 +2,88 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>SVDG Dispatch Clipper — Settings</title>
+    <title>SVDG Hub — Settings</title>
     <link rel="stylesheet" href="popup.css" />
     <style>
-      body {
-        width: 380px;
-        padding: 0;
+      body { width: 400px; background: #031020; color: #fff; }
+      .options-wrap { padding: 16px; display: flex; flex-direction: column; gap: 20px; }
+      .section-title {
+        font-size: 10px; font-weight: 700; letter-spacing: 0.1em;
+        text-transform: uppercase; color: #a8a9ac; margin-bottom: 10px;
+        padding-bottom: 6px; border-bottom: 1px solid rgba(255,255,255,0.08);
       }
-      form {
-        gap: 14px;
+      .section-title span { font-size: 11px; margin-right: 6px; }
+      .field { display: flex; flex-direction: column; gap: 4px; margin-bottom: 10px; }
+      .field label { font-size: 10px; font-weight: 600; color: #a8a9ac; letter-spacing: 0.3px; text-transform: uppercase; }
+      .field input {
+        background: #0b1c33; border: 1px solid rgba(255,255,255,0.08);
+        border-radius: 5px; padding: 7px 8px; color: #fff;
+        font-size: 12px; font-family: inherit;
       }
-      .note {
-        font-size: 11px;
-        color: #5b6573;
-        line-height: 1.5;
+      .field input:focus { outline: none; border-color: #75fb9f; }
+      .note { font-size: 11px; color: #5b6573; line-height: 1.5; margin-top: -4px; }
+      .note code { background: rgba(255,255,255,0.08); color: #75fb9f; padding: 1px 5px; border-radius: 3px; font-size: 10px; }
+      button[type="submit"] {
+        background: #75fb9f; color: #031020; border: none; border-radius: 5px;
+        padding: 9px 16px; font-weight: 700; font-size: 12px; cursor: pointer;
+        align-self: flex-start;
       }
+      button:hover { filter: brightness(0.92); }
     </style>
   </head>
   <body>
-    <header>
-      <div class="logo-badge">
-        <img src="icons/icon48.png" alt="" width="20" height="20" />
+    <div class="mode-bar" style="margin-bottom:0">
+      <div style="padding:10px 14px; display:flex; align-items:center; gap:10px;">
+        <div class="logo-badge"><img src="icons/icon48.png" alt="" width="18" height="18" /></div>
+        <div>
+          <div class="title">SVDG Hub <span style="font-size:11px;font-weight:400;color:#a8a9ac">— Settings</span></div>
+        </div>
       </div>
-      <div class="header-text">
-        <div class="title">Dispatch<span class="accent"></span></div>
-        <div class="subtitle">Clipper settings</div>
-      </div>
-    </header>
+    </div>
 
     <form id="options-form">
-      <label>
-        Dispatch site URL
-        <input type="url" id="apiBase" placeholder="https://svdg-news-feed.vercel.app" />
-      </label>
+      <div class="options-wrap">
 
-      <label>
-        API key
-        <input type="password" id="apiKey" placeholder="Shared secret from Simone" />
-      </label>
+        <!-- Dispatch -->
+        <div>
+          <div class="section-title"><span>📰</span> Dispatch</div>
+          <div class="field">
+            <label>Site URL</label>
+            <input type="url" id="dispatchApiBase" placeholder="https://svdg-news-feed.vercel.app" />
+          </div>
+          <div class="field">
+            <label>API key</label>
+            <input type="password" id="dispatchApiKey" placeholder="Shared secret (EXTENSION_API_SECRET)" />
+          </div>
+          <p class="note">
+            Ask Simone for the key (set as <code>EXTENSION_API_SECRET</code> on the Dispatch Vercel project).
+            Same for the whole team — don't share outside SVDG.
+          </p>
+        </div>
 
-      <p class="note">
-        Ask Simone for the API key (set as <code>EXTENSION_API_SECRET</code> on the
-        site). It's the same for the whole team — don't share it outside SVDG.
-      </p>
+        <!-- Circuit -->
+        <div>
+          <div class="section-title"><span>📅</span> Circuit</div>
+          <div class="field">
+            <label>Site URL</label>
+            <input type="url" id="circuitApiBase" placeholder="https://svdg-merry-go-round.vercel.app" />
+          </div>
+          <div class="field">
+            <label>API key</label>
+            <input type="password" id="circuitApiKey" placeholder="Shared secret (EXTENSION_API_SECRET)" />
+          </div>
+          <p class="note">
+            Ask Simone for the key (set as <code>EXTENSION_API_SECRET</code> on the Circuit Vercel project).
+            Can be the same value as Dispatch or different — whatever Simone set.
+          </p>
+        </div>
 
-      <button type="submit">Save</button>
-      <p id="status" class="status"></p>
+        <div style="display:flex;align-items:center;gap:12px;">
+          <button type="submit">Save settings</button>
+          <p id="status" class="status" style="margin:0"></p>
+        </div>
+
+      </div>
     </form>
   </body>
   <script src="options.js"></script>

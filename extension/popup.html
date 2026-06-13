@@ -2,55 +2,119 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>SVDG Dispatch Clipper</title>
+    <title>SVDG Hub</title>
     <link rel="stylesheet" href="popup.css" />
   </head>
-  <body>
-    <header>
-      <div class="logo-badge">
-        <img src="icons/icon48.png" alt="" width="20" height="20" />
-      </div>
-      <div class="header-text">
-        <div class="title">Dispatch<span class="accent"></span></div>
-        <div class="subtitle">Add to shared database</div>
-      </div>
-    </header>
+  <body class="mode-dispatch">
 
-    <form id="clip-form">
-      <label>
-        Title
-        <input type="text" id="title" required />
-      </label>
+    <!-- Mode toggle -->
+    <div class="mode-bar">
+      <button class="mode-btn active" id="btn-dispatch" data-mode="dispatch">Dispatch</button>
+      <button class="mode-btn" id="btn-circuit" data-mode="circuit">Circuit</button>
+    </div>
 
-      <label>
-        URL
-        <input type="url" id="url" required />
-      </label>
+    <!-- ── DISPATCH panel ─────────────────────────────────── -->
+    <div id="panel-dispatch">
+      <header>
+        <div class="logo-badge">
+          <img src="icons/icon48.png" alt="" width="20" height="20" />
+        </div>
+        <div class="header-text">
+          <div class="title">Dispatch<span class="accent-cursor"></span></div>
+          <div class="subtitle">Add to shared database</div>
+        </div>
+      </header>
 
-      <label>
-        Source
-        <input type="text" id="source" placeholder="e.g. Defense News" />
-      </label>
+      <form id="dispatch-form">
+        <label>Title<input type="text" id="d-title" required /></label>
+        <label>URL<input type="url" id="d-url" required /></label>
+        <label>Source<input type="text" id="d-source" placeholder="e.g. Defense News" /></label>
+        <label>Description
+          <textarea id="d-description" rows="3" placeholder="Short summary or why it matters…"></textarea>
+        </label>
+        <fieldset id="d-categories">
+          <legend>Categories</legend>
+        </fieldset>
+        <label>Tags <span class="hint">(comma separated)</span>
+          <input type="text" id="d-tags" placeholder="AI, Drones, NDAA" />
+        </label>
+        <button type="submit" id="d-submit">Add to Dispatch</button>
+        <p id="d-status" class="status"></p>
+        <p class="settings-link"><a href="#" class="open-options">Settings</a></p>
+      </form>
+    </div>
 
-      <label>
-        Description
-        <textarea id="description" rows="3" placeholder="Short summary or why it matters..."></textarea>
-      </label>
+    <!-- ── CIRCUIT panel ──────────────────────────────────── -->
+    <div id="panel-circuit" hidden>
+      <header class="circuit-header">
+        <div class="logo-badge circuit-badge">
+          <img src="icons/icon48.png" alt="" width="20" height="20" />
+        </div>
+        <div class="header-text">
+          <div class="title circuit-title">Circuit</div>
+          <div class="subtitle circuit-subtitle">Add event to calendar</div>
+        </div>
+      </header>
 
-      <fieldset id="categories">
-        <legend>Categories</legend>
-        <!-- populated by popup.js -->
-      </fieldset>
+      <form id="circuit-form">
+        <label>Event title<input type="text" id="c-title" required /></label>
+        <label>Event URL<input type="url" id="c-url" required /></label>
+        <label>Organizer<input type="text" id="c-organizer" placeholder="e.g. AFCEA" /></label>
 
-      <label>
-        Tags <span class="hint">(comma separated)</span>
-        <input type="text" id="tags" placeholder="AI, Drones, NDAA" />
-      </label>
+        <div class="row-2">
+          <label>Start date <span class="required">*</span>
+            <input type="date" id="c-startDate" required />
+          </label>
+          <label>End date
+            <input type="date" id="c-endDate" />
+          </label>
+        </div>
 
-      <button type="submit" id="submit-btn">Add to Dispatch</button>
-      <p id="status" class="status"></p>
-      <p id="settings-link"><a href="#" id="open-options">Settings</a></p>
-    </form>
+        <div class="row-2">
+          <label>Start time
+            <input type="time" id="c-startTime" />
+          </label>
+          <label>End time
+            <input type="time" id="c-endTime" />
+          </label>
+        </div>
+
+        <label>Event type
+          <select id="c-eventType">
+            <option value="Conference">Conference</option>
+            <option value="Summit / Forum">Summit / Forum</option>
+            <option value="Pitch / Demo Day">Pitch / Demo Day</option>
+            <option value="Networking">Networking</option>
+            <option value="Webinar">Webinar</option>
+            <option value="Policy / Hearing">Policy / Hearing</option>
+            <option value="Workshop / Training">Workshop / Training</option>
+            <option value="Award / Deadline">Award / Deadline</option>
+            <option value="SVDG Program">SVDG Program</option>
+          </select>
+        </label>
+
+        <label>Format
+          <select id="c-format">
+            <option value="In-Person">In-Person</option>
+            <option value="Virtual">Virtual</option>
+            <option value="Hybrid">Hybrid</option>
+          </select>
+        </label>
+
+        <label>Location
+          <input type="text" id="c-location" placeholder="City, State or 'Virtual'" />
+        </label>
+
+        <label>Notes / Why it matters
+          <textarea id="c-notes" rows="2" placeholder="Why is this relevant to SVDG?"></textarea>
+        </label>
+
+        <button type="submit" id="c-submit" class="circuit-btn">Add to Circuit</button>
+        <p id="c-status" class="status"></p>
+        <p class="settings-link"><a href="#" class="open-options">Settings</a></p>
+      </form>
+    </div>
+
   </body>
   <script src="popup.js"></script>
 </html>

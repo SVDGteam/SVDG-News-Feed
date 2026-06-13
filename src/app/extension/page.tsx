@@ -3,11 +3,11 @@ import { CSSProperties } from 'react'
 import { BASE_PATH } from '@/lib/basePath'
 
 export const metadata = {
-  title: 'Dispatch Clipper — Browser Extension',
-  description: 'Add the article you\'re reading straight to the Dispatch database.',
+  title: 'SVDG Hub — Browser Extension',
+  description: 'One extension to clip articles to Dispatch and add events to Circuit.',
 }
 
-const STEPS = [
+const INSTALL_STEPS = [
   {
     title: 'Download & unzip',
     body: 'Click the download button above. Find the downloaded dispatch-clipper.zip and unzip it — you should get a folder called "extension" or "dispatch-clipper".',
@@ -27,14 +27,14 @@ const STEPS = [
   },
   {
     title: 'Load unpacked',
-    body: 'Click "Load unpacked" and select the unzipped folder. The Dispatch icon should appear in your toolbar — pin it for quick access.',
+    body: 'Click "Load unpacked" and select the unzipped folder. The SVDG Hub icon should appear in your toolbar — pin it for quick access.',
   },
   {
-    title: 'Add your API key',
+    title: 'Add your API keys',
     body: (
       <>
-        Click the icon → <strong className="text-white">Settings</strong>. The site URL is pre-filled —
-        ask Simone for the API key and paste it in, then hit Save.
+        Click the icon → <strong className="text-white">Settings</strong>. The site URLs are pre-filled.
+        Ask Simone for the API keys (one for Dispatch, one for Circuit), paste them in, and hit Save.
       </>
     ),
   },
@@ -57,12 +57,12 @@ export default function ExtensionPage() {
           <div>
             <span className="eyebrow text-svdg-sky-dancer">Browser Extension</span>
             <h1 className="text-3xl md:text-5xl font-display font-bold text-white mt-2 leading-tight">
-              Dispatch Clipper
+              SVDG Hub
             </h1>
             <p className="text-sm md:text-base text-svdg-french-gray mt-3 max-w-xl mx-auto">
-              Reading something relevant on the web? One click adds it to the shared Dispatch
-              database — pre-filled with the title, source, and a summary — ready for scoring
-              and review.
+              One extension for the whole SVDG platform. Toggle between{' '}
+              <strong className="text-white">Dispatch</strong> to clip articles and{' '}
+              <strong className="text-white">Circuit</strong> to add events — right from your browser toolbar.
             </p>
           </div>
           <a
@@ -75,6 +75,32 @@ export default function ExtensionPage() {
         </div>
       </div>
 
+      {/* Mode toggle explainer */}
+      <section className="mb-8">
+        <h2 className="text-xl font-display font-bold tracking-tight text-white mb-1">Two modes, one icon</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-3 mb-4">
+          <div className="bg-svdg-surface/95 border border-white/10 rounded-lg p-4">
+            <div className="flex items-center gap-2 mb-1.5">
+              <span className="svdg-tag svdg-tag--accent">Dispatch</span>
+            </div>
+            <p className="text-sm text-svdg-french-gray leading-relaxed">
+              Dark theme. Clip the page you&apos;re reading — title, URL, source, and description are
+              pre-filled. Pick categories and hit <strong className="text-white">Add to Dispatch</strong>.
+              It lands with status <strong className="text-white">New</strong> for scoring and review.
+            </p>
+          </div>
+          <div className="bg-svdg-surface/95 border border-white/10 rounded-lg p-4">
+            <div className="flex items-center gap-2 mb-1.5">
+              <span className="svdg-tag" style={{ background: 'rgba(18,84,172,0.2)', color: '#56ccf2', borderColor: 'rgba(18,84,172,0.4)' }}>Circuit</span>
+            </div>
+            <p className="text-sm text-svdg-french-gray leading-relaxed">
+              Light theme. Add a defense event to the shared calendar — fill in dates, event type,
+              format, location, and why it matters. Hit <strong className="text-white">Add to Circuit</strong>.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* Setup steps */}
       <section className="mb-8">
         <h2 className="text-xl font-display font-bold tracking-tight text-white mb-1">Setup</h2>
@@ -83,7 +109,7 @@ export default function ExtensionPage() {
           one-time install — about a minute.
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-          {STEPS.map((step, i) => (
+          {INSTALL_STEPS.map((step, i) => (
             <div key={step.title} className="bg-svdg-surface/95 border border-white/10 rounded-lg p-4">
               <div className="flex items-center gap-2 mb-1.5">
                 <span className="svdg-tag svdg-tag--accent">{i + 1}</span>
@@ -95,18 +121,20 @@ export default function ExtensionPage() {
         </div>
       </section>
 
-      {/* Usage */}
+      {/* Tips */}
       <section>
-        <h2 className="text-xl font-display font-bold tracking-tight text-white mb-1">Using it</h2>
-        <div className="bg-svdg-surface/95 border border-white/10 rounded-lg p-4 text-sm text-svdg-french-gray leading-relaxed">
-          <p className="mb-2">
-            On any article, click the Dispatch icon in your toolbar. Title, URL, source, and a
-            description are pre-filled — edit anything, check the relevant categories, and hit{' '}
-            <strong className="text-white">Add to Dispatch</strong>.
+        <h2 className="text-xl font-display font-bold tracking-tight text-white mb-1">Tips</h2>
+        <div className="bg-svdg-surface/95 border border-white/10 rounded-lg p-4 text-sm text-svdg-french-gray leading-relaxed space-y-2">
+          <p>
+            The extension remembers which mode you last used — it will open in Dispatch or Circuit
+            mode automatically next time.
           </p>
           <p>
-            It lands on the site with status <strong className="text-white">New</strong> for
-            scoring and review. Clipping the same link twice won&apos;t create a duplicate.
+            Clipping the same link twice in Dispatch won&apos;t create a duplicate.
+          </p>
+          <p>
+            If you see an <strong className="text-white">Unauthorized</strong> error, open Settings
+            and make sure both API keys are filled in correctly. Ask Simone if you need them.
           </p>
         </div>
       </section>

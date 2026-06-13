@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "SVDG Dispatch Clipper",
-  "description": "Save the page you're reading to the SVDG Dispatch shared news database for AI scoring and review.",
-  "version": "1.0.0",
+  "name": "SVDG Hub",
+  "description": "Clip articles to Dispatch or add events to Circuit — one extension for the whole SVDG platform.",
+  "version": "2.0.0",
   "action": {
     "default_popup": "popup.html",
     "default_icon": {
@@ -17,6 +17,11 @@
     "128": "icons/icon128.png"
   },
   "permissions": ["activeTab", "scripting", "storage"],
-  "host_permissions": ["https://svdg-news-feed.vercel.app/*"],
+  "host_permissions": [
+    "https://svdg-news-feed.vercel.app/*",
+    "https://svdg-dispatch.vercel.app/*",
+    "https://svdg-merry-go-round.vercel.app/*",
+    "https://svdg-circuit.vercel.app/*"
+  ],
   "options_page": "options.html"
 }

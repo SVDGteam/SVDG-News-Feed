@@ -1,29 +1,25 @@
-const DEFAULT_API_BASE = 'https://svdg-news-feed.vercel.app'
-
-const els = {
-  form: document.getElementById('options-form'),
-  apiBase: document.getElementById('apiBase'),
-  apiKey: document.getElementById('apiKey'),
-  status: document.getElementById('status'),
-}
+const KEYS = ['dispatchApiBase', 'dispatchApiKey', 'circuitApiBase', 'circuitApiKey']
 
 async function load() {
-  const { apiBase, apiKey } = await chrome.storage.sync.get(['apiBase', 'apiKey'])
-  els.apiBase.value = apiBase || DEFAULT_API_BASE
-  els.apiKey.value = apiKey || ''
+  const stored = await chrome.storage.sync.get(KEYS)
+  KEYS.forEach(k => {
+    const el = document.getElementById(k)
+    if (el && stored[k]) el.value = stored[k]
+  })
 }
 
-els.form.addEventListener('submit', async (e) => {
+document.getElementById('options-form').addEventListener('submit', async (e) => {
   e.preventDefault()
-  await chrome.storage.sync.set({
-    apiBase: els.apiBase.value.trim().replace(/\/$/, '') || DEFAULT_API_BASE,
-    apiKey: els.apiKey.value.trim(),
+  const values = {}
+  KEYS.forEach(k => {
+    const el = document.getElementById(k)
+    if (el && el.value.trim()) values[k] = el.value.trim()
   })
-  els.status.textContent = 'Saved ✓'
-  els.status.className = 'status success'
-  setTimeout(() => {
-    els.status.textContent = ''
-  }, 1500)
+  await chrome.storage.sync.set(values)
+  const status = document.getElementById('status')
+  status.textContent = 'Saved ✓'
+  status.className = 'status success'
+  setTimeout(() => { status.textContent = ''; status.className = 'status' }, 2000)
 })
 
 load()
