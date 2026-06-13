@@ -43,6 +43,7 @@ export async function POST(req: NextRequest) {
     const { alreadySubscribed } = addSubscriber(email, source)
     return NextResponse.json({ ok: true, alreadySubscribed }, { status: 201 })
   } catch (err) {
+    console.error('[api/subscribe POST]', err)
     return NextResponse.json({ error: 'Something went wrong. Please try again.' }, { status: 500 })
   }
 }

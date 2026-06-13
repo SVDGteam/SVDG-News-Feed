@@ -18,7 +18,7 @@ export async function POST(req: NextRequest) {
   const secret = process.env.EXTENSION_API_SECRET
   const key = req.headers.get('x-api-key')
 
-  if (secret && key !== secret) {
+  if (!secret || key !== secret) {
     return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
   }
 

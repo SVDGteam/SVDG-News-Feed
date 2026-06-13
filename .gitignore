@@ -35,3 +35,9 @@ next-env.d.ts
 
 # Newsletter subscriber emails (PII — not for the repo)
 data/subscribers.json
+
+# AI-generated article candidates — intermediate working files, not source of truth
+data/candidates.json
+
+# Linux filesystem lock artifacts
+**/.fuse_hidden*

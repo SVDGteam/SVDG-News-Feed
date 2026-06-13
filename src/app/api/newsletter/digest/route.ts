@@ -17,7 +17,7 @@ export async function GET(req: NextRequest) {
   const secret = process.env.NEWSLETTER_DIGEST_SECRET
   const key = req.nextUrl.searchParams.get('key')
 
-  if (secret && key !== secret) {
+  if (!secret || key !== secret) {
     return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
   }
 

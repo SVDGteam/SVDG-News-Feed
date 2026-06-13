@@ -8,7 +8,8 @@ import CategoryBadge from './CategoryBadge'
 import { getArticleAgeLabel } from '@/lib/archive'
 import { getEffectiveScore } from '@/lib/scoring'
 import { useIdentity } from './IdentityProvider'
-import { withBasePath } from '@/lib/basePath'
+import { useArticleActions } from '@/hooks/useArticleActions'
+import { BookmarkIcon } from './icons'
 
 interface Props {
   article: Article
@@ -54,23 +55,16 @@ function CheckIcon({ filled }: { filled: boolean }) {
   )
 }
 
-function BookmarkIcon({ filled }: { filled: boolean }) {
-  return (
-    <svg viewBox="0 0 20 20" className="w-3.5 h-3.5" fill={filled ? 'currentColor' : 'none'} stroke="currentColor" strokeWidth="1.5">
-      <path d="M5 3h10v14l-5-3-5 3V3z" strokeLinecap="round" strokeLinejoin="round" />
-    </svg>
-  )
-}
-
 export default function ArticleCard({ article }: Props) {
   const ageLabel = getArticleAgeLabel(article.datePublished)
-  // All cards start collapsed — click anywhere on the card to expand it.
   const [expanded, setExpanded] = useState(false)
-  const [reactions, setReactions] = useState<Record<string, ReactionType>>(article.reactions ?? {})
-  const [readBy, setReadBy] = useState<string[]>(article.readBy ?? [])
-  const [shortlistedBy, setShortlistedBy] = useState<string[]>(article.shortlistedBy ?? [])
-  const [pending, setPending] = useState(false)
   const { userName: userId } = useIdentity()
+  const { reactions, readBy, shortlistedBy, pending, handleReaction: _handleReaction, handlePersonalize: _handlePersonalize } =
+    useArticleActions(article.id, {
+      reactions: article.reactions ?? {},
+      readBy: article.readBy ?? [],
+      shortlistedBy: article.shortlistedBy ?? [],
+    })
 
   const userReaction = userId ? reactions[userId] : undefined
   const isRead = !!userId && readBy.includes(userId)
@@ -79,71 +73,14 @@ export default function ArticleCard({ article }: Props) {
   const dislikes = Object.values(reactions).filter((r) => r === 'dislike').length
   const effectiveScore = getEffectiveScore({ relevanceScore: article.relevanceScore, reactions })
 
-  async function handleReaction(type: ReactionType, e: React.MouseEvent) {
-    e.stopPropagation()
-    if (!userId || pending) return
-
-    const next = userReaction === type ? null : type
-    const previous = reactions
-    const optimistic = { ...reactions }
-    if (next === null) {
-      delete optimistic[userId]
-    } else {
-      optimistic[userId] = next
-    }
-    setReactions(optimistic)
-    setPending(true)
-
-    try {
-      const res = await fetch(withBasePath(`/api/articles/${article.id}/react`), {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ userId, reaction: next }),
-      })
-      if (res.ok) {
-        const updated = await res.json()
-        setReactions(updated.reactions ?? {})
-      } else {
-        setReactions(previous) // revert on error
-      }
-    } catch {
-      setReactions(previous) // revert on error
-    } finally {
-      setPending(false)
-    }
+  function handleReaction(type: ReactionType, e: React.MouseEvent) {
+    if (!userId) return
+    _handleReaction(userId, type, e)
   }
 
-  async function handlePersonalize(field: 'read' | 'shortlisted', e: React.MouseEvent) {
-    e.stopPropagation()
-    if (!userId || pending) return
-
-    const list = field === 'read' ? readBy : shortlistedBy
-    const setList = field === 'read' ? setReadBy : setShortlistedBy
-    const isOn = list.includes(userId)
-    const previous = list
-
-    const optimistic = isOn ? list.filter((u) => u !== userId) : [...list, userId]
-    setList(optimistic)
-    setPending(true)
-
-    try {
-      const res = await fetch(withBasePath(`/api/articles/${article.id}/personalize`), {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ userId, [field]: !isOn }),
-      })
-      if (res.ok) {
-        const updated = await res.json()
-        setReadBy(updated.readBy ?? [])
-        setShortlistedBy(updated.shortlistedBy ?? [])
-      } else {
-        setList(previous)
-      }
-    } catch {
-      setList(previous)
-    } finally {
-      setPending(false)
-    }
+  function handlePersonalize(field: 'read' | 'shortlisted', e: React.MouseEvent) {
+    if (!userId) return
+    _handlePersonalize(userId, field, e)
   }
 
   return (

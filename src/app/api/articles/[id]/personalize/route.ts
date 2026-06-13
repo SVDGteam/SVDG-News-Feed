@@ -27,7 +27,8 @@ export async function POST(req: NextRequest, { params }: Params) {
     const updated = await setPersonalState(params.id, userId, { read, shortlisted })
     if (!updated) return NextResponse.json({ error: 'Not found' }, { status: 404 })
     return NextResponse.json(updated)
-  } catch {
+  } catch (err) {
+    console.error('[api/articles/[id]/personalize POST]', err)
     return NextResponse.json({ error: 'Failed to update article' }, { status: 500 })
   }
 }

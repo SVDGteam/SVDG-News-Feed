@@ -1,7 +1,10 @@
 /**
- * Plain-JS fallback for add-candidates.ts (no tsx/esbuild dependency).
- * Mirrors the logic in scripts/add-candidates.ts and src/lib/scoring.ts /
- * src/lib/archive.ts exactly. Safe to delete once tsx works in this env.
+ * @deprecated Plain-Node fallback for scripts/add-candidates.ts.
+ * Prefer add-candidates.ts (the TypeScript source of truth) — changes made here
+ * must also be applied there, and the two will silently diverge otherwise.
+ * Only use this if `npx tsx scripts/add-candidates.ts` fails with an esbuild
+ * platform-mismatch error (common in sandboxed environments without registry
+ * access to install the matching @esbuild/* binary).
  *
  * Usage: node scripts/add-candidates-plain.cjs [path-to-candidates.json]
  */

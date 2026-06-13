@@ -7,6 +7,7 @@ import { usePathname } from 'next/navigation'
 import { CATEGORIES, getDisplayLabel } from '@/data/categories'
 import { TEAM_MEMBERS } from '@/lib/identity'
 import { useIdentity } from '@/components/IdentityProvider'
+import { BookmarkIcon } from '@/components/icons'
 
 const RUNDOWN_ITEM = { label: 'Weekly Rundown', href: '/' }
 
@@ -229,14 +230,6 @@ export default function Navigation() {
         </div>
       </div>
     </header>
-  )
-}
-
-function BookmarkIcon() {
-  return (
-    <svg viewBox="0 0 20 20" className="w-3.5 h-3.5" fill="none" stroke="currentColor" strokeWidth="1.5">
-      <path d="M5 3h10v14l-5-3-5 3V3z" strokeLinecap="round" strokeLinejoin="round" />
-    </svg>
   )
 }
 

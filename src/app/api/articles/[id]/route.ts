@@ -24,7 +24,8 @@ export async function PUT(req: NextRequest, { params }: Params) {
     const updated = await updateArticle(params.id, body)
     if (!updated) return NextResponse.json({ error: 'Not found' }, { status: 404 })
     return NextResponse.json(updated)
-  } catch {
+  } catch (err) {
+    console.error('[api/articles/[id] PUT]', err)
     return NextResponse.json({ error: 'Failed to update' }, { status: 500 })
   }
 }

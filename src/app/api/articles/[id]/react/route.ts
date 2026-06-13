@@ -28,7 +28,8 @@ export async function POST(req: NextRequest, { params }: Params) {
     const updated = await setReaction(params.id, userId, reaction)
     if (!updated) return NextResponse.json({ error: 'Not found' }, { status: 404 })
     return NextResponse.json(updated)
-  } catch {
+  } catch (err) {
+    console.error('[api/articles/[id]/react POST]', err)
     return NextResponse.json({ error: 'Failed to update reaction' }, { status: 500 })
   }
 }
