@@ -33,6 +33,12 @@ export default function Footer() {
         <div className="max-w-screen-xl mx-auto px-4 py-3 flex flex-wrap items-center justify-between gap-2 text-[11px] text-svdg-french-gray">
           <span>© {new Date().getFullYear()} Silicon Valley Defense Group</span>
           <div className="flex items-center gap-2">
+            <a
+              href="/circuit"
+              className="nav-text inline-flex items-center gap-1.5 text-[10px] px-3 py-1.5 rounded-full border border-white/15 text-svdg-french-gray hover:border-white/30 hover:text-white transition-colors"
+            >
+              ↗ Circuit — SVDG Events Calendar
+            </a>
             <Link
               href="/extension"
               className="nav-text inline-flex items-center gap-1.5 text-[10px] px-3 py-1.5 rounded-full border border-white/15 text-svdg-french-gray hover:border-white/30 hover:text-white transition-colors"
