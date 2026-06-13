@@ -114,42 +114,13 @@ src/
 
 Score labels: **High** (85–100) · **Medium-High** (65–84) · **Medium** (40–64) · **Low** (<40)
 
-## Team access (password gate — enabled)
+## Team access (login gate lives in the Hub)
 
-The site sits behind a shared-password "front door" via `src/middleware.ts`,
-with an in-site `/login` page (not a browser popup):
-
-- Once `SITE_PASSWORD` is set (locally via `.env.local`, or as an environment
-  variable on the hosting platform), visiting any page redirects to `/login`
-  until the correct username/password is submitted. A session cookie (1 year)
-  is then set, and browsers can offer to save the credentials like any other
-  login form.
-- Username defaults to `svdg` (override with `SITE_USERNAME`).
-- Leave `SITE_PASSWORD` unset to go back to fully open access (e.g., for
-  local dev if you don't want to log in every time — just don't create
-  `.env.local`, or comment the line out).
-
-**Local dev:** create `.env.local` (gitignored, never committed) with:
-
-```
-SITE_USERNAME=svdg
-SITE_PASSWORD=<shared team password>
-```
-
-**Deploying to Vercel:**
-
-1. In the Vercel project → **Settings → Environment Variables**, add
-   `SITE_PASSWORD` (and optionally `SITE_USERNAME`) for the Production (and
-   Preview, if desired) environment.
-2. Redeploy — the gate is active immediately for all routes.
-3. Share the username/password with the team over a private channel (Slack
-   DM, 1Password, etc.) — **never commit it to the repo or put it in this
-   README**.
-
-This is a lightweight team front door, not per-user accounts. If individual
-logins (e.g., SVDG staff sign-in, role-based access, "who liked what") are
-wanted later, that would mean swapping in a proper auth provider (NextAuth,
-Clerk, etc.) — a bigger change best scoped as its own phase.
+Dispatch has no login gate of its own. The whole product family sits behind
+a single shared-password "front door" on the **Hub** project (`svdg-hub`),
+which gates `/`, `/dispatch/*`, and `/circuit/*` before proxying to this app.
+See `svdg-hub/README.md` for how that gate works and how to change the
+shared credentials.
 
 ## Automated research pipeline (Phase 1 — built)
 

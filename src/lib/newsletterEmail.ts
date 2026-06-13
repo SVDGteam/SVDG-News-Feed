@@ -16,8 +16,10 @@ const COLORS = {
   low: '#1c2c44',
 }
 
-// Live site, used for absolute asset URLs (email clients can't load local paths)
-const SITE_URL = 'https://svdg-news-feed.vercel.app'
+// Live site, used for absolute asset URLs (email clients can't load local paths).
+// Includes the /dispatch basePath now that Dispatch is mounted under the SVDG
+// Hub. Update to https://svdg.org/dispatch once the custom domain is live.
+const SITE_URL = 'https://svdg-news-feed.vercel.app/dispatch'
 
 function escapeHtml(str: string): string {
   return str

@@ -852,5 +852,461 @@
     "reactions": {},
     "createdAt": "2026-06-11T13:54:39.785Z",
     "updatedAt": "2026-06-11T13:54:39.785Z"
+  },
+  {
+    "id": "7a4ab6e5-c618-4b34-b85a-ad25ad633e19",
+    "title": "House Appropriators Release $1.072 Trillion Defense Bill for FY27",
+    "url": "https://breakingdefense.com/2026/06/house-appropriators-release-1-trillion-defense-bill-for-fy27/",
+    "source": "Breaking Defense",
+    "author": "Valerie Insinna",
+    "datePublished": "2026-06-10",
+    "dateAdded": "2026-06-11",
+    "categories": [
+      "Government News"
+    ],
+    "tags": [
+      "Budget",
+      "NDAA",
+      "Congress",
+      "Munitions"
+    ],
+    "shortDescription": "The House Appropriations Committee released its FY27 defense spending bill totaling $1.072 trillion, including $10.6B for legacy munitions like PAC-3, THAAD and Tomahawk, a new $836M line dedicated to low-cost munitions, and roughly $1.6B for Wedgetail.",
+    "whyItMatters": "This is the bill that sets the budget envelope for the next year of DoD acquisition — the new low-cost munitions line and innovation-friendly framing from Chairman Calvert are worth flagging for any sponsor or portfolio company chasing munitions or rapid-acquisition dollars.",
+    "relevanceScore": 86,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 0
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Policy"
+    ],
+    "sponsorNatSec100Relevance": "None",
+    "reactions": {},
+    "createdAt": "2026-06-11T17:03:42.161Z",
+    "updatedAt": "2026-06-11T17:03:42.161Z"
+  },
+  {
+    "id": "16fda75d-428e-47a4-8422-2ef8be8543df",
+    "title": "Drone Wingmen Face Off at Berlin Air Show in Race for German CCA",
+    "url": "https://breakingdefense.com/2026/06/drone-wingmen-face-off-at-berlin-air-show-in-race-for-german-cca/",
+    "source": "Breaking Defense",
+    "author": "Elisabeth Gosselin-Malo",
+    "datePublished": "2026-06-10",
+    "dateAdded": "2026-06-11",
+    "categories": [
+      "International",
+      "Industry News"
+    ],
+    "tags": [
+      "Drones",
+      "Autonomy",
+      "NATO"
+    ],
+    "shortDescription": "At ILA Berlin, Boeing and Rheinmetall unveiled an upgraded MQ-28 Ghost Bat with a 25% larger wingspan and internal AMRAAM/SDB capacity for Germany's collaborative combat aircraft program, while Helsing revealed a new electronic-attack variant of its CA-1 Europa (the CA-1EA) alongside its CA-1KA kinetic-attack drone, due to fly in early 2027.",
+    "whyItMatters": "Germany's CCA competition is turning into a real head-to-head between a Boeing-led legacy prime team and a European defense-tech challenger in Helsing — a useful bellwether for how fast allied air forces are actually willing to buy autonomy from startups versus primes.",
+    "relevanceScore": 76,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "Europe",
+    "companyMentions": [
+      "Boeing",
+      "Rheinmetall",
+      "Helsing",
+      "Airbus",
+      "Diehl Defence",
+      "Rohde & Schwarz"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Industry Council"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-06-11T17:03:42.162Z",
+    "updatedAt": "2026-06-11T17:03:42.162Z"
+  },
+  {
+    "id": "80b62f80-59bf-4dd0-88a4-72e850c856b1",
+    "title": "UK Defense Secretary Resigns in Protest of Government Spending Plan",
+    "url": "https://www.defensenews.com/global/europe/2026/06/11/uk-defense-secretary-resigns-over-government-spending-plan/",
+    "source": "Defense News",
+    "author": "Tom Kington",
+    "datePublished": "2026-06-11",
+    "dateAdded": "2026-06-11",
+    "categories": [
+      "International",
+      "Government News"
+    ],
+    "tags": [
+      "Budget",
+      "NATO"
+    ],
+    "shortDescription": "UK Defence Secretary John Healey resigned today, telling PM Keir Starmer that the government's plan to raise defense spending to only 2.68% of GDP by 2030 \"falls well short of what is required\" amid rising threats.",
+    "whyItMatters": "A major cabinet shake-up at one of America's closest defense allies, landing right as AUKUS and NATO burden-sharing debates intensify — worth watching for ripple effects on UK procurement priorities and AUKUS Pillar II momentum.",
+    "relevanceScore": 71,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 0
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "UK",
+    "companyMentions": [],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Policy"
+    ],
+    "sponsorNatSec100Relevance": "None",
+    "reactions": {},
+    "createdAt": "2026-06-11T17:03:42.162Z",
+    "updatedAt": "2026-06-11T17:03:42.162Z"
+  },
+  {
+    "id": "1ffa4b38-d877-4e07-ab06-42924c82adaf",
+    "title": "Joint Statement from UK and Australia on the Australia-UK Ministerial Consultations (AUKMIN) June 2026",
+    "url": "https://www.minister.defence.gov.au/statements/2026-06-11/joint-statement-from-uk-australia-australia-uk-ministerial-consultations-aukmin-june-2026",
+    "source": "Australian Department of Defence",
+    "datePublished": "2026-06-11",
+    "dateAdded": "2026-06-11",
+    "categories": [
+      "International",
+      "Government News"
+    ],
+    "tags": [
+      "AUKUS",
+      "Hypersonics",
+      "Maritime"
+    ],
+    "shortDescription": "At AUKMIN talks in London, Australia and the UK reaffirmed AUKUS is \"on track,\" pointing to progress toward Submarine Rotational Force-West in 2027, the first AUKUS hypersonic test flight under the HyFliTE program, and a reinvigorated Australia-UK Defence Industry Dialogue.",
+    "whyItMatters": "Concrete Pillar II milestones like a hypersonics flight test and deeper industrial cooperation are exactly the kind of signal SVDG's Australia-focused members watch for — these programs are where AUKUS commitments start turning into real contract opportunities for dual-use suppliers.",
+    "relevanceScore": 71,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 0
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "Australia",
+    "companyMentions": [],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "International / Australia"
+    ],
+    "sponsorNatSec100Relevance": "None",
+    "reactions": {},
+    "createdAt": "2026-06-11T17:03:42.162Z",
+    "updatedAt": "2026-06-11T17:03:42.162Z"
+  },
+  {
+    "id": "c236d261-b33c-4d4a-92aa-a24a179d3c30",
+    "title": "SpaceX Set to Price Largest IPO in History at $1.75 Trillion Valuation",
+    "url": "https://www.npr.org/2026/06/11/nx-s1-5853199/spacex-ipo-price-elon-musk",
+    "source": "NPR",
+    "datePublished": "2026-06-11",
+    "dateAdded": "2026-06-11",
+    "categories": [
+      "Investor News"
+    ],
+    "tags": [
+      "Space",
+      "Venture Capital"
+    ],
+    "shortDescription": "SpaceX is pricing shares at $135 today ahead of its Nasdaq debut tomorrow under ticker SPCX, targeting a $75B raise at a $1.75T valuation — the largest IPO in history, reportedly oversubscribed 3.5-4x.",
+    "whyItMatters": "SpaceX going public is a watershed moment for dual-use capital markets — it resets how investors price defense-adjacent space and autonomy companies, and SVDG's capital formation conversations will be citing this comp for a long time.",
+    "relevanceScore": 79,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 8,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 0
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "SpaceX",
+      "Starlink"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "Medium",
+    "workstreams": [
+      "Capital Formation"
+    ],
+    "sponsorNatSec100Relevance": "None",
+    "reactions": {},
+    "createdAt": "2026-06-11T17:03:42.162Z",
+    "updatedAt": "2026-06-11T17:03:42.162Z"
+  },
+  {
+    "id": "ed5f8f62-17b2-48f5-bc45-f8ee97944401",
+    "title": "Castelion Integrating Hypersonics on Saronic's Marauder ASV",
+    "url": "https://www.tectonicdefense.com/castelion-integrating-hypersonics-on-saronics-marauder-asv/",
+    "source": "Tectonic Defense",
+    "datePublished": "2026-06-12",
+    "dateAdded": "2026-06-12",
+    "categories": [
+      "Industry News"
+    ],
+    "tags": [
+      "Hypersonics",
+      "Maritime",
+      "Autonomy",
+      "Defense Startup"
+    ],
+    "shortDescription": "Castelion is integrating its hypersonic strike payload onto Saronic's Marauder autonomous surface vessel, pairing a fast-strike weapon with an uncrewed maritime platform.",
+    "whyItMatters": "Two of the buzziest names in defense tech are literally bolting their products together — a sign hypersonic strike and autonomous maritime platforms are converging into a single system the Pentagon can actually buy.",
+    "relevanceScore": 100,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 10
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Castelion",
+      "Saronic"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "NatSec100",
+      "Newsletter"
+    ],
+    "sponsorNatSec100Relevance": "Direct",
+    "reactions": {},
+    "createdAt": "2026-06-12T22:11:44.057Z",
+    "updatedAt": "2026-06-12T22:11:44.057Z"
+  },
+  {
+    "id": "6ef8be58-5b3e-4928-9d62-c29af62d497e",
+    "title": "Up to a Trillion Dollars is About to Chase Space. What Kind of Economy Will Be Built?",
+    "url": "https://payloadspace.com/op-ed-up-to-a-trillion-dollars-is-about-to-chase-space-what-kind-of-economy-will-be-built/",
+    "source": "Payload",
+    "author": "Kevin M. O'Connell and Kelli Kedis Ogborn",
+    "datePublished": "2026-06-12",
+    "dateAdded": "2026-06-12",
+    "categories": [
+      "Opinions",
+      "Investor News"
+    ],
+    "tags": [
+      "Space",
+      "Venture Capital",
+      "Capital Formation"
+    ],
+    "shortDescription": "Op-ed arguing that as SpaceX's IPO and other megadeals funnel up to a trillion dollars into the space sector, the industry needs deliberate structures to ensure that money builds durable infrastructure rather than a speculative bubble.",
+    "whyItMatters": "With SpaceX's IPO landing and capital flooding in, this is the framing piece for how our members should think about where that money actually goes — dual-use infrastructure and capability versus hype.",
+    "relevanceScore": 80,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "SpaceX"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Capital Formation",
+      "Newsletter"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-06-12T22:11:44.058Z",
+    "updatedAt": "2026-06-12T22:11:44.058Z"
+  },
+  {
+    "id": "d97a9afb-6eaa-409e-a0fa-dc39a71eb291",
+    "title": "Senate Pushes DoD to Create New Combatant Command for Unmanned Systems",
+    "url": "https://defensescoop.com/2026/06/11/senate-pushes-dod-to-create-new-combatant-command-for-unmanned-systems/",
+    "source": "DefenseScoop",
+    "datePublished": "2026-06-11",
+    "dateAdded": "2026-06-12",
+    "categories": [
+      "Government News"
+    ],
+    "tags": [
+      "Autonomy",
+      "Drones",
+      "NDAA",
+      "Congress",
+      "DoD"
+    ],
+    "shortDescription": "SASC's FY27 NDAA markup, passed 18-9, green-lights a new four-star \"Robotic and Autonomous Systems Command\" focused on fielding unmanned systems — the first new combatant command proposal since Space Command in 2019.",
+    "whyItMatters": "If this survives conference, it creates a single customer for autonomous systems acquisition and fielding — exactly the structural fix that could turn years of pilot programs into real procurement for the autonomy companies in our network.",
+    "relevanceScore": 95,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Policy",
+      "NatSec100"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-06-12T22:11:44.058Z",
+    "updatedAt": "2026-06-12T22:11:44.058Z"
+  },
+  {
+    "id": "2b9a4e63-9641-4b8b-8e46-4d44e5cca45d",
+    "title": "Franco-German-Spanish FCAS Fighter Program Dead: Reports",
+    "url": "https://breakingdefense.com/2026/06/franco-german-spanish-fcas-fighter-program-dead-reports/",
+    "source": "Breaking Defense",
+    "datePublished": "2026-06-11",
+    "dateAdded": "2026-06-12",
+    "categories": [
+      "International",
+      "Government News"
+    ],
+    "tags": [
+      "NATO",
+      "Industrial Base",
+      "Budget"
+    ],
+    "shortDescription": "France and Germany have formally ended the joint FCAS sixth-generation fighter program after Dassault and Airbus couldn't agree on workshare and IP, killing a €100B+ effort and leaving junior partner Spain in limbo.",
+    "whyItMatters": "A flagship European defense-industrial collaboration just collapsed under national-champion politics — worth watching for what it signals about appetite for cross-border defense tech partnerships in Europe, and where the fallout creates openings for US and allied suppliers.",
+    "relevanceScore": 75,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 0
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "Europe",
+    "companyMentions": [
+      "Dassault Aviation",
+      "Airbus Defence and Space"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "International / Australia",
+      "Policy"
+    ],
+    "sponsorNatSec100Relevance": "None",
+    "reactions": {},
+    "createdAt": "2026-06-12T22:11:44.058Z",
+    "updatedAt": "2026-06-12T22:11:44.058Z"
+  },
+  {
+    "id": "11a3d35d-4b3e-4195-8dd5-434ce141b058",
+    "title": "AAC Clyde Space Wins ESA Contract to Complete Maritime-Monitoring Satellite Constellation",
+    "url": "https://spacenews.com/aac-clyde-space-wins-esa-contract-to-complete-maritime-monitoring-constellation/",
+    "source": "SpaceNews",
+    "datePublished": "2026-06-11",
+    "dateAdded": "2026-06-12",
+    "categories": [
+      "International",
+      "Government News"
+    ],
+    "tags": [
+      "Space",
+      "Maritime",
+      "Intelligence"
+    ],
+    "shortDescription": "ESA awarded AAC Clyde Space a €10.9M contract to build out a 12-satellite VDES/SAR constellation (INFLECION) for maritime domain awareness, including tracking vessels that go dark.",
+    "whyItMatters": "A small-sat company landing a meaningful government contract for maritime ISR is a useful data point on how European space agencies are funding dual-use surveillance capability — good context for anyone tracking the European space-defense crossover.",
+    "relevanceScore": 56,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 5,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 0
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "Europe",
+    "companyMentions": [
+      "AAC Clyde Space"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Low",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "International / Australia"
+    ],
+    "sponsorNatSec100Relevance": "None",
+    "reactions": {},
+    "createdAt": "2026-06-12T22:11:44.058Z",
+    "updatedAt": "2026-06-12T22:11:44.058Z"
   }
 ]

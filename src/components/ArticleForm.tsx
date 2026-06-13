@@ -11,6 +11,7 @@ import { CATEGORIES, REGIONS, WORKSTREAMS, SUGGESTED_TAGS, getDisplayLabel } fro
 import { SPONSOR_NAMES } from '@/data/sponsors'
 import type { Sponsor } from '@/data/sponsors'
 import { calcRelevanceScore } from '@/lib/scoring'
+import { withBasePath } from '@/lib/basePath'
 
 interface Props {
   article?: Article
@@ -78,7 +79,7 @@ export default function ArticleForm({ article }: Props) {
   const [sponsorNames, setSponsorNames] = useState<string[]>(SPONSOR_NAMES)
 
   useEffect(() => {
-    fetch('/api/sponsors')
+    fetch(withBasePath('/api/sponsors'))
       .then((res) => (res.ok ? res.json() : null))
       .then((sponsors: Sponsor[] | null) => {
         if (sponsors) setSponsorNames(sponsors.map((s) => s.name).sort((a, b) => a.localeCompare(b)))
@@ -138,7 +139,7 @@ export default function ArticleForm({ article }: Props) {
     setError('')
     try {
       const method = isEdit ? 'PUT' : 'POST'
-      const url = isEdit ? `/api/articles/${article!.id}` : '/api/articles'
+      const url = isEdit ? withBasePath(`/api/articles/${article!.id}`) : withBasePath('/api/articles')
       const res = await fetch(url, {
         method,
         headers: { 'Content-Type': 'application/json' },
@@ -158,7 +159,7 @@ export default function ArticleForm({ article }: Props) {
     if (!article) return
     setLoading(true)
     try {
-      await fetch(`/api/articles/${article.id}`, { method: 'DELETE' })
+      await fetch(withBasePath(`/api/articles/${article.id}`), { method: 'DELETE' })
       router.push('/')
       router.refresh()
     } catch {

@@ -2,6 +2,7 @@
 
 import { useState } from 'react'
 import { Sponsor } from '@/data/sponsors'
+import { withBasePath } from '@/lib/basePath'
 
 interface Props {
   initialSponsors: Sponsor[]
@@ -21,7 +22,7 @@ export default function SponsorRosterEditor({ initialSponsors }: Props) {
     setPending(true)
     setError('')
     try {
-      const res = await fetch('/api/sponsors', {
+      const res = await fetch(withBasePath('/api/sponsors'), {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ name: name.trim(), website: website.trim() }),
@@ -46,7 +47,7 @@ export default function SponsorRosterEditor({ initialSponsors }: Props) {
     setPending(true)
     setError('')
     try {
-      const res = await fetch('/api/sponsors', {
+      const res = await fetch(withBasePath('/api/sponsors'), {
         method: 'DELETE',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ name: sponsorName }),

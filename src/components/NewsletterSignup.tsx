@@ -1,6 +1,7 @@
 'use client'
 
 import { FormEvent, useState } from 'react'
+import { withBasePath } from '@/lib/basePath'
 
 type Status = 'idle' | 'loading' | 'success' | 'error'
 
@@ -20,7 +21,7 @@ export default function NewsletterSignup({ source, variant = 'default' }: Props)
     setMessage('')
 
     try {
-      const res = await fetch('/api/subscribe', {
+      const res = await fetch(withBasePath('/api/subscribe'), {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ email, source }),

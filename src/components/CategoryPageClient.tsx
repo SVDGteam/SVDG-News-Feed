@@ -7,6 +7,7 @@ import FilterBar from './FilterBar'
 import { filterArticles, getUniqueSources, getUniqueTags, getUniqueSponsors, SortKey } from '@/lib/filters'
 import { SPONSOR_NAMES } from '@/data/sponsors'
 import type { Sponsor } from '@/data/sponsors'
+import { withBasePath } from '@/lib/basePath'
 
 interface Props {
   articles: Article[]
@@ -44,7 +45,7 @@ export default function CategoryPageClient({
 
   useEffect(() => {
     if (category !== 'Sponsor News') return
-    fetch('/api/sponsors')
+    fetch(withBasePath('/api/sponsors'))
       .then((res) => (res.ok ? res.json() : null))
       .then((sponsors: Sponsor[] | null) => {
         if (sponsors) setSponsorRoster(sponsors.map((s) => s.name).sort((a, b) => a.localeCompare(b)))

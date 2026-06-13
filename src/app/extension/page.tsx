@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import { CSSProperties } from 'react'
+import { BASE_PATH } from '@/lib/basePath'
 
 export const metadata = {
   title: 'Dispatch Clipper — Browser Extension',
@@ -65,7 +66,7 @@ export default function ExtensionPage() {
             </p>
           </div>
           <a
-            href="/extension/dispatch-clipper.zip"
+            href={`${BASE_PATH}/extension/dispatch-clipper.zip`}
             download
             className="svdg-btn svdg-btn--accent"
           >

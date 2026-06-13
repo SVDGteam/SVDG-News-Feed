@@ -8,6 +8,7 @@ import CategoryBadge from './CategoryBadge'
 import { getArticleAgeLabel } from '@/lib/archive'
 import { getEffectiveScore } from '@/lib/scoring'
 import { useIdentity } from './IdentityProvider'
+import { withBasePath } from '@/lib/basePath'
 
 interface Props {
   article: Article
@@ -94,7 +95,7 @@ export default function ArticleCard({ article }: Props) {
     setPending(true)
 
     try {
-      const res = await fetch(`/api/articles/${article.id}/react`, {
+      const res = await fetch(withBasePath(`/api/articles/${article.id}/react`), {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ userId, reaction: next }),
@@ -126,7 +127,7 @@ export default function ArticleCard({ article }: Props) {
     setPending(true)
 
     try {
-      const res = await fetch(`/api/articles/${article.id}/personalize`, {
+      const res = await fetch(withBasePath(`/api/articles/${article.id}/personalize`), {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ userId, [field]: !isOn }),
