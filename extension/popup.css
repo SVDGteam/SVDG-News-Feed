@@ -20,9 +20,11 @@
   --c-green:    #14a85f;
   --c-focus:    #1254ac;
 
-  /* Mode toggle (always on top, neutral) */
-  --toggle-bg:    #0f2137;
-  --toggle-text:  rgba(255,255,255,0.5);
+  /* Hub header + toggle (always dark navy) */
+  --hub-bg:       #020633;
+  --hub-border:   rgba(255,255,255,0.10);
+  --toggle-bg:    #0a1428;
+  --toggle-text:  rgba(255,255,255,0.45);
   --toggle-act:   #ffffff;
   --toggle-pill:  #1a3150;
 }
@@ -36,12 +38,55 @@ body {
   font-size: 13px;
 }
 
+/* ── Shared SVDG Hub header ───────────────────────────── */
+.hub-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 11px 14px;
+  background: var(--hub-bg);
+  border-bottom: 1px solid var(--hub-border);
+}
+
+.hub-logo-badge {
+  background: #fff;
+  border-radius: 7px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.hub-header-text {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+
+.hub-title {
+  font-weight: 700;
+  font-size: 14px;
+  color: #ffffff;
+  line-height: 1;
+  letter-spacing: 0.01em;
+}
+
+.hub-subtitle {
+  font-size: 9px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #75fb9f;
+  line-height: 1;
+}
+
 /* ── Mode toggle bar ──────────────────────────────────── */
 .mode-bar {
   display: flex;
   background: var(--toggle-bg);
   padding: 5px 6px;
   gap: 4px;
+  border-bottom: 1px solid rgba(255,255,255,0.06);
 }
 
 .mode-btn {
@@ -49,7 +94,7 @@ body {
   background: transparent;
   border: none;
   border-radius: 5px;
-  padding: 5px 0;
+  padding: 6px 0;
   font-size: 11px;
   font-weight: 700;
   letter-spacing: 0.06em;
@@ -57,6 +102,10 @@ body {
   color: var(--toggle-text);
   cursor: pointer;
   transition: background 150ms, color 150ms;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
 }
 
 .mode-btn.active {
@@ -64,58 +113,48 @@ body {
   color: var(--toggle-act);
 }
 
+.mode-btn-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  opacity: 0.4;
+  transition: opacity 150ms;
+}
+
+.mode-btn.active .mode-btn-dot {
+  opacity: 1;
+}
+
+.dispatch-dot { background: #75fb9f; }
+.circuit-dot  { background: #14a85f; }
+
+/* ── Panel eyebrow ────────────────────────────────────── */
+.panel-eyebrow {
+  padding: 6px 14px;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  border-bottom: 1px solid;
+}
+
+.dispatch-eyebrow {
+  background: var(--d-bg);
+  color: var(--d-green);
+  border-color: var(--d-border);
+}
+
+.circuit-eyebrow {
+  background: var(--c-panel);
+  color: var(--c-green);
+  border-color: var(--c-border);
+}
+
 /* ── DISPATCH — dark theme ────────────────────────────── */
 #panel-dispatch {
   background: var(--d-bg);
   color: var(--d-text);
-}
-
-#panel-dispatch header {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  padding: 12px 14px;
-  border-bottom: 1px solid var(--d-border);
-}
-
-.logo-badge {
-  background: #fff;
-  border-radius: 6px;
-  padding: 6px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-shrink: 0;
-}
-
-.title {
-  font-weight: 700;
-  font-size: 15px;
-  line-height: 1;
-}
-
-.accent-cursor {
-  display: inline-block;
-  width: 5px;
-  height: 12px;
-  background: var(--d-green);
-  margin-left: 4px;
-  vertical-align: middle;
-  animation: blink 1s step-end infinite;
-}
-
-@keyframes blink {
-  0%, 100% { opacity: 1; }
-  50%       { opacity: 0; }
-}
-
-.subtitle {
-  font-family: 'Courier New', monospace;
-  font-size: 9px;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  color: var(--d-green);
-  margin-top: 3px;
 }
 
 #dispatch-form {
@@ -206,43 +245,13 @@ body {
   letter-spacing: 0.04em;
 }
 
-#d-submit:hover   { filter: brightness(0.92); }
+#d-submit:hover    { filter: brightness(0.92); }
 #d-submit:disabled { opacity: 0.55; cursor: default; }
 
 /* ── CIRCUIT — light theme ────────────────────────────── */
 #panel-circuit {
   background: var(--c-bg);
   color: var(--c-text);
-}
-
-.circuit-header {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  padding: 12px 14px;
-  border-bottom: 1px solid var(--c-border);
-  background: var(--c-panel);
-}
-
-.circuit-badge {
-  background: var(--c-bg);
-  border: 1px solid var(--c-border);
-}
-
-.circuit-title {
-  color: var(--c-text);
-  font-weight: 700;
-  font-size: 15px;
-  line-height: 1;
-}
-
-.circuit-subtitle {
-  font-family: 'Courier New', monospace;
-  font-size: 9px;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  color: var(--c-green);
-  margin-top: 3px;
 }
 
 #circuit-form {
@@ -335,13 +344,13 @@ body {
 }
 
 .settings-link a {
-  font-family: 'Courier New', monospace;
   font-size: 10px;
-  letter-spacing: 1px;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: #8a96ab;
+  color: #5b6573;
   text-decoration: none;
 }
 
-.settings-link a:hover { color: #fff; }
-#panel-circuit .settings-link a:hover { color: var(--c-blue); }
+.settings-link a:hover { color: #a8a9ac; }
+
+.circuit-settings-link a:hover { color: var(--c-blue); }
