@@ -38,10 +38,70 @@ async function getPageInfo(tabId) {
         const meta = (name) =>
           document.querySelector(`meta[name="${name}"]`)?.content ||
           document.querySelector(`meta[property="${name}"]`)?.content || ''
+
+        // Find Event JSON-LD block (used by Luma, Eventbrite, Hopin, etc.)
+        let ld = null
+        for (const el of document.querySelectorAll('script[type="application/ld+json"]')) {
+          try {
+            const parsed = JSON.parse(el.textContent)
+            const items = [parsed].flat()
+            for (const item of items) {
+              const types = [item['@type']].flat()
+              if (types.includes('Event')) { ld = item; break }
+              const graphEvent = item['@graph']?.find(n => [n['@type']].flat().includes('Event'))
+              if (graphEvent) { ld = graphEvent; break }
+            }
+            if (ld) break
+          } catch {}
+        }
+
+        // Extract date + time from ISO string without timezone conversion
+        function parseISO(str) {
+          if (!str) return {}
+          const m = str.match(/^(\d{4}-\d{2}-\d{2})(?:[T ](\d{2}:\d{2}))?/)
+          return m ? { date: m[1], time: m[2] || '' } : {}
+        }
+
+        function extractLocation(loc) {
+          if (!loc) return ''
+          const l = Array.isArray(loc) ? loc[0] : loc
+          if (typeof l === 'string') return l
+          if (l['@type'] === 'VirtualLocation') return 'Online'
+          if (l.name) return l.name
+          const a = l.address
+          if (!a) return ''
+          if (typeof a === 'string') return a
+          return [a.addressLocality, a.addressRegion, a.addressCountry].filter(Boolean).join(', ')
+        }
+
+        function extractFormat(mode) {
+          const m = (typeof mode === 'string' ? mode : '').toLowerCase()
+          if (m.includes('online') || m.includes('virtual')) return 'Virtual'
+          if (m.includes('mixed')) return 'Hybrid'
+          if (m.includes('offline') || m.includes('inperson')) return 'In-Person'
+          return ''
+        }
+
+        function extractOrganizer(org) {
+          if (!org) return ''
+          const o = Array.isArray(org) ? org[0] : org
+          return typeof o === 'string' ? o : (o.name || '')
+        }
+
+        const start = parseISO(ld?.startDate)
+        const end   = parseISO(ld?.endDate)
+
         return {
-          description: window.getSelection?.().toString().trim() ||
-                       meta('description') || meta('og:description'),
-          location:    meta('og:locality') || meta('og:region') || '',
+          title:       ld?.name || meta('og:title') || '',
+          description: (window.getSelection?.().toString().trim() ||
+                        ld?.description || meta('description') || meta('og:description') || '').slice(0, 500),
+          organizer:   extractOrganizer(ld?.organizer),
+          location:    extractLocation(ld?.location) || meta('og:locality') || meta('og:region') || '',
+          format:      extractFormat(ld?.eventAttendanceMode),
+          startDate:   start.date || '',
+          startTime:   start.time || '',
+          endDate:     end.date   || '',
+          endTime:     end.time   || '',
         }
       },
     })
@@ -221,10 +281,18 @@ async function init() {
   d.description.value = pageInfo.description || ''
 
   // Circuit fields
-  c.title.value     = tab.title || ''
+  c.title.value     = pageInfo.title || tab.title || ''
   c.url.value       = tab.url || ''
-  c.organizer.value = hostname
+  c.organizer.value = pageInfo.organizer || hostname
   c.location.value  = pageInfo.location || ''
+  if (pageInfo.startDate) c.startDate.value = pageInfo.startDate
+  if (pageInfo.startTime) c.startTime.value = pageInfo.startTime
+  if (pageInfo.endDate)   c.endDate.value   = pageInfo.endDate
+  if (pageInfo.endTime)   c.endTime.value   = pageInfo.endTime
+  if (pageInfo.format) {
+    const opt = [...(c.format?.options || [])].find(o => o.value === pageInfo.format)
+    if (opt) c.format.value = pageInfo.format
+  }
 }
 
 init()
