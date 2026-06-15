@@ -21,6 +21,7 @@ export default function CategoryHero({ category }: { category: CategoryConfig })
             alt="SVDG"
             width={287}
             height={300}
+            unoptimized
             className="w-7 h-auto sm:w-8 md:w-10 shrink-0"
           />
         )}
