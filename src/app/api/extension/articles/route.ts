@@ -6,6 +6,16 @@ import { enrichExtensionSubmission } from '@/lib/articleEnrichment'
 
 export const dynamic = 'force-dynamic'
 
+const CORS = {
+  'Access-Control-Allow-Origin': '*',
+  'Access-Control-Allow-Methods': 'POST, OPTIONS',
+  'Access-Control-Allow-Headers': 'Content-Type, x-api-key',
+}
+
+export function OPTIONS() {
+  return new Response(null, { status: 204, headers: CORS })
+}
+
 // Endpoint for the SVDG Dispatch browser extension (see /extension and
 // docs/EXTENSION_SETUP.md). Lets team members clip the page they're reading
 // straight into the shared database, auto-scored and marked Reviewed (see
@@ -19,7 +29,7 @@ export async function POST(req: NextRequest) {
   const key = req.headers.get('x-api-key')
 
   if (!secret || key !== secret) {
-    return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
+    return NextResponse.json({ error: 'Unauthorized' }, { status: 401, headers: CORS })
   }
 
   let body: {
@@ -36,21 +46,21 @@ export async function POST(req: NextRequest) {
   try {
     body = await req.json()
   } catch {
-    return NextResponse.json({ error: 'Invalid JSON body' }, { status: 400 })
+    return NextResponse.json({ error: 'Invalid JSON body' }, { status: 400, headers: CORS })
   }
 
   const url = (body.url || '').trim()
   const title = (body.title || '').trim()
 
   if (!url || !title) {
-    return NextResponse.json({ error: 'title and url are required' }, { status: 400 })
+    return NextResponse.json({ error: 'title and url are required' }, { status: 400, headers: CORS })
   }
 
   // De-dupe: if this URL is already in the database, just return it instead
   // of creating a second copy.
   const existing = (await getAllArticles()).find((a) => a.url === url)
   if (existing) {
-    return NextResponse.json(existing, { status: 200 })
+    return NextResponse.json(existing, { status: 200, headers: CORS })
   }
 
   let source = (body.source || '').trim()
@@ -97,5 +107,5 @@ export async function POST(req: NextRequest) {
   }
 
   const article = await createArticle(form)
-  return NextResponse.json(article, { status: 201 })
+  return NextResponse.json(article, { status: 201, headers: CORS })
 }
