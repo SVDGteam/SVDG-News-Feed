@@ -1308,5 +1308,529 @@
     "reactions": {},
     "createdAt": "2026-06-12T22:11:44.058Z",
     "updatedAt": "2026-06-12T22:11:44.058Z"
+  },
+  {
+    "id": "1e639ab6-48eb-45d1-82af-56aed31660ad",
+    "title": "KONGSBERG and DRASS Announce Strategic Partnership on Undersea Autonomous Systems",
+    "url": "https://www.kongsberg.com/news/news-archive/2026/kongsberg-and-drass-announce-strategic-partnership2/",
+    "source": "Kongsberg",
+    "datePublished": "2026-06-08",
+    "dateAdded": "2026-06-15",
+    "categories": [
+      "International"
+    ],
+    "tags": [
+      "AUKUS",
+      "Maritime",
+      "Autonomy",
+      "Robotics"
+    ],
+    "shortDescription": "Norwegian defense group Kongsberg and Italian undersea specialist DRASS announced a strategic partnership to co-develop autonomous underwater vehicles, navigation/sonar systems, and manned-unmanned teaming tech — squarely aimed at the AUKUS Pillar II undersea pipeline (UUVs, payload integration, 2027 delivery target).",
+    "whyItMatters": "Another sign European primes are angling for a slice of the AUKUS Pillar II undersea-autonomy buildout — worth tracking for where US/Australian dual-use undersea startups might end up partnering with or competing against this pairing for the same Pillar II contracts.",
+    "relevanceScore": 56,
+    "scoreBreakdown": {
+      "recency": 15,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 0
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "Europe",
+    "companyMentions": [
+      "Kongsberg",
+      "DRASS"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "International / Australia"
+    ],
+    "sponsorNatSec100Relevance": "None",
+    "reactions": {},
+    "createdAt": "2026-06-15T14:07:19.427Z",
+    "updatedAt": "2026-06-15T14:07:19.427Z"
+  },
+  {
+    "id": "38fca622-9007-4b61-99be-379597e8d73b",
+    "title": "US Navy Reestablishes Submarine Squadron 3 at HMAS Stirling to Support AUKUS Rotational Force",
+    "url": "https://www.stripes.com/theaters/asia_pacific/2026-06-11/navy-reactivates-submarine-squadron-australia-21942488.html",
+    "source": "Stars and Stripes",
+    "datePublished": "2026-06-11",
+    "dateAdded": "2026-06-15",
+    "categories": [
+      "International",
+      "Government News"
+    ],
+    "tags": [
+      "AUKUS",
+      "Maritime"
+    ],
+    "shortDescription": "The US Navy reestablished Submarine Squadron 3 at HMAS Stirling in Western Australia on June 10 — a unit disbanded in 2012, now reactivated to provide maintenance, logistics, and operational support for US and UK submarines ahead of Submarine Rotational Force-West rotations beginning in 2027.",
+    "whyItMatters": "A concrete, boots-on-the-ground AUKUS milestone rather than another joint statement — signals the HMAS Stirling submarine basing buildout is moving from paper to personnel, which matters for any sponsor eyeing the sustainment and logistics opportunity around SRF-West.",
+    "relevanceScore": 70,
+    "scoreBreakdown": {
+      "recency": 25,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 0
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "Australia",
+    "companyMentions": [
+      "US Navy",
+      "Royal Navy",
+      "Royal Australian Navy"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "International / Australia",
+      "Policy"
+    ],
+    "sponsorNatSec100Relevance": "None",
+    "reactions": {},
+    "createdAt": "2026-06-15T14:07:19.427Z",
+    "updatedAt": "2026-06-15T14:07:19.427Z"
+  },
+  {
+    "id": "0376886d-0c98-4293-aba1-2bc083f04d1e",
+    "title": "Hermeus Co-Founder's New Defense Startup Reaxiomatic Launches with $7.25M Pre-Seed",
+    "url": "https://www.axios.com/2026/06/10/reaxiomatic-hermeus-shuford-military-production",
+    "source": "Axios",
+    "datePublished": "2026-06-10",
+    "dateAdded": "2026-06-15",
+    "categories": [
+      "Investor News"
+    ],
+    "tags": [
+      "Venture Capital",
+      "Defense Startup",
+      "Dual-Use",
+      "Manufacturing"
+    ],
+    "shortDescription": "Reaxiomatic, a new San Diego-based defense hardware startup founded by a Hermeus co-founder, came out of stealth with a $7.25M pre-seed from Scout Ventures, NVP Capital, and Bling Capital, aiming to speed up production timelines for large strategic defense platforms.",
+    "whyItMatters": "Another ex-Hermeus founder spinning up a 'faster hardware production' defense startup — fits the rapid-manufacturing thesis attracting early-stage defense capital right now, and Scout Ventures is a name plenty of SVDG members will recognize.",
+    "relevanceScore": 66,
+    "scoreBreakdown": {
+      "recency": 25,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 0
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Reaxiomatic",
+      "Scout Ventures",
+      "NVP Capital",
+      "Bling Capital",
+      "Hermeus"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Capital Formation"
+    ],
+    "sponsorNatSec100Relevance": "None",
+    "reactions": {},
+    "createdAt": "2026-06-15T14:07:19.427Z",
+    "updatedAt": "2026-06-15T14:07:19.427Z"
+  },
+  {
+    "id": "3cda383c-42d3-4913-8002-9cfafcb75b46",
+    "title": "SpaceX Stock Soars 19% in Historic Nasdaq Debut, Valuation Tops $2 Trillion",
+    "url": "https://www.cnbc.com/2026/06/12/spacex-ipo-spcx-live-updates.html",
+    "source": "CNBC",
+    "author": "CNBC Staff",
+    "datePublished": "2026-06-12",
+    "dateAdded": "2026-06-15",
+    "categories": [
+      "Investor News"
+    ],
+    "tags": [
+      "Space",
+      "Venture Capital"
+    ],
+    "shortDescription": "SpaceX began trading on Nasdaq under ticker SPCX on June 12, closing up 19% at $161.11 from its $135 IPO price — the largest IPO in history and a market cap north of $2 trillion.",
+    "whyItMatters": "A dual-use space company going public at this scale resets expectations for what an 'exit' looks like in hardware and space — a useful data point for SVDG members thinking about public-market appetite for defense-adjacent tech.",
+    "relevanceScore": 84,
+    "scoreBreakdown": {
+      "recency": 25,
+      "svdgRelevance": 35,
+      "sourceQuality": 8,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 10
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "SpaceX"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "Medium",
+    "workstreams": [
+      "Capital Formation"
+    ],
+    "sponsorNatSec100Relevance": "Direct",
+    "reactions": {},
+    "createdAt": "2026-06-15T14:09:47.143Z",
+    "updatedAt": "2026-06-15T14:09:47.143Z"
+  },
+  {
+    "id": "86901026-0e98-414f-bae1-acd2a9369cb6",
+    "title": "AUKUS Partners Take Next Steps Toward Submarine Rotational Force-West at HMAS Stirling",
+    "url": "https://www.globalsecurity.org/wmd/library/news/australia/2026/australia-260612-audod01.htm",
+    "source": "Australian Department of Defence (via GlobalSecurity.org)",
+    "datePublished": "2026-06-12",
+    "dateAdded": "2026-06-15",
+    "categories": [
+      "International"
+    ],
+    "tags": [
+      "AUKUS",
+      "Maritime",
+      "Industrial Base"
+    ],
+    "shortDescription": "Australia, the US, and UK announced further progress on Submarine Rotational Force-West, including the US Navy reestablishing Submarine Squadron 3 and new support infrastructure at HMAS Stirling, part of the AUD $8B Stirling buildout ahead of 2027 rotations.",
+    "whyItMatters": "AUKUS infrastructure spend keeps flowing into Western Australia — another signal for members tracking the allied submarine industrial base buildout and the broader AUKUS Pillar I/II investment pipeline.",
+    "relevanceScore": 70,
+    "scoreBreakdown": {
+      "recency": 25,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 0
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "Australia",
+    "companyMentions": [],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "International / Australia",
+      "Policy"
+    ],
+    "sponsorNatSec100Relevance": "None",
+    "reactions": {},
+    "createdAt": "2026-06-15T14:09:47.143Z",
+    "updatedAt": "2026-06-15T14:09:47.143Z"
+  },
+  {
+    "id": "8700411f-2da6-451b-8e7c-4d4c1e6225ec",
+    "title": "After FCAS's Fall, Airbus and 'Team Gen 6' Line Up for New Future Fighter",
+    "url": "https://breakingdefense.com/2026/06/after-fcass-fall-airbus-and-team-gen-6-line-up-for-new-future-fighter/",
+    "source": "Breaking Defense",
+    "author": "Tim Martin",
+    "datePublished": "2026-06-11",
+    "dateAdded": "2026-06-15",
+    "categories": [
+      "International"
+    ],
+    "tags": [
+      "Industrial Base"
+    ],
+    "shortDescription": "Days after the Franco-German-Spanish FCAS fighter program collapsed, Airbus and seven other German and Spanish defense firms banded together as 'Team Gen 6,' positioning to lead a new sixth-gen fighter effort built on salvaged FCAS tech.",
+    "whyItMatters": "Europe's fighter ecosystem is reshuffling fast post-FCAS — worth watching for members eyeing partnerships or supply-chain openings as new industrial consortia form around next-gen combat air.",
+    "relevanceScore": 60,
+    "scoreBreakdown": {
+      "recency": 25,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 0,
+      "sponsorNatSec100": 0
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "Europe",
+    "companyMentions": [
+      "Airbus",
+      "Diehl Defence",
+      "Hensoldt",
+      "MBDA",
+      "MTU Aero Engines",
+      "Rohde & Schwarz"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [],
+    "sponsorNatSec100Relevance": "None",
+    "reactions": {},
+    "createdAt": "2026-06-15T14:09:47.143Z",
+    "updatedAt": "2026-06-15T14:09:47.143Z"
+  },
+  {
+    "id": "51b42343-cbc5-45aa-b7ce-38674b5568d8",
+    "title": "Pentagon May 'Sacrifice' Traditional Weapons to Buy More Drones if Reconciliation Fails: CTO",
+    "url": "https://breakingdefense.com/2026/06/pentagon-may-sacrifice-traditional-weapons-to-buy-more-drones-if-reconciliation-fails-cto/",
+    "source": "Breaking Defense",
+    "author": "Sydney J. Freedberg Jr.",
+    "datePublished": "2026-06-12",
+    "dateAdded": "2026-06-15",
+    "categories": [
+      "Government News"
+    ],
+    "tags": [
+      "Drones",
+      "Budget",
+      "Congress"
+    ],
+    "shortDescription": "Pentagon CTO Emil Michael said that if Congress's $350B reconciliation package falls through, DoD will protect its 'AI arsenal' of low-cost autonomous systems by cutting traditional weapons programs instead.",
+    "whyItMatters": "A pretty direct signal that drone and autonomy spending is now a protected line item even under budget pressure — useful context for portfolio companies in the autonomous systems space gauging how durable DoD demand really is.",
+    "relevanceScore": 90,
+    "scoreBreakdown": {
+      "recency": 25,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Saronic"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Policy",
+      "NatSec100"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-06-15T14:09:47.143Z",
+    "updatedAt": "2026-06-15T14:09:47.143Z"
+  },
+  {
+    "id": "b1246771-a279-4cba-8d19-9dc21b7bfd57",
+    "title": "SASC's $1.14T Defense Policy Bill Creates Combatant Command for Drones, Restricts Contractor Buybacks",
+    "url": "https://breakingdefense.com/2026/06/sascs-1-14t-defense-policy-bill-creates-combatant-command-for-drones/",
+    "source": "Breaking Defense",
+    "author": "Valerie Insinna",
+    "datePublished": "2026-06-11",
+    "dateAdded": "2026-06-15",
+    "categories": [
+      "Government News"
+    ],
+    "tags": [
+      "NDAA",
+      "Congress",
+      "Budget",
+      "AI",
+      "Drones"
+    ],
+    "shortDescription": "The Senate Armed Services Committee advanced its $1.14T FY27 NDAA 18-9, creating a new Robotic and Autonomous Systems Combatant Command, codifying review standards for AI and autonomous weapons, and writing Trump's contractor buyback/dividend restrictions into law.",
+    "whyItMatters": "The buyback/dividend restrictions and new agentic-AI standards are the kind of structural shifts that ripple into how primes and their suppliers allocate capital — directly relevant to the capital formation and policy conversations SVDG is having this cycle.",
+    "relevanceScore": 85,
+    "scoreBreakdown": {
+      "recency": 25,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 0
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Policy",
+      "Capital Formation"
+    ],
+    "sponsorNatSec100Relevance": "None",
+    "reactions": {},
+    "createdAt": "2026-06-15T14:09:47.143Z",
+    "updatedAt": "2026-06-15T14:09:47.143Z"
+  },
+  {
+    "id": "62b5b5e2-b025-47a9-8274-17e2b8662ca0",
+    "title": "Congress Has No Plan B if the $350B Defense Reconciliation Package Falls Through",
+    "url": "https://punchbowl.news/?p=157953",
+    "source": "Punchbowl News",
+    "author": "Briana Reilly, Anthony Adragna, Samantha Freeman",
+    "datePublished": "2026-06-14",
+    "dateAdded": "2026-06-15",
+    "categories": [
+      "Government News",
+      "International"
+    ],
+    "tags": [
+      "NDAA",
+      "Budget",
+      "Congress",
+      "AUKUS",
+      "Policy"
+    ],
+    "shortDescription": "The Senate Armed Services Committee advanced its $1.14T FY27 NDAA (including AUKUS submarine-sale provisions and a new drone-focused combatant command), even as GOP leaders like McConnell and Collins concede the $350B defense reconciliation package is effectively dead — with no plan to shift those priorities into the base budget or a war-funding supplemental.",
+    "whyItMatters": "For anyone tracking Golden Dome, drone procurement, and supply-chain dollars tied to that $350B reconciliation pot, this is the clearest signal yet that the money may not show up as planned. Worth watching whether the FY27 base budget or a supplemental ends up absorbing those priorities.",
+    "relevanceScore": 90,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 0
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Policy",
+      "International / Australia"
+    ],
+    "sponsorNatSec100Relevance": "None",
+    "reactions": {},
+    "createdAt": "2026-06-15T19:19:18.237Z",
+    "updatedAt": "2026-06-15T19:19:18.237Z"
+  },
+  {
+    "id": "c779695b-a5f9-4ff2-9c1d-0f533beb1a3f",
+    "title": "Fabri Raises $13.5M to Build Automated Foundries for Aerospace & Defense Castings",
+    "url": "https://www.tectonicdefense.com/fabri-announces-its-raised-13-5m-for-new-age-casting/",
+    "source": "Tectonic Defense",
+    "author": "Erin O'Brien",
+    "datePublished": "2026-06-15",
+    "dateAdded": "2026-06-15",
+    "categories": [
+      "Investor News",
+      "Industry News"
+    ],
+    "tags": [
+      "Venture Capital",
+      "Manufacturing",
+      "Industrial Base",
+      "Supply Chain",
+      "Defense Startup",
+      "Dual-Use"
+    ],
+    "shortDescription": "MIT spinout Fabri has raised $13.5M total (a $5M Lavrock-led seed plus debt and equity since) to build automated, robotics- and software-driven investment-casting foundries. It's already shipping parts to RTX and Lockheed Martin and is targeting a Series A within 3-6 months.",
+    "whyItMatters": "Two SVDG sponsors — RTX Ventures and Lockheed Martin Ventures — are both investors and early customers here, and the underlying thesis (US foundry capacity down roughly 80% over the last several decades) is exactly the industrial-base story our Capital Formation and Sponsor Engagement folks should have on their radar.",
+    "relevanceScore": 100,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 10
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "sponsorName": "RTX Ventures, Lockheed Martin Ventures",
+    "companyMentions": [
+      "Fabri",
+      "RTX Ventures",
+      "Lockheed Martin Ventures",
+      "Lavrock Ventures",
+      "Tenon Ventures",
+      "SBXi",
+      "Marlinspike",
+      "Balerion Space Ventures"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Capital Formation",
+      "Sponsor Engagement"
+    ],
+    "sponsorNatSec100Relevance": "Direct",
+    "reactions": {},
+    "createdAt": "2026-06-15T19:19:18.237Z",
+    "updatedAt": "2026-06-15T19:19:18.237Z"
+  },
+  {
+    "id": "d1820b89-6007-4bd4-99bd-38f535983677",
+    "title": "Picogrid's Legion Software Becomes Tactical Integrator for Perennial Autonomy's Merops Interceptors",
+    "url": "https://www.tectonicdefense.com/picogrid-to-provide-integration-for-perennial-autonomy/",
+    "source": "Tectonic Defense",
+    "author": "Erin O'Brien",
+    "datePublished": "2026-06-12",
+    "dateAdded": "2026-06-15",
+    "categories": [
+      "Sponsor News",
+      "Government News"
+    ],
+    "tags": [
+      "Sponsor",
+      "Drones",
+      "C2",
+      "Industrial Base",
+      "DoD"
+    ],
+    "shortDescription": "SVDG sponsor Picogrid is now the tactical integration layer — via its Legion software and Expeditionary C2 Nodes — for Perennial Autonomy's Merops/Surveyor counter-drone interceptors under a JIATF 401 contract, Picogrid's largest to date, plugging Ukraine-proven interceptors into US air defense in the Middle East.",
+    "whyItMatters": "A marquee integration win for sponsor Picogrid alongside one of the most closely-watched (and secretive) drone startups out there. A good real-world example of the 'unsexy' integration layer being the difference between a system that ships and one that sits on a shelf — worth flagging for Sponsor Engagement and NatSec100 conversations.",
+    "relevanceScore": 95,
+    "scoreBreakdown": {
+      "recency": 25,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 10
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "sponsorName": "Picogrid",
+    "companyMentions": [
+      "Picogrid",
+      "Perennial Autonomy",
+      "JIATF 401"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Sponsor Engagement",
+      "NatSec100"
+    ],
+    "sponsorNatSec100Relevance": "Direct",
+    "reactions": {},
+    "createdAt": "2026-06-15T19:19:18.237Z",
+    "updatedAt": "2026-06-15T19:19:18.237Z"
   }
 ]
