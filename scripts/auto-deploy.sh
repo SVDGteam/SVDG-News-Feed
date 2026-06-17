@@ -2,24 +2,20 @@
 # scripts/auto-deploy.sh
 #
 # Commits any new articles written by the daily research pipeline and
-# triggers a Vercel redeploy. Run this on your Mac ~15 min after the
-# Claude scheduled task fires (default cron: 14:20 = 2:20 PM).
+# triggers a Vercel redeploy. Called automatically at the end of the
+# Cowork scheduled task — no crontab needed.
 #
 # One-time setup
 # ──────────────
-# 1. Create a Vercel Deploy Hook for svdg-news-feed:
+# 1. Create a GitHub PAT (repo scope) at github.com/settings/tokens and save it:
+#      echo "ghp_yourtoken" > ~/Claude/Projects/Defense\ Investment\ News/.github-token
+#
+# 2. (Optional) Create a Vercel Deploy Hook for svdg-news-feed:
 #      Vercel dashboard → svdg-news-feed project → Settings → Git → Deploy Hooks
 #      Name it "daily-research", branch "main", copy the URL.
-#
-# 2. Save the hook URL:
 #      mkdir -p ~/.svdg
 #      echo "https://api.vercel.com/v1/integrations/deploy/..." > ~/.svdg/dispatch-deploy-hook
-#
-# 3. Make this script executable (one-time):
-#      chmod +x ~/Claude/Projects/Defense\ Investment\ News/svdg-news-feed/scripts/auto-deploy.sh
-#
-# 4. Add to crontab — run `crontab -e` and paste this line:
-#      20 14 * * * /Users/simonemontandon/Claude/Projects/Defense\ Investment\ News/svdg-news-feed/scripts/auto-deploy.sh >> /tmp/svdg-deploy.log 2>&1
+#      (Vercel also auto-deploys on every GitHub push, so this is optional.)
 #
 # Logs are written to /tmp/svdg-deploy.log for debugging.
 
@@ -27,6 +23,7 @@ set -euo pipefail
 
 REPO_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 HOOK_FILE="$HOME/.svdg/dispatch-deploy-hook"
+PAT_FILE="$REPO_DIR/../.github-token"
 LOG_PREFIX="[$(date '+%Y-%m-%d %H:%M:%S')] svdg-auto-deploy:"
 
 cd "$REPO_DIR"
@@ -42,8 +39,18 @@ fi
 git commit -m "chore: daily research $(date +%Y-%m-%d)"
 echo "$LOG_PREFIX Committed data/articles.json."
 
-git push
-echo "$LOG_PREFIX Pushed to GitHub."
+# Push using PAT if available, otherwise fall back to default git credentials
+if [[ -f "$PAT_FILE" ]]; then
+  PAT="$(tr -d '[:space:]' < "$PAT_FILE")"
+  REMOTE_URL="$(git remote get-url origin)"
+  # Inject token: https://github.com/... → https://oauth2:<token>@github.com/...
+  AUTH_URL="${REMOTE_URL/https:\/\//https://oauth2:${PAT}@}"
+  git push "$AUTH_URL" HEAD:main
+  echo "$LOG_PREFIX Pushed to GitHub (PAT auth)."
+else
+  git push
+  echo "$LOG_PREFIX Pushed to GitHub (default auth)."
+fi
 
 if [[ -f "$HOOK_FILE" ]]; then
   HOOK_URL="$(tr -d '[:space:]' < "$HOOK_FILE")"
