@@ -1,7 +1,7 @@
 [
   {
     "id": "7c2a9ae3-532f-478f-9424-51943b00d21f",
-    "title": "French Interceptor Startup Alta Ares Raises €50M Series A",
+    "title": "French Interceptor Startup Alta Ares Raises \u20ac50M Series A",
     "url": "https://www.tectonicdefense.com/french-interceptor-startup-alta-ares-raises-e50m-series-a/",
     "source": "Tectonic",
     "datePublished": "2026-06-09",
@@ -16,11 +16,11 @@
       "Defense Startup",
       "NATO"
     ],
-    "shortDescription": "French counter-drone startup Alta Ares raised a €50M ($58M) Series A led by Air Street Capital (with Cherry Ventures, OTB Ventures, and Harpoon Ventures) to scale production of its X-Lock and Black Bird interceptors, already deployed across three active conflict zones.",
-    "whyItMatters": "A ~25x jump from a €2M seed to a €50M Series A in about a year, built on real battlefield traction in Ukraine — a sharp data point on how fast European counter-drone demand (and capital) is moving, and a useful comp for any portfolio companies in the C-UAS/interceptor space.",
-    "relevanceScore": 90,
+    "shortDescription": "French counter-drone startup Alta Ares raised a \u20ac50M ($58M) Series A led by Air Street Capital (with Cherry Ventures, OTB Ventures, and Harpoon Ventures) to scale production of its X-Lock and Black Bird interceptors, already deployed across three active conflict zones.",
+    "whyItMatters": "A ~25x jump from a \u20ac2M seed to a \u20ac50M Series A in about a year, built on real battlefield traction in Ukraine \u2014 a sharp data point on how fast European counter-drone demand (and capital) is moving, and a useful comp for any portfolio companies in the C-UAS/interceptor space.",
+    "relevanceScore": 75,
     "scoreBreakdown": {
-      "recency": 30,
+      "recency": 15,
       "svdgRelevance": 35,
       "sourceQuality": 15,
       "workstreamRelevance": 10,
@@ -54,7 +54,7 @@
   },
   {
     "id": "a62d37d9-5421-4c65-ac9d-c543f486a3d1",
-    "title": "STARK Unveils Two New Drones — Cascade and Gambit",
+    "title": "STARK Unveils Two New Drones \u2014 Cascade and Gambit",
     "url": "https://www.tectonicdefense.com/stark-unveils-two-new-drones/",
     "source": "Tectonic",
     "datePublished": "2026-06-09",
@@ -69,11 +69,11 @@
       "Defense Startup",
       "NATO"
     ],
-    "shortDescription": "German drone unicorn STARK debuted two new systems at ILA Berlin — Cascade, a tube-launched 100km loitering munition, and Gambit, a man-portable ISR/strike quadcopter — both integrating with its Minerva swarm C2 system, alongside a new launcher partnership with UK's Force Development Services.",
-    "whyItMatters": "STARK is reportedly raising at a €2.5B+ valuation with NATO Innovation Fund backing and a ~€300M German government contract already in hand. This expansion (plus a new UK manufacturing/MoD push) is a good read on where European loitering munitions and swarm C2 are headed.",
-    "relevanceScore": 90,
+    "shortDescription": "German drone unicorn STARK debuted two new systems at ILA Berlin \u2014 Cascade, a tube-launched 100km loitering munition, and Gambit, a man-portable ISR/strike quadcopter \u2014 both integrating with its Minerva swarm C2 system, alongside a new launcher partnership with UK's Force Development Services.",
+    "whyItMatters": "STARK is reportedly raising at a \u20ac2.5B+ valuation with NATO Innovation Fund backing and a ~\u20ac300M German government contract already in hand. This expansion (plus a new UK manufacturing/MoD push) is a good read on where European loitering munitions and swarm C2 are headed.",
+    "relevanceScore": 75,
     "scoreBreakdown": {
-      "recency": 30,
+      "recency": 15,
       "svdgRelevance": 35,
       "sourceQuality": 15,
       "workstreamRelevance": 10,
@@ -121,11 +121,11 @@
       "Space",
       "Industrial Base"
     ],
-    "shortDescription": "Finnish SAR satellite operator ICEYE raised a €450M Series F (€10B valuation, €1B+ with secondary) led by General Atlantic, and German launcher Isar Aerospace raised a €270M Series D ahead of its Spectrum rocket's qualification flight — together more than half of all European space VC raised in 2025.",
-    "whyItMatters": "Two of the largest European defense-space raises in recent memory landing the same morning — a strong signal that European 'sovereignty in orbit' capital formation is accelerating, relevant for anyone tracking international capital flows into defense-adjacent space.",
-    "relevanceScore": 75,
+    "shortDescription": "Finnish SAR satellite operator ICEYE raised a \u20ac450M Series F (\u20ac10B valuation, \u20ac1B+ with secondary) led by General Atlantic, and German launcher Isar Aerospace raised a \u20ac270M Series D ahead of its Spectrum rocket's qualification flight \u2014 together more than half of all European space VC raised in 2025.",
+    "whyItMatters": "Two of the largest European defense-space raises in recent memory landing the same morning \u2014 a strong signal that European 'sovereignty in orbit' capital formation is accelerating, relevant for anyone tracking international capital flows into defense-adjacent space.",
+    "relevanceScore": 60,
     "scoreBreakdown": {
-      "recency": 30,
+      "recency": 15,
       "svdgRelevance": 20,
       "sourceQuality": 15,
       "workstreamRelevance": 10,
@@ -169,11 +169,11 @@
       "Venture Capital",
       "DoD"
     ],
-    "shortDescription": "In-space mobility company Quantum Space announced it will go public via merger with Inflection Point Acquisition Corp. VI, valuing it at $1.2B post-merger. New CEO Jim Bridenstine (former NASA Administrator) said the SPAC route is about speed — the company has six contracts/proposals with Space Force, DARPA, and AFRL.",
-    "whyItMatters": "Another national-security space company choosing SPAC-speed over a traditional IPO to chase Pentagon demand — worth watching as a capital-formation pattern, especially with SpaceX's Nasdaq debut the same week putting space/defense IPO economics in the spotlight.",
-    "relevanceScore": 76,
+    "shortDescription": "In-space mobility company Quantum Space announced it will go public via merger with Inflection Point Acquisition Corp. VI, valuing it at $1.2B post-merger. New CEO Jim Bridenstine (former NASA Administrator) said the SPAC route is about speed \u2014 the company has six contracts/proposals with Space Force, DARPA, and AFRL.",
+    "whyItMatters": "Another national-security space company choosing SPAC-speed over a traditional IPO to chase Pentagon demand \u2014 worth watching as a capital-formation pattern, especially with SpaceX's Nasdaq debut the same week putting space/defense IPO economics in the spotlight.",
+    "relevanceScore": 61,
     "scoreBreakdown": {
-      "recency": 30,
+      "recency": 15,
       "svdgRelevance": 20,
       "sourceQuality": 15,
       "workstreamRelevance": 6,
@@ -217,10 +217,10 @@
       "Defense Startup"
     ],
     "shortDescription": "UK startup NewOrbit raised an oversubscribed $18.5M Series A led by Voyager Ventures to build very-low-earth-orbit (VLEO) satellites, targeting a first demo flight of its NEO-1 spacecraft in 2028 and a UK production facility scaling toward 100+ sats/year.",
-    "whyItMatters": "VLEO is shaping up as a real niche for next-gen ISR/comms (higher resolution, lower latency, less debris) — an early-stage UK play worth knowing about even if first flight is still a couple years out.",
-    "relevanceScore": 55,
+    "whyItMatters": "VLEO is shaping up as a real niche for next-gen ISR/comms (higher resolution, lower latency, less debris) \u2014 an early-stage UK play worth knowing about even if first flight is still a couple years out.",
+    "relevanceScore": 45,
     "scoreBreakdown": {
-      "recency": 25,
+      "recency": 15,
       "svdgRelevance": 5,
       "sourceQuality": 15,
       "workstreamRelevance": 10,
@@ -262,11 +262,11 @@
       "NDAA",
       "Budget"
     ],
-    "shortDescription": "The House passed a Russia-sanctions/Ukraine-aid bill 226-195 via discharge petition (with 18 Republicans crossing over), though its fate in the Senate remains uncertain even as Sen. Lindsey Graham says his own sanctions bill is 'very close.' Separately, the House Armed Services Committee quietly tucked notable provisions into its FY27 NDAA — new munitions-inventory reporting requirements, support for the Boeing-built E-7 Wedgetail radar plane, and language on troop posture in Korea and Poland — as the Senate Armed Services Committee kicks off its own markup this week.",
-    "whyItMatters": "NDAA markup season is when a lot of program-level winners and losers get decided — the E-7 Wedgetail fight, munitions-stockpile reporting, and the Ukraine-aid standoff are all worth tracking for anyone gauging where Hill attention (and money) is heading this cycle.",
-    "relevanceScore": 81,
+    "shortDescription": "The House passed a Russia-sanctions/Ukraine-aid bill 226-195 via discharge petition (with 18 Republicans crossing over), though its fate in the Senate remains uncertain even as Sen. Lindsey Graham says his own sanctions bill is 'very close.' Separately, the House Armed Services Committee quietly tucked notable provisions into its FY27 NDAA \u2014 new munitions-inventory reporting requirements, support for the Boeing-built E-7 Wedgetail radar plane, and language on troop posture in Korea and Poland \u2014 as the Senate Armed Services Committee kicks off its own markup this week.",
+    "whyItMatters": "NDAA markup season is when a lot of program-level winners and losers get decided \u2014 the E-7 Wedgetail fight, munitions-stockpile reporting, and the Ukraine-aid standoff are all worth tracking for anyone gauging where Hill attention (and money) is heading this cycle.",
+    "relevanceScore": 71,
     "scoreBreakdown": {
-      "recency": 25,
+      "recency": 15,
       "svdgRelevance": 35,
       "sourceQuality": 15,
       "workstreamRelevance": 6,
@@ -293,7 +293,7 @@
   },
   {
     "id": "804419fc-bceb-4beb-9074-a82cecdcb9cd",
-    "title": "Bipartisan AI Framework Draft Lands — and Gets a Cool Reception",
+    "title": "Bipartisan AI Framework Draft Lands \u2014 and Gets a Cool Reception",
     "url": "https://punchbowl.news/?p=156728",
     "source": "Punchbowl News",
     "datePublished": "2026-06-07",
@@ -305,11 +305,11 @@
       "AI",
       "Congress"
     ],
-    "shortDescription": "Reps. Obernolte (R-Calif.) and Trahan (D-Mass.) released a ~300-page bipartisan AI regulation discussion draft — including mandatory audits for the most powerful models and a 3-year preemption of state AI development laws — but leadership on both sides quickly signaled it's not the final answer, and the coalition that killed last year's 10-year moratorium has reassembled against it.",
-    "whyItMatters": "The most serious bipartisan AI-framework attempt yet, and the state-preemption fight is the same one that's been looming over every dual-use AI company — worth tracking for anyone whose portfolio touches frontier-model policy or state-level AI compliance.",
-    "relevanceScore": 66,
+    "shortDescription": "Reps. Obernolte (R-Calif.) and Trahan (D-Mass.) released a ~300-page bipartisan AI regulation discussion draft \u2014 including mandatory audits for the most powerful models and a 3-year preemption of state AI development laws \u2014 but leadership on both sides quickly signaled it's not the final answer, and the coalition that killed last year's 10-year moratorium has reassembled against it.",
+    "whyItMatters": "The most serious bipartisan AI-framework attempt yet, and the state-preemption fight is the same one that's been looming over every dual-use AI company \u2014 worth tracking for anyone whose portfolio touches frontier-model policy or state-level AI compliance.",
+    "relevanceScore": 56,
     "scoreBreakdown": {
-      "recency": 25,
+      "recency": 15,
       "svdgRelevance": 20,
       "sourceQuality": 15,
       "workstreamRelevance": 6,
@@ -336,7 +336,7 @@
   },
   {
     "id": "498dc513-6510-469c-8269-59103d088b89",
-    "title": "Bipartisan AI Framework Draft Lands — and Gets a Cool Reception",
+    "title": "Bipartisan AI Framework Draft Lands \u2014 and Gets a Cool Reception",
     "url": "https://punchbowl.news/article/tech/ober-trahan-ai/",
     "source": "Punchbowl News",
     "datePublished": "2026-06-07",
@@ -348,11 +348,11 @@
       "AI",
       "Congress"
     ],
-    "shortDescription": "Reps. Obernolte (R-Calif.) and Trahan (D-Mass.) released a ~300-page bipartisan AI regulation discussion draft — including mandatory audits for the most powerful models and a 3-year preemption of state AI development laws — but leadership on both sides quickly signaled it's not the final answer, and the coalition that killed last year's 10-year moratorium has reassembled against it.",
-    "whyItMatters": "The most serious bipartisan AI-framework attempt yet, and the state-preemption fight is the same one that's been looming over every dual-use AI company — worth tracking for anyone whose portfolio touches frontier-model policy or state-level AI compliance.",
-    "relevanceScore": 66,
+    "shortDescription": "Reps. Obernolte (R-Calif.) and Trahan (D-Mass.) released a ~300-page bipartisan AI regulation discussion draft \u2014 including mandatory audits for the most powerful models and a 3-year preemption of state AI development laws \u2014 but leadership on both sides quickly signaled it's not the final answer, and the coalition that killed last year's 10-year moratorium has reassembled against it.",
+    "whyItMatters": "The most serious bipartisan AI-framework attempt yet, and the state-preemption fight is the same one that's been looming over every dual-use AI company \u2014 worth tracking for anyone whose portfolio touches frontier-model policy or state-level AI compliance.",
+    "relevanceScore": 56,
     "scoreBreakdown": {
-      "recency": 25,
+      "recency": 15,
       "svdgRelevance": 20,
       "sourceQuality": 15,
       "workstreamRelevance": 6,
@@ -394,11 +394,11 @@
       "NatSec100",
       "Autonomy"
     ],
-    "shortDescription": "A Saronic-built Corsair autonomous surface vessel helped locate and recover two U.S. Army aviators within about two hours after their AH-64 Apache went down near the Strait of Hormuz on Monday — the first publicized combat use of a USV for aircrew rescue.",
-    "whyItMatters": "This is the kind of real-world validation NatSec100 companies dream about — an unmanned platform doing a job that used to put more lives at risk, in a live theater. Expect this in Saronic's next pitch deck and in every DoD autonomy talking point for a while.",
-    "relevanceScore": 96,
+    "shortDescription": "A Saronic-built Corsair autonomous surface vessel helped locate and recover two U.S. Army aviators within about two hours after their AH-64 Apache went down near the Strait of Hormuz on Monday \u2014 the first publicized combat use of a USV for aircrew rescue.",
+    "whyItMatters": "This is the kind of real-world validation NatSec100 companies dream about \u2014 an unmanned platform doing a job that used to put more lives at risk, in a live theater. Expect this in Saronic's next pitch deck and in every DoD autonomy talking point for a while.",
+    "relevanceScore": 81,
     "scoreBreakdown": {
-      "recency": 30,
+      "recency": 15,
       "svdgRelevance": 35,
       "sourceQuality": 15,
       "workstreamRelevance": 6,
@@ -443,11 +443,11 @@
       "Industrial Base",
       "Sponsor"
     ],
-    "shortDescription": "Antares' Mark-0 demonstrator reactor achieved zero-power criticality at Idaho National Lab on June 4 — the first privately developed advanced reactor to do so under DOE's Reactor Pilot Program, and the first new reactor design to go critical at INL in over 50 years.",
-    "whyItMatters": "Big one for SVDG sponsor Antares — this de-risks their path to fielding factory-built microreactors at military installations by 2028. A real sponsor win worth flagging to the group, and a sign DOE's pilot program is actually delivering.",
-    "relevanceScore": 95,
+    "shortDescription": "Antares' Mark-0 demonstrator reactor achieved zero-power criticality at Idaho National Lab on June 4 \u2014 the first privately developed advanced reactor to do so under DOE's Reactor Pilot Program, and the first new reactor design to go critical at INL in over 50 years.",
+    "whyItMatters": "Big one for SVDG sponsor Antares \u2014 this de-risks their path to fielding factory-built microreactors at military installations by 2028. A real sponsor win worth flagging to the group, and a sign DOE's pilot program is actually delivering.",
+    "relevanceScore": 85,
     "scoreBreakdown": {
-      "recency": 25,
+      "recency": 15,
       "svdgRelevance": 35,
       "sourceQuality": 15,
       "workstreamRelevance": 10,
@@ -500,9 +500,9 @@
     ],
     "shortDescription": "A new CSIS report argues the US needs a two-war planning construct -- Indo-Pacific first, Europe second -- and a rapid shift of the defense industrial base to a wartime footing to counter a China-Russia axis.",
     "whyItMatters": "This is the kind of framing that shapes where the Pentagon and Congress steer industrial-base dollars next -- worth a skim for anyone tracking capital and contract flows into munitions, air defense, and unmanned systems.",
-    "relevanceScore": 85,
+    "relevanceScore": 75,
     "scoreBreakdown": {
-      "recency": 25,
+      "recency": 15,
       "svdgRelevance": 35,
       "sourceQuality": 15,
       "workstreamRelevance": 10,
@@ -547,9 +547,9 @@
     ],
     "shortDescription": "Two House Armed Services Committee members make the case for accelerating Pentagon acquisition reform, arguing bureaucratic inertia -- not lack of technology -- is the biggest obstacle to fielding new capabilities faster.",
     "whyItMatters": "Straight from the lawmakers driving acquisition reform -- a useful signal for where NDAA provisions and procurement pathways might open up for nontraditional vendors.",
-    "relevanceScore": 81,
+    "relevanceScore": 71,
     "scoreBreakdown": {
-      "recency": 25,
+      "recency": 15,
       "svdgRelevance": 35,
       "sourceQuality": 15,
       "workstreamRelevance": 6,
@@ -591,9 +591,9 @@
     ],
     "shortDescription": "France will trial its homegrown AI battlefield command system, Arcadia -- built with Airbus and other French firms -- during a NATO interoperability exercise this month, positioning it as a sovereign alternative to Palantir's Maven.",
     "whyItMatters": "A real data point on European appetite to build sovereign AI/C2 alternatives rather than buy American -- relevant context for any portfolio company eyeing the European C2/AI market.",
-    "relevanceScore": 71,
+    "relevanceScore": 61,
     "scoreBreakdown": {
-      "recency": 25,
+      "recency": 15,
       "svdgRelevance": 20,
       "sourceQuality": 15,
       "workstreamRelevance": 6,
@@ -638,9 +638,9 @@
     ],
     "shortDescription": "Allen Control Systems closed a $200M Series B led by Smash Capital at a $2.2B post-money valuation, to scale manufacturing and deployment of its Bullfrog autonomous counter-drone weapon station.",
     "whyItMatters": "Another marker in the counter-drone/autonomous weapons funding wave -- worth tracking alongside Anduril's containerized-munitions work and the Army's roughly $1B c-UAS procurement push.",
-    "relevanceScore": 83,
+    "relevanceScore": 73,
     "scoreBreakdown": {
-      "recency": 25,
+      "recency": 15,
       "svdgRelevance": 35,
       "sourceQuality": 8,
       "workstreamRelevance": 10,
@@ -690,10 +690,10 @@
       "Acquisition Reform"
     ],
     "shortDescription": "DEFCON AI landed a five-year, $115M prototype agreement to serve as software integration prime for the Marine Corps' logistics command-and-control modernization, aligned with Project Dynamis and JADC2.",
-    "whyItMatters": "A software-integration-prime role on a major USMC logistics program is a strong signal of how AI-native defense companies are winning systems-integration work that used to default to legacy primes — worth watching for who else follows this playbook.",
-    "relevanceScore": 95,
+    "whyItMatters": "A software-integration-prime role on a major USMC logistics program is a strong signal of how AI-native defense companies are winning systems-integration work that used to default to legacy primes \u2014 worth watching for who else follows this playbook.",
+    "relevanceScore": 80,
     "scoreBreakdown": {
-      "recency": 30,
+      "recency": 15,
       "svdgRelevance": 35,
       "sourceQuality": 15,
       "workstreamRelevance": 10,
@@ -734,11 +734,11 @@
       "Autonomy",
       "NATO"
     ],
-    "shortDescription": "At ILA Berlin, German drone maker Quantum Systems unveiled the PULSE P19 — a turboprop, multi-role aircraft for ISR and counter-drone missions — and signed a cooperation deal with Airbus Helicopters to integrate its C-UAS interceptors onto the H145M.",
-    "whyItMatters": "Quantum Systems keeps moving up-market from small ISR drones toward larger multi-role platforms, and a tie-up with Airbus gives it a path into NATO helicopter fleets — another data point on how fast European defense-tech primes are scaling.",
-    "relevanceScore": 76,
+    "shortDescription": "At ILA Berlin, German drone maker Quantum Systems unveiled the PULSE P19 \u2014 a turboprop, multi-role aircraft for ISR and counter-drone missions \u2014 and signed a cooperation deal with Airbus Helicopters to integrate its C-UAS interceptors onto the H145M.",
+    "whyItMatters": "Quantum Systems keeps moving up-market from small ISR drones toward larger multi-role platforms, and a tie-up with Airbus gives it a path into NATO helicopter fleets \u2014 another data point on how fast European defense-tech primes are scaling.",
+    "relevanceScore": 61,
     "scoreBreakdown": {
-      "recency": 30,
+      "recency": 15,
       "svdgRelevance": 20,
       "sourceQuality": 15,
       "workstreamRelevance": 6,
@@ -781,10 +781,10 @@
       "AI"
     ],
     "shortDescription": "LA-based Orbital closed an oversubscribed $5M pre-seed round, led by a16z's Speedrun, to build a constellation of orbital data centers designed around Nvidia's Vera Rubin GPUs for space-based AI inference.",
-    "whyItMatters": "Space-based compute is still a thesis more than a market, but the funding pace (and the a16z stamp) shows investors are willing to bet early on the orbital-AI-infrastructure narrative — one to track for capital formation trends in the space-tech stack.",
-    "relevanceScore": 59,
+    "whyItMatters": "Space-based compute is still a thesis more than a market, but the funding pace (and the a16z stamp) shows investors are willing to bet early on the orbital-AI-infrastructure narrative \u2014 one to track for capital formation trends in the space-tech stack.",
+    "relevanceScore": 49,
     "scoreBreakdown": {
-      "recency": 25,
+      "recency": 15,
       "svdgRelevance": 20,
       "sourceQuality": 8,
       "workstreamRelevance": 6,
@@ -824,11 +824,11 @@
       "AI",
       "Congress"
     ],
-    "shortDescription": "In a new essay, Anthropic CEO Dario Amodei called for mandatory third-party testing and government authority to block deployment of frontier AI models above a compute threshold — a shift from his earlier transparency-first stance.",
-    "whyItMatters": "If the AI lab that's been most aligned with safety-first messaging is now asking for binding, FAA-style federal authority, that reshapes the Hill conversation on AI regulation fast — directly relevant to anyone tracking how AI policy interacts with defense AI procurement and export rules.",
-    "relevanceScore": 76,
+    "shortDescription": "In a new essay, Anthropic CEO Dario Amodei called for mandatory third-party testing and government authority to block deployment of frontier AI models above a compute threshold \u2014 a shift from his earlier transparency-first stance.",
+    "whyItMatters": "If the AI lab that's been most aligned with safety-first messaging is now asking for binding, FAA-style federal authority, that reshapes the Hill conversation on AI regulation fast \u2014 directly relevant to anyone tracking how AI policy interacts with defense AI procurement and export rules.",
+    "relevanceScore": 61,
     "scoreBreakdown": {
-      "recency": 30,
+      "recency": 15,
       "svdgRelevance": 20,
       "sourceQuality": 15,
       "workstreamRelevance": 6,
@@ -871,10 +871,10 @@
       "Munitions"
     ],
     "shortDescription": "The House Appropriations Committee released its FY27 defense spending bill totaling $1.072 trillion, including $10.6B for legacy munitions like PAC-3, THAAD and Tomahawk, a new $836M line dedicated to low-cost munitions, and roughly $1.6B for Wedgetail.",
-    "whyItMatters": "This is the bill that sets the budget envelope for the next year of DoD acquisition — the new low-cost munitions line and innovation-friendly framing from Chairman Calvert are worth flagging for any sponsor or portfolio company chasing munitions or rapid-acquisition dollars.",
-    "relevanceScore": 86,
+    "whyItMatters": "This is the bill that sets the budget envelope for the next year of DoD acquisition \u2014 the new low-cost munitions line and innovation-friendly framing from Chairman Calvert are worth flagging for any sponsor or portfolio company chasing munitions or rapid-acquisition dollars.",
+    "relevanceScore": 71,
     "scoreBreakdown": {
-      "recency": 30,
+      "recency": 15,
       "svdgRelevance": 35,
       "sourceQuality": 15,
       "workstreamRelevance": 6,
@@ -915,10 +915,10 @@
       "NATO"
     ],
     "shortDescription": "At ILA Berlin, Boeing and Rheinmetall unveiled an upgraded MQ-28 Ghost Bat with a 25% larger wingspan and internal AMRAAM/SDB capacity for Germany's collaborative combat aircraft program, while Helsing revealed a new electronic-attack variant of its CA-1 Europa (the CA-1EA) alongside its CA-1KA kinetic-attack drone, due to fly in early 2027.",
-    "whyItMatters": "Germany's CCA competition is turning into a real head-to-head between a Boeing-led legacy prime team and a European defense-tech challenger in Helsing — a useful bellwether for how fast allied air forces are actually willing to buy autonomy from startups versus primes.",
-    "relevanceScore": 76,
+    "whyItMatters": "Germany's CCA competition is turning into a real head-to-head between a Boeing-led legacy prime team and a European defense-tech challenger in Helsing \u2014 a useful bellwether for how fast allied air forces are actually willing to buy autonomy from startups versus primes.",
+    "relevanceScore": 61,
     "scoreBreakdown": {
-      "recency": 30,
+      "recency": 15,
       "svdgRelevance": 20,
       "sourceQuality": 15,
       "workstreamRelevance": 6,
@@ -965,10 +965,10 @@
       "NATO"
     ],
     "shortDescription": "UK Defence Secretary John Healey resigned today, telling PM Keir Starmer that the government's plan to raise defense spending to only 2.68% of GDP by 2030 \"falls well short of what is required\" amid rising threats.",
-    "whyItMatters": "A major cabinet shake-up at one of America's closest defense allies, landing right as AUKUS and NATO burden-sharing debates intensify — worth watching for ripple effects on UK procurement priorities and AUKUS Pillar II momentum.",
-    "relevanceScore": 71,
+    "whyItMatters": "A major cabinet shake-up at one of America's closest defense allies, landing right as AUKUS and NATO burden-sharing debates intensify \u2014 worth watching for ripple effects on UK procurement priorities and AUKUS Pillar II momentum.",
+    "relevanceScore": 66,
     "scoreBreakdown": {
-      "recency": 30,
+      "recency": 25,
       "svdgRelevance": 20,
       "sourceQuality": 15,
       "workstreamRelevance": 6,
@@ -1008,10 +1008,10 @@
       "Maritime"
     ],
     "shortDescription": "At AUKMIN talks in London, Australia and the UK reaffirmed AUKUS is \"on track,\" pointing to progress toward Submarine Rotational Force-West in 2027, the first AUKUS hypersonic test flight under the HyFliTE program, and a reinvigorated Australia-UK Defence Industry Dialogue.",
-    "whyItMatters": "Concrete Pillar II milestones like a hypersonics flight test and deeper industrial cooperation are exactly the kind of signal SVDG's Australia-focused members watch for — these programs are where AUKUS commitments start turning into real contract opportunities for dual-use suppliers.",
-    "relevanceScore": 71,
+    "whyItMatters": "Concrete Pillar II milestones like a hypersonics flight test and deeper industrial cooperation are exactly the kind of signal SVDG's Australia-focused members watch for \u2014 these programs are where AUKUS commitments start turning into real contract opportunities for dual-use suppliers.",
+    "relevanceScore": 66,
     "scoreBreakdown": {
-      "recency": 30,
+      "recency": 25,
       "svdgRelevance": 20,
       "sourceQuality": 15,
       "workstreamRelevance": 6,
@@ -1048,11 +1048,11 @@
       "Space",
       "Venture Capital"
     ],
-    "shortDescription": "SpaceX is pricing shares at $135 today ahead of its Nasdaq debut tomorrow under ticker SPCX, targeting a $75B raise at a $1.75T valuation — the largest IPO in history, reportedly oversubscribed 3.5-4x.",
-    "whyItMatters": "SpaceX going public is a watershed moment for dual-use capital markets — it resets how investors price defense-adjacent space and autonomy companies, and SVDG's capital formation conversations will be citing this comp for a long time.",
-    "relevanceScore": 79,
+    "shortDescription": "SpaceX is pricing shares at $135 today ahead of its Nasdaq debut tomorrow under ticker SPCX, targeting a $75B raise at a $1.75T valuation \u2014 the largest IPO in history, reportedly oversubscribed 3.5-4x.",
+    "whyItMatters": "SpaceX going public is a watershed moment for dual-use capital markets \u2014 it resets how investors price defense-adjacent space and autonomy companies, and SVDG's capital formation conversations will be citing this comp for a long time.",
+    "relevanceScore": 74,
     "scoreBreakdown": {
-      "recency": 30,
+      "recency": 25,
       "svdgRelevance": 35,
       "sourceQuality": 8,
       "workstreamRelevance": 6,
@@ -1095,10 +1095,10 @@
       "Defense Startup"
     ],
     "shortDescription": "Castelion is integrating its hypersonic strike payload onto Saronic's Marauder autonomous surface vessel, pairing a fast-strike weapon with an uncrewed maritime platform.",
-    "whyItMatters": "Two of the buzziest names in defense tech are literally bolting their products together — a sign hypersonic strike and autonomous maritime platforms are converging into a single system the Pentagon can actually buy.",
-    "relevanceScore": 100,
+    "whyItMatters": "Two of the buzziest names in defense tech are literally bolting their products together \u2014 a sign hypersonic strike and autonomous maritime platforms are converging into a single system the Pentagon can actually buy.",
+    "relevanceScore": 90,
     "scoreBreakdown": {
-      "recency": 30,
+      "recency": 25,
       "svdgRelevance": 35,
       "sourceQuality": 15,
       "workstreamRelevance": 10,
@@ -1143,10 +1143,10 @@
       "Capital Formation"
     ],
     "shortDescription": "Op-ed arguing that as SpaceX's IPO and other megadeals funnel up to a trillion dollars into the space sector, the industry needs deliberate structures to ensure that money builds durable infrastructure rather than a speculative bubble.",
-    "whyItMatters": "With SpaceX's IPO landing and capital flooding in, this is the framing piece for how our members should think about where that money actually goes — dual-use infrastructure and capability versus hype.",
-    "relevanceScore": 80,
+    "whyItMatters": "With SpaceX's IPO landing and capital flooding in, this is the framing piece for how our members should think about where that money actually goes \u2014 dual-use infrastructure and capability versus hype.",
+    "relevanceScore": 75,
     "scoreBreakdown": {
-      "recency": 30,
+      "recency": 25,
       "svdgRelevance": 20,
       "sourceQuality": 15,
       "workstreamRelevance": 10,
@@ -1189,11 +1189,11 @@
       "Congress",
       "DoD"
     ],
-    "shortDescription": "SASC's FY27 NDAA markup, passed 18-9, green-lights a new four-star \"Robotic and Autonomous Systems Command\" focused on fielding unmanned systems — the first new combatant command proposal since Space Command in 2019.",
-    "whyItMatters": "If this survives conference, it creates a single customer for autonomous systems acquisition and fielding — exactly the structural fix that could turn years of pilot programs into real procurement for the autonomy companies in our network.",
-    "relevanceScore": 95,
+    "shortDescription": "SASC's FY27 NDAA markup, passed 18-9, green-lights a new four-star \"Robotic and Autonomous Systems Command\" focused on fielding unmanned systems \u2014 the first new combatant command proposal since Space Command in 2019.",
+    "whyItMatters": "If this survives conference, it creates a single customer for autonomous systems acquisition and fielding \u2014 exactly the structural fix that could turn years of pilot programs into real procurement for the autonomy companies in our network.",
+    "relevanceScore": 90,
     "scoreBreakdown": {
-      "recency": 30,
+      "recency": 25,
       "svdgRelevance": 35,
       "sourceQuality": 15,
       "workstreamRelevance": 10,
@@ -1233,11 +1233,11 @@
       "Industrial Base",
       "Budget"
     ],
-    "shortDescription": "France and Germany have formally ended the joint FCAS sixth-generation fighter program after Dassault and Airbus couldn't agree on workshare and IP, killing a €100B+ effort and leaving junior partner Spain in limbo.",
-    "whyItMatters": "A flagship European defense-industrial collaboration just collapsed under national-champion politics — worth watching for what it signals about appetite for cross-border defense tech partnerships in Europe, and where the fallout creates openings for US and allied suppliers.",
-    "relevanceScore": 75,
+    "shortDescription": "France and Germany have formally ended the joint FCAS sixth-generation fighter program after Dassault and Airbus couldn't agree on workshare and IP, killing a \u20ac100B+ effort and leaving junior partner Spain in limbo.",
+    "whyItMatters": "A flagship European defense-industrial collaboration just collapsed under national-champion politics \u2014 worth watching for what it signals about appetite for cross-border defense tech partnerships in Europe, and where the fallout creates openings for US and allied suppliers.",
+    "relevanceScore": 70,
     "scoreBreakdown": {
-      "recency": 30,
+      "recency": 25,
       "svdgRelevance": 20,
       "sourceQuality": 15,
       "workstreamRelevance": 10,
@@ -1280,11 +1280,11 @@
       "Maritime",
       "Intelligence"
     ],
-    "shortDescription": "ESA awarded AAC Clyde Space a €10.9M contract to build out a 12-satellite VDES/SAR constellation (INFLECION) for maritime domain awareness, including tracking vessels that go dark.",
-    "whyItMatters": "A small-sat company landing a meaningful government contract for maritime ISR is a useful data point on how European space agencies are funding dual-use surveillance capability — good context for anyone tracking the European space-defense crossover.",
-    "relevanceScore": 56,
+    "shortDescription": "ESA awarded AAC Clyde Space a \u20ac10.9M contract to build out a 12-satellite VDES/SAR constellation (INFLECION) for maritime domain awareness, including tracking vessels that go dark.",
+    "whyItMatters": "A small-sat company landing a meaningful government contract for maritime ISR is a useful data point on how European space agencies are funding dual-use surveillance capability \u2014 good context for anyone tracking the European space-defense crossover.",
+    "relevanceScore": 51,
     "scoreBreakdown": {
-      "recency": 30,
+      "recency": 25,
       "svdgRelevance": 5,
       "sourceQuality": 15,
       "workstreamRelevance": 6,
@@ -1325,8 +1325,8 @@
       "Autonomy",
       "Robotics"
     ],
-    "shortDescription": "Norwegian defense group Kongsberg and Italian undersea specialist DRASS announced a strategic partnership to co-develop autonomous underwater vehicles, navigation/sonar systems, and manned-unmanned teaming tech — squarely aimed at the AUKUS Pillar II undersea pipeline (UUVs, payload integration, 2027 delivery target).",
-    "whyItMatters": "Another sign European primes are angling for a slice of the AUKUS Pillar II undersea-autonomy buildout — worth tracking for where US/Australian dual-use undersea startups might end up partnering with or competing against this pairing for the same Pillar II contracts.",
+    "shortDescription": "Norwegian defense group Kongsberg and Italian undersea specialist DRASS announced a strategic partnership to co-develop autonomous underwater vehicles, navigation/sonar systems, and manned-unmanned teaming tech \u2014 squarely aimed at the AUKUS Pillar II undersea pipeline (UUVs, payload integration, 2027 delivery target).",
+    "whyItMatters": "Another sign European primes are angling for a slice of the AUKUS Pillar II undersea-autonomy buildout \u2014 worth tracking for where US/Australian dual-use undersea startups might end up partnering with or competing against this pairing for the same Pillar II contracts.",
     "relevanceScore": 56,
     "scoreBreakdown": {
       "recency": 15,
@@ -1370,8 +1370,8 @@
       "AUKUS",
       "Maritime"
     ],
-    "shortDescription": "The US Navy reestablished Submarine Squadron 3 at HMAS Stirling in Western Australia on June 10 — a unit disbanded in 2012, now reactivated to provide maintenance, logistics, and operational support for US and UK submarines ahead of Submarine Rotational Force-West rotations beginning in 2027.",
-    "whyItMatters": "A concrete, boots-on-the-ground AUKUS milestone rather than another joint statement — signals the HMAS Stirling submarine basing buildout is moving from paper to personnel, which matters for any sponsor eyeing the sustainment and logistics opportunity around SRF-West.",
+    "shortDescription": "The US Navy reestablished Submarine Squadron 3 at HMAS Stirling in Western Australia on June 10 \u2014 a unit disbanded in 2012, now reactivated to provide maintenance, logistics, and operational support for US and UK submarines ahead of Submarine Rotational Force-West rotations beginning in 2027.",
+    "whyItMatters": "A concrete, boots-on-the-ground AUKUS milestone rather than another joint statement \u2014 signals the HMAS Stirling submarine basing buildout is moving from paper to personnel, which matters for any sponsor eyeing the sustainment and logistics opportunity around SRF-West.",
     "relevanceScore": 70,
     "scoreBreakdown": {
       "recency": 25,
@@ -1419,10 +1419,10 @@
       "Manufacturing"
     ],
     "shortDescription": "Reaxiomatic, a new San Diego-based defense hardware startup founded by a Hermeus co-founder, came out of stealth with a $7.25M pre-seed from Scout Ventures, NVP Capital, and Bling Capital, aiming to speed up production timelines for large strategic defense platforms.",
-    "whyItMatters": "Another ex-Hermeus founder spinning up a 'faster hardware production' defense startup — fits the rapid-manufacturing thesis attracting early-stage defense capital right now, and Scout Ventures is a name plenty of SVDG members will recognize.",
-    "relevanceScore": 66,
+    "whyItMatters": "Another ex-Hermeus founder spinning up a 'faster hardware production' defense startup \u2014 fits the rapid-manufacturing thesis attracting early-stage defense capital right now, and Scout Ventures is a name plenty of SVDG members will recognize.",
+    "relevanceScore": 56,
     "scoreBreakdown": {
-      "recency": 25,
+      "recency": 15,
       "svdgRelevance": 20,
       "sourceQuality": 15,
       "workstreamRelevance": 6,
@@ -1466,8 +1466,8 @@
       "Space",
       "Venture Capital"
     ],
-    "shortDescription": "SpaceX began trading on Nasdaq under ticker SPCX on June 12, closing up 19% at $161.11 from its $135 IPO price — the largest IPO in history and a market cap north of $2 trillion.",
-    "whyItMatters": "A dual-use space company going public at this scale resets expectations for what an 'exit' looks like in hardware and space — a useful data point for SVDG members thinking about public-market appetite for defense-adjacent tech.",
+    "shortDescription": "SpaceX began trading on Nasdaq under ticker SPCX on June 12, closing up 19% at $161.11 from its $135 IPO price \u2014 the largest IPO in history and a market cap north of $2 trillion.",
+    "whyItMatters": "A dual-use space company going public at this scale resets expectations for what an 'exit' looks like in hardware and space \u2014 a useful data point for SVDG members thinking about public-market appetite for defense-adjacent tech.",
     "relevanceScore": 84,
     "scoreBreakdown": {
       "recency": 25,
@@ -1511,7 +1511,7 @@
       "Industrial Base"
     ],
     "shortDescription": "Australia, the US, and UK announced further progress on Submarine Rotational Force-West, including the US Navy reestablishing Submarine Squadron 3 and new support infrastructure at HMAS Stirling, part of the AUD $8B Stirling buildout ahead of 2027 rotations.",
-    "whyItMatters": "AUKUS infrastructure spend keeps flowing into Western Australia — another signal for members tracking the allied submarine industrial base buildout and the broader AUKUS Pillar I/II investment pipeline.",
+    "whyItMatters": "AUKUS infrastructure spend keeps flowing into Western Australia \u2014 another signal for members tracking the allied submarine industrial base buildout and the broader AUKUS Pillar I/II investment pipeline.",
     "relevanceScore": 70,
     "scoreBreakdown": {
       "recency": 25,
@@ -1553,7 +1553,7 @@
       "Industrial Base"
     ],
     "shortDescription": "Days after the Franco-German-Spanish FCAS fighter program collapsed, Airbus and seven other German and Spanish defense firms banded together as 'Team Gen 6,' positioning to lead a new sixth-gen fighter effort built on salvaged FCAS tech.",
-    "whyItMatters": "Europe's fighter ecosystem is reshuffling fast post-FCAS — worth watching for members eyeing partnerships or supply-chain openings as new industrial consortia form around next-gen combat air.",
+    "whyItMatters": "Europe's fighter ecosystem is reshuffling fast post-FCAS \u2014 worth watching for members eyeing partnerships or supply-chain openings as new industrial consortia form around next-gen combat air.",
     "relevanceScore": 60,
     "scoreBreakdown": {
       "recency": 25,
@@ -1601,7 +1601,7 @@
       "Congress"
     ],
     "shortDescription": "Pentagon CTO Emil Michael said that if Congress's $350B reconciliation package falls through, DoD will protect its 'AI arsenal' of low-cost autonomous systems by cutting traditional weapons programs instead.",
-    "whyItMatters": "A pretty direct signal that drone and autonomy spending is now a protected line item even under budget pressure — useful context for portfolio companies in the autonomous systems space gauging how durable DoD demand really is.",
+    "whyItMatters": "A pretty direct signal that drone and autonomy spending is now a protected line item even under budget pressure \u2014 useful context for portfolio companies in the autonomous systems space gauging how durable DoD demand really is.",
     "relevanceScore": 90,
     "scoreBreakdown": {
       "recency": 25,
@@ -1649,7 +1649,7 @@
       "Drones"
     ],
     "shortDescription": "The Senate Armed Services Committee advanced its $1.14T FY27 NDAA 18-9, creating a new Robotic and Autonomous Systems Combatant Command, codifying review standards for AI and autonomous weapons, and writing Trump's contractor buyback/dividend restrictions into law.",
-    "whyItMatters": "The buyback/dividend restrictions and new agentic-AI standards are the kind of structural shifts that ripple into how primes and their suppliers allocate capital — directly relevant to the capital formation and policy conversations SVDG is having this cycle.",
+    "whyItMatters": "The buyback/dividend restrictions and new agentic-AI standards are the kind of structural shifts that ripple into how primes and their suppliers allocate capital \u2014 directly relevant to the capital formation and policy conversations SVDG is having this cycle.",
     "relevanceScore": 85,
     "scoreBreakdown": {
       "recency": 25,
@@ -1695,11 +1695,11 @@
       "AUKUS",
       "Policy"
     ],
-    "shortDescription": "The Senate Armed Services Committee advanced its $1.14T FY27 NDAA (including AUKUS submarine-sale provisions and a new drone-focused combatant command), even as GOP leaders like McConnell and Collins concede the $350B defense reconciliation package is effectively dead — with no plan to shift those priorities into the base budget or a war-funding supplemental.",
+    "shortDescription": "The Senate Armed Services Committee advanced its $1.14T FY27 NDAA (including AUKUS submarine-sale provisions and a new drone-focused combatant command), even as GOP leaders like McConnell and Collins concede the $350B defense reconciliation package is effectively dead \u2014 with no plan to shift those priorities into the base budget or a war-funding supplemental.",
     "whyItMatters": "For anyone tracking Golden Dome, drone procurement, and supply-chain dollars tied to that $350B reconciliation pot, this is the clearest signal yet that the money may not show up as planned. Worth watching whether the FY27 base budget or a supplemental ends up absorbing those priorities.",
-    "relevanceScore": 90,
+    "relevanceScore": 85,
     "scoreBreakdown": {
-      "recency": 30,
+      "recency": 25,
       "svdgRelevance": 35,
       "sourceQuality": 15,
       "workstreamRelevance": 10,
@@ -1744,10 +1744,10 @@
       "Dual-Use"
     ],
     "shortDescription": "MIT spinout Fabri has raised $13.5M total (a $5M Lavrock-led seed plus debt and equity since) to build automated, robotics- and software-driven investment-casting foundries. It's already shipping parts to RTX and Lockheed Martin and is targeting a Series A within 3-6 months.",
-    "whyItMatters": "Two SVDG sponsors — RTX Ventures and Lockheed Martin Ventures — are both investors and early customers here, and the underlying thesis (US foundry capacity down roughly 80% over the last several decades) is exactly the industrial-base story our Capital Formation and Sponsor Engagement folks should have on their radar.",
-    "relevanceScore": 100,
+    "whyItMatters": "Two SVDG sponsors \u2014 RTX Ventures and Lockheed Martin Ventures \u2014 are both investors and early customers here, and the underlying thesis (US foundry capacity down roughly 80% over the last several decades) is exactly the industrial-base story our Capital Formation and Sponsor Engagement folks should have on their radar.",
+    "relevanceScore": 90,
     "scoreBreakdown": {
-      "recency": 30,
+      "recency": 25,
       "svdgRelevance": 35,
       "sourceQuality": 15,
       "workstreamRelevance": 10,
@@ -1800,9 +1800,9 @@
       "Industrial Base",
       "DoD"
     ],
-    "shortDescription": "SVDG sponsor Picogrid is now the tactical integration layer — via its Legion software and Expeditionary C2 Nodes — for Perennial Autonomy's Merops/Surveyor counter-drone interceptors under a JIATF 401 contract, Picogrid's largest to date, plugging Ukraine-proven interceptors into US air defense in the Middle East.",
-    "whyItMatters": "A marquee integration win for sponsor Picogrid alongside one of the most closely-watched (and secretive) drone startups out there. A good real-world example of the 'unsexy' integration layer being the difference between a system that ships and one that sits on a shelf — worth flagging for Sponsor Engagement and NatSec100 conversations.",
-    "relevanceScore": 95,
+    "shortDescription": "SVDG sponsor Picogrid is now the tactical integration layer \u2014 via its Legion software and Expeditionary C2 Nodes \u2014 for Perennial Autonomy's Merops/Surveyor counter-drone interceptors under a JIATF 401 contract, Picogrid's largest to date, plugging Ukraine-proven interceptors into US air defense in the Middle East.",
+    "whyItMatters": "A marquee integration win for sponsor Picogrid alongside one of the most closely-watched (and secretive) drone startups out there. A good real-world example of the 'unsexy' integration layer being the difference between a system that ships and one that sits on a shelf \u2014 worth flagging for Sponsor Engagement and NatSec100 conversations.",
+    "relevanceScore": 90,
     "scoreBreakdown": {
       "recency": 25,
       "svdgRelevance": 35,
@@ -1851,8 +1851,8 @@
       "Autonomy"
     ],
     "shortDescription": "Mach Industries won a contract under DIU's RIMES program to develop Atlas, a large runway-independent strike drone built with Whisper Aero capable of delivering fighter-sized munitions at 1,400+ nautical miles. The aircraft has a 40-foot wingspan and uses Whisper Aero's ultra-quiet hybrid-electric propulsion.",
-    "whyItMatters": "This is the kind of contract that validates the Mach trajectory — fresh off a $300M Series C, they're now the aircraft integrator on a DIU program designed to solve one of the Navy's biggest magazine-depth problems. RIMES is a meaningful program and Atlas is an ambitious platform; worth watching how the phased contract plays out.",
-    "relevanceScore": 91,
+    "whyItMatters": "This is the kind of contract that validates the Mach trajectory \u2014 fresh off a $300M Series C, they're now the aircraft integrator on a DIU program designed to solve one of the Navy's biggest magazine-depth problems. RIMES is a meaningful program and Atlas is an ambitious platform; worth watching how the phased contract plays out.",
+    "relevanceScore": 90,
     "scoreBreakdown": {
       "recency": 30,
       "svdgRelevance": 35,
@@ -1899,7 +1899,7 @@
       "Supply Chain"
     ],
     "shortDescription": "Advanced metals startup Foundation Alloy raised a $22M Series A led by Voyager Ventures to scale its zero-heat mechanical alloying platform to industrial volumes. It's also partnering with Re:Build Manufacturing, opening a 36,000 sq ft Massachusetts facility, and expanding to Japan and Southeast Asia via Kanematsu.",
-    "whyItMatters": "The defense industrial base has a metals problem — hypersonics and drones both need alloys that traditional smelting can't reliably produce at scale. Foundation Alloy is one of the few companies attacking that at the materials level. Their explicit tie to drone stockpiling is directly relevant to where DoD spending is heading.",
+    "whyItMatters": "The defense industrial base has a metals problem \u2014 hypersonics and drones both need alloys that traditional smelting can't reliably produce at scale. Foundation Alloy is one of the few companies attacking that at the materials level. Their explicit tie to drone stockpiling is directly relevant to where DoD spending is heading.",
     "relevanceScore": 80,
     "scoreBreakdown": {
       "recency": 30,
@@ -1933,7 +1933,7 @@
   },
   {
     "id": "81509e45-1707-4d43-937c-3d970723d064",
-    "title": "BAE Systems Commits €50M to European Defence-Tech VC Funds",
+    "title": "BAE Systems Commits \u20ac50M to European Defence-Tech VC Funds",
     "url": "https://sifted.eu/articles/bae-systems-invest-lakestar-expeditions-defence-vc",
     "source": "Sifted",
     "datePublished": "2026-06-16",
@@ -1948,8 +1948,8 @@
       "Industrial Base",
       "Dual-Use"
     ],
-    "shortDescription": "BAE Systems is committing €50M split between Swiss VC Lakestar and Warsaw-based Expeditions as the second phase of its Launchpad program to back European defence-tech startups. The investment brings Expeditions' new fund to over €200M in commitments.",
-    "whyItMatters": "A major Western prime putting €50M into European defence VC is a signal, not just a capital deployment story. It validates the emerging European defence-tech ecosystem and gives Lakestar and Expeditions serious firepower. Relevant context for SVDG members tracking where NATO-aligned capital is flowing.",
+    "shortDescription": "BAE Systems is committing \u20ac50M split between Swiss VC Lakestar and Warsaw-based Expeditions as the second phase of its Launchpad program to back European defence-tech startups. The investment brings Expeditions' new fund to over \u20ac200M in commitments.",
+    "whyItMatters": "A major Western prime putting \u20ac50M into European defence VC is a signal, not just a capital deployment story. It validates the emerging European defence-tech ecosystem and gives Lakestar and Expeditions serious firepower. Relevant context for SVDG members tracking where NATO-aligned capital is flowing.",
     "relevanceScore": 90,
     "scoreBreakdown": {
       "recency": 30,
@@ -1982,7 +1982,7 @@
   },
   {
     "id": "7748442f-e174-4524-bfd1-0e9600746da5",
-    "title": "Optera Raises £3M to Relocate to UK and Scale SDA Sensors",
+    "title": "Optera Raises \u00a33M to Relocate to UK and Scale SDA Sensors",
     "url": "https://payloadspace.com/optera-raises-3m-to-open-new-uk-hq/",
     "source": "Payload",
     "datePublished": "2026-06-15",
@@ -1997,11 +1997,11 @@
       "Dual-Use",
       "AUKUS"
     ],
-    "shortDescription": "Australian SDA startup Optera raised £3M ($4M) led by UKI2S (backed by UKSA) to relocate from Australia to the UK and expand its neuromorphic sensor technology for satellite tracking. Investors include the UK's National Security Strategic Investment Fund.",
-    "whyItMatters": "An Australian deep-tech company choosing to plant its flag in the UK — backed by UKSA and NSSIF — is a telling data point for how the AUKUS/Five Eyes ecosystem is shaping capital and talent flows. Neuromorphic SDA sensors are a niche but increasingly important capability for contested-space scenarios.",
-    "relevanceScore": 71,
+    "shortDescription": "Australian SDA startup Optera raised \u00a33M ($4M) led by UKI2S (backed by UKSA) to relocate from Australia to the UK and expand its neuromorphic sensor technology for satellite tracking. Investors include the UK's National Security Strategic Investment Fund.",
+    "whyItMatters": "An Australian deep-tech company choosing to plant its flag in the UK \u2014 backed by UKSA and NSSIF \u2014 is a telling data point for how the AUKUS/Five Eyes ecosystem is shaping capital and talent flows. Neuromorphic SDA sensors are a niche but increasingly important capability for contested-space scenarios.",
+    "relevanceScore": 66,
     "scoreBreakdown": {
-      "recency": 30,
+      "recency": 25,
       "svdgRelevance": 20,
       "sourceQuality": 15,
       "workstreamRelevance": 6,
@@ -2045,10 +2045,10 @@
       "Cyber"
     ],
     "shortDescription": "DARPA released an RFI titled 'Rapid Reconstitution of Space Capabilities' seeking technical concepts and operational strategies to restore satellite infrastructure degraded by anti-satellite weapons, cyberattacks, or debris. Industry responses are due July 8.",
-    "whyItMatters": "DARPA asking this question publicly acknowledges that the US space architecture has a resilience problem worth solving programmatically. The RFI is a signal that reconstitution — not just protection — is becoming a serious priority. Worth tracking for anyone following where the next wave of space security contracts lands.",
-    "relevanceScore": 71,
+    "whyItMatters": "DARPA asking this question publicly acknowledges that the US space architecture has a resilience problem worth solving programmatically. The RFI is a signal that reconstitution \u2014 not just protection \u2014 is becoming a serious priority. Worth tracking for anyone following where the next wave of space security contracts lands.",
+    "relevanceScore": 66,
     "scoreBreakdown": {
-      "recency": 30,
+      "recency": 25,
       "svdgRelevance": 20,
       "sourceQuality": 15,
       "workstreamRelevance": 6,
