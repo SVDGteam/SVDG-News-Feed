@@ -78,7 +78,7 @@ export function calcRelevanceScore(inputs: ScoreInputs): {
     sponsorNatSec100: calcSponsorNatSec100Score(inputs.sponsorNatSec100Relevance),
   }
   const score = Math.min(
-    100,
+    90,
     breakdown.recency +
       breakdown.svdgRelevance +
       breakdown.sourceQuality +
@@ -89,13 +89,13 @@ export function calcRelevanceScore(inputs: ScoreInputs): {
 }
 
 // ── Team reactions (likes/dislikes) ────────────────────────────────────────
-// Each like adds +10 to relevance, each dislike subtracts 10. This is a
+// Each like adds +5 to relevance, each dislike subtracts 10. This is a
 // crowd-sourced adjustment layered on top of the calculated relevanceScore.
 export function calcEngagementScore(reactions?: Record<string, ReactionType>): number {
   if (!reactions) return 0
   let total = 0
   for (const reaction of Object.values(reactions)) {
-    total += reaction === 'like' ? 10 : -10
+    total += reaction === 'like' ? 5 : -10
   }
   return total
 }
