@@ -1832,5 +1832,243 @@
     "reactions": {},
     "createdAt": "2026-06-15T19:19:18.237Z",
     "updatedAt": "2026-06-15T19:19:18.237Z"
+  },
+  {
+    "id": "92aec8a1-2498-4bbe-8a4a-f18d852eced4",
+    "title": "Mach Industries Wins DIU Contract for Long-Range Strike Drone",
+    "url": "https://www.tectonicdefense.com/mach-industries-wins-diu-contract-for-long-range-strike-drone/",
+    "source": "Tectonic",
+    "datePublished": "2026-06-16",
+    "dateAdded": "2026-06-16",
+    "categories": [
+      "Industry News",
+      "Government News"
+    ],
+    "tags": [
+      "Drones",
+      "DIU",
+      "Defense Startup",
+      "Autonomy"
+    ],
+    "shortDescription": "Mach Industries won a contract under DIU's RIMES program to develop Atlas, a large runway-independent strike drone built with Whisper Aero capable of delivering fighter-sized munitions at 1,400+ nautical miles. The aircraft has a 40-foot wingspan and uses Whisper Aero's ultra-quiet hybrid-electric propulsion.",
+    "whyItMatters": "This is the kind of contract that validates the Mach trajectory — fresh off a $300M Series C, they're now the aircraft integrator on a DIU program designed to solve one of the Navy's biggest magazine-depth problems. RIMES is a meaningful program and Atlas is an ambitious platform; worth watching how the phased contract plays out.",
+    "relevanceScore": 91,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Mach Industries",
+      "Whisper Aero"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "NatSec100"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-06-16T19:14:45.928Z",
+    "updatedAt": "2026-06-16T19:14:45.928Z"
+  },
+  {
+    "id": "aa471b59-7293-484a-ab2a-defbe3e3a13b",
+    "title": "Foundation Alloy Raises $22M, Teams Up with Re:Build, Expands to Asia",
+    "url": "https://www.tectonicdefense.com/foundation-alloy-raises-22m-teams-up-with-rebuild-expands-to-asia/",
+    "source": "Tectonic",
+    "datePublished": "2026-06-16",
+    "dateAdded": "2026-06-16",
+    "categories": [
+      "Industry News",
+      "Investor News"
+    ],
+    "tags": [
+      "Manufacturing",
+      "Industrial Base",
+      "Venture Capital",
+      "Defense Startup",
+      "Supply Chain"
+    ],
+    "shortDescription": "Advanced metals startup Foundation Alloy raised a $22M Series A led by Voyager Ventures to scale its zero-heat mechanical alloying platform to industrial volumes. It's also partnering with Re:Build Manufacturing, opening a 36,000 sq ft Massachusetts facility, and expanding to Japan and Southeast Asia via Kanematsu.",
+    "whyItMatters": "The defense industrial base has a metals problem — hypersonics and drones both need alloys that traditional smelting can't reliably produce at scale. Foundation Alloy is one of the few companies attacking that at the materials level. Their explicit tie to drone stockpiling is directly relevant to where DoD spending is heading.",
+    "relevanceScore": 80,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Foundation Alloy",
+      "Re:Build Manufacturing",
+      "Voyager Ventures",
+      "America's Frontier Fund"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Capital Formation",
+      "Industry Council"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-06-16T19:14:45.928Z",
+    "updatedAt": "2026-06-16T19:14:45.928Z"
+  },
+  {
+    "id": "81509e45-1707-4d43-937c-3d970723d064",
+    "title": "BAE Systems Commits €50M to European Defence-Tech VC Funds",
+    "url": "https://sifted.eu/articles/bae-systems-invest-lakestar-expeditions-defence-vc",
+    "source": "Sifted",
+    "datePublished": "2026-06-16",
+    "dateAdded": "2026-06-16",
+    "categories": [
+      "International",
+      "Investor News"
+    ],
+    "tags": [
+      "Venture Capital",
+      "NATO",
+      "Industrial Base",
+      "Dual-Use"
+    ],
+    "shortDescription": "BAE Systems is committing €50M split between Swiss VC Lakestar and Warsaw-based Expeditions as the second phase of its Launchpad program to back European defence-tech startups. The investment brings Expeditions' new fund to over €200M in commitments.",
+    "whyItMatters": "A major Western prime putting €50M into European defence VC is a signal, not just a capital deployment story. It validates the emerging European defence-tech ecosystem and gives Lakestar and Expeditions serious firepower. Relevant context for SVDG members tracking where NATO-aligned capital is flowing.",
+    "relevanceScore": 90,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 0
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "Europe",
+    "companyMentions": [
+      "BAE Systems",
+      "Lakestar",
+      "Expeditions"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "International / Australia",
+      "Capital Formation"
+    ],
+    "sponsorNatSec100Relevance": "None",
+    "reactions": {},
+    "createdAt": "2026-06-16T19:14:45.928Z",
+    "updatedAt": "2026-06-16T19:14:45.928Z"
+  },
+  {
+    "id": "7748442f-e174-4524-bfd1-0e9600746da5",
+    "title": "Optera Raises £3M to Relocate to UK and Scale SDA Sensors",
+    "url": "https://payloadspace.com/optera-raises-3m-to-open-new-uk-hq/",
+    "source": "Payload",
+    "datePublished": "2026-06-15",
+    "dateAdded": "2026-06-16",
+    "categories": [
+      "International",
+      "Investor News"
+    ],
+    "tags": [
+      "Space",
+      "Defense Startup",
+      "Dual-Use",
+      "AUKUS"
+    ],
+    "shortDescription": "Australian SDA startup Optera raised £3M ($4M) led by UKI2S (backed by UKSA) to relocate from Australia to the UK and expand its neuromorphic sensor technology for satellite tracking. Investors include the UK's National Security Strategic Investment Fund.",
+    "whyItMatters": "An Australian deep-tech company choosing to plant its flag in the UK — backed by UKSA and NSSIF — is a telling data point for how the AUKUS/Five Eyes ecosystem is shaping capital and talent flows. Neuromorphic SDA sensors are a niche but increasingly important capability for contested-space scenarios.",
+    "relevanceScore": 71,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 0
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "UK",
+    "companyMentions": [
+      "Optera",
+      "Future Planet Capital",
+      "Foresight Group"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "International / Australia"
+    ],
+    "sponsorNatSec100Relevance": "None",
+    "reactions": {},
+    "createdAt": "2026-06-16T19:14:45.928Z",
+    "updatedAt": "2026-06-16T19:14:45.928Z"
+  },
+  {
+    "id": "8d53b2a4-3ecc-46c8-a927-575825ba67ba",
+    "title": "DARPA Solicits Input on Rapidly Rebuilding Satellite Networks After Attack",
+    "url": "https://spacenews.com/darpa-to-explore-ways-to-rapidly-rebuild-satellite-networks-if-attacked/",
+    "source": "SpaceNews",
+    "datePublished": "2026-06-15",
+    "dateAdded": "2026-06-16",
+    "categories": [
+      "Government News"
+    ],
+    "tags": [
+      "Space",
+      "DARPA",
+      "Electronic Warfare",
+      "Cyber"
+    ],
+    "shortDescription": "DARPA released an RFI titled 'Rapid Reconstitution of Space Capabilities' seeking technical concepts and operational strategies to restore satellite infrastructure degraded by anti-satellite weapons, cyberattacks, or debris. Industry responses are due July 8.",
+    "whyItMatters": "DARPA asking this question publicly acknowledges that the US space architecture has a resilience problem worth solving programmatically. The RFI is a signal that reconstitution — not just protection — is becoming a serious priority. Worth tracking for anyone following where the next wave of space security contracts lands.",
+    "relevanceScore": 71,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 0
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Policy"
+    ],
+    "sponsorNatSec100Relevance": "None",
+    "reactions": {},
+    "createdAt": "2026-06-16T19:14:45.928Z",
+    "updatedAt": "2026-06-16T19:14:45.928Z"
   }
 ]
