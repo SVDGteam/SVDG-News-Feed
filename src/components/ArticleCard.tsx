@@ -74,6 +74,7 @@ export default function ArticleCard({ article }: Props) {
   const effectiveScore = getEffectiveScore({ relevanceScore: article.relevanceScore, reactions })
 
   function handleReaction(type: ReactionType, e: React.MouseEvent) {
+    e.stopPropagation()
     if (!userId) return
     _handleReaction(userId, type, e)
   }
