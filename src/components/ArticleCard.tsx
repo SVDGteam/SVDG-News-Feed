@@ -152,8 +152,9 @@ export default function ArticleCard({ article }: Props) {
         <button
           type="button"
           onClick={(e) => handleReaction('like', e)}
-          title="Like — adds 10 points to relevance"
-          className={`flex items-center gap-1 text-[11px] px-2.5 py-0.5 rounded-full border font-semibold transition-colors ${
+          disabled={!userId}
+          title={userId ? 'Like — adds 5 points to relevance' : 'Pick your name in the top right to react to articles'}
+          className={`flex items-center gap-1 text-[11px] px-2.5 py-0.5 rounded-full border font-semibold transition-colors disabled:opacity-40 disabled:cursor-not-allowed ${
             userReaction === 'like'
               ? 'bg-emerald-500/25 border-emerald-400/55 text-emerald-300'
               : 'border-white/10 text-svdg-french-gray hover:border-emerald-400/30 hover:text-emerald-300'
@@ -165,8 +166,9 @@ export default function ArticleCard({ article }: Props) {
         <button
           type="button"
           onClick={(e) => handleReaction('dislike', e)}
-          title="Dislike — subtracts 10 points from relevance"
-          className={`flex items-center gap-1 text-[11px] px-2.5 py-0.5 rounded-full border font-semibold transition-colors ${
+          disabled={!userId}
+          title={userId ? 'Dislike — subtracts 10 points from relevance' : 'Pick your name in the top right to react to articles'}
+          className={`flex items-center gap-1 text-[11px] px-2.5 py-0.5 rounded-full border font-semibold transition-colors disabled:opacity-40 disabled:cursor-not-allowed ${
             userReaction === 'dislike'
               ? 'bg-red-500/25 border-red-400/55 text-red-300'
               : 'border-white/10 text-svdg-french-gray hover:border-red-400/30 hover:text-red-300'

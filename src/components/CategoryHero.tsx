@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import { CSSProperties } from 'react'
 import { CategoryConfig, getDisplayLabel } from '@/data/categories'
 
@@ -16,7 +15,8 @@ export default function CategoryHero({ category }: { category: CategoryConfig })
     >
       <div className="svdg-category-hero__content flex items-center gap-3 md:gap-4 px-5 sm:px-6 md:px-8 max-w-[60%] sm:max-w-[50%] md:max-w-md">
         {isSponsor && (
-          <Image
+          // eslint-disable-next-line @next/next/no-img-element
+          <img
             src="/brand/logomark-white.png"
             alt="SVDG"
             width={287}
