@@ -213,10 +213,10 @@ async function getPageInfo(tabId) {
           organizer:   extractOrganizer(ld?.organizer),
           location:    extractLocation(ld?.location) || meta('og:locality') || meta('og:region') || '',
           format:      extractFormat(ld?.eventAttendanceMode),
-          startDate:   startResult.date || '',
-          startTime:   startResult.time || '',
-          endDate:     endResult.date   || '',
-          endTime:     endResult.time   || '',
+          startDate:   startResult.date  || '',
+          startTime:   startResult.time  || '',
+          endDate:     endResult.date    || '',
+          endTime:     endResult.time    || '',
         }
       },
     })
