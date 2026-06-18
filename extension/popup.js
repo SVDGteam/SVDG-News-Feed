@@ -1,5 +1,5 @@
-const DEFAULT_DISPATCH_BASE = 'https://svdg-news-feed.vercel.app'
-const DEFAULT_CIRCUIT_BASE  = 'https://svdg-merry-go-round.vercel.app'
+const DEFAULT_DISPATCH_BASE = 'https://svdg-dispatch.vercel.app/dispatch'
+const DEFAULT_CIRCUIT_BASE  = 'https://svdg-circuit.vercel.app/circuit'
 
 // Current SVDG sponsors — sourced from svdg-news-feed/src/data/sponsors.ts.
 // Used to surface sponsor presence in the "Why it matters" field.
