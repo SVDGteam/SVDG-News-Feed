@@ -2346,5 +2346,293 @@
     "reactions": {},
     "createdAt": "2026-06-17T19:16:53.214Z",
     "updatedAt": "2026-06-17T19:16:53.214Z"
+  },
+  {
+    "id": "bb6c6490-3298-462c-bb00-e271bb4ec914",
+    "title": "Air Force Awards CCA Production Contracts to Anduril and General Atomics — Four Months Ahead of Schedule",
+    "url": "https://breakingdefense.com/2026/06/air-force-cca-drone-wingman-anduril-general-atomics-selection/",
+    "source": "Breaking Defense",
+    "datePublished": "2026-06-17",
+    "dateAdded": "2026-06-18",
+    "categories": [
+      "Industry News",
+      "Government News"
+    ],
+    "tags": [
+      "Drones",
+      "Autonomy",
+      "DoD",
+      "AI",
+      "Defense Startup"
+    ],
+    "shortDescription": "The Air Force awarded production contracts to Anduril (FQ-44) and General Atomics (FQ-42) for the Collaborative Combat Aircraft program, moving four months ahead of schedule. Contracts cover engineering and manufacturing development plus initial production air vehicles and autonomy software, with plans to field 150+ combat-capable CCAs by the end of the decade.",
+    "whyItMatters": "This is the program going from prototype to factory floor — a major signal that the Air Force is serious about fielding drone wingmen at scale. Anduril's Arsenal 1 factory and GA's manufacturing lines are now officially producing fighter-class drones, and the autonomy competition (Shield AI, RTX-Collins, Anduril's Lattice) is still live.",
+    "relevanceScore": 95,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Anduril",
+      "General Atomics",
+      "Shield AI",
+      "RTX",
+      "Collins Aerospace"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "NatSec100",
+      "Policy"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-06-18T19:15:58.175Z",
+    "updatedAt": "2026-06-18T19:15:58.175Z"
+  },
+  {
+    "id": "e53cc2af-859f-41a4-817a-4a203643469a",
+    "title": "Rune Technologies Wins $99M Army IDIQ for TyrOS Contested Logistics Software",
+    "url": "https://www.afcea.org/signal-media/army-awards-contract-rune-technologies-software-platform",
+    "source": "AFCEA Signal",
+    "datePublished": "2026-06-16",
+    "dateAdded": "2026-06-18",
+    "categories": [
+      "Industry News",
+      "Government News"
+    ],
+    "tags": [
+      "AI",
+      "Defense Startup",
+      "C2",
+      "Software"
+    ],
+    "shortDescription": "The Army awarded Rune Technologies a five-year, $99M IDIQ contract for its TyrOS logistics and sustainment AI platform, structured as an enterprise agreement open to any Army component and joint force partner. Rune is already deployed across the 25th Infantry Division, 4th ID, XVIII Airborne Corps, 1st Cavalry Division, and Marine Corps, and is now the logistics software layer for both NGC2 prototyping teams.",
+    "whyItMatters": "Rune has quietly become the military's default replacement for the whiteboards and Excel sheets that logistics has run on forever. A $99M enterprise IDIQ with joint-force reach is a massive vote of confidence — and confirms contested logistics as one of the hottest corners of the defense tech market right now.",
+    "relevanceScore": 90,
+    "scoreBreakdown": {
+      "recency": 25,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Rune Technologies"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "NatSec100",
+      "Industry Council"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-06-18T19:15:58.175Z",
+    "updatedAt": "2026-06-18T19:15:58.175Z"
+  },
+  {
+    "id": "80ff5517-ba0f-45e7-aed5-f0e9b5d047cc",
+    "title": "True Anomaly Declares Mission X-3 a Success, Clears Path to Full Commissioning",
+    "url": "https://payloadspace.com/true-anomaly-declares-mission-x-3-success/",
+    "source": "Payload",
+    "datePublished": "2026-06-18",
+    "dateAdded": "2026-06-18",
+    "categories": [
+      "Industry News"
+    ],
+    "tags": [
+      "Space",
+      "Autonomy",
+      "Defense Startup",
+      "DoD"
+    ],
+    "shortDescription": "True Anomaly announced that its Jackal autonomous orbital vehicle completed all Mission X-3 test objectives — including end-to-end uncooperative rendezvous and proximity operations — clearing the final hurdle to full commissioning. Following a $650M Series D in April, the company now has major Space Force contract deliveries ahead: VICTUS HAZE, the Andromeda GEO surveillance program, and Golden Dome space-based interceptors.",
+    "whyItMatters": "True Anomaly is one of the most-watched space defense startups, and Mission X-3 validates the core capability that all of those big contracts are counting on. Autonomous RPO — tracking and maneuvering on uncooperative targets — is the heart of space superiority, and they've now demonstrated it works in orbit.",
+    "relevanceScore": 91,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "True Anomaly",
+      "Rocket Lab"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "NatSec100"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-06-18T19:15:58.175Z",
+    "updatedAt": "2026-06-18T19:15:58.175Z"
+  },
+  {
+    "id": "240c869f-3720-4fab-be5e-13e85273ee7e",
+    "title": "Boeing Completes Quantum Entanglement Swapping Ground Tests for Q4S Satellite, 2027 Launch on Track",
+    "url": "https://spacenews.com/boeing-demonstrates-quantum-protocol-in-payload-set-for-2027-launch/",
+    "source": "SpaceNews",
+    "datePublished": "2026-06-18",
+    "dateAdded": "2026-06-18",
+    "categories": [
+      "Industry News",
+      "Sponsor News"
+    ],
+    "tags": [
+      "Space",
+      "Dual-Use",
+      "Sponsor"
+    ],
+    "shortDescription": "Boeing announced it successfully demonstrated high-fidelity quantum entanglement swapping in ground tests of its Q4S satellite payload — the first to achieve this within spacecraft size, weight, and power constraints. The Q4S mission is on track for a 2027 launch and one-year on-orbit demonstration aimed at enabling quantum networking and key distribution from space.",
+    "whyItMatters": "Quantum networking in space is a long game, but Boeing is further along than most people realize. If Q4S works on orbit, it lays the groundwork for truly unbreakable comms and PNT — capabilities DoD has been watching closely. Boeing Ventures is an SVDG sponsor, and this is their most consequential space technology story of the year.",
+    "relevanceScore": 81,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 10
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "sponsorName": "Boeing Ventures",
+    "companyMentions": [
+      "Boeing"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Sponsor Engagement"
+    ],
+    "sponsorNatSec100Relevance": "Direct",
+    "reactions": {},
+    "createdAt": "2026-06-18T19:15:58.175Z",
+    "updatedAt": "2026-06-18T19:15:58.175Z"
+  },
+  {
+    "id": "7aecab7e-edc5-4d95-8a7d-358b2d831f48",
+    "title": "Punchbowl Defense Quarterly: The Pentagon's Drone Modernization Bet — Emil Michael, $54B, and What's Actually Getting Built",
+    "url": "https://punchbowl.news/?p=155813",
+    "source": "Punchbowl News",
+    "datePublished": "2026-06-18",
+    "dateAdded": "2026-06-18",
+    "categories": [
+      "Government News",
+      "Opinions"
+    ],
+    "tags": [
+      "Drones",
+      "Budget",
+      "DoD",
+      "Autonomy",
+      "Congress"
+    ],
+    "shortDescription": "Punchbowl's quarterly Defense edition profiles Emil Michael as the Pentagon's technology modernization point man and breaks down the DoD's drone push — nearly $54B in one-way attack drone spending — alongside the NDAA timeline, the ongoing Anthropic/DoD AI contracting dispute, and the Hill dynamics shaping what actually gets funded.",
+    "whyItMatters": "This is the best single read for where Pentagon modernization is politically. Emil Michael is emerging as the key figure pushing commercial tech into DoD at scale, and the drone budget signals a real shift in how the military sees attritable systems. The Anthropic spat is a useful reminder of how messy AI policy gets when national security and AI safety collide.",
+    "relevanceScore": 95,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Anduril",
+      "Anthropic",
+      "OpenAI",
+      "Microsoft",
+      "Google"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Policy",
+      "Newsletter"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-06-18T19:15:58.175Z",
+    "updatedAt": "2026-06-18T19:15:58.175Z"
+  },
+  {
+    "id": "a23b20cb-4d34-4128-86d5-d105a95b6be0",
+    "title": "Pentagon Actively Courting Venture Capital as Defense Tech Funding Hits Record Highs",
+    "url": "https://www.washingtontimes.com/news/2026/jun/18/investment-defense-tech-soaring-pentagon-encourages-venture/",
+    "source": "Washington Times",
+    "datePublished": "2026-06-18",
+    "dateAdded": "2026-06-18",
+    "categories": [
+      "Investor News",
+      "Government News"
+    ],
+    "tags": [
+      "Venture Capital",
+      "Defense Startup",
+      "DoD",
+      "Industrial Base"
+    ],
+    "shortDescription": "Defense tech venture investment is soaring in 2026, with the Pentagon increasingly engaging directly with venture capital firms to accelerate dual-use technology adoption. The piece covers the record-setting VC inflows and how DoD officials are actively working to lower barriers for nontraditional vendors and investment.",
+    "whyItMatters": "This is the macro backdrop for everything SVDG is doing. When the Pentagon starts hosting VC roundtables and rethinking procurement to welcome startup capital, it creates tailwinds for the entire NatSec100 ecosystem — and signals that the defense-tech investment thesis is maturing from a niche bet into a mainstream asset class.",
+    "relevanceScore": 88,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 8,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "Medium",
+    "workstreams": [
+      "Capital Formation",
+      "Industry Council"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-06-18T19:15:58.175Z",
+    "updatedAt": "2026-06-18T19:15:58.175Z"
   }
 ]
