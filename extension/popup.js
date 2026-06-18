@@ -189,10 +189,11 @@ async function getPageInfo(tabId) {
         function textFallback() {
           const fullText = document.body.innerText || document.body.textContent || ''
 
-          // Try to get date/time from text — picks the anchor whose first
-          // subsequent time is earliest in the day (main event vs pre-event).
           const dates = findAllDates(fullText)
           const timeRe = /\b(\d{1,2}(?::\d{2})?\s*(?:am|pm))\b/gi
+
+          // Pick the anchor whose first subsequent time is earliest in the day —
+          // this finds the main event start rather than a pre-event/reception.
           let bestAnchor = null
           for (const d of dates) {
             const slice = fullText.slice(d.index, d.index + 4000)
@@ -208,7 +209,6 @@ async function getPageInfo(tabId) {
           let date = bestAnchor?.date || ''
           let startTime = bestAnchor?.firstTime || ''
           let endTime = ''
-          const anchorIdx = bestAnchor?.index ?? 0
 
           if (bestAnchor) {
             const afterDate = fullText.slice(bestAnchor.index)
@@ -228,8 +228,11 @@ async function getPageInfo(tabId) {
 
           if (!date) return {}
 
-          // Always extract location from text regardless of how the date was found.
-          const location = extractLocationFromText(fullText, anchorIdx)
+          // Location lives near the FIRST date mention (hero/header), not the
+          // earliest-time anchor (which may be deep in an agenda section).
+          // Search from the first date outward, then fall back to full text.
+          const firstDateIdx = dates.length ? dates[0].index : 0
+          const location = extractLocationFromText(fullText, firstDateIdx)
           return { date, startTime, endTime, location }
         }
 
