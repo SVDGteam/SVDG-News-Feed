@@ -91,6 +91,90 @@ async function getPageInfo(tabId) {
         const start = parseISO(ld?.startDate)
         const end   = parseISO(ld?.endDate)
 
+        // ── Text-based date fallback ──────────────────────────────
+        // Used when the page has no JSON-LD event schema.
+        function parseDateFromText(str) {
+          if (!str) return {}
+          const MONTHS = { january:1,february:2,march:3,april:4,may:5,june:6,
+            july:7,august:8,september:9,october:10,november:11,december:12,
+            jan:1,feb:2,mar:3,apr:4,jun:6,jul:7,aug:8,sep:9,oct:10,nov:11,dec:12 }
+
+          // "November 4, 2026" or "Nov 4, 2026" or "November 4-5, 2026"
+          const m1 = str.match(/\b(january|february|march|april|may|june|july|august|september|october|november|december|jan|feb|mar|apr|jun|jul|aug|sep|oct|nov|dec)\w*\.?\s+(\d{1,2})(?:-\d{1,2})?,?\s+(\d{4})\b/i)
+          if (m1) {
+            const mo = String(MONTHS[m1[1].toLowerCase().slice(0,3)]).padStart(2,'0')
+            const dy = m1[2].padStart(2,'0')
+            return { date: `${m1[3]}-${mo}-${dy}` }
+          }
+          // "4 November 2026"
+          const m2 = str.match(/\b(\d{1,2})\s+(january|february|march|april|may|june|july|august|september|october|november|december)\w*\.?\s+(\d{4})\b/i)
+          if (m2) {
+            const mo = String(MONTHS[m2[2].toLowerCase().slice(0,3)]).padStart(2,'0')
+            return { date: `${m2[3]}-${mo}-${m2[1].padStart(2,'0')}` }
+          }
+          // "2026-11-04" or "11/04/2026" or "11-04-2026"
+          const m3 = str.match(/\b(\d{4})-(\d{2})-(\d{2})\b/)
+          if (m3) return { date: `${m3[1]}-${m3[2]}-${m3[3]}` }
+          const m4 = str.match(/\b(\d{1,2})[\/\-](\d{1,2})[\/\-](\d{4})\b/)
+          if (m4) return { date: `${m4[3]}-${m4[1].padStart(2,'0')}-${m4[2].padStart(2,'0')}` }
+          return {}
+        }
+
+        function parseTimeFromText(str) {
+          if (!str) return {}
+          // "9:00 AM", "9am", "09:00"
+          const m = str.match(/\b(\d{1,2})(?::(\d{2}))?\s*(am|pm)\b/i)
+          if (m) {
+            let h = parseInt(m[1])
+            const mins = m[2] || '00'
+            const isPM = m[3].toLowerCase() === 'pm'
+            if (isPM && h < 12) h += 12
+            if (!isPM && h === 12) h = 0
+            return { time: `${String(h).padStart(2,'0')}:${mins}` }
+          }
+          // 24h: "09:00"
+          const m2 = str.match(/\b([01]\d|2[0-3]):([0-5]\d)\b/)
+          if (m2) return { time: `${m2[1]}:${m2[2]}` }
+          return {}
+        }
+
+        function textFallback() {
+          // 1. <time> elements with datetime attribute
+          for (const el of document.querySelectorAll('time[datetime]')) {
+            const dt = el.getAttribute('datetime')
+            const r = parseISO(dt)
+            if (r.date) return r
+          }
+          // 2. Elements whose class/id hints at date content
+          const hints = 'date,time,when,schedule,datetime,event-date,event-time,start-date'
+          for (const hint of hints.split(',')) {
+            for (const el of document.querySelectorAll(`[class*="${hint}"], [id*="${hint}"]`)) {
+              const t = el.textContent.trim()
+              const d = parseDateFromText(t)
+              if (d.date) {
+                const tm = parseTimeFromText(t)
+                return { date: d.date, time: tm.time || '' }
+              }
+            }
+          }
+          // 3. Scan visible text in headings, paragraphs, and list items near top
+          const candidates = [...document.querySelectorAll('h1,h2,h3,p,li,span,div')]
+            .slice(0, 120)
+            .map(el => el.childNodes.length <= 3 ? el.textContent.trim() : '')
+            .filter(t => t.length > 4 && t.length < 200)
+          for (const t of candidates) {
+            const d = parseDateFromText(t)
+            if (d.date) {
+              const tm = parseTimeFromText(t)
+              return { date: d.date, time: tm.time || '' }
+            }
+          }
+          return {}
+        }
+
+        const startResult = start.date ? start : textFallback()
+        const endResult   = end.date   ? end   : {}
+
         return {
           title:       ld?.name || meta('og:title') || '',
           description: (window.getSelection?.().toString().trim() ||
@@ -98,10 +182,10 @@ async function getPageInfo(tabId) {
           organizer:   extractOrganizer(ld?.organizer),
           location:    extractLocation(ld?.location) || meta('og:locality') || meta('og:region') || '',
           format:      extractFormat(ld?.eventAttendanceMode),
-          startDate:   start.date || '',
-          startTime:   start.time || '',
-          endDate:     end.date   || '',
-          endTime:     end.time   || '',
+          startDate:   startResult.date || '',
+          startTime:   startResult.time || '',
+          endDate:     endResult.date   || '',
+          endTime:     endResult.time   || '',
         }
       },
     })
