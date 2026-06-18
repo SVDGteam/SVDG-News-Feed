@@ -166,9 +166,19 @@ async function getPageInfo(tabId) {
         function extractLocationFromText(text, anchorIdx) {
           // Look in a window around + after the anchor
           const window = text.slice(Math.max(0, anchorIdx - 200), anchorIdx + 1500)
-          // "City[, City], ST" e.g. "Washington, DC" or "San Francisco, CA"
-          const m = window.match(/\b([A-Z][a-zA-Z]+(?: [A-Z][a-zA-Z]+)*),\s*([A-Z]{2})\b/)
-          if (m) return `${m[1]}, ${m[2]}`
+          // Only match real US state/territory abbreviations to avoid false positives
+          // like "Elizabeth Graham, VP" where VP looks like a two-letter state code.
+          const STATES = new Set([
+            'AL','AK','AZ','AR','CA','CO','CT','DE','FL','GA','HI','ID','IL','IN',
+            'IA','KS','KY','LA','ME','MD','MA','MI','MN','MS','MO','MT','NE','NV',
+            'NH','NJ','NM','NY','NC','ND','OH','OK','OR','PA','RI','SC','SD','TN',
+            'TX','UT','VT','VA','WA','WV','WI','WY','DC','PR','GU','VI',
+          ])
+          const re = /\b([A-Z][a-zA-Z]+(?: [A-Z][a-zA-Z]+)*),\s*([A-Z]{2})\b/g
+          let m
+          while ((m = re.exec(window)) !== null) {
+            if (STATES.has(m[2])) return `${m[1]}, ${m[2]}`
+          }
           return ''
         }
 
