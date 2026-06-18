@@ -1,15 +1,21 @@
 const DEFAULT_DISPATCH_BASE = 'https://svdg-news-feed.vercel.app'
 const DEFAULT_CIRCUIT_BASE  = 'https://svdg-merry-go-round.vercel.app'
 
-// Known SVDG sponsors — update this list as the program grows.
+// Current SVDG sponsors — sourced from svdg-news-feed/src/data/sponsors.ts.
 // Used to surface sponsor presence in the "Why it matters" field.
 const SVDG_SPONSORS = [
-  'Booz Allen', 'SAIC', 'Paladin Capital', 'Gunderson Dettmer',
-  'Pillsbury', 'Cooley', 'Wilson Sonsini', 'Lowenstein Sandler',
-  'DataTribe', 'IQT', 'In-Q-Tel', 'Shield Capital',
-  'Lockheed Martin', 'Northrop Grumman', 'Raytheon', 'L3Harris',
-  'General Atomics', 'Anduril', 'Shield AI', 'Rebellion Defense',
-  'Red Cell Partners', 'Lavrock', 'ABS Capital', 'Updata Partners',
+  'Amazon Web Services', 'ACMI', 'Antares Industries', 'Applied Energetics',
+  'ATI', 'Baird', 'Boeing Ventures', 'Booz Allen Hamilton',
+  'Cape', 'CesiumAstro', 'ConductorAI', 'Crosslink Capital',
+  'CSC Leasing', 'Fenwick and West LLP', 'Forterra', 'Franklin Templeton Investments',
+  'Govini', 'Holland & Knight', 'Integrate', 'Jama Software',
+  'JPMorgan Chase & Co.', 'Lila Sciences', 'Lockheed Martin Ventures', 'Machina Labs',
+  'Mattermost', 'Microsoft', 'Modern Intelligence', 'Modern Venture Partners',
+  'NightDragon', 'Nominal', 'Onebrief', 'Picogrid',
+  'Pillsbury', 'Playground Global', 'Pryzm', 'PsiQuantum',
+  'Real-Time Innovations', 'Red Cell Partners', 'REGENT', 'RTX Ventures',
+  'Second Front Systems', 'Vannevar Labs', 'Virtualitics',
+  'Washington Harbour Partners', 'webAI', 'X-Bow Systems',
   'Silicon Valley Defense Group', 'SVDG',
 ]
 
