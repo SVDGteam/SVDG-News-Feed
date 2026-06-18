@@ -187,21 +187,12 @@ async function getPageInfo(tabId) {
         }
 
         function textFallback() {
-          // 1. <time datetime> elements
-          for (const el of document.querySelectorAll('time[datetime]')) {
-            const r = parseISO(el.getAttribute('datetime'))
-            if (r.date) return r
-          }
-
           const fullText = document.body.innerText || document.body.textContent || ''
+
+          // Try to get date/time from text — picks the anchor whose first
+          // subsequent time is earliest in the day (main event vs pre-event).
           const dates = findAllDates(fullText)
-          if (!dates.length) return {}
-
           const timeRe = /\b(\d{1,2}(?::\d{2})?\s*(?:am|pm))\b/gi
-
-          // For each date anchor, find the first time following it.
-          // Pick the anchor whose first time is EARLIEST in the day —
-          // main events start in the morning; pre-events/receptions start PM.
           let bestAnchor = null
           for (const d of dates) {
             const slice = fullText.slice(d.index, d.index + 4000)
@@ -214,20 +205,32 @@ async function getPageInfo(tabId) {
             }
           }
 
-          if (!bestAnchor) return {}
+          let date = bestAnchor?.date || ''
+          let startTime = bestAnchor?.firstTime || ''
+          let endTime = ''
+          const anchorIdx = bestAnchor?.index ?? 0
 
-          const afterDate = fullText.slice(bestAnchor.index)
-          const allTimes = [...afterDate.matchAll(/\b(\d{1,2}(?::\d{2})?\s*(?:am|pm))\b/gi)]
-          const startTime = bestAnchor.firstTime
+          if (bestAnchor) {
+            const afterDate = fullText.slice(bestAnchor.index)
+            const allTimes = [...afterDate.matchAll(/\b(\d{1,2}(?::\d{2})?\s*(?:am|pm))\b/gi)]
+            const endMarkers = [...afterDate.matchAll(/\b(\d{1,2}(?::\d{2})?\s*(?:am|pm))\b[^\n]{0,40}(?:concludes?|ends?\b|closing|close\b|end of event|doors close)/gi)]
+            endTime = endMarkers.length > 0
+              ? parseTime(endMarkers[endMarkers.length - 1][1])
+              : allTimes.length > 1 ? parseTime(allTimes[allTimes.length - 1][1]) : ''
+          }
 
-          const endMarkers = [...afterDate.matchAll(/\b(\d{1,2}(?::\d{2})?\s*(?:am|pm))\b[^\n]{0,40}(?:concludes?|ends?\b|closing|close\b|end of event|doors close)/gi)]
-          const endTime = endMarkers.length > 0
-            ? parseTime(endMarkers[endMarkers.length - 1][1])
-            : allTimes.length > 1 ? parseTime(allTimes[allTimes.length - 1][1]) : ''
+          // <time datetime> elements are more reliable for date/time — override
+          // text-parsed values if found, but keep going to extract location.
+          for (const el of document.querySelectorAll('time[datetime]')) {
+            const r = parseISO(el.getAttribute('datetime'))
+            if (r.date) { date = r.date; if (r.time) startTime = r.time; break }
+          }
 
-          const location = extractLocationFromText(fullText, bestAnchor.index)
+          if (!date) return {}
 
-          return { date: bestAnchor.date, startTime, endTime, location }
+          // Always extract location from text regardless of how the date was found.
+          const location = extractLocationFromText(fullText, anchorIdx)
+          return { date, startTime, endTime, location }
         }
 
         // Always run textFallback — even when JSON-LD has dates, we still need
