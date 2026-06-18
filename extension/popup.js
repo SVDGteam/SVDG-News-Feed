@@ -173,7 +173,7 @@ async function getPageInfo(tabId) {
         }
 
         const startResult = start.date ? start : textFallback()
-        const endResult   = end.date   ? end   : {}
+        const endResult   = end.date   ? end   : { date: startResult.date || '', time: '' }
 
         return {
           title:       ld?.name || meta('og:title') || '',
