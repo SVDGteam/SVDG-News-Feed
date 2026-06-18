@@ -83,9 +83,10 @@ async function getPageInfo(tabId) {
         function extractLocation(loc) {
           if (!loc) return ''
           const l = Array.isArray(loc) ? loc[0] : loc
-          if (typeof l === 'string') return l
+          if (typeof l === 'string') return TITLE_RE.test(l) ? '' : l
           if (l['@type'] === 'VirtualLocation') return 'Online'
-          if (l.name) return l.name
+          // l.name can be a speaker/organizer name on badly-structured pages — validate it
+          if (l.name && !TITLE_RE.test(l.name)) return l.name
           const a = l.address
           if (!a) return ''
           if (typeof a === 'string') return a
@@ -105,6 +106,9 @@ async function getPageInfo(tabId) {
           const o = Array.isArray(org) ? org[0] : org
           return typeof o === 'string' ? o : (o.name || '')
         }
+
+        // Job-title words that should never appear in a real location string.
+        const TITLE_RE = /\b(VP|CEO|CTO|CFO|COO|CIO|SVP|EVP|President|Director|Manager|Officer|Partner|Principal|Founder|Head|Chair)\b/
 
         const start = parseISO(ld?.startDate)
         const end   = parseISO(ld?.endDate)
@@ -226,7 +230,9 @@ async function getPageInfo(tabId) {
           return { date: bestAnchor.date, startTime, endTime, location }
         }
 
-        const fallback = (!start.date || !start.time) ? textFallback() : {}
+        // Always run textFallback — even when JSON-LD has dates, we still need
+        // the text-based location extraction as a validated fallback.
+        const fallback = textFallback()
         const startResult = {
           date: start.date || fallback.date || '',
           time: start.time || fallback.startTime || '',
@@ -239,6 +245,15 @@ async function getPageInfo(tabId) {
         // ── SVDG sponsor scan ─────────────────────────────────
         const pageText = document.body.innerText || document.body.textContent || ''
 
+        // Collect image alt text + cleaned filenames for logo-based sponsor detection
+        const imageText = [...document.querySelectorAll('img')]
+          .flatMap(img => [
+            img.alt || '',
+            (img.src || '').split('/').pop().replace(/\?.*$/, '').replace(/\.[^.]+$/, '').replace(/[-_]/g, ' '),
+          ])
+          .filter(Boolean)
+          .join(' | ')
+
         return {
           title:       ld?.name || meta('og:title') || '',
           description: (window.getSelection?.().toString().trim() ||
@@ -250,9 +265,10 @@ async function getPageInfo(tabId) {
           startTime:   startResult.time  || '',
           endDate:     endResult.date    || '',
           endTime:     endResult.time    || '',
-          // Pass raw page text back — sponsor matching done in popup context
-          // where SVDG_SPONSORS is defined (can't pass the array into executeScript easily).
+          // Pass raw page text + image metadata back — sponsor matching done in popup
+          // context where SVDG_SPONSORS is defined.
           pageText:    pageText.slice(0, 8000),
+          imageText:   imageText.slice(0, 4000),
         }
       },
     })
@@ -412,11 +428,16 @@ document.querySelectorAll('.open-options').forEach(el => {
 // ── Why it matters generator ───────────────────────────────
 function buildWhyItMatters(pageInfo, title) {
   const text = pageInfo.pageText || ''
+  const imgText = pageInfo.imageText || ''
 
-  // Find SVDG sponsors mentioned on the page
-  const found = SVDG_SPONSORS.filter(s =>
-    new RegExp(`\\b${s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\b`, 'i').test(text)
-  )
+  // Match sponsors against page text AND image alt/filenames (catches logo-only sponsor grids)
+  const found = SVDG_SPONSORS.filter(s => {
+    const pattern = new RegExp(`\\b${s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\b`, 'i')
+    if (pattern.test(text)) return true
+    // Looser match for image filenames (no word boundaries, spaces collapsed)
+    const normalized = s.toLowerCase().replace(/\s+/g, '')
+    return imgText.toLowerCase().replace(/\s+/g, '').includes(normalized)
+  })
 
   // Detect mission-relevant keywords
   const MISSION_KEYWORDS = [
@@ -431,16 +452,6 @@ function buildWhyItMatters(pageInfo, title) {
   )
 
   const parts = []
-
-  // Short event summary from description or title
-  const desc = (pageInfo.description || '').trim()
-  if (desc) {
-    // Trim to first sentence or 120 chars
-    const firstSentence = desc.match(/^[^.!?]+[.!?]/)
-    parts.push(firstSentence ? firstSentence[0].trim() : desc.slice(0, 120).trim())
-  } else {
-    parts.push(`${title} is an industry event`)
-  }
 
   // Mission angle
   const isDefense = matchedKeywords.some(k =>
