@@ -1,6 +1,18 @@
 const DEFAULT_DISPATCH_BASE = 'https://svdg-news-feed.vercel.app'
 const DEFAULT_CIRCUIT_BASE  = 'https://svdg-merry-go-round.vercel.app'
 
+// Known SVDG sponsors — update this list as the program grows.
+// Used to surface sponsor presence in the "Why it matters" field.
+const SVDG_SPONSORS = [
+  'Booz Allen', 'SAIC', 'Paladin Capital', 'Gunderson Dettmer',
+  'Pillsbury', 'Cooley', 'Wilson Sonsini', 'Lowenstein Sandler',
+  'DataTribe', 'IQT', 'In-Q-Tel', 'Shield Capital',
+  'Lockheed Martin', 'Northrop Grumman', 'Raytheon', 'L3Harris',
+  'General Atomics', 'Anduril', 'Shield AI', 'Rebellion Defense',
+  'Red Cell Partners', 'Lavrock', 'ABS Capital', 'Updata Partners',
+  'Silicon Valley Defense Group', 'SVDG',
+]
+
 const DISPATCH_CATEGORIES = [
   'Industry News', 'Investor News', 'Government News',
   'Sponsor News', 'Opinions', 'International',
@@ -206,6 +218,9 @@ async function getPageInfo(tabId) {
           time: end.time || fallback.endTime || '',
         }
 
+        // ── SVDG sponsor scan ─────────────────────────────────
+        const pageText = document.body.innerText || document.body.textContent || ''
+
         return {
           title:       ld?.name || meta('og:title') || '',
           description: (window.getSelection?.().toString().trim() ||
@@ -217,6 +232,9 @@ async function getPageInfo(tabId) {
           startTime:   startResult.time  || '',
           endDate:     endResult.date    || '',
           endTime:     endResult.time    || '',
+          // Pass raw page text back — sponsor matching done in popup context
+          // where SVDG_SPONSORS is defined (can't pass the array into executeScript easily).
+          pageText:    pageText.slice(0, 8000),
         }
       },
     })
@@ -373,6 +391,67 @@ document.querySelectorAll('.open-options').forEach(el => {
   })
 })
 
+// ── Why it matters generator ───────────────────────────────
+function buildWhyItMatters(pageInfo, title) {
+  const text = pageInfo.pageText || ''
+
+  // Find SVDG sponsors mentioned on the page
+  const found = SVDG_SPONSORS.filter(s =>
+    new RegExp(`\\b${s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\b`, 'i').test(text)
+  )
+
+  // Detect mission-relevant keywords
+  const MISSION_KEYWORDS = [
+    'defense', 'national security', 'dual-use', 'dual use', 'intelligence',
+    'dod', 'department of defense', 'pentagon', 'darpa', 'diu',
+    'venture', 'venture capital', 'startup', 'founder', 'emerging tech',
+    'space', 'cyber', 'autonomy', 'ai', 'artificial intelligence',
+    'drone', 'unmanned', 'hypersonic', 'electronic warfare',
+  ]
+  const matchedKeywords = MISSION_KEYWORDS.filter(k =>
+    text.toLowerCase().includes(k)
+  )
+
+  const parts = []
+
+  // Short event summary from description or title
+  const desc = (pageInfo.description || '').trim()
+  if (desc) {
+    // Trim to first sentence or 120 chars
+    const firstSentence = desc.match(/^[^.!?]+[.!?]/)
+    parts.push(firstSentence ? firstSentence[0].trim() : desc.slice(0, 120).trim())
+  } else {
+    parts.push(`${title} is an industry event`)
+  }
+
+  // Mission angle
+  const isDefense = matchedKeywords.some(k =>
+    ['defense','national security','dual-use','dual use','dod','pentagon','darpa','diu'].includes(k)
+  )
+  const isVC = matchedKeywords.some(k =>
+    ['venture','venture capital','startup','founder'].includes(k)
+  )
+  if (isDefense && isVC) {
+    parts.push('Sits at the intersection of defense tech and venture capital — directly in SVDG\'s lane.')
+  } else if (isDefense) {
+    parts.push('Defense and national security focus aligns with SVDG\'s mission.')
+  } else if (isVC) {
+    parts.push('Venture and founder community relevant to SVDG\'s capital formation work.')
+  }
+
+  // Sponsor callout
+  if (found.length > 0) {
+    const names = found.filter(s => s !== 'Silicon Valley Defense Group' && s !== 'SVDG')
+    const svdgSelf = found.some(s => s === 'Silicon Valley Defense Group' || s === 'SVDG')
+    if (svdgSelf) parts.push('SVDG is directly mentioned or represented.')
+    if (names.length > 0) {
+      parts.push(`SVDG sponsors on the page: ${names.slice(0, 5).join(', ')}.`)
+    }
+  }
+
+  return parts.join(' ')
+}
+
 // ── Init ───────────────────────────────────────────────────
 async function init() {
   renderCategories()
@@ -408,6 +487,8 @@ async function init() {
     const opt = [...(c.format?.options || [])].find(o => o.value === pageInfo.format)
     if (opt) c.format.value = pageInfo.format
   }
+  const whyItMatters = buildWhyItMatters(pageInfo, c.title.value)
+  if (whyItMatters) c.notes.value = whyItMatters
 }
 
 init()
