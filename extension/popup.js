@@ -103,46 +103,15 @@ async function getPageInfo(tabId) {
         const start = parseISO(ld?.startDate)
         const end   = parseISO(ld?.endDate)
 
-        // ── Text-based date + time fallback ──────────────────────
+        // ── Text-based date + time + location fallback ────────────
         const MONTHS = { january:1,february:2,march:3,april:4,may:5,june:6,
           july:7,august:8,september:9,october:10,november:11,december:12,
           jan:1,feb:2,mar:3,apr:4,jun:6,jul:7,aug:8,sep:9,oct:10,nov:11,dec:12 }
 
-        function parseDateAt(str, idx) {
-          // Returns { date, index } of first date found at or after idx in str
-          const patterns = [
-            // "November 4, 2026" / "Nov 4-5, 2026"
-            /(january|february|march|april|may|june|july|august|september|october|november|december|jan|feb|mar|apr|jun|jul|aug|sep|oct|nov|dec)\w*\.?\s+(\d{1,2})(?:-\d{1,2})?,?\s+(\d{4})/gi,
-            // "4 November 2026"
-            /(\d{1,2})\s+(january|february|march|april|may|june|july|august|september|october|november|december)\w*\.?\s+(\d{4})/gi,
-            // "2026-11-04"
-            /(\d{4})-(\d{2})-(\d{2})/g,
-            // "11/04/2026"
-            /(\d{1,2})\/(\d{1,2})\/(\d{4})/g,
-          ]
-          let best = null
-          const sub = str.slice(idx)
-          for (const re of patterns) {
-            re.lastIndex = 0
-            const m = re.exec(sub)
-            if (!m) continue
-            let date
-            const t = m[0].toLowerCase()
-            if (/^\d{4}-/.test(m[0])) {
-              date = `${m[1]}-${m[2]}-${m[3]}`
-            } else if (/^\d{1,2}\//.test(m[0])) {
-              date = `${m[3]}-${m[1].padStart(2,'0')}-${m[2].padStart(2,'0')}`
-            } else if (/^\d{1,2}\s/.test(m[0])) {
-              const mo = String(MONTHS[m[2].toLowerCase().slice(0,3)]).padStart(2,'0')
-              date = `${m[3]}-${mo}-${m[1].padStart(2,'0')}`
-            } else {
-              const mo = String(MONTHS[m[1].toLowerCase().slice(0,3)]).padStart(2,'0')
-              date = `${m[3]}-${mo}-${m[2].padStart(2,'0')}`
-            }
-            const absIdx = idx + m.index
-            if (!best || absIdx < best.index) best = { date, index: absIdx }
-          }
-          return best
+        function inferYear(month, day) {
+          const now = new Date()
+          const candidate = new Date(now.getFullYear(), month - 1, day)
+          return candidate < new Date(now - 30*24*60*60*1000) ? now.getFullYear() + 1 : now.getFullYear()
         }
 
         function parseTime(str) {
@@ -159,6 +128,44 @@ async function getPageInfo(tabId) {
           return m2 ? `${m2[1]}:${m2[2]}` : ''
         }
 
+        function findAllDates(text) {
+          // Returns array of { date, index } for every date found in text
+          const MN = 'january|february|march|april|may|june|july|august|september|october|november|december|jan|feb|mar|apr|jun|jul|aug|sep|oct|nov|dec'
+          const results = []
+          const add = (date, index) => { if (date) results.push({ date, index }) }
+
+          // "Month Day, Year"
+          let re = new RegExp(`(${MN})\\w*\\.?\\s+(\\d{1,2})(?:-\\d{1,2})?,?\\s+(\\d{4})`, 'gi')
+          for (const m of text.matchAll(re)) {
+            const mo = String(MONTHS[m[1].toLowerCase().slice(0,3)]).padStart(2,'0')
+            add(`${m[3]}-${mo}-${m[2].padStart(2,'0')}`, m.index)
+          }
+          // "Month Day" (no year — infer)
+          re = new RegExp(`(${MN})\\w*\\.?\\s+(\\d{1,2})\\b(?![\\s,]*\\d{4})`, 'gi')
+          for (const m of text.matchAll(re)) {
+            const mo = parseInt(MONTHS[m[1].toLowerCase().slice(0,3)])
+            const dy = parseInt(m[2])
+            add(`${inferYear(mo,dy)}-${String(mo).padStart(2,'0')}-${String(dy).padStart(2,'0')}`, m.index)
+          }
+          // ISO "2026-11-04"
+          re = /\b(\d{4})-(\d{2})-(\d{2})\b/g
+          for (const m of text.matchAll(re)) add(`${m[1]}-${m[2]}-${m[3]}`, m.index)
+          // "11/04/2026"
+          re = /\b(\d{1,2})\/(\d{1,2})\/(\d{4})\b/g
+          for (const m of text.matchAll(re)) add(`${m[3]}-${m[1].padStart(2,'0')}-${m[2].padStart(2,'0')}`, m.index)
+
+          return results.sort((a, b) => a.index - b.index)
+        }
+
+        function extractLocationFromText(text, anchorIdx) {
+          // Look in a window around + after the anchor
+          const window = text.slice(Math.max(0, anchorIdx - 200), anchorIdx + 1500)
+          // "City[, City], ST" e.g. "Washington, DC" or "San Francisco, CA"
+          const m = window.match(/\b([A-Z][a-zA-Z]+(?: [A-Z][a-zA-Z]+)*),\s*([A-Z]{2})\b/)
+          if (m) return `${m[1]}, ${m[2]}`
+          return ''
+        }
+
         function textFallback() {
           // 1. <time datetime> elements
           for (const el of document.querySelectorAll('time[datetime]')) {
@@ -166,46 +173,41 @@ async function getPageInfo(tabId) {
             if (r.date) return r
           }
 
-          // 2. Work on the full visible page text — gives us positional context
           const fullText = document.body.innerText || document.body.textContent || ''
+          const dates = findAllDates(fullText)
+          if (!dates.length) return {}
 
-          // Find the first date, then look for a LATER date that is not a recap/past date
-          // Strategy: prefer dates that appear earlier and have times nearby
-          const firstDate = parseDateAt(fullText, 0)
-          if (!firstDate) {
-            // Check class/id hints as last resort
-            for (const hint of ['date','when','schedule','event-date','start-date']) {
-              for (const el of document.querySelectorAll(`[class*="${hint}"],[id*="${hint}"]`)) {
-                const t = el.textContent.trim()
-                const d = parseDateAt(t, 0)
-                if (d) return { date: d.date }
-              }
-            }
-            return {}
-          }
-
-          // Slice text from where we found the date onwards
-          const afterDate = fullText.slice(firstDate.index)
-
-          // Extract all times that appear in that section
           const timeRe = /\b(\d{1,2}(?::\d{2})?\s*(?:am|pm))\b/gi
-          const allTimes = [...afterDate.matchAll(timeRe)]
 
-          // Start time = first time after the date
-          const startTime = allTimes.length > 0 ? parseTime(allTimes[0][1]) : ''
-
-          // End time: prefer a time right before "concludes/ends/closing/close"
-          const endMarkerRe = /\b(\d{1,2}(?::\d{2})?\s*(?:am|pm))\b[^\n]{0,40}(?:concludes?|ends?\b|closing|close\b|end of event|doors close)/gi
-          const endMarkers = [...afterDate.matchAll(endMarkerRe)]
-          let endTime = ''
-          if (endMarkers.length > 0) {
-            endTime = parseTime(endMarkers[endMarkers.length - 1][1])
-          } else if (allTimes.length > 1) {
-            // Fall back: last time in the section
-            endTime = parseTime(allTimes[allTimes.length - 1][1])
+          // For each date anchor, find the first time following it.
+          // Pick the anchor whose first time is EARLIEST in the day —
+          // main events start in the morning; pre-events/receptions start PM.
+          let bestAnchor = null
+          for (const d of dates) {
+            const slice = fullText.slice(d.index, d.index + 4000)
+            timeRe.lastIndex = 0
+            const tm = timeRe.exec(slice)
+            const firstTime = tm ? parseTime(tm[1]) : ''
+            const firstHour = firstTime ? parseInt(firstTime) : 25
+            if (!bestAnchor || firstHour < bestAnchor.firstHour) {
+              bestAnchor = { ...d, firstTime, firstHour }
+            }
           }
 
-          return { date: firstDate.date, startTime, endTime }
+          if (!bestAnchor) return {}
+
+          const afterDate = fullText.slice(bestAnchor.index)
+          const allTimes = [...afterDate.matchAll(/\b(\d{1,2}(?::\d{2})?\s*(?:am|pm))\b/gi)]
+          const startTime = bestAnchor.firstTime
+
+          const endMarkers = [...afterDate.matchAll(/\b(\d{1,2}(?::\d{2})?\s*(?:am|pm))\b[^\n]{0,40}(?:concludes?|ends?\b|closing|close\b|end of event|doors close)/gi)]
+          const endTime = endMarkers.length > 0
+            ? parseTime(endMarkers[endMarkers.length - 1][1])
+            : allTimes.length > 1 ? parseTime(allTimes[allTimes.length - 1][1]) : ''
+
+          const location = extractLocationFromText(fullText, bestAnchor.index)
+
+          return { date: bestAnchor.date, startTime, endTime, location }
         }
 
         const fallback = (!start.date || !start.time) ? textFallback() : {}
@@ -226,7 +228,7 @@ async function getPageInfo(tabId) {
           description: (window.getSelection?.().toString().trim() ||
                         ld?.description || meta('description') || meta('og:description') || '').slice(0, 500),
           organizer:   extractOrganizer(ld?.organizer),
-          location:    extractLocation(ld?.location) || meta('og:locality') || meta('og:region') || '',
+          location:    extractLocation(ld?.location) || meta('og:locality') || meta('og:region') || fallback?.location || '',
           format:      extractFormat(ld?.eventAttendanceMode),
           startDate:   startResult.date  || '',
           startTime:   startResult.time  || '',
