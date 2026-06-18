@@ -138,11 +138,21 @@ async function getPageInfo(tabId) {
           return m2 ? `${m2[1]}:${m2[2]}` : ''
         }
 
+        // Keywords that signal a date is a publication/article date, not an event date.
+        const PUB_RE = /\b(published|posted|updated|written|date[d]?|by)\s*:?\s*$/i
+
         function findAllDates(text) {
           // Returns array of { date, index } for every date found in text
           const MN = 'january|february|march|april|may|june|july|august|september|october|november|december|jan|feb|mar|apr|jun|jul|aug|sep|oct|nov|dec'
           const results = []
-          const add = (date, index) => { if (date) results.push({ date, index }) }
+
+          function add(date, index) {
+            if (!date) return
+            // Skip dates immediately preceded by publication keywords (within 80 chars)
+            const before = text.slice(Math.max(0, index - 80), index)
+            if (PUB_RE.test(before.trimEnd())) return
+            results.push({ date, index })
+          }
 
           // "Month Day, Year"
           let re = new RegExp(`(${MN})\\w*\\.?\\s+(\\d{1,2})(?:-\\d{1,2})?,?\\s+(\\d{4})`, 'gi')
