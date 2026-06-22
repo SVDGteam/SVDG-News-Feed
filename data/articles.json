@@ -2634,5 +2634,329 @@
     "reactions": {},
     "createdAt": "2026-06-18T19:15:58.175Z",
     "updatedAt": "2026-06-18T19:15:58.175Z"
+  },
+  {
+    "id": "41111f5a-e8d7-4b67-8f65-9db213af0b36",
+    "title": "PsiQuantum Breaks Ground on Australian Site for Utility-Scale Quantum Computer",
+    "url": "https://www.hpcwire.com/off-the-wire/psiquantum-breaks-ground-on-australian-site-for-utility-scale-quantum-computer/",
+    "source": "HPCwire",
+    "datePublished": "2026-06-17",
+    "dateAdded": "2026-06-21",
+    "categories": [
+      "Sponsor News",
+      "International"
+    ],
+    "tags": [
+      "Sponsor",
+      "Manufacturing",
+      "Quantum"
+    ],
+    "shortDescription": "PsiQuantum broke ground at its Moreton Bay Central site in Queensland, kicking off construction of what it's billing as the world's first utility-scale, fault-tolerant photonic quantum computer. Australian and Queensland officials joined the ceremony; the build preps for a Linde cryoplant ordered in 2024, with delivery expected in H2 2027.",
+    "whyItMatters": "This is one of SVDG's own sponsors putting a shovel in the ground on a genuinely massive, multi-year capital project in an AUKUS partner country — worth flagging to anyone tracking PsiQuantum or allied quantum capability builds.",
+    "relevanceScore": 95,
+    "scoreBreakdown": {
+      "recency": 25,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 10
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "Australia",
+    "sponsorName": "PsiQuantum",
+    "companyMentions": [
+      "PsiQuantum"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Sponsor Engagement",
+      "International / Australia"
+    ],
+    "sponsorNatSec100Relevance": "Direct",
+    "reactions": {},
+    "createdAt": "2026-06-21T14:22:48.213Z",
+    "updatedAt": "2026-06-21T14:22:48.213Z"
+  },
+  {
+    "id": "f0920596-5bd2-4626-9a0f-150ab2438b80",
+    "title": "Dawn Aerospace Raises $25M Series B for Aurora Spaceplane",
+    "url": "https://payloadspace.com/dawn-aerospace-raises-25m-series-b/",
+    "source": "Payload",
+    "datePublished": "2026-06-16",
+    "dateAdded": "2026-06-21",
+    "categories": [
+      "Investor News",
+      "International"
+    ],
+    "tags": [
+      "Venture Capital",
+      "Space",
+      "Hypersonics"
+    ],
+    "shortDescription": "Dawn Aerospace closed a $25M Series B at a $195M post-money valuation, led by Balerion Space Ventures with investors from New Zealand, Japan, and the US. The funds go toward the Aurora spaceplane and an in-space refueling demo; CEO Stefan Powell flagged hypersonics as a future defense market for the platform.",
+    "whyItMatters": "Reusable suborbital spaceplanes with a credible path into hypersonics testing is exactly the kind of dual-use capital formation story worth tracking — small check size now, but the Mach 3.7 ambitions and Oklahoma partnership put this on a defense-relevant trajectory.",
+    "relevanceScore": 71,
+    "scoreBreakdown": {
+      "recency": 25,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "Other",
+    "companyMentions": [
+      "Dawn Aerospace"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Capital Formation"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-06-21T14:22:48.214Z",
+    "updatedAt": "2026-06-21T14:22:48.214Z"
+  },
+  {
+    "id": "4fc147b4-bcf2-463d-8b0b-6ae273fe290a",
+    "title": "Pentagon Inks Pair of Rare Earth Mineral Loans for $1.2 Billion",
+    "url": "https://breakingdefense.com/2026/06/pentagon-inks-pair-of-rare-earth-mineral-loans-for-1-2-billion/",
+    "source": "Breaking Defense",
+    "author": "Ashley Roque",
+    "datePublished": "2026-06-18",
+    "dateAdded": "2026-06-21",
+    "categories": [
+      "Government News",
+      "Industry News"
+    ],
+    "tags": [
+      "Industrial Base",
+      "Supply Chain",
+      "DoD"
+    ],
+    "shortDescription": "The Pentagon's Office of Strategic Capital signed two conditional loans this week — $725M to Energy Fuels for a new rare-earth separation and metallization facility, and $500M to Phoenix Tailings for a 'Freedom Facility' targeting the mine-to-magnet supply chain. Both are aimed at reducing US dependence on foreign rare-earth processing.",
+    "whyItMatters": "OSC's loan book is becoming the clearest signal of where the government is willing to put real capital behind industrial-base gaps — rare earths are the unglamorous chokepoint behind every scaled weapons-production pitch, and this is OSC actually writing checks against it.",
+    "relevanceScore": 85,
+    "scoreBreakdown": {
+      "recency": 25,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 0
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Energy Fuels",
+      "Phoenix Tailings"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Policy",
+      "Capital Formation"
+    ],
+    "sponsorNatSec100Relevance": "None",
+    "reactions": {},
+    "createdAt": "2026-06-21T14:22:48.214Z",
+    "updatedAt": "2026-06-21T14:22:48.214Z"
+  },
+  {
+    "id": "0705546d-c4ef-49eb-8f35-01fd96c72945",
+    "title": "Rheinmetall, Vantor Plan Joint ISR Venture for Bundeswehr",
+    "url": "https://breakingdefense.com/2026/06/rheinmetall-vantor-plan-joint-isr-venture-for-bundeswehr/",
+    "source": "Breaking Defense",
+    "author": "Theresa Hitchens",
+    "datePublished": "2026-06-18",
+    "dateAdded": "2026-06-21",
+    "categories": [
+      "Industry News",
+      "International"
+    ],
+    "tags": [
+      "Intelligence",
+      "Industrial Base"
+    ],
+    "shortDescription": "Rheinmetall and US imagery provider Vantor signed an MOU to build a joint venture fusing satellite SAR, electro-optical, and airborne sensor data into Rheinmetall's command-and-control systems for the German military. It's Rheinmetall's third military-space partnership in recent months, following tie-ups with OHB and ICEYE.",
+    "whyItMatters": "Germany is stacking up sovereign space-ISR joint ventures fast, and a US imagery firm getting folded into that stack is a useful data point on how European 'sovereignty' pushes are actually getting built — worth watching for anyone tracking transatlantic space/ISR partnerships.",
+    "relevanceScore": 66,
+    "scoreBreakdown": {
+      "recency": 25,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 0
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "Europe",
+    "companyMentions": [
+      "Rheinmetall",
+      "Vantor"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "International / Australia"
+    ],
+    "sponsorNatSec100Relevance": "None",
+    "reactions": {},
+    "createdAt": "2026-06-21T14:22:48.214Z",
+    "updatedAt": "2026-06-21T14:22:48.214Z"
+  },
+  {
+    "id": "53490ce5-2050-49d7-bcc7-e38b3c6dadd8",
+    "title": "Accenture to Acquire Majority Stake in Dragos, Buy runZero and NetRise in $4.18B OT Cybersecurity Push",
+    "url": "https://cyberscoop.com/accenture-industrial-cybersecurity-acquisition-dragos-netrise-runzero/",
+    "source": "CyberScoop",
+    "author": "Greg Otto",
+    "datePublished": "2026-06-18",
+    "dateAdded": "2026-06-21",
+    "categories": [
+      "Industry News",
+      "Investor News"
+    ],
+    "tags": [
+      "Cyber",
+      "Industrial Base"
+    ],
+    "shortDescription": "Accenture is paying $4.18B for a majority stake in industrial cybersecurity firm Dragos plus all of runZero and NetRise, building an end-to-end platform to secure power grids, pipelines, and factories as AI widens the attack surface on critical infrastructure.",
+    "whyItMatters": "Critical-infrastructure security sits right at the dual-use line SVDG tracks — a $4B+ bet from a consulting giant is a strong signal that OT/industrial cyber is becoming its own asset class, not just a niche inside traditional IT security.",
+    "relevanceScore": 71,
+    "scoreBreakdown": {
+      "recency": 25,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Accenture",
+      "Dragos",
+      "runZero",
+      "NetRise"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Capital Formation"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-06-21T21:38:28.312Z",
+    "updatedAt": "2026-06-21T21:38:28.312Z"
+  },
+  {
+    "id": "fd40af95-fd54-4060-8c9f-848f39029b16",
+    "title": "Austrian Propulsion Startup Gate Space Wins €6.3M EU Backing for Military Satellite Push",
+    "url": "https://spacenews.com/austrian-propulsion-startup-joins-sovereign-space-funding-surge/",
+    "source": "SpaceNews",
+    "datePublished": "2026-06-19",
+    "dateAdded": "2026-06-21",
+    "categories": [
+      "International",
+      "Investor News"
+    ],
+    "tags": [
+      "Space",
+      "Venture Capital"
+    ],
+    "shortDescription": "Gate Space, an Austrian satellite-propulsion startup, picked up €6.3M ($7.2M) from an EU-backed accelerator to industrialize its chemical propulsion tech ahead of a 2027 flight on BeaconSat, Austria's first military satellite.",
+    "whyItMatters": "Small but telling — European government money is starting to follow sovereign-space ambitions down to component-level startups, not just the big primes, which is the kind of capital-formation shift worth watching as Europe builds out its own defense-tech base.",
+    "relevanceScore": 70,
+    "scoreBreakdown": {
+      "recency": 25,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 0
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "Europe",
+    "companyMentions": [
+      "Gate Space"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Capital Formation",
+      "International / Australia"
+    ],
+    "sponsorNatSec100Relevance": "None",
+    "reactions": {},
+    "createdAt": "2026-06-21T21:38:28.312Z",
+    "updatedAt": "2026-06-21T21:38:28.312Z"
+  },
+  {
+    "id": "c80d8bfb-4f86-4e21-ae15-4db6e4040738",
+    "title": "How Japan Could Co-Produce the Navy's Future Fleet",
+    "url": "https://warontherocks.com/cogs-of-war/how-japan-could-co-produce-the-navys-future-fleet/",
+    "source": "War on the Rocks",
+    "author": "Jeff Kucik, Noah Moyer, and Darlene Onuorah",
+    "datePublished": "2026-06-15",
+    "dateAdded": "2026-06-21",
+    "categories": [
+      "Opinions",
+      "International"
+    ],
+    "tags": [
+      "Industrial Base",
+      "AUKUS",
+      "Drones"
+    ],
+    "shortDescription": "A CNA team argues the Navy's shipbuilding bottleneck means the US should lean on allies like Japan to co-produce uncrewed and robotic systems, building on the AUKUS Pillar II undersea-drone precedent — though export-control and 'offshoring' politics stand in the way.",
+    "whyItMatters": "Allied co-production is exactly the kind of industrial-base/capital-formation question SVDG's international members are wrestling with — worth a read before the next AUKUS Pillar II conversation.",
+    "relevanceScore": 70,
+    "scoreBreakdown": {
+      "recency": 25,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 0
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "Other",
+    "companyMentions": [],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Policy",
+      "International / Australia"
+    ],
+    "sponsorNatSec100Relevance": "None",
+    "reactions": {},
+    "createdAt": "2026-06-21T21:38:28.312Z",
+    "updatedAt": "2026-06-21T21:38:28.312Z"
   }
 ]
