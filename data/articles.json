@@ -3245,5 +3245,403 @@
     "reactions": {},
     "createdAt": "2026-06-22T19:18:31.501Z",
     "updatedAt": "2026-06-22T19:18:31.501Z"
+  },
+  {
+    "id": "475e1b13-d781-466e-a1a8-04c574d8e80c",
+    "title": "Army Picks Anduril to Lead NGC2 Common Data Layer Baseline",
+    "url": "https://breakingdefense.com/2026/06/army-picks-anduril-to-lead-next-gen-c2-common-data-layer-baseline/",
+    "source": "Breaking Defense",
+    "datePublished": "2026-06-22",
+    "dateAdded": "2026-06-23",
+    "categories": [
+      "Government News",
+      "Industry News"
+    ],
+    "tags": [
+      "C2",
+      "AI",
+      "DoD",
+      "Defense Startup",
+      "Software"
+    ],
+    "shortDescription": "The US Army selected Anduril to lead the common data layer baseline for its Next-Generation Command and Control (NGC2) program, its highest-priority C2 modernization initiative. Anduril will work with Palantir and Raft to build an edge-to-cloud data mesh connecting all Army software, hardware, and sensors — marking the first major NGC2 contract to move from prototype to continuous deployment.",
+    "whyItMatters": "This is a landmark moment for the neoprime-to-prime arc: Anduril just got handed the keys to the Army's entire C2 architecture. SVDG sponsors Govini and Microsoft are both on Team Anduril's NGC2 stack, and AWS is on Team Lockheed — which means multiple members have real skin in what comes next.",
+    "relevanceScore": 100,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 10
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "sponsorName": "Govini",
+    "companyMentions": [
+      "Anduril",
+      "Palantir",
+      "Govini",
+      "Microsoft",
+      "Raft",
+      "Lockheed Martin",
+      "Striveworks",
+      "Shift5"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Policy",
+      "NatSec100"
+    ],
+    "sponsorNatSec100Relevance": "Direct",
+    "reactions": {},
+    "createdAt": "2026-06-23T19:14:27.068Z",
+    "updatedAt": "2026-06-23T19:14:27.068Z"
+  },
+  {
+    "id": "487d773b-977c-40d7-8c88-9e3497e2ffdf",
+    "title": "Booz Allen to Acquire Ultra I&C Mission Solutions for $720M",
+    "url": "https://www.businesswire.com/news/home/20260622758452/en/Booz-Allen-to-Acquire-Ultra-IC-Mission-Solutions-Business-Further-Strengthening-Defense-Technology-Portfolio",
+    "source": "BusinessWire",
+    "datePublished": "2026-06-22",
+    "dateAdded": "2026-06-23",
+    "categories": [
+      "Industry News",
+      "Sponsor News"
+    ],
+    "tags": [
+      "Defense Startup",
+      "Industrial Base",
+      "Software",
+      "Sponsor",
+      "C2"
+    ],
+    "shortDescription": "Booz Allen Hamilton announced a $720M deal to acquire Ultra I&C Mission Solutions from the Cobham Ultra Group, adding a quietly ubiquitous defense software and edge compute business to its portfolio. Ultra's products — including ADSI tactical data fusion software, Knox ruggedized edge compute, and a suite of encryption tools — are embedded across Army, Air Force, and Marine Corps platforms.",
+    "whyItMatters": "Booz Allen is an SVDG sponsor doubling down on defense tech, and this is a big move — 220 people, a century of pedigree, and products already running on the MQ-9 and IBCS. Paired with their Anduril partnership and $300M ventures fund, BAH is rapidly becoming one of the most active defense tech consolidators out there.",
+    "relevanceScore": 100,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 10
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "sponsorName": "Booz Allen Hamilton",
+    "companyMentions": [
+      "Booz Allen Hamilton",
+      "Ultra I&C Mission Solutions",
+      "Cobham Ultra Group"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Sponsor Engagement",
+      "Capital Formation"
+    ],
+    "sponsorNatSec100Relevance": "Direct",
+    "reactions": {},
+    "createdAt": "2026-06-23T19:14:27.069Z",
+    "updatedAt": "2026-06-23T19:14:27.069Z"
+  },
+  {
+    "id": "20d986a2-76bd-4513-8818-af7e71971fc8",
+    "title": "Australia Seals A$2.5B Over-the-Horizon Radar Deal with Canada — Its Largest-Ever Defense Export",
+    "url": "https://breakingdefense.com/2026/06/australia-canada-sign-1-75b-agreement-for-over-the-horizon-radar-system/",
+    "source": "Breaking Defense",
+    "datePublished": "2026-06-22",
+    "dateAdded": "2026-06-23",
+    "categories": [
+      "International"
+    ],
+    "tags": [
+      "AUKUS",
+      "Industrial Base",
+      "Electronic Warfare",
+      "Intelligence"
+    ],
+    "shortDescription": "Australia and Canada signed a A$2.5B ($1.75B USD) agreement for Canada to acquire a variant of Australia's Jindalee Operational Radar Network (JORN) for Arctic surveillance. BAE Systems Australia will prime the delivery, targeting initial operational capability by December 2029. The deal marks Australia's largest-ever defense export.",
+    "whyItMatters": "A watershed moment for Australian sovereign defense industrial capability and proof that Five Eyes partners are actively buying each other's hardware. For SVDG members tracking AUKUS and Australian defense investment, this is exactly the kind of allied tech export deal that signals real industrial momentum.",
+    "relevanceScore": 86,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 0
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "Australia",
+    "companyMentions": [
+      "BAE Systems Australia",
+      "Department of Defence Australia"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "International / Australia"
+    ],
+    "sponsorNatSec100Relevance": "None",
+    "reactions": {},
+    "createdAt": "2026-06-23T19:14:27.069Z",
+    "updatedAt": "2026-06-23T19:14:27.069Z"
+  },
+  {
+    "id": "38b9e8cb-9c17-447f-84f1-e725947b0d28",
+    "title": "China Adds MP Materials and USA Rare Earth to Export Control List",
+    "url": "https://www.washingtonpost.com/national-security/2026/06/22/china-takes-aim-us-rare-earth-companies-with-new-export-controls/",
+    "source": "Washington Post",
+    "datePublished": "2026-06-22",
+    "dateAdded": "2026-06-23",
+    "categories": [
+      "Government News",
+      "Industry News"
+    ],
+    "tags": [
+      "Industrial Base",
+      "Supply Chain",
+      "Export Controls"
+    ],
+    "shortDescription": "China's Ministry of Commerce added 10 US companies to its export control list, including MP Materials and USA Rare Earth — the two firms the US government has specifically backed to reduce domestic dependence on Chinese rare earth supply chains. The move restricts Chinese-origin dual-use goods to those entities.",
+    "whyItMatters": "Mostly symbolic for now — both companies say they've cut Chinese supply ties — but the signal is hard to ignore: the firms built specifically to reduce China dependence are now themselves targets. For defense contractors and any company relying on rare earth inputs for motors, magnets, and sensors, this is the supply chain risk that keeps getting more real.",
+    "relevanceScore": 95,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "MP Materials",
+      "USA Rare Earth"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Policy",
+      "Industry Council"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-06-23T19:14:27.069Z",
+    "updatedAt": "2026-06-23T19:14:27.069Z"
+  },
+  {
+    "id": "ef69dee1-522b-4bb7-9263-bd921db516e1",
+    "title": "Rocket Lab Sets Responsive Space Record: Launches VICTUS HAZE in Under 17 Hours",
+    "url": "https://rocketlabcorp.com/updates/victus-haze/",
+    "source": "Rocket Lab",
+    "datePublished": "2026-06-22",
+    "dateAdded": "2026-06-23",
+    "categories": [
+      "Government News",
+      "Industry News"
+    ],
+    "tags": [
+      "Space",
+      "DoD",
+      "Autonomy"
+    ],
+    "shortDescription": "Rocket Lab launched the US Space Force's VICTUS HAZE mission just 16 hours and 42 minutes after receiving a notice-to-launch — shattering the previous responsive space record by more than 10 hours. As the first single-prime TacRS mission, Rocket Lab designed the Pioneer spacecraft, executed the launch, and is managing on-orbit operations, including rendezvous and proximity operations with a non-compliant satellite.",
+    "whyItMatters": "Responsive space is graduating from concept to real capability. A sub-17-hour launch-to-orbit window for a complete end-to-end mission — built and operated by one commercial prime — shows how far the commercial space sector has come in meeting Space Force's 'launch on demand' vision.",
+    "relevanceScore": 71,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 0
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Rocket Lab",
+      "US Space Force",
+      "True Anomaly"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "NatSec100"
+    ],
+    "sponsorNatSec100Relevance": "None",
+    "reactions": {},
+    "createdAt": "2026-06-23T19:14:27.069Z",
+    "updatedAt": "2026-06-23T19:14:27.069Z"
+  },
+  {
+    "id": "59da422e-8fa2-479f-be97-fc2feae1f8b9",
+    "title": "Trump Signs Quantum Computing Executive Orders, Sets 2028 Target for Powerful System",
+    "url": "https://www.whitehouse.gov/fact-sheets/2026/06/fact-sheet-president-donald-j-trump-ushers-in-the-next-frontier-of-quantum-innovation/",
+    "source": "White House",
+    "datePublished": "2026-06-23",
+    "dateAdded": "2026-06-23",
+    "categories": [
+      "Government News"
+    ],
+    "tags": [
+      "DoD",
+      "Cyber",
+      "Dual-Use"
+    ],
+    "shortDescription": "President Trump signed two executive orders directing a national push to build a powerful quantum computer within five years (targeting 2028) and mandating migration of key government systems to post-quantum cryptography by 2030–2031. The effort is framed as a strategic race against China and aims to protect government networks from future quantum-enabled cyberattacks.",
+    "whyItMatters": "SVDG sponsor PsiQuantum — which just broke ground on its Australian quantum facility — is right in the middle of this policy push. The post-quantum crypto deadline also has real implications for defense contractors: government and national security systems will need to upgrade cryptographic infrastructure on a defined timeline.",
+    "relevanceScore": 100,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 10
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "sponsorName": "PsiQuantum",
+    "companyMentions": [
+      "PsiQuantum",
+      "Google",
+      "IBM"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Policy",
+      "Sponsor Engagement"
+    ],
+    "sponsorNatSec100Relevance": "Direct",
+    "reactions": {},
+    "createdAt": "2026-06-23T19:14:27.069Z",
+    "updatedAt": "2026-06-23T19:14:27.069Z"
+  },
+  {
+    "id": "712e21ca-7d5b-4cf9-b4bd-92f33ee94b5c",
+    "title": "STARK Raises €500M at €3.5B Valuation Led by Sequoia and Founders Fund",
+    "url": "https://sifted.eu/articles/stark-defence-drones-funding-round-confirms",
+    "source": "Sifted",
+    "datePublished": "2026-06-23",
+    "dateAdded": "2026-06-24",
+    "categories": [
+      "Investor News",
+      "International"
+    ],
+    "tags": [
+      "Venture Capital",
+      "Drones",
+      "Defense Startup",
+      "NATO",
+      "Industrial Base"
+    ],
+    "shortDescription": "German drone startup STARK closed a €500M ($567M) round led by Founders Fund and Sequoia Capital at a €3.5B valuation — nearly quadrupling from its last disclosed valuation — with the NATO Innovation Fund, Air Street Capital, Project A, 201 Ventures, Advent International, and Döpfner Capital also participating.",
+    "whyItMatters": "Two-year-old STARK is becoming Europe's go-to drone prime: €2.8B Virtus framework contract with Germany, 12,000 strike drones ordered for Lithuania, and now one of the largest European defense raises ever. More than 80% of this round goes directly to R&D and manufacturing — a useful data point on how fast EU defense capital is compressing delivery timelines.",
+    "relevanceScore": 75,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 0
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "Europe",
+    "companyMentions": [
+      "STARK Defence",
+      "Founders Fund",
+      "Sequoia Capital",
+      "NATO Innovation Fund",
+      "Air Street Capital",
+      "Advent International",
+      "Helsing"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Capital Formation",
+      "International / Australia"
+    ],
+    "sponsorNatSec100Relevance": "None",
+    "reactions": {},
+    "createdAt": "2026-06-24T18:15:59.859Z",
+    "updatedAt": "2026-06-24T18:15:59.859Z"
+  },
+  {
+    "id": "5e839577-0082-4676-b211-415415d851d3",
+    "title": "Pentagon Demos Directed Energy Weapons for SecDef in First-Ever Golden Dome Milestone",
+    "url": "https://www.fastcompany.com/91563807/pete-hegseth-got-a-live-look-at-the-pentagons-laser-weapons",
+    "source": "Fast Company",
+    "datePublished": "2026-06-23",
+    "dateAdded": "2026-06-24",
+    "categories": [
+      "Government News",
+      "Industry News"
+    ],
+    "tags": [
+      "DoD",
+      "Drones",
+      "Autonomy",
+      "Defense Startup"
+    ],
+    "shortDescription": "The Pentagon ran the first publicly known directed energy weapons demo attended by a sitting Secretary of Defense at White Sands Missile Range, with Hegseth and USD(R&E) Emil Michael watching the DDAD system autonomously defeat drone swarms using the Army's AMP-HEL laser (built on AV's LOCUST), Lockheed Martin's IFPC-HEL Valkyrie, and Epirus' IFPC-HPM Leonidas.",
+    "whyItMatters": "Hegseth called it a 'full mission success' and tied it directly to Golden Dome progress — a clear signal that directed energy is moving from R&D into operational demonstration, and a visible win for Epirus and AeroVironment in the counter-drone and missile defense stack.",
+    "relevanceScore": 95,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Epirus",
+      "AeroVironment",
+      "Lockheed Martin"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "NatSec100",
+      "Policy"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-06-24T18:15:59.860Z",
+    "updatedAt": "2026-06-24T18:15:59.860Z"
   }
 ]
