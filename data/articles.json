@@ -3643,5 +3643,206 @@
     "reactions": {},
     "createdAt": "2026-06-24T18:15:59.860Z",
     "updatedAt": "2026-06-24T18:15:59.860Z"
+  },
+  {
+    "id": "ffea57e1-25ae-4d06-a503-760e96323d32",
+    "title": "Air Force Awards CCA Production Contracts to Anduril and General Atomics — 4 Months Ahead of Schedule",
+    "url": "https://defensescoop.com/2026/06/17/air-force-picks-anduril-general-atomics-to-build-first-operational-cca-drones/",
+    "source": "DefenseScoop",
+    "datePublished": "2026-06-17",
+    "dateAdded": "2026-06-25",
+    "categories": [
+      "Industry News",
+      "Government News"
+    ],
+    "tags": [
+      "Autonomy",
+      "Drones",
+      "AI",
+      "DoD",
+      "Defense Startup",
+      "Acquisition Reform"
+    ],
+    "shortDescription": "The U.S. Air Force awarded production contracts to Anduril (FQ-44 Fury) and General Atomics (FQ-42A Dark Merlin) for its Collaborative Combat Aircraft program four months ahead of schedule, targeting at least 150 autonomous drone wingmen combined by end of decade. RTX-Collins, Shield AI, and Anduril were simultaneously downselected to compete for the CCA autonomy software contract.",
+    "whyItMatters": "CCA is the biggest autonomous aviation program in DoD history — and it's moving faster than anyone expected. Anduril winning a production contract is a landmark for the NatSec100 ecosystem; RTX Ventures (an SVDG sponsor) is now in the autonomy software competition. Worth watching closely as the autonomy and acquisition reform stories converge.",
+    "relevanceScore": 85,
+    "scoreBreakdown": {
+      "recency": 15,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 10
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "sponsorName": "RTX Ventures",
+    "companyMentions": [
+      "Anduril",
+      "General Atomics",
+      "RTX",
+      "Collins Aerospace",
+      "Shield AI"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "NatSec100",
+      "Industry Council"
+    ],
+    "sponsorNatSec100Relevance": "Direct",
+    "reactions": {},
+    "createdAt": "2026-06-25T18:23:48.271Z",
+    "updatedAt": "2026-06-25T18:23:48.271Z"
+  },
+  {
+    "id": "3446a951-411a-4902-b55b-a47a65fc9135",
+    "title": "Drone Dominance Program Gets First Deliveries; Gauntlet II Kicks Off with 49 Companies",
+    "url": "https://www.globalsecurity.org/military/library/news/2026/06/mil-260617-dodnews01.htm",
+    "source": "DoD News",
+    "datePublished": "2026-06-17",
+    "dateAdded": "2026-06-25",
+    "categories": [
+      "Government News",
+      "Industry News"
+    ],
+    "tags": [
+      "Drones",
+      "DoD",
+      "DIU",
+      "Autonomy",
+      "Acquisition Reform",
+      "Industrial Base"
+    ],
+    "shortDescription": "The Department of War's Drone Dominance Program placed its first order — 30,000 one-way attack UAS now being delivered — with 60,000 more planned for September. Gauntlet Phase II simultaneously kicked off with 49 companies and 79 UAS variants running rigorous night-ops and urban mission scenarios; the program aims to field 200,000+ AI-enabled lethal drones by 2027.",
+    "whyItMatters": "This is the drone industrial surge actually happening — not a concept, not a solicitation, but first deliveries at scale and Phase II of the largest OWA competition in DoD history. For anyone tracking NatSec100 drone companies or the acquisition reform story, this is the program to watch.",
+    "relevanceScore": 80,
+    "scoreBreakdown": {
+      "recency": 15,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "DIU",
+      "Department of War"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Policy",
+      "NatSec100"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-06-25T18:23:48.271Z",
+    "updatedAt": "2026-06-25T18:23:48.271Z"
+  },
+  {
+    "id": "11543c06-e369-4605-9db7-e49afc7914cb",
+    "title": "France Orders 5,000 Harmattan AI Sonora Drones — Largest Drone Purchase in French History",
+    "url": "https://aviationweek.com/defense/aircraft-propulsion/france-orders-5000-harmattan-ai-drones",
+    "source": "Aviation Week",
+    "datePublished": "2026-06-23",
+    "dateAdded": "2026-06-25",
+    "categories": [
+      "Industry News",
+      "International"
+    ],
+    "tags": [
+      "Drones",
+      "Defense Startup",
+      "Industrial Base",
+      "NATO"
+    ],
+    "shortDescription": "France's DGA awarded Harmattan AI a contract for 5,000 Sonora short-range ISR drones — following on-time delivery of a prior 1,000-unit contract — making this the largest single drone purchase in French military history. The 2-year-old startup (Dassault-backed, $200M Series B in January) now has production capacity for 10,000 units/month and is Europe's largest UAS manufacturer.",
+    "whyItMatters": "A 2-year-old startup going from seed to 5,000-unit government contract, with sub-€1,000 unit costs and on-time delivery — this is what the defense acquisition reform crowd is pointing at when they say speed-to-contract is possible. Good data point on how France is operationalizing its drone industrial policy.",
+    "relevanceScore": 85,
+    "scoreBreakdown": {
+      "recency": 25,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 0
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "Europe",
+    "companyMentions": [
+      "Harmattan AI",
+      "Dassault Aviation",
+      "Direction générale de l'armement"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "International / Australia",
+      "Industry Council"
+    ],
+    "sponsorNatSec100Relevance": "None",
+    "reactions": {},
+    "createdAt": "2026-06-25T18:23:48.271Z",
+    "updatedAt": "2026-06-25T18:23:48.271Z"
+  },
+  {
+    "id": "cddaa76c-a875-4f1f-972f-91f73cd52bfc",
+    "title": "Touchwaves Partners with General Atomics to Bring Haptic 'Sixth Sense' to MQ-9 Reaper Pilots",
+    "url": "https://www.tectonicdefense.com/touchwaves-partners-with-ga-for-haptic-drone-comms/",
+    "source": "Tectonic",
+    "datePublished": "2026-06-25",
+    "dateAdded": "2026-06-25",
+    "categories": [
+      "Industry News"
+    ],
+    "tags": [
+      "Drones",
+      "Dual-Use",
+      "Defense Startup",
+      "Autonomy",
+      "AI"
+    ],
+    "shortDescription": "Dutch startup Touchwaves announced a partnership with General Atomics — including a GA investment through its Blue Magic Netherlands initiative — to bring its wearable haptic communication system to MQ-9 Reaper operators. The tech translates incoming threats, system alerts, and situational data into tactile feedback, reducing the cognitive load on drone pilots already overwhelmed with visual and audio information.",
+    "whyItMatters": "A quiet but interesting one: haptic human-machine interfaces for drone operators are underexplored territory, and GA putting real capital in signals they see value in this category. Worth flagging to the group as the human-in-the-loop / operator experience conversation heats up alongside autonomy.",
+    "relevanceScore": 71,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 0
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Touchwaves",
+      "General Atomics",
+      "TNO"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Industry Council"
+    ],
+    "sponsorNatSec100Relevance": "None",
+    "reactions": {},
+    "createdAt": "2026-06-25T18:23:48.271Z",
+    "updatedAt": "2026-06-25T18:23:48.271Z"
   }
 ]
