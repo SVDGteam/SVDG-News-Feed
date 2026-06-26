@@ -3844,5 +3844,237 @@
     "reactions": {},
     "createdAt": "2026-06-25T18:23:48.271Z",
     "updatedAt": "2026-06-25T18:23:48.271Z"
+  },
+  {
+    "id": "2e8131f9-cf14-461f-a781-5a9538248aef",
+    "title": "Code Metal Acquires Signal Processing Technologies, Expanding into Advanced RF",
+    "url": "https://www.businesswire.com/news/home/20260625088811/en/Code-Metal-Acquires-Signal-Processing-Technologies-Expanding-Its-Provable-AI-Platform-and-Establishing-the-Advanced-RF-Group",
+    "source": "BusinessWire",
+    "datePublished": "2026-06-25",
+    "dateAdded": "2026-06-26",
+    "categories": [
+      "Industry News"
+    ],
+    "tags": [
+      "Defense Startup",
+      "Software",
+      "AI",
+      "Electronic Warfare"
+    ],
+    "shortDescription": "Code Metal, the defense software unicorn ($1.25B valuation), made its first acquisition: Signal Processing Technologies (SPT), founded by former leaders of DARPA's DIMA wireless comms program. The deal extends Code Metal's hardware translation platform into algorithm development for RF machine learning, spectrum sensing, and advanced comms.",
+    "whyItMatters": "Code Metal is already embedded with the Air Force, RTX, and L3Harris — adding SPT's algorithm expertise lets them own the full stack from writing the algorithm to deploying it on hardware. This is the kind of deep vertical integration that makes defense software companies stickier and harder to displace, and signals more acquisitions are coming.",
+    "relevanceScore": 95,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Code Metal",
+      "Signal Processing Technologies",
+      "L3Harris",
+      "RTX",
+      "U.S. Air Force"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "NatSec100",
+      "Capital Formation"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-06-26T18:16:53.366Z",
+    "updatedAt": "2026-06-26T18:16:53.366Z"
+  },
+  {
+    "id": "6a70f905-0962-4f29-a857-05c4c4c3f9f3",
+    "title": "New UK PM Andy Burnham Brings Higher Defense Spending Ambitions — and Uncertainty Over the Defence Investment Plan",
+    "url": "https://breakingdefense.com/2026/06/prime-minister-andy-burnham-comes-with-defense-and-national-security-implications/",
+    "source": "Breaking Defense",
+    "datePublished": "2026-06-26",
+    "dateAdded": "2026-06-26",
+    "categories": [
+      "Government News",
+      "International"
+    ],
+    "tags": [
+      "NATO",
+      "Budget"
+    ],
+    "shortDescription": "Andy Burnham is set to become UK Prime Minister after Keir Starmer's resignation. Burnham has signaled he would spend more on defence than Starmer's plan and wants to delay publication of the Defence Investment Plan until autumn — creating uncertainty ahead of the NATO summit.",
+    "whyItMatters": "A UK leadership change is a significant variable for AUKUS, NATO cohesion, and the allied defence tech investment environment. Burnham wants to increase defence spending above Starmer's 2.5% GDP target but on his own timeline — which could delay near-term procurement decisions and reshape how the UK engages on major allied tech programs.",
+    "relevanceScore": 90,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 0
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "UK",
+    "companyMentions": [],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Policy",
+      "International / Australia"
+    ],
+    "sponsorNatSec100Relevance": "None",
+    "reactions": {},
+    "createdAt": "2026-06-26T18:16:53.366Z",
+    "updatedAt": "2026-06-26T18:16:53.366Z"
+  },
+  {
+    "id": "d165e89c-3e3f-490a-9e0b-9f40bbc2950f",
+    "title": "Vantor Selects BAE Systems to Build Next-Generation 20cm-Class Vantage Imaging Satellites",
+    "url": "https://spacenews.com/vantor-selects-bae-systems-to-build-next-generation-imaging-satellites/",
+    "source": "SpaceNews",
+    "datePublished": "2026-06-24",
+    "dateAdded": "2026-06-26",
+    "categories": [
+      "Industry News",
+      "International"
+    ],
+    "tags": [
+      "Space",
+      "Intelligence"
+    ],
+    "shortDescription": "Vantor (formerly Maxar Intelligence) selected BAE Systems to manufacture satellite buses for its new Vantage constellation — 20cm-class Earth observation satellites expected to be the highest-resolution commercial imagery on orbit when they launch before 2030. The two companies build on a long-running relationship dating back to DigitalGlobe-era WorldView satellites.",
+    "whyItMatters": "The Vantage constellation is explicitly designed for intelligence collection — 20cm resolution means you can resolve individual weapons systems from space. This deal deepens the US-UK industrial base relationship in geospatial ISR and, paired with the Rheinmetall JV announced last week, shows Vantor aggressively expanding its allied defense footprint.",
+    "relevanceScore": 66,
+    "scoreBreakdown": {
+      "recency": 25,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 0
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "UK",
+    "companyMentions": [
+      "Vantor",
+      "BAE Systems"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "International / Australia"
+    ],
+    "sponsorNatSec100Relevance": "None",
+    "reactions": {},
+    "createdAt": "2026-06-26T18:16:53.366Z",
+    "updatedAt": "2026-06-26T18:16:53.366Z"
+  },
+  {
+    "id": "439c2aca-a6c1-416b-9058-766868153d40",
+    "title": "Space Force Formally Relaunches SCAR Satellite Antenna Program as Open Competition After Killing $1.7B AeroVironment Contract",
+    "url": "https://spacenews.com/space-force-seeks-fresh-bidders-for-satellite-control-antennas/",
+    "source": "SpaceNews",
+    "datePublished": "2026-06-26",
+    "dateAdded": "2026-06-26",
+    "categories": [
+      "Government News",
+      "Industry News"
+    ],
+    "tags": [
+      "Space",
+      "DoD",
+      "Acquisition Reform"
+    ],
+    "shortDescription": "The Space Force Rapid Capabilities Office issued a pre-solicitation under the SCAR program for electronically steered phased-array satellite control antennas — formally restarting a program shelved after terminating a $1.7B contract with AeroVironment in March. The new Commercial Solutions Opening emphasizes commercially derived systems, scale production, and multiple vendors.",
+    "whyItMatters": "This recompete is acquisition reform in action: the Space Force explicitly replaced a bespoke single-vendor contract with a commercial-first open competition. It opens a real market opportunity for commercial ground-systems companies — including startups like Northwood Space — that were locked out before, and signals broader movement toward commercially derived space infrastructure.",
+    "relevanceScore": 75,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 0
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Space Force",
+      "AeroVironment",
+      "Northwood Space"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Policy",
+      "NatSec100"
+    ],
+    "sponsorNatSec100Relevance": "None",
+    "reactions": {},
+    "createdAt": "2026-06-26T18:16:53.366Z",
+    "updatedAt": "2026-06-26T18:16:53.366Z"
+  },
+  {
+    "id": "945aa6b6-eb79-4f2c-a801-d2c3400d5480",
+    "title": "Army Secretary Driscoll Pushes to Expand Amazon-Style Drone Marketplace; USARPAC Eyes USVs for Pacific Logistics",
+    "url": "https://www.defenseone.com/business/2026/06/defense-business-brief-secarmys-dream-marketplace-usarpac-usvs-and-quantum-eos/414416/",
+    "source": "Defense One",
+    "author": "Lauren C. Williams",
+    "datePublished": "2026-06-25",
+    "dateAdded": "2026-06-26",
+    "categories": [
+      "Government News"
+    ],
+    "tags": [
+      "Drones",
+      "Acquisition Reform",
+      "DoD",
+      "Autonomy",
+      "Maritime"
+    ],
+    "shortDescription": "Army Secretary Dan Driscoll is pushing to expand the Army's Amazon-style procurement marketplace — currently used for drones and counter-UAS — to cover more capability categories. Separately, USARPAC commander Gen. Ronald Clark is exploring unmanned surface vessels for Pacific logistics at range. An RFI for low-cost interceptors drops July 6.",
+    "whyItMatters": "The Army marketplace is one of the most active acquisition reform experiments running right now — Driscoll is trying to make 'compatibility is strategy' real at scale. For NatSec100 companies in drone, counter-drone, and maritime autonomy, an expanded marketplace could be a meaningful new procurement channel worth tracking closely.",
+    "relevanceScore": 75,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 0
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Policy",
+      "NatSec100"
+    ],
+    "sponsorNatSec100Relevance": "None",
+    "reactions": {},
+    "createdAt": "2026-06-26T18:16:53.366Z",
+    "updatedAt": "2026-06-26T18:16:53.366Z"
   }
 ]
