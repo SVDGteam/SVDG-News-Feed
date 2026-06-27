@@ -4076,5 +4076,292 @@
     "reactions": {},
     "createdAt": "2026-06-26T18:16:53.366Z",
     "updatedAt": "2026-06-26T18:16:53.366Z"
+  },
+  {
+    "id": "2232d6ec-b0aa-444a-aceb-695b64ed0612",
+    "title": "Lockheed Martin Wins $35B Contract to Quadruple THAAD Production",
+    "url": "https://www.defensenews.com/industry/techwatch/2026/06/25/lockheed-martin-wins-over-35-billion-contract-to-quadruple-thaad-production/",
+    "source": "Defense News",
+    "datePublished": "2026-06-25",
+    "dateAdded": "2026-06-27",
+    "categories": [
+      "Government News",
+      "Industry News"
+    ],
+    "tags": [
+      "Munitions",
+      "Industrial Base",
+      "Manufacturing",
+      "DoD",
+      "Sponsor"
+    ],
+    "shortDescription": "The US Missile Defense Agency awarded Lockheed Martin a seven-year contract worth up to $35B to quadruple THAAD interceptor production from 96 to 400 per year — the contract executes the January framework agreement and directly responds to stockpile depletion from the war in Iran.",
+    "whyItMatters": "The US burned through up to 80% of its THAAD missiles in the Iran war, and this is the bill: the single largest missile defense production contract in recent memory. For anyone tracking defense industrial base investment and capital formation, this is the north star contract for FY26–32.",
+    "relevanceScore": 95,
+    "scoreBreakdown": {
+      "recency": 25,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 10
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "sponsorName": "Lockheed Martin Ventures",
+    "companyMentions": [
+      "Lockheed Martin",
+      "US Missile Defense Agency"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Capital Formation",
+      "Policy"
+    ],
+    "sponsorNatSec100Relevance": "Direct",
+    "reactions": {},
+    "createdAt": "2026-06-27T13:57:26.352Z",
+    "updatedAt": "2026-06-27T13:57:26.352Z"
+  },
+  {
+    "id": "c5e34e61-eeac-4395-8d7c-434f8118eeea",
+    "title": "White House Seeks $87.6B Supplemental for Iran War Costs and DoD Readiness",
+    "url": "https://www.pbs.org/newshour/politics/white-house-seeks-87-6b-from-congress-for-iran-war-costs-u-s-farmers-and-ebola-response",
+    "source": "PBS NewsHour",
+    "datePublished": "2026-06-24",
+    "dateAdded": "2026-06-27",
+    "categories": [
+      "Government News"
+    ],
+    "tags": [
+      "Budget",
+      "Congress",
+      "DoD",
+      "Munitions"
+    ],
+    "shortDescription": "The White House requested $87.6B in supplemental spending from Congress, with $67B earmarked for the Department of Defense to cover Iran war operational costs, military personnel, and to rebuild depleted munitions stockpiles — the first major supplemental tied to the February conflict.",
+    "whyItMatters": "This is the invoice from the Iran war landing in Congress. $67B for DoD readiness and restocking is the demand signal that reshapes defense spending priorities for years — and it makes the THAAD $35B contract, containerized missile programs, and similar investments look very well-positioned.",
+    "relevanceScore": 90,
+    "scoreBreakdown": {
+      "recency": 25,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Policy",
+      "Capital Formation"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-06-27T13:57:26.353Z",
+    "updatedAt": "2026-06-27T13:57:26.353Z"
+  },
+  {
+    "id": "4bf5c840-e65e-4dac-8ab6-f5e58d955d5c",
+    "title": "Anduril Doubles Pulsar EW Production, Delivered a Month's Output in Under a Week",
+    "url": "https://www.anduril.com/news/surge-capacity-how-anduril-delivered-a-month-of-production-in-a-week",
+    "source": "Anduril Industries",
+    "datePublished": "2026-06-25",
+    "dateAdded": "2026-06-27",
+    "categories": [
+      "Industry News"
+    ],
+    "tags": [
+      "Electronic Warfare",
+      "Manufacturing",
+      "Industrial Base",
+      "NatSec100",
+      "Defense Startup"
+    ],
+    "shortDescription": "Anduril has doubled Pulsar EW system production at its Southern California facility from 500 to 1,000 units per year. In March, the company delivered more than a full month's production output in under a week — units immediately deployed for fixed-site EW protection and aircraft survivability in active operations.",
+    "whyItMatters": "This is Anduril answering the old critique that defense startups can't scale manufacturing. Doubling a production line mid-ramp while absorbing a surge order tied to active operational demand is exactly the proof point the NatSec100 thesis needs right now.",
+    "relevanceScore": 95,
+    "scoreBreakdown": {
+      "recency": 25,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 10
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Anduril Industries"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "NatSec100",
+      "Industry Council"
+    ],
+    "sponsorNatSec100Relevance": "Direct",
+    "reactions": {},
+    "createdAt": "2026-06-27T13:57:26.353Z",
+    "updatedAt": "2026-06-27T13:57:26.353Z"
+  },
+  {
+    "id": "6e3a29cd-736a-40f8-9e7a-4c5dc67a93c2",
+    "title": "Vantor Partners with Rheinmetall and BAE Systems in Major European ISR Push",
+    "url": "https://www.tectonicdefense.com/vantors-big-european-week/",
+    "source": "Tectonic",
+    "datePublished": "2026-06-26",
+    "dateAdded": "2026-06-27",
+    "categories": [
+      "Industry News",
+      "International"
+    ],
+    "tags": [
+      "ISR",
+      "Space",
+      "NATO",
+      "C2",
+      "Software",
+      "Dual-Use"
+    ],
+    "shortDescription": "Vantor (formerly Maxar Intelligence) announced two major European partnerships: a JV with Rheinmetall to build a sovereign 3D spatial intelligence platform integrated into European C2 systems across Germany, the UK, and Ukraine; and a deal with BAE Systems to manufacture its next-gen 20cm-resolution Vantage imaging satellites.",
+    "whyItMatters": "Vantor is building the ISR backbone European defense is betting on, through two anchor partners — one for C2 system integration, one for satellite manufacturing. A useful data point for tracking how US ISR companies are threading the needle on European sovereignty concerns while expanding their market.",
+    "relevanceScore": 71,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 0
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "Europe",
+    "companyMentions": [
+      "Vantor",
+      "Rheinmetall",
+      "BAE Systems",
+      "Lanteris"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "International / Australia"
+    ],
+    "sponsorNatSec100Relevance": "None",
+    "reactions": {},
+    "createdAt": "2026-06-27T13:57:26.353Z",
+    "updatedAt": "2026-06-27T13:57:26.353Z"
+  },
+  {
+    "id": "c0ca8b98-a8ab-4b8e-a871-94f2e03c3ab3",
+    "title": "US Special Forces Deploy Ukrainian Magura Sea Drones in First Indo-Pacific Test",
+    "url": "https://www.bloomberg.com/news/articles/2026-06-24/sea-drones-emerge-as-crucial-weapon-to-counter-china-s-power",
+    "source": "Bloomberg",
+    "datePublished": "2026-06-24",
+    "dateAdded": "2026-06-27",
+    "categories": [
+      "International",
+      "Industry News"
+    ],
+    "tags": [
+      "Maritime",
+      "Drones",
+      "Autonomy",
+      "AUKUS"
+    ],
+    "shortDescription": "US Green Berets used Ukrainian-built Magura USVs during Balikatan 2026 exercises in the Philippines to sink a decommissioned target ship — the first known deployment of the Black Sea-proven drones in the Indo-Pacific, with the US explicitly testing their applicability against China.",
+    "whyItMatters": "The US military is running a direct experiment: can what worked against Russia's Black Sea Fleet translate to China in the Pacific? Cheap, combat-proven autonomous sea drones entering the Indo-Pacific calculus is a significant shift for anyone tracking unmanned maritime, AUKUS, or Pacific deterrence investment.",
+    "relevanceScore": 90,
+    "scoreBreakdown": {
+      "recency": 25,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "Other",
+    "companyMentions": [
+      "UFORCE"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "International / Australia",
+      "Policy"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-06-27T13:57:26.353Z",
+    "updatedAt": "2026-06-27T13:57:26.353Z"
+  },
+  {
+    "id": "4347c6e5-504e-4929-9370-e4cd51a19cc1",
+    "title": "House Appropriators Approve $1.07T FY27 Defense Bill With Major Munitions Buys",
+    "url": "https://breakingdefense.com/2026/06/house-appropriators-approve-1t-defense-bill-adopt-war-department-renaming/",
+    "source": "Breaking Defense",
+    "datePublished": "2026-06-26",
+    "dateAdded": "2026-06-27",
+    "categories": [
+      "Government News"
+    ],
+    "tags": [
+      "Budget",
+      "Congress",
+      "Munitions",
+      "DoD",
+      "Acquisition Reform"
+    ],
+    "shortDescription": "House appropriators approved the $1.07T FY27 defense bill on party lines, including $10.6B for critical legacy munitions (PAC-3, THAAD, Tomahawk) and $836M for first-ever low-cost munitions direct appropriation, plus $56.7B for 21 ships.",
+    "whyItMatters": "The FY27 defense topline passing committee moves the budget process forward, and the munitions mix tells the story: restocking expensive interceptors burned in the Iran war while funding new low-cost munition programs for the first time. Both threads are tailwinds for the defense industrial base.",
+    "relevanceScore": 95,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Lockheed Martin",
+      "Raytheon"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Policy",
+      "Capital Formation"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-06-27T13:57:26.353Z",
+    "updatedAt": "2026-06-27T13:57:26.353Z"
   }
 ]
