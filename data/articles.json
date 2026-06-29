@@ -4363,5 +4363,106 @@
     "reactions": {},
     "createdAt": "2026-06-27T13:57:26.353Z",
     "updatedAt": "2026-06-27T13:57:26.353Z"
+  },
+  {
+    "id": "2fdd3318-5ab0-4c91-b173-5d59819865b7",
+    "title": "Rocket Lab to Acquire Iridium in Historic Deal, Creating A Fully Vertically Integrated Space Powerhouse Primed for Growth",
+    "url": "https://investor.iridium.com/2026-06-29-Rocket-Lab-to-Acquire-Iridium-in-Historic-Deal,-Creating-A-Fully-Vertically-Integrated-Space-Powerhouse-Primed-for-Growth",
+    "source": "Iridium Investor Relations",
+    "datePublished": "2026-06-29",
+    "dateAdded": "2026-06-29",
+    "categories": [
+      "Investor News",
+      "Industry News"
+    ],
+    "tags": [
+      "Space",
+      "Venture Capital",
+      "Defense Startup",
+      "Dual-Use"
+    ],
+    "shortDescription": "Rocket Lab (RKLB) announced a definitive agreement to acquire Iridium Communications (IRDM) in a cash-and-stock deal valuing Iridium at approximately $8B enterprise value. The combined company would unite Rocket Lab's launch and satellite manufacturing with Iridium's globally-licensed L-band LEO network serving 2.55M subscribers across government, defense, aviation, and maritime markets.",
+    "whyItMatters": "This is one of the largest M&A deals in the commercial space sector to date — and it's explicitly framed around defense and NatSec resilience. Iridium's L-band spectrum and PNT architecture are critical infrastructure for DoD, and combining that with Rocket Lab's launch throughput creates a vertically integrated American space champion at a moment when the government is actively pushing for exactly that.",
+    "relevanceScore": 91,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Rocket Lab",
+      "Iridium Communications"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Capital Formation"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-06-29T17:43:52.804Z",
+    "updatedAt": "2026-06-29T17:43:52.804Z"
+  },
+  {
+    "id": "44ebdc07-0e85-412b-ae46-c19b59837299",
+    "title": "Elroy Air to Become Publicly Traded Company via Business Combination with Inflection Point-led SPAC",
+    "url": "https://elroyair.com/company/news/press-releases/elroy-air-to-go-public",
+    "source": "Elroy Air",
+    "datePublished": "2026-06-26",
+    "dateAdded": "2026-06-29",
+    "categories": [
+      "Investor News",
+      "Industry News",
+      "Sponsor News"
+    ],
+    "tags": [
+      "Drones",
+      "Defense Startup",
+      "Autonomy",
+      "Dual-Use",
+      "Venture Capital"
+    ],
+    "shortDescription": "Elroy Air announced a business combination agreement with Inflection Point-led SPAC Columbus Circle Capital Corp II that values the company at $800M pre-money (~$1B post-transaction enterprise value), with over $165M in committed PIPE capital. Elroy Air's Chaparral VTOL heavy-cargo drone — which can carry 500+ lbs up to 450 miles — has active defense programs with the Army, Marine Corps, and Air Force, and a demand pipeline exceeding 1,400 aircraft.",
+    "whyItMatters": "SVDG sponsor Lockheed Martin Ventures is a strategic investor in Elroy Air, making this direct sponsor news. This is also a significant moment for the autonomous logistics/drone supply chain story — Elroy is one of the more serious VTOL cargo plays with real DoD traction, and going public via SPAC gives them the capital runway to hit production scale with Kratos.",
+    "relevanceScore": 95,
+    "scoreBreakdown": {
+      "recency": 25,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 10
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "sponsorName": "Lockheed Martin Ventures",
+    "companyMentions": [
+      "Elroy Air",
+      "Lockheed Martin Ventures",
+      "Kratos Defense & Security Solutions",
+      "Inflection Point",
+      "Shield Capital"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Capital Formation",
+      "Sponsor Engagement"
+    ],
+    "sponsorNatSec100Relevance": "Direct",
+    "reactions": {},
+    "createdAt": "2026-06-29T17:43:52.805Z",
+    "updatedAt": "2026-06-29T17:43:52.805Z"
   }
 ]
