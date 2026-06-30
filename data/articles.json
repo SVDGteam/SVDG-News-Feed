@@ -4464,5 +4464,198 @@
     "reactions": {},
     "createdAt": "2026-06-29T17:43:52.805Z",
     "updatedAt": "2026-06-29T17:43:52.805Z"
+  },
+  {
+    "id": "bdab367d-9abc-418c-9437-c61a1f2f1b3e",
+    "title": "UK Unveils £15B Defence Investment Plan with Largest-Ever Drone and Autonomy Commitment",
+    "url": "https://www.gov.uk/government/news/15-billion-new-funding-boost-to-transform-armed-forces-and-keep-the-uk-safe",
+    "source": "UK Ministry of Defence / GOV.UK",
+    "author": "UK Ministry of Defence",
+    "datePublished": "2026-06-30",
+    "dateAdded": "2026-06-30",
+    "categories": [
+      "International",
+      "Government News"
+    ],
+    "tags": [
+      "Drones",
+      "Autonomy",
+      "AI",
+      "NATO",
+      "Industrial Base"
+    ],
+    "shortDescription": "The UK launched its long-awaited Defence Investment Plan today, committing £15B in new defense spending to raise the annual budget to nearly £80B by 2029. Headlining the plan: £5B for a drone transformation across all three services, £11B for munitions stockpiles, and nearly £2B for an AI-enabled Digital Targeting Web.",
+    "whyItMatters": "This is the biggest UK defense pivot in a generation — £5B on drones and autonomy alone signals how serious the new government is about the tech reshaping modern warfare. Big tailwind for dual-use companies with UK and allied-nation reach, and a strong signal ahead of AUKUS Pillar II deliverables.",
+    "relevanceScore": 95,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "UK",
+    "companyMentions": [],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "International / Australia",
+      "Policy"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-06-30T14:48:53.280Z",
+    "updatedAt": "2026-06-30T14:48:53.280Z"
+  },
+  {
+    "id": "fe4caee0-3558-48e6-94c0-6b47954b67dd",
+    "title": "Overland AI Is First Startup to Prime a U.S. Military Production Contract for Autonomous Ground Vehicles",
+    "url": "https://defensescoop.com/2026/06/29/autonomous-ground-vehicle-marine-corps-overland-ai-contract/",
+    "source": "DefenseScoop",
+    "datePublished": "2026-06-29",
+    "dateAdded": "2026-06-30",
+    "categories": [
+      "Industry News",
+      "Government News"
+    ],
+    "tags": [
+      "Autonomy",
+      "Robotics",
+      "DoD",
+      "Defense Startup"
+    ],
+    "shortDescription": "Overland AI landed a $20M USMC production contract through the APFIT program to deliver autonomous ground vehicles for the Marine Corps' MADIS short-range air defense system, becoming the first startup to prime a production contract — not just integrate software — for U.S. military autonomous vehicles.",
+    "whyItMatters": "This is a real milestone: Overland is delivering the full system, hardware and software, as the prime — not riding shotgun on a legacy platform. The APFIT pathway is exactly the fast-fielding mechanism the defense innovation community has been pushing for, and this is proof it can produce production-scale results.",
+    "relevanceScore": 95,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Overland AI"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "NatSec100",
+      "Policy"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-06-30T14:48:53.280Z",
+    "updatedAt": "2026-06-30T14:48:53.280Z"
+  },
+  {
+    "id": "09366ad2-25d2-4e04-9a6a-babff28b401c",
+    "title": "Booz Allen and OpenAI Partner to Deploy Mission-Ready AI for National Security",
+    "url": "https://newsroom.boozallen.com/news-releases/news-release-details/booz-allen-and-openai-partner-deploy-mission-ready-ai",
+    "source": "Booz Allen Hamilton",
+    "datePublished": "2026-06-29",
+    "dateAdded": "2026-06-30",
+    "categories": [
+      "Sponsor News",
+      "Industry News"
+    ],
+    "tags": [
+      "AI",
+      "DoD",
+      "Sponsor",
+      "Software"
+    ],
+    "shortDescription": "SVDG sponsor Booz Allen Hamilton and OpenAI announced a strategic partnership to accelerate secure AI deployment across national security and critical infrastructure missions, giving Booz Allen engineers priority access to OpenAI's roadmap insights and technical enablement resources.",
+    "whyItMatters": "Booz Allen is one of the biggest integrators in the federal space — their bet on OpenAI for classified-adjacent missions is a signal that commercial AI is crossing from experimentation into production. Watch for the ripple effects across IC and DoD digital modernization contracts.",
+    "relevanceScore": 100,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 10
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "sponsorName": "Booz Allen Hamilton",
+    "companyMentions": [
+      "Booz Allen Hamilton",
+      "OpenAI"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Sponsor Engagement",
+      "NatSec100"
+    ],
+    "sponsorNatSec100Relevance": "Direct",
+    "reactions": {},
+    "createdAt": "2026-06-30T14:48:53.280Z",
+    "updatedAt": "2026-06-30T14:48:53.280Z"
+  },
+  {
+    "id": "5282da16-241a-46e7-86b6-3a1bfbb9e333",
+    "title": "Dominion Dynamics Raises CA$139M in Canada's Largest-Ever Defence-Tech Series A",
+    "url": "https://betakit.com/dominion-dynamics-lands-139-million-in-canadas-largest-defence-tech-series-a/",
+    "source": "BetaKit",
+    "datePublished": "2026-06-30",
+    "dateAdded": "2026-06-30",
+    "categories": [
+      "Investor News",
+      "International"
+    ],
+    "tags": [
+      "Venture Capital",
+      "Autonomy",
+      "Defense Startup",
+      "Dual-Use"
+    ],
+    "shortDescription": "Ottawa-based Dominion Dynamics closed a CA$139M (~US$100M) Series A — the largest defence-tech Series A in Canadian history — led by Georgian, to scale its AuraNet autonomous sensing platform and Scout collaborative combat aircraft concept, with expansion planned into the US, Australia, and Europe.",
+    "whyItMatters": "Founded just a year ago by a former Anduril exec, Dominion is already fielding kit in the Arctic with the Canadian Armed Forces. The round reflects accelerating allied-nation defense startup capital formation, and the planned US and Australia offices suggest this company is positioning for the full Five Eyes market.",
+    "relevanceScore": 68,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 8,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 0
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "Other",
+    "companyMentions": [
+      "Dominion Dynamics",
+      "Georgian",
+      "Valor Equity Partners",
+      "Bessemer Venture Partners"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "Medium",
+    "workstreams": [
+      "Capital Formation",
+      "International / Australia"
+    ],
+    "sponsorNatSec100Relevance": "None",
+    "reactions": {},
+    "createdAt": "2026-06-30T14:48:53.280Z",
+    "updatedAt": "2026-06-30T14:48:53.280Z"
   }
 ]
