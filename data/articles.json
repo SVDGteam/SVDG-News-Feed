@@ -4657,5 +4657,290 @@
     "reactions": {},
     "createdAt": "2026-06-30T14:48:53.280Z",
     "updatedAt": "2026-06-30T14:48:53.280Z"
+  },
+  {
+    "id": "ce50eaed-8794-4093-80db-31b5e4ff7704",
+    "title": "MAKO Raises $20M Series A to Scale 'Shark Skin' Drag-Reduction Film for Aviation",
+    "url": "https://www.tectonicdefense.com/mako-nee-microtau-raises-20m-for-shark-skin-film/",
+    "source": "Tectonic",
+    "datePublished": "2026-06-29",
+    "dateAdded": "2026-07-01",
+    "categories": [
+      "Investor News",
+      "International"
+    ],
+    "tags": [
+      "Venture Capital",
+      "Defense Startup",
+      "Dual-Use"
+    ],
+    "shortDescription": "Australian aerospace startup MAKO (formerly MicroTau) raised an AU$28M ($20M) Series A led by Virescent Ventures, with International Airlines Group's venture arm and others participating, to scale production of Flightfilm — a shark-skin-inspired drag-reduction coating already under US Air Force C-17 operational trials.",
+    "whyItMatters": "A niche dual-use technology (a fuel-efficiency coating) with real USAF contracts and Delta/IAG commercial traction — a good example of Australian defense-adjacent industrial capability building toward AUKUS-relevant supply chains, and a reminder that unglamorous efficiency tech can carry real defense value.",
+    "relevanceScore": 70,
+    "scoreBreakdown": {
+      "recency": 25,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 0
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "Australia",
+    "companyMentions": [
+      "MAKO",
+      "Virescent Ventures",
+      "International Airlines Group",
+      "US Air Force"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Capital Formation",
+      "International / Australia"
+    ],
+    "sponsorNatSec100Relevance": "None",
+    "reactions": {},
+    "createdAt": "2026-07-01T12:13:52.352Z",
+    "updatedAt": "2026-07-01T12:13:52.352Z"
+  },
+  {
+    "id": "792b8a3e-5f38-4141-9473-e9b442931820",
+    "title": "Satellogic Partners with SpaceKnow to Build AI Apps on Satellite Imagery",
+    "url": "https://payloadspace.com/exclusive-satellogic-expands-ai-apps-with-spaceknow-partnership/",
+    "source": "Payload",
+    "datePublished": "2026-06-30",
+    "dateAdded": "2026-07-01",
+    "categories": [
+      "Industry News"
+    ],
+    "tags": [
+      "Space",
+      "AI",
+      "Dual-Use"
+    ],
+    "shortDescription": "Satellogic partnered with AI-powered geospatial intelligence firm SpaceKnow to build applications on top of its satellite imagery, shifting from one-off imagery sales toward a data-as-a-service model ahead of its next-gen Merlin constellation launching later this year.",
+    "whyItMatters": "Another data point on EO satellite operators moving up the value chain into AI-driven analytics — relevant for anyone tracking the ISR/AI stack that increasingly underpins both commercial and government intelligence products.",
+    "relevanceScore": 71,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 0
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Satellogic",
+      "SpaceKnow",
+      "SynMax"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Industry Council"
+    ],
+    "sponsorNatSec100Relevance": "None",
+    "reactions": {},
+    "createdAt": "2026-07-01T12:13:52.353Z",
+    "updatedAt": "2026-07-01T12:13:52.353Z"
+  },
+  {
+    "id": "b645177b-83d6-498d-b7e5-4e60cc9703a8",
+    "title": "Firefly Aerospace Targets 2028 Alpha Launch from Sweden's Esrange Space Center",
+    "url": "https://payloadspace.com/firefly-targets-swedish-launch-in-2028-under-new-franchise-model/",
+    "source": "Payload",
+    "datePublished": "2026-06-30",
+    "dateAdded": "2026-07-01",
+    "categories": [
+      "Industry News",
+      "International"
+    ],
+    "tags": [
+      "Space",
+      "NATO",
+      "Industrial Base"
+    ],
+    "shortDescription": "Firefly Aerospace announced plans to launch its Alpha rocket from SSC Space's Esrange Space Center in northern Sweden as early as 2028, under a new \"franchise\" model where SSC buys and integrates the rockets — building on a 2025 US-Sweden Technology Safeguards Agreement and a Swedish Armed Forces launch-services contract.",
+    "whyItMatters": "US launch capacity is tightening, and this gives an allied Arctic launch site plus a repeatable franchise model Firefly could copy elsewhere — a useful data point on how US launch providers are expanding allied-nation infrastructure amid rising strategic interest in the Arctic.",
+    "relevanceScore": 75,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 0
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "Europe",
+    "companyMentions": [
+      "Firefly Aerospace",
+      "SSC Space",
+      "Swedish Defence Materiel Administration"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "International / Australia",
+      "Capital Formation"
+    ],
+    "sponsorNatSec100Relevance": "None",
+    "reactions": {},
+    "createdAt": "2026-07-01T12:13:52.353Z",
+    "updatedAt": "2026-07-01T12:13:52.353Z"
+  },
+  {
+    "id": "a0b2354d-e395-4d00-9d4f-08020c300732",
+    "title": "Onebrief Compresses Army Planning Timelines from Hours to Minutes as NGC2 Scales to Full Division",
+    "url": "https://www.businesswire.com/news/home/20260626590172/en/Onebrief-Compresses-Army-Planning-Timelines-from-Hours-to-Minutes-as-Next-Generation-Command-and-Control-Scales-to-a-Full-Division",
+    "source": "Business Wire",
+    "datePublished": "2026-06-26",
+    "dateAdded": "2026-07-01",
+    "categories": [
+      "Sponsor News",
+      "Government News"
+    ],
+    "tags": [
+      "C2",
+      "Sponsor",
+      "NatSec100",
+      "DoD"
+    ],
+    "shortDescription": "SVDG sponsor Onebrief's planning software compressed complex operational planning cycles from hours to as few as 30 minutes during the Army's IVY STING experimentation series, as the 4th Infantry Division scales its Next Generation Command and Control (NGC2) prototype from battalion to full division ahead of Project Convergence Capstone 6.",
+    "whyItMatters": "Direct, concrete sponsor validation — Onebrief isn't just plugged into NGC2, it's delivering measurable planning-speed gains at division scale right as the Army pushes NGC2 toward becoming its primary C2 system. A strong sponsor win worth flagging to the group.",
+    "relevanceScore": 95,
+    "scoreBreakdown": {
+      "recency": 25,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 10
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "sponsorName": "Onebrief",
+    "companyMentions": [
+      "Onebrief",
+      "US Army",
+      "Anduril",
+      "Palantir",
+      "Microsoft"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Sponsor Engagement",
+      "NatSec100"
+    ],
+    "sponsorNatSec100Relevance": "Direct",
+    "reactions": {},
+    "createdAt": "2026-07-01T12:13:52.353Z",
+    "updatedAt": "2026-07-01T12:13:52.353Z"
+  },
+  {
+    "id": "3ae5f73b-8026-4337-a901-6d52be729e75",
+    "title": "Army's Tobyhanna Depot Scales Up Drone Component Manufacturing with New Assembly Lines",
+    "url": "https://breakingdefense.com/2026/06/tobyhanna-depot-boosts-drone-component-production-with-new-assembly-lines/",
+    "source": "Breaking Defense",
+    "datePublished": "2026-06-30",
+    "dateAdded": "2026-07-01",
+    "categories": [
+      "Government News",
+      "Industry News"
+    ],
+    "tags": [
+      "Drones",
+      "Industrial Base",
+      "Manufacturing",
+      "DoD"
+    ],
+    "shortDescription": "The Army's organic industrial base stood up new brushless-motor and circuit-card assembly lines at Tobyhanna Army Depot, targeting 1,500 motors a day and eventually a million circuit cards a day by FY27, as part of the Drone Dominance initiative.",
+    "whyItMatters": "This is the government side of the drone industrial surge SVDG has been tracking — organic depot capacity scaling alongside commercial drone primes, with flexible tooling that can pivot to other Army components too. A solid acquisition-reform and industrial-base data point.",
+    "relevanceScore": 75,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 0
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "US Army"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Policy",
+      "NatSec100"
+    ],
+    "sponsorNatSec100Relevance": "None",
+    "reactions": {},
+    "createdAt": "2026-07-01T12:13:52.353Z",
+    "updatedAt": "2026-07-01T12:13:52.353Z"
+  },
+  {
+    "id": "773b0df4-832b-4837-a472-bbff280b9556",
+    "title": "GAO: DOT&E Staffing Cuts Are Constraining Pentagon Weapons Testing Oversight",
+    "url": "https://news.usni.org/2026/06/30/gao-report-on-reorganization-of-the-dods-office-of-the-director-operational-test-and-evaluation",
+    "source": "USNI News",
+    "datePublished": "2026-06-30",
+    "dateAdded": "2026-07-01",
+    "categories": [
+      "Government News",
+      "Opinions"
+    ],
+    "tags": [
+      "Acquisition Reform",
+      "DoD",
+      "Congress"
+    ],
+    "shortDescription": "A new GAO report finds that Pentagon-directed staffing cuts to the Office of the Director, Operational Test and Evaluation since May 2025 have constrained its ability to oversee testing for the 173 major weapon systems on its watch list, with DOT&E staff warning that services could use the \"middle tier of acquisition\" pathway to dodge testing requirements.",
+    "whyItMatters": "A direct tension in the acquisition-reform story SVDG tracks closely — cutting testing bureaucracy can speed fielding, but this report is a concrete warning sign about oversight gaps Congress is now watching via the FY26 NDAA. Worth a skim for anyone gauging how far \"move fast\" acquisition reform can go before it creates real risk.",
+    "relevanceScore": 86,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 0
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Policy"
+    ],
+    "sponsorNatSec100Relevance": "None",
+    "reactions": {},
+    "createdAt": "2026-07-01T12:13:52.353Z",
+    "updatedAt": "2026-07-01T12:13:52.353Z"
   }
 ]
