@@ -4942,5 +4942,242 @@
     "reactions": {},
     "createdAt": "2026-07-01T12:13:52.353Z",
     "updatedAt": "2026-07-01T12:13:52.353Z"
+  },
+  {
+    "id": "605b01e1-c16f-43d7-9f97-723a0d6d1e16",
+    "title": "Quantum Systems Raises $1.2B Series D at $8B Valuation",
+    "url": "https://www.tectonicdefense.com/quantum-systems-raises-1-2b-series-d/",
+    "source": "Tectonic",
+    "datePublished": "2026-07-02",
+    "dateAdded": "2026-07-03",
+    "categories": [
+      "Investor News",
+      "International"
+    ],
+    "tags": [
+      "Venture Capital",
+      "Defense Startup",
+      "Autonomy",
+      "AI"
+    ],
+    "shortDescription": "German autonomy company Quantum Systems raised a $1.2B Series D at an $8B valuation, co-led by Blackstone, Airbus, and Advent, with the cash potentially funding a merger with attack-drone sister company Stark.",
+    "whyItMatters": "One of the largest defense tech raises of the year and further proof Europe's neo-primes are scaling fast — worth watching for how a Stark merger would reshape the European autonomy landscape SVDG members compete and partner with.",
+    "relevanceScore": 95,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "Europe",
+    "companyMentions": [
+      "Quantum Systems",
+      "Stark",
+      "Blackstone",
+      "Airbus",
+      "Advent"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Capital Formation",
+      "Newsletter"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-07-03T14:43:32.963Z",
+    "updatedAt": "2026-07-03T14:43:32.963Z"
+  },
+  {
+    "id": "cdf4bdf1-9bdd-4a37-8c8f-d844dc24b643",
+    "title": "True Anomaly Approaches and Images Rocket Lab Craft in VICTUS HAZE Success",
+    "url": "https://payloadspace.com/true-anomaly-approaches-images-rocket-lab-craft/",
+    "source": "Payload",
+    "datePublished": "2026-07-02",
+    "dateAdded": "2026-07-03",
+    "categories": [
+      "Government News",
+      "Industry News"
+    ],
+    "tags": [
+      "Space",
+      "NatSec100"
+    ],
+    "shortDescription": "True Anomaly's Jackal spacecraft found, approached, and imaged a Rocket Lab satellite in orbit for Space Systems Command's VICTUS HAZE tactically responsive space mission, delivering imagery in 61 of an allotted 72 hours.",
+    "whyItMatters": "A clean, fully unclassified proof point for rapid-response space operations — exactly the kind of demonstrated capability that should move the needle for members tracking Space Force acquisition and the responsive-space investment thesis.",
+    "relevanceScore": 95,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "True Anomaly",
+      "Rocket Lab",
+      "Space Systems Command"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "NatSec100",
+      "Newsletter"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-07-03T14:43:32.963Z",
+    "updatedAt": "2026-07-03T14:43:32.963Z"
+  },
+  {
+    "id": "9f4f69e2-6c51-4aa6-a50a-9b43c7d95696",
+    "title": "AWS Names Anduril Preferred Edge Provider, Pairs Menace-I with AWS Outposts",
+    "url": "https://www.defenseone.com/business/2026/06/anduril-and-amazons-mobile-data-center-venture-aims-bring-edge-computing-frontlines/414554/",
+    "source": "Defense One",
+    "author": "Thomas Novelly",
+    "datePublished": "2026-06-30",
+    "dateAdded": "2026-07-03",
+    "categories": [
+      "Sponsor News",
+      "Industry News"
+    ],
+    "tags": [
+      "AI",
+      "Software",
+      "Sponsor",
+      "NatSec100"
+    ],
+    "shortDescription": "AWS named Anduril its \"preferred edge provider\" for national security customers, pairing Anduril's Menace-I containerized command center with AWS Outposts to push cloud compute into contested, disconnected frontline environments.",
+    "whyItMatters": "Direct sponsor news — AWS deepening its defense-edge play with one of the sector's highest-profile primes shows where cloud providers see the next real demand signal in defense, and it's worth flagging for sponsor engagement.",
+    "relevanceScore": 91,
+    "scoreBreakdown": {
+      "recency": 25,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 10
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "sponsorName": "Amazon Web Services",
+    "companyMentions": [
+      "Amazon Web Services",
+      "Anduril"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Sponsor Engagement"
+    ],
+    "sponsorNatSec100Relevance": "Direct",
+    "reactions": {},
+    "createdAt": "2026-07-03T14:43:32.963Z",
+    "updatedAt": "2026-07-03T14:43:32.963Z"
+  },
+  {
+    "id": "eb40dded-cc56-4be5-b4bb-e38e8cf2c89a",
+    "title": "Hegseth Signs Memo Creating Pentagon 'Autonomy Czar' Over Nearly All Drone Programs",
+    "url": "https://breakingdefense.com/2026/07/hehegseth-memo-drone-czar-autonomy-exclusive/",
+    "source": "Breaking Defense",
+    "datePublished": "2026-07-01",
+    "dateAdded": "2026-07-03",
+    "categories": [
+      "Government News"
+    ],
+    "tags": [
+      "Drones",
+      "Autonomy",
+      "DoD",
+      "Acquisition Reform"
+    ],
+    "shortDescription": "SecDef Pete Hegseth signed a memo creating a new Direct Reporting Portfolio Manager for autonomy (DRPM-UxS) to serve as the single joint integrator for nearly all DoD unmanned systems programs, reporting directly to Deputy Secretary Stephen Feinberg.",
+    "whyItMatters": "A major reorganization of how the Pentagon buys and fields drones and autonomous systems — this is the kind of acquisition-structure shift that changes which offices SVDG members need relationships with going forward.",
+    "relevanceScore": 81,
+    "scoreBreakdown": {
+      "recency": 25,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 0
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Policy"
+    ],
+    "sponsorNatSec100Relevance": "None",
+    "reactions": {},
+    "createdAt": "2026-07-03T14:43:32.963Z",
+    "updatedAt": "2026-07-03T14:43:32.963Z"
+  },
+  {
+    "id": "32d591f0-7eb9-45bb-b38f-785ad7229176",
+    "title": "Harpoon Ventures Raises $155M Fourth Fund",
+    "url": "https://www.tectonicdefense.com/harpoon-ventures-raises-155m-fourth-fund/",
+    "source": "Tectonic",
+    "datePublished": "2026-07-01",
+    "dateAdded": "2026-07-03",
+    "categories": [
+      "Investor News"
+    ],
+    "tags": [
+      "Venture Capital",
+      "Defense Startup"
+    ],
+    "shortDescription": "San Diego-based Harpoon Ventures closed a $155M Fund IV, its largest yet, to keep backing early-stage defense startups; its portfolio spans Ursa Major, Merlin, Firestorm, and Alta Ares.",
+    "whyItMatters": "Another data point on how much specialist, operator-led capital is flowing into early-stage defense tech — useful context for capital formation tracking and possible LP/GP relationships worth knowing.",
+    "relevanceScore": 66,
+    "scoreBreakdown": {
+      "recency": 25,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 0
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Harpoon Ventures",
+      "Ursa Major",
+      "Merlin",
+      "Firestorm",
+      "Alta Ares"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Capital Formation"
+    ],
+    "sponsorNatSec100Relevance": "None",
+    "reactions": {},
+    "createdAt": "2026-07-03T14:43:32.963Z",
+    "updatedAt": "2026-07-03T14:43:32.963Z"
   }
 ]
