@@ -5179,5 +5179,184 @@
     "reactions": {},
     "createdAt": "2026-07-03T14:43:32.963Z",
     "updatedAt": "2026-07-03T14:43:32.963Z"
+  },
+  {
+    "id": "084b038f-63be-4652-9c66-875fe43bf02e",
+    "title": "Ondas Acquires Drone-Maker DZYNE Technologies for $875.8M",
+    "url": "https://www.tectonicdefense.com/ondas-acquires-drone-maker-dzyne-technologies-for-876m/",
+    "source": "Tectonic",
+    "datePublished": "2026-07-06",
+    "dateAdded": "2026-07-06",
+    "categories": [
+      "Industry News"
+    ],
+    "tags": [
+      "Drones",
+      "Autonomy"
+    ],
+    "shortDescription": "Ondas is acquiring California-based drone maker DZYNE Technologies for $875.8M in cash and stock, pairing it with April acquisition World View into a new \"Ondas Sentinel\" unit focused on persistent ISR, counter-UAS, and autonomous effects.",
+    "whyItMatters": "Ondas has quietly rolled up a global portfolio of drone and C-UAS companies, and this is its biggest swing yet — worth tracking as a bellwether for how consolidation is reshaping the mid-tier drone/ISR supplier base SVDG members compete and partner with.",
+    "relevanceScore": 76,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Ondas",
+      "DZYNE Technologies",
+      "World View",
+      "Highlander Partners"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Capital Formation"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-07-06T20:38:03.451Z",
+    "updatedAt": "2026-07-06T20:38:03.451Z"
+  },
+  {
+    "id": "ad09bd7b-4b98-4b8f-8eb4-9d9828545d1a",
+    "title": "Ravee Optics Raises $6M Seed to Build Compact Laser Terminals",
+    "url": "https://payloadspace.com/exclusive-ravee-optics-raises-6m-seed-to-build-compact-laser-terminals/",
+    "source": "Payload",
+    "datePublished": "2026-07-06",
+    "dateAdded": "2026-07-06",
+    "categories": [
+      "Investor News"
+    ],
+    "tags": [
+      "Space",
+      "Venture Capital",
+      "Defense Startup"
+    ],
+    "shortDescription": "Ravee Optics closed a $6M seed round led by BIG Global Investment JSC (with CincyTech and JobsOhio Growth Capital) to build meta-optics laser communication terminals that pack Mynaric Condor-class performance into roughly a tenth of the size and weight.",
+    "whyItMatters": "Satellites are generating data faster than RF links can move it, so a credible size/weight/power breakthrough in laser comms is exactly the kind of dual-use hardware bet worth flagging as the space capital formation story keeps compounding.",
+    "relevanceScore": 71,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 0
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Ravee Optics",
+      "Mynaric"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Capital Formation"
+    ],
+    "sponsorNatSec100Relevance": "None",
+    "reactions": {},
+    "createdAt": "2026-07-06T20:38:03.451Z",
+    "updatedAt": "2026-07-06T20:38:03.451Z"
+  },
+  {
+    "id": "4a0079a6-e38c-4baa-804c-1b638132194c",
+    "title": "DHS, DOJ Publish Interim Final Rule Extending Counter-UAS Authority to State and Local Agencies",
+    "url": "https://www.federalregister.gov/documents/2026/07/06/2026-13609/counter-uas-authority-for-state-local-tribal-and-territorial-law-enforcement-and-correctional",
+    "source": "Federal Register",
+    "datePublished": "2026-07-06",
+    "dateAdded": "2026-07-06",
+    "categories": [
+      "Government News"
+    ],
+    "tags": [
+      "Drones",
+      "Counter-UAS",
+      "DoD"
+    ],
+    "shortDescription": "DHS and DOJ published an interim final rule implementing the SAFER SKIES Act, giving trained state, local, Tribal, and territorial law enforcement and corrections agencies a two-tier framework — training/certification, authorized technologies, real-time ATC notification — to detect and mitigate drone threats, effective July 1, 2026.",
+    "whyItMatters": "This meaningfully widens the buyer base for counter-UAS detection and mitigation tech beyond federal agencies to thousands of SLTT agencies — a real near-term demand signal for portfolio companies selling into public safety and critical infrastructure protection.",
+    "relevanceScore": 91,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "DeepNight"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Policy"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-07-06T20:38:03.451Z",
+    "updatedAt": "2026-07-06T20:38:03.451Z"
+  },
+  {
+    "id": "53f54503-d780-47fd-ab49-b961c59b8f89",
+    "title": "Australia Unveils Defence Industry Development Strategy, Overhauls Acquisition Structure",
+    "url": "https://breakingdefense.com/2026/07/australia-announces-defense-industry-policy-and-acquisitions-reforms/",
+    "source": "Breaking Defense",
+    "datePublished": "2026-07-02",
+    "dateAdded": "2026-07-06",
+    "categories": [
+      "Government News",
+      "International"
+    ],
+    "tags": [
+      "Acquisition Reform",
+      "Industrial Base",
+      "AUKUS"
+    ],
+    "shortDescription": "Australia released its Defence Industry Development Strategy, the third top-level defense strategy document of the year, standing up a new Defence Delivery Agency under a National Armaments Director and adding A$80M for SME defense grants through 2030.",
+    "whyItMatters": "Canberra is moving fast to fix the same \"late, over budget, underperforming\" acquisition problem the US is wrestling with — a useful data point for anyone tracking how AUKUS partners are restructuring procurement and industrial base support in parallel.",
+    "relevanceScore": 85,
+    "scoreBreakdown": {
+      "recency": 25,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 0
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "Australia",
+    "companyMentions": [],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "International / Australia",
+      "Policy"
+    ],
+    "sponsorNatSec100Relevance": "None",
+    "reactions": {},
+    "createdAt": "2026-07-06T20:38:03.451Z",
+    "updatedAt": "2026-07-06T20:38:03.451Z"
   }
 ]
