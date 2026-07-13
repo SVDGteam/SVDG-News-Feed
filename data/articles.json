@@ -5925,5 +5925,52 @@
     "reactions": {},
     "createdAt": "2026-07-13T17:58:35.968Z",
     "updatedAt": "2026-07-13T17:58:35.968Z"
+  },
+  {
+    "id": "bb6fd60f-620c-42bd-8a9e-05b20f163fe1",
+    "title": "Pentagon Awards AeroVironment $500M Contract for Counter-Drone Technology",
+    "url": "https://defensescoop.com/2026/07/02/pentagon-awards-500m-contract-aerovironment-counter-drone-technology/",
+    "source": "DefenseScoop",
+    "datePublished": "2026-07-02",
+    "dateAdded": "2026-07-13",
+    "categories": [
+      "Government News",
+      "Industry News"
+    ],
+    "tags": [
+      "Drones",
+      "Acquisition Reform",
+      "DoD",
+      "Industrial Base"
+    ],
+    "shortDescription": "The Army awarded AeroVironment a three-year, up-to-$500M IDIQ to rapidly field commercial counter-UAS gear — sensors, jammers, lasers, and interceptors — to protect troops and bases, running through June 2029.",
+    "whyItMatters": "Counter-drone is the acquisition priority everyone's chasing after the Iran war exposed the 'cost curve' problem, and a $500M commercial-first IDIQ is exactly the fast-fielding, nontraditional-friendly vehicle SVDG cares about. Watch it as a template for how the Army buys attritable defense at speed.",
+    "relevanceScore": 80,
+    "scoreBreakdown": {
+      "recency": 15,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "AeroVironment"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Policy",
+      "NatSec100"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-07-13T19:13:39.707Z",
+    "updatedAt": "2026-07-13T19:13:39.707Z"
   }
 ]
