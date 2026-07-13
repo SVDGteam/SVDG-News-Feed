@@ -5723,5 +5723,207 @@
     "reactions": {},
     "createdAt": "2026-07-13T12:14:56.028Z",
     "updatedAt": "2026-07-13T12:14:56.028Z"
+  },
+  {
+    "id": "904b0a65-270d-4fd5-add1-b882dcd948cb",
+    "title": "Helsing Raises $1.8B Series E at $18B Valuation — Europe's Largest Defense-Startup Round",
+    "url": "https://www.defensenews.com/global/europe/2026/07/13/helsing-raises-18-billion-in-europes-biggest-defense-startup-round/",
+    "source": "Defense News",
+    "datePublished": "2026-07-13",
+    "dateAdded": "2026-07-13",
+    "categories": [
+      "Investor News",
+      "International"
+    ],
+    "tags": [
+      "Venture Capital",
+      "Capital Formation",
+      "AI",
+      "Europe",
+      "Defense Startup",
+      "Autonomy"
+    ],
+    "shortDescription": "Munich-based Helsing raised $1.8B in a Series E at an $18B valuation — the biggest defense-tech startup round in European history — with demand from Dragoneer, Iconiq, CPPIB, JPMorgan, Lightspeed, and Goldman Sachs Alternatives well exceeding the allocation.",
+    "whyItMatters": "This is the clearest signal yet of how much institutional capital is chasing a European defense champion — Helsing is now among the continent's most valuable defense companies just four years in. Worth watching as a benchmark for capital formation and valuations on this side of the Atlantic.",
+    "relevanceScore": 95,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "Europe",
+    "companyMentions": [
+      "Helsing",
+      "Dragoneer Investment Group",
+      "Iconiq",
+      "Canada Pension Plan Investment Board",
+      "JPMorgan",
+      "Lightspeed Venture Partners",
+      "Goldman Sachs"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Capital Formation",
+      "International / Australia"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-07-13T17:58:35.962Z",
+    "updatedAt": "2026-07-13T17:58:35.962Z"
+  },
+  {
+    "id": "8d7a4aec-22bf-48e3-9e3f-a4524b2a6005",
+    "title": "Auterion and Skyfall to Ship 50,000 Shrike Strike Drones to Ukraine in $100M Deal",
+    "url": "https://breakingdefense.com/2026/07/auterion-ukrainian-drone-maker-skyfall-to-supply-50000-fpvs/",
+    "source": "Breaking Defense",
+    "datePublished": "2026-07-13",
+    "dateAdded": "2026-07-13",
+    "categories": [
+      "Industry News",
+      "International"
+    ],
+    "tags": [
+      "Drones",
+      "Autonomy",
+      "Software",
+      "NATO",
+      "Europe"
+    ],
+    "shortDescription": "Auterion and Ukrainian drone-maker Skyfall will deliver 50,000 Shrike FPV strike drones — each running Auterion's Skynode S for terminal guidance in GPS- and comms-denied environments — under a contract funded by a European NATO nation, worth about $100M to Auterion.",
+    "whyItMatters": "A concrete example of software-defined autonomy scaling into mass-manufactured munitions, funded through a NATO ally. Auterion's swarming-via-software-update model is exactly the kind of dual-use, iterate-fast play SVDG members track.",
+    "relevanceScore": 95,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "Europe",
+    "companyMentions": [
+      "Auterion",
+      "Skyfall"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "NatSec100",
+      "International / Australia"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-07-13T17:58:35.968Z",
+    "updatedAt": "2026-07-13T17:58:35.968Z"
+  },
+  {
+    "id": "be930328-39ef-4e7c-9d62-b12014874833",
+    "title": "Skapion Emerges From Stealth With $36M to Build 'Iron Dome for Drone Swarms'",
+    "url": "https://www.tectonicdefense.com/israeli-counter-drone-swarm-startup-skapion-emerges-with-36m/",
+    "source": "Tectonic",
+    "datePublished": "2026-07-10",
+    "dateAdded": "2026-07-13",
+    "categories": [
+      "Industry News",
+      "Investor News"
+    ],
+    "tags": [
+      "Drones",
+      "Defense Startup",
+      "Venture Capital",
+      "Dual-Use"
+    ],
+    "shortDescription": "Washington, DC-based Skapion, founded by former Iron Dome and David's Sling leaders, launched with $36M in seed funding co-led by UP Partners and Khosla Ventures to build a mobile counter-swarm system aimed at intercepting hundreds of drones at once at far lower per-shot cost.",
+    "whyItMatters": "Counter-UAS economics are the central problem in air defense right now, and a team with Rafael/Iron Dome pedigree plus Khosla money is a credible bet. One to watch on the NatSec100 radar as swarm defense heats up.",
+    "relevanceScore": 83,
+    "scoreBreakdown": {
+      "recency": 25,
+      "svdgRelevance": 35,
+      "sourceQuality": 8,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Skapion",
+      "UP Partners",
+      "Khosla Ventures",
+      "Fusion VC",
+      "Rafael"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "Medium",
+    "workstreams": [
+      "NatSec100",
+      "Capital Formation"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-07-13T17:58:35.968Z",
+    "updatedAt": "2026-07-13T17:58:35.968Z"
+  },
+  {
+    "id": "7c9b550d-ba3b-447c-9819-a057a570bf21",
+    "title": "Dassault and Harmattan AI Fly NAMIB Electronic-Warfare Payload on Collaborative UAV With Rafale",
+    "url": "https://www.janes.com/defence-intelligence-insights/defence-news/air/dassault-harmattan-ai-fly-new-ew-collaborative-uav-for-rafale",
+    "source": "Janes",
+    "datePublished": "2026-07-13",
+    "dateAdded": "2026-07-13",
+    "categories": [
+      "International",
+      "Industry News"
+    ],
+    "tags": [
+      "Electronic Warfare",
+      "Autonomy",
+      "Drones",
+      "Europe"
+    ],
+    "shortDescription": "Dassault Aviation and startup Harmattan AI completed a collaborative in-flight demo pairing a Rafale F4 with a drone carrying NAMIB, a new EW payload that detected and geolocated a radar dozens of kilometers away and cued a simulated strike — developed in just six months.",
+    "whyItMatters": "A fast-moving prime-plus-startup partnership pushing manned-unmanned teaming and autonomous EW into a frontline fighter. Signals how European autonomy work is compressing timelines the way the US new-guard has.",
+    "relevanceScore": 71,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 0
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "Europe",
+    "companyMentions": [
+      "Dassault Aviation",
+      "Harmattan AI"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "International / Australia"
+    ],
+    "sponsorNatSec100Relevance": "None",
+    "reactions": {},
+    "createdAt": "2026-07-13T17:58:35.968Z",
+    "updatedAt": "2026-07-13T17:58:35.968Z"
   }
 ]
