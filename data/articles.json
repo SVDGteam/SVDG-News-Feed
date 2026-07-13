@@ -5358,5 +5358,370 @@
     "reactions": {},
     "createdAt": "2026-07-06T20:38:03.451Z",
     "updatedAt": "2026-07-06T20:38:03.451Z"
+  },
+  {
+    "id": "0124be95-0bc3-4856-9e8a-2d61501e4f9d",
+    "title": "Forterra's $114M Army-Backed AGVs Log 1,100+ Combat Missions in Ukraine",
+    "url": "https://www.tectonicdefense.com/exclusive-forterras-114m-army-backed-push-into-ukraine/",
+    "source": "Tectonic",
+    "datePublished": "2026-07-07",
+    "dateAdded": "2026-07-12",
+    "categories": [
+      "Industry News"
+    ],
+    "tags": [
+      "Autonomy",
+      "Robotics",
+      "Defense Startup"
+    ],
+    "shortDescription": "Forterra has sent over 100 Lancer autonomous ground vehicles to the front lines in Ukraine under a $114M US Army contract, completing more than 1,100 missions including logistics runs and nearly 100 casualty evacuations, with the vehicles built and delivered in under six months.",
+    "whyItMatters": "This is about as real a combat validation as autonomy gets right now — not a demo, but 1,100+ missions and lives saved on the Ukrainian front. Worth watching for what a six-month build-to-deploy timeline signals about how fast the Army can field autonomy at scale when it wants to.",
+    "relevanceScore": 86,
+    "scoreBreakdown": {
+      "recency": 25,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Forterra",
+      "US Army"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "NatSec100"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-07-12T14:06:57.329Z",
+    "updatedAt": "2026-07-12T14:06:57.329Z"
+  },
+  {
+    "id": "09afb37b-9fc9-4c3a-af28-0a2a4b24a5d1",
+    "title": "Kraken Technology Group Raises $175M Series B at $1B Valuation",
+    "url": "https://www.tectonicdefense.com/kraken-raises-175m-at-a-1b-valuation/",
+    "source": "Tectonic",
+    "datePublished": "2026-07-09",
+    "dateAdded": "2026-07-12",
+    "categories": [
+      "Investor News",
+      "International"
+    ],
+    "tags": [
+      "Maritime",
+      "Defense Startup",
+      "Venture Capital",
+      "NATO"
+    ],
+    "shortDescription": "British maritime autonomy startup Kraken Technology Group raised a $175M Series B at a $1B valuation, led by DTCP with participation from the NATO Innovation Fund, Rheinmetall, and the British Business Bank, to scale production of its uncrewed surface vessels.",
+    "whyItMatters": "Another European defense unicorn minted, and another sign that NATO's own innovation fund is putting real capital behind allied maritime autonomy. Kraken's partnerships with Anduril and Rheinmetall are also a good template for how a smaller ally-based startup scales through primes rather than around them.",
+    "relevanceScore": 85,
+    "scoreBreakdown": {
+      "recency": 25,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 0
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "UK",
+    "companyMentions": [
+      "Kraken Technology Group",
+      "Rheinmetall",
+      "NATO Innovation Fund"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Capital Formation",
+      "International / Australia"
+    ],
+    "sponsorNatSec100Relevance": "None",
+    "reactions": {},
+    "createdAt": "2026-07-12T14:06:57.330Z",
+    "updatedAt": "2026-07-12T14:06:57.330Z"
+  },
+  {
+    "id": "a84d9729-7092-44de-93ba-a18709f102cc",
+    "title": "Pentagon Awards $86M in OTAs to nLIGHT and Lockheed Martin for Laser Weapons",
+    "url": "https://www.tectonicdefense.com/pentagon-awards-86m-in-otas-for-laser-weapons/",
+    "source": "Tectonic",
+    "datePublished": "2026-07-09",
+    "dateAdded": "2026-07-12",
+    "categories": [
+      "Government News"
+    ],
+    "tags": [
+      "Electronic Warfare",
+      "DoD",
+      "Drones"
+    ],
+    "shortDescription": "The Pentagon awarded nLIGHT Defense and Lockheed Martin Aculight a combined $86M in Other Transaction Authority agreements (with a program ceiling of $847M) to build 150kW containerized laser weapons for cruise missile and drone defense, under the Office of the Under Secretary of War for Research and Engineering.",
+    "whyItMatters": "Directed energy is moving from PowerPoint to procurement — $2B is earmarked for it in the FY27 budget request, and this OTA structure (rapid prototyping, program ceiling nearly 10x the initial award) is the acquisition-reform pattern SVDG members should recognize and expect more of.",
+    "relevanceScore": 86,
+    "scoreBreakdown": {
+      "recency": 25,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "nLIGHT",
+      "Lockheed Martin"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Policy"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-07-12T14:06:57.330Z",
+    "updatedAt": "2026-07-12T14:06:57.330Z"
+  },
+  {
+    "id": "8ed91a2e-78b6-4b87-aea4-3b74720c66ca",
+    "title": "Venus Aerospace Raises $91M Series B, Backed by Lockheed Martin Ventures",
+    "url": "https://payloadspace.com/venus-aerospace-raises-91m-series-b-to-scale-rdre-production/",
+    "source": "Payload",
+    "datePublished": "2026-07-08",
+    "dateAdded": "2026-07-12",
+    "categories": [
+      "Investor News",
+      "Sponsor News"
+    ],
+    "tags": [
+      "Space",
+      "Venture Capital",
+      "Manufacturing"
+    ],
+    "shortDescription": "Venus Aerospace raised a $91M Series B led by Mercury Fund, with Lockheed Martin Ventures among the participants, to scale production of its rotating detonation rocket engine (RDRE) for both DoD and commercial space applications.",
+    "whyItMatters": "Direct sponsor engagement worth flagging to the team: Lockheed Martin Ventures backing a dual-use engine architecture that's explicitly designed to serve one weapons contract and one space contract off the same production line is exactly the kind of capital-plus-customer story SVDG likes to track.",
+    "relevanceScore": 95,
+    "scoreBreakdown": {
+      "recency": 25,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 10
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "sponsorName": "Lockheed Martin Ventures",
+    "companyMentions": [
+      "Venus Aerospace",
+      "Lockheed Martin Ventures",
+      "Mercury Fund"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Capital Formation",
+      "Sponsor Engagement"
+    ],
+    "sponsorNatSec100Relevance": "Direct",
+    "reactions": {},
+    "createdAt": "2026-07-12T14:06:57.330Z",
+    "updatedAt": "2026-07-12T14:06:57.330Z"
+  },
+  {
+    "id": "39aaa197-fa28-40ae-b1ea-906e7e40724b",
+    "title": "NATO Unveils 'Front Door for Industry' and Innovation Scale-Up Package at Ankara Summit",
+    "url": "https://www.nato.int/en/news-and-events/articles/news/2026/07/07/nato-launches-new-initiatives-to-accelerate-defence-industrial-cooperation",
+    "source": "NATO",
+    "datePublished": "2026-07-07",
+    "dateAdded": "2026-07-12",
+    "categories": [
+      "Government News",
+      "International"
+    ],
+    "tags": [
+      "NATO",
+      "Industrial Base",
+      "Acquisition Reform"
+    ],
+    "shortDescription": "At the NATO Summit Defence Industry Forum in Ankara, NATO announced a single-entry 'Front Door for Industry' for companies to access alliance procurement and innovation opportunities, plus a public unclassified demand signal outlining capability priorities, alongside the new NATO Drone Edge counter-drone initiative.",
+    "whyItMatters": "This is the alliance-level version of the acquisition-reform push SVDG cares about domestically — a standing complaint from non-traditional vendors has been that there's no single door into NATO procurement. Worth tracking closely for members with allied ambitions.",
+    "relevanceScore": 85,
+    "scoreBreakdown": {
+      "recency": 25,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 0
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "Europe",
+    "companyMentions": [],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Policy",
+      "International / Australia"
+    ],
+    "sponsorNatSec100Relevance": "None",
+    "reactions": {},
+    "createdAt": "2026-07-12T14:06:57.331Z",
+    "updatedAt": "2026-07-12T14:06:57.331Z"
+  },
+  {
+    "id": "15c381d1-ee40-4b57-ae96-9aa124a17a78",
+    "title": "Pulse Space Lands $40M Space Force Contract for Orbital Laser Tech",
+    "url": "https://payloadspace.com/pulse-space-lands-40m-space-force-contract-to-develop-laser-tech/",
+    "source": "Payload",
+    "datePublished": "2026-07-09",
+    "dateAdded": "2026-07-12",
+    "categories": [
+      "Government News",
+      "Investor News"
+    ],
+    "tags": [
+      "Space",
+      "DoD"
+    ],
+    "shortDescription": "Pulse Space, a Washington-based startup building satellite-to-satellite laser power beaming and debris-tracking tech, won a $40M Space Force OTA — the largest contract in the company's history — with the government now its largest customer over commercial demand.",
+    "whyItMatters": "A small dual-use space startup going from a $1.9M Air Force contract to a $40M Space Force award in about two years is a decent proxy for how fast the government is willing to move once a technology proves out — good signal for the capital formation crowd.",
+    "relevanceScore": 66,
+    "scoreBreakdown": {
+      "recency": 25,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 0
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Pulse Space"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Capital Formation"
+    ],
+    "sponsorNatSec100Relevance": "None",
+    "reactions": {},
+    "createdAt": "2026-07-12T14:06:57.334Z",
+    "updatedAt": "2026-07-12T14:06:57.334Z"
+  },
+  {
+    "id": "47ad000c-e943-4dae-9126-593317600325",
+    "title": "Pentagon Seeks to Shift $4.3B to Cover Rising Personnel and Operations Costs",
+    "url": "https://breakingdefense.com/2026/07/pentagon-seeks-to-shift-4-3b-to-pay-for-increasing-operation-and-personnel-costs/",
+    "source": "Breaking Defense",
+    "datePublished": "2026-07-09",
+    "dateAdded": "2026-07-13",
+    "categories": [
+      "Government News"
+    ],
+    "tags": [
+      "DoD",
+      "Budget",
+      "Congress"
+    ],
+    "shortDescription": "The Pentagon submitted a reprogramming notification to Congress to move $4.3B within FY26 accounts, with $3.76B going to military personnel accounts to cover higher end-strength, pay, and PCS costs. The money is being pulled from Army Guard training, Navy R&D and aircraft procurement, Air Force F-35 procurement, and Space Force R&D lines.",
+    "whyItMatters": "This is the budget-crunch signal to watch — when personnel costs (driven partly by Iran war operations) start cannibalizing weapons R&D and procurement lines, it's a preview of the kind of tradeoffs that could hit program timelines and vendor payment cycles later this year.",
+    "relevanceScore": 66,
+    "scoreBreakdown": {
+      "recency": 25,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 0
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Policy"
+    ],
+    "sponsorNatSec100Relevance": "None",
+    "reactions": {},
+    "createdAt": "2026-07-13T12:14:56.024Z",
+    "updatedAt": "2026-07-13T12:14:56.024Z"
+  },
+  {
+    "id": "0e72d055-586c-4d0d-9611-1526f73e9c83",
+    "title": "CesiumAstro Files for 737-Satellite Synchronicity Constellation",
+    "url": "https://www.satellitetoday.com/connectivity/2026/07/07/cesiumastro-files-for-737-satellite-synchronicity-constellation/",
+    "source": "Via Satellite",
+    "author": "Rachel Jewett",
+    "datePublished": "2026-07-07",
+    "dateAdded": "2026-07-13",
+    "categories": [
+      "Sponsor News",
+      "Industry News"
+    ],
+    "tags": [
+      "Space",
+      "Sponsor"
+    ],
+    "shortDescription": "CesiumAstro filed with the FCC for Synchronicity, a 737-satellite NGSO constellation providing reconfigurable Ku/Ka/V-band connectivity to fixed and mobile users — the company's first public move toward operating its own constellation rather than just supplying payloads and terminals.",
+    "whyItMatters": "This is CesiumAstro leveling up from payload supplier to full constellation operator, a real strategic bet from an SVDG sponsor that's already banked $470M in growth capital plus $200M in EXIM financing this year — worth flagging to the group as a name to watch.",
+    "relevanceScore": 88,
+    "scoreBreakdown": {
+      "recency": 25,
+      "svdgRelevance": 35,
+      "sourceQuality": 8,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 10
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "sponsorName": "CesiumAstro",
+    "companyMentions": [
+      "CesiumAstro"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "Medium",
+    "workstreams": [
+      "Sponsor Engagement",
+      "Capital Formation"
+    ],
+    "sponsorNatSec100Relevance": "Direct",
+    "reactions": {},
+    "createdAt": "2026-07-13T12:14:56.028Z",
+    "updatedAt": "2026-07-13T12:14:56.028Z"
   }
 ]
