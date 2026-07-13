@@ -25,7 +25,7 @@ scoring/review like anything else.
 
 ## Install (each team member)
 
-Send the team to **`https://svdg-news-feed.vercel.app/extension`** — it has a
+Send the team to **`https://svdg-dispatch.vercel.app/extension`** — it has a
 "Download for Chrome" button and these same steps. Chrome doesn't allow
 auto-installing unpacked extensions, so it's a one-time ~1 minute setup:
 
@@ -36,7 +36,7 @@ auto-installing unpacked extensions, so it's a one-time ~1 minute setup:
 5. Pin the "SVDG Dispatch Clipper" icon (puzzle-piece icon → pin).
 6. Click the icon → **Settings** (bottom of popup).
 7. Set:
-   - **Dispatch site URL**: `https://svdg-news-feed.vercel.app` (pre-filled)
+   - **Dispatch site URL**: `https://svdg-dispatch.vercel.app` (pre-filled)
    - **API key**: the shared secret Simone sent you
 8. Click **Save**.
 

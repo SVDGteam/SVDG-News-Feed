@@ -86,7 +86,7 @@ sheet) and add these functions alongside `doPost`:
 //   DIGEST_SECRET = a random string (also set as NEWSLETTER_DIGEST_SECRET
 //                   in Vercel — must match exactly)
 
-var LOGO_URL = 'https://svdg-news-feed.vercel.app/brand/logomark-color.png';
+var LOGO_URL = 'https://svdg-dispatch.vercel.app/brand/logomark-color.png';
 
 // Swaps the external logo URL for a cid: reference and returns the blob to
 // attach inline. Without this, Gmail shows "Images are not displayed" for
