@@ -62,12 +62,21 @@ REPO_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 PARENT_DIR="$(cd "$REPO_DIR/.." && pwd)"
 PAT_FILE="$PARENT_DIR/.github-token"
 HOOK_FILE="$PARENT_DIR/.vercel-deploy-hook"
-SCRATCH_DIR="/tmp/svdg-deploy-scratch"
+# Every run gets its own private temp dir (mktemp -d, mode 0700, owned by the
+# current sandbox user). Earlier versions wrote to fixed /tmp paths like
+# /tmp/svdg-clone-err.log; because /tmp is world-writable + sticky and each
+# scheduled run can execute as a different uid, a zero-byte log left by a
+# prior run's user would be un-overwritable by the next run, and the `2>`
+# redirect failing aborted `git clone` before it ran (masking the real
+# error). Using a fresh mktemp dir per run sidesteps that entirely — nothing
+# is ever shared or reused across runs.
+RUN_TMP="$(mktemp -d "${TMPDIR:-/tmp}/svdg-deploy.XXXXXX")"
+SCRATCH_DIR="$RUN_TMP/clone"
 LOG_PREFIX="[$(date '+%Y-%m-%d %H:%M:%S')] svdg-auto-deploy:"
 MAX_ATTEMPTS=3
 
 cleanup() {
-  rm -rf "$SCRATCH_DIR"
+  rm -rf "$RUN_TMP"
 }
 trap cleanup EXIT
 
@@ -91,8 +100,8 @@ while (( ATTEMPT <= MAX_ATTEMPTS )); do
   # user, no matter how a prior run ended. Re-cloning on retry also means we
   # pick up any commits that landed on origin/main between attempts.
   rm -rf "$SCRATCH_DIR"
-  if ! git clone --quiet --depth 1 "$AUTH_URL" "$SCRATCH_DIR" 2>/tmp/svdg-clone-err.log; then
-    echo "$LOG_PREFIX Attempt $ATTEMPT: clone failed — $(tail -1 /tmp/svdg-clone-err.log)" >&2
+  if ! git clone --quiet --depth 1 "$AUTH_URL" "$SCRATCH_DIR" 2>"$RUN_TMP/clone-err.log"; then
+    echo "$LOG_PREFIX Attempt $ATTEMPT: clone failed — $(tail -1 "$RUN_TMP/clone-err.log")" >&2
     ATTEMPT=$((ATTEMPT + 1))
     sleep 5
     continue
@@ -119,12 +128,12 @@ while (( ATTEMPT <= MAX_ATTEMPTS )); do
   git commit -m "chore: daily research $(date +%Y-%m-%d)" --quiet
   echo "$LOG_PREFIX Attempt $ATTEMPT: committed data/articles.json (disposable clone)."
 
-  if git push --quiet "$AUTH_URL" HEAD:main 2>/tmp/svdg-push-err.log; then
+  if git push --quiet "$AUTH_URL" HEAD:main 2>"$RUN_TMP/push-err.log"; then
     PUSHED_SHA="$(git rev-parse HEAD)"
     echo "$LOG_PREFIX Attempt $ATTEMPT: pushed $PUSHED_SHA to GitHub (PAT auth)."
     break
   else
-    echo "$LOG_PREFIX Attempt $ATTEMPT: push failed — $(tail -1 /tmp/svdg-push-err.log). Likely origin moved; retrying with a fresh clone..." >&2
+    echo "$LOG_PREFIX Attempt $ATTEMPT: push failed — $(tail -1 "$RUN_TMP/push-err.log"). Likely origin moved; retrying with a fresh clone..." >&2
     cd "$REPO_DIR"
     ATTEMPT=$((ATTEMPT + 1))
     sleep 5
@@ -149,11 +158,11 @@ echo "$LOG_PREFIX Verified origin/main now points at $PUSHED_SHA."
 
 if [[ -f "$HOOK_FILE" ]]; then
   HOOK_URL="$(tr -d '[:space:]' < "$HOOK_FILE")"
-  HOOK_HTTP_STATUS="$(curl -s -o /tmp/svdg-hook-response.json -w '%{http_code}' -X POST "$HOOK_URL")"
+  HOOK_HTTP_STATUS="$(curl -s -o "$RUN_TMP/hook-response.json" -w '%{http_code}' -X POST "$HOOK_URL")"
   if [[ "$HOOK_HTTP_STATUS" =~ ^2 ]]; then
-    echo "$LOG_PREFIX Vercel redeploy triggered (HTTP $HOOK_HTTP_STATUS): $(cat /tmp/svdg-hook-response.json)"
+    echo "$LOG_PREFIX Vercel redeploy triggered (HTTP $HOOK_HTTP_STATUS): $(cat "$RUN_TMP/hook-response.json")"
   else
-    echo "$LOG_PREFIX ERROR: Vercel deploy hook returned HTTP $HOOK_HTTP_STATUS: $(cat /tmp/svdg-hook-response.json)" >&2
+    echo "$LOG_PREFIX ERROR: Vercel deploy hook returned HTTP $HOOK_HTTP_STATUS: $(cat "$RUN_TMP/hook-response.json")" >&2
     exit 1
   fi
 else
