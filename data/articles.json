@@ -5972,5 +5972,249 @@
     "reactions": {},
     "createdAt": "2026-07-13T19:13:39.707Z",
     "updatedAt": "2026-07-13T19:13:39.707Z"
+  },
+  {
+    "id": "1bda8faa-4fb4-42aa-a75a-17709bd8689f",
+    "title": "Singularity Emerges From Stealth With $80M Series A at $400M Valuation for Low-Cost Air Defense",
+    "url": "https://www.tectonicdefense.com/interceptor-startup-singularity-emerges-from-stealth-with-an-80m-series-a-at-a-400m-valuation/",
+    "source": "Tectonic",
+    "datePublished": "2026-07-14",
+    "dateAdded": "2026-07-14",
+    "categories": [
+      "Industry News",
+      "Investor News"
+    ],
+    "tags": [
+      "Defense Startup",
+      "Munitions",
+      "Venture Capital",
+      "Autonomy"
+    ],
+    "shortDescription": "Singularity came out of two years in stealth with an $80M Series A led by Khosla Ventures and Felicis at a $400M valuation, building a clean-sheet, missile-based air defense interceptor aimed at breaking the cost curve on shooting down drones, Shaheds, and glide bombs. The company is flight-testing multiple times a month and building all subsystems, including the rocket motor, in-house.",
+    "whyItMatters": "Low-cost air defense is one of the hottest corners of defense tech right now, and a $400M valuation out of stealth signals investors still see huge upside. The Ukraine-forged, vertically integrated, automotive-style production pitch is exactly the dual-use profile SVDG tracks.",
+    "relevanceScore": 95,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Singularity",
+      "Khosla Ventures",
+      "Felicis",
+      "NEA",
+      "Menlo Ventures",
+      "Harpoon Ventures",
+      "Y Combinator"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Capital Formation",
+      "NatSec100"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-07-14T19:15:09.983Z",
+    "updatedAt": "2026-07-14T19:15:09.983Z"
+  },
+  {
+    "id": "4c04ad63-1028-4c9e-9387-dc0d588732df",
+    "title": "Valarian Raises $50M Series A Led by NEA to Build Sovereign Infrastructure for Defense and AI",
+    "url": "https://www.securityweek.com/valarian-raises-50-million-for-sovereign-infrastructure-control-layer/",
+    "source": "SecurityWeek",
+    "datePublished": "2026-07-13",
+    "dateAdded": "2026-07-14",
+    "categories": [
+      "Investor News",
+      "International"
+    ],
+    "tags": [
+      "Dual-Use",
+      "Software",
+      "AI",
+      "Venture Capital"
+    ],
+    "shortDescription": "UK-based Valarian raised a $50M Series A led by New Enterprise Associates to scale its ACRA sovereign-infrastructure control layer, which ring-fences data and compute in mission-specific compartments across cloud, on-prem, and edge. The round marks NEA's first defense/dual-use investment in Europe.",
+    "whyItMatters": "A top US venture firm making its first European defense bet is a notable signal for transatlantic capital formation, and data sovereignty is becoming a procurement gating issue for allied governments. Valarian's fast shift from B2G to B2B2G revenue is a useful template for dual-use scaling.",
+    "relevanceScore": 80,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "UK",
+    "companyMentions": [
+      "Valarian",
+      "New Enterprise Associates",
+      "XTX Markets",
+      "Second Front Systems"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Capital Formation",
+      "International / Australia"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-07-14T19:15:09.984Z",
+    "updatedAt": "2026-07-14T19:15:09.984Z"
+  },
+  {
+    "id": "20017cd9-3a0b-4252-b367-537776ef0a37",
+    "title": "Spinifex Space Launches With Australian Test Ranges for Hypersonics and Energetics",
+    "url": "https://payloadspace.com/spinifex-space-launches-with-australian-test-ranges/",
+    "source": "Payload",
+    "datePublished": "2026-07-14",
+    "dateAdded": "2026-07-14",
+    "categories": [
+      "International",
+      "Industry News"
+    ],
+    "tags": [
+      "AUKUS",
+      "Hypersonics",
+      "Industrial Base",
+      "Space"
+    ],
+    "shortDescription": "Spinifex Space launched to offer private test-and-evaluation range access from more than 3M acres in southwestern Queensland, spun out of solid-rocket-motor maker Black Sky Industries. Its Black Sands Test Range and Outback Space Port cover static fire, hypersonic vehicles, kinetic effectors, and energetics testing as an alternative to the government-owned Woomera range.",
+    "whyItMatters": "As Australia shifts from buying missiles to building them under AUKUS, testing capacity becomes the bottleneck, and privately held range infrastructure is a scarce, strategically important asset. This is a concrete sovereign-capability play worth watching for the Australia workstream.",
+    "relevanceScore": 71,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 0
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "Australia",
+    "companyMentions": [
+      "Spinifex Space",
+      "Black Sky Industries",
+      "Northrop Grumman Australia",
+      "Lockheed Martin Australia",
+      "Kongsberg"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "International / Australia"
+    ],
+    "sponsorNatSec100Relevance": "None",
+    "reactions": {},
+    "createdAt": "2026-07-14T19:15:09.984Z",
+    "updatedAt": "2026-07-14T19:15:09.984Z"
+  },
+  {
+    "id": "1468b8fc-d86b-4df2-a5bc-676ce9ad33ce",
+    "title": "SDA Awards $1.75B to L3Harris and Sierra Space for 36 Golden Dome Missile-Tracking Satellites",
+    "url": "https://spacenews.com/l3harris-sierra-space-to-build-36-satellites-to-expand-u-s-missile-tracking-network/",
+    "source": "SpaceNews",
+    "datePublished": "2026-07-13",
+    "dateAdded": "2026-07-14",
+    "categories": [
+      "Government News",
+      "Industry News"
+    ],
+    "tags": [
+      "Space",
+      "DoD",
+      "Industrial Base"
+    ],
+    "shortDescription": "The Space Development Agency issued $1.75B in fixed-price OTA prototype awards — $955M to L3Harris and $798M to Sierra Space — to build 36 Tranche 3 tracking-layer satellites supporting the Golden Dome missile-defense initiative, with delivery targeted by the end of 2028. Sierra Space's 18 satellites use its Horizon/Eclipse platform from the Tranche 2 program.",
+    "whyItMatters": "Golden Dome is turning into one of the largest new sources of space and missile-defense demand, and the OTA prototyping route keeps signaling how DoD wants to move fast on constellations. Useful context for members tracking the space-defense industrial base and acquisition pathways.",
+    "relevanceScore": 71,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 0
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "L3Harris",
+      "Sierra Space",
+      "Space Development Agency"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Policy"
+    ],
+    "sponsorNatSec100Relevance": "None",
+    "reactions": {},
+    "createdAt": "2026-07-14T19:15:09.984Z",
+    "updatedAt": "2026-07-14T19:15:09.984Z"
+  },
+  {
+    "id": "665a55b7-f0b6-4cb4-b58e-a7a4d90f4d39",
+    "title": "Pentagon Announces Immediate Suspension of CMMC Phase II Cybersecurity Mandates",
+    "url": "https://breakingdefense.com/2026/07/pentagon-announces-immediate-suspension-of-cmmc-mandates/",
+    "source": "Breaking Defense",
+    "datePublished": "2026-07-13",
+    "dateAdded": "2026-07-14",
+    "categories": [
+      "Government News"
+    ],
+    "tags": [
+      "Acquisition Reform",
+      "Cyber",
+      "Industrial Base",
+      "DoD"
+    ],
+    "shortDescription": "The Pentagon immediately suspended the CMMC Phase II third-party cybersecurity assessment mandates that were set to take effect November 10, 2026, and launched a 60-day reform review, citing costs and a severe assessor shortfall — roughly 100 assessors for over 100,000 businesses needing certification. Phase I self-assessment requirements remain in force.",
+    "whyItMatters": "CMMC compliance has been one of the biggest barriers keeping small and nontraditional firms out of the defense market, so a pause plus reform review is directly relevant to SVDG's acquisition-reform and industrial-base priorities. Expect strong reactions on both sides from industry.",
+    "relevanceScore": 90,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 0
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Policy",
+      "Industry Council"
+    ],
+    "sponsorNatSec100Relevance": "None",
+    "reactions": {},
+    "createdAt": "2026-07-14T19:15:09.984Z",
+    "updatedAt": "2026-07-14T19:15:09.984Z"
   }
 ]
