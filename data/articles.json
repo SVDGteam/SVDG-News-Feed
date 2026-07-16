@@ -6216,5 +6216,293 @@
     "reactions": {},
     "createdAt": "2026-07-14T19:15:09.984Z",
     "updatedAt": "2026-07-14T19:15:09.984Z"
+  },
+  {
+    "id": "a084190b-72ff-4a59-8920-aeb2a6a198e4",
+    "title": "Saronic Picks Brownsville for $3B 'Port Alpha' Autonomous Shipyard",
+    "url": "https://gcaptain.com/saronic-picks-brownsville-for-3-billion-port-alpha-autonomous-shipyard/",
+    "source": "gCaptain",
+    "datePublished": "2026-07-16",
+    "dateAdded": "2026-07-16",
+    "categories": [
+      "Industry News"
+    ],
+    "tags": [
+      "Maritime",
+      "Autonomy",
+      "Manufacturing",
+      "Industrial Base",
+      "Defense Startup"
+    ],
+    "shortDescription": "Autonomous vessel-maker Saronic will invest more than $3B in Port Alpha, a software-defined shipyard at the Port of Brownsville, Texas, on an 835-acre site with room to expand to ~4,400 acres. Construction starts this year with an opening targeted for 2028.",
+    "whyItMatters": "This is defense-industrial-base capacity being built by a venture-backed newcomer rather than a legacy prime — exactly the shift SVDG tracks. A ~10,000-job, robotics-heavy yard aimed at mass-producing autonomous vessels is a real bet that software-defined shipbuilding can outpace the traditional model.",
+    "relevanceScore": 93,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 8,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 10
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Saronic"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "Medium",
+    "workstreams": [
+      "NatSec100",
+      "Industry Council"
+    ],
+    "sponsorNatSec100Relevance": "Direct",
+    "reactions": {},
+    "createdAt": "2026-07-16T19:13:22.755Z",
+    "updatedAt": "2026-07-16T19:13:22.755Z"
+  },
+  {
+    "id": "1e666b16-51e1-4e3b-a17f-a3fd36b41cbc",
+    "title": "Machina Labs Wins Lockheed Martin Qualification Contract for JASSM Missile Parts",
+    "url": "https://www.tectonicdefense.com/lockheed-taps-machina-labs-for-jassm-missile-parts/",
+    "source": "Tectonic",
+    "datePublished": "2026-07-15",
+    "dateAdded": "2026-07-16",
+    "categories": [
+      "Sponsor News",
+      "Industry News"
+    ],
+    "tags": [
+      "Manufacturing",
+      "Munitions",
+      "Robotics",
+      "Industrial Base",
+      "Sponsor"
+    ],
+    "shortDescription": "SVDG sponsor Machina Labs signed a qualification contract with Lockheed Martin to deliver AI-formed metal structures (fuel tanks) for the JASSM cruise missile. The work will run through Machina's forthcoming 200,000-sq-ft Factory 3, with production potentially starting next year.",
+    "whyItMatters": "A sponsor moving from pilot to qualified supplier on a flagship munitions program is a concrete proof point that AI-driven flexible manufacturing can plug into prime supply chains. Bonus: Lockheed Martin Ventures is also in the SVDG orbit, so this is two portfolio names in one deal.",
+    "relevanceScore": 100,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 10
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "sponsorName": "Machina Labs",
+    "companyMentions": [
+      "Machina Labs",
+      "Lockheed Martin"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Sponsor Engagement",
+      "NatSec100"
+    ],
+    "sponsorNatSec100Relevance": "Direct",
+    "reactions": {},
+    "createdAt": "2026-07-16T19:13:22.755Z",
+    "updatedAt": "2026-07-16T19:13:22.755Z"
+  },
+  {
+    "id": "e84b4f1e-015b-4c60-92ab-885397a9c56c",
+    "title": "Ursa Major Wins $10M Navy Contract for MK 104 Standard Missile Rocket Motors",
+    "url": "https://www.tectonicdefense.com/exclusive-ursa-major-snags-10m-navy-contract-for-mk-104-rocket-engines/",
+    "source": "Tectonic",
+    "datePublished": "2026-07-15",
+    "dateAdded": "2026-07-16",
+    "categories": [
+      "Industry News",
+      "Government News"
+    ],
+    "tags": [
+      "Munitions",
+      "Manufacturing",
+      "Industrial Base",
+      "Defense Startup"
+    ],
+    "shortDescription": "The U.S. Navy awarded Ursa Major a $10M development contract to advance its MK 104 solid rocket motor design through critical design review and static fire. The MK 104 powers the Navy's Standard Missile family (SM-2/-3/-6), and Ursa Major will build via its adaptable 'Lynx' SRM production line.",
+    "whyItMatters": "Solid rocket motors are a chronic industrial-base bottleneck, and here a nontraditional propulsion startup is being funded to break into a legacy-dominated line. It's a small dollar figure but a meaningful signal on second-sourcing critical munitions.",
+    "relevanceScore": 81,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 10
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Ursa Major"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "NatSec100"
+    ],
+    "sponsorNatSec100Relevance": "Direct",
+    "reactions": {},
+    "createdAt": "2026-07-16T19:13:22.755Z",
+    "updatedAt": "2026-07-16T19:13:22.755Z"
+  },
+  {
+    "id": "e4030333-a002-4952-84b5-7a3a205cf1c4",
+    "title": "Pentagon Signs Framework Deals for Thousands of Affordable Air-Launched Cruise Missiles",
+    "url": "https://www.airandspaceforces.com/pentagon-announces-multiyear-deals-to-buy-thousands-of-affordable-cruise-missiles/",
+    "source": "Air & Space Forces Magazine",
+    "datePublished": "2026-07-16",
+    "dateAdded": "2026-07-16",
+    "categories": [
+      "Government News",
+      "Industry News"
+    ],
+    "tags": [
+      "Munitions",
+      "Acquisition Reform",
+      "Industrial Base",
+      "Autonomy"
+    ],
+    "shortDescription": "The Air Force reached framework agreements with Anduril (Barracuda-500), CoAspire, and Zone 5 (Rusty Dagger) under its Family of Affordable Mass Missiles (FAMM) program, targeting cruise missiles near $218K per round to enable mass buys of thousands over five years.",
+    "whyItMatters": "Affordable mass and second-sourcing munitions from nontraditional vendors is the acquisition-reform thesis in action. Framework agreements that let the DoD buy at volume from newcomers like Anduril and Zone 5 are exactly the market-structure shift SVDG members are positioned around.",
+    "relevanceScore": 95,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Anduril",
+      "CoAspire",
+      "Zone 5"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Policy",
+      "NatSec100"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-07-16T19:13:22.755Z",
+    "updatedAt": "2026-07-16T19:13:22.755Z"
+  },
+  {
+    "id": "ae8d559f-e88e-4b08-950b-206a65948546",
+    "title": "SWISSto12 Closes $70M Series C to Scale Multi-Orbit Satellite Production",
+    "url": "https://payloadspace.com/swissto12-closes-70m-series-c/",
+    "source": "Payload",
+    "datePublished": "2026-07-16",
+    "dateAdded": "2026-07-16",
+    "categories": [
+      "Investor News",
+      "International"
+    ],
+    "tags": [
+      "Space",
+      "Venture Capital",
+      "Manufacturing",
+      "Dual-Use"
+    ],
+    "shortDescription": "Swiss satellite maker SWISSto12 closed a $70M Series C on the back of $500M+ in contracts and $140M in 2025 revenue. Its 3D-printed HummingSat targets smaller, cheaper GEO satellites; funds will scale manufacturing for commercial and sovereign government customers.",
+    "whyItMatters": "A profitable European space-hardware startup raising to meet sovereign-government demand is a useful read on where allied dual-use capital is flowing. The additive-manufacturing angle and multi-orbit push make it relevant to both space and industrial-base watchers.",
+    "relevanceScore": 80,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "Europe",
+    "companyMentions": [
+      "SWISSto12",
+      "SES",
+      "Viasat"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Capital Formation",
+      "International / Australia"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-07-16T19:13:22.755Z",
+    "updatedAt": "2026-07-16T19:13:22.755Z"
+  },
+  {
+    "id": "d4457a68-474a-4870-a2cf-6eb614769595",
+    "title": "Pentagon Invests $25M in Rare Earths Startup ReElement Technologies",
+    "url": "https://money.usnews.com/investing/news/articles/2026-07-13/pentagon-invests-25-million-into-rare-earths-startup-reelement-technologies",
+    "source": "Reuters",
+    "datePublished": "2026-07-13",
+    "dateAdded": "2026-07-16",
+    "categories": [
+      "Government News",
+      "Industry News"
+    ],
+    "tags": [
+      "Industrial Base",
+      "Supply Chain",
+      "Manufacturing",
+      "Dual-Use"
+    ],
+    "shortDescription": "The DoD will invest $25M in ReElement Technologies to build a chromatography-based rare-earth and critical-minerals refining facility in Marion, Indiana, recycling end-of-life magnets and producing germanium and gallium. It follows the company dropping an earlier $80M Pentagon loan bid.",
+    "whyItMatters": "Critical-minerals independence from China is a durable SVDG theme, and this is the government taking a direct equity-style stake to stand up domestic refining. The pivot from a stalled loan to a direct investment is also a telling data point on how DoD is deploying capital into the industrial base.",
+    "relevanceScore": 75,
+    "scoreBreakdown": {
+      "recency": 25,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "ReElement Technologies"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Capital Formation",
+      "Policy"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-07-16T19:13:22.755Z",
+    "updatedAt": "2026-07-16T19:13:22.755Z"
   }
 ]
