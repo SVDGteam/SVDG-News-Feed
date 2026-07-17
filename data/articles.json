@@ -6504,5 +6504,253 @@
     "reactions": {},
     "createdAt": "2026-07-16T19:13:22.755Z",
     "updatedAt": "2026-07-16T19:13:22.755Z"
+  },
+  {
+    "id": "bdec5758-e10a-4d03-a0e0-b5cad1210d30",
+    "title": "Neros Awarded $500M Army IDIQ for Archer Attritable Drones",
+    "url": "https://www.govconwire.com/articles/neros-500m-army-archer-fpv-contract",
+    "source": "GovCon Wire",
+    "author": "Kristen Smith",
+    "datePublished": "2026-07-17",
+    "dateAdded": "2026-07-17",
+    "categories": [
+      "Industry News",
+      "Government News"
+    ],
+    "tags": [
+      "Drones",
+      "Defense Startup",
+      "Autonomy",
+      "Acquisition Reform",
+      "Manufacturing"
+    ],
+    "shortDescription": "The Army awarded drone startup Neros a five-year, firm-fixed-price IDIQ worth up to $500M for its Archer FPV attritable drones under the Purpose-Built Attritable Systems (PBAS) program, covering the platform plus support equipment, testing, and training. Neros is producing over 1,000 drones a week and building toward a million a year by 2028.",
+    "whyItMatters": "One of the largest attritable-drone commitments yet to a nontraditional, VC-backed manufacturer building China-free hardware at $2K a unit — a template for how the Army plans to buy cheap mass drones. Worth watching how much of that $500M ceiling actually converts to orders.",
+    "relevanceScore": 91,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Neros",
+      "Sequoia Capital",
+      "US Army"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "NatSec100"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-07-17T19:15:46.072Z",
+    "updatedAt": "2026-07-17T19:15:46.072Z"
+  },
+  {
+    "id": "2af20339-525c-4a46-845b-e1e945938fb1",
+    "title": "Lockheed Martin Ventures Opens London Office, Earmarks $100M+ for UK & European Defense Startups",
+    "url": "https://www.prnewswire.com/news-releases/lockheed-martin-earmarks-100-million-for-venture-capital-investments-in-uk-europe-302827004.html",
+    "source": "Lockheed Martin Ventures (PR Newswire)",
+    "datePublished": "2026-07-17",
+    "dateAdded": "2026-07-17",
+    "categories": [
+      "Investor News",
+      "International",
+      "Sponsor News"
+    ],
+    "tags": [
+      "Venture Capital",
+      "Sponsor",
+      "Dual-Use",
+      "NATO",
+      "Industrial Base"
+    ],
+    "shortDescription": "Lockheed Martin Ventures is opening a London office and committing at least $100M of its recently expanded $1B fund to UK and European defense startups and allied supply chains, aiming to invest earlier in the startup lifecycle and strengthen the transatlantic industrial base.",
+    "whyItMatters": "An SVDG sponsor doubling down on transatlantic defense-tech capital formation — a clear signal that US primes are now racing European VCs (Lakestar, the NATO Innovation Fund) to back allied startups. Directly relevant to sponsor engagement and the capital-formation thesis.",
+    "relevanceScore": 93,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 8,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 10
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "Europe",
+    "sponsorName": "Lockheed Martin Ventures",
+    "companyMentions": [
+      "Lockheed Martin Ventures"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "Medium",
+    "workstreams": [
+      "Sponsor Engagement",
+      "Capital Formation"
+    ],
+    "sponsorNatSec100Relevance": "Direct",
+    "reactions": {},
+    "createdAt": "2026-07-17T19:15:46.072Z",
+    "updatedAt": "2026-07-17T19:15:46.072Z"
+  },
+  {
+    "id": "7977fdfb-1128-4a81-9343-8baa158f8c96",
+    "title": "Office of Strategic Capital Launches National Security Fund Finance Program for Critical Minerals",
+    "url": "https://www.war.gov/News/Releases/Release/Article/4545418/the-department-of-wars-office-of-strategic-capital-introduces-national-security/",
+    "source": "U.S. Department of War (OSC)",
+    "datePublished": "2026-07-14",
+    "dateAdded": "2026-07-17",
+    "categories": [
+      "Government News",
+      "Investor News"
+    ],
+    "tags": [
+      "OSC",
+      "Industrial Base",
+      "Supply Chain",
+      "Private Equity"
+    ],
+    "shortDescription": "OSC introduced the National Security Fund Finance (NSFF) program, a fund-level financing initiative providing direct loans to qualified investment-fund managers who pair OSC capital with private money to invest in companies addressing critical-minerals shortages, gaps, and vulnerabilities. A formal Notice of Funding Opportunity is imminent.",
+    "whyItMatters": "A new OSC fund-of-funds mechanism is exactly the capital-formation tooling SVDG tracks — the government de-risking private credit funds to shore up critical-minerals supply chains. Members raising or deploying capital in this space should watch the coming NOFO.",
+    "relevanceScore": 85,
+    "scoreBreakdown": {
+      "recency": 25,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 0
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Office of Strategic Capital"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Capital Formation",
+      "Policy"
+    ],
+    "sponsorNatSec100Relevance": "None",
+    "reactions": {},
+    "createdAt": "2026-07-17T19:15:46.072Z",
+    "updatedAt": "2026-07-17T19:15:46.072Z"
+  },
+  {
+    "id": "0e6711fc-6abc-4fc9-a0a3-193f01deabf2",
+    "title": "Lakestar Closes Oversubscribed €262M ($300M) Resilience I Fund for European Defense & Dual-Use",
+    "url": "https://www.eu-startups.com/2026/07/lakestar-closes-e262-2-million-resilience-i-fund-to-back-european-defence-and-dual-use-companies/",
+    "source": "EU-Startups",
+    "datePublished": "2026-07-17",
+    "dateAdded": "2026-07-17",
+    "categories": [
+      "Investor News",
+      "International"
+    ],
+    "tags": [
+      "Venture Capital",
+      "Dual-Use",
+      "Defense Startup",
+      "NATO"
+    ],
+    "shortDescription": "European VC Lakestar closed an oversubscribed €262M ($300M) Resilience I fund dedicated to defense and dual-use companies across Europe and NATO-allied countries, raised entirely from private capital. Its advisory board includes Mike Pompeo and Gen. Sir Nicholas Carter.",
+    "whyItMatters": "Billed as Europe's largest institutional venture fund built purely for dual-use/defense — more evidence the continent is standing up serious sovereign defense-tech capital (Lakestar backed Helsing, Isar, ARX). A useful data point for the capital-formation and international workstreams.",
+    "relevanceScore": 73,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 8,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "Europe",
+    "companyMentions": [
+      "Lakestar",
+      "Helsing",
+      "Isar Aerospace",
+      "ARX Robotics"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "Medium",
+    "workstreams": [
+      "Capital Formation",
+      "International / Australia"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-07-17T19:15:46.072Z",
+    "updatedAt": "2026-07-17T19:15:46.072Z"
+  },
+  {
+    "id": "9bb19af0-181e-4ecb-a3ee-fafd916ca096",
+    "title": "Greenjets Raises $40M Series A Backed by NATO Innovation Fund for Low-Cost Interceptors",
+    "url": "https://www.eu-startups.com/2026/07/british-aerospace-technology-company-greenjets-raises-e35-million-series-a-with-nato-backing/",
+    "source": "EU-Startups",
+    "datePublished": "2026-07-17",
+    "dateAdded": "2026-07-17",
+    "categories": [
+      "Industry News",
+      "International"
+    ],
+    "tags": [
+      "Drones",
+      "Dual-Use",
+      "Venture Capital",
+      "NATO",
+      "Defense Startup"
+    ],
+    "shortDescription": "UK aerospace startup Greenjets raised a $40M (€35M) Series A led by Blossom Capital with the NATO Innovation Fund and UK NSSIF, days after winning a UK MoD LCADE/LEAP contract to develop low-cost drone interceptors. Funding will scale production ~8x and expand into the US, Middle East, and India.",
+    "whyItMatters": "A dual-use electric-propulsion play riding the UK/European push for affordable counter-drone interceptors — and another NATO Innovation Fund bet. Relevant to the international workstream and the low-cost air defense theme SVDG has been tracking.",
+    "relevanceScore": 73,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 8,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "UK",
+    "companyMentions": [
+      "Greenjets",
+      "Blossom Capital",
+      "NATO Innovation Fund",
+      "NSSIF"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "Medium",
+    "workstreams": [
+      "International / Australia",
+      "Capital Formation"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-07-17T19:15:46.072Z",
+    "updatedAt": "2026-07-17T19:15:46.072Z"
   }
 ]
