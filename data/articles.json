@@ -6752,5 +6752,203 @@
     "reactions": {},
     "createdAt": "2026-07-17T19:15:46.072Z",
     "updatedAt": "2026-07-17T19:15:46.072Z"
+  },
+  {
+    "id": "81de419f-0912-4a24-9043-561f5fef7582",
+    "title": "DIU Collapses Seven Tech Portfolios Into Three as Owen West Targets 'Cost Per Kill'",
+    "url": "https://defensescoop.com/2026/07/15/diu-owen-west-aims-to-reduce-the-militarys-cost-per-kill/",
+    "source": "DefenseScoop",
+    "author": "Brandi Vincent",
+    "datePublished": "2026-07-15",
+    "dateAdded": "2026-07-19",
+    "categories": [
+      "Government News",
+      "Industry News"
+    ],
+    "tags": [
+      "DIU",
+      "Acquisition Reform",
+      "Drones",
+      "Autonomy",
+      "Dual-Use",
+      "DoD"
+    ],
+    "shortDescription": "In an exclusive interview, DIU director Owen West laid out a reorganization that collapses the unit's seven technology portfolios into three — drones and autonomous warfare, kill webs (commercial space, networks, sensors, C2), and '10x' technologies — with AI treated as a horizontal across all three. Now a permanent DoD Field Activity with a roughly $1B budget, DIU will publish public scorecards tracking speed-to-contract, fielded capabilities, and cost reduction, with a 'part two' of metrics due later this summer.",
+    "whyItMatters": "This is the clearest map yet of where DIU money and attention will actually go, and it's a direct signal to anyone selling into the unit: if your pitch doesn't land in drones/autonomy, kill webs, or a genuine 10x cost-or-speed shift, you're now outside the lanes. West explicitly cites the ~$250B of venture capital flowing into defense tech as a reason the reorg matters — worth reading closely before your next DIU conversation.",
+    "relevanceScore": 90,
+    "scoreBreakdown": {
+      "recency": 25,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Defense Innovation Unit"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Policy",
+      "Industry Council"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-07-19T19:12:36.084Z",
+    "updatedAt": "2026-07-19T19:12:36.084Z"
+  },
+  {
+    "id": "ca051a78-4aaf-4fff-9d0b-f3dac65a9a57",
+    "title": "UK Defence Innovation Sets Five Core Themes to Steer £400M+ Annual Innovation Budget",
+    "url": "https://www.gov.uk/government/news/ukdi-unifies-innovation-to-accelerate-frontline-capabilities-and-drive-national-growth",
+    "source": "UK Ministry of Defence (GOV.UK)",
+    "datePublished": "2026-07-15",
+    "dateAdded": "2026-07-19",
+    "categories": [
+      "International",
+      "Government News"
+    ],
+    "tags": [
+      "Autonomy",
+      "AI",
+      "Dual-Use",
+      "Defense Startup",
+      "Acquisition Reform"
+    ],
+    "shortDescription": "UK Defence Innovation, the MOD's consolidated innovation team inside the National Armaments Director Group, announced five core themes that will guide its ringfenced annual budget of at least £400M: Autonomy, Decision Advantage, Logistics and Support, Effects, and Protection. National Armaments Director Rupert Pearce framed the themes as the framework for working with start-ups and scale-ups on home-grown dual-use technology.",
+    "whyItMatters": "The UK has been consolidating a famously fragmented innovation estate into one front door, and this is the taxonomy US and allied companies will be pitched against. If you have a portfolio company eyeing UK entry — or an SVDG member tracking allied capital formation — these five buckets are now the vocabulary for UKDI's live funding calls.",
+    "relevanceScore": 75,
+    "scoreBreakdown": {
+      "recency": 25,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "UK",
+    "companyMentions": [
+      "UK Defence Innovation",
+      "UK Ministry of Defence"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Policy",
+      "International / Australia"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-07-19T19:12:36.084Z",
+    "updatedAt": "2026-07-19T19:12:36.084Z"
+  },
+  {
+    "id": "f8deb377-abc1-48a0-b705-dc57c3d22959",
+    "title": "DIU and Navy Open $5M Specular MIST Prize Challenge for Containerized USV Payloads",
+    "url": "https://breakingdefense.com/2026/07/diu-navy-launch-containerized-payload-competition/",
+    "source": "Breaking Defense",
+    "datePublished": "2026-07-13",
+    "dateAdded": "2026-07-19",
+    "categories": [
+      "Government News",
+      "Industry News"
+    ],
+    "tags": [
+      "Maritime",
+      "Electronic Warfare",
+      "Autonomy",
+      "DIU",
+      "Defense Startup"
+    ],
+    "shortDescription": "DIU, the Navy's Rapid Capabilities Office, and Naval Information Warfare Center Pacific launched Specular MIST, a multiphase prize challenge with a $5M pool for containerized payloads on manned and unmanned surface vessels. Lines of effort cover threat radar simulators, active electronic attack, and passive electronic surveillance, with phase-two awards up to $250K, an at-sea demo in Southern California in September, and up to $1M plus a follow-on prototype or production contract for finalists.",
+    "whyItMatters": "A rare open door into maritime EW with a real production path at the end of it — and submissions close July 22, so this is time-sensitive for any member company working on USV payloads or open-architecture EW. Also a useful data point on how DIU is running the new 'kill webs' portfolio in practice.",
+    "relevanceScore": 71,
+    "scoreBreakdown": {
+      "recency": 25,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Defense Innovation Unit",
+      "Naval Information Warfare Center Pacific"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Industry Council"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-07-19T19:12:36.084Z",
+    "updatedAt": "2026-07-19T19:12:36.084Z"
+  },
+  {
+    "id": "68dfa684-edf5-4a9d-a234-84b0517b962c",
+    "title": "Beyond Reach Labs Raises $10M Seed and Opens Brooklyn Factory for Deployable Space Solar Arrays",
+    "url": "https://payloadspace.com/beyond-reach-labs-raises-10m-seed-moves-to-nyc/",
+    "source": "Payload",
+    "datePublished": "2026-07-17",
+    "dateAdded": "2026-07-19",
+    "categories": [
+      "Investor News",
+      "Industry News"
+    ],
+    "tags": [
+      "Space",
+      "Defense Startup",
+      "Venture Capital",
+      "Manufacturing",
+      "Dual-Use"
+    ],
+    "shortDescription": "Y Combinator W26 alum Beyond Reach Labs closed a $10M seed led by Interlagos, with TerraForge Capital, Off-Piste Capital, Y Combinator, and Augur VC participating. The company's patented deployer flat-packs into a standard launch fairing and extends up to 100m, and it says it has signed $342.6M in customer LOIs since demoing in March. A new 16,000 sq ft Brooklyn facility targets 10+ units per day by end of 2027.",
+    "whyItMatters": "Power is quietly becoming the binding constraint on everything the space community wants to build next — in-orbit data centers, large ISR constellations, commercial stations — and this is a bet on selling the picks and shovels rather than the platform. The LOI-to-funding ratio here is eye-catching enough to be worth a skeptical second look.",
+    "relevanceScore": 71,
+    "scoreBreakdown": {
+      "recency": 25,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Beyond Reach Labs",
+      "Interlagos",
+      "TerraForge Capital",
+      "Y Combinator",
+      "Augur VC"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Capital Formation"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-07-19T19:12:36.084Z",
+    "updatedAt": "2026-07-19T19:12:36.084Z"
   }
 ]
