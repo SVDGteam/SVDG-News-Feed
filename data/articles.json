@@ -6950,5 +6950,211 @@
     "reactions": {},
     "createdAt": "2026-07-19T19:12:36.084Z",
     "updatedAt": "2026-07-19T19:12:36.084Z"
+  },
+  {
+    "id": "43a9bd4f-8ea3-42dc-9ceb-3bd4bd18bdd8",
+    "title": "Anduril and Archer Unveil 'Thunder' Autonomous Tiltrotor Attack Aircraft at Farnborough",
+    "url": "https://www.tectonicdefense.com/anduril-unveils-thunder-unmanned-attack-aircraft/",
+    "source": "Tectonic",
+    "datePublished": "2026-07-20",
+    "dateAdded": "2026-07-20",
+    "categories": [
+      "Industry News",
+      "International"
+    ],
+    "tags": [
+      "Autonomy",
+      "Drones",
+      "NatSec100",
+      "Defense Startup"
+    ],
+    "shortDescription": "Anduril used day one of the Farnborough International Airshow to reveal Thunder, a Group 5 hybrid-electric tiltrotor attack drone built with Archer Aviation and UK partners including GKN Aerospace. It carries an Apache-class payload — up to 10 air-to-ground missiles, 16 launched effects, or 76 rockets, plus 12 cUAS interceptors in the nose — with a range in the thousands of nautical miles and first flight targeted for 2027.",
+    "whyItMatters": "This is Anduril building a UK-based platform with UK suppliers and unveiling it on UK soil — a template for how US defense tech scales into allied markets rather than just exporting into them. It also lands squarely adjacent to the British Army's Project Nyx Apache wingman competition (Anduril is one of four downselects, winners this fall), so watch whether Thunder becomes the commercial answer to a program it technically isn't bidding.",
+    "relevanceScore": 100,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 10
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "UK",
+    "companyMentions": [
+      "Anduril",
+      "Archer Aviation",
+      "GKN Aerospace",
+      "BAE Systems",
+      "Tekever",
+      "Thales",
+      "General Atomics"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "NatSec100",
+      "International / Australia"
+    ],
+    "sponsorNatSec100Relevance": "Direct",
+    "reactions": {},
+    "createdAt": "2026-07-20T19:12:38.068Z",
+    "updatedAt": "2026-07-20T19:12:38.068Z"
+  },
+  {
+    "id": "e7fb7c08-5e5c-418d-95d2-10df85ad43b1",
+    "title": "X-Bow Launches Buckler, a Flight-Tested Sub-$100K Supersonic Drone Interceptor",
+    "url": "https://www.axios.com/2026/07/20/xbow-drone-interceptor-buckler-farnborough",
+    "source": "Axios",
+    "datePublished": "2026-07-20",
+    "dateAdded": "2026-07-20",
+    "categories": [
+      "Sponsor News",
+      "Industry News"
+    ],
+    "tags": [
+      "Munitions",
+      "Drones",
+      "Industrial Base",
+      "Defense Startup"
+    ],
+    "shortDescription": "New Mexico solid-rocket-motor startup X-Bow Systems unveiled Buckler at Farnborough — an already-flight-tested interceptor built to kill Shahed-class Group 3 drones at supersonic speed for under $100,000 a round. X-Bow builds the airframe, solid rocket motor, and propellant in-house, and says the Pentagon has already requested a briefing.",
+    "whyItMatters": "SVDG sponsor shipping directly into the sharpest demand signal in the business: the US burned through roughly 300 THAAD and 1,430 Patriot interceptors in Iran against FY26 deliveries of 92 and 172. Vertical integration on propulsion is the interesting part — that's the exact industrial-base bottleneck everyone else is stuck behind, and it's why Lockheed led X-Bow's $105M Series B last year.",
+    "relevanceScore": 100,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 10
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "sponsorName": "X-Bow Systems",
+    "companyMentions": [
+      "X-Bow Systems",
+      "Lockheed Martin",
+      "Aevex"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Sponsor Engagement",
+      "NatSec100"
+    ],
+    "sponsorNatSec100Relevance": "Direct",
+    "reactions": {},
+    "createdAt": "2026-07-20T19:12:38.068Z",
+    "updatedAt": "2026-07-20T19:12:38.068Z"
+  },
+  {
+    "id": "63910321-8c59-4420-897b-75280897f391",
+    "title": "Shield AI and GE Aerospace Complete Thrust-Vectoring Nozzle Engine Test for X-BAT",
+    "url": "https://www.flightglobal.com/farnborough/2026/07/former-f-16-thrust-vectoring-system-integrated-with-x-bat/",
+    "source": "FlightGlobal",
+    "datePublished": "2026-07-20",
+    "dateAdded": "2026-07-20",
+    "categories": [
+      "Industry News"
+    ],
+    "tags": [
+      "Autonomy",
+      "AI",
+      "NatSec100",
+      "Defense Startup"
+    ],
+    "shortDescription": "Shield AI and GE Aerospace finished integration, actuation, and engine light-off testing of the AVEN thrust-vectoring nozzle mated to an F110-GE-129E engine at GE's Peebles, Ohio site — the propulsion milestone gating vertical flight for Shield AI's X-BAT autonomous VTOL fighter. AVEN is 1990s F-16 heritage hardware adapted for the fast gimbaling that vertical flight demands.",
+    "whyItMatters": "X-BAT is the boldest bet in the mini-fighter category — roughly $27M a copy against an F-35's $83-110M, no runway required — and propulsion was always the make-or-break. Reusing flight-proven 1990s hardware instead of starting from zero is a nice case study in how venture-backed primes actually compress timelines, versus the clean-sheet instinct.",
+    "relevanceScore": 96,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 10
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Shield AI",
+      "GE Aerospace",
+      "Lockheed Martin"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "NatSec100"
+    ],
+    "sponsorNatSec100Relevance": "Direct",
+    "reactions": {},
+    "createdAt": "2026-07-20T19:12:38.068Z",
+    "updatedAt": "2026-07-20T19:12:38.068Z"
+  },
+  {
+    "id": "59353a90-3a82-47d3-a226-def43f3f9a2d",
+    "title": "Space Force Triples NSSL Phase 3 Lane 1 Ceiling by $11.4B to $17 Billion",
+    "url": "https://www.defensedaily.com/space-force-boosts-ceiling-for-nssl-phase-3-lane-1-by-11-4-billion/space/",
+    "source": "Defense Daily",
+    "author": "Frank Wolfe",
+    "datePublished": "2026-07-17",
+    "dateAdded": "2026-07-20",
+    "categories": [
+      "Government News",
+      "Investor News"
+    ],
+    "tags": [
+      "Space",
+      "DoD",
+      "Budget",
+      "Industrial Base"
+    ],
+    "shortDescription": "Space Systems Command raised the ceiling on National Security Space Launch Phase 3 Lane 1 contracts from $5.6B to $17B, with future task orders flowing to the seven onramped providers: ULA, SpaceX, Blue Origin, Stoke Space, Rocket Lab, Impulse Space, and Relativity Federal.",
+    "whyItMatters": "A tripled ceiling is the government telling four venture-backed launch companies that the revenue runway is real, not a pilot — the clearest capital-formation signal in space this month. It also underlines how completely DoD's space posture, from Golden Dome to PWSA, now rides on commercial providers.",
+    "relevanceScore": 90,
+    "scoreBreakdown": {
+      "recency": 25,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "United Launch Alliance",
+      "SpaceX",
+      "Blue Origin",
+      "Stoke Space",
+      "Rocket Lab",
+      "Impulse Space",
+      "Relativity Space",
+      "Boeing",
+      "Lockheed Martin"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Capital Formation",
+      "Policy"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-07-20T19:12:38.068Z",
+    "updatedAt": "2026-07-20T19:12:38.068Z"
   }
 ]
