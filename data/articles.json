@@ -7156,5 +7156,198 @@
     "reactions": {},
     "createdAt": "2026-07-20T19:12:38.068Z",
     "updatedAt": "2026-07-20T19:12:38.068Z"
+  },
+  {
+    "id": "98889f13-45a6-461a-8768-a8ba3fc82314",
+    "title": "Lockheed Unveils PAC-3 ACE, a Low-Cost Patriot Interceptor, and MORFIUS Drone-Zapper at Farnborough",
+    "url": "https://www.tectonicdefense.com/lockheed-unveils-a-patriot-on-a-budget-and-a-flying-drone-zapper/",
+    "source": "Tectonic",
+    "datePublished": "2026-07-21",
+    "dateAdded": "2026-07-21",
+    "categories": [
+      "Industry News",
+      "International"
+    ],
+    "tags": [
+      "Munitions",
+      "Drones",
+      "Manufacturing",
+      "NATO",
+      "Industrial Base"
+    ],
+    "shortDescription": "At Farnborough, Lockheed Martin introduced the PAC-3 ACE, an interceptor priced around $1.5M-$2M (roughly a third of a PAC-3 MSE) that covers about two-thirds of the MSE's defended area, plus MORFIUS X-Rotor, a reusable airborne high-power microwave drone-killer Lockheed says can neutralize 50+ drones per flight. Lockheed plans to base ACE production in Europe with European suppliers.",
+    "whyItMatters": "This is a prime moving on cost-per-kill on its own initiative — the exact critique the defense innovation crowd has been leveling for years. The European production plan is also a tell about where the demand signal (and the industrial policy pressure) actually is right now.",
+    "relevanceScore": 95,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "Europe",
+    "companyMentions": [
+      "Lockheed Martin",
+      "Raytheon",
+      "Northrop Grumman",
+      "Rheinmetall",
+      "MBDA"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Policy",
+      "International / Australia"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-07-21T19:12:22.592Z",
+    "updatedAt": "2026-07-21T19:12:22.592Z"
+  },
+  {
+    "id": "782b340d-8a66-487c-b54c-0e9e564f3ee0",
+    "title": "Capitol Meridian Partners Raises $1.9B for Second Fund, Hits Hard Cap",
+    "url": "https://www.citybiz.co/article/876673/capitol-meridian-partners-raises-1-9b-for-second-fund-hits-hard-cap/",
+    "source": "citybiz",
+    "author": "Win Warfield",
+    "datePublished": "2026-07-21",
+    "dateAdded": "2026-07-21",
+    "categories": [
+      "Investor News"
+    ],
+    "tags": [
+      "Private Equity",
+      "Venture Capital",
+      "Industrial Base"
+    ],
+    "shortDescription": "Washington, D.C.-based Capitol Meridian Partners closed a $1.9B second fund at its hard cap, 50% above target, anchored by $1.8B from 60+ institutional LPs with ~90% of Fund I investors re-upping. The firm, founded by ex-Carlyle partners in 2021, now manages over $3B focused on government, aerospace and defense.",
+    "whyItMatters": "Doubling Fund I in a quarter of the time is a clean read on how deep institutional appetite for defense-focused buyout capital has gotten. Worth watching as a bid for the mid-market NatSec companies that sit just past the venture stage.",
+    "relevanceScore": 84,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 8,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Capitol Meridian Partners",
+      "Carlyle Group",
+      "LMI",
+      "Parry Labs",
+      "Technomile"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "Medium",
+    "workstreams": [
+      "Capital Formation"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-07-21T19:12:22.593Z",
+    "updatedAt": "2026-07-21T19:12:22.593Z"
+  },
+  {
+    "id": "8a49a0c6-bf68-4185-beac-974627c9f3b7",
+    "title": "Trump Executive Order Tightens Waiver Rules for Defense Contractors Sourcing Critical Minerals from China",
+    "url": "https://www.militarytimes.com/news/pentagon-congress/2026/07/20/new-executive-order-tightens-defense-supply-chain-waiver-rules/",
+    "source": "Military Times",
+    "datePublished": "2026-07-20",
+    "dateAdded": "2026-07-21",
+    "categories": [
+      "Government News"
+    ],
+    "tags": [
+      "Supply Chain",
+      "Export Controls",
+      "Industrial Base",
+      "DoD",
+      "Acquisition Reform"
+    ],
+    "shortDescription": "A new executive order requires defense contractors seeking waivers to buy critical minerals and materials from China and other prohibited suppliers to prove they searched for alternatives, disclose material origins, and submit a de-risking plan. Waivers stop being issued entirely as of Jan. 1, 2027, and the Pentagon must write rules requiring contractors to map supply chains from raw material to finished system.",
+    "whyItMatters": "The Jan. 2027 hard stop turns supply chain mapping from a compliance nicety into a contract-eligibility requirement — which is both a real burden for existing suppliers and an obvious opening for domestic critical-minerals and traceability startups.",
+    "relevanceScore": 95,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Policy",
+      "Industry Council"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-07-21T19:12:22.593Z",
+    "updatedAt": "2026-07-21T19:12:22.593Z"
+  },
+  {
+    "id": "d652987f-7592-44ed-9e6d-26092905924a",
+    "title": "UK Space Agency Announces £62M ($83M) for Domestic Satcom and Space Tech at Farnborough",
+    "url": "https://payloadspace.com/uk-space-agency-announces-79m-of-funding-for-space-tech/",
+    "source": "Payload",
+    "datePublished": "2026-07-20",
+    "dateAdded": "2026-07-21",
+    "categories": [
+      "International",
+      "Government News"
+    ],
+    "tags": [
+      "Space",
+      "Dual-Use",
+      "Industrial Base"
+    ],
+    "shortDescription": "The UK committed £62M ($83.3M) in new funding announced at Farnborough: £42M through the third C-LEO round for satcom supply-chain chokepoints (on-board processing, active antennas, optical links, networking, user terminals) and a new £20M National Space Innovation Programme call, with up to 40% aimed at space domain awareness and in-space servicing. A £37M Space Clusters Infrastructure Fund call follows this fall.",
+    "whyItMatters": "Explicitly framed as buying down dependency on foreign space capability rather than as science funding — the same sovereignty logic driving EU and Australian programs. Relevant for any SVDG member company with a UK entity or allied-market ambitions.",
+    "relevanceScore": 80,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "UK",
+    "companyMentions": [
+      "UK Space Agency",
+      "Planet Labs UK"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "International / Australia",
+      "Policy"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-07-21T19:12:22.593Z",
+    "updatedAt": "2026-07-21T19:12:22.593Z"
   }
 ]
