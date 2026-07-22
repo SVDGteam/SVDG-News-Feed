@@ -7349,5 +7349,150 @@
     "reactions": {},
     "createdAt": "2026-07-21T19:12:22.593Z",
     "updatedAt": "2026-07-21T19:12:22.593Z"
+  },
+  {
+    "id": "2bf1596e-75df-493b-9e6f-5fc9c8759b5d",
+    "title": "Twenty Raises Additional $30M From Khosla at $1.2B Valuation to Industrialize Offensive Cyber",
+    "url": "https://www.forbes.com/sites/thomasbrewster/2026/07/21/the-pentagon-is-using-this-12-billion-startups-ai-to-automate-cyberwarfare/",
+    "source": "Forbes",
+    "author": "Thomas Brewster",
+    "datePublished": "2026-07-21",
+    "dateAdded": "2026-07-22",
+    "categories": [
+      "Investor News",
+      "Industry News"
+    ],
+    "tags": [
+      "Cyber",
+      "Defense Startup",
+      "Venture Capital",
+      "AI"
+    ],
+    "shortDescription": "Offensive cyber warfare startup Twenty raised a $30M Series B extension from Khosla Ventures at a $1.2B valuation, roughly a month after its $100M Series B, bringing total funding to $168M. Founded in 2024, it builds AI-enabled, end-to-end tools already in operational deployment across the U.S. military and IC.",
+    "whyItMatters": "Offensive cyber is one of the last defense domains Silicon Valley had largely ignored, and top-tier investors (Khosla, Accel, In-Q-Tel) are now piling in fast. Twenty going from stealth to a $1.2B valuation in under two years is a clear signal of where defense capital and DoD demand are heading.",
+    "relevanceScore": 91,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Twenty",
+      "Khosla Ventures",
+      "Accel",
+      "In-Q-Tel",
+      "Point72 Ventures",
+      "Caffeinated Capital"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Capital Formation"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-07-22T19:13:42.157Z",
+    "updatedAt": "2026-07-22T19:13:42.157Z"
+  },
+  {
+    "id": "f07911d6-2520-45c3-9ca9-570a8b655819",
+    "title": "Space Foundation Sizes the Global Space Economy at a Record $686B, Military Spending to Surge",
+    "url": "https://payloadspace.com/breaking-down-the-686b-space-economy/",
+    "source": "Payload",
+    "datePublished": "2026-07-22",
+    "dateAdded": "2026-07-22",
+    "categories": [
+      "Industry News",
+      "International"
+    ],
+    "tags": [
+      "Space",
+      "Space Economy",
+      "Defense Budget",
+      "Investment"
+    ],
+    "shortDescription": "The Space Foundation's annual report pegs the 2025 global space economy at a record $686B, up 12% YoY, with commercial activity ($544B) nearly quadrupling all government spending. It projects non-US military space spending will nearly double to $31.5B in 2027 as the Pentagon eyes a $126B national security space budget.",
+    "whyItMatters": "A useful, citable baseline for anyone at SVDG framing the space opportunity: the commercial sector is now the overwhelming majority of the market, and allied sovereign defense-space buildouts are the fastest-growing slice. Good ammunition for member briefings and capital-formation conversations.",
+    "relevanceScore": 71,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 0
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "Other",
+    "companyMentions": [
+      "Space Foundation",
+      "Starcloud",
+      "Stoke Space",
+      "K2 Space"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Capital Formation"
+    ],
+    "sponsorNatSec100Relevance": "None",
+    "reactions": {},
+    "createdAt": "2026-07-22T19:13:42.157Z",
+    "updatedAt": "2026-07-22T19:13:42.157Z"
+  },
+  {
+    "id": "dbd6d290-e068-4a24-b69d-749aba0a2002",
+    "title": "US and Ukraine Sign Statement of Intent to Export Ukrainian Combat Drones to US for Testing",
+    "url": "https://www.rferl.org/a/us-ukraine-drone-cooperation-agreement/33809808.html",
+    "source": "RFE/RL",
+    "datePublished": "2026-07-22",
+    "dateAdded": "2026-07-22",
+    "categories": [
+      "Government News",
+      "International"
+    ],
+    "tags": [
+      "Drones",
+      "Ukraine",
+      "Allied Cooperation",
+      "Policy"
+    ],
+    "shortDescription": "The US and Ukraine signed a bilateral statement of intent opening a formal pathway for Ukrainian land, air, and maritime combat drones to be exported to the US for military testing and evaluation. It's not a production contract, but it's seen as a first concrete step toward joint manufacturing and could inform Pentagon procurement under the Drone Dominance program.",
+    "whyItMatters": "Battle-proven Ukrainian drone tech getting a formal on-ramp into US testing (and eventually US-based production) is exactly the kind of allied defense-industrial cooperation SVDG tracks — and it feeds directly into the Pentagon's $1B, 200,000-drone push. Watch for follow-on teaming deals like UFORCE/ReconCraft.",
+    "relevanceScore": 86,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 0
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Policy"
+    ],
+    "sponsorNatSec100Relevance": "None",
+    "reactions": {},
+    "createdAt": "2026-07-22T19:13:42.157Z",
+    "updatedAt": "2026-07-22T19:13:42.157Z"
   }
 ]
