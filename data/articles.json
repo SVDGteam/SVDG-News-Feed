@@ -7494,5 +7494,194 @@
     "reactions": {},
     "createdAt": "2026-07-22T19:13:42.157Z",
     "updatedAt": "2026-07-22T19:13:42.157Z"
+  },
+  {
+    "id": "cfdabe13-3764-4a69-8da7-55ec532f6b91",
+    "title": "Underwater Sensing Startup Andrenam Raises $18M Series A",
+    "url": "https://www.tectonicdefense.com/exclusive-underwater-sensing-startup-andrenam-raises-18m/",
+    "source": "Tectonic",
+    "datePublished": "2026-07-23",
+    "dateAdded": "2026-07-23",
+    "categories": [
+      "Industry News",
+      "Investor News"
+    ],
+    "tags": [
+      "Maritime",
+      "AI",
+      "Defense Startup",
+      "Venture Capital",
+      "Dual-Use"
+    ],
+    "shortDescription": "California-based Andrenam raised an $18M Series A led by Upfront Ventures (with Valor Equity, Also Capital, and First Round), bringing total funding to $30M. The company builds distributed underwater acoustic sensor buoys (Pearl) plus AI software (Obsidian) to detect and classify undersea activity, and says it has two pending Navy contract awards.",
+    "whyItMatters": "Undersea domain awareness is one of the hottest gaps in the Pacific fight, and this is a clean example of the venture-backed, dual-use maritime tech SVDG tracks. Watch the Navy awards they're teasing — that's the real signal.",
+    "relevanceScore": 95,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Andrenam",
+      "Upfront Ventures",
+      "Valor Equity Partners",
+      "Also Capital",
+      "First Round Capital"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Capital Formation",
+      "NatSec100"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-07-23T21:06:34.484Z",
+    "updatedAt": "2026-07-23T21:06:34.484Z"
+  },
+  {
+    "id": "8574df62-edab-42da-9f5b-848276346d62",
+    "title": "DOGE Alumni Launch Military Cyber Startup Cathedral With $160M Round at $1.4B Valuation",
+    "url": "https://www.usnews.com/news/top-news/articles/2026-07-22/exclusive-doge-alumni-launch-military-cyber-startup-with-1-4-billion-valuation",
+    "source": "Reuters",
+    "datePublished": "2026-07-22",
+    "dateAdded": "2026-07-23",
+    "categories": [
+      "Investor News",
+      "Industry News"
+    ],
+    "tags": [
+      "Cyber",
+      "AI",
+      "Venture Capital",
+      "Defense Startup"
+    ],
+    "shortDescription": "Four former DOGE staffers raised $160M at a $1.4B valuation for Cathedral, an AI startup building offensive and defensive cyber tools for the US military. Andreessen Horowitz and Sequoia Capital led the round and took board seats; the company has no disclosed revenue or contracts yet.",
+    "whyItMatters": "A $1.4B valuation on a pre-revenue cyber startup, led by a16z and Sequoia, is a loud bet on government relationships as moat — right in SVDG's capital-formation and dual-use wheelhouse. Second big offensive-cyber raise this week after Twenty.",
+    "relevanceScore": 91,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Cathedral",
+      "Andreessen Horowitz",
+      "Sequoia Capital"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Capital Formation"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-07-23T21:06:34.485Z",
+    "updatedAt": "2026-07-23T21:06:34.485Z"
+  },
+  {
+    "id": "a135ae4f-0022-4fa2-9d34-01b195561444",
+    "title": "US Navy Awards CoAspire $70M for CHAOS Affordable Cruise Missile to Arm Allies",
+    "url": "https://www.navalnews.com/naval-news/2026/07/us-navy-coaspire-chaos-cruise-missile-raacm-er",
+    "source": "Naval News",
+    "datePublished": "2026-07-22",
+    "dateAdded": "2026-07-23",
+    "categories": [
+      "Industry News",
+      "Government News"
+    ],
+    "tags": [
+      "Munitions",
+      "Industrial Base",
+      "Acquisition Reform",
+      "Defense Startup"
+    ],
+    "shortDescription": "The US Navy selected bootstrapped missile startup CoAspire's ground-launched RAACM-ER for its Coalition Heterogeneous Affordable Offensive Strike (CHAOS) program under a $70M OTA, to build an affordable ground-launched cruise missile for foreign military sales to allies. The Navy plans to award at least one more competitor.",
+    "whyItMatters": "Affordable mass, additive manufacturing, and a nontraditional bootstrapped vendor winning a real Navy program — the acquisition-reform story SVDG keeps flagging. The FMS-to-allies framing also ties it to allied industrial base cooperation.",
+    "relevanceScore": 91,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "CoAspire"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Industry Council"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-07-23T21:06:34.485Z",
+    "updatedAt": "2026-07-23T21:06:34.485Z"
+  },
+  {
+    "id": "f824c0bf-b01d-404f-9649-58c3f6ecf3aa",
+    "title": "House Adopts $95B Budget Framework to Unlock Iran War and Pentagon Funding via Reconciliation",
+    "url": "https://www.npr.org/2026/07/22/nx-s1-5903130/house-vote-iran-war-funding-reconciliation",
+    "source": "NPR",
+    "datePublished": "2026-07-22",
+    "dateAdded": "2026-07-23",
+    "categories": [
+      "Government News"
+    ],
+    "tags": [
+      "Budget",
+      "Congress",
+      "NDAA",
+      "DoD"
+    ],
+    "shortDescription": "The House voted 216-214 to adopt a Republican-only $95B budget resolution ($73B for the Iran war, $12B farm aid, $10B SAVE America incentive), unlocking a third reconciliation process to bypass a Senate filibuster. Senate Majority Leader Thune has not committed to bringing it to the floor.",
+    "whyItMatters": "This is the vehicle that could reshape near-term defense appropriations, and its fate turns on Senate reconciliation rules that may strip key provisions. Worth tracking for anyone modeling FY26-27 defense spending and program funding.",
+    "relevanceScore": 86,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 0
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Policy"
+    ],
+    "sponsorNatSec100Relevance": "None",
+    "reactions": {},
+    "createdAt": "2026-07-23T21:06:34.485Z",
+    "updatedAt": "2026-07-23T21:06:34.485Z"
   }
 ]
