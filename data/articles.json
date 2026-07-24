@@ -7683,5 +7683,194 @@
     "reactions": {},
     "createdAt": "2026-07-23T21:06:34.485Z",
     "updatedAt": "2026-07-23T21:06:34.485Z"
+  },
+  {
+    "id": "977bc7cc-69da-463b-8194-280c1b0f08e6",
+    "title": "BAE Gets the UK Into the CCA Game With Brontanax",
+    "url": "https://www.tectonicdefense.com/bae-gets-the-uk-into-the-cca-game-with-brontanax/",
+    "source": "Tectonic",
+    "datePublished": "2026-07-24",
+    "dateAdded": "2026-07-24",
+    "categories": [
+      "International",
+      "Industry News"
+    ],
+    "tags": [
+      "Autonomy",
+      "Drones",
+      "Industrial Base"
+    ],
+    "shortDescription": "BAE Systems unveiled Brontanax, its bid for the UK's Storm Fighter collaborative combat aircraft program, at the Farnborough Airshow — a self-funded demonstrator targeting flight test in 2027 and service entry by 2030, backed by £300M ($405M) in the UK's new Defence Investment Plan.",
+    "whyItMatters": "The loyal-wingman/CCA race just went sovereign-UK: this is BAE staking a claim on Europe's first sixth-gen capability program, and a signal that allies aren't content to just buy into the US Anduril/GA CCA competition — they're building their own. Worth tracking alongside Helsing's CA-1 Europa and Airbus's program as the European CCA field crowds up.",
+    "relevanceScore": 95,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "UK",
+    "companyMentions": [
+      "BAE Systems",
+      "Anduril",
+      "General Atomics",
+      "Lockheed Martin",
+      "Boeing",
+      "Northrop Grumman",
+      "Airbus",
+      "Helsing"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Policy",
+      "International / Australia"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-07-24T19:15:38.105Z",
+    "updatedAt": "2026-07-24T19:15:38.105Z"
+  },
+  {
+    "id": "7d640551-c260-45b8-b688-2d9c6bf4497c",
+    "title": "Lunar Outpost Plans to Fly NVIDIA Chips to the Moon",
+    "url": "https://payloadspace.com/lunar-outpost-plans-to-fly-nvidia-chips-to-the-moon/",
+    "source": "Payload",
+    "datePublished": "2026-07-23",
+    "dateAdded": "2026-07-24",
+    "categories": [
+      "Industry News"
+    ],
+    "tags": [
+      "AI",
+      "Autonomy",
+      "Space"
+    ],
+    "shortDescription": "Colorado-based lunar rover startup Lunar Outpost announced plans to fly NVIDIA Jetson AI chips on its MAPP rover for the Lunar Voyage 2 mission this year, with NVIDIA's upgraded Space-1 Vera Rubin module slated for two later missions — the first GPU sent to the lunar surface.",
+    "whyItMatters": "Autonomy-under-latency is the same problem defense platforms fight in GPS-denied or comms-degraded environments, just with the Moon standing in for the contested edge. Worth watching as a proof point for onboard AI processing that translates directly to autonomous defense systems.",
+    "relevanceScore": 70,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 0,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Lunar Outpost",
+      "NVIDIA"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-07-24T19:15:38.106Z",
+    "updatedAt": "2026-07-24T19:15:38.106Z"
+  },
+  {
+    "id": "3ee04780-cee5-4fde-a13a-f2fa28e0ff47",
+    "title": "Germany to Take Direct Stakes in Defence Startups Under New Strategy",
+    "url": "https://thedefensewatch.com/policy-strategy/germany-defense-startup-state-investment-strategy/",
+    "source": "The Defense Watch",
+    "datePublished": "2026-07-22",
+    "dateAdded": "2026-07-24",
+    "categories": [
+      "Investor News",
+      "International"
+    ],
+    "tags": [
+      "Venture Capital",
+      "Industrial Base"
+    ],
+    "shortDescription": "Germany's government announced it will stand up a new vehicle for the state to take direct equity stakes in defense startups and scale-ups with clear military applications, part of a broader capital-access strategy driven by the war in Ukraine and doubts about US security guarantees. Fund size wasn't disclosed.",
+    "whyItMatters": "This is a bigger deal than it sounds — a G7 government moving from grants/procurement into direct cap-table participation is a new financing tool for European defense tech, and a template other capitals will watch closely. Relevant context for anyone tracking how European capital formation is evolving alongside NATO's innovation push.",
+    "relevanceScore": 78,
+    "scoreBreakdown": {
+      "recency": 25,
+      "svdgRelevance": 35,
+      "sourceQuality": 8,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 0
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "Europe",
+    "companyMentions": [
+      "Helsing",
+      "ARX Robotics"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "Medium",
+    "workstreams": [
+      "Capital Formation",
+      "International / Australia"
+    ],
+    "sponsorNatSec100Relevance": "None",
+    "reactions": {},
+    "createdAt": "2026-07-24T19:15:38.106Z",
+    "updatedAt": "2026-07-24T19:15:38.106Z"
+  },
+  {
+    "id": "b567c6d3-4331-4ffd-ae66-f564822bb095",
+    "title": "Anduril's Year-Old Rheinmetall Drone Partnership Is Scaled Back",
+    "url": "https://www.bloomberg.com/news/articles/2026-07-23/anduril-s-year-old-rheinmetall-drone-partnership-is-scaled-back",
+    "source": "Bloomberg",
+    "datePublished": "2026-07-23",
+    "dateAdded": "2026-07-24",
+    "categories": [
+      "Industry News",
+      "International"
+    ],
+    "tags": [
+      "Defense Startup",
+      "Dual-Use",
+      "Manufacturing"
+    ],
+    "shortDescription": "Anduril's year-old partnership with Rheinmetall to co-develop European versions of the Barracuda and Fury platforms has been significantly scaled back, with part of the collaboration suspended. Neither company has explained why.",
+    "whyItMatters": "A flagship US-defense-tech-meets-European-prime partnership cooling off a year in is a real data point on how hard transatlantic industrial integration actually is in practice, beyond the press-release stage. Worth watching for read-through to other US defense-tech/European-prime tie-ups being floated right now.",
+    "relevanceScore": 100,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 10
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Anduril Industries",
+      "Rheinmetall"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "NatSec100",
+      "International / Australia"
+    ],
+    "sponsorNatSec100Relevance": "Direct",
+    "reactions": {},
+    "createdAt": "2026-07-24T19:15:38.106Z",
+    "updatedAt": "2026-07-24T19:15:38.106Z"
   }
 ]
