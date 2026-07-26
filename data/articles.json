@@ -7872,5 +7872,141 @@
     "reactions": {},
     "createdAt": "2026-07-24T19:15:38.106Z",
     "updatedAt": "2026-07-24T19:15:38.106Z"
+  },
+  {
+    "id": "0dc79064-8266-4420-9847-b26420abd1c9",
+    "title": "Australia to Spend Another $3.2 Billion to Set Up AUKUS Shipyard",
+    "url": "https://www.bloomberg.com/news/articles/2026-07-24/australia-to-spend-another-3-2-billion-to-set-up-aukus-shipyard",
+    "source": "Bloomberg",
+    "datePublished": "2026-07-24",
+    "dateAdded": "2026-07-26",
+    "categories": [
+      "Government News",
+      "International"
+    ],
+    "tags": [
+      "AUKUS",
+      "Industrial Base",
+      "Manufacturing",
+      "Budget"
+    ],
+    "shortDescription": "Australia's government committed an additional A$4.6B ($3.2B) to expand the Osborne Naval Shipyard in South Australia, bringing its total commitment there to A$8.5B, as it races to build out the industrial base needed for AUKUS nuclear-powered submarines.",
+    "whyItMatters": "This is the clearest signal yet that Canberra is treating AUKUS submarine industrial capacity as a now-or-never bet — real money for workforce and facilities, not just political messaging. Worth tracking for anyone eyeing the Australian sovereign-capability supply chain.",
+    "relevanceScore": 85,
+    "scoreBreakdown": {
+      "recency": 25,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 0
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "Australia",
+    "companyMentions": [],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "International / Australia",
+      "Policy"
+    ],
+    "sponsorNatSec100Relevance": "None",
+    "reactions": {},
+    "createdAt": "2026-07-26T19:09:01.641Z",
+    "updatedAt": "2026-07-26T19:09:01.641Z"
+  },
+  {
+    "id": "dbce435b-0759-4e19-abd7-b6bd8f427c7c",
+    "title": "DIU Details $250M Ground-Based Affordable Mass (G-BAM) Prize Challenge for Long-Range Strike",
+    "url": "https://www.defensedaily.com/diu-plans-demos-soon-to-find-ground-based-long-range-strike-systems-to-scale-rapidly/advanced-transformational-technology/",
+    "source": "Defense Daily",
+    "author": "Matthew Beinart",
+    "datePublished": "2026-07-24",
+    "dateAdded": "2026-07-26",
+    "categories": [
+      "Government News"
+    ],
+    "tags": [
+      "DIU",
+      "Munitions",
+      "Industrial Base",
+      "Defense Startup"
+    ],
+    "shortDescription": "DIU laid out a new effort to run demonstrations for 'mature, affordable, long-range precision strike systems' that can scale to production within 12-18 months, backed by $250M for the G-BAM prize challenge and follow-on transition funding.",
+    "whyItMatters": "Another DIU program built explicitly around speed-to-production rather than years-long traditional acquisition — exactly the kind of on-ramp that favors venture-backed, non-traditional vendors over primes. Good one to flag to munitions and long-range strike portfolio companies.",
+    "relevanceScore": 85,
+    "scoreBreakdown": {
+      "recency": 25,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 0
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "NatSec100",
+      "Capital Formation"
+    ],
+    "sponsorNatSec100Relevance": "None",
+    "reactions": {},
+    "createdAt": "2026-07-26T19:09:01.642Z",
+    "updatedAt": "2026-07-26T19:09:01.642Z"
+  },
+  {
+    "id": "ff29023e-f4ce-4fd6-89c0-7bdb56eef41a",
+    "title": "Onebrief Achieves FedRAMP Class D (High) Certification Through Second Front Systems",
+    "url": "https://www.businesswire.com/news/home/20260723217426/en/Onebrief-Achieves-FedRAMP-Class-D-High-Certification-Through-Second-Front-Systems",
+    "source": "Business Wire",
+    "datePublished": "2026-07-23",
+    "dateAdded": "2026-07-26",
+    "categories": [
+      "Sponsor News"
+    ],
+    "tags": [
+      "Sponsor",
+      "DoD",
+      "Software"
+    ],
+    "shortDescription": "Onebrief's AI-powered command decision platform earned FedRAMP Class D (High) certification via Second Front Systems' Game Warden platform, clearing it for the government's highest unclassified cloud security baseline and building on its NGC2 and NATO DIANA wins.",
+    "whyItMatters": "Two SVDG sponsors — Onebrief and Second Front — showing up in the same win. This is the compliance unlock that turns pilot deployments into agency-wide rollouts, which is the whole game for GovTech sellers right now.",
+    "relevanceScore": 84,
+    "scoreBreakdown": {
+      "recency": 25,
+      "svdgRelevance": 35,
+      "sourceQuality": 8,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 10
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "sponsorName": "Onebrief",
+    "companyMentions": [
+      "Onebrief",
+      "Second Front Systems"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "Medium",
+    "workstreams": [
+      "Sponsor Engagement"
+    ],
+    "sponsorNatSec100Relevance": "Direct",
+    "reactions": {},
+    "createdAt": "2026-07-26T19:09:01.642Z",
+    "updatedAt": "2026-07-26T19:09:01.642Z"
   }
 ]
