@@ -8008,5 +8008,155 @@
     "reactions": {},
     "createdAt": "2026-07-26T19:09:01.642Z",
     "updatedAt": "2026-07-26T19:09:01.642Z"
+  },
+  {
+    "id": "14a031da-671b-4f3c-9bb1-15744debb4b6",
+    "title": "Antares Raises $470M Series C to Field Military-Focused Nuclear Microreactors",
+    "url": "https://www.tectonicdefense.com/antares-raises-470m-to-field-military-focused-microreactors/",
+    "source": "Tectonic",
+    "datePublished": "2026-07-27",
+    "dateAdded": "2026-07-27",
+    "categories": [
+      "Industry News",
+      "Investor News"
+    ],
+    "tags": [
+      "Nuclear",
+      "Energy",
+      "Defense Startup",
+      "Venture Capital"
+    ],
+    "shortDescription": "Antares closed a $470M Series C ($370M equity, $100M debt) to build and field nuclear microreactors on military installations by 2028, following its milestone as the first private US company in decades to reach reactor criticality.",
+    "whyItMatters": "Nuclear microreactors for base energy resilience are moving from R&D curiosity to a real capital-formation story — worth having on the radar as DOE's Reactor Pilot Program cohort starts scaling toward actual military deployments.",
+    "relevanceScore": 86,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 0
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Antares",
+      "Caffeinated Capital",
+      "Paradigm",
+      "Point72 Ventures",
+      "Shine Capital"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Capital Formation"
+    ],
+    "sponsorNatSec100Relevance": "None",
+    "reactions": {},
+    "createdAt": "2026-07-27T20:27:28.232Z",
+    "updatedAt": "2026-07-27T20:27:28.232Z"
+  },
+  {
+    "id": "6c9d0f0c-cb9e-4eed-94e1-b3bfc9d5d051",
+    "title": "Counter-Drone Startup FPF Defense, Led by Ex-Acting SecDef Chris Miller, Raises $10M",
+    "url": "https://www.defensedaily.com/counter-drone-company-led-former-trump-acting-secdef-gets-investment/unmanned-systems/",
+    "source": "Defense Daily",
+    "author": "Cal Biesecker",
+    "datePublished": "2026-07-24",
+    "dateAdded": "2026-07-27",
+    "categories": [
+      "Industry News",
+      "Investor News"
+    ],
+    "tags": [
+      "Drones",
+      "Munitions",
+      "Defense Startup",
+      "Venture Capital"
+    ],
+    "shortDescription": "FPF Defense, a new counter-UAS startup led by former acting Secretary of Defense Chris Miller, landed a $10M strategic investment co-led by RSE Ventures and Ondas to build its low-cost Hammerhead interceptor for Shahed-type drone threats.",
+    "whyItMatters": "The interceptor cost-per-kill problem is the defining gap in counter-drone right now, and a founder with Miller's Pentagon pedigree moving fast on a sub-$30K interceptor is worth watching as it heads into SOCOM/Army evaluation this week.",
+    "relevanceScore": 66,
+    "scoreBreakdown": {
+      "recency": 25,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 0
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "FPF Defense",
+      "RSE Ventures",
+      "Ondas"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Capital Formation"
+    ],
+    "sponsorNatSec100Relevance": "None",
+    "reactions": {},
+    "createdAt": "2026-07-27T20:27:28.233Z",
+    "updatedAt": "2026-07-27T20:27:28.233Z"
+  },
+  {
+    "id": "a7c72b82-2dba-4569-a7c3-c8e15ad0180b",
+    "title": "Defence Primes Pour a Record $4.1B Into Startups — And Buy an Option on Disruption",
+    "url": "https://defencematters.eu/defence-primes-record-startup-investment/",
+    "source": "Defence Matters",
+    "datePublished": "2026-07-27",
+    "dateAdded": "2026-07-27",
+    "categories": [
+      "Investor News",
+      "Sponsor News",
+      "International"
+    ],
+    "tags": [
+      "Venture Capital",
+      "Private Equity",
+      "Industrial Base"
+    ],
+    "shortDescription": "Lockheed Martin, BAE Systems and other prime contractors have joined a record $4.1B of military-startup funding rounds in 2026 (per Dealroom/FT data), including Lockheed Martin Ventures' $100M earmark for UK/European defense tech.",
+    "whyItMatters": "This is the clearest sign yet that primes see corporate venture as a hedge against disruption, not just a nice-to-have — and it's a direct look at how sponsor Lockheed Martin Ventures is deploying its new $1B fund, worth tracking for how it reshapes deal terms and exits for the startups our ecosystem cares about.",
+    "relevanceScore": 93,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 8,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 10
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "Other",
+    "sponsorName": "Lockheed Martin Ventures",
+    "companyMentions": [
+      "Lockheed Martin",
+      "BAE Systems",
+      "Lakestar",
+      "Expeditions"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "Medium",
+    "workstreams": [
+      "Capital Formation",
+      "Sponsor Engagement"
+    ],
+    "sponsorNatSec100Relevance": "Direct",
+    "reactions": {},
+    "createdAt": "2026-07-27T20:27:28.233Z",
+    "updatedAt": "2026-07-27T20:27:28.233Z"
   }
 ]
