@@ -8158,5 +8158,183 @@
     "reactions": {},
     "createdAt": "2026-07-27T20:27:28.233Z",
     "updatedAt": "2026-07-27T20:27:28.233Z"
+  },
+  {
+    "id": "d2632841-0c8e-41e4-988b-afdd43e30c16",
+    "title": "Exclusive: Array Labs Raises $21M Led by Mitsubishi Electric",
+    "url": "https://www.tectonicdefense.com/exclusive-array-labs-raises-21m-led-by-mitsubishi-electric/",
+    "source": "Tectonic",
+    "datePublished": "2026-07-28",
+    "dateAdded": "2026-07-28",
+    "categories": [
+      "Investor News"
+    ],
+    "tags": [
+      "Venture Capital",
+      "Space",
+      "Defense Startup"
+    ],
+    "shortDescription": "Space-based radar startup Array Labs raised a $21M strategic round anchored by Mitsubishi Electric, just seven months after a $20M Series A, to expand into the Indo-Pacific and push into new mission sets like Airborne Moving Target Indication for Golden Dome.",
+    "whyItMatters": "A YC-founded radar-satellite startup landing back-to-back rounds from a Japanese industrial giant is a good read on how fast strategic/corporate capital is chasing space-domain-awareness plays right now, and Array's expansion into AMTI puts it squarely in the Golden Dome conversation.",
+    "relevanceScore": 76,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Array Labs",
+      "Mitsubishi Electric"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Capital Formation"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-07-28T19:12:12.704Z",
+    "updatedAt": "2026-07-28T19:12:12.704Z"
+  },
+  {
+    "id": "e271aad0-bdc2-4d5d-9430-ff51a32af534",
+    "title": "Rocket Lab Expands to Alaska with $266M Launch Contract",
+    "url": "https://payloadspace.com/rocket-lab-expands-to-alaska-with-266m-launch-contract/",
+    "source": "Payload",
+    "datePublished": "2026-07-28",
+    "dateAdded": "2026-07-28",
+    "categories": [
+      "Government News",
+      "Industry News"
+    ],
+    "tags": [
+      "Space",
+      "DoD",
+      "Hypersonics"
+    ],
+    "shortDescription": "Rocket Lab's largest launch contract to date, a $266M multi-launch agreement with Space Systems Command, will fund a fourth launch site in Kodiak, Alaska, supporting up to 12 (plus an option for 6 more) suborbital missile-defense test flights.",
+    "whyItMatters": "Missile-defense testing demand is surging as the Pentagon replenishes depleted interceptor stocks and stands up Golden Dome, and Rocket Lab is positioning its suborbital HASTE line as the go-to test range partner — worth watching as a bellwether for where DoD launch dollars are flowing outside the big constellation contracts.",
+    "relevanceScore": 76,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Rocket Lab",
+      "Space Systems Command"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "NatSec100"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-07-28T19:12:12.705Z",
+    "updatedAt": "2026-07-28T19:12:12.705Z"
+  },
+  {
+    "id": "6ae80e4e-2f5a-4454-a5fe-a659b830a006",
+    "title": "British Army Selects Ukraine-Proven Tekever AR5 Drone to Replace Watchkeeper",
+    "url": "https://thedefensepost.com/2026/07/27/british-army-ar5-drone/",
+    "source": "The Defense Post",
+    "datePublished": "2026-07-27",
+    "dateAdded": "2026-07-28",
+    "categories": [
+      "International",
+      "Government News"
+    ],
+    "tags": [
+      "Drones",
+      "NATO"
+    ],
+    "shortDescription": "The UK MoD will spend up to £400M over the next decade fielding Tekever's AR5 drone to replace the troubled Watchkeeper program, awarding a sole-source contract after judging none of the eight Project Corvus tender responses suitable.",
+    "whyItMatters": "A billion-pound cautionary tale (Watchkeeper) getting swapped for a combat-proven, Ukraine-battle-tested drone is a clean illustration of the UK procurement shift toward buying what's already working in the field rather than running another bespoke development program — relevant context for any portfolio company eyeing UK MoD sole-source pathways.",
+    "relevanceScore": 75,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 0
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "UK",
+    "companyMentions": [
+      "Tekever",
+      "UK Ministry of Defence"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "International / Australia",
+      "Policy"
+    ],
+    "sponsorNatSec100Relevance": "None",
+    "reactions": {},
+    "createdAt": "2026-07-28T19:12:12.705Z",
+    "updatedAt": "2026-07-28T19:12:12.705Z"
+  },
+  {
+    "id": "dd63ef5b-e6d9-464a-8532-e5542fa0bf71",
+    "title": "Attalon's Field-Swappable Connector Aims to Make Laser Weapons Battlefield-Ready",
+    "url": "https://interestingengineering.com/military/attalon-laser-weapon-amplifier-swap",
+    "source": "Interesting Engineering",
+    "datePublished": "2026-07-28",
+    "dateAdded": "2026-07-28",
+    "categories": [
+      "Industry News"
+    ],
+    "tags": [
+      "Defense Startup",
+      "Manufacturing"
+    ],
+    "shortDescription": "Newly independent directed-energy company Attalon shipped its first kWIC Disconnect subsystem, letting troops swap damaged laser-weapon amplifiers in the field in minutes instead of requiring specialized fiber-splicing repair.",
+    "whyItMatters": "Directed-energy weapons keep getting sold on power output and accuracy, but sustainment is usually the thing that actually keeps them out of the field — a boring-sounding connector that fixes the maintenance bottleneck could matter more to fielding timelines than the next power upgrade.",
+    "relevanceScore": 58,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 8,
+      "workstreamRelevance": 0,
+      "sponsorNatSec100": 0
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Attalon"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "Medium",
+    "workstreams": [],
+    "sponsorNatSec100Relevance": "None",
+    "reactions": {},
+    "createdAt": "2026-07-28T19:12:12.705Z",
+    "updatedAt": "2026-07-28T19:12:12.705Z"
   }
 ]
