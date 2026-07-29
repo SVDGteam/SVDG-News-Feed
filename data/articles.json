@@ -8336,5 +8336,243 @@
     "reactions": {},
     "createdAt": "2026-07-28T19:12:12.705Z",
     "updatedAt": "2026-07-28T19:12:12.705Z"
+  },
+  {
+    "id": "25e6b445-4306-4259-9eb8-d9557720f240",
+    "title": "Leonardo DRS to Acquire Raft in $450M All-Cash Deal",
+    "url": "https://www.tectonicdefense.com/leonardo-buys-raft-in-450m-deal/",
+    "source": "Tectonic",
+    "datePublished": "2026-07-29",
+    "dateAdded": "2026-07-29",
+    "categories": [
+      "Investor News",
+      "Sponsor News"
+    ],
+    "tags": [
+      "AI",
+      "Software",
+      "Defense Startup",
+      "Venture Capital"
+    ],
+    "shortDescription": "Leonardo DRS (the US arm of Italian defense giant Leonardo) is acquiring McLean, VA-based data fusion and AI mission software company Raft in an all-cash deal worth $450M, giving DRS an in-house AI/data layer to pair with its sensing and computing hardware.",
+    "whyItMatters": "This is a real exit for Washington Harbour Partners, which put $60M into Raft in 2024 — worth flagging as a sponsor win. It's also the latest data point in European primes buying up US defense software startups (Kongsberg/Zone 5 was the last one), which says something about where the M&A appetite is right now.",
+    "relevanceScore": 100,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 10
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "sponsorName": "Washington Harbour Partners",
+    "companyMentions": [
+      "Leonardo DRS",
+      "Raft",
+      "Washington Harbour Partners"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Capital Formation",
+      "Sponsor Engagement"
+    ],
+    "sponsorNatSec100Relevance": "Direct",
+    "reactions": {},
+    "createdAt": "2026-07-29T19:13:34.448Z",
+    "updatedAt": "2026-07-29T19:13:34.448Z"
+  },
+  {
+    "id": "3ecd07bd-fa5f-4c58-b6f4-99ee80ba64f8",
+    "title": "ESA Taps Aalyria to Build Deep-Space Network Hub",
+    "url": "https://payloadspace.com/esa-taps-aalyria-to-build-deep-space-network-hub/",
+    "source": "Payload",
+    "datePublished": "2026-07-29",
+    "dateAdded": "2026-07-29",
+    "categories": [
+      "International",
+      "Government News"
+    ],
+    "tags": [
+      "Space",
+      "Software"
+    ],
+    "shortDescription": "ESA selected Alphabet spinout Aalyria to build a network-operations center at the UK's Goonhilly Earth Station, using delay-tolerant networking to keep spacecraft, lunar missions, and ground stations connected across the solar system as part of the LunaNet framework with NASA and JAXA.",
+    "whyItMatters": "Aalyria's tech stack (orchestration for sparse, high-latency links) has obvious dual-use value for GPS-denied and contested comms environments, not just deep space — worth watching as the company builds out government relationships on both sides of the Atlantic.",
+    "relevanceScore": 71,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 0
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "Europe",
+    "companyMentions": [
+      "Aalyria",
+      "ESA",
+      "Goonhilly Earth Station"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "International / Australia"
+    ],
+    "sponsorNatSec100Relevance": "None",
+    "reactions": {},
+    "createdAt": "2026-07-29T19:13:34.448Z",
+    "updatedAt": "2026-07-29T19:13:34.448Z"
+  },
+  {
+    "id": "4fe6c1e0-bdc8-4b3f-9715-f141714b1e83",
+    "title": "Accenture Wins $821M Pentagon AI Data Platform Contract",
+    "url": "https://federalnewsnetwork.com/defense-news/2026/07/accenture-wins-821m-pentagon-ai-data-platform-contract/",
+    "source": "Federal News Network",
+    "author": "Rachel S. Cohen",
+    "datePublished": "2026-07-28",
+    "dateAdded": "2026-07-29",
+    "categories": [
+      "Government News",
+      "Industry News"
+    ],
+    "tags": [
+      "AI",
+      "DoD",
+      "CDAO",
+      "Software"
+    ],
+    "shortDescription": "Accenture Federal Services won an $821M, five-year task order from DoD's CDAO to mature the War Data Platform — the successor to Advana — which fuses 1,500+ data sources for AI-driven targeting, intel, and decision-support at the speed of conflict.",
+    "whyItMatters": "War Data Platform is becoming the backbone DoD's AI tools actually run on, and this award shows the Pentagon is willing to write nine-figure checks to system integrators (not just AI labs) to get the plumbing right. Good signal for anyone building AI/data products that need to plug into it.",
+    "relevanceScore": 86,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 0
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Accenture Federal Services",
+      "Department of Defense"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Policy"
+    ],
+    "sponsorNatSec100Relevance": "None",
+    "reactions": {},
+    "createdAt": "2026-07-29T19:13:34.448Z",
+    "updatedAt": "2026-07-29T19:13:34.448Z"
+  },
+  {
+    "id": "46d203ba-c67a-4fc4-a932-bbb049ac4ff4",
+    "title": "Anduril in Talks to Raise Funding at ~$100B Valuation",
+    "url": "https://www.defensenews.com/industry/techwatch/2026/07/24/anduril-in-talks-to-raise-funding-at-about-100-billion-valuation/",
+    "source": "Defense News",
+    "datePublished": "2026-07-24",
+    "dateAdded": "2026-07-29",
+    "categories": [
+      "Investor News"
+    ],
+    "tags": [
+      "Venture Capital",
+      "Defense Startup",
+      "NatSec100"
+    ],
+    "shortDescription": "Anduril is reportedly in talks to raise new funding at roughly $100B, which would put its valuation on par with Northrop Grumman and Lockheed Martin — just two months after doubling to $61B in a $5B round led by Thrive Capital and Andreessen Horowitz.",
+    "whyItMatters": "A defense tech startup approaching prime-contractor-scale valuation, twice in one summer, is the single clearest data point yet for how far capital formation in this sector has run in 2026 — good context for any NatSec100 or capital markets conversation this quarter. (Story broke 7/24; flagging now since it hadn't been surfaced in prior runs and the magnitude clears the bar.)",
+    "relevanceScore": 95,
+    "scoreBreakdown": {
+      "recency": 25,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 10
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Anduril",
+      "Thrive Capital",
+      "Andreessen Horowitz"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "NatSec100",
+      "Capital Formation"
+    ],
+    "sponsorNatSec100Relevance": "Direct",
+    "reactions": {},
+    "createdAt": "2026-07-29T19:13:34.448Z",
+    "updatedAt": "2026-07-29T19:13:34.448Z"
+  },
+  {
+    "id": "1fab7216-4011-44b3-b2c1-fea3accfb53d",
+    "title": "Designers Appointed for AUKUS Contingency Dry Dock",
+    "url": "https://www.australiandefence.com.au/news/news/designers-appointed-for-aukus-dry-dock",
+    "source": "Australian Defence Magazine",
+    "datePublished": "2026-07-29",
+    "dateAdded": "2026-07-29",
+    "categories": [
+      "International",
+      "Government News"
+    ],
+    "tags": [
+      "AUKUS",
+      "Industrial Base",
+      "Manufacturing"
+    ],
+    "shortDescription": "Australia selected Leidos Gibbs and Cox Australia to lead preliminary design of a contingency dry dock at the Henderson Defence Precinct in Western Australia, a required piece of infrastructure ahead of Australia receiving its first Virginia-class submarine.",
+    "whyItMatters": "Slow, unglamorous industrial-base milestones like this are exactly what determines whether AUKUS Pillar I timelines hold — worth tracking alongside the bigger funding announcements since dry dock capacity has been flagged as a real schedule risk.",
+    "relevanceScore": 71,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 0
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "Australia",
+    "companyMentions": [
+      "Leidos",
+      "Gibbs and Cox Australia",
+      "Australian Department of Defence"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "International / Australia"
+    ],
+    "sponsorNatSec100Relevance": "None",
+    "reactions": {},
+    "createdAt": "2026-07-29T19:13:34.448Z",
+    "updatedAt": "2026-07-29T19:13:34.448Z"
   }
 ]
