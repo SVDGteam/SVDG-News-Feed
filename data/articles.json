@@ -8574,5 +8574,150 @@
     "reactions": {},
     "createdAt": "2026-07-29T19:13:34.448Z",
     "updatedAt": "2026-07-29T19:13:34.448Z"
+  },
+  {
+    "id": "8fc1e55c-b76c-4593-a45b-61e82fcc6274",
+    "title": "Hidden Level Wins $100M Pentagon-Wide OTA for Passive Drone Detection",
+    "url": "https://www.prnewswire.com/news-releases/department-of-war-awards-hidden-level-100-million-ota-to-scale-passive-sensing-technology-302839232.html",
+    "source": "PR Newswire",
+    "datePublished": "2026-07-30",
+    "dateAdded": "2026-07-30",
+    "categories": [
+      "Industry News",
+      "Government News"
+    ],
+    "tags": [
+      "Drones",
+      "C2",
+      "Defense Startup",
+      "DoD"
+    ],
+    "shortDescription": "The Office of the Under Secretary of War for Research and Engineering awarded Syracuse-based c-UAS startup Hidden Level a $100M Other Transaction Agreement letting Pentagon customers buy and deploy its passive RF drone-detection systems (Breaker, Surge, BYOTx) sole-source, without going through individual contracting processes.",
+    "whyItMatters": "This is exactly the kind of enterprise-agreement structure that lets a single credible vendor scale across the whole Pentagon fast — worth watching as a template for how other c-UAS and sensing companies might get bought at scale as counter-drone spending keeps climbing.",
+    "relevanceScore": 69,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 8,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Hidden Level",
+      "Lockheed Martin Ventures",
+      "DFJ Growth",
+      "Palantir",
+      "Anduril"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "Medium",
+    "workstreams": [
+      "Capital Formation"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-07-30T19:11:47.659Z",
+    "updatedAt": "2026-07-30T19:11:47.659Z"
+  },
+  {
+    "id": "aeaff9c6-7432-4219-9586-28c00b09cf1e",
+    "title": "Hop Aero Wants to Deliver Cargo via Rocket",
+    "url": "https://payloadspace.com/hop-aero-wants-to-deliver-cargo-via-rocket/",
+    "source": "Payload",
+    "datePublished": "2026-07-30",
+    "dateAdded": "2026-07-30",
+    "categories": [
+      "Industry News"
+    ],
+    "tags": [
+      "Space",
+      "Defense Startup",
+      "Dual-Use"
+    ],
+    "shortDescription": "YC-backed startup Hop Aero came out of stealth with Rook, an autonomous suborbital rocket meant to fly cargo hundreds of kilometers in minutes and land on unprepared surfaces; the company already holds a $1.25M AFRL Direct-to-Phase-II SBIR for a rapid point-to-point logistics program.",
+    "whyItMatters": "Point-to-point rocket cargo has been a Pentagon fascination for years but mostly stuck at the concept stage — a founding team with a Marine Corps logistics pain point and an AFRL contract already in hand is a good early marker for where dual-use logistics funding could go next.",
+    "relevanceScore": 56,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 5,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 0
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Hop Aero",
+      "AFRL"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Low",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Capital Formation"
+    ],
+    "sponsorNatSec100Relevance": "None",
+    "reactions": {},
+    "createdAt": "2026-07-30T19:11:47.660Z",
+    "updatedAt": "2026-07-30T19:11:47.660Z"
+  },
+  {
+    "id": "92a04cf0-9d34-4be7-942c-07b10e7733e4",
+    "title": "British Defence Startup Agon Emerges From Stealth With $30M for Synthetic Battlefield Training",
+    "url": "https://tech.eu/2026/07/29/british-defence-startup-agon-creating-virtual-battlefields-launches-raising-30m/",
+    "source": "Tech.eu",
+    "datePublished": "2026-07-29",
+    "dateAdded": "2026-07-30",
+    "categories": [
+      "Industry News",
+      "International"
+    ],
+    "tags": [
+      "AI",
+      "Drones",
+      "Defense Startup",
+      "Venture Capital"
+    ],
+    "shortDescription": "London- and Berlin-based Agon raised $30M across a pre-seed and seed round (Lakestar, 201 Ventures, D3, XYZ, Lux Capital, Northzone) to build AI-generated synthetic battlefields that let counter-drone weapons train against simulated drone swarms before facing the real thing.",
+    "whyItMatters": "One of the bigger European defense-tech seed rounds this year, and a sharp bet that the training-data bottleneck for autonomous weapons is as investable as the weapons themselves — worth flagging alongside the broader European capital formation story.",
+    "relevanceScore": 68,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 8,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 0
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "Europe",
+    "companyMentions": [
+      "Agon",
+      "Lakestar",
+      "Lux Capital",
+      "Northzone"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "Medium",
+    "workstreams": [
+      "Capital Formation",
+      "International / Australia"
+    ],
+    "sponsorNatSec100Relevance": "None",
+    "reactions": {},
+    "createdAt": "2026-07-30T19:11:47.660Z",
+    "updatedAt": "2026-07-30T19:11:47.660Z"
   }
 ]
