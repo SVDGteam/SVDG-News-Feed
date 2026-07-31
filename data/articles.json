@@ -8719,5 +8719,144 @@
     "reactions": {},
     "createdAt": "2026-07-30T19:11:47.660Z",
     "updatedAt": "2026-07-30T19:11:47.660Z"
+  },
+  {
+    "id": "067e0762-cc0e-4a77-9ef5-9bed18308aa8",
+    "title": "Seasats USV Records Chinese Warship in the Philippines' Waters",
+    "url": "https://www.tectonicdefense.com/seasats-usv-records-chinese-warship-in-the-philippines-waters/",
+    "source": "Tectonic",
+    "datePublished": "2026-07-31",
+    "dateAdded": "2026-07-31",
+    "categories": [
+      "Industry News",
+      "International"
+    ],
+    "tags": [
+      "Maritime",
+      "Autonomy",
+      "Defense Startup"
+    ],
+    "shortDescription": "Seasats' Lightfish USV recorded a Chinese destroyer operating in the Philippines' exclusive economic zone, which the company says is the first such video captured by a US firm — coming right after Lightfish completed an autonomous Taiwan Strait transit.",
+    "whyItMatters": "It's a clean data point that maritime autonomy is moving from demo videos to actual contested-water encounters — good validation for the whole USV cohort SVDG tracks, and a preview of how DIU's new $200M drone-boat solicitation is likely to get used.",
+    "relevanceScore": 95,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Seasats"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "NatSec100",
+      "Newsletter"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-07-31T19:12:47.279Z",
+    "updatedAt": "2026-07-31T19:12:47.279Z"
+  },
+  {
+    "id": "ee640c0e-a5e4-47c3-86c2-b63083a6da8b",
+    "title": "K2 Space Raises $500M Series D at $6.8B Valuation",
+    "url": "https://payloadspace.com/k2-space-raises-500m-series-d-at-6-8b-valuation/",
+    "source": "Payload",
+    "datePublished": "2026-07-30",
+    "dateAdded": "2026-07-31",
+    "categories": [
+      "Investor News",
+      "Industry News"
+    ],
+    "tags": [
+      "Space",
+      "Venture Capital",
+      "Defense Startup"
+    ],
+    "shortDescription": "K2 Space closed a $500M Series D at a $6.8B post-money valuation, just four months after launching its first satellite — total financing now tops $1B since the company's 2022 founding.",
+    "whyItMatters": "A hardware-heavy space manufacturer going from first launch to a $6.8B valuation in four months is a good gut-check on how fast capital is moving into NatSec-relevant space plays right now — worth watching alongside K2's Anduril and Space Force ties.",
+    "relevanceScore": 95,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "K2 Space",
+      "Anduril",
+      "SES"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Capital Formation",
+      "NatSec100"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-07-31T19:12:47.280Z",
+    "updatedAt": "2026-07-31T19:12:47.280Z"
+  },
+  {
+    "id": "a5b57ebe-694b-4e20-95fc-57aea96b6a5b",
+    "title": "Pentagon Puts Out Call for Robot Boats That Launch Attack Drones",
+    "url": "https://www.militarytimes.com/industry/techwatch/2026/07/29/pentagon-puts-out-call-for-robot-boats-that-launch-attack-drones/",
+    "source": "Military Times",
+    "datePublished": "2026-07-29",
+    "dateAdded": "2026-07-31",
+    "categories": [
+      "Government News",
+      "Industry News"
+    ],
+    "tags": [
+      "DIU",
+      "Drones",
+      "Maritime",
+      "Acquisition Reform"
+    ],
+    "shortDescription": "DIU (recently renamed the War Department Innovation Unit) opened a $200M prize-challenge solicitation for USVs bundled with strike-capable drones; applications are due August 10 with in-water testing and fielding as soon as this fall.",
+    "whyItMatters": "Real dollars on a real clock — this is acquisition reform actually moving fast, and it's directly actionable for every maritime autonomy company in SVDG's orbit that could respond before the August 10 deadline.",
+    "relevanceScore": 90,
+    "scoreBreakdown": {
+      "recency": 25,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Policy",
+      "NatSec100"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-07-31T19:12:47.280Z",
+    "updatedAt": "2026-07-31T19:12:47.280Z"
   }
 ]
