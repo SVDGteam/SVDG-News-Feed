@@ -8858,5 +8858,156 @@
     "reactions": {},
     "createdAt": "2026-07-31T19:12:47.280Z",
     "updatedAt": "2026-07-31T19:12:47.280Z"
+  },
+  {
+    "id": "18ababdf-ebc3-4ab2-948a-bff879b09b24",
+    "title": "NordSpace Funds NVD Amid Canada's Export Push",
+    "url": "https://payloadspace.com/nordspace-funds-nvd-amid-canadas-export-push/",
+    "source": "Payload",
+    "datePublished": "2026-07-31",
+    "dateAdded": "2026-08-01",
+    "categories": [
+      "Investor News",
+      "International"
+    ],
+    "tags": [
+      "Venture Capital",
+      "Defense Startup",
+      "Hypersonics"
+    ],
+    "shortDescription": "NordSpace Ventures, the investment arm of Canadian launch startup NordSpace, made an undisclosed strategic investment in North Vector Dynamics, a Calgary-based startup building sovereign Canadian missile and hypersonics capability, the same week Ottawa launched a new Strategic Exports Office to boost defense exports.",
+    "whyItMatters": "Canada's building its own sovereign defense-tech capital stack in real time, pairing private venture cash with new government export machinery. Worth watching for how allied nations outside the AUKUS/NATO core are standing up domestic dual-use investment vehicles.",
+    "relevanceScore": 75,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 0
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "Other",
+    "companyMentions": [
+      "NordSpace",
+      "North Vector Dynamics"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Capital Formation",
+      "International / Australia"
+    ],
+    "sponsorNatSec100Relevance": "None",
+    "reactions": {},
+    "createdAt": "2026-08-01T19:12:16.521Z",
+    "updatedAt": "2026-08-01T19:12:16.521Z"
+  },
+  {
+    "id": "2ce4cb5e-7097-4823-9073-5348fc48e977",
+    "title": "Air Force Could Tap Up to 6 Vendors for Second Increment of CCA Drone Program",
+    "url": "https://defensescoop.com/2026/07/30/air-force-cca-drone-program-increment-2-downselect/",
+    "source": "DefenseScoop",
+    "datePublished": "2026-07-30",
+    "dateAdded": "2026-08-01",
+    "categories": [
+      "Government News",
+      "Industry News"
+    ],
+    "tags": [
+      "Autonomy",
+      "Drones",
+      "Acquisition Reform"
+    ],
+    "shortDescription": "The Air Force says it could bring up to six vendors into early prototyping for Collaborative Combat Aircraft Increment 2, working with nine unnamed companies over roughly the next ten months to define requirements before a formal downselect, echoing how Increment 1 played out.",
+    "whyItMatters": "CCA is one of the largest, most closely watched next-gen procurement programs for autonomy vendors, and the Increment 2 competition structure will shape who gets a real shot at production dollars next.",
+    "relevanceScore": 90,
+    "scoreBreakdown": {
+      "recency": 25,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "NatSec100",
+      "Policy"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-08-01T19:12:16.522Z",
+    "updatedAt": "2026-08-01T19:12:16.522Z"
+  },
+  {
+    "id": "58d12c8a-a191-4da0-af8a-9619793d9a8f",
+    "title": "Space Force Establishes $981M Contract Vehicle to Develop Testing, Training Infrastructure",
+    "url": "https://defensescoop.com/2026/07/31/space-force-contract-vehicle-develop-testing-training-infrastructure/",
+    "source": "DefenseScoop",
+    "datePublished": "2026-07-31",
+    "dateAdded": "2026-08-01",
+    "categories": [
+      "Government News",
+      "Industry News"
+    ],
+    "tags": [
+      "Space",
+      "DoD",
+      "Acquisition Reform"
+    ],
+    "shortDescription": "The Space Force picked 15 companies, spanning primes like Lockheed, Northrop and BAE alongside newer entrants like Firefly, Rocket Lab, Redwire, Sierra Space and York Space Systems, for a $981M IDIQ vehicle to build out test and training infrastructure, including adversary-mimicking spacecraft and electronic-warfare simulation.",
+    "whyItMatters": "A meaningful pool of commercial space companies just landed seats on a flagship Space Force infrastructure priority. Good signal on how the service is blending primes and newer entrants on big vehicles.",
+    "relevanceScore": 80,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Firefly Aerospace",
+      "Rocket Lab",
+      "Redwire",
+      "Sierra Space",
+      "York Space Systems",
+      "Lockheed Martin",
+      "Northrop Grumman",
+      "BAE Systems",
+      "L3Harris",
+      "Boeing",
+      "Viasat",
+      "CACI",
+      "Amentum",
+      "Parsons",
+      "Pacific Crest Alliance"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Capital Formation",
+      "NatSec100"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-08-01T19:12:16.523Z",
+    "updatedAt": "2026-08-01T19:12:16.523Z"
   }
 ]
