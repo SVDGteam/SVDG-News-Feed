@@ -9009,5 +9009,148 @@
     "reactions": {},
     "createdAt": "2026-08-01T19:12:16.523Z",
     "updatedAt": "2026-08-01T19:12:16.523Z"
+  },
+  {
+    "id": "84916345-35a9-4c0c-b374-e35e286172be",
+    "title": "Office of Strategic Capital Signs $820M Conditional Loan Commitment with Performance Drone Works",
+    "url": "https://www.war.gov/News/Releases/Release/Article/4561771/the-office-of-strategic-capital-signs-820-million-conditional-loan-commitment-w/",
+    "source": "U.S. Department of War",
+    "datePublished": "2026-07-31",
+    "dateAdded": "2026-08-02",
+    "categories": [
+      "Government News",
+      "Industry News"
+    ],
+    "tags": [
+      "Drones",
+      "Manufacturing",
+      "Office of Strategic Capital",
+      "Defense Industrial Base"
+    ],
+    "shortDescription": "OSC committed up to $820M in conditional loan financing to Performance Drone Works (Huntsville, AL) to scale domestic manufacturing of drone propulsion, power, and vision components — aimed at cutting reliance on foreign suppliers for Group 1/2 UAS parts.",
+    "whyItMatters": "This is OSC's loan-program model doing exactly what it was built for — using debt, not equity, to build out a domestic component base that VC-backed drone primes depend on. Worth tracking as a template for how non-dilutive capital is filling gaps venture money won't touch.",
+    "relevanceScore": 85,
+    "scoreBreakdown": {
+      "recency": 25,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 0
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Performance Drone Works"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Capital Formation",
+      "Policy"
+    ],
+    "sponsorNatSec100Relevance": "None",
+    "reactions": {},
+    "createdAt": "2026-08-02T19:12:01.265Z",
+    "updatedAt": "2026-08-02T19:12:01.265Z"
+  },
+  {
+    "id": "3234a9a7-6cf1-4c86-9bda-8e040edd8578",
+    "title": "SpaceX Wins $1.6B Space Force Contract for 18 Falcon 9 Launches Supporting Missile-Tracking Satellites",
+    "url": "https://www.usnews.com/news/top-news/articles/2026-07-29/spacex-gets-1-6-billion-us-space-force-order-for-18-falcon-9-launches",
+    "source": "U.S. News & World Report",
+    "datePublished": "2026-07-29",
+    "dateAdded": "2026-08-02",
+    "categories": [
+      "Government News",
+      "Industry News"
+    ],
+    "tags": [
+      "Space",
+      "Space Force",
+      "Launch",
+      "Missile Defense"
+    ],
+    "shortDescription": "The Space Force awarded SpaceX $1.6B for 18 Falcon 9 launches through 2027 under NSSL Phase 3 Lane 1, deploying satellites for the Space Development Agency's Proliferated Warfighter Space Architecture missile-tracking constellation.",
+    "whyItMatters": "SpaceX has now crossed $7B in Pentagon awards this year alone — a reminder of how concentrated launch and space-sensing dollars are, and a data point for anyone benchmarking what 'commercial-first' national security space procurement actually looks like at scale. A few days older than our usual window but hadn't been captured yet and is a real gap worth closing.",
+    "relevanceScore": 59,
+    "scoreBreakdown": {
+      "recency": 25,
+      "svdgRelevance": 20,
+      "sourceQuality": 8,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 0
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "SpaceX",
+      "Space Development Agency"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "Medium",
+    "workstreams": [
+      "Capital Formation"
+    ],
+    "sponsorNatSec100Relevance": "None",
+    "reactions": {},
+    "createdAt": "2026-08-02T19:12:01.265Z",
+    "updatedAt": "2026-08-02T19:12:01.265Z"
+  },
+  {
+    "id": "9eabe137-388e-49c0-8064-16b6e9635514",
+    "title": "The Mogami: Advancing Australia-Japan Defense Cooperation",
+    "url": "https://www.csis.org/analysis/mogami-advancing-australia-japan-defense-cooperation",
+    "source": "CSIS",
+    "author": "Jerry McGinn, Oliver Buntin",
+    "datePublished": "2026-07-29",
+    "dateAdded": "2026-08-02",
+    "categories": [
+      "International",
+      "Opinions"
+    ],
+    "tags": [
+      "AUKUS",
+      "Shipbuilding",
+      "Australia",
+      "Japan",
+      "Defense Industrial Base"
+    ],
+    "shortDescription": "CSIS analysis on Australia's Mogami-class frigate buy from Japan, arguing a hybrid offshore-onshore build strategy and shared workforce/tech development are needed to hit the 2029 delivery target and grow Australia's shipbuilding base.",
+    "whyItMatters": "Japan entering the allied shipbuilding market as both partner and rival is a live wrinkle in how AUKUS-adjacent industrial policy gets built out — good context for anyone tracking Australia's sovereign capability push alongside the submarine program.",
+    "relevanceScore": 70,
+    "scoreBreakdown": {
+      "recency": 25,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 0
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "Australia",
+    "companyMentions": [
+      "Mitsubishi Heavy Industries"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "International / Australia",
+      "Policy"
+    ],
+    "sponsorNatSec100Relevance": "None",
+    "reactions": {},
+    "createdAt": "2026-08-02T19:12:01.265Z",
+    "updatedAt": "2026-08-02T19:12:01.265Z"
   }
 ]
