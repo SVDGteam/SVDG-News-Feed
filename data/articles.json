@@ -9152,5 +9152,148 @@
     "reactions": {},
     "createdAt": "2026-08-02T19:12:01.265Z",
     "updatedAt": "2026-08-02T19:12:01.265Z"
+  },
+  {
+    "id": "f051bb8b-379b-4895-aa43-7ff8c576a9cf",
+    "title": "True Anomaly's Jackal Executes First-Ever In-Space Pursuit of an Evading Target",
+    "url": "https://payloadspace.com/true-anomaly-chases-an-evading-target-in-orbit/",
+    "source": "Payload",
+    "datePublished": "2026-08-03",
+    "dateAdded": "2026-08-03",
+    "categories": [
+      "Industry News",
+      "Government News"
+    ],
+    "tags": [
+      "Space",
+      "Autonomy",
+      "NatSec100"
+    ],
+    "shortDescription": "True Anomaly says its Jackal spacecraft became the first to execute an in-space pursuit of an actively evading target, tracking and imaging Rocket Lab's Puma satellite as part of Space Systems Command's VICTUS HAZE tactically responsive space mission.",
+    "whyItMatters": "This isn't just a demo flex — proving autonomous maneuver and re-planning against a non-cooperative target is exactly the tactically-responsive-space capability SSC has been pushing for, and it's a strong proof point for True Anomaly's Mosaic BMC2 platform heading into tougher, more contested taskings.",
+    "relevanceScore": 91,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "True Anomaly",
+      "Rocket Lab",
+      "Space Systems Command"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "NatSec100"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-08-03T19:13:57.033Z",
+    "updatedAt": "2026-08-03T19:13:57.033Z"
+  },
+  {
+    "id": "54ea1ef1-8ce8-494f-90a3-569902b3fec6",
+    "title": "Northrop Gets $3B Framework Deal to Increase Motor Production for PAC-3, THAAD",
+    "url": "https://breakingdefense.com/2026/08/northrop-gets-3b-framework-deal-to-increase-motor-production-for-pac-3-thaad/",
+    "source": "Breaking Defense",
+    "datePublished": "2026-08-03",
+    "dateAdded": "2026-08-03",
+    "categories": [
+      "Government News",
+      "Industry News"
+    ],
+    "tags": [
+      "Munitions",
+      "Industrial Base",
+      "DoD",
+      "Budget"
+    ],
+    "shortDescription": "The Pentagon signed a $3B multiyear framework deal making Northrop Grumman a second rocket-motor supplier for the PAC-3 interceptor while also scaling THAAD motor production, aiming to triple PAC-3 output and quadruple THAAD output.",
+    "whyItMatters": "Multiyear framework deals that get primes to put their own capital into scaling munitions production are the acquisition-reform playbook SVDG tracks closely — this is the second such deal (after Lockheed's THAAD award in June) and signals the Pentagon is serious about diversifying its missile-motor supply chain rather than relying on a single vendor.",
+    "relevanceScore": 90,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 0
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Northrop Grumman",
+      "Lockheed Martin"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Policy",
+      "Industry Council"
+    ],
+    "sponsorNatSec100Relevance": "None",
+    "reactions": {},
+    "createdAt": "2026-08-03T19:13:57.037Z",
+    "updatedAt": "2026-08-03T19:13:57.037Z"
+  },
+  {
+    "id": "a828bf55-e23f-47b6-8519-24d1d83e323f",
+    "title": "American Rheinmetall Leads Harbinger, Forterra, Primordial Labs Team on Army's Project Sustainment UGVs",
+    "url": "https://www.rheinmetall.com/en/media/news-watch/news/2026/07/2026-07-31-american-rheinmetall-awarded-us-army-contract-for-project-sustainment",
+    "source": "American Rheinmetall",
+    "datePublished": "2026-07-31",
+    "dateAdded": "2026-08-03",
+    "categories": [
+      "Industry News"
+    ],
+    "tags": [
+      "Autonomy",
+      "Robotics",
+      "Industrial Base",
+      "Defense Startup"
+    ],
+    "shortDescription": "American Rheinmetall will serve as prime integrator on an 18-month Army Project Sustainment contract for autonomous logistics UGVs, teaming with Harbinger (commercial hybrid chassis), Forterra (autonomy stack), and Primordial Labs (natural-language human-machine interface).",
+    "whyItMatters": "It's a clean, working example of the 'commercial chassis plus defense-tech autonomy stack' teaming model — Harbinger's proven commercial hybrid UGV gets defense-ified fast by pairing with Forterra and Primordial Labs instead of building from scratch, which is the capital-efficient path into defense SVDG likes to see startups take.",
+    "relevanceScore": 64,
+    "scoreBreakdown": {
+      "recency": 25,
+      "svdgRelevance": 20,
+      "sourceQuality": 8,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "American Rheinmetall",
+      "Harbinger",
+      "Forterra",
+      "Primordial Labs"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "Medium",
+    "workstreams": [
+      "Industry Council"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-08-03T19:13:57.037Z",
+    "updatedAt": "2026-08-03T19:13:57.037Z"
   }
 ]
