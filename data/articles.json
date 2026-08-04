@@ -9295,5 +9295,162 @@
     "reactions": {},
     "createdAt": "2026-08-03T19:13:57.037Z",
     "updatedAt": "2026-08-03T19:13:57.037Z"
+  },
+  {
+    "id": "99cffc1f-8c2f-4573-9303-adc580cf0f09",
+    "title": "Valar Atomics Raises $1B Series B Led by Sequoia",
+    "url": "https://www.tectonicdefense.com/valar-atomics-raises-1b-series-b-led-by-sequoia/",
+    "source": "Tectonic",
+    "datePublished": "2026-08-03",
+    "dateAdded": "2026-08-04",
+    "categories": [
+      "Investor News",
+      "Industry News"
+    ],
+    "tags": [
+      "Nuclear",
+      "Capital Formation",
+      "Defense Startup",
+      "Dual-Use"
+    ],
+    "shortDescription": "El Segundo-based Valar Atomics closed a $1B Series B led by Sequoia Capital, days after its microreactor hit criticality under DOE's Reactor Pilot Program and following a data-center power partnership with Nvidia. The company also closed a separate $200M credit facility.",
+    "whyItMatters": "This is the biggest check yet in the advanced-nuclear-for-defense-and-AI-infrastructure race, and it's a real signal that the market believes microreactors can scale from demo to fleet production fast — worth watching for how it reshapes the OSC/DOE financing conversation SVDG tracks around industrial base and energy security.",
+    "relevanceScore": 95,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Valar Atomics",
+      "Sequoia Capital",
+      "Nvidia",
+      "Antares",
+      "Oklo",
+      "Radiant",
+      "Aalo Atomics"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Capital Formation",
+      "NatSec100"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-08-04T19:12:16.642Z",
+    "updatedAt": "2026-08-04T19:12:16.642Z"
+  },
+  {
+    "id": "158df2b7-cd93-4274-b9da-4ec2c473bef8",
+    "title": "Xona Clears Final Regulatory Hurdle for PNT Constellation",
+    "url": "https://payloadspace.com/xona-clears-final-regulatory-hurdle-for-pnt-constellation/",
+    "source": "Payload",
+    "datePublished": "2026-08-03",
+    "dateAdded": "2026-08-04",
+    "categories": [
+      "Industry News",
+      "Government News"
+    ],
+    "tags": [
+      "Space",
+      "PNT",
+      "Satellites",
+      "Dual-Use"
+    ],
+    "shortDescription": "Xona Space Systems won FCC approval to broadcast its Pulsar navigation signal from a full commercial satellite constellation in the L-band, the first private navigation network cleared to operate alongside GPS. First six satellites are slated to launch in October.",
+    "whyItMatters": "GPS resiliency is a live congressional fight right now (Resilient GPS got defunded, House is pushing the GPS Modernization Acceleration Act), so a commercially-funded, GPS-compatible alternative clearing the FCC's toughest spectrum test is exactly the kind of private-sector fix policymakers are looking for — good one for the NatSec100/Policy crowd.",
+    "relevanceScore": 80,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Xona Space Systems"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "NatSec100",
+      "Policy"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-08-04T19:12:16.643Z",
+    "updatedAt": "2026-08-04T19:12:16.643Z"
+  },
+  {
+    "id": "2ace08fd-13a2-4f5e-a9bb-e2139673289e",
+    "title": "Space Force Picks 15 Companies for $981M Training Range Contract",
+    "url": "https://spacenews.com/space-force-picks-15-companies-for-981-million-training-range-contract/",
+    "source": "SpaceNews",
+    "datePublished": "2026-07-31",
+    "dateAdded": "2026-08-04",
+    "categories": [
+      "Government News",
+      "Industry News"
+    ],
+    "tags": [
+      "Space",
+      "Space Force",
+      "Contracts",
+      "Industrial Base"
+    ],
+    "shortDescription": "Space Force awarded a five-year, up-to-$981M IDIQ (the NITE-STAR vehicle) to 15 companies — including Firefly Aerospace, Rocket Lab, Redwire, Sierra Space, and York Space Systems alongside the usual primes — to build live and simulated test-and-training infrastructure for contested orbital scenarios.",
+    "whyItMatters": "This is a good acquisition-reform data point: a next-gen space capability built as a multi-award IDIQ that puts newer space companies on equal footing with the primes for task orders, rather than a single-winner legacy contract — the kind of structure SVDG likes to point to when arguing procurement can move faster.",
+    "relevanceScore": 75,
+    "scoreBreakdown": {
+      "recency": 25,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Firefly Aerospace",
+      "Rocket Lab",
+      "Redwire",
+      "Sierra Space",
+      "York Space Systems",
+      "Lockheed Martin",
+      "Northrop Grumman",
+      "Boeing",
+      "L3Harris",
+      "BAE Systems",
+      "Viasat"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Industry Council",
+      "NatSec100"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-08-04T19:12:16.643Z",
+    "updatedAt": "2026-08-04T19:12:16.643Z"
   }
 ]
