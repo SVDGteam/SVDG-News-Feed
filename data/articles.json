@@ -9452,5 +9452,155 @@
     "reactions": {},
     "createdAt": "2026-08-04T19:12:16.643Z",
     "updatedAt": "2026-08-04T19:12:16.643Z"
+  },
+  {
+    "id": "8d41b551-f2df-41a2-b614-995806412367",
+    "title": "Aurelius Raises $40M Series A for Laser Weapons",
+    "url": "https://www.tectonicdefense.com/aurelius-raises-40m-series-a-for-laser-weapons/",
+    "source": "Tectonic",
+    "datePublished": "2026-08-05",
+    "dateAdded": "2026-08-05",
+    "categories": [
+      "Industry News",
+      "Investor News"
+    ],
+    "tags": [
+      "Defense Startup",
+      "Venture Capital",
+      "Drones"
+    ],
+    "shortDescription": "Directed-energy startup Aurelius Systems raised a $40M Series A (co-led by Draper Associates and KAS Venture Partners) to scale production of its Archimedes laser counter-drone system, just months after a $10M seed.",
+    "whyItMatters": "Laser c-UAS is one of the more credible 'infinite magazine' answers to the drone-swarm problem, and Aurelius going from $10M seed to $40M Series A in under a year (with General Catalyst following on) is a good proof point for how fast capital is moving into directed energy right now.",
+    "relevanceScore": 80,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Aurelius Systems",
+      "Draper Associates",
+      "KAS Venture Partners",
+      "General Catalyst",
+      "Hanwha Defense USA",
+      "Rheinmetall",
+      "Anduril"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Capital Formation",
+      "NatSec100"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-08-05T19:12:42.778Z",
+    "updatedAt": "2026-08-05T19:12:42.778Z"
+  },
+  {
+    "id": "4de473ed-ff05-49bd-89b2-60385139ec00",
+    "title": "Neuraspace Raises €15.6M to Scale its SDA Service",
+    "url": "https://payloadspace.com/neuraspace-raises-e15-6m-to-scale-its-sda-service/",
+    "source": "Payload",
+    "datePublished": "2026-08-05",
+    "dateAdded": "2026-08-05",
+    "categories": [
+      "Industry News",
+      "International"
+    ],
+    "tags": [
+      "Space",
+      "Dual-Use",
+      "Venture Capital"
+    ],
+    "shortDescription": "Portuguese startup Neuraspace raised €15.6M ($18M) to grow its AI-powered space domain awareness and space-traffic-management platform, whose defense-facing NeuraspaceDEF product already serves the Portuguese Air Force and NATO.",
+    "whyItMatters": "A European dual-use SDA player scaling with 350%+ revenue growth and a defense-specific product line is exactly the kind of allied capital formation story SVDG's international/AUKUS-adjacent workstream likes to flag — worth watching as a comp for US SDA startups.",
+    "relevanceScore": 80,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "Europe",
+    "companyMentions": [
+      "Neuraspace",
+      "Lince Capital",
+      "Explorer Investments",
+      "Armilar Venture Partners",
+      "NATO"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Capital Formation",
+      "International / Australia"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-08-05T19:12:42.783Z",
+    "updatedAt": "2026-08-05T19:12:42.783Z"
+  },
+  {
+    "id": "9e506416-4171-4066-94e4-1cd329fa397a",
+    "title": "Pentagon Counterdrone Task Force Has a New AI-Powered Marketplace",
+    "url": "https://www.defenseone.com/technology/2026/08/pentagon-counterdrone-task-force-has-new-ai-powered-marketplace/415216/",
+    "source": "Defense One",
+    "author": "Lauren C. Williams",
+    "datePublished": "2026-08-05",
+    "dateAdded": "2026-08-05",
+    "categories": [
+      "Government News",
+      "Industry News"
+    ],
+    "tags": [
+      "Acquisition Reform",
+      "DoD",
+      "Drones",
+      "AI"
+    ],
+    "shortDescription": "The Pentagon's counterdrone task force awarded Kaizen Laboratories $15M via an OTA to build an AI-backed c-UAS marketplace that's meant to speed up foreign military sales for allies including Australia, the UK, and Poland.",
+    "whyItMatters": "This is a good acquisition-reform data point in miniature: a nontraditional vendor building the actual procurement infrastructure (not just a weapon system) to cut FMS timelines from months to something closer to real time — worth watching as a template for other domains.",
+    "relevanceScore": 95,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Kaizen Laboratories"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Policy",
+      "NatSec100"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-08-05T19:12:42.784Z",
+    "updatedAt": "2026-08-05T19:12:42.784Z"
   }
 ]
