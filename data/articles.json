@@ -9602,5 +9602,105 @@
     "reactions": {},
     "createdAt": "2026-08-05T19:12:42.784Z",
     "updatedAt": "2026-08-05T19:12:42.784Z"
+  },
+  {
+    "id": "0bae7bf5-d758-429d-bf6d-f1d766258725",
+    "title": "Hadrian Quintuples Valuation After $1.37B Series D",
+    "url": "https://www.tectonicdefense.com/hadrian-quintuples-valuation-after-1-37b-series-d/",
+    "source": "Tectonic",
+    "datePublished": "2026-08-06",
+    "dateAdded": "2026-08-06",
+    "categories": [
+      "Investor News",
+      "Industry News"
+    ],
+    "tags": [
+      "Defense Startup",
+      "Venture Capital",
+      "Manufacturing",
+      "Industrial Base",
+      "Munitions"
+    ],
+    "shortDescription": "Hadrian raised a $1.37B Series D co-led by WCM, Washington Harbour Partners, Valor Equity, 137 Ventures, and Baillie Gifford (with JPMorgan's Strategic Investment Group as anchor), taking the automated-factory startup to a near-$8B valuation — roughly 5x its January mark.",
+    "whyItMatters": "This is one of the biggest defense-manufacturing raises of the year and a clean signal of how much capital is chasing the reindustrialization thesis. CEO Chris Power says munitions ramp and submarine components are the top two priorities, which lines up squarely with where SVDG's industrial-base and capital-formation conversations have been heading.",
+    "relevanceScore": 96,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 10
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "sponsorName": "Washington Harbour Partners",
+    "companyMentions": [
+      "Hadrian",
+      "WCM Investment Management",
+      "Washington Harbour Partners",
+      "Valor Equity Partners",
+      "137 Ventures",
+      "Baillie Gifford",
+      "JPMorgan"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Capital Formation"
+    ],
+    "sponsorNatSec100Relevance": "Direct",
+    "reactions": {},
+    "createdAt": "2026-08-06T19:10:38.550Z",
+    "updatedAt": "2026-08-06T19:10:38.550Z"
+  },
+  {
+    "id": "ed92f915-406e-4b5d-83f1-286b761996b0",
+    "title": "Rocket Lab Wins $397M Contract to Build and Launch Threat-Tracking 'Flatellites'",
+    "url": "https://payloadspace.com/rocket-lab-wins-397m-contract-to-build-and-launch-threat-tracking-flatellites/",
+    "source": "Payload",
+    "datePublished": "2026-08-04",
+    "dateAdded": "2026-08-06",
+    "categories": [
+      "Government News",
+      "Industry News"
+    ],
+    "tags": [
+      "Space",
+      "DoD",
+      "Manufacturing"
+    ],
+    "shortDescription": "Space Force awarded Rocket Lab $397M under the SB-AMTI program to build, launch, and operate a constellation of flat-packed 'Flatellite' satellites for real-time airborne threat tracking, flying on Rocket Lab's yet-to-debut Neutron rocket.",
+    "whyItMatters": "Another data point in Rocket Lab's push to be a fully vertically integrated national-security space prime — satellite design, launch, and downstream AI-driven tasking all under one roof. Worth watching how SB-AMTI's other two awardees (one unnamed) shake out as a bellwether for how the Pentagon is spreading this bet.",
+    "relevanceScore": 71,
+    "scoreBreakdown": {
+      "recency": 25,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Rocket Lab",
+      "Space Force"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "NatSec100"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-08-06T19:10:38.552Z",
+    "updatedAt": "2026-08-06T19:10:38.552Z"
   }
 ]
