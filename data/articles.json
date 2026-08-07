@@ -9702,5 +9702,96 @@
     "reactions": {},
     "createdAt": "2026-08-06T19:10:38.552Z",
     "updatedAt": "2026-08-06T19:10:38.552Z"
+  },
+  {
+    "id": "923b640f-9d96-4b0b-86aa-b0b0e99edd1f",
+    "title": "Exclusive: Vatn Touches Down in Taiwan",
+    "url": "https://www.tectonicdefense.com/exclusive-vatn-touches-down-in-taiwan/",
+    "source": "Tectonic",
+    "datePublished": "2026-08-07",
+    "dateAdded": "2026-08-07",
+    "categories": [
+      "International",
+      "Industry News"
+    ],
+    "tags": [
+      "Defense Startup",
+      "Autonomy",
+      "Maritime"
+    ],
+    "shortDescription": "Rhode Island-based autonomous underwater vehicle startup Vatn Systems signed an agreement with Taiwan's National Chung-Shan Institute of Science and Technology (NCSIST) to co-develop AI-enabled C2 systems and field its Skelmir AUVs in the Taiwan Strait, with a local subsidiary and supply chain in the works.",
+    "whyItMatters": "A US dual-use startup landing a formal government-to-government R&D deal with Taiwan is a real signal of how allied capital and procurement are converging around cheap, mass-producible undersea autonomy — worth watching for any portfolio companies eyeing Indo-Pacific expansion.",
+    "relevanceScore": 91,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "Other",
+    "companyMentions": [
+      "Vatn Systems",
+      "National Chung-Shan Institute of Science and Technology (NCSIST)"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "International / Australia"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-08-07T19:11:21.225Z",
+    "updatedAt": "2026-08-07T19:11:21.225Z"
+  },
+  {
+    "id": "cae9377f-aa11-4142-b750-052f71dcd15b",
+    "title": "Op-ed: Aging Weather Satellites Are Raising Risks for America. It's Time for a Hybrid Solution.",
+    "url": "https://payloadspace.com/op-ed-aging-weather-satellites-are-raising-risks-for-america-its-time-for-a-hybrid-solution/",
+    "source": "Payload",
+    "author": "Rei Goffer and Kevin M. O'Connell",
+    "datePublished": "2026-08-07",
+    "dateAdded": "2026-08-07",
+    "categories": [
+      "Opinions",
+      "Government News"
+    ],
+    "tags": [
+      "Space",
+      "DoD"
+    ],
+    "shortDescription": "Tomorrow.io's Rei Goffer and former Office of Space Commerce director Kevin O'Connell warn that the DoD's Defense Meteorological Satellite Program lapses this fall, cutting US weather forecasting capacity just as China's Fengyun constellation expands, and argue for a commercial-hybrid replacement.",
+    "whyItMatters": "Weather data is an underrated national security input for flight ops, missile defense timing, and disaster response — a clean opening for commercial space companies pitching hybrid government-commercial constellations as DMSP sunsets this fall.",
+    "relevanceScore": 71,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 0
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Tomorrow.io"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Policy"
+    ],
+    "sponsorNatSec100Relevance": "None",
+    "reactions": {},
+    "createdAt": "2026-08-07T19:11:21.225Z",
+    "updatedAt": "2026-08-07T19:11:21.225Z"
   }
 ]
