@@ -9793,5 +9793,97 @@
     "reactions": {},
     "createdAt": "2026-08-07T19:11:21.225Z",
     "updatedAt": "2026-08-07T19:11:21.225Z"
+  },
+  {
+    "id": "05b3ba74-1605-43df-ba3e-5186a73b9ab3",
+    "title": "Office of Strategic Capital Signs $1.4B Conditional Loan With Sila Nanotechnologies for Battery Manufacturing",
+    "url": "https://www.war.gov/News/Releases/Release/Article/4566579/the-office-of-strategic-capital-signs-14-billion-conditional-loan-commitment-wi/",
+    "source": "Department of War (Office of Strategic Capital)",
+    "datePublished": "2026-08-07",
+    "dateAdded": "2026-08-08",
+    "categories": [
+      "Government News",
+      "Investor News"
+    ],
+    "tags": [
+      "OSC",
+      "Capital Formation",
+      "Industrial Base",
+      "Supply Chain",
+      "Energy"
+    ],
+    "shortDescription": "OSC signed a $1.4B conditional loan commitment with Sila Nanotechnologies to expand domestic silicon-carbon battery anode production in Moses Lake, WA, plus a new lithium-ion cell manufacturing facility. It follows a recent $300M equity round led by Sutter Hill and Atreides.",
+    "whyItMatters": "This is exactly the blended public-private capital formation model SVDG members should be watching — OSC using loan guarantees to de-risk private equity into hard-tech manufacturing. Worth flagging for anyone tracking how OSC's book is actually being deployed beyond rare earths.",
+    "relevanceScore": 86,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 0
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Sila Nanotechnologies",
+      "Sutter Hill Ventures",
+      "Atreides Management"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Capital Formation"
+    ],
+    "sponsorNatSec100Relevance": "None",
+    "reactions": {},
+    "createdAt": "2026-08-08T23:39:16.845Z",
+    "updatedAt": "2026-08-08T23:39:16.845Z"
+  },
+  {
+    "id": "9879d495-9634-4ac7-b159-6d7be0e6b859",
+    "title": "Senate Stopgap Funding Bill Rejects White House Requests for Trump-Class Battleship, Extra Munitions",
+    "url": "https://breakingdefense.com/2026/08/senates-stopgap-funding-bill-rejects-special-requests-for-trump-battleship-munitions/",
+    "source": "Breaking Defense",
+    "datePublished": "2026-08-07",
+    "dateAdded": "2026-08-08",
+    "categories": [
+      "Government News"
+    ],
+    "tags": [
+      "Congress",
+      "Budget",
+      "NDAA",
+      "Munitions"
+    ],
+    "shortDescription": "Senate appropriators released a bipartisan continuing resolution funding the government through Dec. 11 at FY26 levels, but it excludes the White House's separate asks for $1B toward a Trump-class battleship and additional munitions funding.",
+    "whyItMatters": "A good read on how much runway a CR actually gives new-program advocates — the battleship ask getting stripped out is a signal about what does and doesn't survive stopgap funding, relevant to anyone pitching novel platforms into FY27.",
+    "relevanceScore": 71,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 0
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Policy"
+    ],
+    "sponsorNatSec100Relevance": "None",
+    "reactions": {},
+    "createdAt": "2026-08-08T23:39:16.845Z",
+    "updatedAt": "2026-08-08T23:39:16.845Z"
   }
 ]
