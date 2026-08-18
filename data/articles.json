@@ -10215,5 +10215,247 @@
     "reactions": {},
     "createdAt": "2026-08-18T04:53:02.204Z",
     "updatedAt": "2026-08-18T04:53:02.204Z"
+  },
+  {
+    "id": "b8e89b43-e50a-4d03-afaa-02b3030ef1ed",
+    "title": "Exclusive: MDA Awards X-Bow $11M for Low-Cost Interceptor Development",
+    "url": "https://www.tectonicdefense.com/exclusive-mda-awards-x-bow-11m-for-low-cost-interceptor-development/",
+    "source": "Tectonic",
+    "datePublished": "2026-08-18",
+    "dateAdded": "2026-08-18",
+    "categories": [
+      "Sponsor News",
+      "Government News"
+    ],
+    "tags": [
+      "Missile Defense",
+      "Interceptors",
+      "Solid Rocket Motors",
+      "Defense Startup"
+    ],
+    "shortDescription": "SVDG sponsor X-Bow Systems won an $11M MDA Phase II contract to develop and flight-test a low-cost interceptor under the Rapid Response Small Launcher Technology program, aimed at breaking the SRM duopoly of Aerojet Rocketdyne and Northrop Grumman.",
+    "whyItMatters": "This is a sponsor win worth flagging directly to members — X-Bow is chipping away at one of the industrial base's thinnest chokepoints (solid rocket motors) right as the interceptor shortage gets more attention. Good one for the Sponsor Engagement workstream.",
+    "relevanceScore": 100,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 10
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "sponsorName": "X-Bow Systems",
+    "companyMentions": [
+      "X-Bow Systems",
+      "Missile Defense Agency",
+      "Aerojet Rocketdyne",
+      "Northrop Grumman",
+      "L3Harris",
+      "Lockheed Martin"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Sponsor Engagement",
+      "Newsletter"
+    ],
+    "sponsorNatSec100Relevance": "Direct",
+    "reactions": {},
+    "createdAt": "2026-08-18T19:12:08.309Z",
+    "updatedAt": "2026-08-18T19:12:08.309Z"
+  },
+  {
+    "id": "9245ac1c-0aeb-4dab-be4e-f0d2dbabba15",
+    "title": "Smack Raises $61M for AI at the Edge",
+    "url": "https://www.tectonicdefense.com/smack-raises-61m-for-ai-at-the-edge/",
+    "source": "Tectonic",
+    "datePublished": "2026-08-18",
+    "dateAdded": "2026-08-18",
+    "categories": [
+      "Industry News",
+      "Investor News"
+    ],
+    "tags": [
+      "AI/ML",
+      "Defense Startup",
+      "Series B"
+    ],
+    "shortDescription": "AI-for-national-security startup Smack Technologies raised a $61M Series B led by Costanoa Ventures and First In, pushing total funding past $90M, to build edge hardware and mature its Alpha/Omega tactical AI platforms.",
+    "whyItMatters": "Another data point that defense-AI capital isn't slowing down — this one's notable for the edge/compute-constrained angle rather than another LLM-wrapper play, and it's already got prototype traction with the Navy, Joint Fires Network, and Marine Corps Warfighting Lab.",
+    "relevanceScore": 80,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Smack Technologies",
+      "Costanoa Ventures",
+      "First In",
+      "Point72 Ventures",
+      "Felicis",
+      "Bloomberg Beta"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Capital Formation",
+      "Newsletter"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-08-18T19:12:08.309Z",
+    "updatedAt": "2026-08-18T19:12:08.309Z"
+  },
+  {
+    "id": "231fee3f-e5ef-4212-99e9-a27d2ce93e7d",
+    "title": "Riven Systems Emerges from Stealth with $7.9M for AI-Driven Critical Minerals Processing",
+    "url": "https://www.axios.com/pro/climate-deals/2026/08/13/riven-systems-minerals-cerberus",
+    "source": "Axios",
+    "datePublished": "2026-08-13",
+    "dateAdded": "2026-08-18",
+    "categories": [
+      "Industry News",
+      "Investor News"
+    ],
+    "tags": [
+      "Critical Minerals",
+      "Industrial Base",
+      "AI/ML",
+      "Defense Startup"
+    ],
+    "shortDescription": "Riven Systems emerged from stealth with a $7.9M pre-seed led by Cerberus Ventures to build an AI platform for domestic critical minerals processing, positioning itself as a U.S.-led alternative to China's supply chain.",
+    "whyItMatters": "Critical minerals is one of the industrial-base gaps everyone in the ecosystem keeps flagging but few startups are actually tackling head-on — worth watching as a Capital Formation story even at pre-seed size, since supply chain independence here is squarely a NatSec100-adjacent theme.",
+    "relevanceScore": 64,
+    "scoreBreakdown": {
+      "recency": 25,
+      "svdgRelevance": 20,
+      "sourceQuality": 8,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Riven Systems",
+      "Cerberus Ventures",
+      "Scout Ventures",
+      "Alumni Ventures"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "Medium",
+    "workstreams": [
+      "Capital Formation"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-08-18T19:12:08.309Z",
+    "updatedAt": "2026-08-18T19:12:08.309Z"
+  },
+  {
+    "id": "c5802f88-3ffc-4027-b036-7d4d97ee6694",
+    "title": "Pentagon Hands Palantir Up to $244M in No-Bid Work",
+    "url": "https://www.defenseone.com/business/2026/08/pentagon-palantir-no-bid/415400/",
+    "source": "Defense One",
+    "datePublished": "2026-08-13",
+    "dateAdded": "2026-08-18",
+    "categories": [
+      "Government News",
+      "Industry News"
+    ],
+    "tags": [
+      "Acquisition Reform",
+      "AI/ML",
+      "Pentagon"
+    ],
+    "shortDescription": "The Pentagon awarded Palantir up to $244M in no-bid contract work, continuing a pattern of expanded reliance on the company's data and AI platforms without competitive bidding.",
+    "whyItMatters": "This is the kind of acquisition-reform story SVDG's Policy workstream should have on the radar — no-bid awards at this scale to an incumbent raise the usual competition and vendor-lock questions that come up whenever the Pentagon leans hard on one AI/software prime.",
+    "relevanceScore": 85,
+    "scoreBreakdown": {
+      "recency": 25,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 0
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Palantir Technologies"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Policy",
+      "NatSec100"
+    ],
+    "sponsorNatSec100Relevance": "None",
+    "reactions": {},
+    "createdAt": "2026-08-18T19:12:08.309Z",
+    "updatedAt": "2026-08-18T19:12:08.309Z"
+  },
+  {
+    "id": "8cccc8c3-2a51-4598-b5cb-e123fadf58bc",
+    "title": "Slingshot's Portal Adds New AI-Powered Missions",
+    "url": "https://payloadspace.com/slingshots-portal-adds-new-ai-powered-missions/",
+    "source": "Payload",
+    "datePublished": "2026-08-18",
+    "dateAdded": "2026-08-18",
+    "categories": [
+      "Industry News"
+    ],
+    "tags": [
+      "Space Domain Awareness",
+      "AI/ML"
+    ],
+    "shortDescription": "Slingshot Aerospace added AI-powered maneuver recommendations, precision tracking requests, and on-demand analytics to its Portal platform, which has grown to 630+ users across 330 organizations in 19 countries since an April launch.",
+    "whyItMatters": "Space domain awareness is getting genuinely congested and Slingshot's user growth numbers here are a solid proxy for how fast government and commercial operators are turning to AI-assisted SDA — a decent Industry Council-relevant data point even if it's not a huge headline on its own.",
+    "relevanceScore": 61,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 5,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Slingshot Aerospace"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Low",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Industry Council"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-08-18T19:12:08.309Z",
+    "updatedAt": "2026-08-18T19:12:08.309Z"
   }
 ]
