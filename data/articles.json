@@ -10026,5 +10026,194 @@
     "reactions": {},
     "createdAt": "2026-08-09T19:54:56.259Z",
     "updatedAt": "2026-08-09T19:54:56.259Z"
+  },
+  {
+    "id": "4cb7a9be-55f6-4622-811f-85672454166b",
+    "title": "Exclusive: Nigeria's Terra Industries Closes $52M Seed Round, Expands to London",
+    "url": "https://www.tectonicdefense.com/exclusive-nigerias-terra-industries-raises-another-18m-to-close-52m-seed-round-opens-london-office/",
+    "source": "Tectonic",
+    "author": "Barratt Dewey",
+    "datePublished": "2026-08-17",
+    "dateAdded": "2026-08-18",
+    "categories": [
+      "Investor News",
+      "International"
+    ],
+    "tags": [
+      "Venture Capital",
+      "Defense Startup",
+      "Manufacturing"
+    ],
+    "shortDescription": "Nigerian defense-tech startup Terra Industries closed an additional $18M to bring its seed round to $52M — Africa's largest-ever seed raise for the sector — and is opening a London office. The company says it's on track for $100M+ in contract bookings this year.",
+    "whyItMatters": "This is a real signal that defense-tech capital formation is going global fast — a Lagos-built autonomous systems company just posted Africa's biggest seed round and is expanding into the UK market. Worth watching as a comp for how far seed-stage defense capital now travels outside the US/Europe corridor.",
+    "relevanceScore": 75,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 0
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "Other",
+    "companyMentions": [
+      "Terra Industries"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Capital Formation",
+      "International / Australia"
+    ],
+    "sponsorNatSec100Relevance": "None",
+    "reactions": {},
+    "createdAt": "2026-08-18T04:53:02.204Z",
+    "updatedAt": "2026-08-18T04:53:02.204Z"
+  },
+  {
+    "id": "cb5cfd96-c420-4f4c-9fcd-45d371ce1332",
+    "title": "NODA AI Scores $100M Joint Force Contract",
+    "url": "https://www.tectonicdefense.com/noda-ai-scores-100m-joint-force-contract/",
+    "source": "Tectonic",
+    "author": "Barratt Dewey",
+    "datePublished": "2026-08-17",
+    "dateAdded": "2026-08-18",
+    "categories": [
+      "Government News",
+      "Industry News"
+    ],
+    "tags": [
+      "Autonomy",
+      "Software",
+      "DoD"
+    ],
+    "shortDescription": "Autonomous mission-command startup NODA AI won a $100M Pentagon contract to scale its orchestration software ('the chess player,' not the 'chess pieces') across the Joint Force — a huge step up from the $10M MDCA/LUCAS award it announced just weeks ago.",
+    "whyItMatters": "A less-than-two-year-old company going from a $10M pilot to a $100M Joint Force-wide deal in a matter of weeks is the kind of scaling curve SVDG members should be tracking closely — it's a strong data point on how fast the Pentagon is willing to move once a capability proves out, and on where the real value is landing (orchestration layer, not just hardware).",
+    "relevanceScore": 95,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "NODA AI"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "NatSec100",
+      "Capital Formation"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-08-18T04:53:02.204Z",
+    "updatedAt": "2026-08-18T04:53:02.204Z"
+  },
+  {
+    "id": "ef59059b-02c4-4d2b-b9be-cfef671230c7",
+    "title": "SEOPS Doubles Down on Waymaker Dedicated Rideshare Program",
+    "url": "https://payloadspace.com/seops-doubles-down-on-waymaker-dedicated-rideshare-program/",
+    "source": "Payload",
+    "datePublished": "2026-08-17",
+    "dateAdded": "2026-08-18",
+    "categories": [
+      "Industry News"
+    ],
+    "tags": [
+      "Space",
+      "Industrial Base"
+    ],
+    "shortDescription": "With SpaceX reportedly closing new Transporter rideshare orders after late 2028/early 2029, launch integrator SEOPS announced a second dedicated Waymaker rideshare mission (Waymaker-2) for 2028, positioning itself to fill the gap left in the small-sat launch market.",
+    "whyItMatters": "Transporter has been the default cheap ride to orbit for years — if SpaceX really is stepping back from that business, whoever fills the gap matters a lot for every space-adjacent portfolio company that depends on affordable rideshare access. SEOPS moving early here is worth watching.",
+    "relevanceScore": 64,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 8,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 0
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "SEOPS",
+      "SpaceX"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "Medium",
+    "workstreams": [
+      "Industry Council"
+    ],
+    "sponsorNatSec100Relevance": "None",
+    "reactions": {},
+    "createdAt": "2026-08-18T04:53:02.204Z",
+    "updatedAt": "2026-08-18T04:53:02.204Z"
+  },
+  {
+    "id": "28b74b40-f954-45f6-9d7d-9293732d7c7b",
+    "title": "Space Force awards five companies $60 million for multi-vendor satellite network tests",
+    "url": "https://spacenews.com/space-force-awards-five-companies-60-million-for-multi-vendor-satellite-network-tests/",
+    "source": "SpaceNews",
+    "datePublished": "2026-08-13",
+    "dateAdded": "2026-08-18",
+    "categories": [
+      "Government News",
+      "Industry News"
+    ],
+    "tags": [
+      "Space",
+      "C2",
+      "Industrial Base"
+    ],
+    "shortDescription": "Space Systems Command awarded $12M contracts apiece to Amazon LEO for Government, Lockheed Martin, Northrop Grumman, Rocket Lab, and York Space Systems to prototype connections into the Space Data Network — the mesh backbone SpaceX is separately building under a $2.29B award.",
+    "whyItMatters": "This is the Space Force deliberately avoiding a single-vendor lock-in on the space data backbone SpaceX is building — a good multi-vendor procurement model to point to, and a useful list of who's positioned to plug into SDN as it matures. A few days older than our usual window, but it's a real gap from the run before last and worth flagging now.",
+    "relevanceScore": 75,
+    "scoreBreakdown": {
+      "recency": 25,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Amazon LEO for Government",
+      "Lockheed Martin",
+      "Northrop Grumman",
+      "Rocket Lab",
+      "York Space Systems",
+      "SpaceX"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "NatSec100",
+      "Industry Council"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-08-18T04:53:02.204Z",
+    "updatedAt": "2026-08-18T04:53:02.204Z"
   }
 ]
