@@ -10457,5 +10457,141 @@
     "reactions": {},
     "createdAt": "2026-08-18T19:12:08.309Z",
     "updatedAt": "2026-08-18T19:12:08.309Z"
+  },
+  {
+    "id": "5f19287d-e5d9-4204-9700-0d8b1a7f354d",
+    "title": "Elroy Air Wins $46M U.S. Army Contract for Autonomous Cargo Drone",
+    "url": "https://www.businesswire.com/news/home/20260818350199/en/Elroy-Air-Awarded-$46M-U.S.-Army-Contract",
+    "source": "BusinessWire (Elroy Air)",
+    "datePublished": "2026-08-18",
+    "dateAdded": "2026-08-19",
+    "categories": [
+      "Industry News",
+      "Government News"
+    ],
+    "tags": [
+      "Defense Startup",
+      "Drones",
+      "Autonomy"
+    ],
+    "shortDescription": "The U.S. Army awarded heavy-lift drone maker Elroy Air a $46M multi-year contract to develop its autonomous hybrid-electric VTOL Chaparral aircraft for contested-environment cargo delivery, building on prior SBIR and Air Force work.",
+    "whyItMatters": "Elroy's been quietly stacking Army and Air Force money for years and is headed toward a public listing via SPAC at an $800M-plus valuation — this contract is another data point that distributed logistics/contested resupply is becoming a real budget line, not just a demo-day pitch.",
+    "relevanceScore": 69,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 8,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Elroy Air",
+      "Kratos",
+      "Inflection Point Asset Management"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "Medium",
+    "workstreams": [
+      "NatSec100"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-08-19T19:13:08.847Z",
+    "updatedAt": "2026-08-19T19:13:08.847Z"
+  },
+  {
+    "id": "2bff66cc-5288-4325-8ac3-246f587b88ff",
+    "title": "White House Publishes National Security Science & Technology Strategy",
+    "url": "https://payloadspace.com/white-house-publishes-st-strategy-for-national-security/",
+    "source": "Payload",
+    "datePublished": "2026-08-18",
+    "dateAdded": "2026-08-19",
+    "categories": [
+      "Government News"
+    ],
+    "tags": [
+      "DoD",
+      "Space",
+      "Industrial Base",
+      "Export Controls"
+    ],
+    "shortDescription": "OSTP released its National Security Science & Technology Strategy, built around four pillars (techno-strategic competition, resilience, innovation acceleration, and protecting national security S&T), leaning on OTAs and milestone-based contracts, MTCR reform, and an updated Critical and Emerging Technologies list.",
+    "whyItMatters": "This is the kind of top-line policy document that ends up shaping how DIU, OSC, and the services justify OTA-heavy, private-sector-friendly acquisition for the next few years — worth a skim for anyone building a pitch around 'fail fast' procurement or dual-use space tech.",
+    "relevanceScore": 90,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 0
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Policy",
+      "Capital Formation"
+    ],
+    "sponsorNatSec100Relevance": "None",
+    "reactions": {},
+    "createdAt": "2026-08-19T19:13:08.847Z",
+    "updatedAt": "2026-08-19T19:13:08.847Z"
+  },
+  {
+    "id": "da23c071-e913-48bf-af4f-a2bc846a1038",
+    "title": "Why the Pentagon Wants to Funnel Government Loans Through Private Investment Funds",
+    "url": "https://www.washingtontimes.com/news/2026/aug/18/pentagon-want-funnel-government-loans-private-investment-funds/",
+    "source": "Washington Times",
+    "datePublished": "2026-08-18",
+    "dateAdded": "2026-08-19",
+    "categories": [
+      "Government News",
+      "Investor News"
+    ],
+    "tags": [
+      "Private Equity",
+      "Industrial Base",
+      "DoD",
+      "Supply Chain"
+    ],
+    "shortDescription": "A look at the Office of Strategic Capital's National Security Fund Finance program, which lets qualified private credit funds combine OSC loans with their own capital to invest in critical-minerals companies, backed by up to $100B in loan authority under the One Big Beautiful Bill Act.",
+    "whyItMatters": "This is OSC's biggest structural bet yet on private capital as the delivery mechanism for industrial-base financing — exactly the kind of government-meets-venture plumbing SVDG's capital formation folks should have on their radar, even though OSC hasn't opened applications yet.",
+    "relevanceScore": 83,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 8,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 0
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "Medium",
+    "workstreams": [
+      "Capital Formation",
+      "Policy"
+    ],
+    "sponsorNatSec100Relevance": "None",
+    "reactions": {},
+    "createdAt": "2026-08-19T19:13:08.847Z",
+    "updatedAt": "2026-08-19T19:13:08.847Z"
   }
 ]
