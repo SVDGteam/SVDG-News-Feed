@@ -10593,5 +10593,246 @@
     "reactions": {},
     "createdAt": "2026-08-19T19:13:08.847Z",
     "updatedAt": "2026-08-19T19:13:08.847Z"
+  },
+  {
+    "id": "7e399918-dac8-4975-9911-9b783f85b669",
+    "title": "Castelion Raises $1B Series C to Scale Hypersonic Missile Production",
+    "url": "https://www.tectonicdefense.com/castelion-raises-1b-series-c/",
+    "source": "Tectonic",
+    "datePublished": "2026-08-19",
+    "dateAdded": "2026-08-20",
+    "categories": [
+      "Investor News",
+      "Industry News"
+    ],
+    "tags": [
+      "Venture Capital",
+      "Hypersonics",
+      "Defense Startup",
+      "Private Equity"
+    ],
+    "shortDescription": "Castelion closed a $1B Series C ($800M equity + $250M revolving credit) at a $13B valuation, co-led by JPMorganChase's Strategic Investment Group, a16z, and Carlyle, to scale production of its Blackbeard hypersonic strike missile.",
+    "whyItMatters": "This is one of the largest defense-tech rounds of the year and a clean signal that hypersonics is now a category institutional capital wants exposure to, not just a DARPA science project. Worth watching for how the credit-facility structure (vs. pure equity) gets copied by other hardware-heavy primes-in-waiting.",
+    "relevanceScore": 95,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Castelion",
+      "JPMorganChase",
+      "Andreessen Horowitz",
+      "Carlyle",
+      "Lightspeed",
+      "General Catalyst"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Capital Formation",
+      "NatSec100"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-08-20T19:28:13.637Z",
+    "updatedAt": "2026-08-20T19:28:13.637Z"
+  },
+  {
+    "id": "4fc35633-489c-4321-b2b7-7ef6c874a4b4",
+    "title": "Defense-Tech Sensing Roll-Up Lyntris Goes Public on the NYSE, Shares Slide 14%",
+    "url": "https://www.tectonicdefense.com/sensing-roll-up-lyntris-goes-public-on-the-nyse/",
+    "source": "Tectonic",
+    "datePublished": "2026-08-19",
+    "dateAdded": "2026-08-20",
+    "categories": [
+      "Investor News"
+    ],
+    "tags": [
+      "Private Equity",
+      "Industrial Base",
+      "C2"
+    ],
+    "shortDescription": "Lyntris (formed from the merger of C2 software firm Accelint and sensing hardware maker Vitesse Systems) raised $297.5M in a downsized IPO, then fell 14% on debut day. The company posted $389M in 2025 revenue and a $924M backlog.",
+    "whyItMatters": "First real market test of the defense-tech roll-up-to-IPO playbook this year, and it didn't go great — a useful data point for any sponsor or portfolio company eyeing a public exit in the near term.",
+    "relevanceScore": 71,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 0
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Lyntris",
+      "Accelint",
+      "Vitesse Systems"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Capital Formation"
+    ],
+    "sponsorNatSec100Relevance": "None",
+    "reactions": {},
+    "createdAt": "2026-08-20T19:28:13.637Z",
+    "updatedAt": "2026-08-20T19:28:13.637Z"
+  },
+  {
+    "id": "c6164675-0fe1-44ba-8995-b3ea8b5a55d1",
+    "title": "Muon Space Raises $250M Series C With Google, Salesforce Backing",
+    "url": "https://payloadspace.com/muon-space-raises-250m-series-c/",
+    "source": "Payload",
+    "datePublished": "2026-08-20",
+    "dateAdded": "2026-08-20",
+    "categories": [
+      "Investor News",
+      "Industry News"
+    ],
+    "tags": [
+      "Space",
+      "Venture Capital",
+      "Manufacturing"
+    ],
+    "shortDescription": "Muon Space closed a $250M Series C led by Eclipse Capital at a $1.5B valuation to scale satellite manufacturing capacity to 500 spacecraft/year by 2027, supporting customer constellations including Sierra Nevada's Vindlér and Google/Earth Fire Alliance's FireSat.",
+    "whyItMatters": "Another space-tech unicorn minted this year, and the manufacturing-scale story (10x capacity increase) is the more interesting thread than the round size itself — capacity is becoming the real bottleneck for the constellation boom, not capital.",
+    "relevanceScore": 71,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 0
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Muon Space",
+      "Eclipse Capital",
+      "Google",
+      "Salesforce Ventures",
+      "Sierra Nevada"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Capital Formation"
+    ],
+    "sponsorNatSec100Relevance": "None",
+    "reactions": {},
+    "createdAt": "2026-08-20T19:28:13.637Z",
+    "updatedAt": "2026-08-20T19:28:13.637Z"
+  },
+  {
+    "id": "19b004f7-d49c-44c8-b414-ad760327a79b",
+    "title": "Brian Singerman's GPx Backs Silent Ventures' $85M Fund II",
+    "url": "https://www.tectonicdefense.com/exclusive-brian-singermans-gpx-backs-silent-ventures-85m-fund-ii/",
+    "source": "Tectonic",
+    "datePublished": "2026-08-19",
+    "dateAdded": "2026-08-20",
+    "categories": [
+      "Investor News"
+    ],
+    "tags": [
+      "Venture Capital",
+      "Defense Startup"
+    ],
+    "shortDescription": "Solo-GP defense/deep-tech fund Silent Ventures closed an $85M Fund II, anchored by Founders Fund's Brian Singerman and Quiet Capital's Lee Linden via their specialist-VC-backing vehicle GPx. Silent's portfolio includes early bets on Saronic, Castelion, and Hadrian.",
+    "whyItMatters": "A solo-GP fund landing a marquee anchor LP like GPx is a good signal for where institutional money thinks the alpha is in defense investing right now — early, concentrated, and thesis-driven rather than spray-and-pray.",
+    "relevanceScore": 76,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Silent Ventures",
+      "GPx",
+      "Brian Singerman",
+      "Lee Linden",
+      "Saronic",
+      "Castelion",
+      "Hadrian"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Capital Formation"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-08-20T19:28:13.637Z",
+    "updatedAt": "2026-08-20T19:28:13.637Z"
+  },
+  {
+    "id": "2cc72fce-124c-4516-8a83-37d99cac1ed8",
+    "title": "Army Picks Hanwha Defense USA's K9MH for $262.9M Mobile Tactical Cannon Program",
+    "url": "https://defensescoop.com/2026/08/19/hanwha-army-contract-mobile-tactical-cannon-program/",
+    "source": "DefenseScoop",
+    "datePublished": "2026-08-19",
+    "dateAdded": "2026-08-20",
+    "categories": [
+      "Government News",
+      "International"
+    ],
+    "tags": [
+      "Munitions",
+      "Industrial Base",
+      "Manufacturing"
+    ],
+    "shortDescription": "The Army selected Hanwha Defense USA's wheeled K9MH howitzer for its Mobile Tactical Cannon program, an initial $100.3M award (up to $262.9M with options for 18 prototypes) aimed at eventually replacing the aging M777 towed artillery starting with Stryker brigades. First prototype delivery expected this fall.",
+    "whyItMatters": "A South Korean platform winning a marquee Army modernization program is a notable allied-industrial-base story, and it's a live example of the kind of foreign-but-friendly manufacturing partnership the Pentagon is leaning on to move fast on artillery modernization.",
+    "relevanceScore": 71,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 0
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Hanwha Defense USA"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Policy"
+    ],
+    "sponsorNatSec100Relevance": "None",
+    "reactions": {},
+    "createdAt": "2026-08-20T19:28:13.637Z",
+    "updatedAt": "2026-08-20T19:28:13.637Z"
   }
 ]
