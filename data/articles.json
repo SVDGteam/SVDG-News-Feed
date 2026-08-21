@@ -10834,5 +10834,150 @@
     "reactions": {},
     "createdAt": "2026-08-20T19:28:13.637Z",
     "updatedAt": "2026-08-20T19:28:13.637Z"
+  },
+  {
+    "id": "2bf4154e-fc69-47e0-a087-29748b445340",
+    "title": "Erik Prince Launches \"Air Defense As a Service\" Startup With Swarmer",
+    "url": "https://www.tectonicdefense.com/erik-prince-launches-air-defense-as-a-service-startup-with-swarmer/",
+    "source": "Tectonic",
+    "datePublished": "2026-08-21",
+    "dateAdded": "2026-08-21",
+    "categories": [
+      "Industry News"
+    ],
+    "tags": [
+      "Defense Startup",
+      "Drones",
+      "C2"
+    ],
+    "shortDescription": "Erik Prince launched Vectus Air Defense Systems, an \"air defense as a service\" venture partnered with Ukrainian-born swarming-software company Swarmer, which holds a 20% equity stake. Vectus will design, integrate, and operate layered counter-UAS systems — sensors, EW, interceptors, even large-caliber cannons — as a managed service for military and private-sector customers.",
+    "whyItMatters": "Bundling hardware, software, and operations into a single managed-service contract is a genuinely new model for air defense, and worth tracking to see if it scales. Prince's parallel private-military ventures also raise real governance and optics questions for any government customer that signs on.",
+    "relevanceScore": 71,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 0
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Vectus Air Defense Systems",
+      "Swarmer"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Industry Council"
+    ],
+    "sponsorNatSec100Relevance": "None",
+    "reactions": {},
+    "createdAt": "2026-08-21T19:11:38.658Z",
+    "updatedAt": "2026-08-21T19:11:38.658Z"
+  },
+  {
+    "id": "56528f34-f4b6-406b-8f2b-2cabd0b1abf0",
+    "title": "SpaceWERX Announces 2026 STRATFI Awardees",
+    "url": "https://payloadspace.com/spacewerx-announces-2026-stratfi-awardees/",
+    "source": "Payload",
+    "datePublished": "2026-08-20",
+    "dateAdded": "2026-08-21",
+    "categories": [
+      "Government News",
+      "Investor News"
+    ],
+    "tags": [
+      "Space",
+      "Capital Formation",
+      "DoD"
+    ],
+    "shortDescription": "SpaceWERX named 11 space-tech startups — including Muon Space, Antares Nuclear, Hydrosat, and Scout Space — as its 2026 STRATFI awardees, drawing a combined $562.5M from government and private investors to help bridge the \"valley of death\" between SBIR/STTR prototypes and scaled programs.",
+    "whyItMatters": "STRATFI's matching-funds model is one of the more credible bridges between early government R&D money and follow-on private capital — past awardees like Impulse Space and True Anomaly went on to raise major rounds, so this year's cohort is a solid leading indicator of which space startups to watch next.",
+    "relevanceScore": 95,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Agile Space Industries",
+      "Antares Nuclear",
+      "EO Solutions",
+      "Hydrosat",
+      "Kall Morris",
+      "Method Security",
+      "Muon Space",
+      "Scout Space",
+      "Sedaro",
+      "Star Catcher",
+      "ThinkOrbital"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Capital Formation",
+      "NatSec100"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-08-21T19:11:38.659Z",
+    "updatedAt": "2026-08-21T19:11:38.659Z"
+  },
+  {
+    "id": "2d324e3c-7539-42ee-ad94-8a60b7aa4e5f",
+    "title": "Pentagon Officially Opens Program to Loan Government Money to Private Investment Funds",
+    "url": "https://www.washingtontimes.com/news/2026/aug/21/pentagon-officially-opens-program-loan-government-money-private/",
+    "source": "Washington Times",
+    "datePublished": "2026-08-21",
+    "dateAdded": "2026-08-21",
+    "categories": [
+      "Government News",
+      "Investor News"
+    ],
+    "tags": [
+      "Capital Formation",
+      "OSC",
+      "Industrial Base"
+    ],
+    "shortDescription": "DoD's Office of Strategic Capital formally opened applications for its National Security Fund Finance program, which will issue government loans to private investment funds that in turn invest in companies addressing critical-minerals and materials shortages for national security.",
+    "whyItMatters": "This is the live version of a capital-formation mechanism worth watching both for portfolio-company access to non-dilutive capital and for the governance debate analysts are already raising about routing public money through private fund managers.",
+    "relevanceScore": 83,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 8,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 0
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "Medium",
+    "workstreams": [
+      "Capital Formation",
+      "Policy"
+    ],
+    "sponsorNatSec100Relevance": "None",
+    "reactions": {},
+    "createdAt": "2026-08-21T19:11:38.659Z",
+    "updatedAt": "2026-08-21T19:11:38.659Z"
   }
 ]
