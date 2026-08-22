@@ -10979,5 +10979,51 @@
     "reactions": {},
     "createdAt": "2026-08-21T19:11:38.659Z",
     "updatedAt": "2026-08-21T19:11:38.659Z"
+  },
+  {
+    "id": "55e49f41-81f7-470b-9788-1edded023a9f",
+    "title": "Zone 5 Technologies Wins Second CHAOS Contract to Build Combat-Proven Rusty Dagger Cruise Missile",
+    "url": "https://www.navalnews.com/naval-news/2026/08/u-s-navy-awards-contract-for-zone-5s-combat-proven-rusty-dagger-cruise-missile/",
+    "source": "Naval News",
+    "datePublished": "2026-08-22",
+    "dateAdded": "2026-08-22",
+    "categories": [
+      "Industry News",
+      "Government News"
+    ],
+    "tags": [
+      "Munitions",
+      "Defense Startup",
+      "Acquisition Reform"
+    ],
+    "shortDescription": "The U.S. Navy awarded Zone 5 Technologies a $65M Other Transaction Agreement to build a maritime strike variant of its AGM-188 Rusty Dagger cruise missile under the CHAOS (Coalition Heterogeneous Affordable Offensive Strike) program — the second vendor picked for CHAOS after CoAspire's $70M award in July.",
+    "whyItMatters": "Rusty Dagger has already seen real combat use in contested Russian airspace, so this is a battle-tested weapon converting straight into a Pentagon production contract via OTA rather than a slow traditional buy — worth watching as a template for how fast-moving munitions startups actually cross into scaled DoD production.",
+    "relevanceScore": 64,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 8,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 0
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Zone 5 Technologies",
+      "CoAspire"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "Medium",
+    "workstreams": [
+      "Industry Council"
+    ],
+    "sponsorNatSec100Relevance": "None",
+    "reactions": {},
+    "createdAt": "2026-08-22T20:29:03.192Z",
+    "updatedAt": "2026-08-22T20:29:03.192Z"
   }
 ]
