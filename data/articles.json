@@ -11025,5 +11025,52 @@
     "reactions": {},
     "createdAt": "2026-08-22T20:29:03.192Z",
     "updatedAt": "2026-08-22T20:29:03.192Z"
+  },
+  {
+    "id": "ebecc395-1ad5-4ddd-bdaa-8ca5607faad5",
+    "title": "Raytheon Gets $22.9B Navy Contract to Ramp Tomahawk Production to 1,000 Rounds a Year",
+    "url": "https://breakingdefense.com/2026/08/raytheon-gets-massive-23b-contract-to-boost-tomahawk-production/",
+    "source": "Breaking Defense",
+    "datePublished": "2026-08-17",
+    "dateAdded": "2026-08-23",
+    "categories": [
+      "Industry News",
+      "Government News"
+    ],
+    "tags": [
+      "Munitions",
+      "Manufacturing",
+      "Supply Chain",
+      "DoD"
+    ],
+    "shortDescription": "The Navy finalized a seven-year, $22.9B contract with RTX's Raytheon to more than triple Tomahawk cruise missile production to 1,000 rounds a year, building on a February framework agreement.",
+    "whyItMatters": "This is one of the largest munitions production contracts of the year and a clear signal that the Pentagon is willing to write big, multiyear checks to primes to rebuild depleted stockpiles — worth watching for how much of that capacity expansion flows to smaller suppliers and dual-use manufacturers in the industrial base.",
+    "relevanceScore": 66,
+    "scoreBreakdown": {
+      "recency": 25,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 0
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "RTX",
+      "Raytheon"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Policy"
+    ],
+    "sponsorNatSec100Relevance": "None",
+    "reactions": {},
+    "createdAt": "2026-08-23T19:11:25.584Z",
+    "updatedAt": "2026-08-23T19:11:25.584Z"
   }
 ]
