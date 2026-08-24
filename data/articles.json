@@ -11072,5 +11072,147 @@
     "reactions": {},
     "createdAt": "2026-08-23T19:11:25.584Z",
     "updatedAt": "2026-08-23T19:11:25.584Z"
+  },
+  {
+    "id": "c094c0c7-5e05-4bfa-9ea1-de4506f22c9c",
+    "title": "Chariot Defense Scores $7.6M DIU PRISM Contract",
+    "url": "https://www.tectonicdefense.com/chariot-defense-scores-7-6m-diu-prism-contract/",
+    "source": "Tectonic",
+    "datePublished": "2026-08-24",
+    "dateAdded": "2026-08-24",
+    "categories": [
+      "Government News",
+      "Industry News"
+    ],
+    "tags": [
+      "DIU",
+      "Defense Startup",
+      "Energy",
+      "Dual-Use"
+    ],
+    "shortDescription": "Battlefield-power startup Chariot Defense signed a $7.6M, 12-month contract with DIU under the Portable Resilient Integrated Storage Module (PRISM) program to deliver its ruggedized Amphora power systems to Army brigades starting this fall.",
+    "whyItMatters": "Chariot's the kind of company SVDG watches closely — an Anduril/Archer alum founder, a16z-backed, and now converting a DIU nontraditional pathway into a real fielded Army contract in about a year from stealth. Good proof point for the 'commercial power tech into defense' thesis and a solid comp for edge-power plays in the portfolio.",
+    "relevanceScore": 95,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Chariot Defense",
+      "DIU",
+      "Andreessen Horowitz"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "NatSec100",
+      "Capital Formation"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-08-24T19:13:33.008Z",
+    "updatedAt": "2026-08-24T19:13:33.008Z"
+  },
+  {
+    "id": "da1e3378-b995-4eec-88f0-304969bffa46",
+    "title": "Starcloud Announces $250M Series A Extension",
+    "url": "https://payloadspace.com/starcloud-announces-250m-series-a-extension/",
+    "source": "Payload",
+    "datePublished": "2026-08-21",
+    "dateAdded": "2026-08-24",
+    "categories": [
+      "Investor News",
+      "Industry News"
+    ],
+    "tags": [
+      "Space",
+      "Venture Capital",
+      "Dual-Use"
+    ],
+    "shortDescription": "Orbital data-center startup Starcloud raised a $250M extension to its March Series A, bringing total funding to $450M at a $2.3B valuation, with new participation from NVIDIA and Cisco alongside Manhattan West, Benchmark, and others.",
+    "whyItMatters": "NVIDIA putting money (and its H100 flight-heritage data) behind an orbital-compute bet is a real signal — this is where AI infrastructure, launch capacity constraints, and national-security-adjacent space capacity all collide. Worth tracking as a bellwether for dual-use space-compute plays even though it's not a pure defense company.",
+    "relevanceScore": 66,
+    "scoreBreakdown": {
+      "recency": 25,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 0
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Starcloud",
+      "NVIDIA",
+      "Cisco",
+      "Manhattan West",
+      "Benchmark"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Capital Formation"
+    ],
+    "sponsorNatSec100Relevance": "None",
+    "reactions": {},
+    "createdAt": "2026-08-24T19:13:33.008Z",
+    "updatedAt": "2026-08-24T19:13:33.008Z"
+  },
+  {
+    "id": "69804fae-7f76-4707-b076-729d3f00b789",
+    "title": "Commission Approves €6.1 Billion for Ukraine's Defence",
+    "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1750",
+    "source": "European Commission",
+    "datePublished": "2026-08-24",
+    "dateAdded": "2026-08-24",
+    "categories": [
+      "International",
+      "Government News"
+    ],
+    "tags": [
+      "NATO",
+      "Budget",
+      "Industrial Base"
+    ],
+    "shortDescription": "On Ukraine's Independence Day, the European Commission approved €6.1B ($7.1B) from the €90B Ukraine Support Loan for air and missile defense systems, missiles, ammunition, and radars — with most procurement routed through EU defense companies.",
+    "whyItMatters": "A big, timed-for-symbolism capital release that's also an industrial-policy signal: Brussels is explicitly steering this money toward EU defense manufacturers, which matters for anyone tracking European rearmament as a demand driver for allied dual-use tech.",
+    "relevanceScore": 75,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 0
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "Europe",
+    "companyMentions": [],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Policy",
+      "International / Australia"
+    ],
+    "sponsorNatSec100Relevance": "None",
+    "reactions": {},
+    "createdAt": "2026-08-24T19:13:33.008Z",
+    "updatedAt": "2026-08-24T19:13:33.008Z"
   }
 ]
