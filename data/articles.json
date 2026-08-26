@@ -11346,5 +11346,228 @@
     "reactions": {},
     "createdAt": "2026-08-25T19:11:53.411Z",
     "updatedAt": "2026-08-25T19:11:53.411Z"
+  },
+  {
+    "id": "f0339efb-1219-49ff-bfe3-f4b0d1306728",
+    "title": "Exclusive: Mara Raises $7M Pre-Seed for Mass-Deployable Interceptors",
+    "url": "https://www.tectonicdefense.com/exclusive-mara-raises-7m-pre-seed-for-mass-deployable-interceptors/",
+    "source": "Tectonic",
+    "datePublished": "2026-08-26",
+    "dateAdded": "2026-08-26",
+    "categories": [
+      "Investor News"
+    ],
+    "tags": [
+      "Venture Capital",
+      "Drones",
+      "Defense Startup",
+      "NATO"
+    ],
+    "shortDescription": "San Francisco-based Mara emerged with a $7M Khosla Ventures-led pre-seed for Spike, a two-part system pairing tiny, tube-launched autonomous interceptors with an AI-driven detection/targeting unit built to counter mass FPV drone attacks.",
+    "whyItMatters": "Counter-drone is one of the most crowded corners of defense tech right now, and Mara's bet is that the winning approach is small, cheap, and mass-deployable rather than exquisite. Early traction with NATO's DIANA accelerator plus unnamed US military CRADA partners is a good early signal, and a Khosla-led round this early says a lot about investor appetite for the counter-FPV problem set.",
+    "relevanceScore": 86,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 0
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Mara",
+      "Khosla Ventures"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Capital Formation"
+    ],
+    "sponsorNatSec100Relevance": "None",
+    "reactions": {},
+    "createdAt": "2026-08-26T19:13:17.709Z",
+    "updatedAt": "2026-08-26T19:13:17.709Z"
+  },
+  {
+    "id": "f19576a8-4526-441b-b296-a7485b64e406",
+    "title": "Exclusive: Maglut Heavy Industries Emerges from Stealth",
+    "url": "https://www.tectonicdefense.com/exclusive-maglut-heavy-industries-emerges-from-stealth/",
+    "source": "Tectonic",
+    "datePublished": "2026-08-26",
+    "dateAdded": "2026-08-26",
+    "categories": [
+      "Investor News"
+    ],
+    "tags": [
+      "Venture Capital",
+      "Defense Startup",
+      "Industrial Base",
+      "Supply Chain"
+    ],
+    "shortDescription": "A new California startup, Maglut Heavy Industries, came out of stealth with $3.1M in pre-seed funding to build a chromatography-based system for domestically processing and refining rare earth elements, aiming to sidestep the chemical-solvent extraction methods that currently dominate the industry.",
+    "whyItMatters": "Rare earths processing is squarely in the crosshairs of the 2027 ban on Chinese-sourced magnet components in US military gear, and the Pentagon has already been pouring money into players like MP Materials and Vulcan Elements. A biotech-inspired separation approach is a genuinely different bet in a field that badly needs more domestic capacity, worth watching as a capital formation story even at pre-seed size.",
+    "relevanceScore": 71,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 0
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Maglut Heavy Industries"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Capital Formation"
+    ],
+    "sponsorNatSec100Relevance": "None",
+    "reactions": {},
+    "createdAt": "2026-08-26T19:13:17.709Z",
+    "updatedAt": "2026-08-26T19:13:17.709Z"
+  },
+  {
+    "id": "e4eb5f80-61ed-4945-8797-55e84a85b419",
+    "title": "Firehawk Inks $24M Deal with the Pentagon's IBAS Program for Artillery Propellant",
+    "url": "https://www.tectonicdefense.com/firehawk-inks-24m-deal-with-the-pentagons-ibas-program-for-artillery-propellant/",
+    "source": "Tectonic",
+    "author": "Barratt Dewey",
+    "datePublished": "2026-08-26",
+    "dateAdded": "2026-08-26",
+    "categories": [
+      "Industry News",
+      "Government News"
+    ],
+    "tags": [
+      "Munitions",
+      "Industrial Base",
+      "Manufacturing",
+      "DoD"
+    ],
+    "shortDescription": "Firehawk Aerospace won a two-year, $24M contract under the Pentagon's Industrial Base Analysis and Sustainment program to ramp 155mm artillery propellant production to 740,000 lbs/year at a new Oklahoma facility, with capacity to scale to 3.1M lbs annually.",
+    "whyItMatters": "155mm shell production has been a well-documented embarrassment for the traditional industrial base (see: General Dynamics' Mesquite plant producing zero usable shells after $533M spent), and this is exactly the kind of nontraditional-vendor bet the Pentagon needs to work if it wants to actually hit munitions targets. Firehawk's 3D-printing approach to propellant is also a good industrial-base-modernization story in its own right.",
+    "relevanceScore": 65,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 0,
+      "sponsorNatSec100": 0
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Firehawk Aerospace",
+      "General Dynamics Ordnance and Tactical Systems"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [],
+    "sponsorNatSec100Relevance": "None",
+    "reactions": {},
+    "createdAt": "2026-08-26T19:13:17.709Z",
+    "updatedAt": "2026-08-26T19:13:17.709Z"
+  },
+  {
+    "id": "88cfbdbe-21c5-4033-ab9f-e435651bc04d",
+    "title": "SpaceX Announces New Starbase, Louisiana Spaceport",
+    "url": "https://payloadspace.com/spacex-announces-new-starbase-louisiana-spaceport/",
+    "source": "Payload",
+    "datePublished": "2026-08-26",
+    "dateAdded": "2026-08-26",
+    "categories": [
+      "Industry News"
+    ],
+    "tags": [
+      "Space",
+      "Manufacturing",
+      "Supply Chain"
+    ],
+    "shortDescription": "SpaceX and Louisiana Gov. Jeff Landry announced a new $100B Starship launch site, Starbase Louisiana, on Gulf Coast land freed up by a dismissed lawsuit against ExxonMobil, with construction starting next year and first launches targeted for 2029.",
+    "whyItMatters": "A $100B, five-launch-complex buildout is a serious bet on Starship reaching the launch cadence needed to matter for national security space missions, not just Starlink. Worth keeping an eye on for anyone tracking commercial launch capacity as a strategic asset, even though this one is squarely a SpaceX/Louisiana story rather than a DoD program.",
+    "relevanceScore": 65,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 0,
+      "sponsorNatSec100": 0
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "SpaceX"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [],
+    "sponsorNatSec100Relevance": "None",
+    "reactions": {},
+    "createdAt": "2026-08-26T19:13:17.709Z",
+    "updatedAt": "2026-08-26T19:13:17.709Z"
+  },
+  {
+    "id": "c621090e-f2f6-4233-b523-97824c693791",
+    "title": "Australia Lays Keel for First Hunter-Class Frigate at Osborne",
+    "url": "https://www.navalnews.com/naval-news/2026/08/australia-lays-keel-first-hunter-class-frigate/",
+    "source": "Naval News",
+    "datePublished": "2026-08-24",
+    "dateAdded": "2026-08-26",
+    "categories": [
+      "International"
+    ],
+    "tags": [
+      "AUKUS",
+      "Manufacturing",
+      "Industrial Base"
+    ],
+    "shortDescription": "BAE Systems Australia laid the keel for the Royal Australian Navy's first Hunter-class anti-submarine frigate at Osborne Naval Shipyard on August 24, eight years after the design was selected, with delivery expected in the early 2030s.",
+    "whyItMatters": "It's a slow-moving program (eight years from design selection to keel-laying isn't exactly a KPI to brag about), but it's still a concrete milestone for Australia's sovereign shipbuilding push and the broader AUKUS industrial base build-out that SVDG's international workstream tracks closely.",
+    "relevanceScore": 66,
+    "scoreBreakdown": {
+      "recency": 25,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 0
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "Australia",
+    "companyMentions": [
+      "BAE Systems Australia"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "International / Australia"
+    ],
+    "sponsorNatSec100Relevance": "None",
+    "reactions": {},
+    "createdAt": "2026-08-26T19:13:17.709Z",
+    "updatedAt": "2026-08-26T19:13:17.709Z"
   }
 ]
