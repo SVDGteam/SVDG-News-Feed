@@ -11569,5 +11569,194 @@
     "reactions": {},
     "createdAt": "2026-08-26T19:13:17.709Z",
     "updatedAt": "2026-08-26T19:13:17.709Z"
+  },
+  {
+    "id": "e5217c96-114f-477e-adc4-923aa9f66c2f",
+    "title": "Army's Project Janus Taps Five Nuclear Companies for $2.2B On-Base Microreactor Push",
+    "url": "https://breakingdefense.com/2026/08/army-taps-5-vendors-to-build-nuclear-microreactors-with-2-2b-pot/",
+    "source": "Breaking Defense",
+    "datePublished": "2026-08-26",
+    "dateAdded": "2026-08-27",
+    "categories": [
+      "Government News",
+      "Industry News"
+    ],
+    "tags": [
+      "Nuclear",
+      "DoD",
+      "Energy",
+      "Industrial Base"
+    ],
+    "shortDescription": "The Army awarded a combined $2.2B under Project Janus to Antares Nuclear, Radiant, General Atomics EMS, BWXT, and Westinghouse to build on-base microreactors at five installations, using a milestone-based payment structure that only pays out as vendors hit technical goals.",
+    "whyItMatters": "This is one of the largest single pushes yet to get nuclear power onto military bases for energy resilience, and it's a real signal that DoD is willing to bet big on startup-adjacent nuclear players (not just legacy primes) if they can show manufacturing rigor. Worth watching which of the five actually delivers by the 2028 target.",
+    "relevanceScore": 86,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 0
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Antares Nuclear",
+      "Radiant",
+      "General Atomics Electromagnetic Systems",
+      "BWXT",
+      "Westinghouse"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Policy"
+    ],
+    "sponsorNatSec100Relevance": "None",
+    "reactions": {},
+    "createdAt": "2026-08-27T19:12:46.820Z",
+    "updatedAt": "2026-08-27T19:12:46.820Z"
+  },
+  {
+    "id": "1d4197b0-57d0-4086-9bdd-df3711c93ad1",
+    "title": "REGENT Raises $240M Series B to Scale Seaglider Manufacturing",
+    "url": "https://www.regentcraft.com/news/regent-secures-240-million-series-b-funding-to-scale-seaglider-manufacturing-and-transform-maritime-mobility",
+    "source": "REGENT",
+    "datePublished": "2026-08-27",
+    "dateAdded": "2026-08-27",
+    "categories": [
+      "Sponsor News",
+      "Investor News"
+    ],
+    "tags": [
+      "Defense Startup",
+      "Venture Capital",
+      "Maritime"
+    ],
+    "shortDescription": "SVDG sponsor REGENT closed a $240M Series B (split equity/debt, co-led by Mare Liberum and AE Ventures with debt from Erebor Bank), bringing total funding to $340M ahead of Viceroy's first crewed flight and full-scale manufacturing ramp.",
+    "whyItMatters": "Sponsor news worth flagging directly to the team — REGENT's growing defense portfolio (Marine Corps contracts, USSOCOM and Coast Guard R&D relationships) was cited as a key driver of investor conviction in this round, which is a nice validation of the dual-use thesis SVDG cares about.",
+    "relevanceScore": 93,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 8,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 10
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "sponsorName": "REGENT",
+    "companyMentions": [
+      "REGENT",
+      "Mare Liberum",
+      "AE Ventures",
+      "Erebor Bank",
+      "Lockheed Martin Ventures",
+      "Founders Fund"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "Medium",
+    "workstreams": [
+      "Sponsor Engagement",
+      "Capital Formation"
+    ],
+    "sponsorNatSec100Relevance": "Direct",
+    "reactions": {},
+    "createdAt": "2026-08-27T19:12:46.820Z",
+    "updatedAt": "2026-08-27T19:12:46.820Z"
+  },
+  {
+    "id": "44da1d53-60a0-4e21-8f91-7a883bf110a4",
+    "title": "LeoLabs Wins $20.68M Space Force Award for Mobile Scout Radar",
+    "url": "https://payloadspace.com/leolabs-wins-20-68m-space-force-award-for-scout/",
+    "source": "Payload",
+    "datePublished": "2026-08-26",
+    "dateAdded": "2026-08-27",
+    "categories": [
+      "Government News",
+      "Industry News"
+    ],
+    "tags": [
+      "Space",
+      "DoD"
+    ],
+    "shortDescription": "LeoLabs won a $20.68M Prototype Other Transaction Agreement from the Space Force to deliver a modified version of its shipping-container-sized Scout radar for national security space-domain-awareness missions.",
+    "whyItMatters": "Another commercial SDA company converting a purely commercial sensing capability into a national-security contract via OTA — the kind of fast, nontraditional-vendor pathway SVDG likes to track, especially with Scout already proven operationally in the Indo-Pacific.",
+    "relevanceScore": 70,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 0,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "LeoLabs"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-08-27T19:12:46.820Z",
+    "updatedAt": "2026-08-27T19:12:46.820Z"
+  },
+  {
+    "id": "811c0642-5c61-4f00-be67-0a86c9c2d521",
+    "title": "Castelion Scores Additional $89.99M Navy Order to Advance Blackbeard Toward Early Operational Capability",
+    "url": "https://www.tectonicdefense.com/castelion-scores-additional-89-99m-from-the-us-navy/",
+    "source": "Tectonic",
+    "datePublished": "2026-08-25",
+    "dateAdded": "2026-08-27",
+    "categories": [
+      "Government News",
+      "Industry News"
+    ],
+    "tags": [
+      "Hypersonics",
+      "DoD",
+      "Munitions"
+    ],
+    "shortDescription": "The Navy awarded Castelion an $89.997M Phase III order to push its Blackbeard hypersonic missile toward Early Operational Capability, fund 50 EOC weapons, and add export-ready design features, with imagery already showing test articles loaded onto an F/A-18E/F.",
+    "whyItMatters": "Blackbeard is quickly becoming a bellwether for whether a venture-backed hypersonics company can actually get to a Navy program of record rather than staying stuck in demo purgatory — this order plus the visible carrier-air-wing integration work is a good sign it's moving.",
+    "relevanceScore": 86,
+    "scoreBreakdown": {
+      "recency": 25,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Castelion"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "NatSec100"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-08-27T19:12:46.820Z",
+    "updatedAt": "2026-08-27T19:12:46.820Z"
   }
 ]
