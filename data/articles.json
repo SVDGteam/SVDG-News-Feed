@@ -11758,5 +11758,553 @@
     "reactions": {},
     "createdAt": "2026-08-27T19:12:46.820Z",
     "updatedAt": "2026-08-27T19:12:46.820Z"
+  },
+  {
+    "id": "9bcfdde6-bdd8-4779-8ee8-567c186a86d5",
+    "title": "CesiumAstro Expands Into Missile Tracking with 1Aardvark Acquisition",
+    "url": "https://www.tectonicdefense.com/icymi-cesiumastro-expands-into-missile-tracking-with-1aardvark-acquisition/",
+    "source": "Tectonic",
+    "datePublished": "2026-08-25",
+    "dateAdded": "2026-08-28",
+    "categories": [
+      "Sponsor News",
+      "Industry News"
+    ],
+    "tags": [
+      "Sponsor",
+      "Space",
+      "Software",
+      "NatSec100"
+    ],
+    "shortDescription": "SVDG sponsor CesiumAstro acquired Virginia-based mission software firm 1Aardvark, its third acquisition of 2026, to push further into on-orbit missile defense and tracking. Terms weren't disclosed; the deal lands as CesiumAstro's reportedly oversubscribed Series D nears close.",
+    "whyItMatters": "CesiumAstro is stitching software onto its comms hardware to go after Golden Dome work — a clean example of a sponsor rolling up capability rather than waiting for primes to integrate it. Worth watching as the Series D closes and the 700-plus satellite constellation plan firms up.",
+    "relevanceScore": 95,
+    "scoreBreakdown": {
+      "recency": 25,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 10
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "sponsorName": "CesiumAstro",
+    "companyMentions": [
+      "CesiumAstro",
+      "1Aardvark",
+      "Jariet Technologies",
+      "Vidrovr",
+      "Trousdale Ventures",
+      "JPMorgan Chase & Co."
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Sponsor Engagement",
+      "NatSec100"
+    ],
+    "sponsorNatSec100Relevance": "Direct",
+    "reactions": {},
+    "createdAt": "2026-08-28T19:14:28.045Z",
+    "updatedAt": "2026-08-28T19:14:28.045Z"
+  },
+  {
+    "id": "399b7a38-845f-4a5d-8b63-aee7977262d3",
+    "title": "Armada Unveils New Orion Modular Data Center",
+    "url": "https://www.tectonicdefense.com/armada-unveils-new-orion-modular-data-center/",
+    "source": "Tectonic",
+    "datePublished": "2026-08-28",
+    "dateAdded": "2026-08-28",
+    "categories": [
+      "Industry News"
+    ],
+    "tags": [
+      "AI",
+      "Defense Startup",
+      "Dual-Use",
+      "Energy",
+      "Manufacturing"
+    ],
+    "shortDescription": "Armada launched Orion, a 10MW prefabricated modular data center supporting up to 2,880 GPUs across 40 racks — roughly a 10x jump over its container-scale Leviathan. Unlike the rest of the Galleon line, Orion installs into existing structures or a standalone build, with delivery in months.",
+    "whyItMatters": "Edge compute is quietly becoming the constraint on fielding AI in contested environments, and Armada is betting sovereign AI buyers want training, not just inference, outside the cloud. The company has pulled in $455M+, most recently a $230M Series B at a $2B pre-money — a useful datapoint on where defense-adjacent infrastructure capital is going.",
+    "relevanceScore": 76,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Armada",
+      "Nvidia"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Capital Formation"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-08-28T19:14:28.046Z",
+    "updatedAt": "2026-08-28T19:14:28.046Z"
+  },
+  {
+    "id": "ca72c27e-2a3e-41ce-8f1e-f696a3add948",
+    "title": "Pentagon Awards $318M Contract for Dataminr Alerting Services Technology",
+    "url": "https://defensescoop.com/2026/08/27/pentagon-awards-dataminr-318m-contract/",
+    "source": "DefenseScoop",
+    "datePublished": "2026-08-27",
+    "dateAdded": "2026-08-28",
+    "categories": [
+      "Government News",
+      "Industry News"
+    ],
+    "tags": [
+      "AI",
+      "DoD",
+      "Intelligence",
+      "Software"
+    ],
+    "shortDescription": "Dataminr won a $318M Air Force-issued contract for the A2 Publicly Available Information Alerting program, providing AI-driven situational awareness, force protection, and indications and warnings. It was competitively awarded against eight offers, with work running through June 2031.",
+    "whyItMatters": "A nine-figure, five-year award to a commercial AI company through a competitive process — and one the Pentagon expects to scale department-wide. That's the acquisition pattern SVDG members keep asking whether DoD can actually execute at scale.",
+    "relevanceScore": 91,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Dataminr"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Policy"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-08-28T19:14:28.046Z",
+    "updatedAt": "2026-08-28T19:14:28.046Z"
+  },
+  {
+    "id": "9ded9f5e-809a-4a92-8a74-dc75dda6deda",
+    "title": "Canadian Companies Partner on SDA Sat Solution",
+    "url": "https://payloadspace.com/canadian-companies-partner-on-sda-sat-solution/",
+    "source": "Payload",
+    "datePublished": "2026-08-28",
+    "dateAdded": "2026-08-28",
+    "categories": [
+      "International",
+      "Industry News"
+    ],
+    "tags": [
+      "Space",
+      "Dual-Use",
+      "Defense Startup"
+    ],
+    "shortDescription": "Montreal's NorthStar Earth & Space will host its optical space domain awareness sensors on Toronto-based Kepler Communications' satellites, pairing NorthStar's sensing with Kepler's low-latency optical data relay. NorthStar, which signed a CDN$40M+ deal with the Royal Canadian Air Force in July, is expected to go public via SPAC next quarter.",
+    "whyItMatters": "Allied sovereign SDA capability is becoming a market of its own, and Canada is deliberately buying Canadian even as trade relations sour. Also a live look at the SPAC window reopening for space and defense names.",
+    "relevanceScore": 80,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "Other",
+    "companyMentions": [
+      "NorthStar Earth & Space",
+      "Kepler Communications",
+      "LeoLabs",
+      "SpaceX",
+      "Rocket Lab"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "International / Australia",
+      "Capital Formation"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-08-28T19:14:28.046Z",
+    "updatedAt": "2026-08-28T19:14:28.046Z"
+  },
+  {
+    "id": "b6d5598b-921f-4ee2-8212-6d5a646a4f63",
+    "title": "First Contracts Kick Off European Launcher Challenge",
+    "url": "https://www.esa.int/Enabling_Support/Space_Transportation/First_contracts_kick_off_European_Launcher_Challenge",
+    "source": "European Space Agency",
+    "datePublished": "2026-08-27",
+    "dateAdded": "2026-08-28",
+    "categories": [
+      "International",
+      "Government News"
+    ],
+    "tags": [
+      "Space",
+      "Industrial Base",
+      "Defense Startup"
+    ],
+    "shortDescription": "ESA signed €543.6M in first-round European Launcher Challenge contracts: €197.8M to Isar Aerospace, €186.9M to Rocket Factory Augsburg, and €158.9M to PLD Space. Companies must reach orbit by end-2027 before ESA funds operational launches through 2030, with upgrade demos due by end-2028.",
+    "whyItMatters": "Europe is putting real money behind commercial launch competition instead of the Ariane monopoly, with milestone-gated payments rather than cost-plus. A useful comparison point for anyone arguing US acquisition reform is uniquely hard.",
+    "relevanceScore": 75,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 0
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "Europe",
+    "companyMentions": [
+      "Isar Aerospace",
+      "Rocket Factory Augsburg",
+      "PLD Space",
+      "MaiaSpace"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "International / Australia",
+      "Policy"
+    ],
+    "sponsorNatSec100Relevance": "None",
+    "reactions": {},
+    "createdAt": "2026-08-28T19:14:28.046Z",
+    "updatedAt": "2026-08-28T19:14:28.046Z"
+  },
+  {
+    "id": "11c57b50-5323-4c84-8232-9c75c16fa0d9",
+    "title": "Launch Concerns Cast a Shadow Over SmallSat 2026",
+    "url": "https://payloadspace.com/launch-concerns-cast-a-shadow-over-smallsat-2026/",
+    "source": "Payload",
+    "datePublished": "2026-08-28",
+    "dateAdded": "2026-08-28",
+    "categories": [
+      "Industry News",
+      "Opinions"
+    ],
+    "tags": [
+      "Space",
+      "Supply Chain",
+      "Industrial Base"
+    ],
+    "shortDescription": "Reporting from the Small Satellite Conference: strong funding and new platforms, but pervasive anxiety that rideshare capacity is about to become the industry's bottleneck. Launch integrators Exolaunch and SEOPS drew crowds after buying their own Falcon 9s, and Aerospace Corp's flat DiskSat design picked up four commercial partners.",
+    "whyItMatters": "When capital is abundant and access to orbit isn't, the constraint moves — and that reshapes which companies are actually investable. Good ground-level read for anyone tracking space portfolio risk.",
+    "relevanceScore": 76,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Exolaunch",
+      "SEOPS",
+      "MaiaSpace",
+      "Aerospace Corporation",
+      "Satlyt",
+      "Orbotic Systems",
+      "Sarmony",
+      "Neumann Space",
+      "Astrolight",
+      "KSAT",
+      "Viasat",
+      "Redwire"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Capital Formation"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-08-28T19:14:28.046Z",
+    "updatedAt": "2026-08-28T19:14:28.046Z"
+  },
+  {
+    "id": "1c04f9ed-086b-4034-abf2-19bad9f5eae4",
+    "title": "US Navy Unveils New Specs for Carrier-Based Collaborative Combat Aircraft",
+    "url": "https://www.defensenews.com/industry/techwatch/2026/09/01/us-navy-unveils-new-specs-for-carrier-based-collaborative-combat-aircraft/",
+    "source": "Defense News",
+    "datePublished": "2026-09-01",
+    "dateAdded": "2026-09-01",
+    "categories": [
+      "Government News",
+      "Industry News"
+    ],
+    "tags": [
+      "Autonomy",
+      "Drones",
+      "Acquisition Reform",
+      "Navy"
+    ],
+    "shortDescription": "The Navy issued an RFI for two prototypes of a carrier-capable Collaborative Combat Aircraft — under $30M per unit, four weapons up to 2,500 lb each, first flight within 24 months and shore-based carrier qualification inside three years. Responses are due September 18.",
+    "whyItMatters": "This is the Navy putting real requirements and a startup-speed clock behind carrier CCA, and the RFI hints at OTAs with cost-sharing rather than cost-plus — meaning developers are expected to bring their own capital. That's a direct signal to the VC-backed side of the ecosystem about where the next big autonomy program dollars land.",
+    "relevanceScore": 95,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Anduril",
+      "General Atomics",
+      "Boeing",
+      "Northrop Grumman",
+      "Lockheed Martin",
+      "Shield AI"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Policy",
+      "Capital Formation"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-09-01T17:15:47.620Z",
+    "updatedAt": "2026-09-01T17:15:47.620Z"
+  },
+  {
+    "id": "3b03f5f9-2e91-486f-b631-4ffb0e39d8e6",
+    "title": "Drone Company Easy Aerial Raises $20 Million to Scale Production, Global Business",
+    "url": "https://www.defensedaily.com/drone-company-easy-aerial-raises-20-million-to-scale-production-global-business/unmanned-systems/",
+    "source": "Defense Daily",
+    "datePublished": "2026-08-31",
+    "dateAdded": "2026-09-01",
+    "categories": [
+      "Investor News",
+      "Industry News"
+    ],
+    "tags": [
+      "Defense Startup",
+      "Drones",
+      "Venture Capital",
+      "Counter-UAS"
+    ],
+    "shortDescription": "Brooklyn-based tethered drone maker Easy Aerial closed a $20M Series B led by Insight Partners, with Entrée Capital participating. The company says it's already profitable and will use the round to expand five production sites, harden supply chain, and launch three new platforms by early 2027.",
+    "whyItMatters": "A profitable defense hardware company raising growth capital from a generalist software investor like Insight is a useful data point on how far crossover money has moved into the sector. The tethered/counter-UAS niche is also quietly one of the more durable corners of a very crowded drone market.",
+    "relevanceScore": 76,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Easy Aerial",
+      "Insight Partners",
+      "Entrée Capital",
+      "HDT Robotics"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Capital Formation"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-09-01T17:15:47.620Z",
+    "updatedAt": "2026-09-01T17:15:47.620Z"
+  },
+  {
+    "id": "385d7cf8-1ae8-446c-8f92-419be47d4d5b",
+    "title": "Vantor Secures NIWC Pacific Contract for Indo-Pacific Maritime Domain Awareness",
+    "url": "https://intelligencecommunitynews.com/vantor-secures-niwc-pacific-contract/",
+    "source": "Intelligence Community News",
+    "datePublished": "2026-08-31",
+    "dateAdded": "2026-09-01",
+    "categories": [
+      "Industry News",
+      "International"
+    ],
+    "tags": [
+      "Space",
+      "ISR",
+      "Indo-Pacific",
+      "AI"
+    ],
+    "shortDescription": "Vantor won a four-year NIWC Pacific contract to deliver Maritime Sentry — its SAR- and EO-fed dark-vessel tracking product — in support of the Indian Navy and other partners in the Indo-Pacific Partnership for Maritime Domain Awareness. It ships as an API into SeaVision and Indian Navy systems rather than a standalone tool.",
+    "whyItMatters": "Two things worth noting: commercial GEOINT is now the delivery mechanism for allied maritime awareness in the Indo-Pacific, and Vantor won by plugging into the customer's existing workflow instead of asking operators to adopt another interface. That integration-first pattern is showing up in most of the contracts that actually stick.",
+    "relevanceScore": 73,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 8,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "Other",
+    "companyMentions": [
+      "Vantor",
+      "NIWC Pacific",
+      "Indian Navy"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "Medium",
+    "workstreams": [
+      "International / Australia",
+      "NatSec100"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-09-01T17:15:47.621Z",
+    "updatedAt": "2026-09-01T17:15:47.621Z"
+  },
+  {
+    "id": "c95f5b65-5cde-4b5c-a6fc-804f67cf6d9c",
+    "title": "US Announces $174M Equity Investment to Secure Gallium Supply Through New Alcoa Facility in Australia",
+    "url": "https://defence-industry.eu/u-s-department-of-war-announces-estimated-174-million-equity-investment-to-secure-gallium-supply-through-new-alcoa-facility-in-australia/",
+    "source": "Defence Industry Europe",
+    "datePublished": "2026-08-31",
+    "dateAdded": "2026-09-01",
+    "categories": [
+      "Government News",
+      "International"
+    ],
+    "tags": [
+      "Critical Minerals",
+      "Supply Chain",
+      "AUKUS",
+      "Semiconductors"
+    ],
+    "shortDescription": "The Department of War is taking an estimated $174M equity position in a new Alcoa gallium plant at the Wagerup refinery in Western Australia, alongside Export Finance Australia, the Government of Japan, and Sojitz. The facility targets ~100 tonnes a year, roughly 10% of global demand.",
+    "whyItMatters": "China controls something like 99% of gallium production, and gallium goes straight into radar and missile-guidance semiconductors. The US taking equity — not just writing a loan — in an allied-country plant is the clearest version yet of industrial policy as alliance policy, and it lands squarely in the AUKUS-adjacent territory SVDG members care about.",
+    "relevanceScore": 83,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 8,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 0
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "Australia",
+    "companyMentions": [
+      "Alcoa",
+      "Sojitz",
+      "Export Finance Australia"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "Medium",
+    "workstreams": [
+      "International / Australia",
+      "Policy"
+    ],
+    "sponsorNatSec100Relevance": "None",
+    "reactions": {},
+    "createdAt": "2026-09-01T17:15:47.621Z",
+    "updatedAt": "2026-09-01T17:15:47.621Z"
+  },
+  {
+    "id": "b6701aef-e72d-4bb5-81e5-00e59211fbcb",
+    "title": "Grok and ChatGPT Join Gemini in Pentagon's Enterprise GenAI Portal",
+    "url": "https://defensescoop.com/2026/08/31/grok-chatgpt-added-to-genai-mil/",
+    "source": "DefenseScoop",
+    "datePublished": "2026-08-31",
+    "dateAdded": "2026-09-01",
+    "categories": [
+      "Government News",
+      "Industry News"
+    ],
+    "tags": [
+      "AI",
+      "Enterprise Software",
+      "Acquisition Reform"
+    ],
+    "shortDescription": "The Department of War added OpenAI's ChatGPT Mil and xAI's Grok for Government to GenAI.mil, joining Google's Gemini. The platform now reaches more than 3 million military and civilian personnel for unclassified and CUI work across planning, policy, logistics, and administration.",
+    "whyItMatters": "GenAI.mil has gone from a single-vendor pilot to a three-model marketplace in under a year, at 3M-seat scale. For anyone selling AI-adjacent software into DoW, the frontier-model layer is now government-furnished — the competitive question shifts to what you build on top of it.",
+    "relevanceScore": 95,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "OpenAI",
+      "xAI",
+      "Google"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Policy",
+      "Industry Council"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-09-01T17:15:47.621Z",
+    "updatedAt": "2026-09-01T17:15:47.621Z"
   }
 ]
