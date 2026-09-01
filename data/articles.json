@@ -12306,5 +12306,195 @@
     "reactions": {},
     "createdAt": "2026-09-01T17:15:47.621Z",
     "updatedAt": "2026-09-01T17:15:47.621Z"
+  },
+  {
+    "id": "0c48dc86-126f-405e-88b3-f96f6e6110e0",
+    "title": "Heaviside Wins $99M Army IDIQ for MOTH Body-Worn Drone Detector",
+    "url": "https://defence-blog.com/u-s-army-orders-99-million-worth-of-drone-detecting-gadgets/",
+    "source": "Defence Blog",
+    "datePublished": "2026-08-31",
+    "dateAdded": "2026-09-01",
+    "categories": [
+      "Industry News",
+      "Government News"
+    ],
+    "tags": [
+      "Counter-UAS",
+      "Defense Startup",
+      "Army",
+      "Procurement"
+    ],
+    "shortDescription": "The Army awarded Heaviside Industries a five-year, $99M firm-fixed-price IDIQ for procurement, fielding, upgrades and sustainment of MOTH, a sub-one-pound wearable spectrum analyzer covering 5 MHz to 6 GHz that soldiers use to detect drone control links and other emitters. The competition drew 99 bids and runs through August 2031.",
+    "whyItMatters": "A Marina del Rey startup that came out of stealth with a $28M Series A and raised a $60M Series B at a $600M valuation just landed a nine-figure Army program of record — against 99 competitors. That's the commercial-to-program pipeline actually working, and it's a useful datapoint for anyone arguing that counter-UAS demand is now a procurement line, not a science project.",
+    "relevanceScore": 88,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 8,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Heaviside Industries"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "Medium",
+    "workstreams": [
+      "NatSec100",
+      "Capital Formation"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-09-01T19:11:46.905Z",
+    "updatedAt": "2026-09-01T19:11:46.905Z"
+  },
+  {
+    "id": "96c4a3b0-6a6c-465e-bdaa-81e9fc7e5a8c",
+    "title": "Pentagon Signs Seven-Year Framework Deals With General Dynamics and Lockheed to Triple PAC-3 MSE and Quadruple THAAD Output",
+    "url": "https://www.defensedaily.com/gd-signs-framework-deals-with-pentagon-to-boost-pac-3-mse-thaad-component-production/pentagon/",
+    "source": "Defense Daily",
+    "datePublished": "2026-08-31",
+    "dateAdded": "2026-09-01",
+    "categories": [
+      "Industry News",
+      "Government News"
+    ],
+    "tags": [
+      "Munitions",
+      "Industrial Base",
+      "Missile Defense",
+      "Acquisition Reform"
+    ],
+    "shortDescription": "The Department of War signed a pair of seven-year framework agreements with General Dynamics Ordnance and Tactical Systems and Lockheed Martin to rapidly scale interceptor component production — motor cases, seeker housings, midsections and shroud deployment systems — targeting a 3x increase in PAC-3 MSE and 4x in THAAD capacity. The deals are structured to support multiyear procurement with guaranteed minimum annual quantities, subject to appropriations.",
+    "whyItMatters": "This is the Pentagon buying capacity, not units — guaranteed minimums over seven years so suppliers will actually fund workforce, tooling and bulk materials. It follows the Northrop motor framework deal and signals that multiyear demand-signal contracting is becoming the default tool for fixing munitions throughput. Worth watching whether that structure migrates from primes down to the sub-tier and non-traditional suppliers.",
+    "relevanceScore": 95,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "General Dynamics Ordnance and Tactical Systems",
+      "Lockheed Martin"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Policy",
+      "Industry Council"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-09-01T19:11:46.906Z",
+    "updatedAt": "2026-09-01T19:11:46.906Z"
+  },
+  {
+    "id": "c979b103-7e79-433e-8a7d-c87f71b2c2a1",
+    "title": "All.Space Wins DIU Award to Scale Hydra Satcom Terminal Production",
+    "url": "https://www.satellitetoday.com/government-military/2026/08/31/all-space-wins-diu-award-focused-on-increasing-production-rate/",
+    "source": "Via Satellite",
+    "datePublished": "2026-08-31",
+    "dateAdded": "2026-09-01",
+    "categories": [
+      "Industry News",
+      "Government News"
+    ],
+    "tags": [
+      "Space",
+      "DIU",
+      "Manufacturing",
+      "Dual-Use"
+    ],
+    "shortDescription": "The Defense Innovation Unit awarded All.Space an Other Transaction Authority agreement for its Hydra multi-orbit satcom terminal under DIU's Adaptive Space Manufacturing and Integration at Scale project. The goal is a design-build-test-qualify cycle that demonstrates on-demand production of hundreds of units a month and thousands a year.",
+    "whyItMatters": "DIU is explicitly buying manufacturing rate here rather than a prototype — the award is scored on units per month, not a demo. That's the sharper edge of the space industrial base conversation and a template worth flagging to portfolio companies that keep losing on production readiness rather than technology.",
+    "relevanceScore": 76,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "All.Space",
+      "Defense Innovation Unit"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "NatSec100"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-09-01T19:11:46.906Z",
+    "updatedAt": "2026-09-01T19:11:46.906Z"
+  },
+  {
+    "id": "ed28372a-e535-416a-83aa-1cc773aff371",
+    "title": "Australia Launches Expanded Supplier Qualification Programs for AUKUS Submarine Build",
+    "url": "https://asiapacificdefencereporter.com/australia-launches-new-programmes-for-aukus-suppliers/",
+    "source": "Asia Pacific Defence Reporter",
+    "datePublished": "2026-08-29",
+    "dateAdded": "2026-09-01",
+    "categories": [
+      "International",
+      "Government News"
+    ],
+    "tags": [
+      "AUKUS",
+      "Submarines",
+      "Supply Chain",
+      "Allied Defense"
+    ],
+    "shortDescription": "Australia put an additional A$21M into qualifying local suppliers for AUKUS work — roughly A$14M expanding the Australian Submarine Supplier Qualification program and A$6.9M supporting priority sustainment services for UK submarines rotating through HMAS Stirling. ASC and BAE Systems also launched a new supply chain qualification program opening SSN-AUKUS build work to Australian industry across Australia and the UK.",
+    "whyItMatters": "Pillar 1 industrial participation has been long on ambition and short on qualified vendors; this is money aimed squarely at that gap. For SVDG's Australia work, the AUSSQ expansion and the ASC/BAE program are the concrete doors US and Australian suppliers can actually walk through in the next 12 months.",
+    "relevanceScore": 63,
+    "scoreBreakdown": {
+      "recency": 25,
+      "svdgRelevance": 20,
+      "sourceQuality": 8,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 0
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "Australia",
+    "companyMentions": [
+      "ASC",
+      "BAE Systems"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "Medium",
+    "workstreams": [
+      "International / Australia",
+      "Policy"
+    ],
+    "sponsorNatSec100Relevance": "None",
+    "reactions": {},
+    "createdAt": "2026-09-01T19:11:46.906Z",
+    "updatedAt": "2026-09-01T19:11:46.906Z"
   }
 ]
