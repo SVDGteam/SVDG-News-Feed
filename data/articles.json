@@ -12496,5 +12496,780 @@
     "reactions": {},
     "createdAt": "2026-09-01T19:11:46.906Z",
     "updatedAt": "2026-09-01T19:11:46.906Z"
+  },
+  {
+    "id": "35e7e30b-7251-42a7-b805-2bef43d1b20a",
+    "title": "Army Awards Palantir and Anduril $192M to Move TITAN Into Production",
+    "url": "https://defensescoop.com/2026/09/01/army-titan-platform-production-awards-palantir-anduril/",
+    "source": "DefenseScoop",
+    "datePublished": "2026-09-01",
+    "dateAdded": "2026-09-02",
+    "categories": [
+      "Industry News",
+      "Government News"
+    ],
+    "tags": [
+      "AI",
+      "C2",
+      "Intelligence",
+      "DoD",
+      "NatSec100"
+    ],
+    "shortDescription": "The Army awarded $192M in production contracts — $127M to Palantir, $65M to Anduril — for eight TITAN mobile intelligence ground stations, four Advanced and four Basic variants, delivered over the next 18 months.",
+    "whyItMatters": "TITAN is the clearest proof point yet that a software company can prime a major Army hardware program and actually get to production — five years prototype-to-production is fast by any standard. Worth watching as a template for how non-traditionals scale inside programs of record.",
+    "relevanceScore": 100,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 10
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Palantir",
+      "Anduril",
+      "L3Harris",
+      "Sierra Nevada Corporation",
+      "RTX"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "NatSec100",
+      "Industry Council"
+    ],
+    "sponsorNatSec100Relevance": "Direct",
+    "reactions": {},
+    "createdAt": "2026-09-02T19:13:12.160Z",
+    "updatedAt": "2026-09-02T19:13:12.160Z"
+  },
+  {
+    "id": "d6cbc122-e338-497a-bae4-563bde11da0b",
+    "title": "Pentagon's Office of Strategic Capital to Take 35% Stake in Venezuelan Oil Venture",
+    "url": "https://www.axios.com/2026/09/01/us-officials-defend-deal-venezuelan-oil-baron",
+    "source": "Axios",
+    "datePublished": "2026-09-01",
+    "dateAdded": "2026-09-02",
+    "categories": [
+      "Government News",
+      "Investor News"
+    ],
+    "tags": [
+      "OSC",
+      "Industrial Base",
+      "Energy",
+      "Supply Chain",
+      "DoD"
+    ],
+    "shortDescription": "Under a White House-announced deal, DoD's Office of Strategic Capital would take a 35% passive equity stake — structured through penny warrants — in North American Blue Energy Partners, which holds 100-year concessions on 17 Venezuelan oil fields, plus preferential rights to buy 20% of future production at cost.",
+    "whyItMatters": "OSC has mostly been a loan shop. Using penny warrants to take equity in a foreign resource venture is a big expansion of what defense capital formation means, and it will shape how OSC is viewed by Congress and by the private capital community SVDG works with.",
+    "relevanceScore": 83,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 8,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 0
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "North American Blue Energy Partners"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "Medium",
+    "workstreams": [
+      "Capital Formation",
+      "Policy"
+    ],
+    "sponsorNatSec100Relevance": "None",
+    "reactions": {},
+    "createdAt": "2026-09-02T19:13:12.161Z",
+    "updatedAt": "2026-09-02T19:13:12.161Z"
+  },
+  {
+    "id": "34da89fa-761e-4d47-80db-654d71b62e8d",
+    "title": "Aslan Emerges From Stealth With $20.8M for National Security AI Agents",
+    "url": "https://www.axios.com/2026/09/01/aslan-agentic-ai-national-security-funding",
+    "source": "Axios",
+    "datePublished": "2026-09-01",
+    "dateAdded": "2026-09-02",
+    "categories": [
+      "Investor News",
+      "Industry News"
+    ],
+    "tags": [
+      "AI",
+      "Intelligence",
+      "Defense Startup",
+      "Venture Capital",
+      "Software"
+    ],
+    "shortDescription": "Aslan launched publicly with $20.8M led by Khosla Ventures and XYZ Venture Capital. Its human-supervised AI agents pose as analysts inside criminal forums and Telegram channels to collect digital evidence for the FBI, HSI, and other agencies.",
+    "whyItMatters": "A concrete example of agentic AI moving from demo to operational law-enforcement and IC use, with a real customer list behind it. Also a signal that seed-stage natsec software is still getting funded by top-tier generalist firms, not just defense specialists.",
+    "relevanceScore": 69,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 8,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Aslan",
+      "Khosla Ventures",
+      "XYZ Venture Capital",
+      "2048 Ventures",
+      "BoxGroup"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "Medium",
+    "workstreams": [
+      "Capital Formation"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-09-02T19:13:12.161Z",
+    "updatedAt": "2026-09-02T19:13:12.161Z"
+  },
+  {
+    "id": "ce48e6c9-e9e5-4bdf-b19b-57ffc1679598",
+    "title": "Energetics Startup CMG Raises $10.3M Seed to Modernize US Explosives Manufacturing",
+    "url": "https://www.defensedaily.com/startup-energetics-manufacturer-cmg-raises-10-million-in-seed-round/advanced-transformational-technology/",
+    "source": "Defense Daily",
+    "datePublished": "2026-09-02",
+    "dateAdded": "2026-09-02",
+    "categories": [
+      "Investor News",
+      "Industry News"
+    ],
+    "tags": [
+      "Munitions",
+      "Industrial Base",
+      "Manufacturing",
+      "Venture Capital",
+      "Defense Startup"
+    ],
+    "shortDescription": "Critical Materials Group raised a $10.3M seed led by Overmatch Ventures, with Victory Six Advisors and Fulcrum Ventures participating, to build modular, automation-ready energetics production lines aimed at the RDX and C-4 bottleneck.",
+    "whyItMatters": "Energetics is the least glamorous and most binding constraint in the munitions industrial base — almost all Army C-4 and RDX still comes out of one aging plant in Tennessee. Venture money finally showing up here is a real shift worth tracking.",
+    "relevanceScore": 80,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Critical Materials Group",
+      "Overmatch Ventures",
+      "Victory Six Advisors",
+      "Fulcrum Ventures",
+      "BAE Systems"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Capital Formation",
+      "Industry Council"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-09-02T19:13:12.161Z",
+    "updatedAt": "2026-09-02T19:13:12.161Z"
+  },
+  {
+    "id": "9aa15e5a-ee4c-4ab4-b995-d8d98018f2f5",
+    "title": "AEVEX and Divergent Partner to Design Drones Around 3D-Printed Production",
+    "url": "https://www.investing.com/news/company-news/aevex-partners-with-divergent-on-autonomous-platform-development-93CH-4885675",
+    "source": "Investing.com",
+    "datePublished": "2026-09-02",
+    "dateAdded": "2026-09-02",
+    "categories": [
+      "Industry News"
+    ],
+    "tags": [
+      "Drones",
+      "Autonomy",
+      "Manufacturing",
+      "Industrial Base",
+      "Munitions"
+    ],
+    "shortDescription": "AEVEX ($AVEX) and additive manufacturing firm Divergent announced a collaboration to develop a Group 2–3 unmanned system designed from the outset around Divergent's DAPS platform and Monolith One printers, rather than retrofitting 3D printing into an existing design.",
+    "whyItMatters": "The interesting part isn't the airframe, it's the sequencing — designing for the production process first so requirements changes don't reset the line. That's the manufacturing thesis a lot of SVDG portfolio and member companies are betting on.",
+    "relevanceScore": 69,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 8,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "AEVEX Aerospace",
+      "Divergent Technologies"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "Medium",
+    "workstreams": [
+      "Industry Council"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-09-02T19:13:12.161Z",
+    "updatedAt": "2026-09-02T19:13:12.161Z"
+  },
+  {
+    "id": "84e77802-dedf-4004-85a8-1092197a0557",
+    "title": "York Space Systems Unveils LX/V-Class Platform Purpose-Built for Very Low Earth Orbit",
+    "url": "https://satnews.com/2026/09/02/york-space-systems-unveils-lx-v-class-spacecraft-platform-purpose-built-for-very-low-earth-orbit/",
+    "source": "SatNews",
+    "datePublished": "2026-09-02",
+    "dateAdded": "2026-09-02",
+    "categories": [
+      "Industry News"
+    ],
+    "tags": [
+      "Space",
+      "Manufacturing",
+      "Intelligence"
+    ],
+    "shortDescription": "York introduced the LX/V-Class, a VLEO-capable smallsat derived from its S- and LX-Class buses with reduced drag, a higher-thrust Orbion electric propulsion system, and 3+ year missions at altitudes as low as 300 km. York says it can build and launch one six to seven months after contract signature.",
+    "whyItMatters": "York is betting speed-to-orbit beats going lower, and folding in its ALL.SPACE and ATLAS acquisitions to sell a turnkey stack rather than buses. That vertical-integration play is the pattern to watch as space primes consolidate around government missile-warning and tracking demand.",
+    "relevanceScore": 69,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 8,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "York Space Systems",
+      "Orbion Space Technology",
+      "ALL.SPACE",
+      "ATLAS Space Operations"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "Medium",
+    "workstreams": [
+      "NatSec100"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-09-02T19:13:12.161Z",
+    "updatedAt": "2026-09-02T19:13:12.161Z"
+  },
+  {
+    "id": "01109867-c040-41e5-80c6-33fb774bb556",
+    "title": "Army Awards AV First-Ever Directed Energy Production Contract, $464.8M for LOCUST X3 Lasers",
+    "url": "https://breakingdefense.com/2026/09/army-awards-first-ever-laser-production-contract-to-av-with-465m-value/",
+    "source": "Breaking Defense",
+    "datePublished": "2026-09-02",
+    "dateAdded": "2026-09-03",
+    "categories": [
+      "Industry News",
+      "Government News"
+    ],
+    "tags": [
+      "Drones",
+      "Industrial Base",
+      "DoD",
+      "Manufacturing"
+    ],
+    "shortDescription": "The Army awarded AV (formerly AeroVironment) a $464.8M other transaction agreement for dozens of 30 kW LOCUST X3 counter-UAS laser systems under the Enduring-High Energy Laser program — the service's first-ever production contract for directed energy.",
+    "whyItMatters": "Directed energy has been stuck in perpetual prototype purgatory for a decade; this is the moment it crosses into a program of record. Worth watching as a template for how other 'demo-forever' technologies get pulled into production, and as a signal on where counter-drone money is heading.",
+    "relevanceScore": 95,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "AV",
+      "AeroVironment",
+      "BlueHalo"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "NatSec100",
+      "Policy"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-09-03T19:11:32.954Z",
+    "updatedAt": "2026-09-03T19:11:32.954Z"
+  },
+  {
+    "id": "d4aca59c-97ab-4b58-b6da-d1f960fa227f",
+    "title": "REGENT Completes World's First Human-Crewed Seaglider Flight",
+    "url": "https://www.regentcraft.com/news/regent-viceroy-seaglider-worlds-first-human-crewed-seaglider-flight",
+    "source": "REGENT",
+    "datePublished": "2026-09-02",
+    "dateAdded": "2026-09-03",
+    "categories": [
+      "Sponsor News",
+      "Industry News"
+    ],
+    "tags": [
+      "Maritime",
+      "Sponsor",
+      "Manufacturing",
+      "Defense Startup"
+    ],
+    "shortDescription": "REGENT flew its Viceroy seaglider with two captains aboard over Narragansett Bay — 1,956 feet at 33 feet of altitude — making it the largest all-electric wing-in-ground-effect craft to fly crewed. The company says this opens the final sea-trials phase ahead of full-rate production.",
+    "whyItMatters": "SVDG sponsor, and a real milestone rather than a press-release milestone: crewed flight is the gate that separates a demo program from a delivery schedule. Comes a week after REGENT's $240M Series B, so the capital and the technical proof point are lining up.",
+    "relevanceScore": 93,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 8,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 10
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "sponsorName": "REGENT",
+    "companyMentions": [
+      "REGENT"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "Medium",
+    "workstreams": [
+      "Sponsor Engagement",
+      "NatSec100"
+    ],
+    "sponsorNatSec100Relevance": "Direct",
+    "reactions": {},
+    "createdAt": "2026-09-03T19:11:32.954Z",
+    "updatedAt": "2026-09-03T19:11:32.954Z"
+  },
+  {
+    "id": "2dc7e9a2-939e-4810-92fb-7ea658061057",
+    "title": "PLD Space and HyImpulse Close Major Extension Rounds as European Launch Capital Gap Narrows",
+    "url": "https://payloadspace.com/pld-space-hyimpulse-close-major-extension-rounds/",
+    "source": "Payload",
+    "datePublished": "2026-09-03",
+    "dateAdded": "2026-09-03",
+    "categories": [
+      "International",
+      "Investor News"
+    ],
+    "tags": [
+      "Space",
+      "Venture Capital",
+      "Industrial Base"
+    ],
+    "shortDescription": "Spain's PLD Space added a €108M ($125M) Series C extension led by Mitsubishi Electric, taking the round to €288M, while Germany's HyImpulse closed a €50M+ Series A extension co-led by JOIN Capital and Ace Capital Partners.",
+    "whyItMatters": "Two data points on the same day that European sovereign-launch investing is getting real money behind it, including a Japanese strategic lead. Useful context for anyone tracking how allied capital formation compares to the US market — and where the differentiation (heavy-lift vs. low-cost small) is settling out.",
+    "relevanceScore": 80,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "Europe",
+    "companyMentions": [
+      "PLD Space",
+      "HyImpulse Technologies",
+      "Mitsubishi Electric",
+      "JOIN Capital",
+      "Ace Capital Partners"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Capital Formation",
+      "International / Australia"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-09-03T19:11:32.954Z",
+    "updatedAt": "2026-09-03T19:11:32.954Z"
+  },
+  {
+    "id": "629c5026-7af1-4a7b-85fc-542a2c68ed9a",
+    "title": "Hermeus Picks Anduril's Lattice for Autonomy on Mach 3 Quarterhorse Drone",
+    "url": "https://breakingdefense.com/2026/09/hermeus-picks-anduril-autonomy-for-quarterhorse-drone/",
+    "source": "Breaking Defense",
+    "datePublished": "2026-09-03",
+    "dateAdded": "2026-09-03",
+    "categories": [
+      "Industry News"
+    ],
+    "tags": [
+      "Autonomy",
+      "Hypersonics",
+      "DIU",
+      "Software"
+    ],
+    "shortDescription": "Hermeus will integrate Anduril's Lattice mission-autonomy suite into its Mk 2 Quarterhorse high-speed drone, with flight testing set to begin in 2027. Anduril provides the end-to-end stack from flight software to ground control.",
+    "whyItMatters": "A clean example of the emerging defense-tech supply chain, where a hardware startup buys autonomy off the shelf from another startup instead of building it. Also extends Lattice well beyond CCA into Mach 3-class aircraft, which is a bigger deal for Anduril's platform strategy than the headline suggests.",
+    "relevanceScore": 96,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 10
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Hermeus",
+      "Anduril Industries"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "NatSec100"
+    ],
+    "sponsorNatSec100Relevance": "Direct",
+    "reactions": {},
+    "createdAt": "2026-09-03T19:11:32.954Z",
+    "updatedAt": "2026-09-03T19:11:32.954Z"
+  },
+  {
+    "id": "43204ac6-0f28-47fb-9f0d-7ba9de8b818b",
+    "title": "Havoc and Rune Integrate for Autonomous Contested Logistics at the Edge",
+    "url": "https://www.tectonicdefense.com/exclusive-rune-and-havoc-team-up-for-contested-logistics/",
+    "source": "Tectonic",
+    "datePublished": "2026-09-03",
+    "dateAdded": "2026-09-03",
+    "categories": [
+      "Industry News"
+    ],
+    "tags": [
+      "Autonomy",
+      "Supply Chain",
+      "Drones",
+      "Defense Startup"
+    ],
+    "shortDescription": "Sustainment software startup Rune has integrated its TyrOS platform onto Havoc's UAVs to deliver autonomous resupply in contested and denied environments, following an end-to-end demo at xTechOverwatch's Pegasus Charge III exercise at Fort Hood.",
+    "whyItMatters": "Contested logistics is the unglamorous problem that decides Indo-Pacific scenarios, and this is one of the first credible software-plus-platform pairings aimed squarely at it. Two well-funded startups (Havoc ~$200M raised, Rune ~$30M plus a $99M Army contract) stitching their stacks together is also a preview of how the new primes plan to compete.",
+    "relevanceScore": 76,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Havoc",
+      "Rune Technologies"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "NatSec100"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-09-03T19:11:32.954Z",
+    "updatedAt": "2026-09-03T19:11:32.954Z"
+  },
+  {
+    "id": "7fbcfa5a-5d79-460c-9a85-2acdb2466234",
+    "title": "Federal Judge Voids Pentagon's Supply-Chain-Risk Blacklisting of Anthropic",
+    "url": "https://www.axios.com/2026/08/28/judge-blocks-pentagon-anthropic-blacklist",
+    "source": "Axios",
+    "datePublished": "2026-08-28",
+    "dateAdded": "2026-09-03",
+    "categories": [
+      "Government News",
+      "Industry News"
+    ],
+    "tags": [
+      "AI",
+      "Acquisition Reform",
+      "DoD",
+      "Dual-Use"
+    ],
+    "shortDescription": "US District Judge Rita Lin issued a 59-page summary-judgment order voiding DoD's designation of Anthropic as a supply-chain risk, finding it was First Amendment retaliation and a Fifth Amendment due-process violation. A separate statutory designation remains under appeal in the D.C. Circuit.",
+    "whyItMatters": "This puts real limits on how far the department can go in punishing a commercial vendor over a policy disagreement — which matters to every dual-use company weighing whether DoD is a safe customer. Worth tracking through the appeal; the outcome shapes the risk calculus for the whole commercial-tech-into-defense thesis.",
+    "relevanceScore": 95,
+    "scoreBreakdown": {
+      "recency": 25,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 10
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Anthropic",
+      "Department of Defense"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Policy",
+      "NatSec100"
+    ],
+    "sponsorNatSec100Relevance": "Direct",
+    "reactions": {},
+    "createdAt": "2026-09-03T19:11:32.954Z",
+    "updatedAt": "2026-09-03T19:11:32.954Z"
+  },
+  {
+    "id": "1b1933e1-419a-4e01-bd5e-724878680aeb",
+    "title": "Seasats Lands $24M in USV Orders in a Single Month as Navy and Marines Scale Lightfish",
+    "url": "http://www.prnewswire.com/news-releases/seasats-lands-24-million-in-usv-contracts-for-national-security-customers-in-one-month-302870098.html",
+    "source": "Seasats",
+    "datePublished": "2026-09-04",
+    "dateAdded": "2026-09-04",
+    "categories": [
+      "Industry News"
+    ],
+    "tags": [
+      "Maritime",
+      "Autonomy",
+      "Defense Startup",
+      "Drones"
+    ],
+    "shortDescription": "Seasats booked more than $24M in fully funded orders across nine awards from the Navy, Marine Corps and other US government customers in August, roughly 100 of its $250K Lightfish unmanned surface vessels. A portion came under the company's $89M Phase III SBIR IDIQ.",
+    "whyItMatters": "This is what product-market fit looks like on the water: a company that's raised only ~$40M in venture is now pulling committed dollars, not ceiling values, at a rate that rivals its entire funding history. Good data point for anyone arguing small, cheap, attritable maritime ISR is a real budget line and not a demo.",
+    "relevanceScore": 84,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 8,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Seasats"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "Medium",
+    "workstreams": [
+      "Capital Formation"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-09-04T19:12:14.377Z",
+    "updatedAt": "2026-09-04T19:12:14.377Z"
+  },
+  {
+    "id": "ae61b24d-47fd-48ea-8b47-7d7ad1394119",
+    "title": "China's Commercial Space Sector Is Going Public",
+    "url": "https://payloadspace.com/chinas-commercial-space-sector-is-going-public/",
+    "source": "Payload",
+    "datePublished": "2026-09-04",
+    "dateAdded": "2026-09-04",
+    "categories": [
+      "Investor News",
+      "International"
+    ],
+    "tags": [
+      "Space",
+      "Venture Capital",
+      "Industrial Base"
+    ],
+    "shortDescription": "A December Shanghai Stock Exchange rule requires commercial rocket firms to demonstrate orbital insertion with a medium-to-large reusable vehicle before listing on the STAR Market, turning launch milestones into securities-compliance events. LandSpace (seeking ~$1.1B), CAS Space (~$607M), Galactic Energy and iSpace are all queued up, alongside multibillion-yuan private rounds anchored by state-backed investors.",
+    "whyItMatters": "Beijing has built a capital pipeline that pays companies for flight-proven hardware, with state banks anchoring the rounds. That's a very different capital formation model from the US venture-plus-anchor-customer approach, and it's worth tracking as a benchmark when we talk about how fast China's commercial space base can actually scale.",
+    "relevanceScore": 90,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 0
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "Other",
+    "companyMentions": [
+      "LandSpace",
+      "CAS Space",
+      "Galactic Energy",
+      "iSpace",
+      "SpaceSail",
+      "Orienspace"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Capital Formation",
+      "Policy"
+    ],
+    "sponsorNatSec100Relevance": "None",
+    "reactions": {},
+    "createdAt": "2026-09-04T19:12:14.377Z",
+    "updatedAt": "2026-09-04T19:12:14.377Z"
+  },
+  {
+    "id": "0c2732ca-a4c4-4787-b105-b765ef7d00fb",
+    "title": "GE Wins Deals for F/A-18 Engine Parts and DIU Hypersonic Test Vehicle",
+    "url": "https://breakingdefense.com/2026/09/ge-wins-deals-for-f-a-18-engine-parts-hypersonic-test/",
+    "source": "Breaking Defense",
+    "datePublished": "2026-09-04",
+    "dateAdded": "2026-09-04",
+    "categories": [
+      "Government News",
+      "Industry News"
+    ],
+    "tags": [
+      "Hypersonics",
+      "DIU",
+      "Acquisition Reform",
+      "Industrial Base"
+    ],
+    "shortDescription": "The Pentagon awarded GE Aerospace a performance-based logistics contract worth up to ~$2.9B for F414 engine parts supporting the F/A-18 and EA-18G. Separately, DIU picked GE to supply a liquid-fueled hypersonic test vehicle under its HyCAT program, with a roughly 24-month next phase including flight testing.",
+    "whyItMatters": "The HyCAT piece is the interesting half — DIU keeps widening the bench of vendors who can actually put hypersonic test articles in the air, which is the bottleneck everyone in this space complains about. Also a reminder that primes are competing directly for the commercial-pathway awards, not ceding them to startups.",
+    "relevanceScore": 76,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "GE Aerospace",
+      "Defense Innovation Unit"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Policy"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-09-04T19:12:14.377Z",
+    "updatedAt": "2026-09-04T19:12:14.377Z"
+  },
+  {
+    "id": "8fb180f2-6ead-41da-b4e2-be739a9b4ebe",
+    "title": "L3Harris Licenses Shield AI's Tracker C-UAS Computer Vision for VAMPIRE",
+    "url": "https://www.defensedaily.com/l3harris-adding-shield-ais-computer-vision-tech-to-strengthen-vampire-c-uas-platform/advanced-transformational-technology/",
+    "source": "Defense Daily",
+    "author": "Cal Biesecker",
+    "datePublished": "2026-08-27",
+    "dateAdded": "2026-09-04",
+    "categories": [
+      "Industry News"
+    ],
+    "tags": [
+      "AI",
+      "Drones",
+      "Autonomy",
+      "NatSec100",
+      "Software"
+    ],
+    "shortDescription": "L3Harris is licensing Shield AI's Tracker C-UAS software — AI and computer vision that passively detects, discriminates and tracks small drones in EO/IR video — for its VAMPIRE counter-drone platform. Shield AI says Tracker will be integrated into all future VAMPIRE deliveries; VAMPIRE has logged 350,000+ operational hours since 2023.",
+    "whyItMatters": "First time Shield AI has publicly licensed this software to another company, and it's a prime doing the licensing. That's a software-into-prime-hardware business model worth watching — it's how a NatSec100 company gets paid on programs it will never win as the platform integrator.",
+    "relevanceScore": 81,
+    "scoreBreakdown": {
+      "recency": 15,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 10
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Shield AI",
+      "L3Harris Technologies"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "NatSec100"
+    ],
+    "sponsorNatSec100Relevance": "Direct",
+    "reactions": {},
+    "createdAt": "2026-09-04T19:12:14.377Z",
+    "updatedAt": "2026-09-04T19:12:14.377Z"
   }
 ]
