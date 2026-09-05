@@ -13271,5 +13271,240 @@
     "reactions": {},
     "createdAt": "2026-09-04T19:12:14.377Z",
     "updatedAt": "2026-09-04T19:12:14.377Z"
+  },
+  {
+    "id": "be3843f5-a465-4553-b9d8-0bf93c214773",
+    "title": "Pentagon Launches 'Secure Space Network' to Build 50 Mobile SCIFs for Nontraditional Suppliers",
+    "url": "https://defensescoop.com/2026/09/03/mobile-scif-secure-space-network/",
+    "source": "DefenseScoop",
+    "author": "Jon Harper",
+    "datePublished": "2026-09-03",
+    "dateAdded": "2026-09-05",
+    "categories": [
+      "Government News",
+      "Industry News"
+    ],
+    "tags": [
+      "Industrial Base",
+      "Acquisition Reform",
+      "Defense Startup",
+      "DoD"
+    ],
+    "shortDescription": "DoD's Office of Industrial Base Growth kicked off the Secure Space Network, an initiative to design and produce roughly 50 transportable SCIFs that can be deployed to installations and industry sites so smaller and nontraditional firms can do classified work.",
+    "whyItMatters": "Lack of accredited classified space is one of the most common, least glamorous blockers our members hit on the way to a real program. Fifty mobile SCIFs won't fix everything, but it's the Pentagon explicitly naming facility access as a barrier to entry — and building a surge pathway for more.",
+    "relevanceScore": 90,
+    "scoreBreakdown": {
+      "recency": 25,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Policy",
+      "Industry Council"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-09-05T19:06:41.483Z",
+    "updatedAt": "2026-09-05T19:06:41.483Z"
+  },
+  {
+    "id": "66e9e961-aa25-40a3-94d2-e3b21fea0b71",
+    "title": "Air Force Accelerates MQ-9 Replacement, Targeting 180 $10M Drones Through DIU's Massed Modular Aircraft Program",
+    "url": "https://defensescoop.com/2026/09/04/air-force-accelerate-mq-9-reaper-drone-replacement-after-combat-losses/",
+    "source": "DefenseScoop",
+    "author": "Mikayla Easley",
+    "datePublished": "2026-09-04",
+    "dateAdded": "2026-09-05",
+    "categories": [
+      "Government News",
+      "Industry News"
+    ],
+    "tags": [
+      "Drones",
+      "DIU",
+      "Acquisition Reform",
+      "Autonomy"
+    ],
+    "shortDescription": "After losing 45 MQ-9A Reapers — about a quarter of the fleet — in Operation Epic Fury, SecAF Troy Meink directed officials to expedite the Massed Modular Aircraft program with DIU, aiming to field at least 180 drones at roughly $10M per air vehicle.",
+    "whyItMatters": "This is attritable-mass doctrine showing up in an actual program of record, run through DIU with government-owned reference architectures borrowed from CCA. It's a wide-open door for nontraditional airframe, autonomy, and subsystem vendors — and a clear signal the Air Force will trade exquisite performance for volume and price.",
+    "relevanceScore": 95,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "General Atomics"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Policy",
+      "Industry Council"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-09-05T19:06:41.483Z",
+    "updatedAt": "2026-09-05T19:06:41.483Z"
+  },
+  {
+    "id": "dc589666-e1e8-4c2a-b939-59882e918df0",
+    "title": "Smack Technologies Raises $61M Series B for Wrist-Worn Battlefield AI",
+    "url": "https://www.c4isrnet.com/news/your-military/2026/09/01/defense-startup-raises-61-million-to-put-ai-into-a-wrist-worn-display/",
+    "source": "C4ISRNET",
+    "author": "Daniel Terrill",
+    "datePublished": "2026-09-01",
+    "dateAdded": "2026-09-05",
+    "categories": [
+      "Investor News",
+      "Industry News"
+    ],
+    "tags": [
+      "Venture Capital",
+      "AI",
+      "Defense Startup",
+      "C2"
+    ],
+    "shortDescription": "California-based Smack Technologies raised $61M in Series B funding to build Alpha, a wrist-worn display that pushes its Omega AI software's outputs to operators at the edge with little or no connectivity. Co-founder and CEO Andy Markoff is a former Marine Raider.",
+    "whyItMatters": "Edge AI hardware is where a lot of the software-first defense cohort is heading next, and a $61M B round for a four-month-old hardware effort says investors are still willing to fund the hard part. Worth watching against Anduril's EagleEye as the wearable C2 category takes shape.",
+    "relevanceScore": 75,
+    "scoreBreakdown": {
+      "recency": 25,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Smack Technologies",
+      "Anduril"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Capital Formation",
+      "NatSec100"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-09-05T19:06:41.483Z",
+    "updatedAt": "2026-09-05T19:06:41.483Z"
+  },
+  {
+    "id": "b5cefc6a-83d6-4d36-a61f-b0a022f152e9",
+    "title": "Dataminr's First Alert Advanced Goes Live Across NATO's Maven Smart System",
+    "url": "https://breakingdefense.com/2026/09/dataminr-ai-tech-to-go-live-on-nato-maven-system-ceo/",
+    "source": "Breaking Defense",
+    "author": "Mark Pomerleau",
+    "datePublished": "2026-09-01",
+    "dateAdded": "2026-09-05",
+    "categories": [
+      "Industry News",
+      "International"
+    ],
+    "tags": [
+      "AI",
+      "NATO",
+      "Intelligence",
+      "Software"
+    ],
+    "shortDescription": "Dataminr CEO Ted Bailey said the company's First Alert Advanced AI suite is deploying across the entire NATO enterprise inside Palantir's Maven Smart System, days after Dataminr won a $318M Pentagon situational awareness contract.",
+    "whyItMatters": "Maven is quietly becoming the integration layer for allied intelligence workflows, and getting inside it is now a distribution channel in its own right. For commercial AI vendors, 'ships on Maven' may matter more than any single contract vehicle.",
+    "relevanceScore": 71,
+    "scoreBreakdown": {
+      "recency": 25,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "Europe",
+    "companyMentions": [
+      "Dataminr",
+      "Palantir"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "NatSec100"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-09-05T19:06:41.483Z",
+    "updatedAt": "2026-09-05T19:06:41.483Z"
+  },
+  {
+    "id": "a1b5c958-ba4a-4c71-b6f1-3c139025a48c",
+    "title": "Lawmakers Press Army Over Decision to Terminate Ukraine-Informed Drone Unit",
+    "url": "https://defensescoop.com/2026/09/03/lawmakers-press-army-about-decision-to-terminate-units-drone-mission/",
+    "source": "DefenseScoop",
+    "author": "Drew F. Lawrence",
+    "datePublished": "2026-09-03",
+    "dateAdded": "2026-09-05",
+    "categories": [
+      "Government News",
+      "Opinions"
+    ],
+    "tags": [
+      "Drones",
+      "Congress",
+      "Acquisition Reform"
+    ],
+    "shortDescription": "Members of Congress raised 'deep concerns' with Army leadership over the service's decision to end a unit's drone mission that had been shaped by lessons from Ukraine.",
+    "whyItMatters": "A useful data point on how fragile fast-moving drone experimentation still is inside the services once it collides with force structure decisions — and a reminder that Hill oversight, not the acquisition system, is often what keeps these efforts alive.",
+    "relevanceScore": 66,
+    "scoreBreakdown": {
+      "recency": 25,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 0
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Policy"
+    ],
+    "sponsorNatSec100Relevance": "None",
+    "reactions": {},
+    "createdAt": "2026-09-05T19:06:41.483Z",
+    "updatedAt": "2026-09-05T19:06:41.483Z"
   }
 ]
