@@ -13506,5 +13506,690 @@
     "reactions": {},
     "createdAt": "2026-09-05T19:06:41.483Z",
     "updatedAt": "2026-09-05T19:06:41.483Z"
+  },
+  {
+    "id": "1bee26b9-5276-4eb1-9b71-a1ce8915128d",
+    "title": "Pentagon Scrambles to Cover Mounting FY26 Operational Costs Under a CR",
+    "url": "https://breakingdefense.com/2026/09/what-options-does-the-pentagon-have-to-cover-its-mounting-fy26-operational-costs/",
+    "source": "Breaking Defense",
+    "author": "Ashley Roque",
+    "datePublished": "2026-09-04",
+    "dateAdded": "2026-09-06",
+    "categories": [
+      "Government News"
+    ],
+    "tags": [
+      "Budget",
+      "Congress",
+      "DoD",
+      "Acquisition Reform"
+    ],
+    "shortDescription": "With Congress on break, a continuing resolution running through Dec. 11, and no near-term defense supplemental in sight, DoD planners are stretching available funds to finish the fiscal year. Unplanned operational costs from the Iran war and Caribbean maritime operations are driving the squeeze.",
+    "whyItMatters": "CR math is the quiet variable behind every new-start program and contract award between now and December. If you're a company waiting on a first production award or a new-start line, this is the piece that explains why the money isn't moving.",
+    "relevanceScore": 81,
+    "scoreBreakdown": {
+      "recency": 25,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 0
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Policy"
+    ],
+    "sponsorNatSec100Relevance": "None",
+    "reactions": {},
+    "createdAt": "2026-09-06T19:10:42.493Z",
+    "updatedAt": "2026-09-06T19:10:42.493Z"
+  },
+  {
+    "id": "462203d4-8110-40da-9969-c62157d83844",
+    "title": "Army Desert Trial of Starlink and Commercial Satcom Exposes Both Promise and Limits",
+    "url": "https://breakingdefense.com/2026/09/wet-tees-on-sat-links-armys-desert-trial-reveals-commercial-tech-challenges-opportunities/",
+    "source": "Breaking Defense",
+    "author": "Mark Pomerleau",
+    "datePublished": "2026-09-04",
+    "dateAdded": "2026-09-06",
+    "categories": [
+      "Government News",
+      "Industry News"
+    ],
+    "tags": [
+      "Dual-Use",
+      "Space",
+      "C2",
+      "Acquisition Reform"
+    ],
+    "shortDescription": "The Army put commercial satellite communications, including Starlink, through a desert field trial and found workable fixes for heat and terrain problems rather than reasons to buy bespoke kit. Brig. Gen. Shane Taylor framed it as testing cheap commercial options before spending 'quadruple the cost' on purpose-built systems.",
+    "whyItMatters": "This is the commercial-first adoption argument playing out in the field rather than in a policy memo — and it's a useful data point for any dual-use company arguing that a COTS product plus tradecraft beats a program of record.",
+    "relevanceScore": 90,
+    "scoreBreakdown": {
+      "recency": 25,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "SpaceX",
+      "Starlink"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Policy",
+      "Industry Council"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-09-06T19:10:42.493Z",
+    "updatedAt": "2026-09-06T19:10:42.493Z"
+  },
+  {
+    "id": "4db12118-b4ae-4a85-9b4b-095cab3b55da",
+    "title": "US Navy and Quad Partners Move to 'Fingerprint' Dark Fleets in the Pacific With Vantor AI",
+    "url": "https://defensescoop.com/2026/09/04/us-navy-quad-partners-fingerprint-dark-fleets-pacific-vantor-ai/",
+    "source": "DefenseScoop",
+    "author": "Brandi Vincent",
+    "datePublished": "2026-09-04",
+    "dateAdded": "2026-09-06",
+    "categories": [
+      "Industry News",
+      "International"
+    ],
+    "tags": [
+      "AI",
+      "Maritime",
+      "Intelligence",
+      "Space"
+    ],
+    "shortDescription": "The Navy and Quad partners are applying Vantor's AI-enabled satellite imagery analysis to identify and track 'dark fleet' vessels operating with transponders off across the Indo-Pacific. The effort builds on commercial geospatial intelligence rather than purpose-built government sensors.",
+    "whyItMatters": "Commercial GEOINT plus AI is quietly becoming the backbone of allied maritime domain awareness. Vantor keeps showing up in allied ISR deals — worth watching as a template for how commercial data companies scale into multinational operational use.",
+    "relevanceScore": 71,
+    "scoreBreakdown": {
+      "recency": 25,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Vantor"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "International / Australia"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-09-06T19:10:42.493Z",
+    "updatedAt": "2026-09-06T19:10:42.493Z"
+  },
+  {
+    "id": "8d688825-d761-4838-ba43-b2dbfd60d0c9",
+    "title": "Opinion: America's Next CCA Needs a Different Mission to Counter China",
+    "url": "https://breakingdefense.com/2026/09/to-counter-china-americas-next-cca-needs-a-different-mission/",
+    "source": "Breaking Defense",
+    "author": "Greg Malandrino",
+    "datePublished": "2026-09-03",
+    "dateAdded": "2026-09-06",
+    "categories": [
+      "Opinions"
+    ],
+    "tags": [
+      "Autonomy",
+      "Drones",
+      "Acquisition Reform"
+    ],
+    "shortDescription": "CSBA's Greg Malandrino argues the next increment of Collaborative Combat Aircraft should be built for defensive missions — protecting tankers and other high-value airborne assets — rather than optimized purely for offensive strike packages.",
+    "whyItMatters": "The CCA requirement is still genuinely unsettled, which means the autonomy vendors chasing it are aiming at a moving target. A credible think-tank push toward a defensive mission set would reshuffle who's positioned to win.",
+    "relevanceScore": 71,
+    "scoreBreakdown": {
+      "recency": 25,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "CSBA"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Policy"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-09-06T19:10:42.493Z",
+    "updatedAt": "2026-09-06T19:10:42.493Z"
+  },
+  {
+    "id": "04470845-ba4e-4bd6-adc4-53d858874796",
+    "title": "PsiQuantum and Brookhaven Lab Partner on Fault-Tolerant Quantum Application Development",
+    "url": "https://www.psiquantum.com/news-import/psiquantum-brookhaven-lab-partner-to-accelerate-quantum-application-development-using-construct-software-tool",
+    "source": "PsiQuantum",
+    "datePublished": "2026-09-02",
+    "dateAdded": "2026-09-06",
+    "categories": [
+      "Sponsor News",
+      "Industry News"
+    ],
+    "tags": [
+      "Sponsor",
+      "Software",
+      "Cyber"
+    ],
+    "shortDescription": "PsiQuantum and DOE's Brookhaven National Laboratory announced a collaboration using PsiQuantum's Construct software platform to develop algorithms and applications for the first generation of fault-tolerant quantum computers. Work spans materials science, chemistry, high-energy physics, and quantum-safe cryptography, supporting DOE's Quantum Genesis push for fault tolerance by 2028.",
+    "whyItMatters": "SVDG sponsor PsiQuantum keeps stacking federal anchor customers — DARPA, Commerce, now a DOE national lab. The quantum-safe cryptography thread is the one with the clearest national security tail for our members.",
+    "relevanceScore": 84,
+    "scoreBreakdown": {
+      "recency": 25,
+      "svdgRelevance": 35,
+      "sourceQuality": 8,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 10
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "sponsorName": "PsiQuantum",
+    "companyMentions": [
+      "PsiQuantum",
+      "Brookhaven National Laboratory"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "Medium",
+    "workstreams": [
+      "Sponsor Engagement"
+    ],
+    "sponsorNatSec100Relevance": "Direct",
+    "reactions": {},
+    "createdAt": "2026-09-06T19:10:42.493Z",
+    "updatedAt": "2026-09-06T19:10:42.493Z"
+  },
+  {
+    "id": "856161a8-9e4c-4910-83ef-e2507e2f3c77",
+    "title": "Anthropic IPO Slips to Mid-October With a $2 Trillion Target",
+    "url": "https://www.cnbc.com/2026/09/05/anthropic-ipo-launch-shifts-toward-mid-october-reuters.html",
+    "source": "CNBC",
+    "datePublished": "2026-09-05",
+    "dateAdded": "2026-09-07",
+    "categories": [
+      "Investor News",
+      "Industry News"
+    ],
+    "tags": [
+      "AI",
+      "Venture Capital",
+      "NatSec100",
+      "Software"
+    ],
+    "shortDescription": "Anthropic's public listing has moved to mid-October, with the prospectus expected in late September and a target valuation near $2 trillion. Morgan Stanley is the frontrunner for lead-left, with Goldman Sachs, JPMorgan and Citi also on the ticket.",
+    "whyItMatters": "If it prices anywhere near the talk, this is the largest IPO ever and a live test of how public markets value a company that is simultaneously a NatSec100 name and a Pentagon vendor in an ongoing contracting fight. Worth watching for what it signals about exit paths for the rest of the dual-use AI cohort.",
+    "relevanceScore": 95,
+    "scoreBreakdown": {
+      "recency": 25,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 10
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Anthropic",
+      "Morgan Stanley",
+      "Goldman Sachs",
+      "JPMorgan Chase & Co.",
+      "Citigroup"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "NatSec100",
+      "Capital Formation"
+    ],
+    "sponsorNatSec100Relevance": "Direct",
+    "reactions": {},
+    "createdAt": "2026-09-07T19:33:54.643Z",
+    "updatedAt": "2026-09-07T19:33:54.643Z"
+  },
+  {
+    "id": "b743014d-c72a-42fc-9798-2dde7a45052e",
+    "title": "Pixxel Closes $100M Series C Co-Led by Temasek and Seraphim",
+    "url": "https://www.business-standard.com/companies/news/pixxel-series-c-funding-temasek-seraphim-space-tech-126090700126_1.html",
+    "source": "Business Standard",
+    "datePublished": "2026-09-07",
+    "dateAdded": "2026-09-07",
+    "categories": [
+      "Investor News",
+      "International"
+    ],
+    "tags": [
+      "Space",
+      "Venture Capital",
+      "Intelligence",
+      "Dual-Use"
+    ],
+    "shortDescription": "Hyperspectral imaging company Pixxel raised a $100M Series C co-led by Temasek and Seraphim, with 360 ONE Asset, IMM Investment and Radical Ventures participating. Total funding now stands at $195M, and the round is the largest ever for an Indian space-tech company.",
+    "whyItMatters": "Pixxel already holds NASA and NRO contracts, so this is allied commercial EO capacity scaling on non-US capital. It's a useful data point on where sovereign Earth-observation money is pooling outside the usual US/Europe axis — and on who SVDG members will be competing with or buying from.",
+    "relevanceScore": 73,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 8,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "Other",
+    "companyMentions": [
+      "Pixxel",
+      "Temasek",
+      "Seraphim Space",
+      "Radical Ventures",
+      "NASA",
+      "NRO"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "Medium",
+    "workstreams": [
+      "Capital Formation",
+      "International / Australia"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-09-07T19:33:54.644Z",
+    "updatedAt": "2026-09-07T19:33:54.644Z"
+  },
+  {
+    "id": "e942b4b2-f5be-40d6-9875-40d3d154f192",
+    "title": "RAND: The US Doesn't Have Enough Engineers to Rebuild Its Satellites in a War",
+    "url": "https://www.defenseone.com/threats/2026/09/us-may-lack-engineers-rebuild-space-assets-future-war-rand/415788/",
+    "source": "Defense One",
+    "datePublished": "2026-09-03",
+    "dateAdded": "2026-09-07",
+    "categories": [
+      "Government News",
+      "Industry News"
+    ],
+    "tags": [
+      "Space",
+      "Industrial Base",
+      "Manufacturing",
+      "Supply Chain"
+    ],
+    "shortDescription": "A new RAND study, 'Breaking Glass, Missing Hands,' finds that space-focused defense firms employ roughly 3% of US engineers and can't fill the jobs they have. Reconstituting satellites lost early in a conflict would need a 12-24 month pace against a historical norm closer to a decade.",
+    "whyItMatters": "The reconstitution conversation has been all about production lines and launch cadence; RAND says the binding constraint is people. That reframes the industrial-base pitch for anyone in SVDG's orbit building space hardware — and it's a clean hook for policy and Industry Council work on workforce.",
+    "relevanceScore": 90,
+    "scoreBreakdown": {
+      "recency": 25,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "RAND Corporation"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Policy",
+      "Industry Council"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-09-07T19:33:54.644Z",
+    "updatedAt": "2026-09-07T19:33:54.644Z"
+  },
+  {
+    "id": "a3d4bfcd-b3ea-46b6-a463-8d8bc67c5191",
+    "title": "Pentagon's First Cyber Strategy Since 2023 Expected Within Days",
+    "url": "https://www.defenseone.com/policy/2026/09/pentagon-cyber-strategy-expected-soon-next-week-sources-say/415781/",
+    "source": "Defense One",
+    "author": "David DiMolfetta",
+    "datePublished": "2026-09-02",
+    "dateAdded": "2026-09-07",
+    "categories": [
+      "Government News"
+    ],
+    "tags": [
+      "Cyber",
+      "AI",
+      "DoD",
+      "Acquisition Reform"
+    ],
+    "shortDescription": "DoD is expected to release its first overarching cyber strategy since 2023, developed by Katie Sutton's office and paired with an action plan reportedly spanning nine strategic initiatives and 34 lines of effort. Officials have previewed an emphasis on offensive operations, AI enablement, and closer commercial ties.",
+    "whyItMatters": "The AI-enablement and commercial-access pieces are the ones to read closely — NSA has already said it wants access to 'all the models,' and Cyber Command 2.0's Cyber Innovation Warfare Center is explicitly a front door for commercial tech. Expect new entry points for nontraditional vendors once the action plan lands.",
+    "relevanceScore": 71,
+    "scoreBreakdown": {
+      "recency": 25,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "US Cyber Command",
+      "NSA",
+      "CDAO",
+      "Parsons"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Policy"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-09-07T19:33:54.644Z",
+    "updatedAt": "2026-09-07T19:33:54.644Z"
+  },
+  {
+    "id": "59f987d2-55c1-42ca-8d96-5551d0adca17",
+    "title": "Red Cell Brings Healthcare-Style Shared Savings Model to the Pentagon Under $100M OTA",
+    "url": "https://www.tectonicdefense.com/red-cell-brings-healthcare-style-shared-savings-model-to-the-pentagon-under-100m-ota/",
+    "source": "Tectonic",
+    "datePublished": "2026-09-08",
+    "dateAdded": "2026-09-08",
+    "categories": [
+      "Sponsor News",
+      "Government News"
+    ],
+    "tags": [
+      "Sponsor",
+      "AI",
+      "Acquisition Reform",
+      "CDAO",
+      "Venture Capital",
+      "Software"
+    ],
+    "shortDescription": "Red Cell Partners announced a $100M OTA with DoD's Chief Digital and AI Office to pilot a shared savings contracting model, where portfolio companies get paid a cut of the savings their agentic AI generates instead of a fixed fee. Audits and ATO approvals are the first use cases, starting with Trase and Andesite.",
+    "whyItMatters": "This is the first time a venture firm has been handed a vehicle to test outcome-based contracting in defense, and Red Cell is an SVDG sponsor. If the pilot works, it opens a genuinely new path for nontraditional companies to get paid by DoD — worth watching closely for the Industry Council and anyone thinking about acquisition reform.",
+    "relevanceScore": 100,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 10
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "sponsorName": "Red Cell Partners",
+    "companyMentions": [
+      "Red Cell Partners",
+      "Trase",
+      "Andesite",
+      "CDAO"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Sponsor Engagement",
+      "Policy"
+    ],
+    "sponsorNatSec100Relevance": "Direct",
+    "reactions": {},
+    "createdAt": "2026-09-08T19:11:33.151Z",
+    "updatedAt": "2026-09-08T19:11:33.151Z"
+  },
+  {
+    "id": "f829f4a9-763e-4135-8042-dcbd48372e63",
+    "title": "Stoke Space Raises $1B Initial Series E, Bringing Total Capital to $2.3B",
+    "url": "https://payloadspace.com/stoke-space-raises-1b-initial-series-e-round/",
+    "source": "Payload",
+    "datePublished": "2026-09-08",
+    "dateAdded": "2026-09-08",
+    "categories": [
+      "Investor News",
+      "Industry News"
+    ],
+    "tags": [
+      "Space",
+      "Venture Capital",
+      "Defense Startup",
+      "Manufacturing"
+    ],
+    "shortDescription": "Stoke Space closed an initial $1B tranche of a Series E co-led by Point72 Ventures and Spark Capital, with SVDG sponsor Washington Harbour Partners among returning investors. The money scales manufacturing and infrastructure ahead of Nova Pathfinder's first flight, now slipped to early 2027, and funds the larger 15-ton Nova Block 2 targeting 2029.",
+    "whyItMatters": "Roughly $2.1B raised since January 2025 and still no flight — that's a striking read on how much pre-revenue capital the launch market will absorb right now. Stoke is in the Space Force's NSSL Phase 3 Lane 1 pool but can't compete for task orders until Nova flies, so the national security upside is entirely gated on 2027.",
+    "relevanceScore": 95,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Stoke Space",
+      "Point72 Ventures",
+      "Spark Capital",
+      "Washington Harbour Partners",
+      "Y Combinator"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Capital Formation",
+      "NatSec100"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-09-08T19:11:33.152Z",
+    "updatedAt": "2026-09-08T19:11:33.152Z"
+  },
+  {
+    "id": "045f8f0d-3326-45ae-9420-120758bb3292",
+    "title": "The Exploration Company Raises $450M Series C, Largest Ever for a European Space Company",
+    "url": "https://europeanspaceflight.com/the-exploration-company-raises-450-million-in-series-c-funding",
+    "source": "European Spaceflight",
+    "datePublished": "2026-09-08",
+    "dateAdded": "2026-09-08",
+    "categories": [
+      "International",
+      "Investor News"
+    ],
+    "tags": [
+      "Space",
+      "Venture Capital",
+      "Dual-Use"
+    ],
+    "shortDescription": "The Exploration Company closed a $450M Series C co-led by Bessemer Venture Partners, Atomico, and EQT's Scaleup Europe Fund, bringing total funding to roughly $680M. Proceeds go to the Nyx reusable cargo capsule and Storm, Europe's first reusable full-flow staged combustion engine.",
+    "whyItMatters": "The largest Series C ever for a European space company, and a US-heavy cap table (Bessemer) backing a European sovereign capability. Useful data point on how fast European defense-adjacent capital formation is scaling and where American investors are choosing to play.",
+    "relevanceScore": 64,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 8,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 0
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "Europe",
+    "companyMentions": [
+      "The Exploration Company",
+      "Bessemer Venture Partners",
+      "Atomico",
+      "EQT",
+      "Balderton",
+      "Plural"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "Medium",
+    "workstreams": [
+      "Capital Formation"
+    ],
+    "sponsorNatSec100Relevance": "None",
+    "reactions": {},
+    "createdAt": "2026-09-08T19:11:33.152Z",
+    "updatedAt": "2026-09-08T19:11:33.152Z"
+  },
+  {
+    "id": "f0e295c5-384f-4774-88a5-ef45b72b55a7",
+    "title": "Isar Aerospace Reaches Orbit on Second Spectrum Launch, a First for Western Europe",
+    "url": "https://spacenews.com/isar-aerospace-reaches-orbit-on-second-spectrum-launch/",
+    "source": "SpaceNews",
+    "datePublished": "2026-09-05",
+    "dateAdded": "2026-09-08",
+    "categories": [
+      "International",
+      "Industry News"
+    ],
+    "tags": [
+      "Space",
+      "Defense Startup",
+      "Dual-Use"
+    ],
+    "shortDescription": "Isar Aerospace's Spectrum rocket reached orbit on its second flight from Andøya, Norway, deploying payloads for academic and commercial customers. It is the first successful orbital launch from Western European soil, 18 months after the first attempt failed 30 seconds after liftoff.",
+    "whyItMatters": "Sovereign European launch access just went from aspiration to fact, and it satisfies Isar's Component A milestone under the European Launcher Challenge — which unlocks the rest of its ~€200M ESA award. Relevant to anyone tracking allied space industrial base or the EU's push to fund launch startups directly.",
+    "relevanceScore": 66,
+    "scoreBreakdown": {
+      "recency": 25,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 0
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "Europe",
+    "companyMentions": [
+      "Isar Aerospace",
+      "ESA",
+      "Maritime Launch Services",
+      "EnduroSat"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "International / Australia"
+    ],
+    "sponsorNatSec100Relevance": "None",
+    "reactions": {},
+    "createdAt": "2026-09-08T19:11:33.152Z",
+    "updatedAt": "2026-09-08T19:11:33.152Z"
+  },
+  {
+    "id": "eae45193-a4d6-4b74-add1-4dd36b43566a",
+    "title": "Ground A Raises €9.1M Pre-Seed for Counter-Drone Laser Weapons",
+    "url": "https://www.tectonicdefense.com/ground-a-raises-e9-1m-pre-seed-for-laser-weapons/",
+    "source": "Tectonic",
+    "datePublished": "2026-09-08",
+    "dateAdded": "2026-09-08",
+    "categories": [
+      "International",
+      "Investor News"
+    ],
+    "tags": [
+      "Drones",
+      "Venture Capital",
+      "Defense Startup",
+      "AI",
+      "Electronic Warfare"
+    ],
+    "shortDescription": "German directed-energy startup Ground A raised a €9.1M pre-seed led by Vsquared Ventures, eight months after founding, with Quantum Systems participating and German defense tech founders joining the board. Its pallet-sized GA 1000 pairs radar, computer vision, and a single-kilowatt-class laser for last-mile Group 1-3 drone defeat.",
+    "whyItMatters": "Another entry in the crowded directed-energy field, but the interesting part is the cap table — Quantum Systems and Arx Robotics as investors and board members points at a consolidating German defense tech network buying into each other's stacks rather than competing.",
+    "relevanceScore": 75,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 0
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "Europe",
+    "companyMentions": [
+      "Ground A",
+      "Vsquared Ventures",
+      "Quantum Systems",
+      "Arx Robotics",
+      "OVNI Capital"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Capital Formation",
+      "International / Australia"
+    ],
+    "sponsorNatSec100Relevance": "None",
+    "reactions": {},
+    "createdAt": "2026-09-08T19:11:33.152Z",
+    "updatedAt": "2026-09-08T19:11:33.152Z"
   }
 ]
