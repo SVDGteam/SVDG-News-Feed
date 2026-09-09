@@ -14191,5 +14191,311 @@
     "reactions": {},
     "createdAt": "2026-09-08T19:11:33.152Z",
     "updatedAt": "2026-09-08T19:11:33.152Z"
+  },
+  {
+    "id": "a47e0b68-8635-45a9-82e9-a2714efe7484",
+    "title": "Covenant Emerges from Stealth with $250M and a Mass-Producible Tomahawk-Class Missile",
+    "url": "https://www.tectonicdefense.com/covenant-emerges-from-stealth-with-250m-for-long-range-strike/",
+    "source": "Tectonic",
+    "datePublished": "2026-09-09",
+    "dateAdded": "2026-09-09",
+    "categories": [
+      "Industry News",
+      "Investor News"
+    ],
+    "tags": [
+      "Munitions",
+      "Defense Startup",
+      "Venture Capital",
+      "Industrial Base",
+      "NATO"
+    ],
+    "shortDescription": "Covenant came out of stealth with Anthem, a long-range, 200+ kg-payload strike missile, and $250M raised across three rounds led by a16z, Founders Fund, Lux, 8VC, Aleph and Lightspeed. The company says it has ~$150M in booked orders, 200+ test flights, and production lines opening in Dallas, Germany and Israel.",
+    "whyItMatters": "Deep precision strike is the capability gap NATO and the US have been loudly flagging all year, and Covenant is claiming mid-six-figure unit cost at thousands-per-year volume — the affordable-mass thesis, applied to the most exquisite corner of the munitions stack. Also a striking cap table: essentially every major defense-tech fund in one round.",
+    "relevanceScore": 95,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Covenant",
+      "Andreessen Horowitz",
+      "Founders Fund",
+      "Lux Capital",
+      "8VC",
+      "Aleph",
+      "Lightspeed Venture Partners"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Capital Formation",
+      "NatSec100"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-09-09T22:45:57.653Z",
+    "updatedAt": "2026-09-09T22:45:57.653Z"
+  },
+  {
+    "id": "130900b2-973a-4dc2-9883-af89b42535de",
+    "title": "Poseidon Aerospace Raises $60M Series A for Purpose-Built Autonomous Cargo Aircraft",
+    "url": "https://techcrunch.com/2026/09/08/poseidon-aerospace-lands-60m-ahead-of-first-pilotless-test-flight/",
+    "source": "TechCrunch",
+    "datePublished": "2026-09-08",
+    "dateAdded": "2026-09-09",
+    "categories": [
+      "Investor News",
+      "Industry News"
+    ],
+    "tags": [
+      "Autonomy",
+      "Venture Capital",
+      "Defense Startup",
+      "Supply Chain"
+    ],
+    "shortDescription": "Bay Area-based Poseidon Aerospace closed a $60M Series A led by TQ Ventures, with JAWS, G Squared, Hanwha Asset Management USA, Draper Associates and others participating. The money funds flight testing of Egret, a clean-sheet uncrewed freighter with a 51-foot wingspan, 4,000-lb payload and 1,650 nm range, plus its seaplane sibling Heron.",
+    "whyItMatters": "Contested logistics keeps drawing capital, and Poseidon's bet is that building from scratch beats bolting autonomy onto a 1960s airframe. Worth watching as a read on whether investors will fund the unglamorous middle of the kill chain at Series A scale.",
+    "relevanceScore": 69,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 8,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Poseidon Aerospace",
+      "TQ Ventures",
+      "JAWS",
+      "G Squared",
+      "Hanwha Asset Management USA",
+      "Draper Associates"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "Medium",
+    "workstreams": [
+      "Capital Formation"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-09-09T22:45:57.654Z",
+    "updatedAt": "2026-09-09T22:45:57.654Z"
+  },
+  {
+    "id": "d78bc447-18e4-44d7-a780-fe4cf6bb72b5",
+    "title": "Bulwark Dynamics Raises $6.8M Seed and Inks Japanese Production Deal for Autonomous Landing Craft",
+    "url": "https://www.tectonicdefense.com/exclusive-bulwark-dynamics-raises-6-8m-seed-round-for-maritime-logistics/",
+    "source": "Tectonic",
+    "datePublished": "2026-09-09",
+    "dateAdded": "2026-09-09",
+    "categories": [
+      "Industry News",
+      "International"
+    ],
+    "tags": [
+      "Maritime",
+      "Autonomy",
+      "Defense Startup",
+      "Supply Chain",
+      "Manufacturing"
+    ],
+    "shortDescription": "Bulwark Dynamics announced $6.8M in seed funding from SBI US Gateway Fund, Archetype Ventures, Nene Ventures and Japanese shipbuilder Onomichi Dockyard, plus an agreement to localize production of its Caravel unmanned landing craft in Japan. The 15-foot variant carries 6,600 lbs at sub-$1M cost; a 35-foot version is in development.",
+    "whyItMatters": "This is allied co-production happening at the seed stage rather than as a late-stage FMS afterthought — a US startup putting a Japanese shipyard on the cap table and the production line at the same time. Good template case for how Indo-Pacific industrial partnerships might actually get built.",
+    "relevanceScore": 80,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "Other",
+    "companyMentions": [
+      "Bulwark Dynamics",
+      "Onomichi Dockyard",
+      "SBI US Gateway Fund",
+      "Archetype Ventures"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Capital Formation",
+      "International / Australia"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-09-09T22:45:57.654Z",
+    "updatedAt": "2026-09-09T22:45:57.654Z"
+  },
+  {
+    "id": "47e3038a-03fc-4437-975f-0ea8f532dc91",
+    "title": "Overland AI Leads $20M Army Award to Field Autonomous Minefield Breaching",
+    "url": "https://www.globenewswire.com/news-release/2026/09/08/3357915/0/en/overland-ai-awarded-20-million-contract-for-u-s-army-s-engineer-autonomous-breaching-capability-initiative.html",
+    "source": "GlobeNewswire",
+    "datePublished": "2026-09-08",
+    "dateAdded": "2026-09-09",
+    "categories": [
+      "Industry News",
+      "Government News"
+    ],
+    "tags": [
+      "Autonomy",
+      "Robotics",
+      "DoD",
+      "Acquisition Reform",
+      "Drones"
+    ],
+    "shortDescription": "Overland AI won a $20M contract under the Army's Engineer Autonomous Breaching Capability initiative, leading a team that includes Valinor, DroneShield, HII, Richard Childress Racing, SafePro, Pearson and Globetech. The team will demonstrate a full combined-arms breach with minimal operator intervention ahead of a unit assessment in early 2027.",
+    "whyItMatters": "Overland priming again, this time with a startup-led consortium that folds in a NASCAR team and a prime as subs — a real inversion of the usual pyramid. Also a concrete data point on the Army's Mission Autonomy CPE actually buying capability sets rather than science projects.",
+    "relevanceScore": 93,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 8,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 10
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Overland AI",
+      "Valinor",
+      "DroneShield",
+      "HII",
+      "Richard Childress Racing",
+      "Forterra",
+      "Caterpillar"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "Medium",
+    "workstreams": [
+      "NatSec100",
+      "Sponsor Engagement"
+    ],
+    "sponsorNatSec100Relevance": "Direct",
+    "reactions": {},
+    "createdAt": "2026-09-09T22:45:57.654Z",
+    "updatedAt": "2026-09-09T22:45:57.654Z"
+  },
+  {
+    "id": "e14842b3-e643-43e2-87e6-dd88e0fe4ed2",
+    "title": "Lockheed Awards L3Harris a Record $4.7B for PAC-3 MSE Propulsion",
+    "url": "https://www.defensedaily.com/lockheed-martin-awards-l3harris-4-7-billion-pac-3-mse-propulsion-contract/missile-defense/",
+    "source": "Defense Daily",
+    "datePublished": "2026-09-08",
+    "dateAdded": "2026-09-09",
+    "categories": [
+      "Industry News",
+      "Government News"
+    ],
+    "tags": [
+      "Munitions",
+      "Industrial Base",
+      "Supply Chain",
+      "Manufacturing"
+    ],
+    "shortDescription": "L3Harris received a seven-year, $4.7B undefinitized award from Lockheed Martin covering the PAC-3 MSE's two-pulse solid rocket motor, Lethality Enhancer and attitude control motors. It's L3Harris's largest PAC-3 propulsion award to date and follows a summer framework deal to nearly triple propulsion output, alongside two new Camden, Arkansas facilities.",
+    "whyItMatters": "Third major solid rocket motor capacity move in six weeks after the Northrop framework and the GD/Lockheed deals — the interceptor bottleneck is being bought out with long-horizon commitments, not one-year buys. That's the demand signal shape private capital has been asking for.",
+    "relevanceScore": 76,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "L3Harris",
+      "Lockheed Martin"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Policy"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-09-09T22:45:57.654Z",
+    "updatedAt": "2026-09-09T22:45:57.654Z"
+  },
+  {
+    "id": "931885d6-d42b-4a0e-a931-bff60b126b29",
+    "title": "GE Aerospace to Buy Castings Supplier CPP for $11.75B in Its Largest Deal Yet",
+    "url": "https://www.cnbc.com/2026/09/08/ge-aerospace-to-buy-castings-maker-cpp-for-nearly-12-billion.html",
+    "source": "CNBC",
+    "datePublished": "2026-09-08",
+    "dateAdded": "2026-09-09",
+    "categories": [
+      "Industry News",
+      "Investor News"
+    ],
+    "tags": [
+      "Industrial Base",
+      "Supply Chain",
+      "Manufacturing",
+      "Private Equity"
+    ],
+    "shortDescription": "GE Aerospace agreed to acquire Consolidated Precision Products from Warburg Pincus and Berkshire Partners for $11.75B, financed with $7B cash and the rest in new debt. CPP makes superalloy, titanium and aluminum castings for commercial and military aircraft, helicopters and weapon systems across 20+ facilities and ~6,600 employees; close is expected in 2H 2027.",
+    "whyItMatters": "A prime paying twelve figures to vertically integrate a castings supplier is the clearest signal yet that upstream capacity, not design, is the binding constraint on aerospace and munitions output. Also a big PE exit worth noting for anyone modeling defense industrial-base valuations.",
+    "relevanceScore": 76,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "GE Aerospace",
+      "Consolidated Precision Products",
+      "Warburg Pincus",
+      "Berkshire Partners"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Capital Formation"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-09-09T22:45:57.654Z",
+    "updatedAt": "2026-09-09T22:45:57.654Z"
   }
 ]
