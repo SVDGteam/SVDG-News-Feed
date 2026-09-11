@@ -14497,5 +14497,251 @@
     "reactions": {},
     "createdAt": "2026-09-09T22:45:57.654Z",
     "updatedAt": "2026-09-09T22:45:57.654Z"
+  },
+  {
+    "id": "b8da2750-036f-48bf-965a-1574720d03fc",
+    "title": "Mach Industries Raises Another $600M, Doubling Its Valuation to $3.7B in Three Months",
+    "url": "https://www.tectonicdefense.com/mach-industries-raises-an-additional-600m-boosts-valuation-to-3-7b/",
+    "source": "Tectonic",
+    "datePublished": "2026-09-10",
+    "dateAdded": "2026-09-11",
+    "categories": [
+      "Investor News",
+      "Industry News"
+    ],
+    "tags": [
+      "Venture Capital",
+      "Munitions",
+      "Autonomy",
+      "Industrial Base"
+    ],
+    "shortDescription": "Mach Industries added a $600M Series C extension at a $3.7B valuation, up from $1.8B in its June Series C, with Ribbit, Infinite, Bedrock, and Sequoia all doubling down. Total funding now tops $1B, earmarked for long-range strike, counter-UAS, and manufacturing scale-up.",
+    "whyItMatters": "A fourfold valuation jump in about a year on a comparatively thin public contract record is the clearest read yet on how much conviction capital is willing to price into pre-revenue defense manufacturing. Worth watching as a bellwether for where late-stage defense tech valuations settle.",
+    "relevanceScore": 95,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Mach Industries",
+      "Ribbit Capital",
+      "Infinite Capital",
+      "Bedrock",
+      "Sequoia",
+      "Divergent",
+      "Exquadrum"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Capital Formation",
+      "NatSec100"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-09-11T03:20:16.716Z",
+    "updatedAt": "2026-09-11T03:20:16.716Z"
+  },
+  {
+    "id": "19a3497f-9481-48cf-b87b-3d54032ff001",
+    "title": "Army Advances Lockheed and Boeing-Anduril Teams to Next Phase of IFPC Increment 2 Interceptor Competition",
+    "url": "https://breakingdefense.com/2026/09/army-selects-lockheed-boeing-anduril-team-for-next-phase-in-ifpc-inc-2-competition/",
+    "source": "Breaking Defense",
+    "datePublished": "2026-09-09",
+    "dateAdded": "2026-09-11",
+    "categories": [
+      "Industry News",
+      "Government News"
+    ],
+    "tags": [
+      "Munitions",
+      "Acquisition Reform",
+      "Industrial Base",
+      "DoD"
+    ],
+    "shortDescription": "The Army moved Lockheed Martin and the Boeing-Anduril team into Phase 2 of the IFPC Increment 2 Second Interceptor competition, cutting Rafael's US subsidiary. Phase 2 covers detailed design, integration, and a competitive demonstration against Army requirements.",
+    "whyItMatters": "A neoprime and a traditional prime advancing as one team is the partnership model people keep predicting, actually surviving a downselect. It also puts Anduril's Mississippi solid rocket motor line on the critical path of a real Army air-defense program.",
+    "relevanceScore": 86,
+    "scoreBreakdown": {
+      "recency": 25,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Anduril",
+      "Boeing",
+      "Lockheed Martin",
+      "AeroVironment",
+      "Rafael",
+      "Leidos Dynetics",
+      "RTX"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "NatSec100"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-09-11T03:20:16.726Z",
+    "updatedAt": "2026-09-11T03:20:16.726Z"
+  },
+  {
+    "id": "914c9bd7-6532-4f11-930d-e8eee1e51b2b",
+    "title": "Lockheed Martin Wins $950M to Sustain and Expand Australia's AIR6500 Air Battle Management System",
+    "url": "https://breakingdefense.com/2026/09/lockheed-martin-secures-950m-australian-air-battle-management-contract/",
+    "source": "Breaking Defense",
+    "datePublished": "2026-09-09",
+    "dateAdded": "2026-09-11",
+    "categories": [
+      "International",
+      "Industry News"
+    ],
+    "tags": [
+      "C2",
+      "AUKUS",
+      "Industrial Base",
+      "Cyber"
+    ],
+    "shortDescription": "Australia awarded Lockheed Martin Australia a A$1.32B ($950M) Tranche 2B contract to sustain and expand the AIR6500 joint air battle management system, adding C2 aids, expanded comms, and cyber hardening. It sits inside a A$2.4B, six-year air surveillance modernization push.",
+    "whyItMatters": "AIR6500 is the connective tissue between Australia's Hobart-class destroyers, F-35As, and ground-based air defense — and increasingly with allied targeting enterprises. Tranche 2B is where the integration opportunities for non-traditional suppliers start to show up.",
+    "relevanceScore": 71,
+    "scoreBreakdown": {
+      "recency": 25,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "Australia",
+    "sponsorName": "Lockheed Martin Ventures",
+    "companyMentions": [
+      "Lockheed Martin Australia",
+      "Leidos Australia"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "International / Australia"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-09-11T03:20:16.729Z",
+    "updatedAt": "2026-09-11T03:20:16.729Z"
+  },
+  {
+    "id": "35934625-0971-4642-8715-097734b39dd2",
+    "title": "Arlequin AI Raises €28M Series A for Topological Neural Networks Aimed at Defense and Intelligence",
+    "url": "https://www.tectonicdefense.com/arlequin-raises-e28m-for-topological-neural-networks/",
+    "source": "Tectonic",
+    "datePublished": "2026-09-10",
+    "dateAdded": "2026-09-11",
+    "categories": [
+      "International",
+      "Investor News"
+    ],
+    "tags": [
+      "AI",
+      "Venture Capital"
+    ],
+    "shortDescription": "Paris-based Arlequin AI closed a €28M ($32.6M) Series A co-led by redalpine and OTB Ventures, with Bpifrance's Defence Innovation Fund participating, to scale non-LLM topological neural networks that model relationships across large, fragmented datasets. The company says governments across Western and Eastern Europe already use it.",
+    "whyItMatters": "A rare European AI bet that isn't another LLM wrapper — TNNs are built for exactly the ISR and HUMINT link-analysis problems where LLMs are a poor fit, and they run smaller at the edge. Also a useful datapoint on Bpifrance's defense fund getting active alongside private capital.",
+    "relevanceScore": 76,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "Europe",
+    "companyMentions": [
+      "Arlequin AI",
+      "redalpine",
+      "OTB Ventures",
+      "Bpifrance",
+      "Vsquared Ventures",
+      "10x Founders"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Capital Formation"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-09-11T03:20:16.729Z",
+    "updatedAt": "2026-09-11T03:20:16.729Z"
+  },
+  {
+    "id": "0b2ccc6e-880f-4015-8815-99e0057af8a8",
+    "title": "TrustPoint Orders 40 Satellites From EnduroSat for GPS-Independent C-Band PNT Constellation",
+    "url": "https://payloadspace.com/trustpoint-taps-endurosat-to-build-40-sat-gnss-constellation/",
+    "source": "Payload",
+    "datePublished": "2026-09-10",
+    "dateAdded": "2026-09-11",
+    "categories": [
+      "Industry News"
+    ],
+    "tags": [
+      "Space",
+      "C2",
+      "Industrial Base"
+    ],
+    "shortDescription": "TrustPoint contracted EnduroSat US to build 40 microsatellites in three batches for its commercial C-band, LEO-based GNSS service, with first launches NET 2027 and the full constellation targeted within 24-30 months. The order takes its planned fleet to 47 spacecraft.",
+    "whyItMatters": "Moving from demos to a 40-satellite production order is the point where commercial alt-PNT stops being a science project. In a GPS-jamming environment, a privately funded, L-band-independent alternative at low-six-figure per-satellite cost is a genuinely different procurement conversation for DoD.",
+    "relevanceScore": 70,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 0,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "TrustPoint",
+      "EnduroSat",
+      "SpaceWERX"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-09-11T03:20:16.729Z",
+    "updatedAt": "2026-09-11T03:20:16.729Z"
   }
 ]
