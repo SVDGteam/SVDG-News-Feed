@@ -14743,5 +14743,252 @@
     "reactions": {},
     "createdAt": "2026-09-11T03:20:16.729Z",
     "updatedAt": "2026-09-11T03:20:16.729Z"
+  },
+  {
+    "id": "97ab7529-2b62-4405-b8fc-a561877fc3d1",
+    "title": "Antares Wins $161M Air Force Award for Space Nuclear Power",
+    "url": "https://payloadspace.com/antares-wins-161m-award-for-space-nuclear-power/",
+    "source": "Payload",
+    "datePublished": "2026-09-11",
+    "dateAdded": "2026-09-11",
+    "categories": [
+      "Sponsor News",
+      "Industry News",
+      "Government News"
+    ],
+    "tags": [
+      "Nuclear",
+      "Energy",
+      "Space",
+      "DoD",
+      "Sponsor"
+    ],
+    "shortDescription": "SVDG sponsor Antares (Antares Nuclear) won a $161M Strategic Breakthrough award from the Air Force's space acquisition office to ground-demonstrate its R1-S heat-pipe microreactor and integrate it with a spacecraft for flight certification. Antares says it's the largest DoD space nuclear award to date, and it follows a $470M Series C in July and June's first-ever private advanced reactor criticality at INL.",
+    "whyItMatters": "This is a sponsor putting real distance between itself and the rest of the microreactor field — and it's the clearest signal yet that the 2028 space-reactor push in the Space Superiority EO has money behind it, not just deadlines. Worth tracking as a template for how a venture-backed nuclear company stacks DIU, SpaceWERX, Army, and now SAF/SQ awards into a real program.",
+    "relevanceScore": 100,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 10
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "sponsorName": "Antares Industries",
+    "companyMentions": [
+      "Antares Industries",
+      "Antares Nuclear"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Sponsor Engagement",
+      "NatSec100"
+    ],
+    "sponsorNatSec100Relevance": "Direct",
+    "reactions": {},
+    "createdAt": "2026-09-11T19:14:31.104Z",
+    "updatedAt": "2026-09-11T19:14:31.104Z"
+  },
+  {
+    "id": "7a344ab8-5440-4083-ba85-199578246f85",
+    "title": "Swarmer Agrees to Buy Ukrainian UGV Maker Ratel Robotics for Up to $224M",
+    "url": "https://www.tectonicdefense.com/swarmer-agrees-to-buy-ratel-robotics-for-224m/",
+    "source": "Tectonic",
+    "datePublished": "2026-09-11",
+    "dateAdded": "2026-09-11",
+    "categories": [
+      "Industry News",
+      "International"
+    ],
+    "tags": [
+      "Drones",
+      "Robotics",
+      "Autonomy",
+      "Defense Startup"
+    ],
+    "shortDescription": "Nasdaq-listed Swarmer ($SWMR) signed a definitive agreement to acquire Ukrainian unmanned ground vehicle maker Ratel Robotics for up to $224M in cash and stock — $7.2M at close plus earnouts through 2028. Ratel has booked $86M in contracts this year and accounted for roughly 37% of Ukrainian MoD UGV procurement spend in early 2026. It's Swarmer's first acquisition since Erik Prince became chair and the company's March IPO.",
+    "whyItMatters": "A combat-proven Ukrainian rollup financed off public-market currency is a new playbook — and one worth watching, since the post-IPO defense tech cohort now has acquisition capacity that private peers don't. The cross-domain logic (UGVs as launch platforms for UAVs and interceptors) is also where a lot of autonomy roadmaps are converging.",
+    "relevanceScore": 91,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "Other",
+    "companyMentions": [
+      "Swarmer",
+      "Ratel Robotics"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Capital Formation"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-09-11T19:14:31.105Z",
+    "updatedAt": "2026-09-11T19:14:31.105Z"
+  },
+  {
+    "id": "5a268b86-9538-4f69-8223-0603a3447e18",
+    "title": "Havoc Inks Autonomy Deal With Taiwanese Shipbuilder CSBC",
+    "url": "https://www.tectonicdefense.com/havoc-heads-to-taiwan/",
+    "source": "Tectonic",
+    "datePublished": "2026-09-11",
+    "dateAdded": "2026-09-11",
+    "categories": [
+      "Industry News",
+      "International"
+    ],
+    "tags": [
+      "Maritime",
+      "Autonomy",
+      "NDAA",
+      "Industrial Base"
+    ],
+    "shortDescription": "Havoc signed an open-ended agreement with Taiwanese shipbuilding giant CSBC to put its collaborative autonomy software on CSBC-built unmanned surface vessels, starting with small USVs and potentially extending to the 28-foot Endeavor Manta. It's the latest in a run of US maritime autonomy tie-ups with Taiwan alongside Saronic, Vatn, Shield AI, and Anduril.",
+    "whyItMatters": "Section 1266 of the FY26 NDAA told the Pentagon to treat Taiwan as a co-development and co-production partner on uncrewed systems, and this is what that looks like in practice — software from the US, hulls built locally. A useful case study for anyone thinking about allied industrial base strategy beyond AUKUS.",
+    "relevanceScore": 95,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "Other",
+    "companyMentions": [
+      "Havoc",
+      "CSBC",
+      "Lockheed Martin",
+      "Hanwha",
+      "Saronic",
+      "Shield AI",
+      "Anduril"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Policy",
+      "Industry Council"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-09-11T19:14:31.105Z",
+    "updatedAt": "2026-09-11T19:14:31.105Z"
+  },
+  {
+    "id": "26e552c0-71d7-4728-ba3b-df91ab289101",
+    "title": "RTX Ventures Invests in Xcimer Energy and Teams on Pulsed Laser Air Defense",
+    "url": "https://seekingalpha.com/news/4641640-rtx-backs-xcimer-s-laser-technology-for-lower-cost-drone-defense",
+    "source": "Seeking Alpha",
+    "datePublished": "2026-09-10",
+    "dateAdded": "2026-09-11",
+    "categories": [
+      "Sponsor News",
+      "Investor News",
+      "Industry News"
+    ],
+    "tags": [
+      "Energy",
+      "Venture Capital",
+      "Drones",
+      "Dual-Use"
+    ],
+    "shortDescription": "SVDG sponsor RTX Ventures took a minority stake in Denver laser-fusion startup Xcimer Energy, paired with a roughly $50M development and teaming agreement to containerize Xcimer's multi-kilojoule pulsed UV laser for counter-drone and counter-missile defense. The companies are targeting a mobile, shipping-container-sized prototype within about two years.",
+    "whyItMatters": "Textbook dual-use: the same excimer laser architecture Xcimer needs for fusion is what makes deep-magazine directed energy affordable, and RTX gets to buy the option rather than build it. Also a good data point on corporate venture arms doing strategic investment plus teaming agreement together instead of picking one.",
+    "relevanceScore": 93,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 8,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 10
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "sponsorName": "RTX Ventures",
+    "companyMentions": [
+      "RTX",
+      "RTX Ventures",
+      "Xcimer Energy"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "Medium",
+    "workstreams": [
+      "Sponsor Engagement",
+      "Capital Formation"
+    ],
+    "sponsorNatSec100Relevance": "Direct",
+    "reactions": {},
+    "createdAt": "2026-09-11T19:14:31.105Z",
+    "updatedAt": "2026-09-11T19:14:31.105Z"
+  },
+  {
+    "id": "33bd0eff-7656-4ca4-8eb6-f88872558ebb",
+    "title": "a16z Opens American Dynamism Regional Headquarters in West Palm Beach",
+    "url": "https://therealdeal.com/miami/2026/09/10/andreessen-horowitz-leases-sofla-office-from-related-ross/",
+    "source": "The Real Deal",
+    "datePublished": "2026-09-10",
+    "dateAdded": "2026-09-11",
+    "categories": [
+      "Investor News"
+    ],
+    "tags": [
+      "Venture Capital",
+      "Defense Startup",
+      "Dual-Use"
+    ],
+    "shortDescription": "Andreessen Horowitz leased space in CityPlace Tower in downtown West Palm Beach as a regional headquarters for its $1.18B American Dynamism practice. Katherine Boyle framed the move around being close to founders building in Florida across defense, aerospace, industrials, and public safety.",
+    "whyItMatters": "The largest dedicated American Dynamism pool of capital planting a second flag outside the Bay Area is a real signal about where defense tech company formation is spreading. Relevant for how SVDG thinks about its own geographic footprint and which regional ecosystems members should be watching.",
+    "relevanceScore": 69,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 8,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Andreessen Horowitz",
+      "Related Ross"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "Medium",
+    "workstreams": [
+      "Capital Formation"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-09-11T19:14:31.105Z",
+    "updatedAt": "2026-09-11T19:14:31.105Z"
   }
 ]
