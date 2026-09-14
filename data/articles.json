@@ -14990,5 +14990,248 @@
     "reactions": {},
     "createdAt": "2026-09-11T19:14:31.105Z",
     "updatedAt": "2026-09-11T19:14:31.105Z"
+  },
+  {
+    "id": "d0a1abc6-2ab7-45a9-84cf-991093804b0f",
+    "title": "Swarm Aero Unveils Gamera, a $10M Group 5 Drone Aimed at the Air Force's Massed Modular Aircraft Program",
+    "url": "https://www.tectonicdefense.com/meet-gamera-swarm-aeros-bid-for-the-air-forces-massed-modular-aircraft-program/",
+    "source": "Tectonic",
+    "datePublished": "2026-09-14",
+    "dateAdded": "2026-09-14",
+    "categories": [
+      "Industry News"
+    ],
+    "tags": [
+      "Drones",
+      "Autonomy",
+      "Defense Startup",
+      "DIU",
+      "Munitions"
+    ],
+    "shortDescription": "Swarm Aero came out of four years of quiet development to unveil Gamera, a 72-foot-wingspan turboprop drone with a 2,800lb payload and JASSM-ER-class strike capability, pitched at the Air Force and DIU's Massed Modular Aircraft program at a target price under $10M per aircraft.",
+    "whyItMatters": "MMA is shaping up to be the clearest startup-versus-prime fight of the year — Swarm dropped Gamera a week after General Atomics revealed its Wildfire bid for the same program. The Air Force wants 180 of these flying by 2029, and whoever wins sets the price benchmark for attritable long-range strike.",
+    "relevanceScore": 95,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Swarm Aero",
+      "General Atomics Aeronautical Systems",
+      "Honeywell Aerospace"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "NatSec100",
+      "Industry Council"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-09-14T14:47:03.195Z",
+    "updatedAt": "2026-09-14T14:47:03.195Z"
+  },
+  {
+    "id": "2e5158f0-12b6-4b98-b2dd-64e8eed7ee94",
+    "title": "Merlin and Textron Aviation Team on an Autonomous Cessna SkyCourier for Contested Logistics",
+    "url": "https://www.tectonicdefense.com/merlin-and-textron-unveil-skycourier-ux/",
+    "source": "Tectonic",
+    "datePublished": "2026-09-14",
+    "dateAdded": "2026-09-14",
+    "categories": [
+      "Industry News"
+    ],
+    "tags": [
+      "Autonomy",
+      "Dual-Use",
+      "Supply Chain",
+      "Defense Startup"
+    ],
+    "shortDescription": "Flight autonomy startup Merlin and Textron Aviation unveiled the Cessna SkyCourier UX, a concept aircraft pairing Merlin's Pilot autonomy stack with the existing SkyCourier airframe for uncrewed resupply into contested or austere environments.",
+    "whyItMatters": "A clean example of the retrofit-over-clean-sheet thesis: Merlin is betting that bolting autonomy onto certified, already-produced airframes beats building new ones, and it just got a major OEM to co-sign that. Contested logistics is one of the Pentagon's six critical technology areas, so expect more startup-prime pairings in this lane.",
+    "relevanceScore": 76,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Merlin",
+      "Textron Aviation"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Industry Council"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-09-14T14:47:03.196Z",
+    "updatedAt": "2026-09-14T14:47:03.196Z"
+  },
+  {
+    "id": "337ab420-3a8e-45f8-a358-acb1aec025e6",
+    "title": "Open Cosmos Raises €300M in One of Europe's Largest Space Growth Rounds",
+    "url": "https://payloadspace.com/open-cosmos-raises-e300m-funding-round/",
+    "source": "Payload",
+    "datePublished": "2026-09-14",
+    "dateAdded": "2026-09-14",
+    "categories": [
+      "International",
+      "Investor News"
+    ],
+    "tags": [
+      "Space",
+      "Venture Capital",
+      "Industrial Base"
+    ],
+    "shortDescription": "European satellite manufacturer Open Cosmos closed a €300M ($348.6M) round led by Lightrock with participation from ETF Partners, Institut Català de Finances, Entrepreneurs First, and the UK's National Security Strategic Investment Fund, funding expansion across its four European factories.",
+    "whyItMatters": "The second nine-figure European space round in two weeks, after The Exploration Company's $450M. Europe has never had a problem writing seed checks — it has had a problem writing growth checks, and that's visibly changing. Worth watching as a template for allied capital formation outside the US.",
+    "relevanceScore": 80,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "Europe",
+    "companyMentions": [
+      "Open Cosmos",
+      "Lightrock",
+      "ETF Partners",
+      "Entrepreneurs First",
+      "Claret Capital Partners"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Capital Formation",
+      "International / Australia"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-09-14T14:47:03.196Z",
+    "updatedAt": "2026-09-14T14:47:03.196Z"
+  },
+  {
+    "id": "f037cb64-a43b-4eb4-8be7-ea0f1a231e27",
+    "title": "CesiumAstro Signs $300M EXIM Credit Agreement, First Company to Get a Second Make More in America Loan",
+    "url": "https://www.cesiumastro.com/press-release/cesiumastro-puts-manufacturing-on-display-for-exim",
+    "source": "CesiumAstro",
+    "datePublished": "2026-09-09",
+    "dateAdded": "2026-09-14",
+    "categories": [
+      "Sponsor News",
+      "Industry News"
+    ],
+    "tags": [
+      "Space",
+      "Manufacturing",
+      "Industrial Base",
+      "Sponsor"
+    ],
+    "shortDescription": "EXIM Bank President John Jovanovic and CesiumAstro CEO Shey Sabripour signed a $300M credit agreement at the company's future Austin-area headquarters, plus a $20M J.P. Morgan revolver. It is the largest deal EXIM has approved under its Make More in America Initiative and the first second loan any company has received under the program.",
+    "whyItMatters": "SVDG sponsor, and a useful proof point that export-credit financing is becoming a real balance-sheet tool for defense-adjacent hardware companies — not just venture and program dollars. Sits on top of the $500M Texas expansion and this year's Vidrovr, Jariet, and 1Aardvark acquisitions.",
+    "relevanceScore": 88,
+    "scoreBreakdown": {
+      "recency": 25,
+      "svdgRelevance": 35,
+      "sourceQuality": 8,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 10
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "sponsorName": "CesiumAstro",
+    "companyMentions": [
+      "CesiumAstro",
+      "Export-Import Bank of the United States",
+      "JPMorgan Chase & Co."
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "Medium",
+    "workstreams": [
+      "Sponsor Engagement",
+      "Capital Formation"
+    ],
+    "sponsorNatSec100Relevance": "Direct",
+    "reactions": {},
+    "createdAt": "2026-09-14T14:47:03.196Z",
+    "updatedAt": "2026-09-14T14:47:03.196Z"
+  },
+  {
+    "id": "db000950-ee13-41a3-bf8b-8f12879e4816",
+    "title": "Department of War Commits $450M to Elmet Group for Domestic Tungsten, Paired With a $2B DLA Stockpile Contract",
+    "url": "https://www.war.gov/News/Releases/Release/Article/4599882/department-of-war-announces-a-450-million-investment-in-the-elmet-group-to-secu/",
+    "source": "U.S. Department of War",
+    "datePublished": "2026-09-14",
+    "dateAdded": "2026-09-14",
+    "categories": [
+      "Government News"
+    ],
+    "tags": [
+      "Industrial Base",
+      "Supply Chain",
+      "Manufacturing",
+      "DoD"
+    ],
+    "shortDescription": "The Department of War committed $450M to The Elmet Group to expand domestic tungsten manufacturing and mining, taking redeemable preferred equity and warrants for up to 19.9% of common stock. Separately, DLA awarded Elmet Technologies an IDIQ worth up to $2B to rebuild the National Defense Stockpile.",
+    "whyItMatters": "Another equity-plus-offtake deal in the mold of the MP Materials playbook — the government is increasingly acting like an anchor investor rather than just a customer. For anyone tracking capital formation in the industrial base, the structure here (preferred equity, warrants, guaranteed floor contract) is the thing to study, not the headline number.",
+    "relevanceScore": 90,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 0
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "The Elmet Group",
+      "Elmet Technologies",
+      "Defense Logistics Agency"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Policy",
+      "Capital Formation"
+    ],
+    "sponsorNatSec100Relevance": "None",
+    "reactions": {},
+    "createdAt": "2026-09-14T14:47:03.196Z",
+    "updatedAt": "2026-09-14T14:47:03.196Z"
   }
 ]
