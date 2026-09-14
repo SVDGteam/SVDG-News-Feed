@@ -15233,5 +15233,238 @@
     "reactions": {},
     "createdAt": "2026-09-14T14:47:03.196Z",
     "updatedAt": "2026-09-14T14:47:03.196Z"
+  },
+  {
+    "id": "e2ece15e-e2be-4db8-a166-32f0742a6d01",
+    "title": "York Space Revealed as Prime Contractor for Tomorrow.io's $187M DeepSky Weather Constellation",
+    "url": "https://www.satellitetoday.com/imagery-and-sensing/2026/09/10/york-space-to-build-tomorrow-ios-next-gen-deepsky-constellation/",
+    "source": "Via Satellite",
+    "datePublished": "2026-09-10",
+    "dateAdded": "2026-09-14",
+    "categories": [
+      "Industry News"
+    ],
+    "tags": [
+      "Space",
+      "Manufacturing",
+      "Defense Startup"
+    ],
+    "shortDescription": "Tomorrow.io named York Space Systems as prime contractor for the first phase of DeepSky, its second-generation weather constellation, under a $187M contract covering dozens of M-CLASS satellites. The contract was disclosed back in March, but the customer wasn't named until now.",
+    "whyItMatters": "York owning end-to-end delivery — manufacture through payload integration — is a real step up from bus supplier to prime, and it's a useful datapoint on commercial constellations becoming a volume business for emerging space manufacturers. Worth watching as a template for how DoD might buy proliferated weather and ISR capacity.",
+    "relevanceScore": 71,
+    "scoreBreakdown": {
+      "recency": 25,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "York Space Systems",
+      "Tomorrow.io"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "NatSec100"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-09-14T15:04:29.046Z",
+    "updatedAt": "2026-09-14T15:04:29.046Z"
+  },
+  {
+    "id": "7b10477c-f404-4e9e-b4e1-32b5a408feeb",
+    "title": "Firehawk Aerospace in Talks to Raise $100-200M at a $1.25B Valuation",
+    "url": "https://www.bloomberg.com/news/articles/2026-09-11/1789-capital-backed-firehawk-seeks-funds-at-1-25-billion-value",
+    "source": "Bloomberg",
+    "datePublished": "2026-09-11",
+    "dateAdded": "2026-09-14",
+    "categories": [
+      "Investor News",
+      "Industry News"
+    ],
+    "tags": [
+      "Venture Capital",
+      "Munitions",
+      "Industrial Base",
+      "Defense Startup"
+    ],
+    "shortDescription": "Dallas-based Firehawk Aerospace, which builds rocket motors around a 3D-printed propellant, is in talks for a $100-200M private round at a $1.25B valuation. Rochefort Asset Management is leading, with existing backer 1789 Capital expected to participate; terms are still moving.",
+    "whyItMatters": "Firehawk crossing unicorn territory on solid rocket motors is a clean read on where capital is flowing right now — propellant and munitions capacity, not just software. Note Rochefort is moving from a senior secured loan in April to leading equity, which is the kind of debt-to-equity progression the capital formation crowd should be tracking.",
+    "relevanceScore": 90,
+    "scoreBreakdown": {
+      "recency": 25,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Firehawk Aerospace",
+      "Rochefort Asset Management",
+      "1789 Capital"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Capital Formation",
+      "NatSec100"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-09-14T15:04:29.046Z",
+    "updatedAt": "2026-09-14T15:04:29.046Z"
+  },
+  {
+    "id": "fd87d1d4-6f4c-4860-93a5-3e16e3a78654",
+    "title": "Poland and ICEYE Launch 'Polish Starlink' MILSATCOM Effort with State Defense Group PGZ",
+    "url": "https://www.c4isrnet.com/global/europe/2026/09/11/polish-prime-minister-poland-to-develop-its-own-starlink/",
+    "source": "C4ISRNET",
+    "datePublished": "2026-09-11",
+    "dateAdded": "2026-09-14",
+    "categories": [
+      "International",
+      "Government News"
+    ],
+    "tags": [
+      "Space",
+      "NATO",
+      "Industrial Base"
+    ],
+    "shortDescription": "ICEYE and state-owned PGZ signed a letter of intent at MSPO 2026 to jointly develop a sovereign military satcom system for the Polish Armed Forces, running 2026-2030. ICEYE handles architecture, manufacture and operations; PGZ brings domestic industrial and ground infrastructure. Prime Minister Tusk framed the end state as 'a Polish Starlink.'",
+    "whyItMatters": "This is European sovereign-capability logic applied to satcom, and it's a commercially-born company — not a legacy prime — getting handed the architecture. Still an LoI with no budget attached, so treat the timeline skeptically, but it's a strong signal for allied dual-use players eyeing European defense budgets.",
+    "relevanceScore": 90,
+    "scoreBreakdown": {
+      "recency": 25,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "Europe",
+    "companyMentions": [
+      "ICEYE",
+      "Polska Grupa Zbrojeniowa (PGZ)"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "International / Australia",
+      "Policy"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-09-14T15:04:29.046Z",
+    "updatedAt": "2026-09-14T15:04:29.046Z"
+  },
+  {
+    "id": "f79d89dc-afe8-4bbb-8f64-2cf561692e7f",
+    "title": "KPMG Takes Minority Stake in Deepfake Detection Firm Reality Defender",
+    "url": "https://www.biometricupdate.com/202609/kpmg-investment-in-reality-defender-backs-hiring-spree-to-fight-deepfakes",
+    "source": "Biometric Update",
+    "datePublished": "2026-09-10",
+    "dateAdded": "2026-09-14",
+    "categories": [
+      "Investor News"
+    ],
+    "tags": [
+      "AI",
+      "Cyber",
+      "Venture Capital",
+      "Dual-Use"
+    ],
+    "shortDescription": "KPMG LLP acquired a minority equity stake in Reality Defender, which does real-time multimodal deepfake detection across voice and video. Terms weren't disclosed. KPMG plans to fold the capability into its cyber and fraud-prevention practices.",
+    "whyItMatters": "A Big Four firm taking equity rather than just reselling is a distribution play worth noting — it's the professional-services channel becoming a route to scale for dual-use security startups. Relevant for anyone thinking about non-traditional paths to government and enterprise adoption.",
+    "relevanceScore": 64,
+    "scoreBreakdown": {
+      "recency": 25,
+      "svdgRelevance": 20,
+      "sourceQuality": 8,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Reality Defender",
+      "KPMG"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "Medium",
+    "workstreams": [
+      "Capital Formation"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-09-14T15:04:29.046Z",
+    "updatedAt": "2026-09-14T15:04:29.046Z"
+  },
+  {
+    "id": "8bc96128-ba56-475a-aea6-d01b2905193f",
+    "title": "Rocket Lab Files GAO Protest Over NASA's $700M Mars Telecom Award to Blue Origin",
+    "url": "http://satnews.com/2026/09/14/rocket-lab-files-gao-bid-protest-over-nasas-700m-mars-orbiter-award-to-blue-origin/",
+    "source": "SatNews",
+    "datePublished": "2026-09-14",
+    "dateAdded": "2026-09-14",
+    "categories": [
+      "Government News",
+      "Industry News"
+    ],
+    "tags": [
+      "Space",
+      "Acquisition Reform"
+    ],
+    "shortDescription": "Rocket Lab filed a bid protest with GAO on September 11 challenging NASA's award of the up-to-$700M Mars Telecommunications Network to Blue Origin, arguing the selection didn't follow congressionally mandated eligibility criteria and that its technical proposal was reviewed inconsistently. The filing triggers an automatic stay on performance, with a GAO ruling due by mid-December.",
+    "whyItMatters": "Protests are the acquisition system's pressure valve, and this one turns on statutory eligibility criteria rather than the usual evaluation quibbles — worth watching for how GAO reads congressional intent. Also a neat role reversal: Blue Origin protested the SpaceX HLS award in 2021 and is now on the receiving end.",
+    "relevanceScore": 69,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 8,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Rocket Lab",
+      "Blue Origin",
+      "NASA"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "Medium",
+    "workstreams": [
+      "Policy"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-09-14T15:04:29.046Z",
+    "updatedAt": "2026-09-14T15:04:29.046Z"
   }
 ]
