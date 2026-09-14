@@ -15466,5 +15466,144 @@
     "reactions": {},
     "createdAt": "2026-09-14T15:04:29.046Z",
     "updatedAt": "2026-09-14T15:04:29.046Z"
+  },
+  {
+    "id": "3e2c5dfd-b551-4a9f-8fbb-1518c2d0c65b",
+    "title": "Pentagon Seeks $1.5B Reprogramming for Top-Secret AI Compute Center and MV-75 Tiltrotor",
+    "url": "https://breakingdefense.com/2026/09/pentagons-1-5b-reprogramming-would-shift-money-to-ai-center-mv-75-tiltrotor/",
+    "source": "Breaking Defense",
+    "datePublished": "2026-09-09",
+    "dateAdded": "2026-09-14",
+    "categories": [
+      "Government News"
+    ],
+    "tags": [
+      "AI",
+      "Budget",
+      "DoD",
+      "Congress",
+      "Industrial Base"
+    ],
+    "shortDescription": "The Pentagon has asked Congress to reroute roughly $1.5B in FY25 and FY26 funds, with the single largest line — $600M — going to immediately build and equip a top-secret high-performance AI compute center. Another ~$350M is headed to MV-75 RDT&E to keep Textron's program from a stop-work order, plus $40M for supply-chain cybersecurity.",
+    "whyItMatters": "Reprogramming requests are where the Department's real priorities show up between budget cycles, and a $600M emergency line for classified AI compute is a loud signal about where DoD thinks the bottleneck is. Worth watching whether the defense committees approve it — and what it implies for commercial compute and AI infrastructure vendors.",
+    "relevanceScore": 86,
+    "scoreBreakdown": {
+      "recency": 25,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Textron"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Policy"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-09-14T19:12:18.421Z",
+    "updatedAt": "2026-09-14T19:12:18.421Z"
+  },
+  {
+    "id": "b7dcba56-a498-49ea-b816-d82a64558c3c",
+    "title": "DIU Program Aims to Get Companies onto Classified Sites Sooner",
+    "url": "https://www.nationaldefensemagazine.org/articles/2026/9/10/diu-program-hopes-to-get-companies-onto-classified-sites-sooner",
+    "source": "National Defense Magazine",
+    "datePublished": "2026-09-10",
+    "dateAdded": "2026-09-14",
+    "categories": [
+      "Government News",
+      "Industry News"
+    ],
+    "tags": [
+      "DIU",
+      "Defense Startup",
+      "Dual-Use",
+      "Acquisition Reform",
+      "Software"
+    ],
+    "shortDescription": "Under DIU's new Bridge Program, Nooks won a four-year contract with a $146.8M ceiling to run shared classified workspaces and managed security for DIU portfolio companies. The award funds new sites in Austin, Boston, Chicago, New York, the Bay Area, and Honolulu, expanding the network to ten markets.",
+    "whyItMatters": "Clearance and SCIF access is one of the most-cited reasons commercial companies stall out after winning a DIU award — this is DoD paying to remove that barrier at the ecosystem level rather than company by company. Directly relevant to NatSec100 firms and any SVDG member trying to get from award to classified execution.",
+    "relevanceScore": 90,
+    "scoreBreakdown": {
+      "recency": 25,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Nooks",
+      "Defense Innovation Unit"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "NatSec100",
+      "Policy"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-09-14T19:12:18.421Z",
+    "updatedAt": "2026-09-14T19:12:18.421Z"
+  },
+  {
+    "id": "58d0fe02-5898-46df-99e0-5430aea12df7",
+    "title": "This Is Not Your Father's Nuclear Flight Test Vehicle",
+    "url": "https://warontherocks.com/cogs-of-war/this-is-not-your-fathers-nuclear-flight-test-vehicle/",
+    "source": "War on the Rocks",
+    "author": "Brandon Williams",
+    "datePublished": "2026-09-14",
+    "dateAdded": "2026-09-14",
+    "categories": [
+      "Opinions"
+    ],
+    "tags": [
+      "Nuclear",
+      "AI",
+      "Acquisition Reform",
+      "Industrial Base"
+    ],
+    "shortDescription": "A Cogs of War essay on the long-running tension in the US nuclear weapons enterprise between being 'responsive' to new threats and the multi-year engineering timelines thermonuclear warhead development demands — and how frontier AI models licensed to the national labs are being pitched as a way to compress that cycle.",
+    "whyItMatters": "This is the nuclear-enterprise version of the argument SVDG members make across every mission area: commercial AI compressing design and test cycles inside the most conservative corner of the government. Useful framing for anyone thinking about where frontier models actually get adopted in national security.",
+    "relevanceScore": 76,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Policy"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-09-14T19:12:18.421Z",
+    "updatedAt": "2026-09-14T19:12:18.421Z"
   }
 ]
