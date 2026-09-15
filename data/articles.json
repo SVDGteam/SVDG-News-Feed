@@ -15605,5 +15605,243 @@
     "reactions": {},
     "createdAt": "2026-09-14T19:12:18.421Z",
     "updatedAt": "2026-09-14T19:12:18.421Z"
+  },
+  {
+    "id": "2e591153-0668-400b-866a-7789278759d3",
+    "title": "Space Force Has 'Space Control Weapons' On Orbit, Air Force Secretary Reveals",
+    "url": "https://breakingdefense.com/2026/09/space-force-has-space-control-weapons-on-orbit-air-force-secretary-says/",
+    "source": "Breaking Defense",
+    "author": "Michael Marrow",
+    "datePublished": "2026-09-14",
+    "dateAdded": "2026-09-15",
+    "categories": [
+      "Government News"
+    ],
+    "tags": [
+      "Space",
+      "DoD",
+      "Munitions"
+    ],
+    "shortDescription": "In his opening keynote at AFA's Air, Space & Cyber conference, Air Force Secretary Troy Meink said the Space Force 'now has on-orbit space control weapons capable of defending the joint force against hostile adversary action' — the first time a Pentagon official has publicly confirmed US weapons in orbit. He declined to say what type, how many, or when they launched, and later confirmed the phrasing was deliberate.",
+    "whyItMatters": "A deliberate declassification-by-keynote like this usually precedes budget and program signals. If space control is now something the Pentagon will say out loud, expect a wider aperture for on-orbit maneuver, servicing, and defensive payloads — and for commercial players who can build them fast.",
+    "relevanceScore": 91,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Anduril",
+      "General Atomics"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Policy"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-09-15T19:11:54.150Z",
+    "updatedAt": "2026-09-15T19:11:54.150Z"
+  },
+  {
+    "id": "152fd9ec-af01-4ba0-9345-0314922a1fa3",
+    "title": "Lockheed Boosts Bet on Skunk Works' Vectis Stealth Drone With Four More Company-Funded Prototypes",
+    "url": "https://breakingdefense.com/2026/09/lockheed-boosts-bet-on-skunk-works-vectis-stealth-drone/",
+    "source": "Breaking Defense",
+    "author": "Valerie Insinna",
+    "datePublished": "2026-09-14",
+    "dateAdded": "2026-09-15",
+    "categories": [
+      "Industry News"
+    ],
+    "tags": [
+      "Autonomy",
+      "Drones",
+      "Industrial Base"
+    ],
+    "shortDescription": "Lockheed Martin unveiled a full-scale model of its Vectis collaborative combat aircraft at AFA and said Skunk Works is building four more prototypes — five total, all company-funded, with no customer contract behind them. The tailless, submerged-inlet aircraft is 34 feet long with a 38-foot wingspan and is still on track to fly by the end of 2027.",
+    "whyItMatters": "A prime spending its own money to stay in a program it already lost is exactly the behavior venture-backed challengers forced into the market. With Meink now talking about 500+ CCAs by 2032 at roughly $20M each, Increment 2 is shaping up to be the real fight — and Lockheed is buying its way back to the table.",
+    "relevanceScore": 96,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 10
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "sponsorName": "Lockheed Martin Ventures",
+    "companyMentions": [
+      "Lockheed Martin",
+      "Anduril",
+      "General Atomics",
+      "Northrop Grumman",
+      "Shield AI"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "NatSec100"
+    ],
+    "sponsorNatSec100Relevance": "Direct",
+    "reactions": {},
+    "createdAt": "2026-09-15T19:11:54.150Z",
+    "updatedAt": "2026-09-15T19:11:54.150Z"
+  },
+  {
+    "id": "cb6269f1-ba17-47f8-8a6e-788b36dff9df",
+    "title": "Quantum Systems Enters the Maritime Domain With Seavex USV and Subvex UUV",
+    "url": "https://www.navalnews.com/naval-news/2026/09/quantum-systems-launches-maritime-domain-introducing-seavex-and-subvex",
+    "source": "Naval News",
+    "datePublished": "2026-09-15",
+    "dateAdded": "2026-09-15",
+    "categories": [
+      "International",
+      "Industry News"
+    ],
+    "tags": [
+      "Maritime",
+      "Autonomy",
+      "NATO",
+      "Drones"
+    ],
+    "shortDescription": "German autonomy company Quantum Systems launched a maritime business line with two new vehicles: Seavex, a surface vessel with up to two months of endurance that can launch, recover, and recharge UAVs and UUVs, and Subvex, an underwater vehicle rated to 6,000 meters. Both run on the company's MOSAIC UXS mission software and head to a NATO maritime exercise in Portugal in the coming weeks.",
+    "whyItMatters": "Quantum Systems has gone air-to-ground-to-sea in about 18 months on the back of a $1.2B Series D — a good look at how fast a well-capitalized European autonomy player can go multi-domain. The pitch isn't a new boat; it's one autonomy stack across all three domains, which is the same consolidation bet several NatSec100 companies are making.",
+    "relevanceScore": 76,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "Europe",
+    "companyMentions": [
+      "Quantum Systems",
+      "FERNRIDE",
+      "Tencore",
+      "Daimler"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "International / Australia"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-09-15T19:11:54.150Z",
+    "updatedAt": "2026-09-15T19:11:54.150Z"
+  },
+  {
+    "id": "58d9b8e9-b8f6-4ea8-a532-8cc02df1ab13",
+    "title": "Shield AI in Talks to Raise at a Valuation of at Least $20 Billion",
+    "url": "https://www.theinformation.com/articles/defense-startup-shield-ai-talks-valuation-least-20-billion",
+    "source": "The Information",
+    "datePublished": "2026-09-14",
+    "dateAdded": "2026-09-15",
+    "categories": [
+      "Investor News"
+    ],
+    "tags": [
+      "Venture Capital",
+      "Autonomy",
+      "NatSec100",
+      "Defense Startup"
+    ],
+    "shortDescription": "Shield AI is in talks for a new round at a valuation of at least $20B, up from the $12.7B it raised into six months ago with its $2B Series G. Revenue is reportedly tracking to roughly $540M this year, up more than 80%.",
+    "whyItMatters": "A ~60% valuation step-up in six months, on real revenue growth rather than narrative, is a useful data point for anyone arguing about whether defense tech multiples are froth. Shield AI is also now the autonomy stack under Anduril's CCA, which makes it a supplier to the program everyone is watching.",
+    "relevanceScore": 100,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 10
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Shield AI",
+      "Anduril"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Capital Formation",
+      "NatSec100"
+    ],
+    "sponsorNatSec100Relevance": "Direct",
+    "reactions": {},
+    "createdAt": "2026-09-15T19:11:54.150Z",
+    "updatedAt": "2026-09-15T19:11:54.150Z"
+  },
+  {
+    "id": "2a5b05d2-db43-4f03-825b-efffa34b74f6",
+    "title": "After Combat Success, AFSOC Wants New Leidos Cruise Missile on 'Every Type' of Platform",
+    "url": "https://breakingdefense.com/2026/09/after-combat-success-afsoc-wants-new-leidos-cruise-missile-on-every-type-of-platform/",
+    "source": "Breaking Defense",
+    "author": "Michael Marrow",
+    "datePublished": "2026-09-14",
+    "dateAdded": "2026-09-15",
+    "categories": [
+      "Government News",
+      "Industry News"
+    ],
+    "tags": [
+      "Munitions",
+      "Industrial Base",
+      "Acquisition Reform"
+    ],
+    "shortDescription": "After combat use from AC-130Js in Africa, Air Force Special Operations Command wants the 200-pound-class Leidos Havoc Spear cruise missile — part of the Family of Affordable Mass Missiles effort — integrated onto essentially every platform it can carry. Leidos says the weapon has a range of over 400 nautical miles.",
+    "whyItMatters": "Affordable mass munitions are the clearest place where 'cheap and many' is beating 'exquisite and few,' and combat validation is what turns that thesis into program dollars. Worth tracking for the munitions and solid rocket motor companies in the SVDG universe chasing exactly this demand signal.",
+    "relevanceScore": 76,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Leidos"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Policy"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-09-15T19:11:54.150Z",
+    "updatedAt": "2026-09-15T19:11:54.150Z"
   }
 ]
