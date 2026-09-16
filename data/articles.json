@@ -15843,5 +15843,245 @@
     "reactions": {},
     "createdAt": "2026-09-15T19:11:54.150Z",
     "updatedAt": "2026-09-15T19:11:54.150Z"
+  },
+  {
+    "id": "c1d0067a-5f60-4852-873e-0c680d9b7f2a",
+    "title": "Castelion's Blackbeard Moves into Production for the Navy's MACE Program",
+    "url": "https://www.tectonicdefense.com/castelions-blackbeard-moves-into-production-for-the-navys-mace-program/",
+    "source": "Tectonic",
+    "datePublished": "2026-09-16",
+    "dateAdded": "2026-09-16",
+    "categories": [
+      "Industry News",
+      "Government News"
+    ],
+    "tags": [
+      "Hypersonics",
+      "Munitions",
+      "Acquisition Reform",
+      "Defense Startup",
+      "NatSec100"
+    ],
+    "shortDescription": "The Navy awarded Castelion a production contract worth up to $200M to move its Blackbeard hypersonic strike missile into production under the MACE program, obligating $44M in a first tranche for 444 all-up rounds with $156M set aside in FY27.",
+    "whyItMatters": "This is the clearest proof point yet that a venture-backed startup can go clean-sheet to production on a hypersonic weapon in roughly three years — a direct rebuttal to the argument that nontraditionals can't carry a program of record. Worth tracking as an acquisition-reform case study, not just a contract.",
+    "relevanceScore": 100,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 10
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Castelion"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "NatSec100",
+      "Policy"
+    ],
+    "sponsorNatSec100Relevance": "Direct",
+    "reactions": {},
+    "createdAt": "2026-09-16T19:12:05.855Z",
+    "updatedAt": "2026-09-16T19:12:05.855Z"
+  },
+  {
+    "id": "528af7db-fd03-4d89-a149-89f64760a677",
+    "title": "Exclusive: Pratt Licenses Hermeus to Build F100 Fighter Jet Engine",
+    "url": "https://breakingdefense.com/2026/09/exclusive-pratt-licenses-hermeus-to-build-f100-fighter-jet-engine/",
+    "source": "Breaking Defense",
+    "datePublished": "2026-09-15",
+    "dateAdded": "2026-09-16",
+    "categories": [
+      "Industry News"
+    ],
+    "tags": [
+      "Industrial Base",
+      "Manufacturing",
+      "Supply Chain",
+      "Defense Startup",
+      "NatSec100"
+    ],
+    "shortDescription": "Pratt & Whitney granted Hermeus a production license to manufacture the F100-PW-229 engine, which powers Hermeus' Quarterhorse drone as well as F-15 and F-16 fleets. It's Pratt's first such license to another American firm.",
+    "whyItMatters": "A prime handing a startup the keys to its own engine line is a real shift in how the industrial base gets rebuilt — Hermeus gets vertical integration on propulsion, Pratt gets capacity against a backlog. Expect more prime-startup licensing deals framed this way.",
+    "relevanceScore": 100,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 10
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Hermeus",
+      "Pratt & Whitney",
+      "RTX",
+      "Anduril"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "NatSec100",
+      "Industry Council"
+    ],
+    "sponsorNatSec100Relevance": "Direct",
+    "reactions": {},
+    "createdAt": "2026-09-16T19:12:05.856Z",
+    "updatedAt": "2026-09-16T19:12:05.856Z"
+  },
+  {
+    "id": "6a618c5b-1bcc-4603-8820-8106e3f6f9ea",
+    "title": "Iran War Has Cost $38 Billion, Depleted Two-Thirds of US Missile Interceptors, CBO Says",
+    "url": "https://www.militarytimes.com/news/your-military/2026/09/15/iran-war-has-cost-38-billion-depleted-two-thirds-of-us-missile-interceptors-cbo-says/",
+    "source": "Military Times",
+    "datePublished": "2026-09-15",
+    "dateAdded": "2026-09-16",
+    "categories": [
+      "Government News"
+    ],
+    "tags": [
+      "Industrial Base",
+      "Munitions",
+      "Budget",
+      "Congress",
+      "Supply Chain"
+    ],
+    "shortDescription": "A new CBO analysis puts Pentagon costs from the Iran conflict at roughly $38B through Aug. 1 and estimates that one-half to two-thirds of certain interceptor inventories — Patriot, THAAD, SM-3, SM-6 — have been expended, with at least five years needed to rebuild stocks.",
+    "whyItMatters": "This is the number that will drive the next round of munitions appropriations and the case for low-cost interceptor entrants. If replenishment takes five years at current rates, the argument for nontraditional producers stops being theoretical.",
+    "relevanceScore": 91,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Lockheed Martin",
+      "RTX"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Policy"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-09-16T19:12:05.856Z",
+    "updatedAt": "2026-09-16T19:12:05.856Z"
+  },
+  {
+    "id": "6919aadf-823e-44d6-a281-12830869106f",
+    "title": "Rocket Lab Fully Funds Iridium Acquisition, Including Completion of $1.94 Billion ATM",
+    "url": "https://investors.rocketlabcorp.com/news-releases/news-release-details/rocket-lab-fully-funds-iridium-acquisition-including-completion",
+    "source": "Rocket Lab Investor Relations",
+    "datePublished": "2026-09-15",
+    "dateAdded": "2026-09-16",
+    "categories": [
+      "Investor News",
+      "Industry News"
+    ],
+    "tags": [
+      "Space",
+      "Venture Capital",
+      "Industrial Base"
+    ],
+    "shortDescription": "Rocket Lab closed a $1.944B at-the-market equity program, issuing 29.3M shares, and terminated its $3.6B bridge facility — fully funding the cash portion of its ~$8B Iridium acquisition ahead of an expected mid-2027 close.",
+    "whyItMatters": "Equity markets just wrote a $1.9B check for defense-adjacent space consolidation without touching leverage. That's a useful data point on how much public-market capital is available to companies in this sector right now.",
+    "relevanceScore": 69,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 8,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Rocket Lab",
+      "Iridium Communications"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "Medium",
+    "workstreams": [
+      "Capital Formation"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-09-16T19:12:05.856Z",
+    "updatedAt": "2026-09-16T19:12:05.856Z"
+  },
+  {
+    "id": "a3be39aa-1933-49db-b65f-9dfc6cb408ba",
+    "title": "Vengeance and Fury: US Air Force Names New CCAs Amid Ambitious Production Goal",
+    "url": "https://www.defensenews.com/industry/techwatch/2026/09/14/vengeance-and-fury-us-air-force-names-new-ccas-amid-ambitious-production-goal/",
+    "source": "Defense News",
+    "datePublished": "2026-09-14",
+    "dateAdded": "2026-09-16",
+    "categories": [
+      "Government News",
+      "Industry News"
+    ],
+    "tags": [
+      "Autonomy",
+      "Drones",
+      "Acquisition Reform",
+      "Budget",
+      "NatSec100"
+    ],
+    "shortDescription": "Air Force Secretary Troy Meink named the first Increment 1 Collaborative Combat Aircraft — General Atomics' FQ-42 Vengeance and Anduril's FQ-44 Fury — at AFA Air, Space & Cyber, alongside a stated goal of at least 500 autonomous aircraft in service by 2032.",
+    "whyItMatters": "Naming the aircraft is symbolic; the 500-by-2032 target is not. That number sets the production scale question for the whole autonomous air ecosystem, and Anduril has already said it can't hit those rates until Congress funds the program.",
+    "relevanceScore": 95,
+    "scoreBreakdown": {
+      "recency": 25,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 10
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Anduril",
+      "General Atomics"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "NatSec100",
+      "Policy"
+    ],
+    "sponsorNatSec100Relevance": "Direct",
+    "reactions": {},
+    "createdAt": "2026-09-16T19:12:05.856Z",
+    "updatedAt": "2026-09-16T19:12:05.856Z"
   }
 ]
