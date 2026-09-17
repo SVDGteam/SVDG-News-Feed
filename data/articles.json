@@ -16083,5 +16083,351 @@
     "reactions": {},
     "createdAt": "2026-09-16T19:12:05.856Z",
     "updatedAt": "2026-09-16T19:12:05.856Z"
+  },
+  {
+    "id": "08601ef6-bf1b-4afd-8584-bcd23987ecf4",
+    "title": "Anduril's Chris Brose on Defense Tech's Trump-Era Inflection Point",
+    "url": "https://punchbowl.news/?p=165545",
+    "source": "Punchbowl News",
+    "author": "Briana Reilly and Anthony Adragna",
+    "datePublished": "2026-09-17",
+    "dateAdded": "2026-09-17",
+    "categories": [
+      "Government News",
+      "Opinions"
+    ],
+    "tags": [
+      "Acquisition Reform",
+      "Budget",
+      "Congress",
+      "Defense Startup",
+      "Venture Capital"
+    ],
+    "shortDescription": "In Punchbowl's Defense Quarterly, Anduril President Chris Brose argues the $1.5T Pentagon budget request is make-or-break for nontraditional suppliers — and warns that if the topline shrinks, 'all the old stuff eats first.' He credits the administration for opening the door to VC and equity stakes, but notes defense tech is still under 1% of DoD procurement.",
+    "whyItMatters": "This is the clearest public read yet on whether the defense tech opening is structural or just vibes, from someone who has sat on both sides (SASC staff director, now Anduril). The 1%-of-procurement number is the one to carry into member conversations — it reframes the boom as an early-innings story, not a won argument.",
+    "relevanceScore": 100,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 10
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Anduril"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Policy",
+      "NatSec100"
+    ],
+    "sponsorNatSec100Relevance": "Direct",
+    "reactions": {},
+    "createdAt": "2026-09-17T20:17:24.885Z",
+    "updatedAt": "2026-09-17T20:17:24.885Z"
+  },
+  {
+    "id": "971ef4a3-3e1a-48f3-88a1-e73a6689fc54",
+    "title": "New Feinberg Memo Softens Pentagon Accounting Overhaul After Industry Pushback",
+    "url": "https://breakingdefense.com/2026/09/they-overreached-amid-industry-worry-new-feinberg-memo-tweaks-accounting-regime/",
+    "source": "Breaking Defense",
+    "datePublished": "2026-09-17",
+    "dateAdded": "2026-09-17",
+    "categories": [
+      "Government News"
+    ],
+    "tags": [
+      "Acquisition Reform",
+      "Industrial Base",
+      "DoD"
+    ],
+    "shortDescription": "A new memo from Deputy Defense Secretary Stephen Feinberg, 'Fostering One Strong Industrial Base,' walks back parts of an earlier declaration that spooked industry while pushing to replace government Cost Accounting Standards with commercial GAAP.",
+    "whyItMatters": "CAS compliance is one of the quietest, most expensive barriers keeping commercial and venture-backed companies out of DoD work. A real move toward GAAP would do more for nontraditional entrants than most of the louder acquisition-reform headlines — worth tracking how far this actually goes in implementation.",
+    "relevanceScore": 95,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Policy",
+      "Industry Council"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-09-17T20:17:24.885Z",
+    "updatedAt": "2026-09-17T20:17:24.885Z"
+  },
+  {
+    "id": "cb1542df-69a2-44c3-a106-cee4de186794",
+    "title": "Pentagon Names Drone Dominance Gauntlet II Winners, Plans 60,000-Drone Order",
+    "url": "https://www.defensedaily.com/perennial-autonomy-neros-take-top-spots-in-drone-dominance-gauntlet-ii-competitions/unmanned-systems/",
+    "source": "Defense Daily",
+    "datePublished": "2026-09-16",
+    "dateAdded": "2026-09-17",
+    "categories": [
+      "Government News",
+      "Industry News"
+    ],
+    "tags": [
+      "Drones",
+      "Autonomy",
+      "Munitions",
+      "Manufacturing",
+      "Defense Startup"
+    ],
+    "shortDescription": "The Pentagon released Gauntlet II results: Perennial Autonomy took the long-range strike track (80.1 points) ahead of Hyperscale and Neros, while Neros won tactical assault/CQB (88.1) ahead of Orqa US and XTEND. DDP says it plans to order 60,000 drones from the top five in each category.",
+    "whyItMatters": "This is the first time the Pentagon has run a head-to-head production bake-off at this scale and attached a real order number to the outcome — companies had to build and deliver 120 kamikaze drones in about five weeks. It's a live template for how DoD could buy attritable systems generally, and a clean scoreboard of who can actually manufacture.",
+    "relevanceScore": 95,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Perennial Autonomy",
+      "Neros Technologies",
+      "Hyperscale",
+      "Orqa US",
+      "XTEND"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "NatSec100",
+      "Policy"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-09-17T20:17:24.885Z",
+    "updatedAt": "2026-09-17T20:17:24.885Z"
+  },
+  {
+    "id": "e7eb76d4-cbb8-443f-a22b-adbf62d78646",
+    "title": "The Navy Taps Saronic to Build a Regular, Old Landing Craft",
+    "url": "https://www.tectonicdefense.com/the-navy-taps-saronic-to-build-a-regular-old-landing-craft/",
+    "source": "Tectonic",
+    "datePublished": "2026-09-17",
+    "dateAdded": "2026-09-17",
+    "categories": [
+      "Industry News",
+      "Government News"
+    ],
+    "tags": [
+      "Maritime",
+      "Industrial Base",
+      "Manufacturing",
+      "Defense Startup"
+    ],
+    "shortDescription": "The Navy awarded prototype OT agreements totaling $280.5M to Saronic, Conrad Shipyard, and Master Boat Builders to each build two or three LCU 1700 landing craft. For Saronic, it's the first build at its new Port Alpha yard in Brownsville — and its first manned vessel.",
+    "whyItMatters": "An autonomy startup just got picked to build conventional manned ships, which says the Navy is buying shipyard capacity and balance sheets as much as technology. With Austal USA wobbling toward a sale, this is the clearest signal yet that new-entrant yards are now part of the maritime industrial base plan.",
+    "relevanceScore": 95,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Saronic Technologies",
+      "Conrad Shipyard",
+      "Master Boat Builders",
+      "Austal USA"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "NatSec100",
+      "Industry Council"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-09-17T20:17:24.885Z",
+    "updatedAt": "2026-09-17T20:17:24.885Z"
+  },
+  {
+    "id": "24036bd3-0a15-442f-8337-d1ecba3b1c93",
+    "title": "ARX Robotics and General Dynamics Team Up for a Ground 'Loyal Wingman' on the British Army's AJAX",
+    "url": "https://www.tectonicdefense.com/arx-robotics-and-general-dynamics-team-up-for-loyal-wingman/",
+    "source": "Tectonic",
+    "datePublished": "2026-09-17",
+    "dateAdded": "2026-09-17",
+    "categories": [
+      "International",
+      "Industry News"
+    ],
+    "tags": [
+      "Robotics",
+      "Autonomy",
+      "Industrial Base",
+      "Dual-Use"
+    ],
+    "shortDescription": "ARX Robotics UK and General Dynamics Land Systems-UK will integrate ARX's Hector UGV with the British Army's AJAX reconnaissance vehicle, with a single AJAX commanding roughly four to six Hectors. The companies are also exploring GDLS-UK scaling UGV production in the UK; first demonstration is expected in the first half of 2027.",
+    "whyItMatters": "A European startup pairing with a prime on a £5.5B legacy program is the attritable-plus-exquisite mix everyone talks about and few actually field. It's also a useful data point on how UK primes are choosing to buy autonomy — partner and scale domestically rather than build in-house.",
+    "relevanceScore": 80,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "UK",
+    "companyMentions": [
+      "ARX Robotics",
+      "General Dynamics Land Systems-UK"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "International / Australia",
+      "Industry Council"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-09-17T20:17:24.885Z",
+    "updatedAt": "2026-09-17T20:17:24.885Z"
+  },
+  {
+    "id": "b5dd1390-602a-4dc5-8653-699f464f00cf",
+    "title": "Impulse Space Raises $308M Series D Extension at $5.4B Valuation",
+    "url": "https://payloadspace.com/impulse-space-raises-308m-series-d-extension/",
+    "source": "Payload",
+    "datePublished": "2026-09-17",
+    "dateAdded": "2026-09-17",
+    "categories": [
+      "Investor News",
+      "Industry News"
+    ],
+    "tags": [
+      "Space",
+      "Venture Capital",
+      "Defense Startup"
+    ],
+    "shortDescription": "Impulse Space added $308M to its Series D, taking the round to $808M and lifting its valuation to roughly $5.4B from $4.26B three months ago. Returning investors include Lux Capital, DFJ Growth, Valor Equity Partners, 137 Ventures, and Linse Capital; the company also hired its first CFO.",
+    "whyItMatters": "A 27% valuation step-up in a single quarter on an extension — with the same investors leaning back in — is a sign in-space mobility is being priced as infrastructure rather than a bet. The CFO hire and sold-out 2028 Helios manifest both read as IPO-track behavior.",
+    "relevanceScore": 80,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Impulse Space",
+      "Lux Capital",
+      "DFJ Growth",
+      "Valor Equity Partners",
+      "Astranis",
+      "SES"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Capital Formation",
+      "NatSec100"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-09-17T20:17:24.885Z",
+    "updatedAt": "2026-09-17T20:17:24.885Z"
+  },
+  {
+    "id": "1fb78aa9-495a-4588-889e-f795ec226109",
+    "title": "EnduroSat Raises $205M and Wins Vantor's 24-Satellite Pulse Constellation",
+    "url": "https://payloadspace.com/endurosat-raises-205m-notches-vantor-sat-win/",
+    "source": "Payload",
+    "datePublished": "2026-09-17",
+    "dateAdded": "2026-09-17",
+    "categories": [
+      "International",
+      "Investor News"
+    ],
+    "tags": [
+      "Space",
+      "Venture Capital",
+      "Manufacturing",
+      "Supply Chain"
+    ],
+    "shortDescription": "Bulgarian satellite manufacturer EnduroSat raised $205M co-led by Riot Ventures and Atreides Management, with Google Ventures, Founders Fund, and the European Innovation Council participating. It will open a US factory and build the EU's largest space and defense hub; Vantor separately picked EnduroSat for 24 buses on its Pulse EO constellation, with CACI building payloads.",
+    "whyItMatters": "Third nine-figure European space raise in two weeks, after Open Cosmos and The Exploration Company — European space manufacturing is clearly repricing. Worth watching that a Bulgarian manufacturer is building US capacity rather than the other way around.",
+    "relevanceScore": 80,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "Europe",
+    "companyMentions": [
+      "EnduroSat",
+      "Vantor",
+      "CACI",
+      "Riot Ventures",
+      "Atreides Management",
+      "Founders Fund",
+      "Google Ventures"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "International / Australia",
+      "Capital Formation"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-09-17T20:17:24.885Z",
+    "updatedAt": "2026-09-17T20:17:24.885Z"
   }
 ]
