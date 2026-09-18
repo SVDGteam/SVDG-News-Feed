@@ -16429,5 +16429,252 @@
     "reactions": {},
     "createdAt": "2026-09-17T20:17:24.885Z",
     "updatedAt": "2026-09-17T20:17:24.885Z"
+  },
+  {
+    "id": "26878774-75b5-476f-9472-d7b9d9d75d29",
+    "title": "Onebrief Wins $20M Army Enterprise IDIQ, Moving From NGC2 Sub to Prime",
+    "url": "https://www.businesswire.com/news/home/20260917440642/en/Onebrief-Awarded-Enterprise-Contract-by-U.S.-Army-Contracting-Command-Enabling-Department-Wide-Access-to-AI-Powered-Planning-Software",
+    "source": "Business Wire",
+    "datePublished": "2026-09-17",
+    "dateAdded": "2026-09-18",
+    "categories": [
+      "Sponsor News",
+      "Government News"
+    ],
+    "tags": [
+      "Sponsor",
+      "Software",
+      "AI",
+      "C2",
+      "Acquisition Reform",
+      "NatSec100"
+    ],
+    "shortDescription": "Army Contracting Command awarded Onebrief a five-year, $20M single-award enterprise IDIQ (W9128Z-26-D-A014) for its AI-powered planning platform, giving Army and DoW organizations a direct procurement pathway. Onebrief executed its first Army G4 task order within an hour of award.",
+    "whyItMatters": "This is the structural win, not the dollar figure — Onebrief goes from NGC2 subcontractor to prime with a department-wide vehicle, and other primes can now get it as GFP. It's a clean example of a sponsor converting prototype traction into a durable acquisition pathway.",
+    "relevanceScore": 100,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 10
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "sponsorName": "Onebrief",
+    "companyMentions": [
+      "Onebrief",
+      "Anduril",
+      "Palantir"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Sponsor Engagement",
+      "NatSec100"
+    ],
+    "sponsorNatSec100Relevance": "Direct",
+    "reactions": {},
+    "createdAt": "2026-09-18T19:11:51.164Z",
+    "updatedAt": "2026-09-18T19:11:51.164Z"
+  },
+  {
+    "id": "290af250-a3af-421b-a73f-9c05b89470cc",
+    "title": "Rune Scores $4.1M Army Contract to Push TyrOS Across the 1st Cavalry Division",
+    "url": "https://www.tectonicdefense.com/rune-scores-4-1m-contract-with-1st-cav/",
+    "source": "Tectonic",
+    "datePublished": "2026-09-18",
+    "dateAdded": "2026-09-18",
+    "categories": [
+      "Industry News",
+      "Government News"
+    ],
+    "tags": [
+      "Defense Startup",
+      "Autonomy",
+      "Software",
+      "AI",
+      "Supply Chain",
+      "Drones",
+      "NatSec100"
+    ],
+    "shortDescription": "Rune Technologies won a $4.1M Technology Maturation Initiative award from the Army Applications Laboratory to expand its TyrOS predictive-logistics platform across the 1st Cavalry Division, tying logistics demand directly to unmanned aircraft and ground vehicles for autonomous resupply.",
+    "whyItMatters": "Small dollars, big signal: this connects demand-sensing software to the autonomous platforms that actually move the stuff, plus casualty-evac planning and digitized PMCS. It's the unsexy layer that makes everyone else's drones useful, and it follows Rune's $99M Army IDIQ.",
+    "relevanceScore": 91,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Rune Technologies",
+      "Havoc AI"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "NatSec100"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-09-18T19:11:51.165Z",
+    "updatedAt": "2026-09-18T19:11:51.165Z"
+  },
+  {
+    "id": "cf7a765f-eafd-4227-9804-6e13899f14d1",
+    "title": "Defense Tech Relies on Germanium. The Pentagon Wants LightPath to Find an Alternative",
+    "url": "https://www.tectonicdefense.com/defense-tech-relies-on-germanium-the-pentagon-wants-lightpath-to-find-an-alternative/",
+    "source": "Tectonic",
+    "datePublished": "2026-09-18",
+    "dateAdded": "2026-09-18",
+    "categories": [
+      "Industry News",
+      "Government News"
+    ],
+    "tags": [
+      "Industrial Base",
+      "Supply Chain",
+      "Export Controls",
+      "Manufacturing",
+      "NDAA"
+    ],
+    "shortDescription": "LightPath Technologies received a funded prototype agreement under the Pentagon Advanced Materials Office's CLEAR program to mature its germanium-free BlackDiamond chalcogenide glass for EO/IR systems. China supplies ~68% of global germanium and its export-ban suspension lifts Nov. 27.",
+    "whyItMatters": "Every thermal seeker, night-vision sensor and targeting optic in the drone boom runs on a mineral China controls, at 9-10x 2023 prices. The 2026 NDAA added germanium to covered-materials restrictions, so this is the industrial-base workaround getting real money behind it.",
+    "relevanceScore": 95,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "LightPath Technologies",
+      "Lockheed Martin",
+      "L3Harris"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Policy",
+      "Industry Council"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-09-18T19:11:51.165Z",
+    "updatedAt": "2026-09-18T19:11:51.165Z"
+  },
+  {
+    "id": "40fe188d-950c-4239-aa6d-dbdca7bea3a8",
+    "title": "Lockheed Reaches Framework Deal to Boost Production of Secretive JATM Missile",
+    "url": "https://breakingdefense.com/2026/09/lockheed-reaches-deal-to-boost-production-of-secretive-jatm-missile/",
+    "source": "Breaking Defense",
+    "datePublished": "2026-09-17",
+    "dateAdded": "2026-09-18",
+    "categories": [
+      "Industry News",
+      "Government News"
+    ],
+    "tags": [
+      "Munitions",
+      "Industrial Base",
+      "Acquisition Reform",
+      "Budget",
+      "AUKUS"
+    ],
+    "shortDescription": "The Pentagon and Lockheed Martin signed a framework agreement to scale production of the AIM-260 JATM, the classified AMRAAM successor, setting up a future multi-year procurement and expanded foreign military sales. No dollar value or timeline was disclosed.",
+    "whyItMatters": "This is roughly the dozenth munitions framework deal where industry fronts capex in exchange for a promised demand signal — and almost none have definitized, because the money sits in an unpassed $350B reconciliation request. Worth watching as the test of whether that model actually holds. Australia is the first international JATM customer.",
+    "relevanceScore": 75,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 0
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Lockheed Martin",
+      "Northrop Grumman"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Policy",
+      "Industry Council"
+    ],
+    "sponsorNatSec100Relevance": "None",
+    "reactions": {},
+    "createdAt": "2026-09-18T19:11:51.165Z",
+    "updatedAt": "2026-09-18T19:11:51.165Z"
+  },
+  {
+    "id": "da5fc9d5-1a3e-4461-92e3-a7e10fc0a1e4",
+    "title": "Whisper Aero Quietly Sells $46.3M in Equity, Its Largest Single Filing",
+    "url": "https://runtimewire.com/article/whisper-aero-46-3m-equity-offering-sec-filing",
+    "source": "Runtime",
+    "datePublished": "2026-09-17",
+    "dateAdded": "2026-09-18",
+    "categories": [
+      "Investor News",
+      "Industry News"
+    ],
+    "tags": [
+      "Venture Capital",
+      "Defense Startup",
+      "Dual-Use",
+      "Autonomy"
+    ],
+    "shortDescription": "An SEC Form D filed Sept. 17 shows Whisper Aero sold $46,317,349 of equity to 16 investors, fully subscribed, with a first sale date of Sept. 2. The round was never publicly announced and is the company's largest single reported offering.",
+    "whyItMatters": "Unannounced Form Ds are where a lot of real dual-use capital formation shows up before the press release does. Lands weeks after Whisper's first piloted eQ250 propulsion tests and a reported T1 commercialization delay — worth tracking whether the quiet raise is confidence or a bridge.",
+    "relevanceScore": 69,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 8,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Whisper Aero"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "Medium",
+    "workstreams": [
+      "Capital Formation"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-09-18T19:11:51.165Z",
+    "updatedAt": "2026-09-18T19:11:51.165Z"
   }
 ]
