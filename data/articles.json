@@ -16676,5 +16676,239 @@
     "reactions": {},
     "createdAt": "2026-09-18T19:11:51.165Z",
     "updatedAt": "2026-09-18T19:11:51.165Z"
+  },
+  {
+    "id": "00209b75-3f7c-45a3-97bb-a424a9d0206c",
+    "title": "Air Force Establishing 'Megatron' IDIQ to Fast-Track DAF Battle Network Acquisitions",
+    "url": "https://defensescoop.com/2026/09/16/air-force-megatron-idiq-fast-track-daf-battle-network-acquisitions/",
+    "source": "DefenseScoop",
+    "author": "Mikayla Easley",
+    "datePublished": "2026-09-16",
+    "dateAdded": "2026-09-19",
+    "categories": [
+      "Government News",
+      "Industry News"
+    ],
+    "tags": [
+      "Acquisition Reform",
+      "C2",
+      "Software",
+      "DoD"
+    ],
+    "shortDescription": "The Air Force's C3BM portfolio acquisition executive, Brig. Gen. Joshua Williams, confirmed plans for a multi-award IDIQ called Megatron to buy DAF Battle Network capabilities. A draft statement of work posted in August is out for industry feedback; ceiling and period of performance aren't set.",
+    "whyItMatters": "This is the on-ramp shaping up for anyone selling C2 software into the ~50 programs under DAF Battle Network, and Williams is explicitly designing it around commercial solutions and continuous software delivery. If your portfolio company sells into Air Force C2, the RFI window is the moment to shape requirements — not after the ceiling is set.",
+    "relevanceScore": 90,
+    "scoreBreakdown": {
+      "recency": 25,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Policy",
+      "Industry Council"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-09-19T19:34:30.823Z",
+    "updatedAt": "2026-09-19T19:34:30.823Z"
+  },
+  {
+    "id": "c9bb4282-f851-427e-a2a3-41b44aeb1447",
+    "title": "Space Force Creates Technology Portfolio Executive Office Aimed Squarely at the Valley of Death",
+    "url": "https://defensescoop.com/2026/09/15/space-force-creates-office-to-accelerate-innovative-tech-acquisition/",
+    "source": "DefenseScoop",
+    "author": "Mikayla Easley",
+    "datePublished": "2026-09-15",
+    "dateAdded": "2026-09-19",
+    "categories": [
+      "Government News"
+    ],
+    "tags": [
+      "Acquisition Reform",
+      "Space",
+      "Dual-Use",
+      "Defense Startup"
+    ],
+    "shortDescription": "Speaking at AFA, Air Force space acquisition chief Erich Hernandez-Baquero said the Space Force has stood up a Technology Portfolio Executive that will sit as a peer to its nine portfolio acquisition executives and focus entirely on moving promising tech through prototyping into programs of record. The office exists; they're still hiring its leader.",
+    "whyItMatters": "A named, empowered office whose only job is transition is about as close as the Space Force has come to institutionalizing what SVDG members complain about constantly. Worth tracking who gets the role — that person becomes a high-value point of contact for commercial space companies stuck in prototype purgatory.",
+    "relevanceScore": 90,
+    "scoreBreakdown": {
+      "recency": 25,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Policy",
+      "Industry Council"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-09-19T19:34:30.824Z",
+    "updatedAt": "2026-09-19T19:34:30.824Z"
+  },
+  {
+    "id": "aef6fea1-c048-4ae3-9bb9-0a4891f6be17",
+    "title": "Africom Stands Up a Defense Economics Office to Fuse Commerce and Security",
+    "url": "https://defensescoop.com/2026/09/17/africom-defense-economics-office/",
+    "source": "DefenseScoop",
+    "author": "Brandi Vincent",
+    "datePublished": "2026-09-17",
+    "dateAdded": "2026-09-19",
+    "categories": [
+      "Government News",
+      "International"
+    ],
+    "tags": [
+      "Supply Chain",
+      "Industrial Base",
+      "Intelligence",
+      "DoD"
+    ],
+    "shortDescription": "U.S. Africa Command has created a Defense Economics Office, descended from Deputy Secretary Feinberg's Pentagon Economic Defense Unit, to de-risk critical-mineral value chains and disrupt adversary revenue streams as Africom shrinks its physical footprint. The office is exploring digital-asset mapping and modern counter-threat-finance analytics, and wants broader appropriations than the current counter-narcotics authorities allow.",
+    "whyItMatters": "Economic statecraft is becoming a buyer of technology, not just a policy posture — and this office is openly shopping for analytics tooling that existing counter-narcotics money can't fund. That's an emerging market for dual-use fintech, supply-chain intelligence, and crypto-tracing companies, plus a tell on where critical-minerals sourcing policy is heading.",
+    "relevanceScore": 71,
+    "scoreBreakdown": {
+      "recency": 25,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "Other",
+    "companyMentions": [],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Policy"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-09-19T19:34:30.824Z",
+    "updatedAt": "2026-09-19T19:34:30.824Z"
+  },
+  {
+    "id": "3b0918b2-0162-4bb3-811c-3174fe85e99f",
+    "title": "Exclusive: Space Cargo Unlimited Has Booked a Third of Its SpaceX Starfall Capacity",
+    "url": "https://payloadspace.com/exclusive-space-cargo-unlimited-booked-a-third-of-its-starfall-capacity/",
+    "source": "Payload",
+    "datePublished": "2026-09-18",
+    "dateAdded": "2026-09-19",
+    "categories": [
+      "Industry News",
+      "International"
+    ],
+    "tags": [
+      "Space",
+      "Manufacturing",
+      "Dual-Use"
+    ],
+    "shortDescription": "Luxembourg-based Space Cargo Unlimited has sold a third of the 1,000-kg capacity on its dedicated SpaceX Starfall reentry mission, slated to fly on Starship in 2028, and expects half booked by year-end. CEO Nicolas Gaume says demand is being driven by pharma and biotech interest in microgravity research.",
+    "whyItMatters": "In-space manufacturing has been a slide in a lot of decks and not much else; this is one of the first real signs of an order book forming as ISS alternatives come online. Starfall's volume and power advantage over smaller reentry vehicles also reshuffles the competitive field for the ATMOS/ElevationSpace tier of European players.",
+    "relevanceScore": 71,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 0
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "Europe",
+    "companyMentions": [
+      "Space Cargo Unlimited",
+      "SpaceX",
+      "ATMOS Space Cargo",
+      "Thales Alenia Space",
+      "ElevationSpace"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Capital Formation"
+    ],
+    "sponsorNatSec100Relevance": "None",
+    "reactions": {},
+    "createdAt": "2026-09-19T19:34:30.824Z",
+    "updatedAt": "2026-09-19T19:34:30.824Z"
+  },
+  {
+    "id": "4e129cd6-28cf-4dd6-bca6-4f245e45b711",
+    "title": "Forterra and Oshkosh on ROGUE-Fires Block 2: The First Unmanned Launcher Pushed Into Production",
+    "url": "https://www.forterra.com/posts/rogue-fires-hails-a-new-era-of-autonomy-for-the-marine-corps",
+    "source": "Forterra",
+    "datePublished": "2026-09-17",
+    "dateAdded": "2026-09-19",
+    "categories": [
+      "Sponsor News",
+      "Industry News"
+    ],
+    "tags": [
+      "Autonomy",
+      "Robotics",
+      "Munitions",
+      "Sponsor"
+    ],
+    "shortDescription": "Forterra and prime Oshkosh Defense walk through the Marine Corps' ROGUE-Fires Block 2 production award, which Forterra's Christian Seifert calls the first unmanned launcher any service has moved into production. The modular JLTV-based platform carries NSM under NMESIS today and is pitched as a common autonomous chassis for MLRS-class fires, c-UAS, ISR, EW, and resupply.",
+    "whyItMatters": "Sponsor content, but the substance holds up: it's the clearest public account of how a startup autonomy stack rode an existing Army program (ATVS) and a prime's chassis into a Marine Corps production line. That reuse-and-integrate path is the template SVDG members keep asking about, and Seifert's read on the Army's CAML is a useful forward indicator.",
+    "relevanceScore": 88,
+    "scoreBreakdown": {
+      "recency": 25,
+      "svdgRelevance": 35,
+      "sourceQuality": 8,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 10
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "sponsorName": "Forterra",
+    "companyMentions": [
+      "Forterra",
+      "Oshkosh Defense"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "Medium",
+    "workstreams": [
+      "Sponsor Engagement",
+      "Industry Council"
+    ],
+    "sponsorNatSec100Relevance": "Direct",
+    "reactions": {},
+    "createdAt": "2026-09-19T19:34:30.824Z",
+    "updatedAt": "2026-09-19T19:34:30.824Z"
   }
 ]
