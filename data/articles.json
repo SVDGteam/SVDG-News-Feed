@@ -16910,5 +16910,247 @@
     "reactions": {},
     "createdAt": "2026-09-19T19:34:30.824Z",
     "updatedAt": "2026-09-19T19:34:30.824Z"
+  },
+  {
+    "id": "d56c3347-ea8a-4d9d-b91c-54b73db4a977",
+    "title": "US Tests Perseus Harpe Interceptor at Falcon Peak 26.2, Claiming $2,500 Per Shot",
+    "url": "https://www.armyrecognition.com/news/army-news/2026/u-s-tests-perseus-harpe-interceptor-for-low-collateral-defense-against-small-drone-attacks",
+    "source": "Army Recognition",
+    "datePublished": "2026-09-18",
+    "dateAdded": "2026-09-20",
+    "categories": [
+      "Industry News",
+      "Government News"
+    ],
+    "tags": [
+      "Drones",
+      "Munitions",
+      "Defense Startup",
+      "DoD"
+    ],
+    "shortDescription": "Perseus Defense fired its Mk-III/Harpe kinetic interceptor from an eight-shot portable launcher at Yuma Proving Ground during Falcon Peak 26.2, the NORTHCOM/NORAD counter-small-UAS experiment. The company says each 61cm hit-to-kill interceptor costs roughly $2,500 to build, with a 2km engagement range and a launcher under 36kg.",
+    "whyItMatters": "The whole counter-drone cost-curve argument lives or dies on numbers like this. A $2,500 hit-to-kill round with low collateral risk is a very different procurement conversation than a six-figure interceptor, and Falcon Peak moving to Yuma signals the experiment is scaling. Worth watching whether the claimed unit cost survives contact with production volumes.",
+    "relevanceScore": 83,
+    "scoreBreakdown": {
+      "recency": 25,
+      "svdgRelevance": 35,
+      "sourceQuality": 8,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Perseus Defense",
+      "Anduril"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "Medium",
+    "workstreams": [
+      "NatSec100",
+      "Policy"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-09-20T19:19:51.163Z",
+    "updatedAt": "2026-09-20T19:19:51.163Z"
+  },
+  {
+    "id": "da2dfd56-0239-4a31-bc9b-d595d510a387",
+    "title": "Bristow Reserves 10 More Early-Delivery Chaparrals From Elroy Air, Bringing Its Total to 15",
+    "url": "https://elroyair.com/company/news/press-releases/Bristow-early-Chaparral-delivery-positions/",
+    "source": "Elroy Air",
+    "datePublished": "2026-09-17",
+    "dateAdded": "2026-09-20",
+    "categories": [
+      "Industry News"
+    ],
+    "tags": [
+      "Autonomy",
+      "Defense Startup",
+      "Dual-Use",
+      "Supply Chain"
+    ],
+    "shortDescription": "Bristow Group expanded its commitment to Elroy Air's autonomous Chaparral VTOL cargo aircraft, reserving 10 additional early-delivery positions for a total of 15, on top of an existing pre-order for up to 100 aircraft. The move follows autonomous flight demos in Houma, Louisiana under the FAA/DOT eVTOL Integration Pilot Program.",
+    "whyItMatters": "This converts demo flights into a harder near-term demand signal from a real commercial operator — the kind of dual-use revenue base that makes contested-logistics companies far less dependent on a single DoD program line. Elroy's also mid-SPAC, so commercial backlog is doing double duty here.",
+    "relevanceScore": 68,
+    "scoreBreakdown": {
+      "recency": 25,
+      "svdgRelevance": 20,
+      "sourceQuality": 8,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Elroy Air",
+      "Bristow Group"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "Medium",
+    "workstreams": [
+      "NatSec100",
+      "Capital Formation"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-09-20T19:19:51.164Z",
+    "updatedAt": "2026-09-20T19:19:51.164Z"
+  },
+  {
+    "id": "cca9cc8d-3e5f-41ba-93bc-dc24f0c14e12",
+    "title": "Bosch Ventures Invests in Asylon Robotics to Scale Autonomous Security Robots",
+    "url": "https://roboticsandautomationnews.com/2026/09/15/bosch-ventures-invests-in-asylon-robotics/104799/",
+    "source": "Robotics & Automation News",
+    "datePublished": "2026-09-15",
+    "dateAdded": "2026-09-20",
+    "categories": [
+      "Investor News",
+      "Industry News"
+    ],
+    "tags": [
+      "Robotics",
+      "Autonomy",
+      "Dual-Use",
+      "Venture Capital"
+    ],
+    "shortDescription": "Bosch Ventures made a strategic investment in Asylon Robotics, which pairs autonomous drones, ground robots, and AI command software for physical security. Terms weren't disclosed. The deal deepens an existing integration between Bosch alarm systems and Asylon's DroneIQ, Guardian, and DroneDog platforms; Asylon says it has run 250,000+ robotic security missions across critical infrastructure and defense installations.",
+    "whyItMatters": "Corporate venture from an industrial giant into a defense-adjacent robotics company is the dual-use capital-formation pattern SVDG keeps pointing at — commercial security demand underwriting capability that also serves base defense. Follows Allegion Ventures into the same cap table, so this is a strategics-led round profile rather than a classic VC one.",
+    "relevanceScore": 64,
+    "scoreBreakdown": {
+      "recency": 25,
+      "svdgRelevance": 20,
+      "sourceQuality": 8,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Asylon Robotics",
+      "Bosch Ventures",
+      "Allegion Ventures"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "Medium",
+    "workstreams": [
+      "Capital Formation"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-09-20T19:19:51.164Z",
+    "updatedAt": "2026-09-20T19:19:51.164Z"
+  },
+  {
+    "id": "21025d65-8478-4f75-a46b-6a66782cb81b",
+    "title": "Anduril Wins $85M Air Force VOLARE IDIQ for Digital Aircraft and Thermal Management Design",
+    "url": "https://defence-blog.com/anduril-wins-deal-to-help-design-future-aircraft/",
+    "source": "Defence Blog",
+    "datePublished": "2026-09-17",
+    "dateAdded": "2026-09-20",
+    "categories": [
+      "Industry News",
+      "Government News"
+    ],
+    "tags": [
+      "Software",
+      "Acquisition Reform",
+      "DoD",
+      "NatSec100"
+    ],
+    "shortDescription": "AFRL at Wright-Patterson awarded Anduril a 10-year, $85M-ceiling IDIQ under VOLARE (Digital System-Level Mission-Driven Integrated Design Methods for Aerospace Systems), covering vehicle-system modeling software and thermal management design methods. Eight offers were received; Leidos and DCS also hold prime positions. Only $50,000 was obligated at award.",
+    "whyItMatters": "Small dollars, but a useful read on where the Air Force thinks its hard problems are: thermal management is the quiet constraint on packing more radar, compute, and directed energy into an airframe. Note the ceiling-vs-obligated gap — $85M is a research channel, not committed revenue, and headlines this week mostly missed that.",
+    "relevanceScore": 69,
+    "scoreBreakdown": {
+      "recency": 25,
+      "svdgRelevance": 20,
+      "sourceQuality": 8,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 10
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Anduril",
+      "Leidos",
+      "DCS",
+      "Air Force Research Laboratory"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "Medium",
+    "workstreams": [
+      "NatSec100"
+    ],
+    "sponsorNatSec100Relevance": "Direct",
+    "reactions": {},
+    "createdAt": "2026-09-20T19:19:51.164Z",
+    "updatedAt": "2026-09-20T19:19:51.164Z"
+  },
+  {
+    "id": "068ff9fb-0417-45ab-8c4a-626c1592b438",
+    "title": "Defense Business Brief: Air Force Test Center Balances Hegseth's Speed Push Against Safety",
+    "url": "https://www.defenseone.com/business/2026/09/defense-business-brief-dispatch-afas-air-space-cyber-2026/416055/",
+    "source": "Defense One",
+    "author": "Lauren C. Williams",
+    "datePublished": "2026-09-17",
+    "dateAdded": "2026-09-20",
+    "categories": [
+      "Government News",
+      "Industry News"
+    ],
+    "tags": [
+      "Acquisition Reform",
+      "AI",
+      "DoD",
+      "Autonomy"
+    ],
+    "shortDescription": "From AFA Air, Space & Cyber: Air Force Test Center commander Brig. Gen. Mark Massaro said the center can keep pace with the Pentagon's buy-fast mandate but won't trade away test safety, three months after a fatal B-52 test crash at Edwards. The brief also covers the Air Force's new Massed Modular Aircraft requirement and AI adoption talk across the Space Force and Air Mobility Command.",
+    "whyItMatters": "The '85 percent solution' doctrine is now colliding with test-and-evaluation reality, and this is one of the first on-record airings of that tension from the people who actually run the test ranges. If you're advising portfolio companies on how fast they can realistically get to fielding, this is the constraint to read.",
+    "relevanceScore": 90,
+    "scoreBreakdown": {
+      "recency": 25,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Swarm Aero",
+      "General Atomics",
+      "Boeing"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Policy",
+      "Industry Council"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-09-20T19:19:51.164Z",
+    "updatedAt": "2026-09-20T19:19:51.164Z"
   }
 ]
