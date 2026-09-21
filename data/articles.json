@@ -17152,5 +17152,287 @@
     "reactions": {},
     "createdAt": "2026-09-20T19:19:51.164Z",
     "updatedAt": "2026-09-20T19:19:51.164Z"
+  },
+  {
+    "id": "d221d9f6-13b6-4cdc-8284-600a37e6b9af",
+    "title": "DIU and Space Systems Command Launch GHOST-R, Tapping True Anomaly and Northrop for Low-Cost GEO Recon",
+    "url": "https://payloadspace.com/diu-and-ssc-announce-joint-ghost-r-mission/",
+    "source": "Payload",
+    "datePublished": "2026-09-21",
+    "dateAdded": "2026-09-21",
+    "categories": [
+      "Government News",
+      "Industry News"
+    ],
+    "tags": [
+      "Space",
+      "DIU",
+      "Autonomy",
+      "Defense Startup",
+      "NatSec100"
+    ],
+    "shortDescription": "DIU and Space Systems Command announced GHOST-R, a joint prototype effort to put low-cost commercial reconnaissance vehicles in geosynchronous orbit under SSC's RG-XX program, with True Anomaly and Northrop Grumman both winning prototype contracts and launch slated for 2028.",
+    "whyItMatters": "This is the commercial-first playbook working exactly as advertised: a nontraditional (True Anomaly) sitting alongside a prime on a program of record, with an explicit transition path baked in. It also puts DIU's new 'Kill Web' portfolio on the board in a real mission area.",
+    "relevanceScore": 100,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 10
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "True Anomaly",
+      "Northrop Grumman"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "NatSec100",
+      "Policy"
+    ],
+    "sponsorNatSec100Relevance": "Direct",
+    "reactions": {},
+    "createdAt": "2026-09-21T19:11:15.958Z",
+    "updatedAt": "2026-09-21T19:11:15.958Z"
+  },
+  {
+    "id": "034f7e15-ad1f-4069-b7c3-f172a440a97c",
+    "title": "Hanwha and Magnet Defense to Start H38 Medium USV Construction This Fall, Testing in January",
+    "url": "https://breakingdefense.com/2026/09/hanwha-magnet-defense-to-start-construction-on-new-musv-this-fall-testing-next-year/",
+    "source": "Breaking Defense",
+    "datePublished": "2026-09-18",
+    "dateAdded": "2026-09-21",
+    "categories": [
+      "Industry News",
+      "International"
+    ],
+    "tags": [
+      "Maritime",
+      "Autonomy",
+      "Manufacturing",
+      "Defense Startup"
+    ],
+    "shortDescription": "Hanwha Defense USA and autonomous maritime startup Magnet Defense will begin building the H38 medium unmanned surface vessel next month, with payload testing on other platforms this fall and on the H38 itself in January. The H38 is a shortened, uncrewed derivative of Magnet's 48-meter M48 and is expected to cost roughly half the M48's $30M.",
+    "whyItMatters": "The MUSV field is getting crowded fast, and this pairing — Korean shipbuilding muscle plus a self-funded American autonomy startup that already logged 32,000 nautical miles — is a good test of whether allied industrial capacity can actually shorten the path to fielded drone boats.",
+    "relevanceScore": 71,
+    "scoreBreakdown": {
+      "recency": 25,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Hanwha Defense USA",
+      "Magnet Defense",
+      "Metal Shark"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Industry Council"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-09-21T19:11:15.959Z",
+    "updatedAt": "2026-09-21T19:11:15.959Z"
+  },
+  {
+    "id": "86b7ed65-8bb7-44aa-a363-6ef9b9add2c7",
+    "title": "US Army Awards Ukraine's Skyeton $10.64M for Combat-Proven Raybird ISR Drones",
+    "url": "https://www.stripes.com/branches/army/2026-09-21/pentagon-purchases-ukrainian-drones-22917475.html",
+    "source": "Stars and Stripes",
+    "datePublished": "2026-09-21",
+    "dateAdded": "2026-09-21",
+    "categories": [
+      "Industry News",
+      "International"
+    ],
+    "tags": [
+      "Drones",
+      "Intelligence",
+      "Defense Startup",
+      "Supply Chain"
+    ],
+    "shortDescription": "Army Contracting Command awarded Skyeton Inc., the US arm of Ukrainian drone maker Skyeton, a $10.64M firm-fixed-price contract for Raybird long-endurance ISR drones and associated services, with work due by mid-December. Skyeton was the only bidder.",
+    "whyItMatters": "First publicly disclosed US contract for a Ukrainian drone maker with 350,000+ combat flight hours behind it. Between this and Ukrainian-founded firms placing in Gauntlet II, the Ukraine-to-West defense tech transfer is starting to show up as actual US procurement, not just partnership announcements.",
+    "relevanceScore": 76,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Skyeton"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "International / Australia"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-09-21T19:11:15.959Z",
+    "updatedAt": "2026-09-21T19:11:15.959Z"
+  },
+  {
+    "id": "b9e615db-b9f8-4b2f-9e8e-fbbc08f71265",
+    "title": "Trump Says He Will Create an 'AI Force' and Name a New AI Czar",
+    "url": "https://www.axios.com/2026/09/19/trump-ai-czar-space-force-safety",
+    "source": "Axios",
+    "datePublished": "2026-09-19",
+    "dateAdded": "2026-09-21",
+    "categories": [
+      "Government News",
+      "Industry News"
+    ],
+    "tags": [
+      "AI",
+      "Congress",
+      "DoD",
+      "Budget"
+    ],
+    "shortDescription": "President Trump said he plans to stand up an 'AI Force' modeled on Space Force and appoint a new AI czar, without specifying whether it would be a military branch, an interagency task force, or an advisory body. A new service branch would require congressional action, and no funding or leadership details were given.",
+    "whyItMatters": "Thin on detail, but worth tracking early — if this becomes a real organizational push, it reshapes where AI money and program authority sit across DoD. Anyone selling AI into the department should be watching who gets named czar.",
+    "relevanceScore": 79,
+    "scoreBreakdown": {
+      "recency": 25,
+      "svdgRelevance": 35,
+      "sourceQuality": 8,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "Medium",
+    "workstreams": [
+      "Policy"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-09-21T19:11:15.959Z",
+    "updatedAt": "2026-09-21T19:11:15.959Z"
+  },
+  {
+    "id": "37af1c39-add3-4783-bdf2-80e120178580",
+    "title": "Denmark's Final Frontier and Myriad Merge Behind a €100M Nordic Defence Tech Fund",
+    "url": "https://tech.eu/2026/09/21/final-frontier-and-myriad-unite-behind-100m-defence-tech-fund",
+    "source": "Tech.eu",
+    "datePublished": "2026-09-21",
+    "dateAdded": "2026-09-21",
+    "categories": [
+      "Investor News",
+      "International"
+    ],
+    "tags": [
+      "Venture Capital",
+      "Defense Startup",
+      "NATO",
+      "Dual-Use"
+    ],
+    "shortDescription": "Danish defence tech VCs Final Frontier and Myriad are combining under the Final Frontier brand and raising a €100M ($115M) Fund II targeting pre-seed and seed companies across the Nordics and Ukraine. Final Frontier's first fund closed at €4.5M in 2025; Myriad's was €2M.",
+    "whyItMatters": "European defense VC has been fragmented into a lot of sub-€10M funds, and this is the first real consolidation move to fix that. A €100M Nordic-plus-Ukraine seed vehicle is a meaningful step toward European capital formation that can actually carry companies past the first check.",
+    "relevanceScore": 88,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 8,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "Europe",
+    "companyMentions": [
+      "Final Frontier",
+      "Myriad Defence Fund"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "Medium",
+    "workstreams": [
+      "Capital Formation",
+      "International / Australia"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-09-21T19:11:15.959Z",
+    "updatedAt": "2026-09-21T19:11:15.959Z"
+  },
+  {
+    "id": "6d3ea376-fd0b-443b-83b4-4da80a9f0bc4",
+    "title": "Hegseth Tours Saronic in Austin, Pitching Bigger and Longer Contracts for Commercial Defense Builders",
+    "url": "https://www.stripes.com/theaters/us/2026-09-18/hegseth-austin-arsenal-freedom-tech-22892957.html",
+    "source": "Stars and Stripes",
+    "datePublished": "2026-09-18",
+    "dateAdded": "2026-09-21",
+    "categories": [
+      "Government News",
+      "Industry News"
+    ],
+    "tags": [
+      "Maritime",
+      "Autonomy",
+      "Acquisition Reform",
+      "NatSec100"
+    ],
+    "shortDescription": "Defense Secretary Pete Hegseth visited Saronic's Austin headquarters as part of his 'Arsenal of Freedom' tour, praising the Corsair USV's combat search-and-rescue mission near the Strait of Hormuz and telling roughly 200 employees the Pentagon wants to 'build faster, scale larger, deliver more' through larger and more predictable contracts.",
+    "whyItMatters": "Secretary-level validation of a venture-backed shipbuilder is the clearest acquisition-reform signal we've seen this month. The 'larger, longer, more predictable contracts' line is the part to hold him to — that's the variable that decides whether commercial defense companies can actually finance production.",
+    "relevanceScore": 95,
+    "scoreBreakdown": {
+      "recency": 25,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 10
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Saronic"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "NatSec100",
+      "Policy"
+    ],
+    "sponsorNatSec100Relevance": "Direct",
+    "reactions": {},
+    "createdAt": "2026-09-21T19:11:15.959Z",
+    "updatedAt": "2026-09-21T19:11:15.959Z"
   }
 ]
