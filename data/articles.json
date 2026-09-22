@@ -17434,5 +17434,218 @@
     "reactions": {},
     "createdAt": "2026-09-21T19:11:15.959Z",
     "updatedAt": "2026-09-21T19:11:15.959Z"
+  },
+  {
+    "id": "d3b5370f-e0d4-4b00-80a5-12dc5d2ab0cf",
+    "title": "Exclusive: SYOS Aerospace Raises First Outside Capital to Scale Multi-Domain Drone Production",
+    "url": "https://www.tectonicdefense.com/exclusive-syos-raises-to-scale-expand-internationally/",
+    "source": "Tectonic",
+    "datePublished": "2026-09-22",
+    "dateAdded": "2026-09-22",
+    "categories": [
+      "International",
+      "Investor News"
+    ],
+    "tags": [
+      "Drones",
+      "Autonomy",
+      "Maritime",
+      "Dual-Use",
+      "Venture Capital",
+      "Defense Startup"
+    ],
+    "shortDescription": "New Zealand-founded SYOS Aerospace closed a convertible note round co-led by NZVC and Outset Ventures, with Altered Capital and undisclosed strategic funds. It's the company's first outside raise after five years of running on revenue, and follows a £30M UK MoD drone order for Ukraine plus a multi-domain New Zealand Defence Force contract.",
+    "whyItMatters": "A revenue-funded allied dual-use manufacturer with combat-proven USVs in Ukraine taking its first institutional capital is exactly the kind of non-US capital formation story worth tracking — and NZVC's thesis of building global companies out of New Zealand and Australia is a useful read on where allied defense capital is pooling outside the usual hubs.",
+    "relevanceScore": 80,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "Other",
+    "companyMentions": [
+      "SYOS Aerospace",
+      "NZVC",
+      "Outset Ventures",
+      "Altered Capital"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Capital Formation",
+      "International / Australia"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-09-22T19:13:46.421Z",
+    "updatedAt": "2026-09-22T19:13:46.421Z"
+  },
+  {
+    "id": "8cacbf69-6ad2-4858-9be7-a78f9f9fd484",
+    "title": "Lockheed Snags $1.2B Army Contract for PrSM Increment 2 Missiles",
+    "url": "https://www.tectonicdefense.com/lockheed-snags-1-2b-army-contract-for-prsm-increment-2-missiles/",
+    "source": "Tectonic",
+    "datePublished": "2026-09-22",
+    "dateAdded": "2026-09-22",
+    "categories": [
+      "Industry News",
+      "Government News"
+    ],
+    "tags": [
+      "Munitions",
+      "Industrial Base",
+      "Supply Chain",
+      "Budget"
+    ],
+    "shortDescription": "Lockheed Martin won a $1.2B ceiling IDIQ for the second increment of the Precision Strike Missile, which adds a multi-mode seeker and maritime-strike capability. The award follows the Army's roughly $2B FY27 request for more PrSMs and sits against a Pentagon IG finding that the US burned $22.3B on munitions in the first five months of the war in Iran.",
+    "whyItMatters": "The munitions inventory hole is now the loudest demand signal in the industrial base, and this shows how fast the primes are converting it into multi-year framework capacity. For members selling into the munitions supply chain — components, energetics, seekers, test — that's where the pull is, assuming appropriations hold.",
+    "relevanceScore": 76,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Lockheed Martin",
+      "L3Harris"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Policy"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-09-22T19:13:46.421Z",
+    "updatedAt": "2026-09-22T19:13:46.421Z"
+  },
+  {
+    "id": "88f223b2-1c0d-4c3e-a8b8-a54c870b3f2b",
+    "title": "HEO Raises $25M Series B to Push Non-Earth Imaging Into GEO",
+    "url": "https://payloadspace.com/heo-raises-25m-series-b-to-fuel-geo-expansion/",
+    "source": "Payload",
+    "datePublished": "2026-09-22",
+    "dateAdded": "2026-09-22",
+    "categories": [
+      "Investor News",
+      "International"
+    ],
+    "tags": [
+      "Space",
+      "Intelligence",
+      "Venture Capital",
+      "AUKUS",
+      "Dual-Use"
+    ],
+    "shortDescription": "Australian non-Earth-imaging startup HEO closed a $25M Series B led by Beaten Zone Venture Partners, with Australia's National Reconstruction Fund Corporation, DCode Capital, Wunala Capital, Airtree and Salus Ventures participating. HEO runs 50+ on-orbit sensors and has booked two launches to start GEO coverage, with service targeted for 2027.",
+    "whyItMatters": "A sovereign wealth vehicle co-investing alongside US and Australian defense-focused VCs in a company already under contract to the NRO, Australian Defence, UKSA and Japan's MoD is a clean template for how AUKUS-adjacent capital and demand are starting to compound. Worth watching for the Australia workstream.",
+    "relevanceScore": 95,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "Australia",
+    "companyMentions": [
+      "HEO",
+      "Beaten Zone Venture Partners",
+      "National Reconstruction Fund Corporation",
+      "DCode Capital",
+      "Airtree",
+      "Salus Ventures",
+      "Planet",
+      "BlackSky",
+      "Satellogic"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "International / Australia",
+      "Capital Formation"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-09-22T19:13:46.422Z",
+    "updatedAt": "2026-09-22T19:13:46.422Z"
+  },
+  {
+    "id": "8af08d25-a342-48e8-9827-b66b78292322",
+    "title": "NightDragon Joins NATO DIANA's Trusted Capital Network in Launch Cohort",
+    "url": "https://www.globenewswire.com/news-release/2026/09/21/3365651/0/en/nightdragon-joins-nato-diana-s-trusted-capital-network.html",
+    "source": "GlobeNewswire",
+    "author": "NightDragon",
+    "datePublished": "2026-09-21",
+    "dateAdded": "2026-09-22",
+    "categories": [
+      "Sponsor News",
+      "Investor News",
+      "International"
+    ],
+    "tags": [
+      "NATO",
+      "Venture Capital",
+      "Dual-Use",
+      "Cyber",
+      "Sponsor"
+    ],
+    "shortDescription": "SVDG sponsor NightDragon was named to the first cohort of the NATO DIANA Capital Network, a NATO-screened investor community launched September 21 with 24 members including Lockheed Martin, Bpifrance, the NATO Innovation Fund and BDC. Membership came after screening against NATO's due diligence standards for private funds.",
+    "whyItMatters": "One of our sponsors just got a formal seat inside NATO's innovation pipeline — DIANA-validated deal flow, demand signal visibility, and access to 200+ Allied test centers. It's also a live example of the trusted-capital screening model spreading across the Alliance, which is worth understanding before members start getting asked to meet that standard themselves.",
+    "relevanceScore": 93,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 8,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 10
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "Europe",
+    "sponsorName": "NightDragon",
+    "companyMentions": [
+      "NightDragon",
+      "NATO DIANA",
+      "NATO Innovation Fund",
+      "Lockheed Martin",
+      "Bpifrance",
+      "OTB Ventures",
+      "Project A",
+      "Vsquared VC"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "Medium",
+    "workstreams": [
+      "Sponsor Engagement",
+      "Capital Formation"
+    ],
+    "sponsorNatSec100Relevance": "Direct",
+    "reactions": {},
+    "createdAt": "2026-09-22T19:13:46.422Z",
+    "updatedAt": "2026-09-22T19:13:46.422Z"
   }
 ]
