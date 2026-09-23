@@ -17647,5 +17647,224 @@
     "reactions": {},
     "createdAt": "2026-09-22T19:13:46.422Z",
     "updatedAt": "2026-09-22T19:13:46.422Z"
+  },
+  {
+    "id": "08382af0-cf8d-40f5-b03f-a95ead10e919",
+    "title": "TEKEVER Raises $580M Series D at $6.4B Valuation, Led by UC Investments and Baillie Gifford",
+    "url": "https://tech.eu/2026/09/23/tekever-raises-580m-series-d-at-6-4b-valuation/",
+    "source": "Tech.eu",
+    "datePublished": "2026-09-23",
+    "dateAdded": "2026-09-23",
+    "categories": [
+      "Investor News",
+      "International"
+    ],
+    "tags": [
+      "Venture Capital",
+      "Drones",
+      "Autonomy",
+      "Defense Startup",
+      "AI"
+    ],
+    "shortDescription": "Portuguese-British drone maker TEKEVER announced a first close of $580M in Series D funding at a $6.4B valuation, led by UC Investments (its first direct European investment) and Baillie Gifford, with Merlyn Advisors joining alongside Crescent Cove, Ventura Capital and Iberis Capital. The round follows TEKEVER's selection for the UK MoD's CORVUS programme, worth up to GBP 400M over ten years.",
+    "whyItMatters": "This is the largest European defense tech round of the year and roughly quintuples TEKEVER's valuation — a data point that the capital gap between US and European defense startups is closing faster than most models assume. The UC Investments participation is the bigger tell: a US endowment-scale LP writing a direct check into a European drone company, with M&A explicitly on the use-of-funds list.",
+    "relevanceScore": 88,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 8,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "Europe",
+    "companyMentions": [
+      "TEKEVER",
+      "UC Investments",
+      "Baillie Gifford",
+      "Merlyn Advisors",
+      "Crescent Cove",
+      "Ventura Capital",
+      "Iberis Capital"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "Medium",
+    "workstreams": [
+      "Capital Formation",
+      "International / Australia"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-09-23T19:12:42.473Z",
+    "updatedAt": "2026-09-23T19:12:42.473Z"
+  },
+  {
+    "id": "2571326d-f4cf-4946-930d-127837bc1142",
+    "title": "Scoop: Drone Dominance Program Gauntlet 2 Winners Secure Big Orders",
+    "url": "https://www.tectonicdefense.com/scoop-drone-dominance-program-gauntlet-2-winners-secure-big-orders/",
+    "source": "Tectonic",
+    "datePublished": "2026-09-23",
+    "dateAdded": "2026-09-23",
+    "categories": [
+      "Industry News",
+      "Government News"
+    ],
+    "tags": [
+      "Drones",
+      "DIU",
+      "DoD",
+      "Defense Startup",
+      "Manufacturing"
+    ],
+    "shortDescription": "Tectonic reports previously unreported order quantities flowing to Gauntlet 2 winners of the Pentagon's $1B Drone Dominance Program: 14,000 drones to Neros, at least 5,000 to UK-Ukrainian Skycutter, 5,000 to Vector, and a 4,000-drone order worth a minimum $25M to Michigan's Swarm Defense. DIU plans 60,000 small FPV drones from the top five in each Gauntlet 2 category, en route to 150,000 by program end.",
+    "whyItMatters": "The winners list was already public; the order book is what actually matters, and these are the first hard numbers. At roughly $5,000 per drone dropping to $2,300, Neros alone could be looking at a ~$70M tranche — real revenue at a scale that changes the calculus for small-UAS manufacturers deciding whether to build American production lines.",
+    "relevanceScore": 100,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 10
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Neros",
+      "Swarm Defense",
+      "Skycutter",
+      "Vector",
+      "XTEND",
+      "Perennial Autonomy",
+      "Hyperscale",
+      "ModalAI",
+      "Orqa FPV",
+      "DIU"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "NatSec100",
+      "Industry Council"
+    ],
+    "sponsorNatSec100Relevance": "Direct",
+    "reactions": {},
+    "createdAt": "2026-09-23T19:12:42.473Z",
+    "updatedAt": "2026-09-23T19:12:42.473Z"
+  },
+  {
+    "id": "54bfbb51-c883-40aa-9167-0ffbb4803419",
+    "title": "TERASi Raises EUR 11M Seed Led by NATO Innovation Fund and JOIN, with In-Q-Tel Joining",
+    "url": "https://www.tectonicdefense.com/terasi-raises-e11m-12-5m-seed-led-by-nif-and-join/",
+    "source": "Tectonic",
+    "datePublished": "2026-09-23",
+    "dateAdded": "2026-09-23",
+    "categories": [
+      "Investor News",
+      "International"
+    ],
+    "tags": [
+      "Venture Capital",
+      "NATO",
+      "Electronic Warfare",
+      "Defense Startup",
+      "Dual-Use"
+    ],
+    "shortDescription": "Sweden-based TERASi raised an EUR 11M ($12.5M) seed round led by the NATO Innovation Fund and JOIN Capital, with In-Q-Tel and D3 joining as new backers. The company builds RU1, a smartphone-sized millimeter-wave directional radio pitched as 'wireless fiber for the tactical edge' — gigabit-class rates over 100+ km that are hard to detect, intercept, or jam.",
+    "whyItMatters": "NATO Innovation Fund and In-Q-Tel on the same cap table is the transatlantic capital pattern worth watching — allied sovereign-adjacent funds syndicating into the same early-stage European hardware bets. The underlying thesis is also sound: comms resilience under EW is the unglamorous dependency behind every autonomous system anyone is funding right now.",
+    "relevanceScore": 80,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "Europe",
+    "companyMentions": [
+      "TERASi",
+      "NATO Innovation Fund",
+      "JOIN Capital",
+      "In-Q-Tel",
+      "D3",
+      "Navigare Ventures",
+      "Almi Invest",
+      "KTH Ventures"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Capital Formation",
+      "International / Australia"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-09-23T19:12:42.473Z",
+    "updatedAt": "2026-09-23T19:12:42.473Z"
+  },
+  {
+    "id": "a16335d4-25f3-4dbc-9ceb-6042cef1c848",
+    "title": "NATO's Thumbs-Up for AWS Shows Europe Still Needs America",
+    "url": "https://www.defenseone.com/technology/2026/09/nato-aws-europe-america/416131/",
+    "source": "Defense One",
+    "author": "Patrick Tucker",
+    "datePublished": "2026-09-22",
+    "dateAdded": "2026-09-23",
+    "categories": [
+      "Sponsor News",
+      "International",
+      "Opinions"
+    ],
+    "tags": [
+      "NATO",
+      "Sponsor",
+      "Software",
+      "Cyber",
+      "Industrial Base"
+    ],
+    "shortDescription": "AWS became the first cloud provider cleared to handle NATO RESTRICTED information across all alliance member states, after Spain's National Cryptologic Centre assessed its services against the D32 directive and shared findings alliance-wide. Defense One frames the approval as evidence that EU data-sovereignty rules are less of a barrier to US cloud providers in Europe than White House rhetoric suggests.",
+    "whyItMatters": "Direct sponsor news — AWS beat Microsoft to a blanket alliance-wide clearance after a multi-year effort, which opens NR-capable workloads across 15 AWS regions in NATO countries. For anyone building software into allied defense, this quietly lowers the accreditation barrier: you can now inherit a NATO-approved cloud baseline instead of building one.",
+    "relevanceScore": 100,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 10
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "Europe",
+    "sponsorName": "Amazon Web Services",
+    "companyMentions": [
+      "Amazon Web Services",
+      "Microsoft",
+      "NATO Communications and Information Agency"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Sponsor Engagement",
+      "International / Australia"
+    ],
+    "sponsorNatSec100Relevance": "Direct",
+    "reactions": {},
+    "createdAt": "2026-09-23T19:12:42.473Z",
+    "updatedAt": "2026-09-23T19:12:42.473Z"
   }
 ]
