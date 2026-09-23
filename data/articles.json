@@ -17866,5 +17866,295 @@
     "reactions": {},
     "createdAt": "2026-09-23T19:12:42.473Z",
     "updatedAt": "2026-09-23T19:12:42.473Z"
+  },
+  {
+    "id": "0d857f4b-e772-4a70-818e-570963036cda",
+    "title": "Ondas Buys Three Israeli Defense Startups for $56M to Build an Integrated Counter-UAS Stack",
+    "url": "https://www.calcalistech.com/ctechnews/article/wlhsdvytg",
+    "source": "CTech",
+    "author": "Yuval Azulay",
+    "datePublished": "2026-09-23",
+    "dateAdded": "2026-09-23",
+    "categories": [
+      "Industry News",
+      "International"
+    ],
+    "tags": [
+      "Drones",
+      "Autonomy",
+      "Industrial Base",
+      "Electronic Warfare"
+    ],
+    "shortDescription": "Ondas acquired Insignito (passive acoustic counter-drone detection), Ottopia Defense (degraded-comms teleoperation) and Caribou Labs (GPS-denied PNT) for $56M in cash and stock, plus up to $32M in earnouts through 2028. The deal adds 37 employees and roughly $19M in projected 2027 revenue.",
+    "whyItMatters": "This is a public company assembling a counter-UAS 'system of systems' by buying the pieces rather than building them — detection, resilient comms, and PNT in one go. Worth watching as a template for how consolidation in the counter-drone space is going to play out, and as a read on where Israeli defense tech is finding exits.",
+    "relevanceScore": 73,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 8,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "Other",
+    "companyMentions": [
+      "Ondas Holdings",
+      "Insignito",
+      "Ottopia Defense",
+      "Caribou Labs",
+      "World View"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "Medium",
+    "workstreams": [
+      "NatSec100",
+      "Capital Formation"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-09-23T20:39:17.071Z",
+    "updatedAt": "2026-09-23T20:39:17.071Z"
+  },
+  {
+    "id": "858806f8-11bc-48a2-96ca-2bd64ff0d1c0",
+    "title": "AEVEX Unveils Specter, a Jet-Powered Modular Autonomous Platform Built on Divergent's DAPS",
+    "url": "https://www.businesswire.com/news/home/20260923715744/en/",
+    "source": "Business Wire",
+    "datePublished": "2026-09-23",
+    "dateAdded": "2026-09-23",
+    "categories": [
+      "Industry News"
+    ],
+    "tags": [
+      "Autonomy",
+      "Drones",
+      "Manufacturing",
+      "Defense Startup"
+    ],
+    "shortDescription": "AEVEX announced Specter, a jet-powered modular autonomous aircraft with ground- and air-launched variants and swappable mission payloads, built using Divergent's DAPS digital manufacturing platform for rapid design iteration and scalable production.",
+    "whyItMatters": "The AEVEX-Divergent partnership showed up in the feed on Sept 2 as an agreement; three weeks later there's an actual platform attached to it. That's a fast design-to-announcement cycle and a concrete data point on whether digital manufacturing really compresses defense hardware timelines the way its backers claim.",
+    "relevanceScore": 69,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 8,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "AEVEX Aerospace",
+      "Divergent Technologies"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "Medium",
+    "workstreams": [
+      "NatSec100"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-09-23T20:39:17.072Z",
+    "updatedAt": "2026-09-23T20:39:17.072Z"
+  },
+  {
+    "id": "9e74e833-4fba-440a-b903-fc39598a4b39",
+    "title": "Exclusive: Outpost Launches Space Factories, an In-Space Manufacturing Service",
+    "url": "https://payloadspace.com/exclusive-outpost-launches-in-space-manufacturing-service/",
+    "source": "Payload",
+    "author": "Douglas Gorman",
+    "datePublished": "2026-09-23",
+    "dateAdded": "2026-09-23",
+    "categories": [
+      "Industry News"
+    ],
+    "tags": [
+      "Space",
+      "Manufacturing",
+      "Dual-Use",
+      "Defense Startup"
+    ],
+    "shortDescription": "Outpost Technologies announced Space Factories, standardized orbital modules that let customers manufacture pharmaceuticals, semiconductors and advanced crystals in microgravity without building their own spacecraft. Outpost will be its own first customer, producing its StarFiber optical fiber on a mission no earlier than 2028.",
+    "whyItMatters": "Outpost is betting that in-space manufacturing becomes a service business rather than a bespoke-hardware one, and pitching it as the successor to ISS-based production before the station deorbits in the early 2030s. Relevant to anyone tracking where the ISAM market actually finds paying customers.",
+    "relevanceScore": 76,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Outpost Technologies Corporation"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Capital Formation"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-09-23T20:39:17.072Z",
+    "updatedAt": "2026-09-23T20:39:17.072Z"
+  },
+  {
+    "id": "924f81c4-7855-41a0-bf70-a42323500fc5",
+    "title": "Red Cell Portfolio Company Envisagenics Signs $1B+ Boehringer Ingelheim Deal on AI-Identified Cancer Targets",
+    "url": "https://www.globenewswire.com/news-release/2026/09/22/3366249/0/en/envisagenics-and-boehringer-ingelheim-enter-multi-target-collaboration-to-develop-first-in-class-precision-therapies-based-on-rna-splicing-derived-targets-for-hard-to-treat-cancers.html",
+    "source": "GlobeNewswire",
+    "datePublished": "2026-09-22",
+    "dateAdded": "2026-09-23",
+    "categories": [
+      "Sponsor News",
+      "Investor News"
+    ],
+    "tags": [
+      "AI",
+      "Venture Capital",
+      "Sponsor"
+    ],
+    "shortDescription": "Envisagenics, a Red Cell Partners portfolio company, entered a multi-year research collaboration and option agreement with Boehringer Ingelheim to develop precision-oncology therapies from AI-identified RNA-splicing targets, with more than $1B in potential upfront, research, option, milestone and royalty payments.",
+    "whyItMatters": "Red Cell's incubation model gets a serious external validation here, and it's a useful reminder that the venture-studio approach SVDG members see applied to natsec also has to prove out commercially. The headline number is option-contingent, so treat the $1B as a ceiling rather than a check.",
+    "relevanceScore": 78,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 8,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 10
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "sponsorName": "Red Cell Partners",
+    "companyMentions": [
+      "Red Cell Partners",
+      "Envisagenics",
+      "Boehringer Ingelheim"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "Medium",
+    "workstreams": [
+      "Sponsor Engagement",
+      "Capital Formation"
+    ],
+    "sponsorNatSec100Relevance": "Direct",
+    "reactions": {},
+    "createdAt": "2026-09-23T20:39:17.072Z",
+    "updatedAt": "2026-09-23T20:39:17.072Z"
+  },
+  {
+    "id": "bc8e5a1b-26ff-445f-9433-01eaeea9ce3e",
+    "title": "Anduril Expands ALTIUS 600 Production Into Arsenal-1 as Taiwan Orders 2,000+",
+    "url": "https://www.daytondailynews.com/local/anduril-adding-jobs-at-ohio-plant-with-new-attack-drone-production/article_00796525-9e09-526b-95ce-b428b941dd86.html",
+    "source": "Dayton Daily News",
+    "author": "Thomas Gnau",
+    "datePublished": "2026-09-22",
+    "dateAdded": "2026-09-23",
+    "categories": [
+      "Industry News"
+    ],
+    "tags": [
+      "Drones",
+      "Manufacturing",
+      "Industrial Base",
+      "Autonomy"
+    ],
+    "shortDescription": "Anduril is standing up ALTIUS 600 loitering-munition production at Arsenal-1 in Pickaway County, Ohio while keeping its Atlanta line running, driven largely by Taiwan's intent to buy more than 2,000 of the aircraft. ALTIUS joins Fury CCA, Roadrunner and Barracuda on the Arsenal-1 floor.",
+    "whyItMatters": "Arsenal-1 was sold as a flexible, demand-responsive factory, and this is the first real test of that claim — a foreign military sale pulling a new line into the building mid-ramp. Good signal on whether the hyperscale-factory thesis for defense hardware holds up in practice.",
+    "relevanceScore": 89,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 8,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 10
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Anduril Industries"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "Medium",
+    "workstreams": [
+      "NatSec100"
+    ],
+    "sponsorNatSec100Relevance": "Direct",
+    "reactions": {},
+    "createdAt": "2026-09-23T20:39:17.072Z",
+    "updatedAt": "2026-09-23T20:39:17.072Z"
+  },
+  {
+    "id": "0eb80311-a9ee-436c-aef8-d2ac6eb043b0",
+    "title": "Trump Cites 18 Munitions Plants Under Construction, Delegates Defense Production Act Authority to Hegseth",
+    "url": "https://www.executivegov.com/articles/munitions-us-factories-trump-un-defense-production-act-jassm-thaad",
+    "source": "ExecutiveGov",
+    "author": "Pat Host",
+    "datePublished": "2026-09-22",
+    "dateAdded": "2026-09-23",
+    "categories": [
+      "Government News"
+    ],
+    "tags": [
+      "Munitions",
+      "Industrial Base",
+      "Manufacturing",
+      "DoD"
+    ],
+    "shortDescription": "In his UN address, President Trump said 18 munitions plants are under construction, several nearing completion, and invoked the Defense Production Act to let Secretary Hegseth establish voluntary industry agreements. Projects cited include a $635M 155mm facility at Iowa AAP, ACMI Federal's Bloomfield, Indiana munitions campus, and roughly $1B for RDX/HMX production at Blue Grass Army Depot.",
+    "whyItMatters": "Interceptor and munitions stockpiles took a real beating over the past year, and this is the clearest public accounting yet of what the rebuild actually looks like in concrete and steel. Note ACMI Federal in the project list — an SVDG sponsor sitting directly in the middle of the munitions industrial-base buildout.",
+    "relevanceScore": 93,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 8,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 10
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "sponsorName": "American Center for Manufacturing & Innovation (ACMI)",
+    "companyMentions": [
+      "ACMI Federal",
+      "Lockheed Martin",
+      "Anduril Industries",
+      "MSM Group North America"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "Medium",
+    "workstreams": [
+      "Policy",
+      "Sponsor Engagement"
+    ],
+    "sponsorNatSec100Relevance": "Direct",
+    "reactions": {},
+    "createdAt": "2026-09-23T20:39:17.072Z",
+    "updatedAt": "2026-09-23T20:39:17.072Z"
   }
 ]
