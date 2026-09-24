@@ -18156,5 +18156,353 @@
     "reactions": {},
     "createdAt": "2026-09-23T20:39:17.072Z",
     "updatedAt": "2026-09-23T20:39:17.072Z"
+  },
+  {
+    "id": "a077b78f-ec42-4221-963b-fdbc97d3c9d5",
+    "title": "Quantum Sensing Startup Mesa Quantum Raises $11.8M Led by Playground Global",
+    "url": "https://www.tectonicdefense.com/exclusive-quantum-sensing-startup-mesa-quantum-raises-11-8m/",
+    "source": "Tectonic",
+    "datePublished": "2026-09-24",
+    "dateAdded": "2026-09-24",
+    "categories": [
+      "Investor News",
+      "Sponsor News"
+    ],
+    "tags": [
+      "Defense Startup",
+      "Venture Capital",
+      "Dual-Use",
+      "Sponsor",
+      "Drones"
+    ],
+    "shortDescription": "Mesa Quantum raised $11.8M led by SVDG sponsor Playground Global, with DCVC and J2 Ventures joining, bringing total funding to roughly $16M. The company builds chip-scale quantum sensors and atomic clocks for GPS-denied navigation, timing and synchronization, and has already pulled in $5M+ in non-dilutive awards from SpaceWERX and other government agencies.",
+    "whyItMatters": "Alt-PNT is one of the clearest dual-use bets on the board right now, and this one has a sponsor's name on the term sheet. Worth watching whether chip-scale quantum timing actually makes the jump from prototype to something you can put on a drone at volume.",
+    "relevanceScore": 100,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 10
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "sponsorName": "Playground Global",
+    "companyMentions": [
+      "Mesa Quantum",
+      "Playground Global",
+      "DCVC",
+      "J2 Ventures",
+      "SpaceWERX"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Capital Formation",
+      "Sponsor Engagement"
+    ],
+    "sponsorNatSec100Relevance": "Direct",
+    "reactions": {},
+    "createdAt": "2026-09-24T19:10:45.440Z",
+    "updatedAt": "2026-09-24T19:10:45.440Z"
+  },
+  {
+    "id": "04fd1728-3502-44c0-b8c0-e7ddbdca4732",
+    "title": "Inside Defense Tech's Texas Retreat: DIU and Investors on Demand Signals and the Valley of Death",
+    "url": "https://www.tectonicdefense.com/exclusive-inside-defense-techs-texas-retreat/",
+    "source": "Tectonic",
+    "datePublished": "2026-09-24",
+    "dateAdded": "2026-09-24",
+    "categories": [
+      "Industry News",
+      "Opinions"
+    ],
+    "tags": [
+      "DIU",
+      "Industrial Base",
+      "Acquisition Reform",
+      "Venture Capital",
+      "Defense Startup"
+    ],
+    "shortDescription": "Tectonic was the only outlet at Brave Frontier, a private retreat and field demo outside Austin run by Brave Capital and DIU that brought together Pentagon officials, investors and founders. DIU Deputy Director Maj. Gen. Joe Kunkel warned that faulty demand signals lead companies straight into the valley of death, and Shield AI, Hermeus and Hanwha executives walked through what self-funding capacity ahead of contracts actually costs.",
+    "whyItMatters": "This is the clearest on-record articulation we've seen lately of the demand-signal problem SVDG members hit constantly — a DIU deputy director telling founders to go find the people who actually hold money. Useful raw material for Industry Council and policy conversations.",
+    "relevanceScore": 95,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Brave Capital",
+      "DIU",
+      "Shield AI",
+      "Hermeus",
+      "Hanwha",
+      "BAE Systems"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Industry Council",
+      "Policy"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-09-24T19:10:45.440Z",
+    "updatedAt": "2026-09-24T19:10:45.440Z"
+  },
+  {
+    "id": "373a8322-26f6-4a44-9658-2330fb7645c3",
+    "title": "Adyton Rolls Out on the Army's API Marketplace, Plugging Atlas Into Lattice and Maven",
+    "url": "https://www.tectonicdefense.com/exclusive-adyton-rolls-out-on-the-armys-api-marketplace/",
+    "source": "Tectonic",
+    "datePublished": "2026-09-24",
+    "dateAdded": "2026-09-24",
+    "categories": [
+      "Industry News"
+    ],
+    "tags": [
+      "Software",
+      "C2",
+      "Defense Startup",
+      "Autonomy"
+    ],
+    "shortDescription": "Dallas-based Adyton put its Atlas peer-to-peer data fusion and comms platform on the Army's API Marketplace, letting any Army organization pull real-time troop location, inventory and reporting data via an API credential. The rollout follows Atlas's integration with Anduril's Lattice at the Army's Operation Jailbreak hackathon this summer.",
+    "whyItMatters": "A small company getting onto a service-wide API marketplace is a quieter but more durable form of scaling than another contract announcement — it's distribution, not a one-off award. Good template for how DDIL-capable software gets from the squad level up the chain.",
+    "relevanceScore": 76,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Adyton",
+      "Anduril",
+      "Venrock",
+      "Khosla Ventures",
+      "Initialized Capital"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "NatSec100"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-09-24T19:10:45.440Z",
+    "updatedAt": "2026-09-24T19:10:45.440Z"
+  },
+  {
+    "id": "bdbeafad-0e67-49cc-8f3f-c3c2d17d83ed",
+    "title": "Hubble Network Raises $200M Series C at $1.6B Valuation for Satellite Bluetooth Tracking",
+    "url": "https://payloadspace.com/hubble-network-raises-200m-series-c-at-1-6b-valuation/",
+    "source": "Payload",
+    "datePublished": "2026-09-24",
+    "dateAdded": "2026-09-24",
+    "categories": [
+      "Investor News",
+      "Industry News"
+    ],
+    "tags": [
+      "Space",
+      "Venture Capital",
+      "Dual-Use",
+      "Supply Chain"
+    ],
+    "shortDescription": "Smith Point Capital led a $200M Series C for Hubble Network at a $1.6B valuation, with Seraphim, Carthona Capital, Earthshot Ventures, RPM Ventures and Y Combinator participating. Hubble plans to grow from six satellites to 60 by 2029 and moved its space-based Bluetooth asset-tracking service into general availability.",
+    "whyItMatters": "Asset tracking at sub-dollar chip cost is a logistics and supply-chain visibility play with obvious defense applications, and the valuation step-up from a $70M Series B a year ago says the space-connectivity capital market is still wide open.",
+    "relevanceScore": 76,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Hubble Network",
+      "Smith Point Capital",
+      "Seraphim",
+      "Carthona Capital",
+      "Y Combinator"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Capital Formation"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-09-24T19:10:45.440Z",
+    "updatedAt": "2026-09-24T19:10:45.440Z"
+  },
+  {
+    "id": "51ef3e36-2f8b-4db0-9289-459d5b8df3c7",
+    "title": "Exclusive: SpaceX Given Unique Access to Classified DoD Space Tracking Data, Sources Say",
+    "url": "https://breakingdefense.com/2026/09/exclusive-spacex-given-unique-access-to-classified-dod-space-tracking-data-sources-say/",
+    "source": "Breaking Defense",
+    "author": "Theresa Hitchens",
+    "datePublished": "2026-09-23",
+    "dateAdded": "2026-09-24",
+    "categories": [
+      "Government News",
+      "Industry News"
+    ],
+    "tags": [
+      "Space",
+      "DoD",
+      "Intelligence",
+      "Industrial Base"
+    ],
+    "shortDescription": "Sources tell Breaking Defense that SpaceX has been granted access to the government's most closely held space tracking data, an arrangement not extended to other commercial operators.",
+    "whyItMatters": "Preferential access to classified government data is a competitive moat that no amount of venture funding buys. If this is how the department plans to work with commercial space, it's a live issue for every other company trying to get to the same table.",
+    "relevanceScore": 95,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "SpaceX",
+      "Space Force",
+      "Department of Defense"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Policy",
+      "Industry Council"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-09-24T19:10:45.440Z",
+    "updatedAt": "2026-09-24T19:10:45.440Z"
+  },
+  {
+    "id": "2b3b386a-6e4a-4ece-b460-bb18eb1ae16e",
+    "title": "Trump Jr.'s 1789 Capital in Talks to Raise $3B for Second Growth Fund",
+    "url": "https://www.bloomberg.com/news/articles/2026-09-23/trump-jr-s-1789-capital-in-talks-to-raise-3-billion-in-new-funds",
+    "source": "Bloomberg",
+    "datePublished": "2026-09-23",
+    "dateAdded": "2026-09-24",
+    "categories": [
+      "Investor News"
+    ],
+    "tags": [
+      "Venture Capital",
+      "Private Equity",
+      "Defense Startup"
+    ],
+    "shortDescription": "1789 Capital, which counts Donald Trump Jr. as a partner and has invested heavily in defense and rare-earth startups, is in talks to raise roughly $3B for a second growth fund.",
+    "whyItMatters": "A $3B politically-connected growth vehicle aimed at defense and critical materials changes the late-stage capital picture for a lot of companies in our universe. Worth tracking who ends up on the cap table.",
+    "relevanceScore": 76,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "1789 Capital",
+      "Firehawk Aerospace"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Capital Formation"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-09-24T19:10:45.440Z",
+    "updatedAt": "2026-09-24T19:10:45.440Z"
+  },
+  {
+    "id": "b09079c3-7807-419e-bad4-d2432803bccd",
+    "title": "UK Launches First Space Squadron to 'Degrade and Deny' Enemies",
+    "url": "https://breakingdefense.com/2026/09/uk-launches-first-space-squadron-to-degrade-and-deny-enemies/",
+    "source": "Breaking Defense",
+    "author": "Tim Martin",
+    "datePublished": "2026-09-23",
+    "dateAdded": "2026-09-24",
+    "categories": [
+      "International",
+      "Government News"
+    ],
+    "tags": [
+      "Space",
+      "NATO",
+      "Electronic Warfare"
+    ],
+    "shortDescription": "The UK stood up its first dedicated space squadron, with an explicit mission to degrade and deny adversary space capabilities.",
+    "whyItMatters": "Allied counter-space is moving from policy papers to standing units, and that creates a real procurement lane for US and UK companies working space domain awareness and EW. Relevant to anyone thinking about transatlantic market entry.",
+    "relevanceScore": 75,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 0
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "UK",
+    "companyMentions": [
+      "UK Ministry of Defence",
+      "UK Space Command"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "International / Australia",
+      "Policy"
+    ],
+    "sponsorNatSec100Relevance": "None",
+    "reactions": {},
+    "createdAt": "2026-09-24T19:10:45.440Z",
+    "updatedAt": "2026-09-24T19:10:45.440Z"
   }
 ]
