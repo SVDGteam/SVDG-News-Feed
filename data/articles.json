@@ -18504,5 +18504,291 @@
     "reactions": {},
     "createdAt": "2026-09-24T19:10:45.440Z",
     "updatedAt": "2026-09-24T19:10:45.440Z"
+  },
+  {
+    "id": "013a7192-eb12-42ce-a17e-f1d9d6cce612",
+    "title": "Elroy Air Upsizes PIPE to $175M With Lockheed Martin Ventures Participation",
+    "url": "https://www.businesswire.com/news/home/20260924206922/en/Elroy-Air-Announces-Upsizing-of-PIPE-Investments-to-%24175-Million-with-Participation-from-Lockheed-Martin-Ventures",
+    "source": "Business Wire",
+    "datePublished": "2026-09-24",
+    "dateAdded": "2026-09-25",
+    "categories": [
+      "Investor News",
+      "Sponsor News"
+    ],
+    "tags": [
+      "Venture Capital",
+      "Autonomy",
+      "Sponsor",
+      "Defense Startup",
+      "Dual-Use"
+    ],
+    "shortDescription": "Elroy Air increased the PIPE tied to its Inflection Point SPAC combination to $175M, with SVDG sponsor Lockheed Martin Ventures among the existing backers joining the upsized round.",
+    "whyItMatters": "A strategic corporate venture arm doubling down right before a de-SPAC is a useful read on how primes are financing autonomous logistics — and it's a sponsor putting real money behind a NatSec100-type company, not just an MOU.",
+    "relevanceScore": 93,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 8,
+      "workstreamRelevance": 10,
+      "sponsorNatSec100": 10
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "sponsorName": "Lockheed Martin Ventures",
+    "companyMentions": [
+      "Elroy Air",
+      "Lockheed Martin Ventures",
+      "Inflection Point Acquisition Corp"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "Medium",
+    "workstreams": [
+      "Capital Formation",
+      "Sponsor Engagement"
+    ],
+    "sponsorNatSec100Relevance": "Direct",
+    "reactions": {},
+    "createdAt": "2026-09-25T19:19:02.747Z",
+    "updatedAt": "2026-09-25T19:19:02.747Z"
+  },
+  {
+    "id": "7976d877-7394-4af8-a608-12c04d27e173",
+    "title": "Navy Stands Up a Robotic and Autonomous Systems Warfighting Development Center",
+    "url": "https://breakingdefense.com/2026/09/navy-launches-robotics-and-autonomous-systems-warfighting-development-center/",
+    "source": "Breaking Defense",
+    "datePublished": "2026-09-24",
+    "dateAdded": "2026-09-25",
+    "categories": [
+      "Government News"
+    ],
+    "tags": [
+      "Autonomy",
+      "Maritime",
+      "Robotics",
+      "Acquisition Reform",
+      "DoD"
+    ],
+    "shortDescription": "CNO Adm. Daryl Caudle formally established the Robotic and Autonomous Systems Warfighting Development Center (RASWDC) at Joint Expeditionary Base Little Creek-Fort Story in Norfolk, under Rear Adm. Melvin Smith, to consolidate the Navy's air, surface and undersea autonomy efforts.",
+    "whyItMatters": "This is the Navy building the institutional plumbing to actually employ unmanned systems at scale — concepts, training, testing in degraded comms. For companies selling autonomy to the fleet, RASWDC becomes a real door to knock on rather than a pilot-to-nowhere.",
+    "relevanceScore": 91,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 35,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "High",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Policy"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-09-25T19:19:02.747Z",
+    "updatedAt": "2026-09-25T19:19:02.747Z"
+  },
+  {
+    "id": "0ee26477-2845-4d20-9b23-c6fbd9940b6d",
+    "title": "Traysar and Armada Partner to Put Modular Data Centers Underground",
+    "url": "https://www.tectonicdefense.com/traysars-taking-armadas-mini-data-centers-underground/",
+    "source": "Tectonic",
+    "datePublished": "2026-09-25",
+    "dateAdded": "2026-09-25",
+    "categories": [
+      "Industry News"
+    ],
+    "tags": [
+      "Industrial Base",
+      "AI",
+      "Dual-Use",
+      "Defense Startup",
+      "Supply Chain"
+    ],
+    "shortDescription": "Subterranean defense startup Traysar and edge-computing startup Armada announced a partnership to bury Armada's containerized edge data centers using Traysar's truck-mounted Terminus tunnel boring platform, which Traysar expects to be operational within six to eight months.",
+    "whyItMatters": "Strikes and drone attacks on data centers in Iran and Ukraine have made compute a targetable asset, and this is the first concrete answer to that: survivable AI infrastructure as a defense product line. Worth watching as a template for expeditionary critical infrastructure more broadly.",
+    "relevanceScore": 76,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Traysar",
+      "Armada",
+      "Firestorm"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "NatSec100"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-09-25T19:19:02.747Z",
+    "updatedAt": "2026-09-25T19:19:02.747Z"
+  },
+  {
+    "id": "12a1bc9a-34d6-4a9d-846b-4ce1290c1e6d",
+    "title": "GPS-Free Navigation Startup TERN Integrates BAE's NAVGuide M-Code System",
+    "url": "https://www.tectonicdefense.com/exclusive-gps-free-navigation-startup-tern-and-bae-team-up/",
+    "source": "Tectonic",
+    "datePublished": "2026-09-25",
+    "dateAdded": "2026-09-25",
+    "categories": [
+      "Industry News"
+    ],
+    "tags": [
+      "Electronic Warfare",
+      "Autonomy",
+      "Defense Startup",
+      "Dual-Use"
+    ],
+    "shortDescription": "Austin-based TERN integrated BAE Systems' NAVGuide M-code receiver into its GPS-free Independently Derived Positioning System for ground vehicles, its first full demonstrated integration with a prime. TERN won an $11.26M Army contract earlier this month to put IDPS on a range of Army ground vehicles.",
+    "whyItMatters": "A clean example of the startup-prime teaming model actually working: the startup keeps the PNT edge software, the prime brings the encrypted GPS piece, and the Army buys an ecosystem instead of a point solution. Also a reminder that assured PNT is now table stakes in jammed environments.",
+    "relevanceScore": 76,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "TERN",
+      "BAE Systems",
+      "Anduril",
+      "Palantir"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Industry Council"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-09-25T19:19:02.747Z",
+    "updatedAt": "2026-09-25T19:19:02.747Z"
+  },
+  {
+    "id": "49ba1002-d242-4734-b1f3-816c87207bf6",
+    "title": "Rocket Lab CFO Signals More M&A as Iridium Shareholders Approve Buyout",
+    "url": "https://payloadspace.com/rocket-lab-cfo-adam-spice-predicts-more-ma-deals-on-the-horizon/",
+    "source": "Payload",
+    "datePublished": "2026-09-25",
+    "dateAdded": "2026-09-25",
+    "categories": [
+      "Investor News",
+      "Industry News"
+    ],
+    "tags": [
+      "Space",
+      "Private Equity",
+      "Industrial Base"
+    ],
+    "shortDescription": "Iridium shareholders voted 99.6% in favor of Rocket Lab's ~$54-per-share acquisition, with the deal expected to close mid-2027. Speaking at Payload's Off World event, Rocket Lab CFO Adam Spice said more acquisitions are coming and estimated 40-50% of the company's space systems portfolio came from acquired technology.",
+    "whyItMatters": "Rocket Lab is openly running a roll-up strategy to become a one-stop vendor for government customers, and the buy-vs-build math it's using is the same math every defense-adjacent scale-up is doing right now. Good context for anyone thinking about exit paths in space and dual-use hardware.",
+    "relevanceScore": 76,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 5
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "Rocket Lab",
+      "Iridium",
+      "Blue Origin",
+      "SpaceX"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Capital Formation"
+    ],
+    "sponsorNatSec100Relevance": "Ecosystem",
+    "reactions": {},
+    "createdAt": "2026-09-25T19:19:02.747Z",
+    "updatedAt": "2026-09-25T19:19:02.747Z"
+  },
+  {
+    "id": "3a3175bd-82f1-40c1-b5fa-20ceac2674cd",
+    "title": "Punchbowl Tech Quarterly: Congress Chooses AI Inaction as China Export-Control Bills Ride the NDAA",
+    "url": "https://punchbowl.news/?p=168870",
+    "source": "Punchbowl News",
+    "datePublished": "2026-09-24",
+    "dateAdded": "2026-09-25",
+    "categories": [
+      "Government News"
+    ],
+    "tags": [
+      "AI",
+      "Congress",
+      "Export Controls",
+      "NDAA"
+    ],
+    "shortDescription": "Punchbowl's tech quarterly lays out why no federal AI framework will move this year — Obernolte-Trahan stalled without a hearing, Thune-Klobuchar never introduced — while three China-focused export-control bills have been cleared into the Senate's annual defense policy bill and states like California fill the regulatory vacuum.",
+    "whyItMatters": "Two things matter for members here: the export-control provisions riding the NDAA are the real near-term compliance change, and a federal preemption vacuum means a patchwork of state AI rules is the operating environment for dual-use AI companies into 2027.",
+    "relevanceScore": 71,
+    "scoreBreakdown": {
+      "recency": 30,
+      "svdgRelevance": 20,
+      "sourceQuality": 15,
+      "workstreamRelevance": 6,
+      "sponsorNatSec100": 0
+    },
+    "isScoreOverridden": false,
+    "status": "Reviewed",
+    "region": "US",
+    "companyMentions": [
+      "OpenAI",
+      "Anthropic",
+      "Meta"
+    ],
+    "addedBy": "AI Candidate",
+    "isArchived": false,
+    "isFeatured": false,
+    "svdgRelevanceLevel": "Medium",
+    "sourceQualityLevel": "High",
+    "workstreams": [
+      "Policy"
+    ],
+    "sponsorNatSec100Relevance": "None",
+    "reactions": {},
+    "createdAt": "2026-09-25T19:19:02.747Z",
+    "updatedAt": "2026-09-25T19:19:02.747Z"
   }
 ]
